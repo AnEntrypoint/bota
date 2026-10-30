@@ -1,4 +1,4 @@
-# Bota
+# Brainrot of the AI - BotA
 
 Design docs for the 112-hero roster: characters, kits, mechanics, art, tone and spec.
 
