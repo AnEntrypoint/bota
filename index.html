@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bota design docs</title>
+<style>
+body{margin:0;font:16px/1.55 system-ui,sans-serif;display:flex;min-height:100vh;color:#1d1d1f}
+nav{width:280px;flex:none;border-right:1px solid #ddd;padding:16px;overflow:auto;position:sticky;top:0;height:100vh;box-sizing:border-box}
+nav h2{font-size:14px;text-transform:uppercase;color:#666;margin:18px 0 6px}
+nav a{display:block;padding:3px 0;color:#0b57d0;text-decoration:none;font-size:14px}
+nav a.on{font-weight:600}
+main{flex:1;padding:28px 40px;max-width:900px;overflow-x:auto}
+table{border-collapse:collapse;font-size:13px;margin:12px 0}
+td,th{border:1px solid #ddd;padding:4px 8px;vertical-align:top}
+code{background:#f3f3f3;padding:1px 4px;border-radius:3px}
+pre{background:#f6f6f6;padding:12px;overflow:auto}
+@media(max-width:800px){body{flex-direction:column}nav{width:auto;height:auto;position:static;border-right:0}}
+</style>
+</head>
+<body>
+<nav id="nav"><strong>Bota</strong><div id="list"></div></nav>
+<main id="doc">Loading…</main>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script>
+const list = document.getElementById("list");
+const doc = document.getElementById("doc");
+async function build() {
+  const sections = await (await fetch("manifest.json")).json();
+  list.innerHTML = sections.map(s => `<h2>${s.title}</h2>` + s.files.map(f => {
+    const label = f.replace(/^.*\//, "");
+    return `<a href="#${encodeURIComponent(f)}" data-path="${f}">${label}</a>`;
+  }).join("")).join("");
+  route();
+}
+async function show(path) {
+  const r = await fetch(path);
+  if (!r.ok) { doc.textContent = "Not found: " + path; return; }
+  const text = await r.text();
+  const isMd = /\.(md|prd)$/.test(path);
+  doc.innerHTML = isMd ? marked.parse(text) : `<pre>${text.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</pre>`;
+  document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("on", a.dataset.path === path));
+  window.scrollTo(0, 0);
+}
+function route() {
+  const p = decodeURIComponent(location.hash.slice(1)) || "README.md";
+  show(p);
+}
+window.addEventListener("hashchange", route);
+build();
+</script>
+</body>
+</html>
