@@ -2,9 +2,22 @@
 
 Hero slot: 019
 
-## Prompt
+## Card
 
-stylized 3d character, lean defined muscular physique, tight pale skin, braided blonde beard, silver hammer pendant, bare chest, rugged dark utility pants tucked into black combat boots, pointed authoritative index finger, half-full clear plastic water bottle, rhythmic march stance, neutral background
+- Role family: Herald
+- Role: Repost healer, buffer
+- Attribute: Str
+- Range: Melee
+- Distinct prop: Half-full clear water bottle
+- Value groups (body / head / prop): L / D / M
+
+## Subject
+
+lean defined muscular physique, tight pale skin, braided blonde beard, silver hammer pendant, bare chest, rugged dark utility pants tucked into black combat boots, pointed authoritative index finger, half-full clear plastic water bottle, rhythmic march stance
+
+## Hook
+
+Sips from a half-full water bottle to restore allies' mana, and each march step stomps the ground around him.
 
 ## Aesthetic refs
 

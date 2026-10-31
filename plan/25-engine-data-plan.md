@@ -103,7 +103,7 @@ The slice is file 26: six heroes, two modifiers, a fixed draft order, one stage 
 | File | Rows | Compiles to | Note |
 | --- | --- | --- | --- |
 | `manifest.json` | 1 | pack root | modules, image name, tables, rules file |
-| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Tank, initiator, Burst initiator, Waffle, Ghillie |
+| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Reach tank, initiator, Hot-take initiator, Waffle, Ghillie |
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 6 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note and Ring Light (components of Lurker Cam). Rebrand is an action, not an item (section 5). |
 | `modifiers.tsv` | 2 | Lua rule | Challenge and Learn to Code |
@@ -155,7 +155,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
   - Spoiler Tag moved to Tier 1 at 75 gold (file 11).
   - Drain Blade, Grindset and Lite Plan gained roster rows; Drain Blade and Lite Plan gained stats rows (file 11).
   - File 12 now names eight Trend modifiers, with check rows for all eight.
-  - Files 10 and 15 still use short archetype labels ("Late-game carry", "Illusionist, summoner", "Healer, buffer", "Jungler, sustain") while files 09, 14 and 19 use the full names. The TSV `alias` column carries both.
+  - Files 10 and 15 still use short archetype labels ("Late-game Clout carry", "Ghost-account summoner", "Repost healer, buffer", "Offline sustain") while files 09, 14 and 19 use the full names. The TSV `alias` column carries both.
   - Rebrand is an action, not an item (file 05); file 26 matches.
   - `00-index.md` lists files 00 to 26 and its links resolve (checked 2026-10-27).
 - **R12. The source is moving.** During this session files 06, 11, 12 and 14 changed, and files 22, 23, 24 and 26 were added. Generators must find tables by heading and must reject duplicate or missing headings.
@@ -170,7 +170,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 3. **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 4. **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 5. **Rebrand: resolved.** An action (file 05), never an item.
-6. **Trend modifiers: resolved.** Eight, with Algorithm Surge and Doomscroll added (file 12).
+6. **Trend modifiers: resolved.** Eight, with Algorithm Surge and Solo Queue added (file 12).
 7. **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
 8. **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
 9. **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.

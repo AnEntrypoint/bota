@@ -2,9 +2,26 @@
 
 Hero slot: 009
 
-## Prompt
+## Card
 
-stylized 3d female character, neat retro golden bob haircut, serene smile, bright sky-blue sundress with tiny daisy print, white ruffled apron tied neatly at waist, oven mitts holding steaming braided brioche loaf, soft warm domestic lighting, neutral background
+- Role family: Herald
+- Role: Repost healer, buffer
+- Attribute: Int
+- Range: Melee
+- Distinct prop: Braided brioche loaf in oven mitts
+- Value groups (body / head / prop): L / D / M
+
+## Lead
+
+stylized 3d female character
+
+## Subject
+
+neat retro golden bob haircut, serene smile, bright sky-blue sundress with tiny daisy print, white ruffled apron tied neatly at waist, oven mitts holding steaming braided brioche loaf
+
+## Hook
+
+Swats enemies with warm brioche that hurts more the farther they walk, while apron strings speed her attacks.
 
 ## Aesthetic refs
 

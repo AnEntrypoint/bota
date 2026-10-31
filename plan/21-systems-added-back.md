@@ -3,53 +3,53 @@ These systems were left out of the earlier draft. They are part of the game. Eac
 
 ### Talent trees
 
-Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The launch heroes are listed below. Heroes outside the launch set use the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
+Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The launch heroes are listed below by hero name, with the ability names of sections 9 and 10. Heroes outside the launch set use the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Grey | +2 Clout per kill / Quote Post radius +100 | Follower Count cap +5 / Vibes Aura −2 armor | Viral Thread +2 s / Quote Post hits a third time | Go Viral at 80 Clout / Follower Count survives death |
-| Spudgunner | Thread slows +10% / Pinned Reply damage +50 | Attention Span +150 range / Breaking News cooldown −20 s | Thread lasts a second longer / Pinned Reply stacks on reapply | Breaking News marks targets for allies / +1 Clout per second while seen |
-| Tinfoil | Unseen Mention +25% damage / Dark Mode radius +50 | Cold Open cooldown −3 s / Ghost Post +1 s invisible | Unseen Mention refreshes on kill / Dark Mode slows | Ghost Post earns no Clout / LIVE hidden for 10 s after each kill |
-| Boomer | Lead Magnet bounces once / Cold Outreach +30 damage | Stealth Mode +1 s / Tracked Post pays +10 gold | Tracked Post reveals for 4 s / Lead Magnet briefly stuns | Each tracked enemy gets a Spoiler Tag / Cold Outreach resets Stealth Mode |
-| Disaster | Cold Read slows +15% / Off the Record cooldown −4 s | Wall of Text +1 s / Devilish Smirk radius +100 | Cold Read freezes for 0.5 s / Off the Record heals 10% | Devilish Smirk marks the target for 2 s / Enemies silenced for 1 s on cast |
-| Tricky | Citation Needed hits one more target / Hard Correction +1 s | Drain Thread amplifies damage / Corrected targets lose attack speed | Citation Needed slows +20% / Source? +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no mana |
-| Gigachad | Rebuttal +10 damage / Quick Reply cooldown −2 s | Block Button +1 s / Void Post radius +50 | Rebuttal heals 5% / Quick Reply leaves an afterimage for 40 damage | Void Post hits twice / Mana regen doubles above 50 Clout |
-| Noscope | Keyboard Smash +40 damage / Get Well Soon +50 heal | Crit Happens crit chance +5% / Doomscroll adds one hit | Keyboard Smash lifesteal 10% / +1 Clout per ally healed | Doomscroll resets on kill / Allies gain +10% move speed near you |
-| Viking | Viking slows +10% / Hold Still +1 s | Dark Mode Aura +1 mana regen / Load More cooldown −15 s | Viking leaves a puddle / Hold Still deals +50% damage | Load More fires on every second cast / Viking hits Clout heroes for +10% |
-| Hank | Hank adds a line / Flash Feed +0.3 s stun | Hype Meter cap +2 / Viral Clip cooldown −20 s | Hank burns / Flash Feed refreshes Hype Meter | Viral Clip bonus damage to Clout above 50 / Hank ignores armor |
-| Boxxy | Seen Receipt +2 damage over time / Close Friends Only +1 s | Push Healer, buffer +1 bounce / Bad Vibes −2 armor | Seen Receipt spreads on death / Close Friends Only heals 20% | Bad Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
-| Waffle | Public Apology heals +20 / Dismiss cooldown −5 s | Pinned radius +100 / Likes lasts +1 s | Public Apology deals double damage to Clout heroes / Dismiss also removes Stan | Likes shared to all allies in radius / Pinned never expires while an ally stands in it |
-| Tank, initiator | Warning slows +1 s / Appeal shield +50 | Strike radius +50 / Lockdown +0.5 s | Appeal reflects 10% / Warning marks the target for allies | Lockdown stuns on death / 1 Clout per 200 damage absorbed |
-| Airhorn | Gavel Slam +1 stun / Remove cleave +20% | Notice armor +2 / Escalate +5% damage | Remove applies Warning / Gavel Slam resets on kill | Escalate grows +2% per cast / Target earns no Clout for 10 s |
-| Helios | Anonymous Dagger slows +10% / Rephrase cooldown −2 s | Anon Mode +1 s / Final Post crit +50% | Rephrase leaves a decoy / Anonymous Dagger does not reveal you | Final Post kills give double Clout / Name hidden on death recap |
-| Starwarskid | Fresh Account radius +50 / New Account range +100 | Sock Puppet +20 damage / Alt Accounts adds a clone | Fresh Account roots +0.5 s / Clones gain 10% damage | Clones earn half Clout / Starwarskid respawns once as a clone |
-| Burst initiator | Breaking Ground +100 length / Thread Totem +10% attack speed | Follow-Up stun +0.3 s / Echo Chamber adds a target | Breaking Ground stuns 0.5 s / Thread Totem heals allies | Echo Chamber is global / Follow-Up victims revealed for 2 s |
-| Wojak | Yell lasts +1 s / Engagement slows +5% | Clapback reflects 10% / Cancel threshold +5% | Engagement spreads / Yell cooldown −10 s | Cancel grants Clout / Clapback deals +40 damage |
-| Ghillie | Final Warning radius +30 / Locked Thread +0.5 s | Jump range +100 / Temp Ban +1 s | Final Warnings hold 2 charges / Locked Thread reveals a Clout pulse | Temp Ban detonates on death / Final Warnings show as LIVE to enemies for 2 s |
-| Fuckyea | Pulled Into Thread stun +1 s / Stale damage +10 | Stacks cap +5 / Edit channel −0.5 s | Stacks heals / Stale spreads to nearby enemies | Pulled Into Thread pulls a second target / Edit steals 5% of target Clout |
-| Forever | Recycled Content +10% speed / Ghosting +1 s | Scheduled Post +50 damage / Forever stun +0.5 s | Recycled Content returns / Ghosting leaves a copy | Forever repeats once if the target dies / Forever extends for allied Clout |
-| Scammer | Teaser range +100 / Engagement Bait heal +5% | Crit Bait chance +10% / Comeback Arc timer −2 s | Teaser burn +5 / Engagement Bait spreads | Comeback Arc keeps 50% of Clout / Death recap header reads Return confirmed |
-| Prepper | Fresh Air radius +50 / Leave the House cooldown −5 s | Sunlight adds a treant / Go Outside range +200 | Fresh Air roots +0.5 s / Treants heal allies | Go Outside pays Clout / +2% health regen while no enemy sees you |
-| Lifehack | Bark Camouflage +1 s / Leech Feed drains +10% | Wood Shield +50 / Root Network +0.5 s | Leech Feed spreads / Bark Camouflage works while moving | Root Network reflects damage / Allies in trees gain 10% move speed |
+| Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Thread +2 s / Beam Quote hits a third time | Go Viral at 80 Clout / Abduction Count survives death |
+| Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
+| Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / LIVE hidden for 10 s after each kill |
+| Boomer | Pull Cord Toss bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Toss briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
+| Disaster | Smirk Read slows +15% / Fire Fade cooldown −4 s | Fire Wall of Text +1 s / Smolder Drop radius +100 | Smirk Read freezes for 0.5 s / Fire Fade heals 10% | Smolder Drop marks the target for 2 s / Enemies silenced for 1 s on cast |
+| Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no mana |
+| Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Void Post radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Void Post hits twice / Mana regen doubles above 50 Clout |
+| Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
+| Viking | Mead Feast slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Feast leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Feast hits Clout heroes for +10% |
+| Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to Clout above 50 / Machete Scroll ignores armor |
+| Boxxy | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
+| Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to Clout heroes / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
+| Frogger | Flying Cap Warning slows +1 s / Handlebar Appeal shield +50 | Frog Strike radius +50 / Helmet Lockdown +0.5 s | Handlebar Appeal reflects 10% / Flying Cap Warning marks the target for allies | Helmet Lockdown stuns on death / 1 Clout per 200 damage absorbed |
+| Airhorn | Airhorn Blast +1 stun / Canister Remove cleave +20% | Track Jacket Notice armor +2 / Escalating Blare +5% damage | Canister Remove marks the target / Airhorn Blast resets on kill | Escalating Blare grows +2% per cast / Target earns no Clout for 10 s |
+| Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Post crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Post kills give double Clout / Name hidden on death recap |
+| Starwarskid | Golf Pole Root radius +50 / Mid-Spin Clone range +100 | Furrowed Puppet +20 damage / Alt Spin Squad adds a clone | Golf Pole Root roots +0.5 s / Clones gain 10% damage | Clones earn half Clout / Starwarskid respawns once as a clone |
+| Chudjak | Manifesto Slam +100 length / Olive Totem +10% attack speed | Buzzcut Follow stun +0.3 s / Surplus Echo adds a target | Manifesto Slam stuns 0.5 s / Olive Totem heals allies | Surplus Echo is global / Buzzcut Follow victims revealed for 2 s |
+| Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage |
+| Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings show as LIVE to enemies for 2 s |
+| Fuckyea | Noir Hook stun +1 s / Jacket Stale damage +10 | Smug Stacks cap +5 / Pocket Edit channel −0.5 s | Smug Stacks heal / Jacket Stale spreads to nearby enemies | Noir Hook pulls a second target / Pocket Edit steals 5% of target Clout |
+| Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for allied Clout |
+| Scammer | Landline Teaser range +100 / Bluetooth Bait heal +5% | Sales Pitch Bait chance +10% / Cord Coil Arc timer −2 s | Landline Teaser burn +5 / Bluetooth Bait spreads | Cord Coil Arc keeps 50% of Clout / Death recap header reads Return confirmed |
+| Prepper | Gas Mask Air radius +50 / Blast Door Leave cooldown −5 s | Storm Shelter adds a treant / Hazmat Breach range +200 | Gas Mask Air roots +0.5 s / Treants heal allies | Hazmat Breach pays Clout / +2% health regen while no enemy sees you |
+| Lifehack | Glue Gun Camouflage +1 s / Zip Tie Feed drains +10% | Duct Tape Shield +50 / Zip Tie Network +0.5 s | Zip Tie Feed spreads / Glue Gun Camouflage works while moving | Zip Tie Network reflects damage / Allies in trees gain 10% move speed |
 
 ### Talent sets for every hero
 
-Every hero gets the talent set of its archetype below. Launch heroes use the named choices above. Other heroes use these, with their own ability names.
+Every hero gets the talent set of its role family below. Launch heroes use the named choices above. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
 
-| Archetype | Level 10 | Level 15 | Level 20 | Level 25 |
+| Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Clout carry | +2 Clout per kill / Ability radius +100 | Clout cap +5 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Go Viral at 80 Clout / Survive death once |
-| Assassin, vision denial | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
-| Harasser, zoner | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
-| Late-game carry | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Mana regen doubles above 50 Clout |
-| Ranged nuker | Slow +10% / Root +1 s | Mana regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs Clout heroes |
-| Healer, buffer | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
-| Tank, initiator | Slow +1 s / Shield +50 | Radius +50 / Stun +0.5 s | Reflect 10% / Mark for allies | Stun on death / 1 Clout per 200 damage absorbed |
-| Illusionist, summoner | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
-| Burst initiator | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
-| Utility, zone control | Radius +30 / Duration +0.5 s | Range +100 / Duration +1 s | Two charges / Reveals a Clout pulse | Detonates on death / LIVE for 2 s |
-| Tethered support, dueler | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for allied Clout |
-| Jungler, sustain | Radius +50 / Cooldown −5 s | Treant +1 / Range +200 | Root +0.5 s / Treants heal | Clout from Go Outside / Regen +2% unseen |
+| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Clout cap +5 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Go Viral at 80 Clout / Survive death once |
+| Stalker (Assassin, vision denial) | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
+| Heckler (Harasser, zoner) | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
+| Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Mana regen doubles above 50 Clout |
+| Drifter (Ranged nuker) | Slow +10% / Root +1 s | Mana regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs Clout heroes |
+| Herald (Repost healer, buffer) | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
+| Bulwark (Reach tank, initiator) | Slow +1 s / Shield +50 | Radius +50 / Stun +0.5 s | Reflect 10% / Mark for allies | Stun on death / 1 Clout per 200 damage absorbed |
+| Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
+| Firebrand (Hot-take initiator) | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
+| Archivist (Utility, zone control) | Radius +30 / Duration +0.5 s | Range +100 / Duration +1 s | Two charges / Reveals a Clout pulse | Detonates on death / LIVE for 2 s |
+| Tether (Tethered support, duelist) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for allied Clout |
+| Recluse (Offline sustain) | Radius +50 / Cooldown −5 s | Treant +1 / Range +200 | Root +0.5 s / Treants heal | Clout from the ultimate / Regen +2% unseen |
 
 ### Backpack
 
@@ -77,7 +77,7 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 ### Lite Plan
 
 - Cost 1,400 gold. A standalone item, not built from Pro Plan.
-- Adds one second effect to a basic ability on the holder. The effect is set per hero in section 9.
+- Adds one second effect to a basic ability on the holder. The effect per hero is UNVERIFIED; the balance pass sets it.
 - Stacks with Pro Plan.
 
 ### Decoy Posts
@@ -112,12 +112,12 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 
 ### Scalper (roster entry 112)
 
-- **Name:** Scalper. Archetype: Tank, initiator. Attribute: Strength. Range: Melee.
+- **Name:** Scalper. Role family: Archivist. Attribute: Intelligence. Range: Melee.
 - **Gag:** Runs the pit. Has never been to it.
-- **Ability 1, Pit Post:** area trap in 400 radius that roots and damages.
-- **Ability 2, Atrophy Feed:** aura that damages nearby enemies, growing by 10% per second in combat.
-- **Ability 3, Gate Crash:** places a gate at a point. Allies who step through teleport to the other gate.
-- **Ultimate, Hard Fork:** teleports an ally to a point, then damages enemies around the arrival.
+- **Ability 1, Sold Out Snare:** area trap in 400 radius that roots and damages. The 400 radius is UNVERIFIED (section 10 gives no radius).
+- **Ability 2, Markup Drain:** aura that damages nearby enemies, growing by 10% per second in combat, uncapped.
+- **Ability 3, Queue Bypass:** places a gate at a point. Allies who step through teleport to the other gate.
+- **Ultimate, Bulk Buy Drop:** teleports an ally to a point, then damages enemies around the arrival.
 
 ### Signature mechanics
 
@@ -125,23 +125,23 @@ Each of these heroes has one rule that makes its kit read differently on the map
 
 | Hero | Signature mechanic | Clout tie |
 | --- | --- | --- |
-| Tinfoil | Lurk Meter: 8 s unseen charges one free Unseen Mention. | Unseen play |
-| Boomer | Tracked Post marks a target; its LIVE state shows to the whole team as a counter. | Vision |
-| Disaster | Cold Read freezes targets with more Clout than Disaster; others are only slowed. | Clout |
-| Tricky | Source? casts only while one ally on its team is LIVE. | Vision |
-| Gigachad | Rebuttal cuts the target's Reach by 100 for 6 s. | Reach |
+| Tinfoil | Lurk Meter: 8 s unseen charges one free Foil Mention. | Unseen play |
+| Boomer | Tracked Lawn marks a target; its LIVE state shows to the whole team as a counter. | Vision |
+| Disaster | Smirk Read freezes targets with more Clout than Disaster; others are only slowed. | Clout |
+| Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision |
+| Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach |
 | Viking | When a rooted target dies, the root jumps to the nearest Clout hero within 300. | Clout |
-| Hank | Each Hype Meter stack adds Reach +20. | Reach |
-| Boxxy | Seen Receipt shows its team each enemy's last seen position for 10 s. | Vision |
-| Waffle | Public Apology gives a pinged ally Stan radius +100 for 5 s. | Stan |
-| Tank, initiator | A Warning-marked target loses half its Reach. | Reach |
-| Airhorn | Gavel Slam reveals its target to the whole team for 2 s. | Reveal |
-| Helios | Anon Mode hides its Clout on the scoreboard. | Scoreboard |
+| Hank | Each Machete Meter stack adds Reach +20. | Reach |
+| Boxxy | Eyeliner Bleed shows its team each enemy's last seen position for 10 s. | Vision |
+| Waffle | Pillbox Apology gives a pinged ally Stan radius +100 for 5 s. | Stan |
+| Frogger | A Flying Cap Warning-marked target loses half its Reach. | Reach |
+| Airhorn | Airhorn Blast reveals its target to the whole team for 2 s. | Reveal |
+| Helios | Mirror Shade Mode hides its Clout on the scoreboard. | Scoreboard |
 | Starwarskid | Clones inherit Reach but not Clout. | Clout |
-| Burst initiator | Each hard disable it lands gives its team Reach +50 for 10 s. | Reach |
-| Wojak | Yell sets the taunted enemy's Reach to 0 while taunted. | Reach |
-| Ghillie | A hero standing in a Final Warning trap is revealed to its team. | Reveal |
+| Chudjak | Each hard disable it lands gives its team Reach +50 for 10 s. | Reach |
+| Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach |
+| Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal |
 | Fuckyea | A hooked hero loses Reach while hooked. | Reach |
 | Forever | Its stun repeats each time the target goes LIVE again. | Vision |
 | Scammer | On revive, Reach +200 for 10 s. | Reach |
@@ -161,4 +161,3 @@ Numbers change only in the balance pass.
 - Spectators send reactions from the chat wheel (section 18). Each viewer has a 10 s cooldown per reaction.
 - Reactions show to spectators only. They have no effect on play.
 - Ranked matches show no spectator reactions on the player screen.
-

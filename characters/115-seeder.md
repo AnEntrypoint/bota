@@ -2,9 +2,17 @@
 
 Hero slot: reserve
 
-## Prompt
+## Card
 
-stylized 3d character, ragged long naval pirate coat with brass buttons, peg leg made from stacked bare metal hard drive platters, eye patch, lasso made of glowing cyan magnetic web links, proud outlaw swagger, oceanic digital rim light, neutral background
+- Status: reserve. No role family, attribute or prop until promoted (plan/15).
+
+## Subject
+
+ragged long naval pirate coat with brass buttons, peg leg made from stacked bare metal hard drive platters, eye patch, lasso made of glowing cyan magnetic web links, proud outlaw swagger
+
+## Hook
+
+Limps in on a peg leg of hard drive platters, lassoing strangers with a rope made of links.
 
 ## Aesthetic refs
 

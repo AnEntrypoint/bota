@@ -5,18 +5,18 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 
 | Archetype | Role | Early power | Late power | Disable budget | Strong against | Weak against | Hard counter |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Clout carry | Clout carry | Low | High | Low | Tethered support, dueler, Jungler, sustain | Tank, initiator, Healer, buffer | Tank, initiator, Assassin, vision denial |
-| Assassin, vision denial | Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Healer, buffer | Utility, zone control |
-| Harasser, zoner | Harasser, zoner | Medium | Medium | Medium | Healer, buffer | Tank, initiator | Tank, initiator |
-| Late-game carry | Late-game carry | Low | High | Low | Ranged nuker | Burst initiator, Assassin, vision denial | Burst initiator |
-| Ranged nuker | Ranged nuker | High | Medium | Low | Late-game carry | Assassin, vision denial, Tank, initiator | Assassin, vision denial |
-| Healer, buffer | Healer, buffer | Medium | Medium | Medium | Harasser, zoner | Burst initiator, Ranged nuker | Burst initiator |
-| Tank, initiator | Tank, initiator | Medium | Medium | High | Clout carry, Late-game carry, Tethered support, dueler | Illusionist, summoner, Utility, zone control | Illusionist, summoner |
-| Illusionist, summoner | Illusionist, summoner | Medium | High | Low | Tank, initiator | Utility, zone control, Burst initiator | Utility, zone control |
-| Burst initiator | Burst initiator | High | Low | High | Healer, buffer, Jungler, sustain | Tank, initiator | Tank, initiator |
-| Utility, zone control | Utility, zone control | Medium | High | Medium | Assassin, vision denial, Illusionist, summoner | Ranged nuker | Ranged nuker |
-| Tethered support, dueler | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Burst initiator | Burst initiator |
-| Jungler, sustain | Jungler, sustain | Low | High | Low | Burst initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
+| Clout carry | Clout carry | Low | High | Low | Tethered support, dueler, Offline sustain | Reach tank, initiator, Repost healer, buffer | Reach tank, initiator, Assassin, vision denial |
+| Assassin, vision denial | Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Repost healer, buffer | Utility, zone control |
+| Harasser, zoner | Harasser, zoner | Medium | Medium | Medium | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
+| Late-game Clout carry | Late-game Clout carry | Low | High | Low | Ranged nuker | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
+| Ranged nuker | Ranged nuker | High | Medium | Low | Late-game Clout carry | Assassin, vision denial, Reach tank, initiator | Assassin, vision denial |
+| Repost healer, buffer | Repost healer, buffer | Medium | Medium | Medium | Harasser, zoner | Hot-take initiator, Ranged nuker | Hot-take initiator |
+| Reach tank, initiator | Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Ghost-account summoner, Utility, zone control | Ghost-account summoner |
+| Ghost-account summoner | Ghost-account summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
+| Hot-take initiator | Hot-take initiator | High | Low | High | Repost healer, buffer, Offline sustain | Reach tank, initiator | Reach tank, initiator |
+| Utility, zone control | Utility, zone control | Medium | High | Medium | Assassin, vision denial, Ghost-account summoner | Ranged nuker | Ranged nuker |
+| Tethered support, dueler | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
+| Offline sustain | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
 
 ### Fight rules
 

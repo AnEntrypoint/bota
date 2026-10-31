@@ -2,9 +2,17 @@
 
 Hero slot: reserve
 
-## Prompt
+## Card
 
-stylized 3d character, towering muscular biped, tight black compression crewneck tee stretching over broad chest, coiled clear plastic security earpiece, arms crossed impassively over torso, perfectly upright immovable stance, moody blue and purple nightclub rim lighting, neutral background
+- Status: reserve. No role family, attribute or prop until promoted (plan/15).
+
+## Subject
+
+towering muscular biped, tight black compression crewneck tee stretching over broad chest, coiled clear plastic security earpiece, arms crossed impassively over torso, perfectly upright immovable stance
+
+## Hook
+
+Folds his arms at the entrance and stays put, whatever names are on the list.
 
 ## Aesthetic refs
 

@@ -4,12 +4,12 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 
 ## First playable slice
 
-**Goal:** show that Clout, the Late-game carry mood and the Trend modifiers make matches different, and that the rest of the game can be built on top.
+**Goal:** show that Clout, the Late-game Clout carry mood and the Trend modifiers make matches different, and that the rest of the game can be built on top.
 
 | Area | In the slice |
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
-| Heroes | Six: Grey (Clout carry), Tinfoil (Assassin, vision denial), Tank, initiator (Tank, initiator), Burst initiator (Burst initiator), Waffle (Healer, buffer), Ghillie (Utility, zone control). One per archetype group. |
+| Heroes | Six: Grey (Clout carry), Tinfoil (Assassin, vision denial), Reach tank, initiator (Reach tank, initiator), Hot-take initiator (Hot-take initiator), Waffle (Repost healer, buffer), Ghillie (Utility, zone control). One per archetype group. |
 | Clout | Earn, decay, Reach, Go Viral, Ratio on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |

@@ -33,7 +33,7 @@ Each hero can override the base attack time and turn rate. These two values defi
 - Ability points: one per level, plus the ultimate unlock rule.
 - Ultimates unlock at levels 6, 11 and 16. They max at level 3.
 - Standard abilities max at level 4.
-- Level 25 is the final level. There is no stat skill for leftover points.
+- Level 25 is the final level. Leftover points go to Stat Boost (section 21).
 
 ### Respawn
 

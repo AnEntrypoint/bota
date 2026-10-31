@@ -37,7 +37,7 @@ Finished items by tier (built from the components):
 - **Tier 1:** Lurker Cam (Sticky Note + Ring Light), Dust of Receipts (Drafted Note + Sticky Note), Hot Sauce (Hot Sauce Bottle + Drafted Note), Link in Bio Scroll (Envelope + Old Hoodie), Envelope With Legs (Envelope + Sticky Note), Magic Enthusiast (Drafted Note + Hot Sauce Bottle), Spoiler Tag (Sticky Note + Drafted Note).
 - **Tier 2:** Ragequit Dagger, Gem of Subtext, Bottle of Copium, Smoke of Deniability, Grindset, Gas Station Sushi, Lo-Fi Beats, Boots of Scrolling, Anon Mask, Confident Answer, Prompt Injection, Sycophant.
 - **Tier 3:** Participation Trophy, Heart of Brainrot, Sleep Mode, Reply All, Co-Working Space, Rescheduled, Pro Plan, Dunk, Heavenly Feedback, Ghost Mode, Drain Blade, Lite Plan.
-- **Tier 4:** Refresh Page, Rapier Unironic, Dark Mode Shield, Main Character Energy, Sponsored Style, Monetized, Sheep Check.
+- **Tier 4:** Refresh Page, Rapier, Unironic, Dark Mode Shield, Main Character Energy, Sponsored Style, Monetized, Sheep Check.
 
 Cost bands (match the roster costs; the balance pass may move them):
 

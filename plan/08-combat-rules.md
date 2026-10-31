@@ -23,7 +23,7 @@
 
 - Evasion uses pseudo-random distribution, checked on impact.
 - Miss chance (for example, uphill attacks) is separate from evasion.
-- True strike ignores evasion. Sources: specific items and the Burst initiator archetype.
+- True strike ignores evasion. Sources: specific items and the Hot-take initiator archetype.
 
 ### Lifesteal and amplification
 

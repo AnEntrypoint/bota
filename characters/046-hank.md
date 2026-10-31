@@ -2,9 +2,22 @@
 
 Hero slot: 046
 
-## Prompt
+## Card
 
-stylized 3d character, faceless slate-grey biped, crimson circular combat lenses, thick white bandages wrapped around lower face, charcoal combat trenchcoat, fingerless gloves, twin high-carbon machetes, ready low-combat stance, clean action lighting, neutral background
+- Role family: Tether
+- Role: Tethered support, duelist
+- Attribute: Int
+- Range: Melee
+- Distinct prop: Twin high-carbon machetes
+- Value groups (body / head / prop): L / D / M
+
+## Subject
+
+faceless slate-grey biped, crimson circular combat lenses, thick white bandages wrapped around lower face, charcoal combat trenchcoat, fingerless gloves, twin high-carbon machetes, ready low-combat stance
+
+## Hook
+
+Swings twin machetes in a line, stacking speed with each swing, then spends the stacks on a single burst.
 
 ## Aesthetic refs
 

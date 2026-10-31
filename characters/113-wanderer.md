@@ -2,9 +2,17 @@
 
 Hero slot: reserve
 
-## Prompt
+## Card
 
-stylized 3d character, bright yellow sealed hazmat jumpsuit with crinkled folds, dark reflective helmet visor, handheld boxy vintage VHS camcorder with red recording light, cautious exploratory walk cycle, flickering dim yellow fluorescent lighting, neutral background
+- Status: reserve. No role family, attribute or prop until promoted (plan/15).
+
+## Subject
+
+bright yellow sealed hazmat jumpsuit with crinkled folds, dark reflective helmet visor, handheld boxy vintage VHS camcorder with red recording light, cautious exploratory walk cycle
+
+## Hook
+
+Walks through empty yellow corridors in a sealed hazmat suit, filming everything and touching none of it.
 
 ## Aesthetic refs
 

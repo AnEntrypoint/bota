@@ -40,11 +40,11 @@ Rebrand resets a hero to Quiet at 0 Clout.
 
 ### Design rules
 
-- Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach, Go Viral, Stan and the Late-game carry mood.
+- Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach, Go Viral, Stan and the Late-game Clout carry mood.
 - Clout is never shared between teams. The ally tether (section 2) shares a fraction of an ally's Clout, and only with that ally.
 - Clout is shown as one number on the top bar, abbreviated (1.2K) and exact on hover.
 
-### Late-game carry mood
+### Late-game Clout carry mood
 
 Each team has one mood, set by the gap between the two teams' total Clout. Mood changes Reach and minimap reveal only. It is not a stat and never adds damage or armor. Numbers are UNVERIFIED.
 

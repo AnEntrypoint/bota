@@ -2,9 +2,22 @@
 
 Hero slot: 008
 
-## Prompt
+## Card
 
-stylized 3d character, wide earnest smile, bright clear eyes, healthy posture, pastel yellow windbreaker zipped to neck, pristine light-wash denim jeans, spotless white running shoes, warm golden-hour rim illumination, hand-painted stylized textures, neutral background
+- Role family: Herald
+- Role: Repost healer, buffer
+- Attribute: Agi
+- Range: Melee
+- Distinct prop: Pastel windbreaker zip (worn; no held prop)
+- Value groups (body / head / prop): L / D / M
+
+## Subject
+
+wide earnest smile, bright clear eyes, healthy posture, pastel yellow windbreaker zipped to neck, pristine light-wash denim jeans, spotless white running shoes, hand-painted stylized textures
+
+## Hook
+
+Blinds nearby enemies with a wholesome smile, then sends a boar in a pastel windbreaker to charge them.
 
 ## Aesthetic refs
 

@@ -2,9 +2,22 @@
 
 Hero slot: 075
 
-## Prompt
+## Card
 
-stylized 3d character, ultra-saturated yellow and red color palette, blinding red lens-flare beacons blasting from eye sockets, hyper-contrasted fabric folds on red hoodie, running combat pose, harsh blown-out rim lighting, neutral background
+- Role family: Drifter
+- Role: Ranged nuker
+- Attribute: Int
+- Range: Ranged
+- Distinct prop: Lens-flare beams from the eye sockets (no held prop)
+- Value groups (body / head / prop): M / L / D
+
+## Subject
+
+ultra-saturated yellow and red color palette, blinding red lens-flare beacons blasting from eye sockets, hyper-contrasted fabric folds on red hoodie, running combat pose
+
+## Hook
+
+Burrows through the ground with red lens flares blasting from the eyes, leaving blinding waves of repeated damage.
 
 ## Aesthetic refs
 

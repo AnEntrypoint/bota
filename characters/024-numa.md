@@ -2,9 +2,22 @@
 
 Hero slot: 024
 
-## Prompt
+## Card
 
-stylized 3d character, round cheerful face, oversized grey over-ear studio headphones, short-sleeve light-blue casual button-up shirt, seated upper-torso posture with rhythmically pumping bent elbows, joyful head tilt, soft rim lighting, neutral background
+- Role family: Herald
+- Role: Repost healer, buffer
+- Attribute: Agi
+- Range: Ranged
+- Distinct prop: Oversized grey studio headphones
+- Value groups (body / head / prop): L / D / M
+
+## Subject
+
+round cheerful face, oversized grey over-ear studio headphones, short-sleeve light-blue casual button-up shirt, seated upper-torso posture with rhythmically pumping bent elbows, joyful head tilt
+
+## Hook
+
+Swallows a creep whole for health, then keeps the beat going on a silenced target until it dies.
 
 ## Aesthetic refs
 

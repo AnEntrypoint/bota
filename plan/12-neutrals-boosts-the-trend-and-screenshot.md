@@ -5,12 +5,12 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 
 | Creature | Camp type | Notes |
 | --- | --- | --- |
-| NPCs | Small | Repeat one voice line. Mirrors the Morning Feed palette |
+| Background NPCs | Small | Repeat one voice line. Mirrors the Morning Feed palette |
 | Spam | Small | Fast, low HP |
 | Shill | Medium | Casts a slowing aura |
 | Troll-Bridge | Hard | Blocks a bridge crossing until killed |
 | Old Forum Thread | Elder | Long-lived creature, magic-resistant |
-| Hot Mic, Echo Chamber, Thread Sprite, Bio Bot, Viral Golem, Cancel Mob, Ratio Hound | Mixed | Stats by camp type, below |
+| Static Imp, Reverb Wraith, Thread Sprite, Bio Bot, Viral Golem, Cancel Mob, Ratio Hound | Mixed | Stats by camp type, below |
 
 Stacking:
 
@@ -53,14 +53,14 @@ Eight modifiers rotate each patch. Two are offered per kill:
 
 | Modifier | Effect |
 | --- | --- |
-| Challenge | +10% move speed for 3 s after each cast |
+| Cast Rush | +10% move speed for 3 s after each cast |
 | Unboxing | −15% item cooldowns |
 | Learn to Code | +10% XP from all sources, abilities cost 5% more mana |
 | Speedrun | +15% move speed, towers deal +10% damage to you, and your team earns 10% less tower gold |
 | Storytime | Channeled abilities finish 25% faster and cost 15% more mana |
 | Get Ready With Me | Items bought at the Spawn Lounge cost 10% less. Respawn takes 2 s longer. |
 | Algorithm Surge | Clout gain +20%, Clout decay +50% |
-| Doomscroll | +8% ability damage while no ally is within 600, -10% move speed |
+| Solo Queue | +8% ability damage while no ally is within 600, -10% move speed |
 
 The modifier shows on the minimap timer and as a team-colored HUD filter for its duration.
 
@@ -70,14 +70,14 @@ Written before any match exists. Each row names who a modifier favors, where it 
 
 | Modifier | Likely favors | Dominance risk | Answer |
 | --- | --- | --- | --- |
-| Challenge | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
+| Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
 | Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Nothing needed; watch its pick rate |
 | Learn to Code | Low-mana heroes who cast rarely | Medium: the mana cost is small for them | Speedrun |
 | Speedrun | Aggressive early teams | High: tower damage and speed reward an early rush | Slow the rush; the rusher pays the tower tax |
 | Storytime | Channel-heavy heroes (Curl Drain, Silhouette Breath) | Medium | Channel-free kits |
 | Get Ready With Me | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
 | Algorithm Surge | Clout-scaling heroes | Medium: rewards safe Clout farming | Force fights; decay eats the lead |
-| Doomscroll | Assassins and solo laners | High: isolated picks get both bonuses | Group up; the damage bonus turns off |
+| Solo Queue | Assassins and solo laners | High: isolated picks get both bonuses | Group up; the damage bonus turns off |
 
 ### Breaking News (event)
 

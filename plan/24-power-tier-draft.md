@@ -101,7 +101,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. The Was column 
 | 083 | Nerfer | Dropped Connection | Heckler | - | Ult grants stealth and heals; packet self-heal, pounce stun, stat steal. |
 | 084 | Spudgunner | Long-Form Creator | Drifter | FLAG | Talent stacks Pressure Gauge Reply, no cap stated; area slow; long-range ult. |
 | 085 | Laserbro | Haunted Profile | Engine | - | Reflect, moving damage, bonus damage when alone; ult illusions attack. |
-| 086 | Slingshot | Content Cop | Heckler | - | Cease Order teleports and kills; charge-stun; ult charges through enemies. |
+| 086 | Slingshot | Content Cop | Heckler | - | Wrist Brace Order teleports and kills; charge-stun; ult charges through enemies. |
 | 087 | Candler | Storm Chaser | Firebrand | - | Charged explosion, pull, attack damage; ult fast-travel dash. |
 | 088 | Airhorn | Ban Hammer | Heckler | FLAG | Talent grows Escalating Blare per cast, no cap stated; cleave, stun. |
 | 089 | Ghillie | Mods | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
@@ -122,23 +122,23 @@ Names: the characters are the bota/ROSTER.md set, slot = number. The Was column 
 | 104 | Krazed | Mood Board | Firebrand | - | Slow, damage, shield; ult summons familiars that attack. |
 | 105 | Baconlover | Ritual Scheduler | Herald | - | Heal-or-damage word, drain, golem summon; ult links and damages. |
 | 106 | Gothgirl | Doomlooper | Recluse | - | Blink is its escape; bug summons, double attack, ult rewinds target. |
-| 107 | Smugcat | Wind Vlog | Showboat | - | Gust Dash evasion is its escape; rope pull, arrow, focus ult. |
+| 107 | Smugcat | Wind Vlog | Showboat | - | Candlelit Dash evasion is its escape; rope pull, arrow, focus ult. |
 | 108 | Snackvendor | Snow Day | Herald | FLAG | Tournament Curse charms enemies with no stated timer; DoT, slow, heal ally. |
 | 109 | Sealcommando | Vibe Coach | Stalker | - | Bounce, heal aura, curse damage; ult channel strike. |
 | 110 | Scammer | Comeback Tour | Tether | - | Ult revives on death; line burn, lifesteal aura, crit strikes. |
 | 111 | Preacher | Thunder Reply | Heckler | - | Enemy chain, bolt stun, damage aura; ult summons a storm. |
-| 112 | Scalper | Pit Boss | Archivist | FLAG | Atrophy Feed grows in combat, no cap stated; gate and ult teleports. Kit text in section 21 not provided: names pending. |
+| 112 | Scalper | Pit Boss | Archivist | FLAG | Markup Drain grows in combat, no cap stated; Queue Bypass gate and Bulk Buy Drop teleports. |
 
 ## 2. Summary
 
-- Coverage: 24 launch kits (section 9), 87 remaining kits (section 10) and Scalper (Pit Boss, section 21, kit names pending). All 112 matched by slot.
+- Coverage: 24 launch kits (section 9), 88 remaining kits (section 10, Scalper included; its former kit is Pit Boss, section 21). All 112 matched by slot.
 - Flags: 18. Global 3 (Chudjak 028 via talent, Smugjak 029, Disaster 036). Permanent disable 7 (Soyjak 006, Numa 024, Tricky 047, Kazoo 056, Forever 068, Critic 078, Snackvendor 108). Uncapped stacking 8 (Gondola 012, Spurdo 013, NPC 066, Spudgunner 084 via talent, Airhorn 088 via talent, Oiler 093, Edgelord 100, Scalper 112).
 - Tier letters withdrawn; see the status note at the top.
 
 ## 3. Test first
 
 1. Disaster (036): global ult plus fade escape. Measure whether delayed global damage lands and how often it can be dodged.
-2. Scalper (112): Atrophy Feed grows in combat with no cap stated. Measure aura damage over long fights and gate teleport use.
+2. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use.
 3. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills.
 4. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills.
 5. NPC (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage.

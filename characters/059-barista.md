@@ -2,9 +2,22 @@
 
 Hero slot: 059
 
-## Prompt
+## Card
 
-stylized 3d character, neatly waxed handlebar mustache, dark selvedge denim bib apron, rolled chambray sleeves showing intricate tattoo sleeves, earlobe gauge tunnels, stainless steel espresso portafilter handle, confident cafe stance, warm directional rim lighting, neutral background
+- Role family: Herald
+- Role: Repost healer, buffer
+- Attribute: Str
+- Range: Melee
+- Distinct prop: Stainless portafilter handle
+- Value groups (body / head / prop): M / L / D
+
+## Subject
+
+neatly waxed handlebar mustache, dark selvedge denim bib apron, rolled chambray sleeves showing intricate tattoo sleeves, earlobe gauge tunnels, stainless steel espresso portafilter handle, confident cafe stance
+
+## Hook
+
+Twists a portafilter to stun, dims the cafe to cut vision, and terrorizes enemies with tattoo sleeves.
 
 ## Aesthetic refs
 

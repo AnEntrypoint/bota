@@ -2,9 +2,22 @@
 
 Hero slot: 098
 
-## Prompt
+## Card
 
-stylized 3d character, smooth white stylized face, eyes squeezed shut in absolute laughing glee, mouth wide in a massive smooth crescent curve showing teeth, red crewneck sweater, upright welcoming stance, warm rim lighting, neutral background
+- Role family: Showboat
+- Role: Clout carry
+- Attribute: Str
+- Range: Melee
+- Distinct prop: Huge smile (no held prop)
+- Value groups (body / head / prop): M / L / D
+
+## Subject
+
+smooth white stylized face, eyes squeezed shut in absolute laughing glee, mouth wide in a massive smooth crescent curve showing teeth, red crewneck sweater, upright welcoming stance
+
+## Hook
+
+Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along.
 
 ## Aesthetic refs
 
