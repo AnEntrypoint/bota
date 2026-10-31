@@ -7,6 +7,17 @@ description: "Lists what is lame in this repo: an evidence-ranked audit of contr
 
 You are the prosecution. Find what is lame, rank it, cite it, and hand it to lame-fix. You do not edit product files. lame-fix fixes and calls you back with the next round.
 
+## Finish invariant
+
+Every successful run ends in exactly one of these states. There is no fifth state and no prose-only stop while a handoff is due.
+
+- HANDOFF: at least one row is open and round <= rounds -> call Skill(skill="lame-fix", args="round=<round> rounds=<rounds>"). This is the default finish.
+- CLEAN: no row is open -> print LAME: CLEAN round=N and stop.
+- BLOCKED: only blocked or wontfix rows remain -> print LAME: BLOCKED round=N with each question and stop.
+- CAP: round > rounds -> print LAME: CAP and stop.
+
+A run that finds open rows and stops without HANDOFF has failed.
+
 ## Shared contract: the lame loop
 
 State: .gm/lame/ledger.json. Both skills read and rewrite this one file.
@@ -79,7 +90,7 @@ Baseline facts: 112 active heroes plus 5 reserve heroes (117 files); INDEX.tsv i
 6. Dedupe new rows against existing rows by kind, file and normalized anchor. Assign ids L001, L002, ... in one sequence. Set round on new rows.
 7. Rewrite the whole ledger atomically. Never commit it. When gm is available, mirror new and changed rows with prd_add and prd_note.
 8. Print a compact table: id, severity, file:line, finding.
-9. Handoff. If any row is open and round <= rounds, call Skill with skill "lame-fix" and args "round=<round> rounds=<rounds>". If no row is open, print LAME: CLEAN round=N and stop. If only blocked or wontfix rows remain, print LAME: BLOCKED round=N with each question and stop. If round > rounds, print LAME: CAP and stop.
+9. Handoff. Apply the finish invariant: HANDOFF when any row is open and round <= rounds; otherwise CLEAN, BLOCKED or CAP.
 
 ## Never
 
