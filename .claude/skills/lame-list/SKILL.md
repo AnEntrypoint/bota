@@ -40,6 +40,7 @@ State: .gm/lame/ledger.json. Both skills read and rewrite this one file.
 - **Terminal.** Stop when a pass adds no new open row, when only blocked/wontfix rows remain, or when round reaches rounds.
 - **Degradation.** The ledger is plain JSON and works with only Read/Write. If Skill is unavailable, read ../lame-fix/SKILL.md and follow it inline. When gm is available, use codesearch, fs_read, fs_write and git verbs, not shell grep/find.
 - **Publish.** This skill never publishes. lame-fix publishes after verification.
+- **Tracking.** When gm is available, mirror every row to a PRD row with prd_add (id lame-L001, subject, description, acceptance_criteria, witness_plan) and use prd_list to read status; prd_note records a note. The JSON ledger stays the portable source for skill-only agents.
 
 ## What counts as lame
 
@@ -76,7 +77,7 @@ Baseline facts: 112 active heroes plus 5 reserve heroes (117 files); INDEX.tsv i
    - D. Completeness and executability: undefined terms, circular rules, playtests without a pass condition, checks without thresholds, open questions in shipped text.
    - E. Bloat and hygiene: restated rules, explained jokes, duplicate sections, comments in source.
 6. Dedupe new rows against existing rows by kind, file and normalized anchor. Assign ids L001, L002, ... in one sequence. Set round on new rows.
-7. Rewrite the whole ledger atomically. Never commit it.
+7. Rewrite the whole ledger atomically. Never commit it. When gm is available, mirror new and changed rows with prd_add and prd_note.
 8. Print a compact table: id, severity, file:line, finding.
 9. Handoff. If any row is open and round <= rounds, call Skill with skill "lame-fix" and args "round=<round> rounds=<rounds>". If no row is open, print LAME: CLEAN round=N and stop. If only blocked or wontfix rows remain, print LAME: BLOCKED round=N with each question and stop. If round > rounds, print LAME: CAP and stop.
 

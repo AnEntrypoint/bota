@@ -19,6 +19,7 @@ State: .gm/lame/ledger.json. The full contract is in ../lame-list/SKILL.md; the 
 - Round bound: rounds defaults to 3, clamped to 1..5. Fix at round N, then call list at round N+1. Never call list twice in one pass.
 - Terminal: after fixing round N, if N >= rounds, report and stop. If only blocked or wontfix rows remain, report and stop. A pass that fixes nothing and leaves no open row ends the chain.
 - Degradation: plain JSON and only Read/Write are enough. If Skill is unavailable, read ../lame-list/SKILL.md and follow it inline. When gm is available, use fs_read, fs_write, codesearch and the git verbs.
+- Tracking: when gm is available, mirror each row with prd_add (overwrite to rescope) or prd_note, and close a fixed row with prd_resolve and its witness. The JSON ledger stays the portable source when gm is absent.
 
 ## Fix at the source
 
@@ -54,7 +55,7 @@ Repo rules the edit must keep:
    - Confirm touched links and paths exist. Confirm 112 active plus 5 reserve heroes and that INDEX.tsv matches the files.
    - If the edit touched internal/parity-map.md, confirm the map still has no original name in plan/, characters/, README.md or ROSTER.md.
    - If a check cannot run, record witness "unavailable: <reason>"; never mark a row fixed without a witness of some kind.
-7. Update the ledger: fixed with its witness, blocked with its exact question, wontfix with its reason. Rewrite the whole file atomically. Never commit the ledger.
+7. Update the ledger: fixed with its witness, blocked with its exact question, wontfix with its reason. Rewrite the whole file atomically. Never commit the ledger. When gm is available, mirror the same status with prd_add overwrite or prd_note, and close a fixed row with prd_resolve and its witness.
 8. Publish, when publish is true and git is available: add only the product files changed, by explicit path; commit with the author lanmower and no Co-Authored-By, Signed-off-by or generated-with trailer; push main. On a rejected push, fetch, reapply on the new tip, push. If a CI run exists for the pushed sha, read it; a red run becomes a new P0 open row in the ledger, not a success. If git or the remote is unavailable, record publish unavailable in the response and leave the working tree.
 9. Handoff. If round < rounds, call Skill with skill "lame-list" and args "round=<round+1> rounds=<rounds>". If round >= rounds, print LAME: CAP round=N and stop with the counts fixed, blocked, wontfix and publish.
 
