@@ -11,7 +11,7 @@ You are the prosecution. Find what is lame, rank it, cite it, and hand it to lam
 
 Every successful run ends in exactly one of these states. There is no fifth state and no prose-only stop while a handoff is due.
 
-- HANDOFF: at least one row is open and round <= rounds -> call Skill(skill="lame-fix", args="round=<round> rounds=<rounds>"). This is the default finish.
+- HANDOFF: at least one row is open and round <= rounds -> invoke the lame-fix skill with round=<round> rounds=<rounds>. This is the default finish.
 - CLEAN: no row is open -> print LAME: CLEAN round=N and stop.
 - BLOCKED: only blocked or wontfix rows remain -> print LAME: BLOCKED round=N with each question and stop.
 - CAP: round > rounds -> print LAME: CAP and stop.
@@ -49,7 +49,7 @@ State: .gm/lame/ledger.json. Both skills read and rewrite this one file.
 - **Status.** open | fixed | blocked | wontfix | stale.
 - **Round bound.** rounds defaults to 3, clamped to 1..5. One user invocation runs at most that many list/fix pairs. list calls fix at round N; fix calls list at round N+1.
 - **Terminal.** Stop when a pass adds no new open row, when only blocked/wontfix rows remain, or when round reaches rounds.
-- **Degradation.** The ledger is plain JSON and works with only Read/Write. If Skill is unavailable, read ../lame-fix/SKILL.md and follow it inline. When gm is available, use codesearch, fs_read, fs_write and git verbs, not shell grep/find.
+- **Degradation.** The ledger is plain JSON and works with only Read/Write. If the harness has no skill tool, read ../lame-fix/SKILL.md and follow it inline. When gm is available, use codesearch, fs_read, fs_write and git verbs, not shell grep/find.
 - **Publish.** This skill never publishes. lame-fix publishes after verification.
 - **Tracking.** When gm is available, mirror every row to a PRD row with prd_add (id lame-L001, subject, description, acceptance_criteria, witness_plan) and use prd_list to read status; prd_note records a note. The JSON ledger stays the portable source for skill-only agents.
 

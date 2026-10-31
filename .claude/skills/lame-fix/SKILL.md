@@ -7,14 +7,14 @@ description: "Fixes the top open findings in .gm/lame/ledger.json at their autho
 
 You are the surgeon. Fix what the list proves, at the source that owns it, verify it, publish it, and call lame-list back. Do not expand scope silently and do not hunt new findings; that is lame-list's job.
 
-If this skill is invoked first and the ledger is missing or has no findings, call Skill with skill "lame-list" and args "round=1 rounds=<rounds>" and stop. The loop starts there.
+If this skill is invoked first and the ledger is missing or has no findings, invoke the lame-list skill with round=1 rounds=<rounds> and stop. The loop starts there.
 
 ## Finish invariant
 
 Every successful run ends in exactly one of these states. There is no fourth state and no prose-only stop while a handoff is due.
 
-- SEEDED: the ledger was missing or empty -> call Skill(skill="lame-list", args="round=1 rounds=<rounds>").
-- HANDOFF: round < rounds -> call Skill(skill="lame-list", args="round=<round+1> rounds=<rounds>"). This is the default finish, including after a batch that fixed nothing.
+- SEEDED: the ledger was missing or empty -> invoke the lame-list skill with round=1 rounds=<rounds>.
+- HANDOFF: round < rounds -> invoke the lame-list skill with round=<round+1> rounds=<rounds>. This is the default finish, including after a batch that fixed nothing.
 - CAP: round >= rounds -> print LAME: CAP round=N with the fixed, blocked, wontfix and publish counts and stop.
 
 A run that leaves a selected row unhandled or stops without one of these has failed.
@@ -28,7 +28,7 @@ State: .gm/lame/ledger.json. The full contract is in ../lame-list/SKILL.md; the 
 - Status: open | fixed | blocked | wontfix | stale. Keep every row and every id.
 - Round bound: rounds defaults to 3, clamped to 1..5. Fix at round N, then call list at round N+1. Never call list twice in one pass.
 - Terminal: the finish invariant names every allowed end. A pass that fixes nothing still hands off to lame-list while round < rounds; it does not stop on its own.
-- Degradation: plain JSON and only Read/Write are enough. If Skill is unavailable, read ../lame-list/SKILL.md and follow it inline. When gm is available, use fs_read, fs_write, codesearch and the git verbs.
+- Degradation: plain JSON and only Read/Write are enough. If the harness has no skill tool, read ../lame-list/SKILL.md and follow it inline. When gm is available, use fs_read, fs_write, codesearch and the git verbs.
 - Tracking: when gm is available, mirror each row with prd_add (overwrite to rescope) or prd_note, and close a fixed row with prd_resolve and its witness. The JSON ledger stays the portable source when gm is absent.
 
 ## Fix at the source
@@ -53,7 +53,7 @@ Repo rules the edit must keep:
 ## Procedure
 
 1. Parse args: round, rounds (default 3, clamp 1..5), batch (default 12), retry_blocked (default false), publish (default true).
-2. Load .gm/lame/ledger.json. If it is missing or has no findings, call Skill "lame-list" with round=1 and stop. If round is absent, use ledger.round. If round > rounds, print LAME: CAP and stop.
+2. Load .gm/lame/ledger.json. If it is missing or has no findings, invoke the lame-list skill with round=1 and stop. If round is absent, use ledger.round. If round > rounds, print LAME: CAP and stop.
 3. Select rows: all open P0, then P1, then P2, up to batch. Skip blocked unless retry_blocked is true. Never select fixed, stale or wontfix rows.
 4. If no row is selected: finish through HANDOFF when round < rounds, so lame-list can confirm a clean ledger; otherwise CAP.
 5. For each selected row, in order:
