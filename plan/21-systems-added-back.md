@@ -84,7 +84,7 @@ Numbers in this section are UNVERIFIED.
 Numbers in this section are UNVERIFIED.
 
 - Two Safe Spots per team, one at each river crossing next to the team's safe lane. Available from 0:00.
-- Job: map pressure and rotation (plan/02). The cost is the walk to a river crossing, since each spot shares one 45 s cooldown.
+- Job: map pressure and rotation (plan/02), with the heal as sustain (plan/02, Sustain row). The cost is the walk to a river crossing, since each spot shares one 45 s cooldown.
 - Active: heals all allies within 500 radius for 14% of max HP per second, for 5 s.
 - Cooldown 45 s, shared per Safe Spot.
 
@@ -129,7 +129,7 @@ Numbers in this section are UNVERIFIED.
 
 - **Name:** Scalper. Role family: Archivist. Attribute: Intelligence. Range: Melee.
 - **Gag:** Runs the pit. Has never been to it.
-- **Ability 1, Sold Out Snare:** area trap in 400 radius that roots and damages. The 400 radius is UNVERIFIED (section 10 gives no radius).
+- **Ability 1, Sold Out Snare:** area trap in 400 radius that roots and damages. The radius is UNVERIFIED.
 - **Ability 2, Markup Drain:** aura that damages nearby enemies, growing by 10% per second in combat, uncapped.
 - **Ability 3, Queue Bypass:** places a gate at a point. Allies who step through teleport to the other gate.
 - **Ultimate, Bulk Buy Drop:** teleports an ally to a point, then damages enemies around the arrival.

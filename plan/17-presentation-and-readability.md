@@ -1,7 +1,7 @@
 # 17. Presentation and readability
 
 Numbers and thresholds in this chapter are UNVERIFIED.
-Every gameplay signal passes the tests in plan/19 gates 1 and 4.
+Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind test in the Size targets table below.
 
 ### Size targets
 
@@ -11,7 +11,7 @@ Every gameplay signal passes the tests in plan/19 gates 1 and 4.
 | Item icon | 88 × 64 PNG; 176 × 128 master | 44 × 32 | One object, ¾ view, rim light, no text |
 | Status icon | 64 × 64 | 18 px | Single glyph in system color with 2 px dark outline |
 | Minimap hero icon | 32 × 32 (64 master) | 16 px | Head-only caricature reads as a solid silhouette |
-| Hero model | Gameplay zoom, 60 to 90 px tall |  | Silhouette identifies hero and facing, 90% or better in a blind test |
+| Hero model | Gameplay zoom, 60 to 90 px tall |  | Silhouette identifies hero and facing, 90% or better in a blind test of 10 testers (UNVERIFIED) |
 | Value groups |  |  | At least 3 per hero. Head and prop at least 30% luminance delta from body. |
 | UI text contrast |  |  | 4.5:1 or better on HUD panels |
 | Status glyph against health bar |  |  | 3:1 or better |

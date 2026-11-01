@@ -24,6 +24,8 @@ Stacking:
 
 Numbers in this section are UNVERIFIED.
 
+- Job: map pressure and rotation (plan/02, Map pressure row). The cost is the river walk.
+
 Six listed boosts plus the Algorithm Boost (section 21): seven in total. Two spawn spots on the river; they respawn every 2 min.
 
 | Boost | Effect | Duration |

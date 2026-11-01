@@ -42,7 +42,7 @@ Finished items by tier (built from the components):
 - **Tier 3:** Participation Trophy, Heart of Brainrot, Sleep Mode, Reply All, Co-Working Space, Rescheduled, Pro Plan, Dunk, Heavenly Feedback, Ghost Mode, Drain Blade, Lite Plan.
 - **Tier 4:** Refresh Page, Rapier, Unironic, Dark Mode Shield, Main Character Energy, Sponsored Style, Monetized, Sheep Check.
 
-Cost bands (match the roster costs; the balance pass may move them):
+Cost bands (match the Stats and costs table; the balance pass may move them):
 
 | Tier | Cost band (gold) |
 | --- | --- |
@@ -59,7 +59,7 @@ Assembly is discounted. A finished item may cost less than the sum of its compon
 
 Numbers in this section are UNVERIFIED.
 
-Every item holds the job of a classic item. The internal parity map pairs them; it is not part of the plan or the shipped build. Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
+Every item holds the job of a classic item. Its classic job is its row in internal/parity-map.md, which decision 22 keeps out of the plan. Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
 
 | Brainrot item | Function | Flavor |
 | --- | --- | --- |
