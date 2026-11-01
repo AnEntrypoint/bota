@@ -30,7 +30,7 @@
 - Attack lifesteal: items and a few hero abilities.
 - Spell lifesteal: none in v1.
 - Spell amplification: Intelligence (section 7) plus one item.
-- Cooldown reduction: Refresh Page (cooldown reset) and the Unboxing modifier only.
+- Cooldown reduction: Refresh Page (cooldown reset), the Unboxing modifier, and Eternal Thread (10% faster cooldowns). Ability-specific cooldown cuts are not global CDR.
 
 ### Disables
 

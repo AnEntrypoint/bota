@@ -41,10 +41,10 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 
 Run each scenario in the build. Record the result, the time taken and any sign that a rule was unreadable.
 
-1. **Clout comeback.** One team gets 300 Clout ahead for 30 s. Does the Front Runner mood show on the minimap, and does the Underdog catch-up feel fair? Pass: the mood flips and flips back with no flicker inside 30 s.
+1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap, and does the Underdog capture Breaking News zones at double speed? Pass: each mood holds for 30 s, and C4 records zero flips in any 30 s window.
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and the state reads without text.
-3. **Ratio cap.** A hero dies with 200 or more Clout. Pass: no more than 200 Clout moves, and the split goes to the killer and assists.
-4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: the result is logged for the modifier check in section 12.
+3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: exactly 200 Clout moves, and the split goes to the killer and assists.
+4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 stays in the 45 to 55% win-rate band and C2 stays at or below 65% pick rate.
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Viral.** A Viral hero dies. Pass: the CANCELLED stamp shows, and Rebrand swaps it for Rebranded.
@@ -65,6 +65,6 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C7 | Snowball | Matches with a 10,000 gold deficit | Comeback rate | At least 10% |
 | C8 | Rename regression | Win rate before and after a rename | Difference in points | Within 1 point |
 | C9 | Chat mute | Mutes in the first 10 minutes | Share of players | Rotate the phrase pool above 25% |
-| C10 | Breaking News capture rate | Captures per event | Capture rate | Track only; no threshold yet |
+| C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
 
 The Clout-only rule (decision 9 in section 20) is checked by reading the effect text of every Clout effect. It is not a runtime check.

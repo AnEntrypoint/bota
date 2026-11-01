@@ -602,3 +602,123 @@ These URLs cite named creators, brands or franchise characters. They stay intern
 | Rickroll | https://knowyourmeme.com/memes/rickroll |
 | Frogger | https://knowyourmeme.com/memes/crazy-frog |
 | Uber | https://knowyourmeme.com/memes/uber |
+
+
+## Former draft hero names (power tier draft)
+
+These are previous-draft names, not original MOBA names.
+
+| Slot | Hero | Former name |
+| --- | --- | --- |
+| 001 | Neckbeard | Appeals Court |
+| 002 | Chungus | Growth Hacker |
+| 003 | Chad | Old Forum Poster |
+| 004 | Gigachad | Debate Bro |
+| 005 | Wojak | Yell at Clouds |
+| 006 | Soyjak | Bad Night |
+| 007 | Doomer | Rideshare Guy |
+| 008 | Bloomer | Community Manager |
+| 009 | Tradwife | Bleeding Heart |
+| 010 | Boomer | Retargeting |
+| 011 | Coomer | Cold Brew Account |
+| 012 | Gondola | Angry Reply |
+| 013 | Spurdo | Spawn Farm |
+| 014 | Karen | Off-Leash Mod |
+| 015 | Kyle | Unhinged Knight |
+| 016 | Harold | Hall Monitor |
+| 017 | Sanic | Skeleton Account |
+| 018 | Slender | Deadline Bot |
+| 019 | Viking | Frost Feed |
+| 020 | Leeroy | Night Owl |
+| 021 | Boxxy | Read Receipt |
+| 022 | Rickroll | Doomer |
+| 023 | Saxguy | Parental Controls |
+| 024 | Numa | Doom Thread |
+| 025 | Dodson | Dragon Admin |
+| 026 | Sweetbrown | Golden Hour |
+| 027 | Willie | Rock Star |
+| 028 | Chudjak | Hot Take |
+| 029 | Smugjak | Lore Keeper |
+| 030 | Rageguy | Spicy Take |
+| 031 | Cereal | Sweet Talker |
+| 032 | Yao | Conspiracy Theorist |
+| 033 | Steve | Unskippable Ad |
+| 034 | Greg | Drone Footage |
+| 035 | Brian | Burnout |
+| 036 | Disaster | Who Asked |
+| 037 | Attached | Wisp Ghostwriter |
+| 038 | Zyzz | Dual Monitor |
+| 039 | Noscope | Solo Wolf Poster |
+| 040 | Dino | Lighting Director |
+| 041 | Fuuuu | Captain Obvious |
+| 042 | Jeff | Team Lead |
+| 043 | Jack | Lag Spike |
+| 044 | Salad | Tenured Lich |
+| 045 | Weegee | Comment Leech |
+| 046 | Hank | Dragon Scroll |
+| 047 | Tricky | Well Actually |
+| 048 | Peanut | Off-Grid Forester |
+| 049 | Ecce | Moonlight Creator |
+| 050 | Gopnik | Pack Account |
+| 051 | Mallcop | Strong Opinion |
+| 052 | Vapebro | Ghoster |
+| 053 | Starwarskid | Ban Evader |
+| 054 | Tay | Moonlight Fan |
+| 055 | Shoop | Glow-Up |
+| 056 | Kazoo | Sea Siren |
+| 057 | Prepper | Touch Grass |
+| 058 | Trollhunter | Old Thread Revival |
+| 059 | Barista | Night Shift |
+| 060 | Hypebeast | Stealth Spam |
+| 061 | Florida | Dual Management |
+| 062 | Waffle | Mentions |
+| 063 | Tpose | Forecaster |
+| 064 | Zalgo | Hype Engine |
+| 065 | Helios | Anonymous Poster |
+| 066 | NPC | Multi-Accounter |
+| 067 | Derp | Comeback Story |
+| 068 | Forever | Looping Clip |
+| 069 | Fuckyea | Hook Guy |
+| 070 | Challenge | Late Night Poster |
+| 071 | Hipster | Screamer |
+| 072 | Brony | Static Account |
+| 073 | Tinfoil | Lurk Mode |
+| 074 | Flatearth | Plagiarist |
+| 075 | Deepfried | Desert Mod |
+| 076 | Glitch | Shadow Admin |
+| 077 | Grey | Based Fiend |
+| 078 | Critic | Shadow Agent |
+| 079 | Crossfit | Shh |
+| 080 | Acorn | Undead Brand |
+| 081 | Mallarcher | Storm Ad |
+| 082 | Paintballer | Gacha Whale |
+| 083 | Nerfer | Dropped Connection |
+| 084 | Spudgunner | Long-Form Creator |
+| 085 | Laserbro | Haunted Profile |
+| 086 | Slingshot | Content Cop |
+| 087 | Candler | Storm Chaser |
+| 088 | Airhorn | Ban Hammer |
+| 089 | Ghillie | Mods |
+| 090 | Droner | Refined Reply |
+| 091 | Plinker | Hot Mess |
+| 092 | Frogger | Moderator |
+| 093 | Oiler | Lumberjack Take |
+| 094 | Bathwater | Beta Tester |
+| 095 | Driver | Nano Influencer |
+| 096 | Lifehack | Turf Warden |
+| 097 | Uber | Bait Lord |
+| 098 | Widemouth | Ice Cream Truck |
+| 099 | Keyboarder | Unkillable Thread |
+| 100 | Edgelord | Teddy Bear Mode |
+| 101 | Gigaunit | Grudge Holder |
+| 102 | Disheartened | Toxic Positivity |
+| 103 | Pointing | Reviewer Two |
+| 104 | Krazed | Mood Board |
+| 105 | Baconlover | Ritual Scheduler |
+| 106 | Gothgirl | Doomlooper |
+| 107 | Smugcat | Wind Vlog |
+| 108 | Snackvendor | Snow Day |
+| 109 | Sealcommando | Vibe Coach |
+| 110 | Scammer | Comeback Tour |
+| 111 | Preacher | Thunder Reply |
+| 112 | Scalper | Pit Boss |

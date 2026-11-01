@@ -505,12 +505,12 @@ roster:
       - "https://knowyourmeme.com/memes/wojak"
 
   - name: "Pointing"
-    prompt: "stylized 3d character, wide unhinged eyes behind square spectacles, open gaping oval mouth, long slender arm extending an impossibly long index finger pointing directly forward, plain blue t-shirt, soft studio key light, neutral background"
+    prompt: "stylized 3d character, wide unhinged eyes behind square spectacles, open gaping oval mouth, long slender arm extending a yellow yardstick forward like a pointer, plain blue t-shirt, soft studio key light, neutral background"
     aesthetic_refs:
       - "https://knowyourmeme.com/memes/two-soyjaks-pointing"
 
   - name: "Krazed"
-    prompt: "stylized 3d character, red-faced furious expression, distended howling jaw, disheveled brown hair, shredded grey crewneck shirt, shattered remnants of an ivory computer keyboard held high overhead mid-smash, violent downward motion, soft studio key light, neutral background"
+    prompt: "stylized 3d character, red-faced furious expression, distended howling jaw, disheveled brown hair, shredded grey crewneck shirt, cracked beige CRT monitor held high overhead mid-smash, violent downward motion, soft studio key light, neutral background"
     aesthetic_refs:
       - "https://knowyourmeme.com/memes/angry-german-kid-keyboard-crasher"
 

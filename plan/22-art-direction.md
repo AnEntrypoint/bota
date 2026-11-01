@@ -10,7 +10,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 - **Primary value group** is the body value.
 - **Sibling rule.** Within a role family, take the hero's 0-based index k in roster order. Body code is P(k mod 6 + 1). Body value is L, M, D for floor(k/6) = 0, 1, 2. Every prop in a role family is unique. Any two siblings therefore differ in prop silhouette and in at least one of body code or body value, which meets the two-of-three rule in section 15.
 - **Accent shifts** are named steps from the role family accent (section 15). No hex is set here.
-- **Color guards.** Keep off #A35CFF (Showboat violet trim only; the LIVE violet is used for Showboat trim), red (damage only), #2E8BFF and #FF8A1F (team colors), and #3DDC97 (heal). Firebrand ember and Tether rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
+- **Color guards.** Keep #A35CFF and #6A1FD1 off hero trim; use a desaturated violet outside both. Keep red (damage only), #2E8BFF and #FF8A1F (team colors), and #3DDC97 (heal) off hero trim. Firebrand ember and Tether rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
 
 ## 1. Hero table (112)
 
@@ -118,8 +118,8 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 100 | Edgelord (P2) | Stalker | Dual folding steel karambits | Slate, purple | M / L / D |
 | 101 | Gigaunit (P4) | Bulwark | Four stacked puffer jackets (worn) | Grey, frosty blue | M / L / D |
 | 102 | Disheartened (P4) | Recluse | Hands in overcoat pockets (no held prop) | Moss, charcoal | M / L / D |
-| 103 | Pointing (P4) | Heckler | Impossibly long pointing index finger | Mustard, blue | M / L / D |
-| 104 | Krazed (P5) | Firebrand | Shattered ivory keyboard held overhead | Ember, red | M / L / D |
+| 103 | Pointing (P4) | Heckler | Yellow yardstick held like a pointer | Mustard, blue | M / L / D |
+| 104 | Krazed (P5) | Firebrand | Cracked beige CRT monitor held overhead | Ember, red | M / L / D |
 | 105 | Baconlover (P3) | Herald | Cast-iron skillet of sizzling bacon | Soft cyan, warm | M / L / D |
 | 106 | Gothgirl (P5) | Recluse | Cigarette with a rising smoke trail | Moss, black | M / L / D |
 | 107 | Smugcat (P5) | Showboat | White porcelain plate of green salad | Peach, white | M / L / D |

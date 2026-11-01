@@ -132,8 +132,8 @@ Rules for the roster columns:
 | 100 | Edgelord | Stalker | Agi | Melee | Stalks low in a torn trenchcoat, stacking karambit swipes while the spiked choker shrugs off incoming damage. |
 | 101 | Gigaunit | Bulwark | Str | Melee | Launches a puffer jacket at an enemy as a stunning missile, then swaps places with whichever layer is nearest. |
 | 102 | Disheartened | Recluse | Str | Melee | Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova. |
-| 103 | Pointing | Heckler | Str | Ranged | Extends a finger long enough to review a target over time, leaving it taking amplified damage from everyone. |
-| 104 | Krazed | Firebrand | Agi | Melee | Smashes a keyboard overhead for damage, then sends the loose keys off as familiars to keep attacking. |
+| 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |
+| 104 | Krazed | Firebrand | Agi | Melee | Smashes a monitor overhead for damage, then sends the loose pixels off as familiars to keep attacking. |
 | 105 | Baconlover | Herald | Int | Melee | Presents a sizzling skillet that heals allies or burns enemies, and ties targets together with cured links. |
 | 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the cigarette smoke. |
 | 107 | Smugcat | Showboat | Agi | Melee | Squints from behind the salad, ropes a target across the table, and puts an arrow in it. |

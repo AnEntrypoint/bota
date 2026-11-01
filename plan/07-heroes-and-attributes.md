@@ -41,4 +41,4 @@ Heroes respawn at their Spawn Lounge. Respawn time is 5 + 3.8 × level seconds (
 
 ### Hero shape
 
-Every hero is one of three silhouettes: circle (support), square (durable), triangle (aggressive or mobile). Hero archetype, silhouette and shape language are in section 17.
+Every hero uses the role-family shape in section 15. The shape language in section 17 gives the three read categories: circle (support), square (durable), triangle (aggressive or mobile). Hero archetype, silhouette and shape language are in section 17.

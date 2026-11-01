@@ -5,18 +5,30 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 
 | Archetype | Role | Early power | Late power | Disable budget | Strong against | Weak against | Hard counter |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Clout carry | Clout carry | Low | High | Low | Tethered support, dueler, Offline sustain | Reach tank, initiator, Repost healer, buffer | Reach tank, initiator, Assassin, vision denial |
+| Clout carry | Clout carry | Low | High | Low | Offline sustain | Reach tank, initiator, Repost healer, buffer | Reach tank, initiator |
 | Assassin, vision denial | Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Repost healer, buffer | Utility, zone control |
 | Harasser, zoner | Harasser, zoner | Medium | Medium | Medium | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
-| Late-game Clout carry | Late-game Clout carry | Low | High | Low | Ranged nuker | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
+| Late-game Clout carry | Late-game Clout carry | Low | High | Low | None | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
 | Ranged nuker | Ranged nuker | High | Medium | Low | Late-game Clout carry | Assassin, vision denial, Reach tank, initiator | Assassin, vision denial |
-| Repost healer, buffer | Repost healer, buffer | Medium | Medium | Medium | Harasser, zoner | Hot-take initiator, Ranged nuker | Hot-take initiator |
+| Repost healer, buffer | Repost healer, buffer | Medium | Medium | Medium | None | Hot-take initiator, Ranged nuker | Hot-take initiator |
 | Reach tank, initiator | Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Ghost-account summoner, Utility, zone control | Ghost-account summoner |
 | Ghost-account summoner | Ghost-account summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
-| Hot-take initiator | Hot-take initiator | High | Low | High | Repost healer, buffer, Offline sustain | Reach tank, initiator | Reach tank, initiator |
+| Hot-take initiator | Hot-take initiator | High | Low | High | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
 | Utility, zone control | Utility, zone control | Medium | High | Medium | Assassin, vision denial, Ghost-account summoner | Ranged nuker | Ranged nuker |
 | Tethered support, dueler | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
 | Offline sustain | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
+
+### Archetype tiers (UNVERIFIED)
+
+The tier sets the total stat and ability points before the ±10% shift.
+
+| Tier | Stat points | Ability points | Archetypes |
+| --- | --- | --- | --- |
+| 1 | 100 | 24 | Clout carry; Assassin, vision denial; Harasser, zoner; Hot-take initiator |
+| 2 | 90 | 20 | Late-game Clout carry; Ranged nuker; Repost healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
+| 3 | 80 | 16 | Offline sustain |
+
+Allocation: start at the tier total, then shift up to ±10% by attribute and range. The shifted total stays within the tier total. All values are UNVERIFIED.
 
 ### Fight rules
 
@@ -24,7 +36,7 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
 | Hard disable cap | 3 per team in any 10 s window. A fourth is shortened to 0.5 s. |
-| Counter coverage | Every hero has one hard counter and one soft counter, drawn from the table above |
+| Counter coverage | Every hero has at least one hard counter and at least one soft counter, drawn from the table above |
 | Ratio ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
 | Go Viral limit | One Go Viral active per team at a time |
 | Repost cap | Five stacks per target. Stacks from one source do not stack twice. |
@@ -67,3 +79,4 @@ Targets for the first simulated and played matches. These are thresholds to test
 | Sweat Mode boost | Share of teamfights opened within 10 s of pickup | Under 40% |
 | Loaded gags | Players who mute chat in the first 10 minutes | Tracked per patch. Phrase pool rotates when above 25%. |
 | Renamed abilities | Hero win rate before and after the rename pass | Within 1 point. A rename never changes a number. |
+| Breaking News capture rate | Captures per event | At least one per event; no team above 70% of events (UNVERIFIED). |
