@@ -100,7 +100,7 @@ Numbers in this section are UNVERIFIED.
 Two events per match, at 18:00 and 30:00 (UNVERIFIED). A banner slides in using the Trend banner effect, and a 60 s capture zone opens at the river center.
 
 - **Capture:** a team with heroes inside and no enemy hero inside holds the zone. After 20 s held, its heroes get Front Page for 40 s: Reach +100.
-- **Contest:** if both teams have heroes inside, no progress is made.
+- **Contest:** if both teams have heroes inside, progress pauses and keeps its total. The 20 s counts only held time, and a contest never resets it (UNVERIFIED).
 
 Front Page changes Reach only. It does not reveal anyone.
 

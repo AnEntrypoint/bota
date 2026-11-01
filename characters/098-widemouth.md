@@ -8,7 +8,7 @@ Hero slot: 098
 - Role: Clout carry
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Huge smile (no held prop)
+- Distinct prop: Huge smile, a cardboard hand fan held at the chest
 - Value groups (body / head / prop): M / L / D
 
 ## Subject

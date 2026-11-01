@@ -59,8 +59,8 @@ Numbers in this section are UNVERIFIED.
 | --- | --- | --- |
 | Stat sheet | Power budget per hero | Set HP, damage, armor and sigma to the archetype tier |
 | Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% |
-| Matchup test | Win rate for each hard counter pair and each strong or weak pair | Retune any pair outside 45 to 55% |
-| Pick and ban test | Pick rate and ban rate per hero | Retune any hero above 3× the average pick or ban rate |
+| Matchup test | Win rate for each hard counter pair (counter side) and each strong or weak pair | Retune a hard counter pair below 55% or above 65%, and any strong or weak pair outside 45 to 55% (UNVERIFIED) |
+| Pick and ban test | Pick rate and ban rate per hero, over Showrunner Draft matches only (at least 200 matches; UNVERIFIED) | Retune any hero above 3× the average pick or ban rate |
 | Comeback check | Comeback rate after a 10,000 gold deficit | Adjust Markdown and decay if comebacks fall below 10% |
 
 ### QA gates

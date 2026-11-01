@@ -15,7 +15,7 @@ Four rules every system must pass:
 | Classic job | Brainrot system | Decision it creates |
 | --- | --- | --- |
 | Last hitting | Engagement farming: +1 Clout when in enemy hero vision | Farm in fog for gold, or in sight for gold, Clout and risk |
-| Denying | Markdown deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
+| Denying | Deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
 | Vision and wards | Audience: enemy heroes give Clout. Enemy wards reveal, earn nothing. | Warding reveals the enemy at no Clout cost |
 | Creep wave pressure | Stan: allied creeps inside Reach gain damage and armor | Stand with the wave to push, or rotate and lose the buff |
 | Map pressure, rotation | Hype Spike: 20 s spike with global reveal | Spend the spike on a siege, or play around its global reveal |

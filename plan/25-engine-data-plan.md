@@ -171,7 +171,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 - **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
 - **Pack location: resolved.** The slice pack goes in option B's `247420/pack/` folder, which does not exist yet; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
-- **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
+- **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are the tier table in plan/19.
 - **Rebrand: resolved.** An action (file 05), never an item.
 - **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).
 - **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
