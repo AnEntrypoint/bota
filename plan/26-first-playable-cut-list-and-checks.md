@@ -34,7 +34,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Chat Check | None | Section 21 | Vision is covered by wards. |
 | Go Private | None | Section 3 | Building defence is tested later. |
 | Resell chain | Yes, cap 5 stacks | Full rules | It is a core system, so it is included at full cap. |
-| Gags | Death recap, Rebrand record, announcer | All others | Gags are presentation, not balance. |
+| Gags | Death recap, Rebrand record, Hyped-ended marker, announcer | All others | Gags are presentation, not balance. |
 | Seasons | None | Section 21 | Not part of a test. |
 
 ## Playtest scenarios

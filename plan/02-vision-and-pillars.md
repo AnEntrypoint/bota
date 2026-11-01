@@ -29,6 +29,7 @@ Four rules every system must pass:
 | Neutral items | One neutral slot, filled from neutral camps | Fight the camp for its item, or take the gold |
 | Disable duration | Status resistance shortens disables | Build it against disable-heavy teams, or spend the slot on damage |
 | Sustain | Coffee restores HP and sigma over time | Chug it mid-fight, or keep it for the next Trend drop |
+| Escape | Ghost Mode phases through units while moving | Dive without an exit, or keep the phase for the escape |
 | Capture objective | Breaking News zone: a held zone gives its heroes Front Page reach | Contest the zone with heroes, or spend the rotation elsewhere |
 | Surrender | A 4 of 5 vote ends the match after 30 minutes | Vote early to save the match, or hold for a comeback |
 | Draft | The pick order sets the hero pool, the lanes and the items | Pick the hero that fits the lane plan, or deny the pool you need |

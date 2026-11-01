@@ -1,6 +1,6 @@
 # Internal parity map (not shipped, not part of the plan)
 
-Original names for parity work only. The plan and all shipped data use the Brainrot names.
+Original names for parity work only. A key that a shipped file uses is its current Brainrot name; any other key is a cut or renamed name kept for the record.
 
 ## Heroes
 
@@ -579,11 +579,11 @@ Original names for parity work only. The plan and all shipped data use the Brain
 
 ## Other renames
 
-- Scalper = Underlord. Coffee = Cheese. Chat Check = Scan. Screenshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
+- Scalper = Underlord. Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
 - Sources: https://liquipedia.net/dota2/Gold , https://liquipedia.net/dota2/Time_of_Day , https://liquipedia.net/dota2/Observer_and_Sentry_Wards
-- Original Post (base) = Ancient. Back Alley Shop = Secret Shop. Lurker Cam = Observer Ward. Spoiler Tag = Sentry Ward.
+- Exchange (base) = Ancient. Back Alley Shop = Secret Shop. Lurker Cam = Observer Ward. Spoiler Tag = Sentry Ward.
 - Paintballer (Slardar): Whale Splash = Slithereen Crush, Pity Bonk = Bash, Sunk Cost = Amplify Damage, Receipt Haze = Corrosive Haze. Final Warning = Land Mines.
-- Modes: Showrunner Draft = Captains Mode, Open Feed = All Pick, Algorithm Draft = Random Draft, Shuffle Draft = Single Draft, Ranked Open Feed = Ranked All Pick. Safe Spots = Shrines. Decoy Posts = Effigies. Stat Boost = Attribute Bonus. Go Private = Glyph of Fortification.
+- Modes: Showrunner Draft = Captains Mode, Open Market = All Pick, Demand Draft = Random Draft, Shuffle Draft = Single Draft, Ranked Open Market = Ranked All Pick. Safe Spots = Shrines. Decoy Posts = Effigies. Stat Boost = Attribute Bonus. Go Private = Glyph of Fortification.
 
 ## Generic-term renames (round 6)
 - Fountain = Spawn Lounge. Courier = Delivery Drone. Barracks = Content Mills. Rune(s) = Boost(s). Buyback = Rebrand.

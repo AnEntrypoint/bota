@@ -5,7 +5,7 @@ Numbers in this section are UNVERIFIED.
 
 - Six item slots, plus a six-slot stash. Backpack: three slots, see section 21.
 - Consumables stack. Stock-limited items have a restock timer (Lurker Cam, Smoke of Deniability).
-- Sell-back: full refund within 10 s of purchase, 50% after that. The Trend's Snapshot and Coffee (section 21) cannot be sold.
+- Sell-back: full refund within 10 s of purchase, 50% after that. The Trend's Snapshot (section 12) and Coffee (section 21) cannot be sold.
 - Drop-on-death items: Rapier, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
 - Items that take an active use a shared item cooldown per item, not per hero.
 - Delivery Drone: the flying courier that an Envelope item sends to base. Its speed bonus is the Envelope component's.
@@ -93,7 +93,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Dunk | Silence and bonus damage | Silenced. Still right. |
 | Heavenly Feedback | Disarms and slows | Feedback delivered in person. |
 | Magic Enthusiast | Heals and grants magic resistance | Charges from every spell. |
-| Ghost Mode | Phases through units while moving | Not here. Not now. |
+| Ghost Mode | Phases through units while moving | Escape (plan/02, Escape row) |
 | Envelope With Legs | Delivers items to base | Late. Always. |
 | Confident Answer | Attacks reveal the target's last position for 2 s, 20% chance | Delivered with total certainty and no sources. |
 | Prompt Injection | The next ability the target casts hits its nearest ally | Adds one line to the instructions, and the instructions obey. |
@@ -138,7 +138,7 @@ Numbers in this section are UNVERIFIED.
 | Bottle of Copium | 800 | Restores 60 HP and sigma per second for 12 s |
 | Smoke of Deniability | 700 | Group invisibility 6 s, 11 min restock |
 | Grindset | 700 | +3 HP regen, +1 sigma regen |
-| Gas Station Sushi | 750 | Heal 115 over 16 s |
+| Gas Station Sushi | 750 | Heal 115 over 16 s, and 8% lifesteal for 16 s (UNVERIFIED) |
 | Lo-Fi Beats | 650 | +1.5 sigma regen, +1 armor |
 | Boots of Scrolling | 600 | +80 move speed |
 | Anon Mask | 800 | Fade for 5 s on use, 90 s cooldown, +20 damage |

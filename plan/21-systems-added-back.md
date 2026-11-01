@@ -13,7 +13,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | --- | --- | --- | --- | --- |
 | Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Hype Spike at 80 Clout / Abduction Count survives death |
 | Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
-| Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / LIVE hidden for 10 s after each kill |
+| Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / hidden on the minimap for 10 s after each kill (the Smoke signal, plan/13) |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
 | Disaster | Smirk Read slows +15% / Fire Fade cooldown −4 s | Fire Wall of Text +1 s / Smolder Drop radius +100 | Smirk Read freezes for 0.5 s / Fire Fade heals 10% | Smolder Drop marks the target for 2 s / Enemies silenced for 1 s on cast |
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no sigma |
@@ -29,7 +29,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Starwarskid | Golf Pole Root radius +50 / Mid-Spin Clone range +100 | Furrowed Puppet +20 damage / Alt Spin Squad adds a clone | Golf Pole Root roots +0.5 s / Clones gain 10% damage | Clones earn half Clout / Starwarskid respawns once as a clone |
 | Chudjak | Manifesto Slam +100 length / Olive Totem +10% attack speed | Buzzcut Follow stun +0.3 s / Surplus Echo adds a target | Manifesto Slam stuns 0.5 s / Olive Totem heals allies | Surplus Echo is global / Buzzcut Follow victims revealed for 2 s |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage |
-| Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings show as LIVE to enemies for 2 s |
+| Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13) |
 | Fuckyea | Noir Hook stun +1 s / Jacket Stale damage +10 | Smug Stacks cap +5 / Pocket Edit channel −0.5 s | Smug Stacks heal / Jacket Stale spreads to nearby enemies | Noir Hook pulls a second target / Pocket Edit steals 5% of target Clout |
 | Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius |
 | Scammer | Landline Teaser range +100 / Bluetooth Bait heal +5% | Sales Pitch Bait chance +10% / Cord Coil Arc timer −2 s | Landline Teaser burn +5 / Bluetooth Bait spreads | Cord Coil Arc keeps 50% of Clout / Respawn timer −2 s |
@@ -155,7 +155,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Waffle | Pillbox Apology gives a pinged ally Stan radius +100 for 5 s. | Stan |
 | Frogger | A Flying Cap Warning-marked target loses half its Reach. | Reach |
 | Airhorn | Airhorn Blast reveals its target to the whole team for 2 s. | Reveal |
-| Helios | Mirror Shade Mode hides its Clout on the scoreboard. | Scoreboard |
+| Helios | Mirror Shade Mode hides the hero on the minimap for 10 s (the Smoke signal, plan/13); its Clout stays on the scoreboard. | Vision |
 | Starwarskid | Clones inherit Reach but not Clout, unless the level-25 talent is taken. | Clout |
 | Chudjak | Each hard disable it lands gives its team Reach +50 for 10 s. | Reach |
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach |

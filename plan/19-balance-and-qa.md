@@ -18,6 +18,8 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
 | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
 
+Disable budget counts the hard disables (decision 37) that one hero of the archetype lands in any 10 s window: Low 1, Medium 2, High 3 (UNVERIFIED). The fourth disable in a team's 10 s window is shortened to 0.5 s (C6).
+
 Strong against and Weak against are separate claims and need not mirror. The Matchup test (below) checks every named pair.
 
 ### Archetype tiers (UNVERIFIED)
