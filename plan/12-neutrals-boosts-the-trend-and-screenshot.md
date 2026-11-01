@@ -103,4 +103,4 @@ Front Page changes Reach only. It does not reveal anyone.
 
 ### Snapshot
 
-The Snapshot is held by one hero. A hero holding it at the Spawn Lounge can revive once. The revive replays the death as a rewound clip. The Snapshot is the revive reward (Participation Trophy, section 11).
+The Snapshot is held by one hero. A hero holding it at the Spawn Lounge can revive once. The revive replays the death as a rewound clip. The Snapshot is the Trend's revive reward. The bought Participation Trophy (section 11) gives a revive too and sells under the general rule.

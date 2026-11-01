@@ -13,7 +13,7 @@ Numbers in this chapter are UNVERIFIED.
 ### Armor and magic resistance
 
 - Physical damage multiplier: 1 − (0.06 × A) / (1 + 0.06 × |A|), where A is armor. Negative armor amplifies damage.
-- Magic resistance: heroes start at 25%. Each source multiplies. Two sources at 25% each give 1 − 0.75 × 0.75 = 43.75%.75%.
+- Magic resistance: heroes start at 25%. Each source multiplies. Two sources at 25% each give 1 − 0.75 × 0.75 = 43.75%.
 
 ### Attack speed
 

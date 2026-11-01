@@ -130,7 +130,7 @@ Numbers in this section are UNVERIFIED.
 - **Name:** Scalper. Role family: Archivist. Attribute: Intelligence. Range: Melee.
 - **Gag:** Runs the pit. Has never been to it.
 - **Ability 1, Sold Out Snare:** area trap in 400 radius that roots and damages. The radius is UNVERIFIED.
-- **Ability 2, Markup Drain:** aura that damages nearby enemies, growing by 10% per second in combat, uncapped.
+- **Ability 2, Markup Drain:** aura that damages nearby enemies, growing by 10% per second in combat, uncapped (UNVERIFIED).
 - **Ability 3, Queue Bypass:** places a gate at a point. Allies who step through teleport to the other gate.
 - **Ultimate, Bulk Buy Drop:** teleports an ally to a point, then damages enemies around the arrival.
 

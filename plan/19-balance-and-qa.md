@@ -74,7 +74,7 @@ A build passes QA when:
 
 ### New-system checks
 
-Targets for the first simulated and played matches. These are thresholds to test, not results. Runnable versions of the C-checks, with IDs and inputs, are in plan/26 (C1 to C10). The Sweat Mode check is tracked by hand until a build exists; C8 is runnable.
+Targets for the first simulated and played matches. These are thresholds to test, not results. Every number in this section is UNVERIFIED. Runnable versions of the C-checks, with IDs and inputs, are in plan/26 (C1 to C10). The Sweat Mode check is tracked by hand until a build exists; C8 is runnable.
 
 | System | Check | Pass |
 | --- | --- | --- |

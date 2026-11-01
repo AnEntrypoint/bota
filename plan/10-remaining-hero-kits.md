@@ -1,7 +1,7 @@
 # 10. Remaining hero kits
 The 88 characters outside the launch set (section 9), Scalper [112] included. Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass. Each one is checked against its archetype budget (section 19).
 
-Re-theme of the former remaining kits onto the character set (bota/ROSTER.md). Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS). Pit Boss's former kit (section 21, not in this set) maps to Scalper [112]; its names are written in the Scalper row below.
+Re-theme of the former remaining kits onto the character set (bota/ROSTER.md). Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS). The Scalper [112] names are written in the Scalper row below.
 
 Emergent rewrite (GUESS): mechanic text reworked so each effect carries the character's visible trait from bota/characters. Ability names, slot order, the four-ability count and effect kinds are kept. Any changed number is GUESS inline. Every cross-hero hook is GUESS. No new engine kinds or ability slots. Each row has at most one hook, listed under Emergent hooks.
 

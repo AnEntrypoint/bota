@@ -26,11 +26,11 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 10 | A Trending in your lane banner on the favored lane, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Exchange as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Exchange | End screen | Requires a click. Clean stats view is the default. |
 | 12 | The hero's own shadow stretches toward the Clout bar. Reduced opacity. [GUESS] | Bull Run | Activation | Self and allies only. Reduced opacity. |
-| 13 | A kill taken at under 10% HP flashes Fact check pending over the killer's name plate. | Kills | Kill at under 10% HP | 1.5 s, name plate only, once per 2 min. |
-| 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s. |
-| 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash. | Bottle of Copium | Item ends | Portrait only. |
+| 13 | A kill taken at under 10% HP flashes Fact check pending over the killer's name plate. | Kills | Kill at under 10% HP | 1.5 s, name plate only, once per 2 min (UNVERIFIED). |
+| 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
+| 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Bottle of Copium | Item ends | Portrait only. |
 | 16 | A hero who dies to their own ability, item or tower-aggro mistake gets a grey footnote: Self-inflicted. No replies needed. [GUESS] | Death recap | Self-inflicted death | Footnote only. |
-| 17 | The hero who killed you gets a tiny house icon for 2 min, and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
+| 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
 | 20 | A hero who dies while Bullish gets a grey CANCELLED stamp on the scoreboard row. Rebrand swaps it for a Rebranded stamp. [GUESS] | Bull Run, Rebrand | Death while Bullish | Scoreboard only. |
