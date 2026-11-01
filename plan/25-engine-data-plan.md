@@ -33,7 +33,7 @@ Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. 
 
 ### A3. Is there a 6.88g data source, and where (question c)
 
-- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The path the doc gives, `/workspace/oscraft/reference map 6.88g.w3x`, is not present. A listing of `/workspace/oscraft` and `/workspace` shows no such file, and a filename search for "w3x" in the repo returns nothing. Decision 21 keeps this a blocker for section 4.
+- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The path the engine doc gives is not present on this machine. A listing of the engine repo's parent folders shows no such file, and a filename search for "w3x" in the repo returns nothing. Decision 21 keeps this a blocker for section 4.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
 - The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).
@@ -123,16 +123,16 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 | Plan number | Section | Repo value and where it sits | Status |
 | --- | --- | --- | --- |
-| Starting gold 600 | 5, 20 (decision 14) | `scenarios/moba/economy.osd`: `opening_resource_a=625`, commented as recalled, not read from a dump | UNVERIFIED. Plan and repo disagree (600 against 625). Neither is from 6.88g in the repo. |
+| Starting gold 600 | 5, 20 (decision 14) | `scenarios/moba/economy.osd`: `opening_resource_a=875`, provenance cites 6.88g war3map.j (875 with five) | UNVERIFIED. Plan and repo disagree (600 against 875). |
 | Passive income 1 gold per second | 5, 20 | No matching field in `economy.osd` | UNVERIFIED |
-| XP totals at levels 2, 5, 10, 15, 20, 25: 200, 1400, 5400, 11900, 20900, 32400 | 5 | `scenarios/moba/tuning.osd` `xp_curve` has the same six values at the same levels. The file says the 6.88g data holds no experience table and the values were recalled. | UNVERIFIED. Agreement with an unverified value is not evidence. |
+| XP totals at levels 2, 5, 10, 15, 20, 25: 200, 1400, 5400, 11900, 20900, 32400 | 5 | `scenarios/moba/tuning.osd` `xp_curve` has the same six values at the same levels. The values were recalled; their 6.88g source is unverified (the engine AGENTS.md names misc.ini NeedHeroXP). | UNVERIFIED. Agreement with an unverified value is not evidence. |
 | Base HP 200, mana 50, speed 300 and 522, ranges 150 and 500, attack times 1.7 and 1.5, turn 0.6, magic resistance 25% | 7 | The repo has per-hero rows (`heroes_688g.tsv`, `units_heroes.osd`), and `docs/REFERENCE.md` marks the rows it shows as UNVERIFIED. The plan block is a rule, not a row, so there is no row to compare it with. | UNVERIFIED. Needs pairing. |
 | Tower HP 1300, 1600, 1600, 2200; tower gold 160 to 280 | 3, 5 | Tower rows are keyed by role in `units.osd`. The convergence report says role keys do not pair by name. | UNVERIFIED |
 | Item costs (Lurker Cam 65 up to Rapier 6000) | 11 | Item costs in `items.osd` come from the third-party dump, not 6.88g (docs/CONVERGENCE_688G.md, intro) | UNVERIFIED |
 | Trend HP 8000, plus 175 per minute; magic resistance 55% | 12 | The repo has a boss row from 6.88g (section 8 of the convergence report). Pairing needs the map. | UNVERIFIED |
 | Clout, Markdown, Resell, Bull Run, Stan values | 6, 8 | Brainrot originals. A classic archive cannot contain them. | UNVERIFIED by construction |
 | Ability value tiers (damage 80 to 320, cooldowns, mana) | 9 | Repo ability rows are original-game values, all UNVERIFIED in REFERENCE.md | UNVERIFIED |
-| Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md fixes ultimate gates at 6, 12, 18 (SKIL) | Conflict between plan and format, not a 6.88g question. See R4. |
+| Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md line 315 gives ultimates 6, 11, 16 | Agrees with the plan. See R4. |
 
 To make a check possible: (1) have the owner supply the archive, (2) run `convert-688g-map.mjs` with the archive path as an argument, not a machine path, (3) pair locally against the map, (4) write `checked:<path>` into the matching `status` cells. Step 3 cannot run in CI until the map is tracked.
 
@@ -143,7 +143,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 - **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `247420/`, so the map does not ship today.
 - **R2. The plan is tracked but outside the build.** `plan/` and `internal/` are tracked in git; `layout-site.sh` does not copy them. Drift checks can read them in CI, but generated plan tables are never shipped.
 - **R3. Pack wiring is hard-coded.** `stage.sh` line 16, `pages.yml` lines 91 to 92 and `ci.yml` lines 89 to 90 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
-- **R4. Ultimate gates differ.** FORMAT.md line 307 fixes ultimate gates at 6, 12 and 18. Plan sections 7 and 9 say 6, 11 and 16. Resolved by plan/20 decision 15: the plan side is 6, 11 and 16; the FORMAT.md change is engine follow-up and bumps the version.
+- **R4. Ultimate gates agree.** FORMAT.md line 315 gives 6.88g ultimates 6, 11 and 16, the same as plan sections 7 and 9.
 - **R5. Time units do not divide evenly.** Ticks run at 16 per second (REFERENCE.md line 5), and FORMAT.md requires durations as integer ticks. The plan's 3.8 s per level gives 60.8 ticks. Resolved in section 2: ticks round to the nearest integer, so 3.8 s is 61 ticks.
 - **R6. Clout, Reach, Stan, Markdown, Resell and global Trend modifiers have no data slot.** ITEM_STATS is fixed at 38 entries (FORMAT.md line 298), and plan decision 9 says Clout is never a stat, so these are Lua hooks. AXTN modifiers (8 per ability, FORMAT.md line 328) cannot express a global modifier. Each hook runs under a 2,500-step budget (docs/MODDING.md line 47), which constrains per-tick Reach recalculation.
 - **R7. Filter bits are capped.** FNAM allows at most 15 bits (FORMAT.md line 376). Twelve archetype filters plus role filters can exhaust that. Keep archetype as a data column and use filter bits only for targeting.
@@ -166,7 +166,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 ### Open questions
 
 1. **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-2. **Starting gold: open.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 625 (table above).
+2. **Starting gold: open.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 875 (table above).
 3. **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 4. **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 5. **Rebrand: resolved.** An action (file 05), never an item.
@@ -174,8 +174,3 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 7. **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
 8. **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
 9. **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.
-
-## Method and limits
-
-- Searches used gm `codesearch` (literal and filename modes), `fs_readdir`, `fs_read` and `exec_js` for counting plan tables. The 2026-10-27 revision ran `git status` and `git rev-list` only; no repo file outside `247420/` was edited.
-- Gm search problems encountered are listed in the report to the caller, not here.

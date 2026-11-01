@@ -13,7 +13,7 @@
 | 8 | Every ability in sections 9 and 10 has a Brainrot name. Original hero, ability and item names live only in internal/parity-map.md and in this decision record; decision 22 keeps them out of shipped text. | Original names stay out of shipped text |
 | 9 | Clout drives Reach, reveal and mood only, never a stat. Late-game Clout carry mood, Breaking News, stage camps and signature mechanics keep to that rule. | Keeps the one-currency rule from section 6 |
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). Creep, lane, jungle and tower stay generic usage. | Uniqueness |
-| 11 | Every new number is UNVERIFIED until a playable build exists. | Matches the balance rule in /workspace/oscraft/AGENTS.md |
+| 11 | Every new number is UNVERIFIED until a playable build exists. | Matches the balance rule in the engine repo AGENTS.md |
 | 12 | Demand Boost changes from cooldown and mana cuts to Reach +100. | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |
@@ -23,7 +23,7 @@
 | 18 | Drain Blade: 1,600 gold, 12% attack lifesteal for 6 s after a hit. UNVERIFIED. | Its tier 3 entry had no row |
 | 19 | The formerly tag reads "formerly Guest" and shows only on the death recap or victory screen. No client storage. | Removes an invented name pool and new client state |
 | 20 | Power tier letters are withdrawn until a playable build exists. The flag list and the test-first list stay. | Tier A held 64 of 112 heroes, so the letters measure nothing |
-| 21 | No classic number is checked against 6.88g until the archive is available. Each stays UNVERIFIED. | Matches the rule in /workspace/oscraft/AGENTS.md |
+| 21 | No classic number is checked against 6.88g until the archive is available. Each stays UNVERIFIED. | Matches the rule in the engine repo AGENTS.md |
 | 22 | The parity map stays internal: tracked in git, never copied into plan/, the site or a pack. | Keeps original names out of shipped text |
 | 23 | The engine build is not started in this round. The first-playable slice (plan/26) is the next task, and it starts once the repo is synced (the local checkout and origin/main matched on 2026-10-27). | A build needs the repo state fixed first |
 | 24 | Plan distances are game units: 1 game unit is 125/8 milli-units. | Removes the last unit ambiguity for the data generator |
@@ -40,7 +40,7 @@
 | 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | The leader had no choice, only an icon it could not avoid. |
 | 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point. |
 | 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition. |
-| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap, value UNVERIFIED. | Five reflects need the same rule. |
+| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, Lamp Reflect, Reply All, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap, value UNVERIFIED. | Eight reflects need the same rule. |
 
 ### Open questions
 

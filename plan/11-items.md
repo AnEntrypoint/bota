@@ -106,7 +106,7 @@ Design notes:
 
 - Anon Mask is an invisibility item. It is not a blink, and the name matches the function.
 - Pro Plan is the one ultimate upgrade per hero. It is the one hero-wide upgrade, and is named for what it does.
-- Attack modifiers stack additively: percent bonuses add together, then flat bonuses add (UNVERIFIED).
+- Orb effects do not stack (plan/20 decision 3). Other attack modifiers stack additively: percent bonuses add together, then flat bonuses add (UNVERIFIED).
 
 ### Stats and costs
 

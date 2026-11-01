@@ -157,4 +157,4 @@ Heroes without an entry carry no hook.
 ### Requests
 
 - A cross-hero stack channel is requested in the Requests list of plan/09.
-- A passive that reflects damage to an attacker with a per-hit cap (decision 38): Rolling Back, Receipt Reflect, Sad Clapback and Chunky Shell use it, as do the Handlebar Appeal and Bulwark Reflect 10% talents in plan/21.
+- A passive that reflects damage to an attacker with a per-hit cap (decision 38): Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell and Lamp Reflect use it, as do Reply All (plan/11) and the Handlebar Appeal and Bulwark Reflect 10% talents in plan/21.
