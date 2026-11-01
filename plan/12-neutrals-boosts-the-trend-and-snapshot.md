@@ -12,7 +12,7 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 | Shill | Medium | Casts a slowing aura |
 | Troll-Bridge | Hard | Blocks a bridge crossing until killed |
 | Old Forum Ticker | Elder | Long-lived creature, magic-resistant |
-| Static Imp, Reverb Wraith, Ticker Sprite, Bio Bot, Hyped Golem, Cancel Mob, Markdown Hound | Mixed | Stats by camp type, below |
+| Static Imp, Reverb Wraith, Ticker Sprite, Bio Bot, Hyped Golem, Cancel Mob, Markdown Hound | Mixed | Camp stat budgets under Stacking |
 
 Stacking:
 

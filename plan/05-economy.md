@@ -11,7 +11,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 | Passive income | 1 gold per second | Gold each second alive. Unreliable. |
 | Lane creep last hit | Melee 38-48, ranged 43-53, siege 66-80 | Unreliable. Wave composition in section 3 (UNVERIFIED) |
 | Hero kill | 110 + streak bounty + level × 9.9 | Reliable |
-| Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. Shared across heroes in range. Reliable. |
+| Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. Shared across heroes within 1,200 game units (UNVERIFIED). Reliable. |
 | Streak bounty | 60 at a kill streak of one, rising in equal steps to 480 at ten, rounded to whole gold (UNVERIFIED) | Reliable. Ends on death |
 | Tower | Team gold per tier (about 160, 200, 240, 280) | Reliable. Denied tower = 50%. |
 | Lurker Cam kill | 100 gold, 25 XP | Reliable. Enemy ward, section 13 |
@@ -35,7 +35,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 ### Experience
 
-Hero kill XP is indexed by the killing hero's level: 100, 120, 140, 160, 180 for levels 1 to 5, then 100 more per level above 5 (UNVERIFIED). Shared among heroes in range. Denied lane creeps give 50% of their XP to the enemy team. Neutral-denied creeps give 35%.
+Hero kill XP is indexed by the killing hero's level: 100, 120, 140, 160, 180 for levels 1 to 5, then 100 more per level above 5 (UNVERIFIED). Shared among heroes within 1,200 game units (UNVERIFIED). Denied lane creeps give 50% of their XP to the enemy team. Neutral-denied creeps give 35%.
 
 Total XP at checkpoint levels (cumulative, UNVERIFIED):
 

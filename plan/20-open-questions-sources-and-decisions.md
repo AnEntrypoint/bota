@@ -13,7 +13,7 @@
 | 8 | Every ability in sections 9 and 10 has a Brainrot name. Original hero, ability and item names live only in internal/parity-map.md; decision 22 keeps them out of shipped text. | Original names stay out of shipped text |
 | 9 | Clout drives Reach, reveal and mood only, never a stat. Late-game Clout carry mood, Breaking News, stage camps and signature mechanics keep to that rule. | Keeps the one-currency rule from section 6 |
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). Creep, lane, jungle and tower stay generic usage. | Uniqueness |
-| 11 | Every new number is UNVERIFIED until a playable build exists. | Keeps new numbers from passing as checked values |
+| 11 | A new number with a source is UNVERIFIED until a playable build exists. A new number with no source is GUESS with its reason (decision 42). | Keeps new numbers from passing as checked values |
 | 12 | Demand Boost changes from cooldown and sigma cuts to Reach +100. | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |

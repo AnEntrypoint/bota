@@ -24,7 +24,7 @@ Numbers in this table are UNVERIFIED.
 
 | Rule | Value |
 | --- | --- |
-| Reach radius | 300 + 3 × Clout, capped at 600 |
+| Reach radius | 300 + 3 × Clout, capped at 600 for the Clout term; Hype Spike and talent Reach add after the cap, so the maximum is 800 (UNVERIFIED) |
 | Stan | Allied creeps inside Reach: +20% damage, +2 armor |
 | Hype Spike threshold | 100 Clout, unless a talent sets its own (plan/21) |
 | Hype Spike duration | 20 s |

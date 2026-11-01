@@ -1,6 +1,6 @@
 # 22. Art direction
 
-Visual direction for the 112 heroes (roster 001 to 112, characters from bota/characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from section 17 of the earlier plan. Launch abilities, items and Trend costumes from the earlier doc are not carried over; their kits belonged to the old roster.
+Visual direction for the 112 heroes (roster 001 to 112, characters from bota/characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
 
 ## Rules used in every table
 

@@ -114,4 +114,4 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 ### Totals (launch)
 
-Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 25 screens and about 700 strings. Audio, non-voice 103. No music in the game. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.
+Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 35 screen and element units, including 24 loading dioramas, and about 700 strings. Audio, non-voice 103. No music in the game. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.

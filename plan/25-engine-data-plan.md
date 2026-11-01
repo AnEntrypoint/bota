@@ -69,7 +69,7 @@ Extra tables that the plan also has: wards (13) map to `items.tsv` rows. Lines (
 
 ## 2. Single source of truth and generation direction
 
-**Canonical data.** One TSV per table, UTF-8, LF, header row, stable id column. The canonical files are `scenarios/brainrot/data/*.tsv`, which the pack ships, so they hold Brainrot names only. Headers, as an illustration:
+**Canonical data.** One TSV per table, UTF-8, LF, header row, stable id column. The canonical files will be `scenarios/brainrot/data/*.tsv` once the pack moves there (R3); until then they sit in the option B pack folder, so they hold Brainrot names only. Headers, as an illustration:
 
 ```
 heroes.tsv     hero_id slug name archetype_id attr range launch status

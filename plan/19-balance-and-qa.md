@@ -18,6 +18,8 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
 | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
 
+Strong against and Weak against are separate claims and need not mirror. The Matchup test (below) checks every named pair.
+
 ### Archetype tiers (UNVERIFIED)
 
 The tier sets the total stat points and the ability power budget before the ±10% shift. Ability power is spent in ranks: a hero spends at most 15 ranks (plan/07), and each tier value is the ranks it may spend (UNVERIFIED).
@@ -57,7 +59,7 @@ Numbers in this section are UNVERIFIED.
 | --- | --- | --- |
 | Stat sheet | Power budget per hero | Set HP, damage, armor and sigma to the archetype tier |
 | Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% |
-| Matchup test | Win rate for each hard counter pair | Retune any pair outside 45 to 55% |
+| Matchup test | Win rate for each hard counter pair and each strong or weak pair | Retune any pair outside 45 to 55% |
 | Pick and ban test | Pick rate and ban rate per hero | Retune any hero above 3× the average pick or ban rate |
 | Comeback check | Comeback rate after a 10,000 gold deficit | Adjust Markdown and decay if comebacks fall below 10% |
 

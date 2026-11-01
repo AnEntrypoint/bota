@@ -30,7 +30,7 @@ Ten bans and ten picks, alternating by team. The order (final order):
 Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 
 - Two lanes per side (top and bottom). Mid lane and its tower and Content Mill rows are removed.
-- The Trend opens at 5:00 and respawns in 4 to 6 min.
+- The Trend opens at 5:00 and respawns in 4 to 6 min (a Short Form override of plan/12's 8 to 11 min, UNVERIFIED).
 - Exchange is invulnerable until both T2s on a lane fall, not both T4s.
 - The XP a hero gains is multiplied by 1.5; the XP needed per level is unchanged (UNVERIFIED).
 - Clout gain, Reach, Stan and the Resell chain work as in the full game.
