@@ -58,7 +58,7 @@ Eight modifiers rotate each patch. Two are offered per kill:
 | Modifier | Effect |
 | --- | --- |
 | Cast Rush | +10% move speed for 3 s after each cast |
-| Unboxing | −15% item cooldowns |
+| Unboxing | −15% item cooldowns, items cost 10% more gold |
 | Learn to Code | +10% XP from all sources, abilities cost 5% more mana |
 | Speedrun | +15% move speed, towers deal +10% damage to you, and your team earns 10% less tower gold |
 | Storytime | Channeled abilities finish 25% faster and cost 15% more mana |
@@ -75,7 +75,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Modifier | Likely favors | Dominance risk | Answer |
 | --- | --- | --- | --- |
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
-| Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Nothing needed; C2 flags it if its pick rate passes 65% |
+| Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; C2 flags it if its pick rate passes 65% |
 | Learn to Code | Low-mana heroes who cast rarely | Medium: the mana cost is small for them | Speedrun |
 | Speedrun | Aggressive early teams | High: tower damage and speed reward an early rush | Slow the rush; the rusher pays the tower tax |
 | Storytime | Channel-heavy heroes (Curl Drain, Silhouette Breath) | Medium | Channel-free kits |
@@ -84,6 +84,8 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Solo Queue | Assassins and solo laners | High: isolated picks get both bonuses | Group up; the damage bonus turns off |
 
 ### Breaking News (event)
+
+- Job: capture objective (plan/02, Capture objective row). The cost is the contest, which stops progress while both teams have heroes inside.
 
 Two events per match, at 18:00 and 30:00 (UNVERIFIED). A banner slides in using the Trend banner effect, and a 60 s capture zone opens at the river center.
 

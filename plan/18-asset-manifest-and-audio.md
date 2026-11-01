@@ -38,7 +38,7 @@ Clout status icons: Reach (concentric arcs), Stan (raised sign), Go Viral (spike
 | Active and consumable VFX | 30 | Particle. On-use pop 0.3 s or less. |
 | Shop NPC, The Plug | 1, with 6 animations | Hero-grade |
 
-Item icon style: one object, ¾ top-down view, three value groups, warm key light top left, cool rim light, 2 px dark outline, no text. Consumables sit on a circular plinth. Actives carry a violet edge glow. Passives do not.
+Item icon style: one object, ¾ top-down view, three value groups, warm key light top left, cool rim light, 2 px dark outline, no text. Consumables sit on a circular plinth. Actives carry a grey edge glow. Passives do not.
 
 ### Neutrals, objectives, map
 

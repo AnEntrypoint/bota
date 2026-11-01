@@ -8,6 +8,7 @@ Numbers in this section are UNVERIFIED.
 - Sell-back: full refund within 10 s of purchase, 50% after that. Screenshot and Gamer Fuel cannot be sold.
 - Drop-on-death items: Rapier, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
 - Items that take an active use a shared item cooldown per item, not per hero.
+- Delivery Drone: the flying courier that an Envelope item sends to base. Its speed bonus is the Envelope component's.
 
 ### Shop
 

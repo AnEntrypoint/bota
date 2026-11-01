@@ -43,4 +43,4 @@ Heroes respawn at their Spawn Lounge. Respawn time is in section 5. Heroes spawn
 
 ### Hero shape
 
-Every hero uses the role-family shape in section 15. The shape language in section 17 gives the three read categories: circle (support), square (durable), triangle (aggressive or mobile). Hero archetype, silhouette and shape language are in section 17.
+Every hero uses the role-family shape in section 15. The shape language in section 17 gives the three read categories: circle (support), square (durable), triangle (aggressive or mobile). A family shape outside the three reads as its nearest category: a rectangle as square, a diagonal as triangle. Hero archetype, silhouette and shape language are in section 17.

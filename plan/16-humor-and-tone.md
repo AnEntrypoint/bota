@@ -16,7 +16,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 |---|---|---|---|---|
 | 01 | Two outer panels slide together like Willie's ship bell swinging, revealing the first Trend modifier. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
-| 03 | Each Repost adds a via tag to the chain. By the fifth link the original is too small to read. [GUESS] | Repost | Chain of 3 or more | Spectator and hover only |
+| 03 | Each Repost adds a via tag to the chain. By the fifth link the original is too small to read, but its tag stays legible. [GUESS] | Repost | Chain of 3 or more | Spectator and hover only |
 | 04 | Header: Your post was ratioed, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Ratio | Death | Standard damage table first. |
 | 05 | Hero name followed by a small grey formerly tag, like Acorn's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. | Go Private | Activation | Cosmetic. The padlock is the read. |
@@ -33,10 +33,10 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 17 | The hero who killed you gets a tiny house icon for 2 min, and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row gets a small steam puff over the portrait. | Deaths | Third death in a row | Portrait only. |
-| 20 | A hero who dies while Viral gets a grey Viral-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Go Viral, Rebrand | Death while Viral | Scoreboard only. |
+| 20 | A hero who dies while Viral gets a grey CANCELLED stamp on the scoreboard row. Rebrand swaps it for a Rebranded stamp. [GUESS] | Go Viral, Rebrand | Death while Viral | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge | Cosmetic. Never in a fight. |
 | 22 | At 100 Clout the Clout bar shows the Go Viral threshold. [GUESS] | Go Viral | At 100 Clout | Self and allies only. |
-| 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the portrait. Portrait only. | Ratio on death | Death with 200+ Clout | Portrait only. |
+| 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the name plate for 10 s (UNVERIFIED). Name plate only, never the LIVE dot. | Ratio on death | Death with 200+ Clout | Name plate, 10 s. |
 
 ### Announcer lines
 
