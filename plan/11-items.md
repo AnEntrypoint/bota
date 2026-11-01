@@ -59,7 +59,7 @@ Assembly is discounted. A finished item may cost less than the sum of its compon
 
 Numbers in this section are UNVERIFIED.
 
-Every item holds the job of a classic item. Its classic job is its row in internal/parity-map.md, which decision 22 keeps out of the plan. Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
+Every item holds the job of a classic item. Its classic job is its row in internal/parity-map.md; the balance pass checks each item's Mapped job there (decision 32). Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
 
 | Brainrot item | Function | Flavor |
 | --- | --- | --- |

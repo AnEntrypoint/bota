@@ -44,7 +44,7 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Clout cap +5 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Go Viral at 80 Clout / Survive death once |
+| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Reach +25 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Go Viral at 80 Clout / Survive death once |
 | Stalker (Assassin, vision denial) | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
 | Heckler (Harasser, zoner) | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
 | Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Mana regen doubles below 50% mana |
