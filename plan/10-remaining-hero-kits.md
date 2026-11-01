@@ -131,7 +131,7 @@ Heroes without an entry carry no hook.
 - Gopnik [050] with Boxxy [021]: Newsboy Chat boost hits Sweater Slip protected ally (GUESS).
 - Mallcop [051] with Frogger [092]: Scooter Shock lines up Frog Strike landings (GUESS).
 - Vapebro [052] with Tinfoil [073]: Petrified units take Crumple Ghost strikes (GUESS).
-- Shoop [055] with Kazoo [056]: Eye Copycat targets Clutched Head Mark (GUESS).
+- Shoop [055] with Kazoo [056]: Eye Copycat targets Kazoo Lullaby (GUESS).
 - Trollhunter [058] with Grey [077]: Auction Verdict kill pays Abduction Count (GUESS).
 - Barista [059] with Tinfoil [073]: Dim Cafe Lights dimmed units are Foil Mention targets (GUESS).
 - Hypebeast [060] with Tricky [047]: Box Spike lands on Hockey Correction sheep (GUESS).
@@ -150,8 +150,8 @@ Heroes without an entry carry no hook.
 - Edgelord [100] with Noscope [039]: Karambit Frenzy pays Bolt Action Chain (GUESS).
 - Gigaunit [101] with Starwarskid [053]: Layer Swap lands on Mid-Spin Clone position (GUESS).
 - Disheartened [102] with Forever [068]: Pocket Sting is Lumpy Wail (GUESS).
-- Baconlover [105] with Lifehack [096]: Cured Links link to Clasped Hands (GUESS).
-- Smugcat [107] with Chudjak [028]: Sly Shot marks Knife Follow Up dash (GUESS).
+- Baconlover [105] with Lifehack [096]: Cured Links link to Duct Tape Shield (GUESS).
+- Smugcat [107] with Chudjak [028]: Sly Shot marks Buzzcut Follow targets (GUESS).
 - Sealcommando [109] with Preacher [111]: Suppressed Curse is Bible Bolt stun (GUESS).
 
 ### Requests

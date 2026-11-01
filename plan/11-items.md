@@ -18,7 +18,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Component tree
 
-Twelve components. Tier 1 and Tier 2 components combine into finished items. Tier 3 and Tier 4 finished items combine finished items with components. Recipes for every finished item are in data/items.tsv (plan/25).
+Twelve components. Tier 1 and Tier 2 components combine into finished items. Tier 3 and Tier 4 finished items combine finished items with components. Recipes are listed under each tier; Tier 2 to 4 recipes are GUESS (no 6.88g or repo source; components chosen by flavor).
 
 | Component | Tier | Effect |
 | --- | --- | --- |
@@ -38,9 +38,9 @@ Twelve components. Tier 1 and Tier 2 components combine into finished items. Tie
 Finished items by tier (built from the components):
 
 - **Tier 1:** Lurker Cam (Sticky Note + Ring Light), Dust of Receipts (Drafted Note + Sticky Note), Hot Sauce (Hot Sauce Bottle + Drafted Note), Link in Bio Scroll (Envelope + Old Hoodie), Envelope With Legs (Envelope + Sticky Note), Magic Enthusiast (Drafted Note + Hot Sauce Bottle), Spoiler Tag (Sticky Note + Drafted Note).
-- **Tier 2:** Ragequit Dagger, Gem of Subtext, Bottle of Copium, Smoke of Deniability, Grindset, Gas Station Sushi, Lo-Fi Beats, Boots of Scrolling, Anon Mask, Confident Answer, Prompt Injection, Sycophant.
-- **Tier 3:** Participation Trophy, Heart of Brainrot, Sleep Mode, Reply All, Co-Working Space, Rescheduled, Pro Plan, Dunk, Heavenly Feedback, Ghost Mode, Drain Blade, Lite Plan.
-- **Tier 4:** Refresh Page, Rapier, Unironic, Dark Mode Shield, Main Character Energy, Sponsored Style, Monetized, Sheep Check.
+- **Tier 2:** Ragequit Dagger (Cheap Dagger + Burner Phone), Gem of Subtext (Drafted Note + Rubber Duck), Bottle of Copium (Hot Sauce Bottle + Cold Brew), Smoke of Deniability (Burner Phone + Old Hoodie), Grindset (Cold Brew + Charger), Gas Station Sushi (Hot Sauce Bottle + Envelope), Lo-Fi Beats (Charger + Rubber Duck), Boots of Scrolling (Old Hoodie + Tripod), Anon Mask (Ring Light + Burner Phone), Confident Answer (Drafted Note + Ring Light), Prompt Injection (Rubber Duck + Sticky Note), Sycophant (Ring Light + Envelope).
+- **Tier 3:** Participation Trophy (Gem of Subtext + Tripod), Heart of Brainrot (Grindset + Old Hoodie), Sleep Mode (Smoke of Deniability + Charger), Reply All (Prompt Injection + Sticky Note), Co-Working Space (Boots of Scrolling + Tripod), Rescheduled (Gas Station Sushi + Cold Brew), Pro Plan (Lo-Fi Beats + Burner Phone), Dunk (Ragequit Dagger + Rubber Duck), Heavenly Feedback (Sycophant + Ring Light), Ghost Mode (Anon Mask + Old Hoodie), Drain Blade (Confident Answer + Cheap Dagger), Lite Plan (Bottle of Copium + Charger).
+- **Tier 4:** Refresh Page (Reply All + Cold Brew), Rapier, Unironic (Drain Blade + Ragequit Dagger), Dark Mode Shield (Ghost Mode + Old Hoodie), Main Character Energy (Heavenly Feedback + Ring Light), Sponsored Style (Co-Working Space + Ring Light), Monetized (Participation Trophy + Sticky Note), Sheep Check (Sleep Mode + Tripod).
 
 Cost bands (match the Stats and costs table; the balance pass may move them):
 

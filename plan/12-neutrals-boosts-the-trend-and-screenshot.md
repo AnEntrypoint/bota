@@ -18,8 +18,7 @@ Stacking:
 
 - A camp respawns on the minute if its spawn box is empty.
 - Pulling a camp out at about :53 to :55 stacks an extra camp for the next minute.
-- Pulling a camp into the lane resets the lane's creep equilibrium.
-- Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising one step per tier (UNVERIFIED; section 19 budgets cover heroes, not neutrals).
+- Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising 20 per tier (GUESS: 6.88g gives no step; the balance pass sets it; section 19 budgets cover heroes, not neutrals).
 - Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.
 - Stage camps: the camps beside the river's shallow crossings. A pull made while an enemy hero can see the camp gives +1 Clout per creature killed. Unwatched pulls give normal gold only.
 
@@ -90,7 +89,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Storytime | Channel-heavy heroes (Curl Drain, Silhouette Breath) | Medium | Channel-free kits |
 | Get Ready With Me | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
 | Demand Tide | Clout-scaling heroes | Medium: rewards safe Clout farming | Force fights; decay eats the lead |
-| Solo Queue | Assassins and solo laners | High: isolated picks get both bonuses | Group up; the damage bonus turns off |
+| Solo Queue | Assassins and solo laners | High: isolated picks get the damage bonus and a move speed penalty | Group up; the damage bonus turns off |
 
 ### Breaking News (event)
 

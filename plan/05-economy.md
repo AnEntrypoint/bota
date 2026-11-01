@@ -12,7 +12,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 | Lane creep last hit | Melee 38-48, ranged 43-53, siege 66-80 | Unreliable. Wave composition in section 3 (UNVERIFIED) |
 | Hero kill | 110 + streak bounty + level × 9.9 | Reliable |
 | Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. Shared across heroes in range. |
-| Streak bounty | 60 up to 480 at a kill streak of ten (UNVERIFIED) | Ends on death |
+| Streak bounty | 60 at a kill streak of one, rising in equal steps to 480 at ten, rounded to whole gold (UNVERIFIED) | Ends on death |
 | Tower | Team gold per tier (about 160, 200, 240, 280) | Denied tower = 50%. |
 | Lurker Cam kill | 100 gold, 25 XP | Enemy ward, section 13 |
 

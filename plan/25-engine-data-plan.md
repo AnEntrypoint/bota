@@ -80,7 +80,7 @@ items.tsv      item_id slug name kind tier cost components stats active stock re
 **Generated outputs, one direction only.**
 
 1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs`. The `tools/` folder is excluded from Pages by `layout-site.sh` line 26.
-2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers, because the no-comments rule in AGENTS.md ('No comments in source') applies to comments in files.
+2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
 3. A drift check: the tool regenerates everything and fails if the tree differs. This copies the determinism check already in `tests.yml`.
 
 Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing flows back. Before the first generation the plan markdown is the source, so the first TSV is produced once from it and reviewed. After that cutover, a number is typed only in the TSV.
@@ -131,7 +131,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 | Item costs (Lurker Cam 65 up to Rapier 6000) | 11 | Item costs in `items.osd` come from the third-party dump, not 6.88g (docs/CONVERGENCE_688G.md, intro) | UNVERIFIED |
 | Trend HP 8000, plus 175 per minute; magic resistance 55% | 12 | The repo has a boss row from 6.88g (section 8 of the convergence report). Pairing needs the map. | UNVERIFIED |
 | Clout, Markdown, Resell, Bull Run, Stan values | 6, 8 | Brainrot originals. A classic archive cannot contain them. | UNVERIFIED by construction |
-| Ability value tiers (damage 80 to 320, cooldowns, mana) | 9 | Repo ability rows are original-game values, all UNVERIFIED in REFERENCE.md | UNVERIFIED |
+| Ability value tiers (damage 80 to 320, cooldowns, mana) | 9 | Repo ability rows are original-game values, all UNVERIFIED | UNVERIFIED |
 | Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md line 315 gives ultimates 6, 11, 16 | Agrees with the plan. See R4. |
 
 To make a check possible: (1) have the owner supply the archive, (2) run `convert-688g-map.mjs` with the archive path as an argument, not a machine path, (3) pair locally against the map, (4) write `checked:<path>` into the matching `status` cells. Step 3 cannot run in CI until the map is tracked.
@@ -165,12 +165,15 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 ### Open questions
 
-1. **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-2. **Starting gold: open.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 875 (table above).
-3. **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
-4. **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
-5. **Rebrand: resolved.** An action (file 05), never an item.
-6. **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).
-7. **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
-8. **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
-9. **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.
+1. **Starting gold: open.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 875 (table above).
+
+### Resolved (moved from open questions)
+
+- **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
+- **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
+- **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
+- **Rebrand: resolved.** An action (file 05), never an item.
+- **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).
+- **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
+- **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
+- **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.
