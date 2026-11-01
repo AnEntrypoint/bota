@@ -90,7 +90,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Lite Plan
 
-- Cost 1,400 gold. A standalone item, not built from Pro Plan.
+- Cost: plan/11 Stats and costs. A standalone item, not built from Pro Plan.
 - Adds one second effect to a basic ability on the holder. The effect per hero is UNVERIFIED; the balance pass sets it.
 - Stacks with Pro Plan.
 
