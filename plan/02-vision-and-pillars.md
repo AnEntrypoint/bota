@@ -1,7 +1,7 @@
 # 2. Vision and pillars
 6.88 Brainrot is a caricature MOBA. Every hero, item and creep is drawn to be read at a glance, and rewards a second look. The game runs on a classic MOBA decision set. The jokes ride on top of it.
 
-The AI theme is satire of the feed, not of a real product. The AI items (section 11) carry it.
+The AI theme is satire of the market, not of a real product. The AI items (section 11) carry it.
 
 Four rules every system must pass:
 
@@ -13,14 +13,14 @@ Four rules every system must pass:
 | Classic job | Brainrot system | Decision it creates |
 | --- | --- | --- |
 | Last hitting | Engagement farming: +1 Clout when in enemy hero vision | Farm in fog for gold, or in sight for gold, Clout and risk |
-| Denying | Ratio deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
+| Denying | Markdown deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
 | Vision and wards | Audience: enemy heroes give Clout. Enemy wards reveal, earn nothing. | Warding reveals the enemy at no Clout cost |
 | Creep wave pressure | Stan: allied creeps inside Reach gain damage and armor | Stand with the wave to push, or rotate and lose the buff |
-| Map pressure, rotation | Go Viral: 20 s spike with global reveal | Spend the spike on a siege, or hold it as a threat |
-| Boss objective and revive reward | The Trend and Screenshot | Contest the pit, or trade it for towers |
+| Map pressure, rotation | Bull Run: 20 s spike with global reveal | Spend the spike on a siege, or hold it as a threat |
+| Boss objective and revive reward | The Trend and Snapshot | Contest the pit, or trade it for towers |
 | Patch meta | Trend modifiers, rotating each patch | Draft and itemize for the modifier |
-| Teamfight chain | Repost chain | Group to chain the buff, or spread against AoE |
-| Comeback gold | Ratio transfer on death | A leader cannot take risky fights for free |
+| Teamfight chain | Resell chain | Group to chain the buff, or spread against AoE |
+| Comeback gold | Markdown transfer on death | A leader cannot take risky fights for free |
 | Glyph | Go Private: buildings invulnerable 5 s, 5 min cooldown | Timing of the emergency button in a siege |
 | Talents | Power growth: tier choices at levels 10, 15, 20 and 25 | Take the tier that fits the match, or the one that scales |
 | Backpack | Passive storage that gives stats but no actives | Carry a spare passive, or keep the active slots free |

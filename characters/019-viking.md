@@ -5,7 +5,7 @@ Hero slot: 019
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Str
 - Range: Melee
 - Distinct prop: Half-full clear water bottle

@@ -3,8 +3,8 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 
 ### Rules
 1. Voice follows the archetype in section 15. Hot-take initiator archetype is the only one that screams.
-2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + ratio and similar). A loaded line aims at the play it follows, a kill, a death or a lane (plan/16 rule 6).
-3. Read path: LIVE, Stan, Go Viral, Ratio and Repost are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
+2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + markdown and similar). A loaded line aims at the play it follows, a kill, a death or a lane (plan/16 rule 6).
+3. Read path: LIVE, Stan, Bull Run, Markdown and Resell are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
 5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.
 6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldowns are set in the balance pass.
@@ -19,10 +19,10 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Assassin, vision denial | Hushed and smug about not being seen. | Announces what it is not: "Not here." |
 | Harasser, zoner | Corrects everything, its own abilities included. | Corrects, then cites. |
 | Late-game Clout carry | Flat and metric-minded; reports results as efficiency. | "Optimal" and "suboptimal." |
-| Ranged nuker | Quiet and tired; reads the feed aloud. | "Load more." |
-| Repost healer, buffer | Friendly and eager; means well and interrupts itself. | "Just checking in." |
+| Ranged nuker | Quiet and tired; reads the market aloud. | "Load more." |
+| Resell healer, buffer | Friendly and eager; means well and interrupts itself. | "Just checking in." |
 | Reach tank, initiator | Calm and procedural; violence is quiet, not shouted. | Short polite orders. |
-| Ghost-account summoner | No name, no history, confident anyway. | "Posted anonymously." |
+| Ghost-account summoner | No name, no history, confident anyway. | "Listed anonymously." |
 | Hot-take initiator | Loud, certain, always at emergency volume. | "UNPOPULAR OPINION:" |
 | Utility, zone control | Dry and exact; cites dates and logs. | "On file." / "Per the log." |
 | Tethered support, dueler | Warm and overfamiliar; performs closeness. | "You know me." |
@@ -33,7 +33,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Hero (role family) | Kill | Death | Idle |
 |---|---|---|---|
 | Grey (Drifter) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
-| Spudgunner (Drifter) | Full thread on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
+| Spudgunner (Drifter) | Full ticker on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
 | Boomer (Heckler) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
 | Disaster (Firebrand) | Match point. Cold read? No. Planned, actually. | Fire's out. Not dead. Buffering. | Warming my hands. Nobody asked, I know. |
@@ -41,12 +41,12 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Gigachad (Bulwark) | Efficiency: high. Joy: null. | Chiseled, yet it hit. Suboptimal. | Carved and still. Effort: none. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
 | Viking (Herald) | Finger pointed. Scrolled past. Next. | Bottle's empty. Lecture cut short. | Marching in place. Drink water, friend. |
-| Hank (Tether) | Machete, machete, machete again. | Lenses dimmed. Feed went quiet. | Blades low. Refresh? Yes. Again. |
+| Hank (Tether) | Machete, machete, machete again. | Lenses dimmed. Market went quiet. | Blades low. Refresh? Yes. Again. |
 | Boxxy (Tether) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
 | Waffle (Bulwark) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
 | Mallcop (Bulwark) | Stay where you are. Thank you. | Scooter stalled. Please remain calm. I will. | Idling on the scooter. Nothing to see. |
 | Airhorn (Heckler) | Canisters spent. Quiet now. | Earmuffs bounced off. Quiet, finally. | Jumping in place, counting canisters. |
-| Helios (Phantom) | Posted anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no posts. |
+| Helios (Phantom) | Listed anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no listings. |
 | Starwarskid (Tether) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
 | Rageguy (Firebrand) | FIST UP. THAT WAS DESERVED. | VEINS BURST. THE GAME WAS WRONG. | FISTS SHAKING. NOTHING YET. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
@@ -69,7 +69,7 @@ Each pair plays once per match, on the first moment both heroes see each other. 
 | 4 | Grey (Drifter) | Stand in the orb light. Green flatters everyone. | Prepper (Bulwark) | Sunlight's free. Your glow has a subscription. |
 | 5 | Gigachad (Bulwark) | Your take has no source. Marble doesn't bend. | Wojak (Recluse) | Source? Floor. Look down. |
 | 6 | Helios (Phantom) | No name, no trail, no problem. | Ghillie (Stalker) | Twine remembers. It says you. |
-| 7 | Spudgunner (Drifter) | That reply needs a full thread. | Waffle (Bulwark) | Pinged you mid-thread. Sorry. Mostly. |
+| 7 | Spudgunner (Drifter) | That reply needs a full ticker. | Waffle (Bulwark) | Pinged you mid-ticker. Sorry. Mostly. |
 | 8 | Starwarskid (Tether) | Alt account for this one. Pole swung. | Fuckyea (Showboat) | Which account is this? Ask me later. |
 | 9 | Scammer (Tether) | Call me back! Tickets still available! | Viking (Herald) | Hydrate. Scroll past. Load more. |
 | 10 | Lifehack (Engine) | Glue gun warm. Turf's still nicer. | Noscope (Stalker) | Pixel shades on. Vibe check not included. |
@@ -82,30 +82,30 @@ The tag is gag 05 in file 16: a small grey word after a hero name, reading "form
 2. Colour: grey only. Never Clout violet, LIVE violet or red. The tag carries no state, no number and no stat. It never appears on the scoreboard, the minimap or the hero model.
 3. Trigger: the hero has Rebranded in this match.
 4. Budget: a match shows at most one formerly tag, on the death recap or the victory screen, whichever comes first. The loading screen never shows it.
-5. Death recap: the header stays the standard Ratio line from file 16, gag 04. The tag sits on the nameplate beside it.
+5. Death recap: the header stays the standard Markdown line from file 16, gag 04. The tag sits on the nameplate beside it.
 6. Victory screen: the tag sits beside the winning hero's name in the clean stats view. The click-and-hold fold (gag 11 in file 16) is unchanged.
 7. Reduced motion: the tag is static.
 
 Two example lines:
 
-- Death recap: "Disaster, formerly Guest." Header: "Your post was ratioed."
-- Victory screen: "Grey, formerly Guest." Header: "Your post did numbers."
+- Death recap: "Disaster, formerly Guest." Header: "Your listing was marked down."
+- Victory screen: "Grey, formerly Guest." Header: "Your listing sold."
 
 ### Item flavor
 
-Flavor lines are meme-forward one-liners that carry the joke. They carry no numbers.
+Flavor lines are fad-forward one-liners that carry the joke. They carry no numbers.
 
 #### Components (section 11)
 
 | Component | Flavor |
 |---|---|
 | Cheap Dagger | Bought cheap and used without a receipt. |
-| Drafted Note | An idea written down and never posted. |
+| Drafted Note | An idea written down and never listed. |
 | Sticky Note | A reminder to look over there. |
 | Hot Sauce Bottle | Mostly vinegar, entirely confident. |
 | Ring Light | Everyone looks like they planned this. |
 | Envelope | Addressed to a drone and left unopened. |
-| Old Hoodie | Worn to every thread. Washed never. |
+| Old Hoodie | Worn to every ticker. Washed never. |
 | Rubber Duck | Explain the bug out loud. Watch it solve itself. |
 | Burner Phone | Not registered to anyone you know. |
 | Charger | Always at 99%. |
@@ -116,17 +116,17 @@ Flavor lines are meme-forward one-liners that carry the joke. They carry no numb
 
 | Neutral item | Flavor |
 |---|---|
-| Thread Pin | Pinned to the top, where nobody reads it. |
-| Crumb Pouch | Crumbs from a long thread. Technically a snack. |
+| Ticker Pin | Pinned to the top, where nobody reads it. |
+| Crumb Pouch | Crumbs from a long ticker. Technically a snack. |
 | NPC Badge | Issued to creeps who have not been asked. |
 | Echo Ring | Every hit repeats itself until someone hears it. |
 | Stan Sign | Hand-lettered, slightly misspelled, deeply sincere. |
 | Hot Mic | Left on at the wrong moment. Any moment. |
-| Viral Bell | Ding. Someone just shared your worst moment. |
-| Ratio Cloak | Hides the ratio, not the numbers. |
+| Bullish Bell | Ding. Someone just shared your worst moment. |
+| Markdown Cloak | Hides the markdown, not the numbers. |
 | Cancel Mask | Worn to dodge the discourse. Started the discourse anyway. |
-| Eternal Thread | Never ends. That is the entire problem. |
-| Vintage Post | Old enough to be someone's first post. |
+| Eternal Ticker | Never ends. That is the entire problem. |
+| Vintage Lot | Old enough to be someone's first lot. |
 | Long Tail | Pays out long after everyone forgot. |
 
 #### New items

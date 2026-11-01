@@ -32,7 +32,7 @@ Numbers in this chapter are UNVERIFIED.
 - Attack lifesteal: items and a few hero abilities.
 - Spell lifesteal: none in v1.
 - Spell amplification: Intelligence (section 7) plus one item.
-- Cooldown reduction: Refresh Page (cooldown reset), the Unboxing modifier, and Eternal Thread (10% faster cooldowns). Ability-specific cooldown cuts are not global CDR.
+- Cooldown reduction: Refresh Page (cooldown reset), the Unboxing modifier, and Eternal Ticker (10% faster cooldowns). Ability-specific cooldown cuts are not global CDR.
 
 ### Disables
 
@@ -54,11 +54,11 @@ Rules:
 - Purge: basic dispel removes most buffs and root. Strong dispel removes polymorph, silence and cyclone.
 - Spell immunity blocks magical damage and disables, not pure damage or HP removal.
 
-### Repost chain (Brainrot original)
+### Resell chain (Brainrot original)
 
 - Job: teamfight chain (plan/02, Teamfight chain row). The cost is the grouping it needs, or the spread against area damage.
 
-A hard disable or ultimate that lands on an enemy starts a repost chain.
+A hard disable or ultimate that lands on an enemy starts a resell chain.
 
 | Property | Value |
 | --- | --- |
@@ -69,4 +69,4 @@ A hard disable or ultimate that lands on an enemy starts a repost chain.
 | Max stacks | 5 |
 | Stack decay | 4 s |
 
-Stacks show as dotted arcs between heroes. Repost arcs are capped at five on screen.
+Stacks show as dotted arcs between heroes. Resell arcs are capped at five on screen.

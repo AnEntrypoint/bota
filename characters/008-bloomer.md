@@ -5,7 +5,7 @@ Hero slot: 008
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Agi
 - Range: Melee
 - Distinct prop: Pastel windbreaker zip (worn; no held prop)

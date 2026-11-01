@@ -1,5 +1,5 @@
 # 6. Clout
-Clout is the signature resource. A hero earns Clout only while an enemy hero can see them. It is the reason to stay in the open, and the reason to be ratioed when you are.
+Clout is the signature resource. A hero earns Clout only while an enemy hero can see them. It is the reason to stay in the open, and the reason to be marked down when you are.
 
 ### Earning Clout
 
@@ -25,13 +25,13 @@ Numbers in this table are UNVERIFIED.
 | --- | --- |
 | Reach radius | 300 + 3 × Clout, capped at 600 |
 | Stan | Allied creeps inside Reach: +20% damage, +2 armor |
-| Go Viral threshold | 100 Clout |
-| Go Viral duration | 20 s |
-| Go Viral effects | Reach +200; caster revealed on the global minimap |
-| Clout after Go Viral | 25 |
-| Ratio on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally |
+| Bull Run threshold | 100 Clout |
+| Bull Run duration | 20 s |
+| Bull Run effects | Reach +200; caster revealed on the global minimap |
+| Clout after Bull Run | 25 |
+| Markdown on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally |
 | Clout decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
-| Cap on Ratio | At most 200 Clout moves in one death |
+| Cap on Markdown | At most 200 Clout moves in one death |
 
 ### Clout states
 
@@ -41,14 +41,14 @@ Each hero is in one of four states at any time. The state sets what the rest of 
 
 1. **Quiet.** Below 50 Clout, no enemy vision. Earns gold and XP only.
 2. **LIVE.** An enemy hero has the hero in vision. The violet LIVE dot shows on the portrait. Clout is earned.
-3. **Viral.** At 100 Clout. Go Viral is active for 20 s. The hero is revealed on the global minimap.
-4. **Ratioed.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn.
+3. **Bullish.** At 100 Clout. Bull Run is active for 20 s. The hero is revealed on the global minimap.
+4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn.
 
 Rebrand resets a hero to Quiet at 0 Clout.
 
 ### Design rules
 
-- Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach (which carries the Stan buff), Go Viral and the Late-game Clout carry mood.
+- Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach (which carries the Stan buff), Bull Run and the Late-game Clout carry mood.
 - Clout is never shared between teams. The ally tether (section 2) shares a fraction of an ally's Clout, and only with that ally.
 - Clout is shown as one number on the top bar, abbreviated (1.2K) and exact on hover.
 

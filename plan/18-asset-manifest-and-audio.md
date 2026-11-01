@@ -27,7 +27,7 @@ Launch counts assume 24 heroes and four abilities each. Full-roster counts (112 
 | Generic status icons | 12 | 64 × 64 |
 | Trend modifier icons | 8 | 64 × 64, plus 256 × 256 banner |
 
-Clout status icons: Reach (concentric arcs), Stan (raised sign), Go Viral (spike with ring timer), Ratio (split circle), LIVE (filled dot with ring), Repost stacks 1 to 5 (curved double arrow with pips), Screenshot (corner brackets), Go Private (padlock with timer ring), Rebrand (circular arrow around a blank tag).
+Clout status icons: Reach (concentric arcs), Stan (raised sign), Bull Run (spike with ring timer), Markdown (split circle), LIVE (filled dot with ring), Resell stacks 1 to 5 (curved double arrow with pips), Snapshot (corner brackets), Go Private (padlock with timer ring), Rebrand (circular arrow around a blank tag).
 
 ### Items
 
@@ -49,13 +49,13 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | The Trend animations | 7 | Idle, three attacks, enrage, death, respawn |
 | Trend death husks | 8 | One per modifier. Desaturated, no health bar. |
 | Trend announcement banners | 8 | 1920 × 200 |
-| Screenshot pickup and revive | 2 | One model, one VFX |
+| Snapshot pickup and revive | 2 | One model, one VFX |
 | The Trending Pit | 1 | Recessed amphitheater with marginal props |
-| Bases | 2 | Morning Feed and Late Night Feed |
+| Bases | 2 | Morning Market and Late Night Market |
 | Terrain kits and props | 3 kits, 120 props | Lanes, jungle, river |
 | Towers (Moderators) | 8 | Four tiers across two teams. Tier read by size and stacked stamps. |
 | Content Mills | 4 | Melee and ranged, two teams |
-| Original Post | 2 | Pinned post-card monolith. Ends on a \[deleted\] placeholder. |
+| Exchange | 2 | Pinned listing-card monolith. Ends on a \[deleted\] placeholder. |
 | Boosts | 7 | Each a unique shape |
 | Wards | 4 | Lurker Cam: closed-eye icon. Spoiler Tag: open-eye icon with a tag. Two teams. Placed and revealed states. |
 | Delivery Drones | 2 | Envelope on legs, plus flying upgrade |
@@ -68,7 +68,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Melee, ranged, siege, two teams | 6 | Allies rounded hood. Enemies angular hood. |
 | Stan-buffed overlays | 6 | Raised sign and violet trim |
 | Mega creeps | 6 | +25% scale, gold trim, original seal emblem |
-| Jungle camp creatures | 12 | NPCs, Spam, Shill, Troll-Bridge, Old Forum Thread, and others |
+| Jungle camp creatures | 12 | NPCs, Spam, Shill, Troll-Bridge, Old Forum Ticker, and others |
 | Creep animations | 180 | Six per model: idle, walk, attack, death, Stan cheer, spawn |
 
 ### Interface
@@ -81,9 +81,9 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Scoreboard | 1 | K, D, A, Clout, Net Worth |
 | Pick and ban screen | 1 | Draft your content plan |
 | Loading screen | 1 template, 24 dioramas | What is everyone talking about this match? |
-| Victory and defeat | 2 | Your post did numbers. / Your post has been archived. |
+| Victory and defeat | 2 | Your listing sold. / Your listing has been delisted. |
 | Shop | 1 | The Plug |
-| Chat wheel | 1 wheel, 21 phrases | Seen. / Posting this. / Muted, respectfully. / Ward the river pls. / We're so back. / It's so over. / Chat, is this real? / Cope. / F. / Bruh. / Sus. / Let him cook. / Cooked. / Touch grass. / Skill issue. / Seethe. / Cry about it. / L + ratio. / Mald. / No cap. / Ok boomer. |
+| Chat wheel | 1 wheel, 21 phrases | Seen. / Listing this. / Muted, respectfully. / Ward the river pls. / We're so back. / It's so over. / Chat, is this real? / Cope. / F. / Bruh. / Sus. / Let him cook. / Cooked. / Touch grass. / Skill issue. / Seethe. / Cry about it. / L + markdown. / Mald. / No cap. / Ok boomer. |
 | Settings | 1 | Reduced motion, flash limiter, colorblind presets, subtitle size and background |
 | Tooltips | About 600 | Mechanical text first. Italic flavor second. |
 | Announcer strings | About 70 | Section 16 |
@@ -92,21 +92,21 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 | Effect | Specification |
 | --- | --- |
-| Go Viral glow, 20 s | Steady violet rim light. Slow upward particles. Shadow counter. |
-| Ratio record-scratch | Clout bar halves. Violet arc from corpse to killers. 0.3 s desaturation on the victim's screen. |
-| Repost arcs | Ally-blue dotted arc with grey core and via tags. At most 5 drawn. |
+| Bull Run glow, 20 s | Steady violet rim light. Slow upward particles. Shadow counter. |
+| Markdown record-scratch | Clout bar halves. Violet arc from corpse to killers. 0.3 s desaturation on the victim's screen. |
+| Resell arcs | Ally-blue dotted arc with grey core and via tags. At most 5 drawn. |
 | Trend banner | Slides from top, 2 s |
 | Go Private | Padlock decal, 5 s ring timer, blinds |
-| Screenshot revive | 3 s rewind clip. Corner brackets snap in. Soft white fade. |
+| Snapshot revive | 3 s rewind clip. Corner brackets snap in. Soft white fade. |
 | Rebrand record | Formerly tag on the death recap or victory screen, static |
 
 ### Audio
 
 | Category | Count | Direction |
 | --- | --- | --- |
-| Announcer stingers | 40 | Meme-forward, reactive, expressive |
-| Clout SFX | 8 | Gain tick, Go Viral start and end, Ratio scratch, LIVE on and off, Repost link, Rebrand |
-| Trend SFX | 10 | Spawn, modifier reveal, attacks, death, Screenshot pickup and revive |
+| Announcer stingers | 40 | Fad-forward, reactive, expressive |
+| Clout SFX | 8 | Gain tick, Bull Run start and end, Markdown scratch, LIVE on and off, Resell link, Rebrand |
+| Trend SFX | 10 | Spawn, modifier reveal, attacks, death, Snapshot pickup and revive |
 | UI SFX | 40 | Click, hover, purchase, error, pick, ban, ready |
 | Ambient beds | 5 | Two bases, river, jungle, pit. Sound only, no music. |
 | Hero voice | About 60 per hero | Expressive and reactive. Hot-take initiator screams; everyone else reacts. |

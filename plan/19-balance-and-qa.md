@@ -5,15 +5,15 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 
 | Archetype | Early power | Late power | Disable budget | Strong against | Weak against | Hard counter |
 | --- | --- | --- | --- | --- | --- | --- |
-| Clout carry | Low | High | Low | Offline sustain | Reach tank, initiator, Repost healer, buffer | Reach tank, initiator |
-| Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Repost healer, buffer | Utility, zone control |
-| Harasser, zoner | Medium | Medium | Medium | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
+| Clout carry | Low | High | Low | Offline sustain | Reach tank, initiator, Resell healer, buffer | Reach tank, initiator |
+| Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Resell healer, buffer | Utility, zone control |
+| Harasser, zoner | Medium | Medium | Medium | Resell healer, buffer | Reach tank, initiator | Reach tank, initiator |
 | Late-game Clout carry | Low | High | Low | None | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
 | Ranged nuker | High | Medium | Low | Late-game Clout carry | Assassin, vision denial, Reach tank, initiator | Assassin, vision denial |
-| Repost healer, buffer | Medium | Medium | Medium | None | Hot-take initiator, Ranged nuker | Hot-take initiator |
+| Resell healer, buffer | Medium | Medium | Medium | None | Hot-take initiator, Ranged nuker | Hot-take initiator |
 | Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Ghost-account summoner, Utility, zone control | Ghost-account summoner |
 | Ghost-account summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
-| Hot-take initiator | High | Low | High | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
+| Hot-take initiator | High | Low | High | Resell healer, buffer | Reach tank, initiator | Reach tank, initiator |
 | Utility, zone control | Medium | High | Medium | Assassin, vision denial, Ghost-account summoner | Ranged nuker | Ranged nuker |
 | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
 | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
@@ -25,7 +25,7 @@ The tier sets the total stat and ability points before the ±10% shift.
 | Tier | Stat points | Ability points | Archetypes |
 | --- | --- | --- | --- |
 | 1 | 100 | 24 | Clout carry; Assassin, vision denial; Harasser, zoner; Hot-take initiator |
-| 2 | 90 | 20 | Late-game Clout carry; Ranged nuker; Repost healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
+| 2 | 90 | 20 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
 | 3 | 80 | 16 | Offline sustain |
 
 Allocation: start at the tier total, then shift up to ±10% by attribute and range. The shifted total stays within the tier total. All values are UNVERIFIED.
@@ -39,9 +39,9 @@ Numbers in this section are UNVERIFIED.
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
 | Hard disable cap | Rule in plan/08. |
 | Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
-| Ratio ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
-| Go Viral limit | One Go Viral active per team at a time |
-| Repost cap | Five stacks per target. Stacks from one source do not stack twice. |
+| Markdown ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
+| Bull Run limit | One Bull Run active per team at a time |
+| Resell cap | Five stacks per target. Stacks from one source do not stack twice. |
 
 ### Stat sheet
 
@@ -59,7 +59,7 @@ Numbers in this section are UNVERIFIED.
 | Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% |
 | Matchup test | Win rate for each hard counter pair | Retune any pair outside 45 to 55% |
 | Pick and ban test | Pick rate and ban rate per hero | Retune any hero above 3× the average pick or ban rate |
-| Comeback check | Comeback rate after a 10,000 gold deficit | Adjust Ratio and decay if comebacks fall below 10% |
+| Comeback check | Comeback rate after a 10,000 gold deficit | Adjust Markdown and decay if comebacks fall below 10% |
 
 ### QA gates
 
@@ -68,7 +68,7 @@ A build passes QA when:
 1. Every hero renders at gameplay zoom, and passes the blind silhouette test in plan/17 (90% or better).
 2. Every ability has a cast point and an impact effect.
 3. Every item's tooltip shows its stat and effect lines with the flavor line hidden, and at least 9 of 10 testers (UNVERIFIED) name the effect.
-4. Every signal (LIVE, Stan, Go Viral, Ratio, Repost) is named by at least 4 of 5 observers (UNVERIFIED) in grayscale, at minimap size, and under each colorblind preset.
+4. Every signal (LIVE, Stan, Bull Run, Markdown, Resell) is named by at least 4 of 5 observers (UNVERIFIED) in grayscale, at minimap size, and under each colorblind preset.
 5. Every gag in section 16 fires on its trigger, and none of them hides a signal, which 4 of 5 observers confirm (UNVERIFIED).
 6. The 10,000 gold Comeback check and the bracket test are inside their targets on the current patch.
 

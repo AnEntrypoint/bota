@@ -5,8 +5,8 @@ The map is two halves split by a river. Each half holds three lanes, a jungle an
 
 ### Bases
 
-- **Morning Feed** (ally): light value, sunrise palette. The river is the Feed, with slow caustics.
-- **Late Night Feed** (enemy): dark value, screen glow.
+- **Morning Market** (ally): light value, sunrise palette. The river is the Market, with slow caustics.
+- **Late Night Market** (enemy): dark value, screen glow.
 - Each base holds the Spawn Lounge, a main shop at the Spawn Lounge, one Back Alley Shop, two Side Shops (one each on the top and bottom lanes), and a Trending Pit.
 
 ### Lanes
@@ -33,7 +33,7 @@ Jungle creature names are in section 12.
 
 ### Structure list
 
-Towers, Content Mills, Original Post and Spawn Lounge are in section 3. Shops, inventory and items are in section 11. Wards are in section 13.
+Towers, Content Mills, Exchange and Spawn Lounge are in section 3. Shops, inventory and items are in section 11. Wards are in section 13.
 
 ### Map props and marginalia
 

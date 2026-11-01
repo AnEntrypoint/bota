@@ -5,7 +5,7 @@ Hero slot: 108
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Str
 - Range: Melee
 - Distinct prop: Armful of chip bags and soda bottles

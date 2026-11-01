@@ -7,14 +7,14 @@
 | 2 | Pro Plan is the one ultimate upgrade per hero. | Clear name for an upgrade item |
 | 3 | Orbs do not stack. | Keeps attack modifiers simple |
 | 4 | Clout is the only audience resource. | Keeps one readable currency |
-| 5 | Seven boosts, Algorithm Boost included. | Readable boost pool |
+| 5 | Seven boosts, Demand Boost included. | Readable boost pool |
 | 6 | Roster is 112, Scalper included. | Matches the roster target |
-| 7 | Meme vocabulary in voice lines, item flavor and marketing copy is generic usage only: no brand names, named creators, franchise characters or owned catchphrases. The six roster labels Zyzz, Uber, Crossfit, Starwarskid, Rickroll and Frogger are listed for the record. Hero and ability labels are outside this scope. | Lets phrases rotate each patch while the roster stays stable |
+| 7 | Fad vocabulary in voice lines, item flavor and marketing copy is generic usage only: no brand names, named creators, franchise characters or owned catchphrases. The six roster labels Zyzz, Uber, Crossfit, Starwarskid, Rickroll and Frogger are listed for the record. Hero and ability labels are outside this scope. | Lets phrases rotate each patch while the roster stays stable |
 | 8 | Every ability in sections 9 and 10 has a Brainrot name. Original hero, ability and item names live only in internal/parity-map.md and in this decision record; decision 22 keeps them out of shipped text. | Original names stay out of shipped text |
 | 9 | Clout drives Reach, reveal and mood only, never a stat. Late-game Clout carry mood, Breaking News, stage camps and signature mechanics keep to that rule. | Keeps the one-currency rule from section 6 |
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). | Uniqueness |
 | 11 | Every new number is UNVERIFIED until a playable build exists. | Matches the balance rule in /workspace/oscraft/AGENTS.md |
-| 12 | Algorithm Boost changes from cooldown and mana cuts to Reach +100. | Keeps it on the Clout identity |
+| 12 | Demand Boost changes from cooldown and mana cuts to Reach +100. | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600. | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc's 6, 12 and 18 change to match. | The plan is the design source |
@@ -28,14 +28,15 @@
 | 23 | The engine build is not started in this round. The first-playable slice (plan/26) is the next task, and it starts once the repo is synced (the local checkout and origin/main matched on 2026-10-27). | A build needs the repo state fixed first |
 | 24 | Plan distances are game units: 1 game unit is 125/8 milli-units. | Removes the last unit ambiguity for the data generator |
 | 25 | Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn. | No owner confirmation is pending; the default is recorded here so plan/22 has no open item. |
-| 26 | Stat Boost and Decoy Posts are cut. Leftover ability points after the four skills are maxed stay unspent. | Stat Boost has no rival use for leftover points, and Decoy Posts have no classic job (plan/02 rules 2 and 3). |
+| 26 | Stat Boost and Decoy Lots are cut. Leftover ability points after the four skills are maxed stay unspent. | Stat Boost has no rival use for leftover points, and Decoy Lots have no classic job (plan/02 rules 2 and 3). |
 | 27 | Counter coverage means at least one hard counter per archetype, read from its Hard counter cell. Soft counters are not a separate rule. | The archetype table has no soft-counter column, and four archetype rows have no weak entry beyond their hard counter. |
-| 28 | Spectator reactions are cut. Decision 13 keeps only its no-vote clause. Talents, backpack, neutral items, disable duration and sustain gain plan/02 rows; Chat Check and Algorithm Boost use the vision and map-pressure rows. | Spectator reactions have no classic job (plan/02 rules 2 and 3), as with Decoy Posts in decision 26. |
+| 28 | Spectator reactions are cut. Decision 13 keeps only its no-vote clause. Talents, backpack, neutral items, disable duration and sustain gain plan/02 rows; Chat Check and Demand Boost use the vision and map-pressure rows. | Spectator reactions have no classic job (plan/02 rules 2 and 3), as with Decoy Lots in decision 26. |
 | 29 | Breaking News maps to the Capture objective row in plan/02. | Breaking News is a capture objective with its own cost, the contest, as plan/02 rule 3 requires. |
 | 30 | The surrender vote has a plan/02 Surrender row: a vote that ends the match. | Decisions 26 and 28 cut systems with no classic job; this one has a classic forfeit, so it stays with a cost. |
 | 31 | Showboat's level-15 talent raises Reach by 25 in place of the undefined Clout cap. | Reach is defined in plan/06 Clout rules; Clout cap is not defined anywhere. |
 | 32 | Item classic jobs stay in internal/parity-map.md; the balance pass checks each item's Mapped job there. | A 50-row Job column would copy the internal mapping into the plan, against decision 22. |
 | 33 | Draft maps to a plan/02 Draft row, named in the draft chapter. | Drafting holds a classic job (plan/02 rule 3), and the pick order has a cost on each side (rule 2). |
+| 34 | The premise is a commodity market, not posting. Go Viral becomes Bull Run, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The user asked for less lame humour and kept Clout. Decisions 4 and 9 are unchanged. |
 
 ### Open questions
 

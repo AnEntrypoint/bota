@@ -5,7 +5,7 @@ Hero slot: 105
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Int
 - Range: Melee
 - Distinct prop: Cast-iron skillet of sizzling bacon

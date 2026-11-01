@@ -5,7 +5,7 @@ Hero slot: 024
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Agi
 - Range: Ranged
 - Distinct prop: Oversized grey studio headphones

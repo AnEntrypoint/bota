@@ -5,7 +5,7 @@ Hero slot: 071
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Agi
 - Range: Melee
 - Distinct prop: Glass pour-over coffee carafe

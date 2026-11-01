@@ -1,7 +1,7 @@
 # 3. Core loop and win condition
 
 Numbers in this chapter are UNVERIFIED.
-Two teams of five. Each team defends a base, a set of lanes, and an Original Post. Destroying the enemy Original Post wins the match.
+Two teams of five. Each team defends a base, a set of lanes, and an Exchange. Destroying the enemy Exchange wins the match.
 
 ### Lanes and structures
 
@@ -10,10 +10,10 @@ Two teams of five. Each team defends a base, a set of lanes, and an Original Pos
 | Tier 1 tower | 3 (one per lane) | Armor aura for allied heroes: +1 |
 | Tier 2 tower | 3 | Armor aura: +3. Invulnerable until its T1 falls. |
 | Tier 3 tower | 3 | Armor aura: +3. Damage equal to T2. |
-| Tier 4 towers | 2 (at the Original Post) | Invulnerable until a T3 falls in any lane |
+| Tier 4 towers | 2 (at the Exchange) | Invulnerable until a T3 falls in any lane |
 | Content Mills | 6 (two per lane, melee and ranged) | A lane with both its Content Mills down spawns Super creeps; a destroyed mill respawns after 5 min (UNVERIFIED) |
 | All six Content Mills down | n/a | Mega creeps spawn in all three lanes until a mill respawns |
-| Original Post | 1 | Invulnerable until both T4s fall. Destroying it wins. |
+| Exchange | 1 | Invulnerable until both T4s fall. Destroying it wins. |
 
 - Tower HP: T1 1,300, T2 1,600, T3 1,600, T4 2,200. Gold per tower: 160, 200, 240, 280.
 - Towers regenerate and take reduced damage when no enemy creeps are nearby (backdoor protection).
@@ -35,7 +35,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Original Pos
 2. Laning, 0:00 to about 10:00. Farm, deny, trade, ward.
 3. Rotations and objectives. The Trend opens at about 10:00 (plan/05).
 4. Pushing. Break T1s, then T2s and T3s, then content mills.
-5. Original Post. The team that breaks the Original Post wins.
+5. Exchange. The team that breaks the Exchange wins.
 
 - Job: surrender (plan/02, Surrender row). The cost is the rest of the match given up.
 

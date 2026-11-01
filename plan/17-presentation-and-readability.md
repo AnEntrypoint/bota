@@ -31,8 +31,8 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 
 | Meaning | Color | Notes |
 | --- | --- | --- |
-| Ally team, Morning Feed | #2E8BFF | Light-value structures. Teams also differ in value. |
-| Enemy team, Late Night Feed | #FF8A1F | Dark-value structures |
+| Ally team, Morning Market | #2E8BFF | Light-value structures. Teams also differ in value. |
+| Enemy team, Late Night Market | #FF8A1F | Dark-value structures |
 | Self | White and gold outline | Yellow health bar |
 | Clout, all Clout UI and VFX | #A35CFF | Reserved for Clout only. Never red. |
 | LIVE | Violet dot #6A1FD1, white ring | Never red. Deeper than Clout's #A35CFF so the two stay apart. |
@@ -52,4 +52,4 @@ Rules:
 - Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Engagement and Impressions.
 - Tooltips: mechanical text first, italic flavor second. 14 px minimum.
 - Cursor: four states (default, attack, ability target, invalid). 32 × 32.
-- Minimap: Trend timer and Go Viral overlays.
+- Minimap: Trend timer and Bull Run overlays.

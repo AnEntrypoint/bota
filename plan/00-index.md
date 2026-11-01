@@ -17,7 +17,7 @@ This bible specifies a complete 5v5 MOBA on a classic MOBA rule set, with the Br
 - [9. Launch hero kits](09-launch-hero-kits.md)
 - [10. Remaining hero kits](10-remaining-hero-kits.md)
 - [11. Items](11-items.md)
-- [12. Neutrals, boosts, The Trend and Screenshot](12-neutrals-boosts-the-trend-and-screenshot.md)
+- [12. Neutrals, boosts, The Trend and Snapshot](12-neutrals-boosts-the-trend-and-snapshot.md)
 - [13. Vision and fog](13-vision-and-fog.md)
 - [14. Draft and modes](14-draft-and-modes.md)
 - [15. Roster and archetypes](15-roster-and-archetypes.md)

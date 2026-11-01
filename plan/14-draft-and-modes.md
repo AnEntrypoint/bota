@@ -8,11 +8,11 @@ The draft is the first decision of the match. It sets the hero pool, the lane pl
 | Mode | Use | Rule |
 | --- | --- | --- |
 | Showrunner Draft | Ranked and main | Two captains ban and pick in turn. 30 s per pick, 130 s bonus time per team. |
-| Open Feed | Casual | Each player picks freely. No bans. |
-| Algorithm Draft | Casual | Heroes drawn from a 50-hero pool. |
+| Open Market | Casual | Each player picks freely. No bans. |
+| Demand Draft | Casual | Heroes drawn from a 50-hero pool. |
 | Shuffle Draft | Casual | Each player picks from a random 10-hero set. |
-| Ranked Open Feed | Ranked | Each player nominates a hero, then half the nominated heroes are banned at random. |
-| Short Form | Casual or ranked, 25 minute target | Two lanes per side, mid removed. Trend opens at 5:00. Original Post falls once both T2s on a lane are down. Surrender vote at 15 min. Details in the Short Form section below. UNVERIFIED |
+| Ranked Open Market | Ranked | Each player nominates a hero, then half the nominated heroes are banned at random. |
+| Short Form | Casual or ranked, 25 minute target | Two lanes per side, mid removed. Trend opens at 5:00. Exchange falls once both T2s on a lane are down. Surrender vote at 15 min. Details in the Short Form section below. UNVERIFIED |
 
 ### Showrunner Draft order
 
@@ -31,9 +31,9 @@ Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 
 - Two lanes per side (top and bottom). Mid lane and its tower and Content Mill rows are removed.
 - The Trend opens at 5:00 and respawns in 4 to 6 min.
-- Original Post is invulnerable until both T2s on a lane fall, not both T4s.
+- Exchange is invulnerable until both T2s on a lane fall, not both T4s.
 - XP per level is multiplied by 1.5 for the same level thresholds.
-- Clout gain, Reach, Stan and the Repost chain work as in the full game.
+- Clout gain, Reach, Stan and the Resell chain work as in the full game.
 
 ### Roles
 
@@ -55,7 +55,7 @@ Lane preference by archetype. This is guidance for the draft UI, not a restricti
 - Mid: Ranged nuker, Ghost-account summoner, Hot-take initiator
 - Offlane: Reach tank, initiator, Hot-take initiator
 - Roamer: Assassin, vision denial, Harasser, zoner, Tethered support, dueler
-- Hard support: Repost healer, buffer, Utility, zone control
+- Hard support: Resell healer, buffer, Utility, zone control
 
 ### Ban phase
 

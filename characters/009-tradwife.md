@@ -5,7 +5,7 @@ Hero slot: 009
 ## Card
 
 - Role family: Herald
-- Role: Repost healer, buffer
+- Role: Resell healer, buffer
 - Attribute: Int
 - Range: Melee
 - Distinct prop: Braided brioche loaf in oven mitts

@@ -5,7 +5,7 @@ Numbers in this section are UNVERIFIED.
 
 - Six item slots, plus a six-slot stash. Backpack: three slots, see section 21.
 - Consumables stack. Stock-limited items have a restock timer (Lurker Cam, Smoke of Deniability).
-- Sell-back: full refund within 10 s of purchase, 50% after that. Screenshot and Gamer Fuel (section 21) cannot be sold.
+- Sell-back: full refund within 10 s of purchase, 50% after that. Snapshot and Gamer Fuel (section 21) cannot be sold.
 - Drop-on-death items: Rapier, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
 - Items that take an active use a shared item cooldown per item, not per hero.
 - Delivery Drone: the flying courier that an Envelope item sends to base. Its speed bonus is the Envelope component's.
@@ -70,7 +70,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Gem of Subtext | Reveals invisible units and wards | Reads between the lines. |
 | Bottle of Copium | Restores HP and mana over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |
-| Lurker Cam | Vision. Enemies see the reveal, earn no Clout. | Watching, not posting. |
+| Lurker Cam | Vision. Enemies see the reveal, earn no Clout. | Watching, not listing. |
 | Spoiler Tag | True sight ward | Reveals what is hidden. Also what is coming. |
 | Dust of Receipts | Reveals invisible units in radius | The proof is in the dust. |
 | Smoke of Deniability | Invisibility cloud for allies | Nothing happened here. |

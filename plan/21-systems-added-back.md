@@ -11,13 +11,13 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Thread +2 s / Beam Quote hits a third time | Go Viral at 80 Clout / Abduction Count survives death |
+| Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Bull Run at 80 Clout / Abduction Count survives death |
 | Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
 | Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / LIVE hidden for 10 s after each kill |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
 | Disaster | Smirk Read slows +15% / Fire Fade cooldown −4 s | Fire Wall of Text +1 s / Smolder Drop radius +100 | Smirk Read freezes for 0.5 s / Fire Fade heals 10% | Smolder Drop marks the target for 2 s / Enemies silenced for 1 s on cast |
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no mana |
-| Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Void Post radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Void Post hits twice / Mana regen doubles below 50% mana |
+| Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Void Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Void Lot hits twice / Mana regen doubles below 50% mana |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
 | Viking | Mead Bash slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Bash leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Bash hits heroes below 50% HP for +10% |
 | Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
@@ -25,7 +25,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
 | Frogger | Flying Cap Warning slows +1 s / Handlebar Appeal shield +50 | Frog Strike radius +50 / Helmet Lockdown +0.5 s | Handlebar Appeal reflects 10% / Flying Cap Warning marks the target for allies | Helmet Lockdown stuns on death / 1 Clout per 200 damage absorbed |
 | Airhorn | Airhorn Blast +1 stun / Canister Remove cleave +20% | Track Jacket Notice armor +2 / Escalating Blare +5% damage | Canister Remove marks the target / Airhorn Blast resets on kill | Escalating Blare grows +2% per cast / Target earns no Clout for 10 s |
-| Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Post crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Post kills give double Clout / Name hidden on death recap |
+| Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Lot crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Lot kills give double Clout / Name hidden on death recap |
 | Starwarskid | Golf Pole Root radius +50 / Mid-Spin Clone range +100 | Furrowed Puppet +20 damage / Alt Spin Squad adds a clone | Golf Pole Root roots +0.5 s / Clones gain 10% damage | Clones earn half Clout / Starwarskid respawns once as a clone |
 | Chudjak | Manifesto Slam +100 length / Olive Totem +10% attack speed | Buzzcut Follow stun +0.3 s / Surplus Echo adds a target | Manifesto Slam stuns 0.5 s / Olive Totem heals allies | Surplus Echo is global / Buzzcut Follow victims revealed for 2 s |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage |
@@ -34,7 +34,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for allied Clout |
 | Scammer | Landline Teaser range +100 / Bluetooth Bait heal +5% | Sales Pitch Bait chance +10% / Cord Coil Arc timer −2 s | Landline Teaser burn +5 / Bluetooth Bait spreads | Cord Coil Arc keeps 50% of Clout / Death recap header reads Return confirmed |
 | Prepper | Gas Mask Air radius +50 / Blast Door Leave cooldown −5 s | Storm Shelter adds a treant / Hazmat Breach range +200 | Gas Mask Air roots +0.5 s / Treants heal allies | Hazmat Breach pays Clout / +2% health regen while no enemy sees you |
-| Lifehack | Glue Gun Camouflage +1 s / Zip Tie Feed drains +10% | Duct Tape Shield +50 / Zip Tie Network +0.5 s | Zip Tie Feed spreads / Glue Gun Camouflage works while moving | Zip Tie Network reflects damage / Allies in trees gain 10% move speed |
+| Lifehack | Glue Gun Camouflage +1 s / Zip Tie Market drains +10% | Duct Tape Shield +50 / Zip Tie Network +0.5 s | Zip Tie Market spreads / Glue Gun Camouflage works while moving | Zip Tie Network reflects damage / Allies in trees gain 10% move speed |
 
 ### Talent sets for every hero
 
@@ -44,12 +44,12 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Reach +25 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Go Viral at 80 Clout / Survive death once |
+| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Reach +25 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Bull Run at 80 Clout / Survive death once |
 | Stalker (Assassin, vision denial) | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
 | Heckler (Harasser, zoner) | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
 | Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Mana regen doubles below 50% mana |
 | Drifter (Ranged nuker) | Slow +10% / Root +1 s | Mana regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs heroes below 50% HP |
-| Herald (Repost healer, buffer) | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
+| Herald (Resell healer, buffer) | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
 | Bulwark (Reach tank, initiator) | Slow +1 s / Shield +50 | Radius +50 / Stun +0.5 s | Reflect 10% / Mark for allies | Stun on death / 1 Clout per 200 damage absorbed |
 | Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
 | Firebrand (Hot-take initiator) | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
@@ -74,10 +74,10 @@ Numbers in this section are UNVERIFIED.
 
 | Tier | Source | Items (choose one of three) |
 | --- | --- | --- |
-| 1 | Small camps | Thread Pin: +10 damage. Crumb Pouch: +1.5 HP regen. NPC Badge: +8% spell amplification. |
+| 1 | Small camps | Ticker Pin: +10 damage. Crumb Pouch: +1.5 HP regen. NPC Badge: +8% spell amplification. |
 | 2 | Medium camps | Echo Ring: 8% attack lifesteal. Stan Sign: allied creeps in Reach gain +5% damage. Hot Mic: 15% chance on attack to silence for 0.6 s. |
-| 3 | Hard camps | Viral Bell: 10% chance on attack to heal 60 HP. Ratio Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max mana. |
-| 4 | Old Forum Thread | Eternal Thread: +150 HP, +20 damage, 10% faster cooldowns. Vintage Post: active, 2 s reveal and 1.5 s stun in 400 radius, 60 s cooldown. Long Tail: +25% Clout gain. |
+| 3 | Hard camps | Bullish Bell: 10% chance on attack to heal 60 HP. Markdown Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max mana. |
+| 4 | Old Forum Ticker | Eternal Ticker: +150 HP, +20 damage, 10% faster cooldowns. Vintage Lot: active, 2 s reveal and 1.5 s stun in 400 radius, 60 s cooldown. Long Tail: +25% Clout gain. |
 
 ### Safe Spots
 
@@ -109,7 +109,7 @@ Numbers in this section are UNVERIFIED.
 - Base 0%. Items and talents add it. It shortens the duration of each disable in plan/08 Disables by its percent (UNVERIFIED).
 - The total reduction is capped at 50%.
 
-### Algorithm Boost
+### Demand Boost
 
 Numbers in this section are UNVERIFIED.
 
@@ -136,7 +136,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Signature mechanics
 
-Each of these heroes has one rule that makes its kit read differently on the map. Each rule uses only Reach, reveal, Repost, Clout, the scoreboard or vision, never a stat; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
+Each of these heroes has one rule that makes its kit read differently on the map. Each rule uses only Reach, reveal, Resell, Clout, the scoreboard or vision, never a stat; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
 
 | Hero | Signature mechanic | Clout tie |
 | --- | --- | --- |
