@@ -4,7 +4,7 @@ The baseline is a classic MOBA rule set. Every system is either part of this bas
 | Core rules | Brainrot originals |
 | --- | --- |
 | Level cap 25 | Clout (signature resource) |
-| Ultimates unlock at 6, 11, 16 | Bull Run |
+| Ultimates unlock at 6, 11, 16 | Hype Spike |
 | Four abilities, three attributes | Stan (creep buff) |
 | Lanes, towers, content mills, Exchange | Markdown (death transfer) |
 | Boss objective with a revive reward | Resell chain |

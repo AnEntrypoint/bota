@@ -14,7 +14,7 @@
 | 06 | Herald | Resell healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Resell speeds your attacks and interrupts you in the same ping | Notification |
 | 07 | Bulwark | Reach tank, initiator | Big square | Grey with team color | Plate or shield held forward | Files every initiation as a polite form with maximum Reach | Moderator |
 | 08 | Phantom | Ghost-account summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with followers | Ghost |
-| 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Bullish hot take at emergency volume | Hot Take |
+| 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Hyped hot take at emergency volume | Hot Take |
 | 10 | Archivist | Utility, zone control | Wide rectangle | Sepia | Filing-cabinet backpack | Lists receipts that turn every Trend against whoever stands in the zone | Archivist |
 | 11 | Tether | Tethered support, duelist | Two linked circles | Rose | Framed photo of the rival | Insists the rival is a close friend, so the Stan tether never breaks | Parasocial |
 | 12 | Recluse | Offline sustain | Rounded mound | Moss green | Wearing actual turf | Stays offline between camps, smug and healed above any Clout threshold | Touch-Grass Hermit |
@@ -54,7 +54,7 @@ Rules for the roster columns:
 | 022 | Rickroll | Showboat | Agi | Ranged | Mutes a whole area through a chrome microphone, then sends dancing spirits at anyone left in range. |
 | 023 | Saxguy | Showboat | Int | Ranged | Silences an area with a pelvic-thrust solo, then flips down white shades to reveal a target's path. |
 | 024 | Numa | Herald | Agi | Ranged | Swallows a creep whole for health, then keeps the beat going on a silenced target until it dies. |
-| 025 | Dodson | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning bullish broadcast. |
+| 025 | Dodson | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast. |
 | 026 | Sweetbrown | Drifter | Agi | Ranged | Pops a cherry to slow targets, and wide alarmed eyes spot every critical strike before it lands. |
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
 | 028 | Chudjak | Bulwark | Int | Melee | Clubs a line of enemies with a rolled manifesto and grows angrier the more of them surround him. |

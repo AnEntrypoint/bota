@@ -4,7 +4,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 ### Rules
 1. Voice follows the archetype in section 15. Hot-take initiator archetype is the only one that screams.
 2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + markdown and similar). A loaded line aims at the play it follows, a kill, a death or a lane (plan/16 rule 6).
-3. Read path: LIVE, Stan, Bull Run, Markdown and Resell are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
+3. Read path: LIVE, Stan, Hype Spike, Markdown and Resell are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
 5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.
 6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldowns are set in the balance pass.
@@ -123,7 +123,7 @@ Flavor lines are fad-forward one-liners that carry the joke. They carry no numbe
 | Echo Ring | Every hit repeats itself until someone hears it. |
 | Stan Sign | Hand-lettered, slightly misspelled, deeply sincere. |
 | Hot Mic | Left on at the wrong moment. Any moment. |
-| Bullish Bell | Ding. Someone just shared your worst moment. |
+| Hyped Bell | Ding. Someone just shared your worst moment. |
 | Markdown Cloak | Hides the markdown, not the numbers. |
 | Cancel Mask | Worn to dodge the discourse. Started the discourse anyway. |
 | Eternal Ticker | Never ends. That is the entire problem. |

@@ -11,7 +11,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Bull Run at 80 Clout / Abduction Count survives death |
+| Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Hype Spike at 80 Clout / Abduction Count survives death |
 | Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
 | Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / LIVE hidden for 10 s after each kill |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
@@ -46,7 +46,7 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
-| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Reach +25 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Bull Run at 80 Clout / Survive death once |
+| Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Reach +25 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Hype Spike at 80 Clout / Survive death once |
 | Stalker (Assassin, vision denial) | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
 | Heckler (Harasser, zoner) | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
 | Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Sigma regen doubles below 50% sigma |
@@ -78,7 +78,7 @@ Numbers in this section are UNVERIFIED.
 | --- | --- | --- |
 | 1 | Small camps | Ticker Pin: +10 damage. Crumb Pouch: +1.5 HP regen. NPC Badge: +8% spell amplification. |
 | 2 | Medium camps | Echo Ring: 8% attack lifesteal. Stan Sign: allied creeps in Reach gain +5% damage. Hot Mic: 15% chance on attack to silence for 0.6 s. |
-| 3 | Hard camps | Bullish Bell: 10% chance on attack to heal 60 HP. Markdown Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max sigma. |
+| 3 | Hard camps | Hyped Bell: 10% chance on attack to heal 60 HP. Markdown Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max sigma. |
 | 4 | Old Forum Ticker | Eternal Ticker: +150 HP, +20 damage, 10% faster cooldowns. Vintage Lot: active, 2 s reveal and 1.5 s stun in 400 radius, 60 s cooldown. Long Tail: +25% Clout gain. |
 
 ### Safe Spots

@@ -10,12 +10,12 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
 | Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Chudjak (Bulwark, Reach tank, initiator), Disaster (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
-| Clout | Earn, decay, Reach, Bull Run, Markdown on death with the 200 cap. |
+| Clout | Earn, decay, Reach, Hype Spike, Markdown on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
 | Modifiers | Two from the pool: Cast Rush and Learn to Code. |
 | Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note. |
-| Presentation | LIVE dot, Clout bar, Stan, Bull Run and Resell signals, the Front Runner minimap icon, death recap (Markdown), Rebrand record, announcer lines for kills and Markdown. |
+| Presentation | LIVE dot, Clout bar, Stan, Hype Spike and Resell signals, the Front Runner minimap icon, death recap (Markdown), Rebrand record, announcer lines for kills and Markdown. |
 
 **Not in the slice:** Showrunner Draft (the slice uses one fixed pick order, A, B, B, A, A, B, B, A, A, B, UNVERIFIED), the full talent trees, neutral items, Safe Spots, Chat Check, Go Private, Scalper, Seasons, spectator reactions, the other 18 of the 24 launch heroes.
 
@@ -47,8 +47,8 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: C3 records zero capture progress.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
-7. **Rebrand while Bullish.** A Bullish hero dies. Pass: the Bullish-ended marker shows, and Rebrand swaps it for Rebranded.
-8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Bull Run, Markdown and Resell. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
+7. **Rebrand while Hyped.** A Hyped hero dies. Pass: the Hyped-ended marker shows, and Rebrand swaps it for Rebranded.
+8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Hype Spike, Markdown and Resell. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
 
 ## Runnable checks
 

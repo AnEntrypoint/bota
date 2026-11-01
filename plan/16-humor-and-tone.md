@@ -25,7 +25,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (plan/15, Peanut row). | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Trending in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Exchange as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Exchange | End screen | Requires a click. Clean stats view is the default. |
-| 12 | The hero's own shadow stretches toward the Clout bar. Reduced opacity. [GUESS] | Bull Run | Activation | Self and allies only. Reduced opacity. |
+| 12 | The hero's own shadow stretches toward the Clout bar. Reduced opacity. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP flashes Fact check pending over the killer's name plate. | Kills | Kill at under 10% HP | 1.5 s, name plate only, once per 2 min (UNVERIFIED). |
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
 | 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Bottle of Copium | Item ends | Portrait only. |
@@ -33,9 +33,9 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row (UNVERIFIED) gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
-| 20 | A hero who dies while Bullish gets a grey Bullish-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Bull Run, Rebrand | Death while Bullish | Scoreboard only. |
+| 20 | A hero who dies while Hyped gets a grey Hyped-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Hype Spike, Rebrand | Death while Hyped | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge (UNVERIFIED) | Cosmetic. Never in a fight. |
-| 22 | At 100 Clout the Clout bar shows the Bull Run threshold. [GUESS] | Bull Run | At 100 Clout | Self and allies only. |
+| 22 | At 100 Clout the Clout bar shows the Hype Spike threshold. [GUESS] | Hype Spike | At 100 Clout | Self and allies only. |
 | 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the name plate for 10 s (UNVERIFIED). Name plate only, never the LIVE dot. | Markdown on death | Death with 200+ Clout | Name plate, 10 s. |
 
 ### Announcer lines
@@ -62,7 +62,7 @@ Every number in this table is UNVERIFIED.
 | Level 25 | Max level. Verified. |
 | Enemy delivery drone killed | Cope. |
 | Death to a lane creep | Skill issue. |
-| Kill on a Bullish hero | Bullish hero down. |
+| Kill on a Hyped hero | Hyped hero down. |
 | Team wipe | L + markdown. |
 | Comeback from a 10,000 gold deficit | The markdown flipped. |
 | Surrender vote passes | Ticker abandoned. |
@@ -77,7 +77,7 @@ Each event has one line. The Alternates table adds seven lines for game states t
 | First kill after a 5-minute drought | Finally listed. |
 | Third kill in a row inside one lane | Bumped it again. |
 | Lane creep wave dies untouched | Nobody replied. |
-| Team wipe while you are Bullish | Re-listed by all five. |
+| Team wipe while you are Hyped | Re-listed by all five. |
 | Surrender vote fails | Ticker stays open. |
 | Neutral camp taken before the first minute | Pulled early. Nice weather. |
 | Tower destroyed by a lone hero | Mod action, no appeal. |

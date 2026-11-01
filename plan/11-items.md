@@ -110,6 +110,8 @@ Design notes:
 
 ### Stats and costs
 
+Numbers in this section are UNVERIFIED.
+
 | Item | Cost (gold) | Effect |
 | --- | --- | --- |
 | Cheap Dagger | 100 | +12 damage |
@@ -143,7 +145,7 @@ Design notes:
 | Participation Trophy | 1,600 | Revive at the Spawn Lounge once, 5 min |
 | Heart of Brainrot | 2,400 | +600 HP, +5 HP regen. Nearby allies gain 5% less Clout |
 | Sleep Mode | 1,500 | Toggle between attribute and movement bonuses |
-| Reply All | 1,800 | Reflects 35% of damage taken for 4 s |
+| Reply All | 1,800 | Reflects 25% of damage taken for 4 s |
 | Co-Working Space | 2,000 | Heal aura 150 radius, 4 HP per second |
 | Rescheduled | 1,800 | Stun 1.5 s, displace 250, 7 s cooldown |
 | Pro Plan | 2,200 | Upgrades the ultimate per hero |

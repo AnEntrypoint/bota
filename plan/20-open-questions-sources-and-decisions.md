@@ -36,7 +36,7 @@
 | 31 | Showboat's level-15 talent raises Reach by 25 in place of the undefined Clout cap. | Reach is defined in plan/06 Clout rules; Clout cap is not defined anywhere. |
 | 32 | Item classic jobs stay in internal/parity-map.md; the balance pass checks each item's Mapped job there. | A 50-row Job column would copy the internal mapping into the plan, against decision 22. |
 | 33 | Draft maps to a plan/02 Draft row, named in the draft chapter. | Drafting holds a classic job (plan/02 rule 3), and the pick order has a cost on each side (rule 2). |
-| 34 | The premise is a commodity market, not posting. Go Viral becomes Bull Run, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The user asked for less lame humour and kept Clout. Decisions 4 and 9 are unchanged. |
+| 34 | The premise is a commodity market, not posting. Go Viral becomes Hype Spike, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The user asked for less lame humour and kept Clout. Decisions 4 and 9 are unchanged. |
 | 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | The leader had no choice, only an icon it could not avoid. |
 | 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point. |
 | 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition. |
@@ -44,6 +44,8 @@
 | 39 | The launch set is the 24 heroes with kits in plan/09, Frogger and Chudjak included. Mallcop and Rageguy are remaining heroes with kits in plan/10. The plan/23 voice, the plan/25 heroes.tsv row and the plan/26 slice follow this set. | plan/09 holds the kits and plan/21 the talents the engine data is built on. The voice and slice lines had been written for Mallcop and Rageguy, so they were retargeted to Chudjak, Frogger and Disaster. |
 | 40 | The resource is named sigma in every design doc: prose, table column names and character text. Original names stay in internal/parity-map.md. Engine identifiers live in the engine repo and change only when its data format does. | Owner request for a full rename. Sigma is the Brainrot resource word; the rename removes the original resource name from shipped text. |
 | 41 | The energy-drink item is named Coffee. Brand names stay out of shipped text under decision 7; the parity map keeps the original name. | Owner flagged the brand as a trademark risk and chose Coffee as the replacement. |
+| 42 | GUESS marks a value, name or slot choice with no source in 6.88g, the repo or the web, and its row gives the reason. UNVERIFIED marks a value that has a source not yet checked. | Keeps a design guess apart from a source-backed value that is not checked yet. |
+| 43 | Bull Run is named Hype Spike and Bullish is named Hyped. Crypto terms stay out of shipped text. | Owner: crypto is lame; the spike and the state keep their mechanics. |
 
 ### Open questions
 

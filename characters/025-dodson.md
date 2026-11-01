@@ -17,7 +17,7 @@ bright crimson silk bandana tied low across brow, ribbed black athletic tank top
 
 ## Hook
 
-Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning bullish broadcast.
+Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast.
 
 ## Aesthetic refs
 

@@ -11,11 +11,11 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 - Timed disables scale with the ability 2 table, so only disables with no timer or an until-condition count as long.
 - Stacks with a stated cap count as stacking but are not flagged. Talent choices count only when they add a global, uncapped-stacking or no-timer disable effect.
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
-- The archetype average is the mean of the same measure over every other hero with the same Archetype in section 1, taken from the same test (UNVERIFIED until the first playtest).
+- The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
 ## 1. Table (112 heroes)
 
-| # | Hero | Archetype | Flag | Reason |
+| # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
 | 001 | Neckbeard | Heckler | - | Ult makes an ally untargetable; otherwise shield, heal, slow. |
 | 002 | Chungus | Bulwark | - | Slow and damage; team stat boost; ult gold per kill, timed. |

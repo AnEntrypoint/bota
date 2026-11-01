@@ -26,10 +26,10 @@ Numbers in this table are UNVERIFIED.
 | --- | --- |
 | Reach radius | 300 + 3 × Clout, capped at 600 |
 | Stan | Allied creeps inside Reach: +20% damage, +2 armor |
-| Bull Run threshold | 100 Clout, unless a talent sets its own (plan/21) |
-| Bull Run duration | 20 s |
-| Bull Run effects | Reach +200; caster revealed on the global minimap |
-| Clout after Bull Run | 25 |
+| Hype Spike threshold | 100 Clout, unless a talent sets its own (plan/21) |
+| Hype Spike duration | 20 s |
+| Hype Spike effects | Reach +200; caster revealed on the global minimap |
+| Clout after Hype Spike | 25 |
 | Markdown on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally |
 | Clout decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
 | Cap on Markdown | At most 200 Clout moves in one death |
@@ -44,16 +44,16 @@ Each hero is in one of four states at any time. The state sets what the rest of 
 
 1. **Quiet.** Below 100 Clout and no enemy vision. Earns gold and XP only.
 2. **LIVE.** An enemy hero has the hero in vision. The violet LIVE dot shows on the portrait. Clout is earned.
-3. **Bullish.** At 100 Clout. Bull Run is active for 20 s. The hero is revealed on the global minimap.
-4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn. When states overlap, Marked down wins, then Bullish, then LIVE, then Quiet.
+3. **Hyped.** At 100 Clout. Hype Spike is active for 20 s. The hero is revealed on the global minimap.
+4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn. When states overlap, Marked down wins, then Hyped, then LIVE, then Quiet.
 
-- Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the global reveal that a Bullish hero gives up for 20 s.
+- Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the global reveal that a Hyped hero gives up for 20 s.
 
 Rebrand resets a hero to Quiet at 0 Clout.
 
 ### Design rules
 
-- Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach (which carries the Stan buff), Bull Run and the Late-game Clout carry mood.
+- Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach (which carries the Stan buff), Hype Spike and the Late-game Clout carry mood.
 - Clout moves between teams only through the rules that name it: Deny takes it from the nearest enemy hero, and Markdown moves it on death. The ally tether (section 2) shares a fraction of an ally's Clout, and only with that ally.
 - Clout is shown as one number on the top bar, abbreviated (1.2K) and exact on hover.
 

@@ -27,7 +27,7 @@ Launch counts assume 24 heroes and four abilities each. Full-roster counts (112 
 | Generic status icons | 12 | 64 × 64 |
 | Trend modifier icons | 8 | 64 × 64, plus 256 × 256 banner |
 
-Clout status icons: Reach (concentric arcs), Stan (raised sign), Bull Run (spike with ring timer), Markdown (split circle), LIVE (filled dot with ring), Resell stacks 1 to 5 (curved double arrow with pips), Snapshot (corner brackets), Go Private (padlock with timer ring), Rebrand (circular arrow around a blank tag).
+Clout status icons: Reach (concentric arcs), Stan (raised sign), Hype Spike (spike with ring timer), Markdown (split circle), LIVE (filled dot with ring), Resell stacks 1 to 5 (curved double arrow with pips), Snapshot (corner brackets), Go Private (padlock with timer ring), Rebrand (circular arrow around a blank tag).
 
 ### Items
 
@@ -53,7 +53,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | The Trending Pit | 1 | Recessed amphitheater with marginal props |
 | Bases | 2 | Morning Market and Late Night Market |
 | Terrain kits and props | 3 kits, 120 props | Lanes, jungle, river |
-| Towers (Moderators) | 8 | Four tiers across two teams. Tier read by size and stacked stamps. |
+| Towers | 8 | Four tiers across two teams. Tier read by size and stacked stamps. |
 | Content Mills | 4 | Melee and ranged, two teams |
 | Exchange | 2 | Pinned listing-card monolith. Ends as a grey, half-height monolith; the \[deleted\] placeholder is an end-screen gag only. |
 | Boosts | 7 | Each a unique shape |
@@ -93,7 +93,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 | Effect | Specification |
 | --- | --- |
-| Bull Run glow, 20 s | Steady violet rim light. Slow upward particles. Shadow counter. |
+| Hype Spike glow, 20 s | Steady violet rim light. Slow upward particles. Shadow counter. |
 | Markdown record-scratch | Clout bar halves. Violet arc from corpse to killers. 0.3 s desaturation on the victim's screen. |
 | Resell arcs | Ally-blue dotted arc with grey core and via tags. At most 5 drawn. |
 | Trend banner | Slides from top, 2 s |
@@ -106,7 +106,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Category | Count | Direction |
 | --- | --- | --- |
 | Announcer stingers | 40 | Fad-forward, reactive, expressive |
-| Clout SFX | 8 | Gain tick, Bull Run start and end, Markdown scratch, LIVE on and off, Resell link, Rebrand |
+| Clout SFX | 8 | Gain tick, Hype Spike start and end, Markdown scratch, LIVE on and off, Resell link, Rebrand |
 | Trend SFX | 10 | Spawn, modifier reveal, attacks, death, Snapshot pickup and revive |
 | UI SFX | 40 | Click, hover, purchase, error, pick, ban, ready |
 | Ambient beds | 5 | Two bases, river, jungle, pit. Sound only, no music. |

@@ -22,9 +22,9 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 ### A2. What the build pipeline does with that data (question b)
 
 - `scripts/dev/stage.sh`: builds wasm when the pkg is missing, runs `mapexport` for each pack in a fixed loop (`for p in moba duel-routes`, line 16), then calls `scripts/layout-site.sh`.
-- `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 26), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 33). It does not copy `internal/`.
-- `.github/workflows/ci.yml` (lines 88 to 90) and `pages.yml` (lines 90 to 92) build `mapexport` and name both packs explicitly.
-- `.github/workflows/tests.yml` (lines 130 and 152 to 165) runs `mapexport` twice and compares the bytes.
+- `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 26), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 33). It does not copy `247420/internal/`.
+- `.github/workflows/ci.yml` (lines 139 to 141) and `pages.yml` (lines 75 to 77) build `mapexport` and name both packs explicitly.
+- `.github/workflows/tests.yml` (lines 152 to 165) runs `mapexport` twice and compares the bytes.
 - `scripts/pack-package.mjs`: `--build` runs `mapexport` first; archives are split above 25 MiB.
 - `scenarios/moba/tools/check-fx.mjs` runs in CI (docs/MODDING.md).
 - `rust/gate/` holds check modules (checks.rs, mechanic_checks.rs, spell_checks.rs, mod_checks.rs). Not read for this note.
@@ -33,7 +33,7 @@ Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. 
 
 ### A3. Is there a 6.88g data source, and where (question c)
 
-- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The path the engine doc gives is not present on this machine. A listing of the engine repo's parent folders shows no such file, and a filename search for "w3x" in the repo returns nothing. Decision 21 keeps this a blocker for section 4.
+- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The name the engine doc gives is not on this machine, but a file of the same size, `DotA v6.88g Allstars.w3x` (41,467,779 bytes, MPQ header), is outside the repo. Decision 21 now lets section 4 run against it.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
 - The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).
@@ -80,7 +80,7 @@ items.tsv      item_id slug name kind tier cost components stats active stock re
 **Generated outputs, one direction only.**
 
 1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs`. The `tools/` folder is excluded from Pages by `layout-site.sh` line 26.
-2. The markdown tables in `plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
+2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
 3. A drift check: the tool regenerates everything and fails if the tree differs. This copies the determinism check already in `tests.yml`.
 
 Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing flows back. Before the first generation the plan markdown is the source, so the first TSV is produced once from it and reviewed. After that cutover, a number is typed only in the TSV.
@@ -94,7 +94,7 @@ Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing f
 
 **Units.** Numbers are typed in plan units: seconds, percent, gold and game units. The generator converts. Seconds become ticks at 16 per second, rounded (3.8 s is 60.8 ticks, so 61). Percentages become Q16 (65536 equals 1.0). Distance is in game units, the engine whole-unit scale: 1 game unit is 125/8 milli-units (section 20, decision 24).
 
-**Pack location.** Option A is `scenarios/brainrot/`. It ships automatically through `cp -r scenarios`, but it needs `mapexport` lines added to `stage.sh`, `pages.yml` and `ci.yml`. Option B is a separate `pack/` folder, which needs a copy line in `layout-site.sh`. Use B for the first slice; move to A when the pack wiring lines land.
+**Pack location.** Option A is `scenarios/brainrot/`. It ships automatically through `cp -r scenarios`, but it needs `mapexport` lines added to `stage.sh`, `pages.yml` and `ci.yml`. Option B is `247420/pack/`, which does not exist yet and needs a copy line in `layout-site.sh`. Use B for the first slice; move to A when the pack wiring lines land.
 
 ## 3. Smallest first-playable slice: data files
 
@@ -107,7 +107,7 @@ The slice is file 26: six heroes, two modifiers, a fixed draft order, one stage 
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 7 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note (Sticky Note and Ring Light build Lurker Cam; Drafted Note and Sticky Note build Spoiler Tag). Rebrand is an action, not an item (section 5). |
 | `modifiers.tsv` | 2 | Lua rule | Cast Rush and Learn to Code |
-| `rules.tsv` | about 30 | rules file | Clout: Bullish at 100, 20 s, 25 after, cap 200, decay. Reach: 300 base, plus 3 per Clout, cap 600. Stan: +20% damage, +2 armor. Resell: cap 5, +8%, radius 600, 4 s decay. Markdown: 50%. |
+| `rules.tsv` | about 30 | rules file | Clout: Hyped at 100, 20 s, 25 after, cap 200, decay. Reach: 300 base, plus 3 per Clout, cap 600. Stan: +20% damage, +2 armor. Resell: cap 5, +8%, radius 600, 4 s decay. Markdown: 50%. |
 | `moods.tsv` | 3 | Lua | Front Runner, Underdog and Even (file 06) |
 | `events.tsv` | 1 | Lua | Breaking News zone rules (file 12) |
 | `camps.tsv` | 2 | `spawn(...)` | one stage camp per side (file 26) |
@@ -119,7 +119,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 ## 4. Which plan numbers can be checked against 6.88g today
 
-**Short answer: none can be confirmed today.** The archive is not on this machine (A3). The pairing between plan names and 6.88g rows lives in `internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 95 launch-ability rows against 96 slots, and 32 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
+**Short answer: none has been checked yet.** The 6.88g map is on this machine outside the repo (A3). The pairing between plan names and 6.88g rows lives in `247420/internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 95 launch-ability rows against 96 slots, and 32 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
 
 | Plan number | Section | Repo value and where it sits | Status |
 | --- | --- | --- | --- |
@@ -130,7 +130,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 | Tower HP 1300, 1600, 1600, 2200; tower gold 160 to 280 | 3, 5 | Tower rows are keyed by role in `units.osd`. The convergence report says role keys do not pair by name. | UNVERIFIED |
 | Item costs (Lurker Cam 65 up to Rapier 6000) | 11 | Item costs in `items.osd` come from the third-party dump, not 6.88g (docs/CONVERGENCE_688G.md, intro) | UNVERIFIED |
 | Trend HP 8000, plus 175 per minute; magic resistance 55% | 12 | The repo has a boss row from 6.88g (section 8 of the convergence report). Pairing needs the map. | UNVERIFIED |
-| Clout, Markdown, Resell, Bull Run, Stan values | 6, 8 | Brainrot originals. A classic archive cannot contain them. | UNVERIFIED by construction |
+| Clout, Markdown, Resell, Hype Spike, Stan values | 6, 8 | Brainrot originals. A classic archive cannot contain them. | UNVERIFIED by construction |
 | Ability value tiers (damage 80 to 320, cooldowns, sigma) | 9 | Repo ability rows are original-game values, all UNVERIFIED | UNVERIFIED |
 | Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md line 315 gives ultimates 6, 11, 16 | Agrees with the plan. See R4. |
 
@@ -140,7 +140,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 ### Risks
 
-- **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `internal/`, so the map does not ship today.
+- **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `247420/internal/`, so the map does not ship today.
 - **R2. The plan is tracked but outside the build.** `plan/` and `internal/` are tracked in git; `layout-site.sh` does not copy them. Drift checks can read them in CI, but generated plan tables are never shipped.
 - **R3. Pack wiring is hard-coded.** `stage.sh` line 16, `pages.yml` lines 91 to 92 and `ci.yml` lines 89 to 90 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
 - **R4. Ultimate gates agree.** FORMAT.md line 315 gives 6.88g ultimates 6, 11 and 16, the same as plan sections 7 and 9.
@@ -158,9 +158,9 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
   - Files 10 and 15 still use short archetype labels ("Late-game Clout carry", "Ghost-account summoner", "Resell healer, buffer", "Offline sustain") while files 09, 14 and 19 use the full names. The TSV `alias` column carries both.
   - Rebrand is an action, not an item (file 05); file 26 matches.
   - `00-index.md` lists files 00 to 26 and its links resolve (checked 2026-10-27).
-- **R12. The source is moving.** During this session files 06, 11, 12 and 14 changed, and files 22, 23, 24 and 26 were added. Generators must find tables by heading and must reject duplicate or missing headings.
-- **R13. The 6.88g archive is absent.** The convert tools cannot run here, so the derived tables cannot be regenerated from the source. The local checkout and origin/main matched on 2026-10-27.
-- **R14. Local changes are uncommitted.** `scripts/dev/stage.sh` and several `js/client` files were modified at session start. The `stage.sh` facts in A2 come from the working tree.
+- **R12. The source moved on 2026-10-27.** Files 06, 11, 12 and 14 changed, and files 22, 23, 24 and 26 were added. Generators must find tables by heading and must reject duplicate or missing headings.
+- **R13. The 6.88g map is on this machine.** The convert tools can run against it; no derived table has been regenerated from it yet. The local checkout and origin/main matched on 2026-10-27.
+- **R14. Local changes on 2026-10-27.** `scripts/dev/stage.sh` and several `js/client` files were modified in the working tree that day. The `stage.sh` facts in A2 come from the working tree.
 - **R15. Measured mismatch in the scenario data.** The convergence report counts 366 differing field comparisons (docs/CONVERGENCE_688G.md section 3). The scenario stats are therefore not 6.88g values even where names pair.
 
 ### Open questions
@@ -170,7 +170,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 ### Resolved (moved from open questions)
 
 - **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-- **Pack location: resolved.** The slice pack uses the option B `pack/` folder; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
+- **Pack location: resolved.** The slice pack goes in option B's `247420/pack/` folder, which does not exist yet; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 - **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 - **Rebrand: resolved.** An action (file 05), never an item.
 - **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).
