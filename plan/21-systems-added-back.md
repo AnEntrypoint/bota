@@ -84,16 +84,6 @@ Numbers in this section are UNVERIFIED.
 - Adds one second effect to a basic ability on the holder. The effect per hero is UNVERIFIED; the balance pass sets it.
 - Stacks with Pro Plan.
 
-### Decoy Posts
-
-- Fifteen Decoy Post buildings per base. Each has 500 HP, no armor and a 5 gold bounty.
-- Decoy Posts do not count toward tiers or the win condition. Creeps do not target them.
-
-### Stat Boost
-
-- A fifth skill. It takes unspent ability points, after the three basic skills and the ultimate are maxed.
-- Each point gives +2 to all three attributes. Maximum 10 points.
-
 ### Chat Check
 
 - Reveals enemy heroes within 900 radius for 8 s.

@@ -17,7 +17,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 01 | Two outer panels slide together like Willie's ship helm turning, revealing the first Trend modifier. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Repost adds a via tag to the chain. By the fifth link the original is too small to read. [GUESS] | Repost | Chain of 3 or more | Spectator and hover only |
-| 04 | Header: Your post was ratioed, under Harold's WORLD'S BEST mug. Killers listed as Top replies. Line: Engagement redistributed: 50%. | Ratio | Death | Standard damage table first. |
+| 04 | Header: Your post was ratioed, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Ratio | Death | Standard damage table first. |
 | 05 | Hero name followed by a small grey formerly tag, like Acorn's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. Cosmetic. The padlock is the read. | Go Private | Activation | Cosmetic. The padlock is the read. |
 | 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS] | The Trend | Kill | Fades on respawn |
@@ -35,7 +35,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 19 | A hero who dies three times in a row gets a small steam puff over the portrait. | Deaths | Third death in a row | Portrait only. |
 | 20 | A hero who dies while Viral gets a grey Viral-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Go Viral, Rebrand | Death while Viral | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge | Cosmetic. Never in a fight. |
-| 22 | At 100 Clout a floating brain icon appears above Helios's marble bust, with sarcastic commentary on the Trend. Reduced opacity. [GUESS] | Go Viral | At 100 Clout | Self and allies only. Reduced opacity. |
+| 22 | At 100 Clout the Clout bar shows the Go Viral threshold. [GUESS] | Go Viral | At 100 Clout | Self and allies only. |
 | 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the portrait. Portrait only. | Ratio on death | Death with 200+ Clout | Portrait only. |
 
 ### Running bit

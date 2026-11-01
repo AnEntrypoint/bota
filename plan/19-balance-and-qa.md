@@ -1,5 +1,5 @@
 # 19. Balance and QA
-Every hero plays against the others in fights. Each archetype has a fixed power budget, at least one hard counter and at least one soft counter. Hero numbers are set from these budgets.
+Every hero plays against the others in fights. Each archetype has a fixed power budget and at least one hard counter. Hero numbers are set from these budgets.
 
 ### Archetype budgets
 
@@ -36,16 +36,16 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
 | Hard disable cap | 3 per team in any 10 s window. A fourth is shortened to 0.5 s. |
-| Counter coverage | Every hero has at least one hard counter and at least one soft counter, drawn from the table above |
+| Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
 | Ratio ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
 | Go Viral limit | One Go Viral active per team at a time |
 | Repost cap | Five stacks per target. Stacks from one source do not stack twice. |
 
 ### Stat sheet
 
-- HP, damage, armor and mana are set to the archetype tier.
+- HP, damage, armor and mana per tier (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 mana; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
 - Attack time (BAT) and turn rate are set per hero, and are the main tool for a hero's feel.
-- Movement speed is capped at 522.
+- Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).
 
 ### Balance process
 

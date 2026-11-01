@@ -17,7 +17,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note and Ring Light. |
 | Presentation | LIVE dot, Clout bar, death recap (Ratio), Rebrand record, announcer lines for kills and Ratio. |
 
-**Not in the slice:** Showrunner Draft (draft is a fixed pick order for the slice), the full talent trees, neutral items, Decoy Posts, Safe Spots, Stat Boost, Chat Check, Go Private, Scalper, Seasons, spectator reactions, the other 18 heroes.
+**Not in the slice:** Showrunner Draft (draft is a fixed pick order for the slice), the full talent trees, neutral items, Safe Spots, Chat Check, Go Private, Scalper, Seasons, spectator reactions, the other 18 heroes.
 
 **Exit criteria:** the runnable checks below pass across at least 200 matches (UNVERIFIED), and the eight playtest scenarios each record a result.
 
@@ -30,7 +30,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Trend modifiers | 2 | 8 | Compare two before adding more. |
 | Talents | None | Full sets from section 21 | Power growth comes after the base kits are tested. |
 | Neutral items | None | Section 21 | Tested after camps are proven. |
-| Decoy Posts, Safe Spots, Stat Boost | None | Section 21 | Not needed to test Clout. |
+| Safe Spots | None | Section 21 | Not needed to test Clout. |
 | Chat Check | None | Section 21 | Vision is covered by wards. |
 | Go Private | None | Section 3 | Building defence is tested later. |
 | Repost chain | Yes, cap 5 stacks | Full rules | It is a core system, so it is included at full cap. |
@@ -48,7 +48,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Viral.** A Viral hero dies. Pass: the CANCELLED stamp shows, and Rebrand swaps it for Rebranded.
-8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Ratio and Repost. Pass: each signal is readable without its color.
+8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Ratio and Repost. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
 
 ## Runnable checks
 
@@ -64,7 +64,7 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C6 | Disable cap | Hard disables per team | Fourth disable in any 10 s window | Shortened to 0.5 s every time |
 | C7 | Snowball | Matches with a 10,000 gold deficit | Comeback rate | At least 10% |
 | C8 | Rename regression | Win rate before and after a rename | Difference in points | Within 1 point |
-| C9 | Chat mute | Mutes in the first 10 minutes | Share of players | Rotate the phrase pool above 25% |
+| C9 | Chat mute | Mutes in the first 10 minutes | Share of players | At most 25% of players mute; above 25%, rotate the phrase pool |
 | C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
 
 The Clout-only rule (decision 9 in section 20) is checked by reading the effect text of every Clout effect. It is not a runtime check.

@@ -37,7 +37,7 @@ Bounty boosts spawn at the river at game start. Four in total. They give gold an
 
 ### The Trend
 
-A faceless boss built from stacked trending banners.
+A faceless boss built from stacked trending banners. Every number in this block is UNVERIFIED.
 
 | Property | Value |
 | --- | --- |
