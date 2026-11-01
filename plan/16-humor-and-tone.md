@@ -3,7 +3,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 
 ### Rules
 1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Trollhunter bumps old threads (GUESS), Pointing points at everything.
-2. Every joke has a setup and a punchline. Harold's WORLD'S BEST mug is the setup; the pained grimace is the punchline.
+2. Every joke has a setup and a punchline.
 3. Voice is expressive and reactive. Rageguy and Krazed scream; Viking reacts by scrolling past. Only the Hot-take initiator screams.
 4. Gags have a lifespan. Forever replays the same loop, Acorn rebrands every week (GUESS), Krazed's keyboard breaks once and is folded into the next patch.
 5. Meme vocabulary is the roster's own Trend and Clout terms: Smugcat's squint carries cope, Viking's Load more carries the Trend, Npc repeats one line (GUESS). Phrases rotate per patch. Three dated platform memes are kept on purpose: Nobody: / Me: (gag 18), [deleted] (gag 11), CANCELLED (gag 20).
@@ -25,7 +25,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (section 11). | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Trending in your lane banner on the favored lane, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Original Post as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Original Post | End screen | Requires a click. Clean stats view is the default. |
-| 12 | The hero's own shadow shows a ticking follower count. Reduced opacity. [GUESS] | Go Viral | Activation | Self and allies only. Reduced opacity. |
+| 12 | The hero's own shadow shows a ticking Clout count. Reduced opacity. [GUESS] | Go Viral | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP flashes Fact check pending over the killer's portrait. | Kills | Kill at under 10% HP | 1.5 s, portrait only, once per 2 min. |
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s. |
 | 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash captioned Reality. | Bottle of Copium | Item ends | Portrait only. |
@@ -69,7 +69,7 @@ The formerly tag (gag 05) is the running joke. Its rules and sample lines are in
 | Surrender vote passes | Thread abandoned. |
 | Rebrand while Ratioed | Not cancelled. Rebranded. |
 
-Each event has a pool of three to five lines.
+Each event has one line. The Alternates table adds eight lines for game states that no event line covers.
 
 ### Alternates
 

@@ -131,5 +131,5 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 
 ## Open items
 
-- Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose; the owner should confirm them. Section 2 to 4 of the earlier doc (abilities, items, Trend costumes) are not reissued for the new roster.
+- Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn (plan/20 decision 25). Section 2 to 4 of the earlier doc (abilities, items, Trend costumes) are not reissued for the new roster.
 - Body percentages and luminance mapping are design targets, UNVERIFIED, until the palette pass.

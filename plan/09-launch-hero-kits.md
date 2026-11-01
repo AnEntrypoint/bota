@@ -18,7 +18,6 @@ Every ability uses one of these tiers. Each hero's abilities are sized to them, 
 
 Notes:
 
-- Ultimates have three levels. Each level unlocks at 6, 11 and 16.
 - Stun and root durations scale with the ability 2 table. Status resistance (section 21) reduces them.
 - Damage numbers are base values. Attribute scaling and item bonuses are added on top.
 - Hooks name the other hero and the ability they touch. A hook that needs a counter read across heroes uses an existing unit counter from Lua (GUESS).
@@ -52,8 +51,8 @@ Notes:
 
 Notes:
 
-- Marble Dagger (Helios [065], Ability 1) keeps the dagger role. It throws a dagger. Formerly Anonymous Dagger.
-- Mirror Shade Mode (Helios [065], Ability 3) is the invisibility effect, formerly Anon Mode. The item Anon Mask (section 11) is separate.
+- Marble Dagger (Helios [065], Ability 1) keeps the dagger role. It throws a dagger.
+- Mirror Shade Mode (Helios [065], Ability 3) is the invisibility effect. The item Anon Mask (section 11) is separate.
 - Talent trees are in section 21.
 
 ### Emergent hooks

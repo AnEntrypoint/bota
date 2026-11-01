@@ -99,8 +99,8 @@ Every item holds the job of a classic item. The internal parity map pairs them; 
 
 Design notes:
 
-- Anon Mask replaces Anonymous Blade. It is an invisibility item. It is not a blink, and the name now matches the function.
-- The Helios ability Marble Dagger (formerly Anonymous Dagger, Anonymous Poster) keeps the dagger role, since it throws a dagger. GUESS (theme rename, bota/plan/09).
+- Anon Mask is an invisibility item. It is not a blink, and the name matches the function.
+- The Helios ability Marble Dagger keeps the dagger role, since it throws a dagger. GUESS (theme rename, bota/plan/09).
 - Pro Plan is the one ultimate upgrade per hero. It is the one hero-wide upgrade, and is named for what it does.
 - Attack-modifier stacking rules are simplified. Orbs do not stack, which keeps the rule simple.
 

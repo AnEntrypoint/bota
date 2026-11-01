@@ -103,7 +103,7 @@ The slice is file 26: six heroes, two modifiers, a fixed draft order, one stage 
 | File | Rows | Compiles to | Note |
 | --- | --- | --- | --- |
 | `manifest.json` | 1 | pack root | modules, image name, tables, rules file |
-| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Reach tank, initiator, Hot-take initiator, Waffle, Ghillie |
+| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Mallcop, Rageguy, Waffle, Ghillie |
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 6 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note and Ring Light (components of Lurker Cam). Rebrand is an action, not an item (section 5). |
 | `modifiers.tsv` | 2 | Lua rule | Cast Rush and Learn to Code |

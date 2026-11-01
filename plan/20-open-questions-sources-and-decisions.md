@@ -27,6 +27,7 @@
 | 22 | The parity map stays internal: tracked in git, never copied into plan/, the site or a pack. | Keeps original names out of shipped text |
 | 23 | The engine build is not started in this round. The first-playable slice (plan/26) is the next task, and it starts once the repo is synced (the local checkout and origin/main matched on 2026-10-27). | A build needs the repo state fixed first |
 | 24 | Plan distances are game units: 1 game unit is 125/8 milli-units. | Removes the last unit ambiguity for the data generator |
+| 25 | Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn. | No owner confirmation is pending; the default is recorded here so plan/22 has no open item. |
 
 ### Open questions
 

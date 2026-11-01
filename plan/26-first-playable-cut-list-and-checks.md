@@ -33,7 +33,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Decoy Posts, Safe Spots, Stat Boost | None | Section 21 | Not needed to test Clout. |
 | Chat Check | None | Section 21 | Vision is covered by wards. |
 | Go Private | None | Section 3 | Building defence is tested later. |
-| Repost chain | Yes, cap 5 stacks | Full rules | It is a pillar, so it is included at full cap. |
+| Repost chain | Yes, cap 5 stacks | Full rules | It is a core system, so it is included at full cap. |
 | Gags | Death recap, Rebrand record, announcer | All others | Gags are presentation, not balance. |
 | Seasons and spectator reactions | None | Section 21 | Not part of a test. |
 
