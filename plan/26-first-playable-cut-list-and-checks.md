@@ -14,7 +14,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
 | Modifiers | Two from the pool: Cast Rush and Learn to Code. |
-| Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note. |
+| Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light, Burner Phone and Drafted Note. |
 | Presentation | LIVE dot, Clout bar, Stan, Hype Spike and Resell signals, the Front Runner minimap icon, death recap (Markdown), Rebrand record, announcer lines for kills and Markdown. |
 
 **Not in the slice:** Showrunner Draft (the slice uses one fixed pick order of six picks, three per team, where A and B are the two teams: A, B, B, A, A, B, UNVERIFIED), the full talent trees, neutral items, Safe Spots, Chat Check, Go Private, Scalper, Seasons, spectator reactions, the other 18 of the 24 launch heroes.

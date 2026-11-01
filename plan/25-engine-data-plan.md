@@ -167,5 +167,4 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 - **Rebrand: resolved.** An action (file 05), never an item.
 - **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).
 - **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
-- **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
 - **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.

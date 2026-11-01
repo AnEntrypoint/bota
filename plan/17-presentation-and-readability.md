@@ -9,6 +9,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 | --- | --- | --- | --- |
 | Ability icon | 128 × 128 PNG | 32 px | Motif identifiable in grayscale by at least 4 of 5 observers (UNVERIFIED). Fills 60 to 75% of frame. Bottom-right 25% clear for cooldown numbers. |
 | Item icon | 88 × 64 PNG; 176 × 128 master | 44 × 32 | One object, ¾ view, rim light, no text |
+| Vote result banner | Top banner, 480 × 64 | 24 px | Text names the result: Surrender passed or Surrender failed, shown 5 s (UNVERIFIED). |
 | Status icon | 64 × 64 | 18 px | Single glyph in system color with 2 px dark outline |
 | Minimap hero icon | 32 × 32 (64 master) | 16 px | Head-only caricature reads as a solid silhouette (blind test: at least 4 of 5 testers name it, UNVERIFIED) |
 | Hero model | Gameplay zoom, 60 to 90 px tall |  | Silhouette identifies hero and facing, 90% or better in a blind test of 10 testers (UNVERIFIED) |

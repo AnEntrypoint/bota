@@ -146,7 +146,7 @@ Numbers in this section are UNVERIFIED.
 | Anon Mask | 800 | Fade for 5 s on use, 90 s cooldown, +20 damage |
 | Participation Trophy | 1,600 | Revive at the Spawn Lounge once, 5 min |
 | Heart of Brainrot | 2,400 | +600 HP, +5 HP regen. Nearby allies gain 5% less Clout |
-| Sleep Mode | 1,500 | Toggle between attribute and movement bonuses |
+| Sleep Mode | 1,500 | Toggle: +6 to every attribute, or +15% move speed (UNVERIFIED) |
 | Reply All | 1,800 | Reflects 25% of damage taken for 4 s |
 | Co-Working Space | 2,000 | Heal aura 150 radius, 4 HP per second |
 | Rescheduled | 1,800 | Stun 1.5 s, displace 250, 7 s cooldown |
@@ -157,7 +157,7 @@ Numbers in this section are UNVERIFIED.
 | Refresh Page | 5,000 | Resets all cooldowns, 280 s cooldown |
 | Rapier, Unironic | 6,000 | +200 damage. Drops on death, visible to all |
 | Dark Mode Shield | 4,500 | Spell immunity 4 s |
-| Main Character Energy | 4,200 | Aura burns nearby enemies for 150 per second |
+| Main Character Energy | 4,200 | Aura burns nearby enemies for 150 per second in a 400 radius (UNVERIFIED) |
 | Sponsored Style | 4,000 | Two illusions for 15 s |
 | Monetized | 3,500 | Creep kills give +25% gold |
 | Sheep Check | 3,000 | Polymorph 3 s, 15 s cooldown |

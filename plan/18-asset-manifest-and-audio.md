@@ -67,7 +67,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Asset | Count | Notes |
 | --- | --- | --- |
 | Melee, ranged, siege, two teams | 6 | Allies rounded hood. Enemies angular hood. |
-| Stan-buffed overlays | 6 | Raised sign and violet trim |
+| Stan-buffed overlays | 6 | Raised sign and orange trim |
 | Mega creeps | 6 | +25% scale, gold trim, original seal emblem |
 | Jungle camp creatures | 12 | NPCs, Spam, Shill, Troll-Bridge, Old Forum Ticker, and others |
 | Creep animations | 180 | Six per model: idle, walk, attack, death, Stan cheer, spawn |
