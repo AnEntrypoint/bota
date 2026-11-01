@@ -127,7 +127,7 @@ Design notes:
 | Envelope With Legs | 150 | Delivery Drone speed +25% |
 | Magic Enthusiast | 300 | Heal 120 on spell cast, +8% magic resistance |
 | Spoiler Tag | 75 | True sight ward, true sight 900, 6 min |
-| Ragequit Dagger | 900 | Blink 1,100 range, 12 s cooldown, +20 damage |
+| Ragequit Dagger | 900 | Hard Cut 1,100 range, 12 s cooldown, +20 damage |
 | Gem of Subtext | 800 | True sight 900 radius, drops on death |
 | Bottle of Copium | 800 | Restores 60 HP and mana per second for 12 s |
 | Smoke of Deniability | 700 | Group invisibility 6 s, 11 min restock |
@@ -159,4 +159,4 @@ Design notes:
 | Sycophant | 800 | Aura 500 radius: allies inside gain Reach +100. UNVERIFIED |
 | Drain Blade | 1,600 | 12% attack lifesteal for 6 s after an attack lands. UNVERIFIED |
 
-Costs set the tier bands in the component tree. Costs are final for v1 and change only in the balance pass.
+Costs set the tier bands in the component tree. Costs are UNVERIFIED until a playable build exists, and change only in the balance pass.

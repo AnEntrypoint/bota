@@ -21,7 +21,7 @@ Clout is the signature resource. A hero earns Clout only while an enemy hero can
 | Stan | Allied creeps inside Reach: +20% damage, +2 armor |
 | Go Viral threshold | 100 Clout |
 | Go Viral duration | 20 s |
-| Go Viral effects | Reach +200; lane spawns +1 melee creep per wave; caster revealed on the global minimap |
+| Go Viral effects | Reach +200; caster revealed on the global minimap |
 | Clout after Go Viral | 25 |
 | Ratio on death | Victim loses 50% of Clout, split among killer and assists |
 | Decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |

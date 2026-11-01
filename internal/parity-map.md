@@ -722,3 +722,12 @@ These are previous-draft names, not original MOBA names.
 | 110 | Scammer | Comeback Tour |
 | 111 | Preacher | Thunder Reply |
 | 112 | Scalper | Pit Boss |
+
+## Former Scalper kit
+
+| Original | Brainrot |
+| --- | --- |
+| Pit Post | Sold Out Snare |
+| Atrophy Feed | Markup Drain |
+| Gate Crash | Queue Bypass |
+| Hard Fork | Bulk Buy Drop |

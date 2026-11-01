@@ -3,6 +3,8 @@ These systems were left out of the earlier draft. They are part of the game. Eac
 
 ### Talent trees
 
+Numbers in these tables are UNVERIFIED.
+
 Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The launch heroes are listed below by hero name, with the ability names of sections 9 and 10. Heroes outside the launch set use the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
@@ -15,10 +17,10 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no mana |
 | Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Void Post radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Void Post hits twice / Mana regen doubles below 50% mana |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
-| Viking | Mead Feast slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Feast leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Feast hits Clout heroes for +10% |
+| Viking | Mead Feast slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Feast leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Feast hits heroes below 50% HP for +10% |
 | Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
 | Boxxy | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
-| Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to Clout heroes / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
+| Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
 | Frogger | Flying Cap Warning slows +1 s / Handlebar Appeal shield +50 | Frog Strike radius +50 / Helmet Lockdown +0.5 s | Handlebar Appeal reflects 10% / Flying Cap Warning marks the target for allies | Helmet Lockdown stuns on death / 1 Clout per 200 damage absorbed |
 | Airhorn | Airhorn Blast +1 stun / Canister Remove cleave +20% | Track Jacket Notice armor +2 / Escalating Blare +5% damage | Canister Remove marks the target / Airhorn Blast resets on kill | Escalating Blare grows +2% per cast / Target earns no Clout for 10 s |
 | Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Post crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Post kills give double Clout / Name hidden on death recap |
@@ -42,7 +44,7 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 | Stalker (Assassin, vision denial) | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
 | Heckler (Harasser, zoner) | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
 | Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Mana regen doubles below 50% mana |
-| Drifter (Ranged nuker) | Slow +10% / Root +1 s | Mana regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs Clout heroes |
+| Drifter (Ranged nuker) | Slow +10% / Root +1 s | Mana regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs heroes below 50% HP |
 | Herald (Repost healer, buffer) | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
 | Bulwark (Reach tank, initiator) | Slow +1 s / Shield +50 | Radius +50 / Stun +0.5 s | Reflect 10% / Mark for allies | Stun on death / 1 Clout per 200 damage absorbed |
 | Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
@@ -127,7 +129,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | --- | --- | --- |
 | Tinfoil | Lurk Meter: 8 s unseen charges one free Foil Mention. | Unseen play |
 | Boomer | Tracked Lawn marks a target; its LIVE state shows to the whole team as a counter. | Vision |
-| Disaster | Smirk Read freezes targets with more Clout than Disaster; others are only slowed. | Clout |
+| Disaster | Smirk Read freezes targets below 50% HP; others are only slowed. | Clout |
 | Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision |
 | Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach |
