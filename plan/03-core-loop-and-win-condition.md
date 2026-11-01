@@ -1,4 +1,6 @@
 # 3. Core loop and win condition
+
+Numbers in this chapter are UNVERIFIED.
 Two teams of five. Each team defends a base, a set of lanes, and an Original Post. Destroying the enemy Original Post wins the match.
 
 ### Lanes and structures

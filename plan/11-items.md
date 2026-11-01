@@ -1,6 +1,8 @@
 # 11. Items
 ### Inventory
 
+Numbers in this section are UNVERIFIED.
+
 - Six item slots, plus a six-slot stash. Backpack: three slots, see section 21.
 - Consumables stack. Stock-limited items have a restock timer (Lurker Cam, Smoke of Deniability).
 - Sell-back: full refund within 10 s of purchase, 50% after that. Screenshot and Gamer Fuel cannot be sold.
@@ -53,6 +55,8 @@ Cost bands (match the roster costs; the balance pass may move them):
 Assembly is discounted. A finished item may cost less than the sum of its components; the listed cost is the one paid, and the balance pass moves bands, not individual costs (section 20, decision 17).
 
 ### Item roster
+
+Numbers in this section are UNVERIFIED.
 
 Every item holds the job of a classic item. The internal parity map pairs them; it is not part of the plan or the shipped build. Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
 

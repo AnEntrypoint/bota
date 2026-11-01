@@ -1,12 +1,14 @@
 # 7. Heroes and attributes
-Every hero has three attributes, a primary attribute, and a base stat block. Heroes level to 25.
+
+Numbers in this chapter are UNVERIFIED.
+Every hero has three attributes, a primary attribute, and a base stat block.
 
 ### Attributes
 
 | Attribute | Per point | Notes |
 | --- | --- | --- |
 | Strength | +20 max HP, +0.1 HP regen | Melee durability |
-| Agility | +1 attack speed, +1/7 armor | Armor per point is 1/7 |
+| Agility | +1 attack speed, +1/7 armor |
 | Intelligence | +12 max mana, +0.05 mana regen, +1% spell amp per 16 INT | Spell amp is additive with item amp |
 
 Primary attribute: +1 damage per point of the primary attribute. There is no Universal attribute.
@@ -37,7 +39,7 @@ Each hero can override the base attack time and turn rate. These two values defi
 
 ### Respawn
 
-Heroes respawn at their Spawn Lounge. Respawn time is 5 + 3.8 × level seconds (section 5). Heroes spawn with full health and mana.
+Heroes respawn at their Spawn Lounge. Respawn time is in section 5. Heroes spawn with full health and mana.
 
 ### Hero shape
 

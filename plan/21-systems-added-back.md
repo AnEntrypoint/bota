@@ -59,6 +59,8 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 
 ### Neutral items
 
+Numbers in this section are UNVERIFIED.
+
 - One neutral item slot per hero. It sits outside the six inventory slots and the backpack.
 - Neutral items drop from jungle camps. A hero gets one choice of three. A new neutral replaces the old one.
 - Tier timings: tier 1 from 7:00, tier 2 from 17:00, tier 3 from 27:00, tier 4 from 37:00.
@@ -94,7 +96,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Status resistance
 
-- Base 0%. Items and talents add it.
+- Base 0%. Items and talents add it. It shortens the duration of each disable in plan/08 Disables by its percent (UNVERIFIED).
 - Reduces the duration of stuns, silences, roots, polymorphs, fear and taunts. Cap 50%.
 
 ### Algorithm Boost
@@ -158,6 +160,8 @@ A season is one patch. Each season rotates three things and changes no numbers:
 Numbers change only in the balance pass.
 
 ### Spectator reactions
+
+Numbers in this section are UNVERIFIED.
 
 - Spectators send reactions from the chat wheel (section 18). Each viewer has a 10 s cooldown per reaction.
 - Reactions show to spectators only. They have no effect on play.

@@ -1,4 +1,6 @@
 # 5. Economy
+
+Numbers in this chapter are UNVERIFIED.
 There are three currencies: gold (spent), XP (levels), and Clout (section 6, a Brainrot original). Gold is split into reliable gold (kills, towers, The Trend, bounties) and unreliable gold (creep income). Dying loses only unreliable gold.
 
 ### Gold

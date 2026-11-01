@@ -3,6 +3,8 @@ Clout is the signature resource. A hero earns Clout only while an enemy hero can
 
 ### Earning Clout
 
+Numbers in this section are UNVERIFIED.
+
 | Action | Clout | Condition |
 | --- | --- | --- |
 | Last hit | +1 | Inside enemy hero vision |
@@ -31,12 +33,14 @@ Numbers in this table are UNVERIFIED.
 
 ### Clout states
 
+Numbers in this section are UNVERIFIED.
+
 Each hero is in one of four states at any time. The state sets what the rest of the map can see.
 
 1. **Quiet.** Below 50 Clout, no enemy vision. Earns gold and XP only.
 2. **LIVE.** An enemy hero has the hero in vision. The violet LIVE dot shows on the portrait. Clout is earned.
 3. **Viral.** At 100 Clout. Go Viral is active for 20 s. The hero is revealed on the global minimap.
-4. **Ratioed.** Death. Clout transfers to the killer and assists. The hero returns to Quiet at spawn.
+4. **Ratioed.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn.
 
 Rebrand resets a hero to Quiet at 0 Clout.
 
