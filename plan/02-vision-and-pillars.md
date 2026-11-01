@@ -1,4 +1,6 @@
 # 2. Vision and pillars
+
+Numbers in this chapter are UNVERIFIED.
 6.88 Brainrot is a caricature MOBA. Every hero, item and creep is drawn to be read at a glance, and rewards a second look. The game runs on a classic MOBA decision set. The jokes ride on top of it.
 
 The AI theme is satire of the market, not of a real product. The AI items (section 11) carry it.

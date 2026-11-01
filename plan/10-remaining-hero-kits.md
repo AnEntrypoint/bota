@@ -157,4 +157,4 @@ Heroes without an entry carry no hook.
 ### Requests
 
 - A cross-hero stack channel is requested in the Requests list of plan/09.
-- A passive that reflects damage to an attacker with a per-hit cap (GUESS): Rolling Back, Receipt Reflect and Sad Clapback need the same rule.
+- A passive that reflects damage to an attacker with a per-hit cap (decision 38): Rolling Back, Receipt Reflect and Sad Clapback use it.

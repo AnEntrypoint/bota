@@ -13,7 +13,7 @@ Numbers in this section are UNVERIFIED.
 ### Shop
 
 - The Spawn Lounge shop is run by The Plug, the shop NPC (section 18). It sells every component, every Tier 1 finished item and the consumable wards.
-- The Back Alley Shop sells the Tier 2 and Tier 3 finished items. The two Side Shops sell components only (section 4).
+- The Back Alley Shop sells the Tier 2, Tier 3 and Tier 4 finished items. The two Side Shops sell components only (section 4).
 - Purchases spend reliable gold first, then unreliable gold.
 
 ### Component tree
@@ -53,7 +53,7 @@ Cost bands (match the Stats and costs table; the balance pass may move them):
 | Finished tier 3 | 1,400 to 2,400 |
 | Finished tier 4 | 3,000 to 6,000 |
 
-Assembly is discounted. A finished item may cost less than the sum of its components; the listed cost is the one paid, and the balance pass moves bands, not individual costs (section 20, decision 17).
+Assembly is discounted. A finished item may cost less than the sum of its components; the listed cost is the one paid before match modifiers (section 12), and the balance pass moves bands, not individual costs (section 20, decision 17).
 
 ### Item roster
 

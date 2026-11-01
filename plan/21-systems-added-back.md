@@ -100,7 +100,7 @@ Numbers in this section are UNVERIFIED.
 
 Numbers in this section are UNVERIFIED.
 
-- Job: vision (plan/02, Vision and wards row). The cost is the 8 s window.
+- Job: vision (plan/02, Vision and wards row). The cost is the 270 s shared team cooldown.
 - Reveals enemy heroes within 900 radius for 8 s.
 - Shared team cooldown of 270 s. Any hero on the team can cast it.
 
@@ -155,7 +155,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Frogger | A Flying Cap Warning-marked target loses half its Reach. | Reach |
 | Airhorn | Airhorn Blast reveals its target to the whole team for 2 s. | Reveal |
 | Helios | Mirror Shade Mode hides its Clout on the scoreboard. | Scoreboard |
-| Starwarskid | Clones inherit Reach but not Clout. | Clout |
+| Starwarskid | Clones inherit Reach but not Clout, unless the level-25 talent is taken. | Clout |
 | Chudjak | Each hard disable it lands gives its team Reach +50 for 10 s. | Reach |
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach |
 | Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal |

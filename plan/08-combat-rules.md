@@ -50,7 +50,7 @@ Numbers in this chapter are UNVERIFIED.
 
 Rules:
 
-- Hard disable cap: 3 hard disables per team in any 10 s window. A fourth is shortened to 0.5 s.
+- Hard disable cap: 3 hard disables per team in any 10 s window (a hard disable is defined in decision 37). A fourth is shortened to 0.5 s.
 - Purge: basic dispel removes most buffs and root. Strong dispel removes polymorph, silence and cyclone.
 - Spell immunity blocks magical damage and disables, not pure damage or HP removal.
 
