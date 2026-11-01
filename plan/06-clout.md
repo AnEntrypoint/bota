@@ -29,7 +29,7 @@ Numbers in this table are UNVERIFIED.
 | Hype Spike threshold | 100 Clout, unless a talent sets its own (plan/21) |
 | Hype Spike duration | 20 s |
 | Hype Spike effects | Reach +200; caster revealed on the global minimap |
-| Clout after Hype Spike | 25 |
+| Clout after Hype Spike | Set to 25 when Hype Spike ends at 20 s |
 | Markdown on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally |
 | Clout decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
 | Cap on Markdown | At most 200 Clout moves in one death |
@@ -44,7 +44,7 @@ Each hero is in one of four states at any time. The state sets what the rest of 
 
 1. **Quiet.** Below 100 Clout and no enemy vision. Earns gold and XP only.
 2. **LIVE.** An enemy hero has the hero in vision. The violet LIVE dot shows on the portrait. Clout is earned.
-3. **Hyped.** At 100 Clout. Hype Spike is active for 20 s. The hero is revealed on the global minimap.
+3. **Hyped.** At 100 Clout. Hype Spike is active for 20 s. The hero is revealed on the global minimap. Above 100 Clout, Reach keeps growing at 3 per Clout (the Reach radius row).
 4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn. When states overlap, Marked down wins, then Hyped, then LIVE, then Quiet.
 
 - Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the global reveal that a Hyped hero gives up for 20 s.

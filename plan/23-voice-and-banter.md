@@ -36,7 +36,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Grey (Drifter) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
 | Spudgunner (Drifter) | Full ticker on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
-| Boomer (Heckler) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
+| Boomer (Heckler) | Correction: across the lawn, then here, per the log. | Citation on file: the sun got me. | Weedwhacker idling. Logged, right behind you. |
 | Disaster (Firebrand) | THAT KILL! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
 | Tricky (Bulwark) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
@@ -46,7 +46,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Boxxy (Tether) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
 | Waffle (Bulwark) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
 | Chudjak (Bulwark) | Manifesto read aloud. Please remain where you are. | The manifesto fell out. I will pick it up, politely. | Holding the line, standing firm. Carry on, please. |
-| Airhorn (Heckler) | Canisters spent. Quiet now. | Earmuffs bounced off. Quiet, finally. | Jumping in place, counting canisters. |
+| Airhorn (Heckler) | Canisters spent. Logged: quiet now. | Earmuffs bounced off. Correction: quiet, finally. | Jumping in place. Canisters counted, per the log. |
 | Helios (Phantom) | Listed anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no listings. |
 | Starwarskid (Tether) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
 | Frogger (Showboat) | Okay, so. That landing was captioned for the replay. | Okay, so. Camera cut. Please don't clip that. | Okay, so. Nobody is filming. Smile anyway. |

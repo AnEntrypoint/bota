@@ -13,7 +13,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 | Hero kill | 110 + streak bounty + level × 9.9 | Reliable |
 | Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. Shared across heroes within 1,200 game units (UNVERIFIED). Reliable. |
 | Streak bounty | 60 at a kill streak of one, rising in equal steps to 480 at ten, rounded to whole gold (UNVERIFIED) | Reliable. Ends on death |
-| Tower | Team gold per tier (about 160, 200, 240, 280) | Reliable. Denied tower = 50%. |
+| Tower | Team gold per tier (about 160, 200, 240, 280) | Reliable. Denied tower (destroyed by the team that owns it) = 50% of the tier gold, to the team that destroys it. |
 | Lurker Cam kill | 100 gold, 25 XP | Reliable. Enemy ward, section 13 |
 
 ### Death and respawn

@@ -79,7 +79,7 @@ items.tsv      item_id slug name kind tier cost components stats active stock re
 
 **Generated outputs, one direction only.**
 
-1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs`. The `tools/` folder is excluded from Pages by `layout-site.sh` line 19.
+1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs` (a planned folder: no brainrot pack exists in the repo yet; the packs present are listed in A1). The `tools/` folder is excluded from Pages by `layout-site.sh` line 19.
 2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
 3. A drift check: the tool regenerates everything and fails if the tree differs. This copies the determinism check already in `tests.yml`.
 
@@ -90,7 +90,7 @@ Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing f
 - `hero_id`, `item_id`, `archetype_id` and `modifier_id` are append-only numbers. They are never reused. The generator sorts by these ids, never by plan order.
 - Engine name = `slug`, which must match `[a-z][a-z0-9_]*`, be at most 32 bytes for hero slugs (the wire's pick-name limit), and be unique within each name list.
 - A rename changes the `name` column only. Changing a `slug` is an engine rename, done once, in the generator.
-- The `status` column is `UNVERIFIED` (default), `checked:<repo path>` (only when a 6.88g value matched locally), or `design` (set by the balance pass). The generator prints it next to every number, which is the AGENTS.md rule that unknowns stay marked in the file that holds the value.
+- The `status` column is `UNVERIFIED` (default), `checked:<repo path>` (only when a 6.88g value equals the local value on the same named field, exactly), or `design` (set by the balance pass). The generator prints it next to every number, which is the AGENTS.md rule that unknowns stay marked in the file that holds the value.
 
 **Units.** Numbers are typed in plan units: seconds, percent, gold and game units. The generator converts. Seconds become ticks at 16 per second, rounded (3.8 s is 60.8 ticks, so 61). Percentages become Q16 (65536 equals 1.0). Distance is in game units, the engine whole-unit scale: 1 game unit is 125/8 milli-units (section 20, decision 24).
 

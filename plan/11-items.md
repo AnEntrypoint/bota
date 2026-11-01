@@ -42,6 +42,8 @@ Finished items by tier (built from the components):
 - **Tier 3:** Participation Trophy (Gem of Subtext + Tripod), Heart of Brainrot (Grindset + Old Hoodie), Sleep Mode (Smoke of Deniability + Charger), Reply All (Prompt Injection + Sticky Note), Co-Working Space (Boots of Scrolling + Tripod), Rescheduled (Gas Station Sushi + Cold Brew), Pro Plan (Lo-Fi Beats + Burner Phone), Dunk (Ragequit Dagger + Rubber Duck), Heavenly Feedback (Sycophant + Ring Light), Ghost Mode (Anon Mask + Old Hoodie), Drain Blade (Confident Answer + Cheap Dagger), Lite Plan (Bottle of Copium + Charger).
 - **Tier 4:** Refresh Page (Reply All + Cold Brew); Rapier, Unironic (Drain Blade + Ragequit Dagger); Dark Mode Shield (Ghost Mode + Old Hoodie); Main Character Energy (Heavenly Feedback + Ring Light); Sponsored Style (Co-Working Space + Ring Light); Monetized (Participation Trophy + Sticky Note); Sheep Check (Sleep Mode + Tripod).
 
+Where two finished items share a component set (Hot Sauce and Magic Enthusiast), the buyer picks which one the set crafts.
+
 Cost bands (UNVERIFIED; match the Stats and costs table; the balance pass may move them):
 
 | Tier | Cost band (gold) |
@@ -64,7 +66,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Brainrot item | Function | Flavor |
 | --- | --- | --- |
 | Ragequit Dagger | Short disengage | Logs off from your current position. |
-| Participation Trophy | One revive at the Spawn Lounge | Everyone gets one. |
+| Participation Trophy | One revive at the Spawn Lounge | Everyone can buy one. |
 | Refresh Page | Resets all cooldowns | Results may vary. |
 | Rapier, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
 | Gem of Subtext | Reveals invisible units and wards | Reads between the lines. |
