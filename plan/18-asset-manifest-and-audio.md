@@ -55,8 +55,9 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Terrain kits and props | 3 kits, 120 props | Lanes, jungle, river |
 | Towers (Moderators) | 8 | Four tiers across two teams. Tier read by size and stacked stamps. |
 | Content Mills | 4 | Melee and ranged, two teams |
-| Exchange | 2 | Pinned listing-card monolith. Ends on a \[deleted\] placeholder. |
+| Exchange | 2 | Pinned listing-card monolith. Ends as a grey, half-height monolith; the \[deleted\] placeholder is an end-screen gag only. |
 | Boosts | 7 | Each a unique shape |
+| Front Runner icon | 1 | White upward chevron on a grey disc (UNVERIFIED). |
 | Wards | 4 | Lurker Cam: closed-eye icon. Spoiler Tag: open-eye icon with a tag. Two teams. Placed and revealed states. |
 | Delivery Drones | 2 | Envelope on legs, plus flying upgrade |
 | Out-of-bounds marginalia | 10 | Static vignettes |

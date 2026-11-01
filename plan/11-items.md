@@ -40,7 +40,7 @@ Finished items by tier (built from the components):
 - **Tier 1:** Lurker Cam (Sticky Note + Ring Light), Dust of Receipts (Drafted Note + Sticky Note), Hot Sauce (Hot Sauce Bottle + Drafted Note), Link in Bio Scroll (Envelope + Old Hoodie), Envelope With Legs (Envelope + Sticky Note), Magic Enthusiast (Drafted Note + Hot Sauce Bottle), Spoiler Tag (Sticky Note + Drafted Note).
 - **Tier 2:** Ragequit Dagger (Cheap Dagger + Burner Phone), Gem of Subtext (Drafted Note + Rubber Duck), Bottle of Copium (Hot Sauce Bottle + Cold Brew), Smoke of Deniability (Burner Phone + Old Hoodie), Grindset (Cold Brew + Charger), Gas Station Sushi (Hot Sauce Bottle + Envelope), Lo-Fi Beats (Charger + Rubber Duck), Boots of Scrolling (Old Hoodie + Tripod), Anon Mask (Ring Light + Burner Phone), Confident Answer (Drafted Note + Ring Light), Prompt Injection (Rubber Duck + Sticky Note), Sycophant (Ring Light + Envelope).
 - **Tier 3:** Participation Trophy (Gem of Subtext + Tripod), Heart of Brainrot (Grindset + Old Hoodie), Sleep Mode (Smoke of Deniability + Charger), Reply All (Prompt Injection + Sticky Note), Co-Working Space (Boots of Scrolling + Tripod), Rescheduled (Gas Station Sushi + Cold Brew), Pro Plan (Lo-Fi Beats + Burner Phone), Dunk (Ragequit Dagger + Rubber Duck), Heavenly Feedback (Sycophant + Ring Light), Ghost Mode (Anon Mask + Old Hoodie), Drain Blade (Confident Answer + Cheap Dagger), Lite Plan (Bottle of Copium + Charger).
-- **Tier 4:** Refresh Page (Reply All + Cold Brew), Rapier, Unironic (Drain Blade + Ragequit Dagger), Dark Mode Shield (Ghost Mode + Old Hoodie), Main Character Energy (Heavenly Feedback + Ring Light), Sponsored Style (Co-Working Space + Ring Light), Monetized (Participation Trophy + Sticky Note), Sheep Check (Sleep Mode + Tripod).
+- **Tier 4:** Refresh Page (Reply All + Cold Brew); Rapier, Unironic (Drain Blade + Ragequit Dagger); Dark Mode Shield (Ghost Mode + Old Hoodie); Main Character Energy (Heavenly Feedback + Ring Light); Sponsored Style (Co-Working Space + Ring Light); Monetized (Participation Trophy + Sticky Note); Sheep Check (Sleep Mode + Tripod).
 
 Cost bands (match the Stats and costs table; the balance pass may move them):
 
@@ -145,7 +145,7 @@ Design notes:
 | Sleep Mode | 1,500 | Toggle between attribute and movement bonuses |
 | Reply All | 1,800 | Reflects 35% of damage taken for 4 s |
 | Co-Working Space | 2,000 | Heal aura 150 radius, 4 HP per second |
-| Rescheduled | 1,800 | Disable 1.5 s, displace 250, 7 s cooldown |
+| Rescheduled | 1,800 | Stun 1.5 s, displace 250, 7 s cooldown |
 | Pro Plan | 2,200 | Upgrades the ultimate per hero |
 | Dunk | 1,800 | Silence 4 s, +40 damage |
 | Heavenly Feedback | 1,800 | Disarm 2 s, slow 20% |

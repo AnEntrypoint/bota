@@ -20,13 +20,13 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 
 ### Archetype tiers (UNVERIFIED)
 
-The tier sets the total stat points and the ability power budget before the ±10% shift. Ability power is a budget, not a rank count: a hero spends at most 15 ranks (plan/07).
+The tier sets the total stat points and the ability power budget before the ±10% shift. Ability power is spent in ranks: a hero spends at most 15 ranks (plan/07), and each tier value is the ranks it may spend (UNVERIFIED).
 
 | Tier | Stat points | Ability power | Archetypes |
 | --- | --- | --- | --- |
-| 1 | 100 | 24 | Clout carry; Assassin, vision denial; Harasser, zoner; Hot-take initiator |
-| 2 | 90 | 20 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
-| 3 | 80 | 16 | Offline sustain |
+| 1 | 100 | 15 | Clout carry; Assassin, vision denial; Harasser, zoner; Hot-take initiator |
+| 2 | 90 | 12 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
+| 3 | 80 | 9 | Offline sustain |
 
 Allocation: start at the tier total, then shift up to ±10% by attribute and range. A shift up on one attribute is paid for by an equal shift down on others, so the shifted total equals the tier total. All values are UNVERIFIED.
 

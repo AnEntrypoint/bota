@@ -11,7 +11,7 @@
 | 03 | Heckler | Harasser, zoner | Forward diagonal | Mustard | Raised index finger | Replies to every Trend with a correction, even to its own abilities | Reply Guy |
 | 04 | Engine | Late-game Clout carry | Rigid vertical triangle | Cold teal | Chart-line spine plate | Maximizes every Clout threshold and cannot enjoy a single one | Demand |
 | 05 | Drifter | Ranged nuker | Long stooped diagonal | Night blue | Paper scroll trailing to the floor | Every ability loads more Trend the longer you keep scrolling | Doomscroller |
-| 06 | Herald | Resell healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Resell heals you and interrupts you in the same ping | Notification |
+| 06 | Herald | Resell healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Resell speeds your attacks and interrupts you in the same ping | Notification |
 | 07 | Bulwark | Reach tank, initiator | Big square | Grey with team color | Plate or shield held forward | Files every initiation as a polite form with maximum Reach | Moderator |
 | 08 | Phantom | Ghost-account summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with followers | Ghost |
 | 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Bullish hot take at emergency volume | Hot Take |

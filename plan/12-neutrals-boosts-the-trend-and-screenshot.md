@@ -18,7 +18,7 @@ Stacking:
 
 - A camp respawns on the minute if its spawn box is empty.
 - Pulling a camp out at about :53 to :55 stacks an extra camp for the next minute.
-- Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising 20 per tier (GUESS: 6.88g gives no step; the balance pass sets it; section 19 budgets cover heroes, not neutrals).
+- Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising 20 per tier (GUESS: no 6.88g source is checked; the balance pass sets the step; section 19 budgets cover heroes, not neutrals).
 - Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.
 - Stage camps: the camps beside the river's shallow crossings. A pull made while an enemy hero can see the camp gives +1 Clout per creature killed. Unwatched pulls give normal gold only.
 
@@ -39,7 +39,7 @@ Six listed boosts plus the Demand Boost (section 21): seven in total. Two spawn 
 | Dank Goods (Regeneration) | Heal over time | 20 s |
 | Bounty | Gold and XP on pickup | One-time |
 
-Bounty boosts spawn at the river at game start. Four in total. They give gold and XP, and the initial bounty gives no XP.
+Bounty boosts spawn at the river at game start. Four in total. They give gold and XP, except the first boost at game start, which gives gold only.
 
 ### The Trend
 
