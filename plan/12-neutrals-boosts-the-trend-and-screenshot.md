@@ -85,7 +85,6 @@ Two events per match, at 18:00 and 30:00 (UNVERIFIED). A banner slides in using 
 
 - **Capture:** a team with heroes inside and no enemy hero inside holds the zone. After 20 s held, its heroes get Front Page for 40 s: Reach +100.
 - **Contest:** if both teams have heroes inside, no progress is made.
-- **Underdog:** a team in the Underdog mood (section 6) captures at double speed.
 
 Front Page changes Reach only. It does not reveal anyone.
 

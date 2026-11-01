@@ -72,6 +72,8 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 
 ### Safe Spots
 
+Numbers in this section are UNVERIFIED.
+
 - Two Safe Spots per team, one at each river crossing next to the team's safe lane. Available from 0:00.
 - Active: heals all allies within 500 radius for 14% of max HP per second, for 5 s.
 - Cooldown 45 s, shared per Safe Spot.
@@ -105,7 +107,7 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 ### Algorithm Boost
 
 - Spawns with the other boosts on the river. Lasts 50 s.
-- While held: Reach +100 and a violet pip on the minimap. No cooldown or mana change.
+- While held: Reach +100 and a grey pip on the minimap. No cooldown or mana change.
 
 ### Gamer Fuel
 
@@ -133,7 +135,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision |
 | Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach |
-| Viking | When a rooted target dies, the root jumps to the nearest Clout hero within 300. | Clout |
+| Viking | When a rooted target dies, the root jumps to the nearest enemy hero within 300. | Clout |
 | Hank | Each Machete Meter stack adds Reach +20. | Reach |
 | Boxxy | Eyeliner Bleed shows its team each enemy's last seen position for 10 s. | Vision |
 | Waffle | Pillbox Apology gives a pinged ally Stan radius +100 for 5 s. | Stan |

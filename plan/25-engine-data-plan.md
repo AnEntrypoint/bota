@@ -33,14 +33,14 @@ Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. 
 
 ### A3. Is there a 6.88g data source, and where (question c)
 
-- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (docs/CONVERGENCE_688G.md, section 1). The path the doc gives, `/workspace/oscraft/reference map 6.88g.w3x`, is not present. A listing of `/workspace/oscraft` and `/workspace` shows no such file, and a filename search for "w3x" in the repo returns nothing.
+- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The path the doc gives, `/workspace/oscraft/reference map 6.88g.w3x`, is not present. A listing of `/workspace/oscraft` and `/workspace` shows no such file, and a filename search for "w3x" in the repo returns nothing.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
 - The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).
 
 ### A4. Does the wire layer limit where game data can live (question d)
 
-- Data lives in the pack directory and reaches the browser through the Pages site. Peers get data only from the host. The host edits, Save sends `PACK_FILE` frames, and a file over 256 KiB travels by content hash through `PACK_WANT` (docs/MODDING.md, docs/WIRE.md).
+- Data lives in the pack directory and reaches the browser through the Pages site. Peers get data only from the host. The host edits, Save sends `PACK_FILE` frames, and a file over 256 KiB travels by content hash through `PACK_WANT` (engine-repo files docs/MODDING.md, docs/WIRE.md).
 - A data change changes the image hash (FNV-1a over the image bytes). The host announces it with `SWAP` at a tick, each peer answers `SWAP_READY` or `SWAP_NOT_READY` for that tick and hash, and the host can drop it with `SWAP_CANCEL` (docs/WIRE.md, frames 14, 17 to 19).
 - Limits that touch data: a START seat's pick name is at most 32 bytes and its owner at most 64 (frame 10). Unit records carry a `u16` kind, which is a position in the image, and at most 4,096 units per frame. ROSTER carries at most 10 players. An ACTION body is at most 4,096 bytes.
 - Consequence: data can live in a pack and in Pages, but it cannot be fetched from a server and every peer must hold a byte-identical image. Generated data must therefore be byte-stable.
@@ -65,7 +65,7 @@ Status words: exists, partial (format or content partly there), missing.
 | Neutral item (21) | `data/neutral_items.tsv`: `tier` (1 to 4), `source_camp_size`, `item`, `stats`, `status`. Compiles to `items.osd` items with the neutral flag. | FORMAT ITEM: neutral flag and tier 0 to 5 | partial: the format fits |
 | Draft mode (14), Showrunner order, fixed slice order (26) | `data/draft_modes.tsv`: `mode`, `use`, `bans` (0 or 1), `pick_s`, `bonus_s`, `pool_size`. `data/draft_order.tsv`: `step` 1 to 20, `action` (ban or pick), `team` (1 or 2), `slice` (0 or 1). | `scenarios/moba/panels.lua` (the lobby hero grid, per commit subjects). No ban phase: the whole-word search for "ban" in scenarios/ returned zero. | partial: pick exists, modes and bans do not |
 
-Extra tables that the plan also has: wards (13) map to `items.tsv` rows. Lines (16, 23) map to `data/lines.tsv`, consumed by `moba_ui.json` or Lua. Scalars from sections 3, 5 and 7 map to `data/rules.tsv` and to `economy.osd` and `tuning.osd`, which exist. Power-tier letters are withdrawn (section 20, decision 20), so `heroes.tsv` carries the flag list only.
+Extra tables that the plan also has: wards (13) map to `items.tsv` rows. Lines (16, 23) map to `data/lines.tsv`, consumed by `moba_ui.json` or Lua. Scalars from sections 3, 5 and 7 map to `data/rules.tsv` and to `economy.osd` and `tuning.osd`, which exist in the engine repo. Power-tier letters are withdrawn (section 20, decision 20), so `heroes.tsv` carries the flag list only.
 
 ## 2. Single source of truth and generation direction
 
@@ -119,7 +119,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ra
 
 ## 4. Which plan numbers can be checked against 6.88g today
 
-**Short answer: none can be confirmed today.** The archive is not on this machine (A3). The pairing between plan names and 6.88g rows lives in `247420/internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 94 launch-ability rows against 96 slots, and 31 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
+**Short answer: none can be confirmed today.** The archive is not on this machine (A3). The pairing between plan names and 6.88g rows lives in `internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 94 launch-ability rows against 96 slots, and 31 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
 
 | Plan number | Section | Repo value and where it sits | Status |
 | --- | --- | --- | --- |

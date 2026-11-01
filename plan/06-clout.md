@@ -15,6 +15,8 @@ Clout is the signature resource. A hero earns Clout only while an enemy hero can
 
 ### Clout rules
 
+Numbers in this table are UNVERIFIED.
+
 | Rule | Value |
 | --- | --- |
 | Reach radius | 300 + 3 × Clout, capped at 600 |
@@ -51,7 +53,7 @@ Each team has one mood, set by the gap between the two teams' total Clout. Mood 
 | Mood | Entered when | Effect |
 | --- | --- | --- |
 | Front Runner | Team total ahead by 300 Clout or more for 30 s | Its heroes get Reach +50. Its highest-Clout hero shows on the minimap as a Front Runner icon for 20 s every 60 s. |
-| Underdog | Team total behind by 300 Clout or more for 30 s | Its heroes get Reach +50. It captures Breaking News zones at double speed (section 12). |
+| Underdog | Team total behind by 300 Clout or more for 30 s | Its heroes get Reach +50. |
 | Even | Neither of the above | No effect. |
 
 A mood ends when the gap falls below 150 Clout for 30 s, so moods do not flicker.

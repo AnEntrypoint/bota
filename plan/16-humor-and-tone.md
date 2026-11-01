@@ -33,7 +33,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 17 | The hero who killed you gets a tiny house icon for 2 min, and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row gets a small steam puff over the portrait. | Deaths | Third death in a row | Portrait only. |
-| 20 | A hero who dies while Viral gets a grey CANCELLED stamp on the scoreboard row. Rebrand swaps it for Rebranded. [GUESS] | Go Viral, Rebrand | Death while Viral | Scoreboard only. |
+| 20 | A hero who dies while Viral gets a grey Viral-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Go Viral, Rebrand | Death while Viral | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge | Cosmetic. Never in a fight. |
 | 22 | At 100 Clout a floating brain icon appears above Helios's marble bust, with sarcastic commentary on the Trend. Reduced opacity. [GUESS] | Go Viral | At 100 Clout | Self and allies only. Reduced opacity. |
 | 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the portrait. Portrait only. | Ratio on death | Death with 200+ Clout | Portrait only. |
