@@ -9,7 +9,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Area | In the slice |
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
-| Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Mallcop (Bulwark, Reach tank, initiator), Rageguy (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
+| Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Chudjak (Bulwark, Reach tank, initiator), Disaster (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
 | Clout | Earn, decay, Reach, Bull Run, Markdown on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |

@@ -71,7 +71,7 @@ Heroes with no hook: Forever [068], Lifehack [096].
 - Hank [046] with Jack [043]: a Machete Clip kill resets Jack's Tar Pulse cooldown (GUESS).
 - Boxxy [021] with Gopnik [050]: Sweater Slip protected allies draw Newsboy Chat boosts (GUESS).
 - Waffle [062] with Saxguy [023]: Tray Dismiss clears Sax Solo Lock silence (GUESS).
-- Frogger [092] with Mallcop [051]: Frog Strike landings leave Scooter Pivot stun points (GUESS).
+- Frogger [092] with Chudjak [028]: Frog Strike landings leave Manifesto Slam stun points (GUESS).
 - Airhorn [088] with Chudjak [028]: Airhorn Blast knocks Buzzcut Follow victims (GUESS).
 - Helios [065] with Oiler [093]: Marble Dagger pins the Lavender Boomerang return path (GUESS).
 - Starwarskid [053] with Gigaunit [101]: Mid-Spin Clone position is read by Layer Swap (GUESS).

@@ -45,11 +45,11 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Hank (Tether) | Machete, machete, machete again. | Lenses dimmed. Market went quiet. | Blades low. Refresh? Yes. Again. |
 | Boxxy (Tether) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
 | Waffle (Bulwark) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
-| Mallcop (Bulwark) | Stay where you are. Thank you. | Scooter stalled. Please remain calm. I will. | Idling on the scooter. Nothing to see. |
+| Chudjak (Bulwark) | Manifesto read aloud. Please remain where you are. | The manifesto fell out. I will pick it up, politely. | Holding the line, standing firm. Carry on, please. |
 | Airhorn (Heckler) | Canisters spent. Quiet now. | Earmuffs bounced off. Quiet, finally. | Jumping in place, counting canisters. |
 | Helios (Phantom) | Listed anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no listings. |
 | Starwarskid (Tether) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
-| Rageguy (Firebrand) | FIST UP. THAT WAS DESERVED. | VEINS BURST. THE GAME WAS WRONG. | FISTS SHAKING. NOTHING YET. |
+| Frogger (Showboat) | Okay, so. That landing was captioned for the replay. | Okay, so. Camera cut. Please don't clip that. | Okay, so. Nobody is filming. Smile anyway. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
 | Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
 | Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
@@ -65,7 +65,7 @@ Each pair plays once per match, on the first moment both heroes see each other. 
 | Pair | Hero | Line | Hero | Line |
 |---|---|---|---|---|
 | 1 | Disaster (Firebrand) | That ruling was a cold read, actually. | Airhorn (Heckler) | Canisters loaded. Your objection, overruled. |
-| 2 | Rageguy (Firebrand) | THIS THREAD NEEDS MY FISTS, IMMEDIATELY. | Mallcop (Bulwark) | Lower your voice, sir. Please. |
+| 2 | Frogger (Showboat) | Okay, so. The landing says hello. | Chudjak (Bulwark) | Please lower your voice. The line is holding. |
 | 3 | Tinfoil (Drifter) | I was not here. Foil suit says so. | Boxxy (Tether) | Seen you. Hands up, lurker. |
 | 4 | Grey (Drifter) | Stand in the orb light. Green flatters everyone. | Prepper (Bulwark) | Sunlight's free. Your glow has a subscription. |
 | 5 | Gigachad (Bulwark) | Your take has no source. Marble doesn't bend. | Wojak (Recluse) | Source? Floor. Look down. |

@@ -41,6 +41,7 @@
 | 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point. |
 | 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition. |
 | 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, Lamp Reflect, Reply All, Zip Tie Network, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap of one quarter of the hit, value UNVERIFIED. | Nine reflects need the same rule. |
+| 39 | The launch set is the 24 heroes with kits in plan/09, Frogger and Chudjak included. Mallcop and Rageguy are remaining heroes with kits in plan/10. The plan/23 voice, the plan/25 heroes.tsv row and the plan/26 slice follow this set. | plan/09 holds the kits and plan/21 the talents the engine data is built on. The voice and slice lines had been written for Mallcop and Rageguy, so they were retargeted to Chudjak, Frogger and Disaster. |
 
 ### Open questions
 

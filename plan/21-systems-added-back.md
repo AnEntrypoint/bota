@@ -109,7 +109,7 @@ Numbers in this section are UNVERIFIED.
 - Job: disable duration (plan/02, Disable duration row). The cost is the damage slot it replaces.
 
 - Base 0%. Items and talents add it. It shortens the duration of each disable in plan/08 Disables by its percent (UNVERIFIED).
-- The total reduction is capped at 50%.
+- The total reduction is capped at 50% (UNVERIFIED).
 
 ### Demand Boost
 

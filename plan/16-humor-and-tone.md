@@ -23,7 +23,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS] | The Trend | Kill | Fades on respawn |
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (section 11). | Items | Tooltip hover | Hidden in compact tooltips |
-| 10 | A Trending in your lane banner on the favored lane, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
+| 10 | A Trending in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Exchange as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Exchange | End screen | Requires a click. Clean stats view is the default. |
 | 12 | The hero's own shadow stretches toward the Clout bar. Reduced opacity. [GUESS] | Bull Run | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP flashes Fact check pending over the killer's name plate. | Kills | Kill at under 10% HP | 1.5 s, name plate only, once per 2 min (UNVERIFIED). |

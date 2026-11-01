@@ -11,8 +11,8 @@ Numbers in this section are UNVERIFIED.
 | --- | --- | --- |
 | Last hit | +1 | Inside enemy hero vision |
 | Deny | +0.5 | Taken from the nearest enemy hero, while that hero sees the creep |
-| Hero kill | +10 | None |
-| Assist | +4 | None |
+| Hero kill | +10 | Inside enemy hero vision |
+| Assist | +4 | Inside enemy hero vision |
 | Tower damage | +1 per 100 damage | While an enemy hero sees the tower |
 | Stage camp creature | +1 | While an enemy hero sees the camp |
 | Enemy ward | 0 | Reveals the warded area, earns nothing |
