@@ -41,6 +41,8 @@ Bounty boosts spawn at the river at game start. Four in total. They give gold an
 
 ### The Trend
 
+- Job: boss objective (plan/02, Boss objective and revive reward row). The cost is the pit contest, or the towers traded for it.
+
 A faceless boss built from stacked trending banners. Every number in this block is UNVERIFIED.
 
 | Property | Value |
@@ -68,7 +70,7 @@ Eight modifiers rotate each patch. Two are offered per kill:
 | Algorithm Tide | Clout gain +20%, Clout decay +50% |
 | Solo Queue | +8% ability damage while no ally is within 600, -10% move speed |
 
-The modifier shows on the minimap timer and as a team-colored HUD filter for its duration.
+The modifier shows on the minimap timer as its own icon, one per modifier, and as a team-colored HUD filter for its duration.
 
 ### Trend modifier check
 

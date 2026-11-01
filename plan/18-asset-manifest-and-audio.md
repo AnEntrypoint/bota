@@ -57,7 +57,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Content Mills | 4 | Melee and ranged, two teams |
 | Original Post | 2 | Pinned post-card monolith. Ends on a \[deleted\] placeholder. |
 | Boosts | 7 | Each a unique shape |
-| Wards | 4 | Lurker Cam and Spoiler Tag, two teams. Placed and revealed states. |
+| Wards | 4 | Lurker Cam: closed-eye icon. Spoiler Tag: open-eye icon with a tag. Two teams. Placed and revealed states. |
 | Delivery Drones | 2 | Envelope on legs, plus flying upgrade |
 | Out-of-bounds marginalia | 10 | Static vignettes |
 

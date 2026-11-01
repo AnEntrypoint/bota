@@ -43,7 +43,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 
 1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window.
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
-3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, which the 400 start makes bind at exactly 200, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
+3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, so the 200 cap binds exactly at 400 Clout, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
@@ -56,7 +56,7 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 
 | ID | Check | Input | Output | Pass |
 | --- | --- | --- | --- | --- |
-| C1 | Modifier win rate | Matches grouped by picked modifier | Win rate per modifier | 45 to 55% for each |
+| C1 | Modifier win rate | Matches grouped by picked modifier | Win rate per modifier | 45 to 55% for each, with at least 200 matches per modifier (UNVERIFIED) |
 | C2 | Modifier pick rate | Offers and picks | Share of offers picked | At most 65% |
 | C3 | Breaking News contest | Matches with both teams in the zone | Capture progress made | Zero |
 | C4 | Mood flicker | Mood flips with timestamps | Flips within 30 s of the last flip | Zero |
