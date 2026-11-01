@@ -18,6 +18,7 @@ Stacking:
 - Pulling a camp out at about :53 to :55 stacks an extra camp for the next minute.
 - Pulling a camp into the lane resets the lane's creep equilibrium.
 - Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising one step per tier (UNVERIFIED; section 19 budgets cover heroes, not neutrals).
+- Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.
 - Stage camps: the camps beside the river's shallow crossings. A pull made while an enemy hero can see the camp gives +1 Clout per creature killed. Unwatched pulls give normal gold only.
 
 ### Boosts
@@ -56,6 +57,8 @@ A faceless boss built from stacked trending banners. Every number in this block 
 ### Trend modifiers
 
 Numbers in this section are UNVERIFIED.
+
+- Job: patch meta (plan/02, Patch meta row). The cost is the modifier you do not take.
 
 Eight modifiers rotate each patch. Two are offered per kill:
 

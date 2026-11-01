@@ -29,5 +29,6 @@ Four rules every system must pass:
 | Sustain | Gamer Fuel restores HP and mana over time | Chug it mid-fight, or keep it for the next Trend drop |
 | Capture objective | Breaking News zone: a held zone gives its heroes Front Page reach | Contest the zone with heroes, or spend the rotation elsewhere |
 | Surrender | A 4 of 5 vote ends the match after 30 minutes | Vote early to save the match, or hold for a comeback |
+| Draft | The pick order sets the hero pool, the lanes and the items | Pick the hero that fits the lane plan, or deny the pool you need |
 | Buyback | Rebrand: costs gold, resets Clout to 0 | Respawn now with no Clout, or wait with Clout intact |
 | Support tether | Tethered support, dueler tether: 20% of an ally's Clout is shared | Stan the carry for safety, or the roamer for pressure |

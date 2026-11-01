@@ -1,6 +1,8 @@
 # 14. Draft and modes
 The draft is the first decision of the match. It sets the hero pool, the lane plan and the item plan.
 
+- Job: draft (plan/02, Draft row). The cost is the hero the other team takes first.
+
 ### Game modes
 
 | Mode | Use | Rule |

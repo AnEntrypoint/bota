@@ -35,6 +35,7 @@
 | 30 | The surrender vote has a plan/02 Surrender row: a vote that ends the match. | Decisions 26 and 28 cut systems with no classic job; this one has a classic forfeit, so it stays with a cost. |
 | 31 | Showboat's level-15 talent raises Reach by 25 in place of the undefined Clout cap. | Reach is defined in plan/06 Clout rules; Clout cap is not defined anywhere. |
 | 32 | Item classic jobs stay in internal/parity-map.md; the balance pass checks each item's Mapped job there. | A 50-row Job column would copy the internal mapping into the plan, against decision 22. |
+| 33 | Draft maps to a plan/02 Draft row, named in the draft chapter. | Drafting holds a classic job (plan/02 rule 3), and the pick order has a cost on each side (rule 2). |
 
 ### Open questions
 

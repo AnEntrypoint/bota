@@ -32,7 +32,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 16 | A hero who dies to their own ability, item or tower-aggro mistake gets a grey footnote: Self-inflicted. No replies needed. [GUESS] | Death recap | Self-inflicted death | Footnote only. |
 | 17 | The hero who killed you gets a tiny house icon for 2 min, and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
-| 19 | A hero who dies three times in a row gets a small steam puff over the portrait. | Deaths | Third death in a row | Portrait only. |
+| 19 | A hero who dies three times in a row gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
 | 20 | A hero who dies while Viral gets a grey CANCELLED stamp on the scoreboard row. Rebrand swaps it for a Rebranded stamp. [GUESS] | Go Viral, Rebrand | Death while Viral | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge | Cosmetic. Never in a fight. |
 | 22 | At 100 Clout the Clout bar shows the Go Viral threshold. [GUESS] | Go Viral | At 100 Clout | Self and allies only. |

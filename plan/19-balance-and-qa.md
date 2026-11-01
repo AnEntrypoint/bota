@@ -56,7 +56,7 @@ Numbers in this section are UNVERIFIED.
 | Stage | Measure | Action |
 | --- | --- | --- |
 | Stat sheet | Power budget per hero | Set HP, damage, armor and mana to the archetype tier |
-| Bracket test | Win rate by archetype, by bracket | Retune any archetype outside 47 to 53% |
+| Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% |
 | Matchup test | Win rate for each hard counter pair | Retune any pair outside 45 to 55% |
 | Pick and ban test | Pick rate and ban rate per hero | Retune any hero above 3× the average pick or ban rate |
 | Comeback check | Comeback rate after a 10,000 gold deficit | Adjust Ratio and decay if comebacks fall below 10% |

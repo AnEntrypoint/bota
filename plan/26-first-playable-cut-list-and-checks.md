@@ -15,7 +15,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
 | Modifiers | Two from the pool: Cast Rush and Learn to Code. |
 | Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note and Ring Light. |
-| Presentation | LIVE dot, Clout bar, death recap (Ratio), Rebrand record, announcer lines for kills and Ratio. |
+| Presentation | LIVE dot, Clout bar, Stan and Repost signals, death recap (Ratio), Rebrand record, announcer lines for kills and Ratio. |
 
 **Not in the slice:** Showrunner Draft (draft is a fixed pick order for the slice), the full talent trees, neutral items, Safe Spots, Chat Check, Go Private, Scalper, Seasons, spectator reactions, the other 18 heroes.
 
@@ -41,7 +41,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 
 Run each scenario in the build. Record the result, the time taken and any sign that a rule was unreadable.
 
-1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window.
+1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window, and the Front Runner icon shows on the minimap for 20 s.
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
 3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, so the 200 cap binds exactly at 400 Clout, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
@@ -62,7 +62,7 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C4 | Mood flicker | Mood flips with timestamps | Flips within 30 s of the last flip | Zero |
 | C5 | Ratio cap | Ratio events | Clout moved per death | At most 200 |
 | C6 | Disable cap | Hard disables per team | Fourth disable in any 10 s window | Shortened to 0.5 s every time |
-| C7 | Comeback | Matches with a 10,000 gold deficit | Comeback rate | At least 10% |
+| C7 | Comeback | Matches where a team is 10,000 gold behind at 15:00 | Share of those matches the behind team wins | At least 10% (UNVERIFIED) |
 | C8 | Rename regression | Win rate before and after a rename | Difference in percentage points | Within 1 percentage point, with at least 200 matches in each arm (UNVERIFIED) |
 | C9 | Chat mute | Mutes in the first 10 minutes | Share of players | At most 25% of players mute; above 25%, rotate the phrase pool |
 | C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
