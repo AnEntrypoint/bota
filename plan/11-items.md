@@ -53,7 +53,7 @@ Cost bands (match the Stats and costs table; the balance pass may move them):
 | Finished tier 3 | 1,400 to 2,400 |
 | Finished tier 4 | 3,000 to 6,000 |
 
-Assembly is discounted. A finished item may cost less than the sum of its components; the listed cost is the one paid before match modifiers (section 12), and the balance pass moves bands, not individual costs (section 20, decision 17).
+Assembly may discount a finished item, but not every one costs less than its components (Hot Sauce costs 150 against 140); the listed cost is the one paid before match modifiers (section 12), and the balance pass moves bands, not individual costs (section 20, decision 17).
 
 ### Item roster
 

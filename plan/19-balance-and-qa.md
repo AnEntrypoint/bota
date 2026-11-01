@@ -20,9 +20,9 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 
 ### Archetype tiers (UNVERIFIED)
 
-The tier sets the total stat and ability points before the ±10% shift.
+The tier sets the total stat points and the ability power budget before the ±10% shift. Ability power is a budget, not a rank count: a hero spends at most 15 ranks (plan/07).
 
-| Tier | Stat points | Ability points | Archetypes |
+| Tier | Stat points | Ability power | Archetypes |
 | --- | --- | --- | --- |
 | 1 | 100 | 24 | Clout carry; Assassin, vision denial; Harasser, zoner; Hot-take initiator |
 | 2 | 90 | 20 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
@@ -74,7 +74,7 @@ A build passes QA when:
 
 ### New-system checks
 
-Targets for the first simulated and played matches. These are thresholds to test, not results. Every number in this section is UNVERIFIED. Runnable versions of the C-checks, with IDs and inputs, are in plan/26 (C1 to C10). The Sweat Mode check is tracked by hand until a build exists; C8 is runnable.
+Targets for the first simulated and played matches. These are thresholds to test, not results. Every number in this section is UNVERIFIED. Runnable versions of the C-checks, with IDs and inputs, are in plan/26 (C1 to C11). The Sweat Mode check is tracked by hand until a build exists; C8 is runnable.
 
 | System | Check | Pass |
 | --- | --- | --- |

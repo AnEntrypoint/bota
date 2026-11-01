@@ -15,7 +15,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
 | Modifiers | Two from the pool: Cast Rush and Learn to Code. |
 | Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note and Ring Light. |
-| Presentation | LIVE dot, Clout bar, Stan and Resell signals, death recap (Markdown), Rebrand record, announcer lines for kills and Markdown. |
+| Presentation | LIVE dot, Clout bar, Stan, Bull Run and Resell signals, the Front Runner minimap icon, death recap (Markdown), Rebrand record, announcer lines for kills and Markdown. |
 
 **Not in the slice:** Showrunner Draft (draft is a fixed pick order for the slice), the full talent trees, neutral items, Safe Spots, Chat Check, Go Private, Scalper, Seasons, spectator reactions, the other 18 heroes.
 

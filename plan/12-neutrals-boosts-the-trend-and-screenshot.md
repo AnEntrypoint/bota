@@ -1,6 +1,8 @@
 # 12. Neutrals, boosts, The Trend and Snapshot
 ### Jungle camps
 
+Numbers in this section are UNVERIFIED.
+
 Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell-immune).
 
 | Creature | Camp type | Notes |
