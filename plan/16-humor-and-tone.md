@@ -62,7 +62,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | Death to a lane creep | Skill issue. |
 | Kill on a Viral hero | Engagement farmed. |
 | Team wipe | L + ratio. |
-| Comeback from a 10,000 gold deficit | The ratio flipped. (Them.) |
+| Comeback from a 10,000 gold deficit | The ratio flipped. |
 | Surrender vote passes | Thread abandoned. |
 | Rebrand while Ratioed | Not cancelled. Rebranded. |
 

@@ -26,7 +26,7 @@ Numbers in this table are UNVERIFIED.
 | Go Viral effects | Reach +200; caster revealed on the global minimap |
 | Clout after Go Viral | 25 |
 | Ratio on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally |
-| Decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
+| Clout decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
 | Cap on Ratio | At most 200 Clout moves in one death |
 
 ### Clout states

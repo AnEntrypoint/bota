@@ -170,7 +170,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 3. **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 4. **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 5. **Rebrand: resolved.** An action (file 05), never an item.
-6. **Trend modifiers: resolved.** Eight, with Algorithm Surge and Solo Queue added (file 12).
+6. **Trend modifiers: resolved.** Eight, with Algorithm Tide and Solo Queue added (file 12).
 7. **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
 8. **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
 9. **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.

@@ -55,7 +55,7 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 | Bracket test | Win rate by archetype, by bracket | Retune any archetype outside 47 to 53% |
 | Matchup test | Win rate for each hard counter pair | Retune any pair outside 45 to 55% |
 | Pick and ban test | Pick rate and ban rate per hero | Retune any hero above 3× the average pick or ban rate |
-| Snowball check | Comeback rate after a 10,000 gold deficit | Adjust Ratio and decay if comebacks fall below 10% |
+| Comeback check | Comeback rate after a 10,000 gold deficit | Adjust Ratio and decay if comebacks fall below 10% |
 
 ### QA gates
 

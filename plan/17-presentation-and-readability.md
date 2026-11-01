@@ -32,7 +32,7 @@ Every gameplay signal passes the tests in plan/19 gates 1 and 4.
 | Ally team, Morning Feed | #2E8BFF | Light-value structures. Teams also differ in value. |
 | Enemy team, Late Night Feed | #FF8A1F | Dark-value structures |
 | Self | White and gold outline | Yellow health bar |
-| Clout, all Clout UI and VFX | #A35CFF | Reserved for Clout only |
+| Clout, all Clout UI and VFX | #A35CFF | Reserved for Clout only. Never red. |
 | LIVE | Violet dot #6A1FD1, white ring | Never red. Deeper than Clout's #A35CFF so the two stay apart. |
 | Damage and danger | #D9534F | Flashing elements stay below R/(R+G+B) of 0.8 |
 | Heal and buff | #3DDC97 | Paired with an upward chevron |
@@ -42,7 +42,7 @@ Rules:
 
 - Every color signal carries a shape. Ally creeps have rounded hoods. Enemy creeps have angular hoods.
 - Colorblind presets: deuteranopia, protanopia, tritanopia, and a custom picker.
-- Red is never used for a non-damage signal. LIVE and Clout are never red.
+- Red is never used for a non-damage signal.
 
 ### UI
 
