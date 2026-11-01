@@ -35,7 +35,7 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 | Rule | Value |
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
-| Hard disable cap | 3 per team in any 10 s window. A fourth is shortened to 0.5 s. |
+| Hard disable cap | Rule in plan/08. |
 | Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
 | Ratio ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
 | Go Viral limit | One Go Viral active per team at a time |
@@ -61,7 +61,7 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 
 A build passes QA when:
 
-1. Every hero renders at gameplay zoom, and passes the blind silhouette test.
+1. Every hero renders at gameplay zoom, and passes the blind silhouette test in plan/17 (90% or better).
 2. Every ability has a cast point, an impact effect and a telegraph (where the table calls for one).
 3. Every item's tooltip reads without its flavor line.
 4. Every signal (LIVE, Stan, Go Viral, Ratio, Repost) reads in grayscale and under each colorblind preset.

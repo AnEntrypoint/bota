@@ -56,7 +56,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | Defeat screen | Your post has been archived. |
 | Delivery Drone dies | F. |
 | Kill streak, seven | Seven deep. Pinned. |
-| Kill streak, ten | Cooked. (Them, not you.) |
+| Kill streak, ten | Cooked. |
 | Level 25 | Max level. Verified. |
 | Enemy delivery drone killed | Cope. |
 | Death to a lane creep | Skill issue. |

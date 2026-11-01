@@ -131,7 +131,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 
 ## 2. Summary
 
-- Coverage: 24 launch kits (section 9), 88 remaining kits (section 10, Scalper included; its former kit is Pit Boss, section 21). All 112 matched by slot.
+- Coverage: 24 launch kits (section 9), 88 remaining kits (section 10, Scalper included). All 112 matched by slot.
 - Flags: 18. Global 3 (Chudjak 028 via talent, Smugjak 029, Disaster 036). Permanent disable 7 (Soyjak 006, Numa 024, Tricky 047, Kazoo 056, Forever 068, Critic 078, Snackvendor 108). Uncapped stacking 8 (Gondola 012, Spurdo 013, NPC 066, Spudgunner 084 via talent, Airhorn 088 via talent, Oiler 093, Edgelord 100, Scalper 112).
 
 ## 3. Test first

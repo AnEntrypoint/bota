@@ -37,4 +37,4 @@ No design question in sections 1 to 24 and 26 is open: each is closed by a decis
 
 ### Sources
 
-Classic-rule reference pages and the original-name parity map are kept outside the plan, in internal/parity-map.md. Numbers are set in the balance pass.
+The original-name parity map is decision 22. Numbers are set in the balance pass.

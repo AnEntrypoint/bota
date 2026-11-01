@@ -90,4 +90,4 @@ Front Page changes Reach only. It does not reveal anyone.
 
 ### Screenshot
 
-The Screenshot is held by one hero. The Screenshot expires 5 min after pickup. A hero holding it at the Spawn Lounge can revive once. The revive replays the death as a rewound clip. The Screenshot is the revive reward (Participation Trophy, section 11).
+The Screenshot is held by one hero. A hero holding it at the Spawn Lounge can revive once. The revive replays the death as a rewound clip. The Screenshot is the revive reward (Participation Trophy, section 11).

@@ -123,8 +123,8 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ra
 
 | Plan number | Section | Repo value and where it sits | Status |
 | --- | --- | --- | --- |
-| Starting gold 600 | 5, 20 (Q2) | `scenarios/moba/economy.osd`: `opening_resource_a=625`, commented as recalled, not read from a dump | UNVERIFIED. Plan and repo disagree (600 against 625). Neither is from 6.88g in the repo. |
-| Passive income 1 gold per second | 5, 20 (Q3) | No matching field in `economy.osd` | UNVERIFIED |
+| Starting gold 600 | 5, 20 (decision 14) | `scenarios/moba/economy.osd`: `opening_resource_a=625`, commented as recalled, not read from a dump | UNVERIFIED. Plan and repo disagree (600 against 625). Neither is from 6.88g in the repo. |
+| Passive income 1 gold per second | 5, 20 | No matching field in `economy.osd` | UNVERIFIED |
 | XP totals at levels 2, 5, 10, 15, 20, 25: 200, 1400, 5400, 11900, 20900, 32400 | 5 | `scenarios/moba/tuning.osd` `xp_curve` has the same six values at the same levels. The file says the 6.88g data holds no experience table and the values were recalled. | UNVERIFIED. Agreement with an unverified value is not evidence. |
 | Base HP 200, mana 50, speed 300 and 522, ranges 150 and 500, attack times 1.7 and 1.5, turn 0.6, magic resistance 25% | 7 | The repo has per-hero rows (`heroes_688g.tsv`, `units_heroes.osd`), and `docs/REFERENCE.md` marks the rows it shows as UNVERIFIED. The plan block is a rule, not a row, so there is no row to compare it with. | UNVERIFIED. Needs pairing. |
 | Tower HP 1300, 1600, 1600, 2200; tower gold 160 to 280 | 3, 5 | Tower rows are keyed by role in `units.osd`. The convergence report says role keys do not pair by name. | UNVERIFIED |

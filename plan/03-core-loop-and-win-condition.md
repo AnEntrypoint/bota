@@ -28,7 +28,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Original Pos
 
 1. Draft (section 14). Players spawn at the Spawn Lounge. Creeps spawn at 0:00.
 2. Laning, 0:00 to about 10:00. Farm, deny, trade, ward.
-3. Rotations and objectives. The Trend opens at about 10:00 (section 12).
+3. Rotations and objectives. The Trend opens at about 10:00 (plan/05).
 4. Pushing. Break T1s, then T2s and T3s, then content mills.
 5. Original Post. The team that breaks the Original Post wins.
 

@@ -103,7 +103,7 @@ Notes:
 
 ### Emergent hooks
 
-Each hook is one row led by its first-named hero, so a hero leads at most one hook but may be named as the partner in several. Heroes without an entry carry no hook.
+Heroes without an entry carry no hook.
 
 - Neckbeard [001] with Waffle [062]: Pillbox Apology heals Second Helping allies (GUESS).
 - Chungus [002] with Frogger [092]: Snack Break boosts are shared with Handlebar Appeal (GUESS).
