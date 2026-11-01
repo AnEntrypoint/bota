@@ -1,6 +1,6 @@
 # 25. Engine data plan
 
-How the plan's tables become engine data, and how the plan's markdown tables are generated from the same data. Status: UNVERIFIED design note. Written 2026-10-25 against plan files 00 to 24 and 26 as they stood then (file 22 was searched, not read in full), and revised 2026-10-27 after the plan audit. Resolved items carry the revision date. Repo facts carry their path. Every number that is not a repo fact is UNVERIFIED.
+How the plan's tables become engine data, and how the plan's markdown tables are generated from the same data. Status: UNVERIFIED design note. Repo facts carry their path. Every number that is not a repo fact is UNVERIFIED.
 
 ## A. What the repo does today
 
@@ -10,7 +10,7 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 - **Packs present.** `scenarios/moba` (the match) and `scenarios/duel-routes` (a routes test). The engine names no genre.
 - **Units.** `scenarios/moba/units.osd`, `units_heroes.osd`, `units_extra.osd`, `units_summons.osd`, `neutral.osd`, `waves.osd`. One line per unit: `unit(name, health, speed_milli, radius_milli, ...)`.
 - **Abilities.** `scenarios/moba/abilities.osd` (`ability(...)` with `effect(...)` handles), twelve generated batches `abilities_688g_b01.osd` to `b12.osd`, and `abilities_ruleset.osd`. Tables beside them: `abilities_688g.tsv`, `abilities_688g_perlevel.tsv`, `abilities-inventory.tsv`. Engine form: ABIL, SKIL and AXTN records, which carry per-rank damage, cooldown and energy (rust/crates/data/FORMAT.md).
-- **Items.** `scenarios/moba/items.osd`, with the call `item(name, cost, stats={}, ability=, components=, consumable=, ...)` documented in the file header. Engine form: ITEM record, 192 bytes, 48 fixed stat slots, stock and restock fields (FORMAT.md).
+- **Items.** `scenarios/moba/items.osd`, with the call `item(name, cost, stats={}, ability=, components=, consumable=, ...)` documented in the file header. Engine form: ITEM record, 232 bytes, with a 192-byte stat block of 48 fixed stat slots, stock and restock fields (FORMAT.md).
 - **Rules.** Lua modules in `scenarios/moba/`: camps, clock, kill_gold, lanes, levelup, store, talents, skills, win, respawn (core/), protection, taunt, upgrades, targeting, unit_rules, panels, controls, effects. Behaviours in `behaviours.osd`. Engine calls a modifier a status effect and an upgrade a tech level ; the plan keeps modifier and upgrade.
 - **Economy and tuning.** `economy.osd` (one `economy(...)` call), `tuning.osd` (one `tuning(...)` call, including an `xp_curve`).
 - **Map.** `map.osd` (grid, paint, start, spawn), `routes.osd`, `doodads-688g.tsv`, `starts-688g.tsv`.
@@ -21,8 +21,8 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 
 ### A2. What the build pipeline does with that data (question b)
 
-- `scripts/dev/stage.sh`: builds wasm when the pkg is missing, runs `mapexport` for each pack in a fixed loop (`for p in moba duel-routes`, line 16), then calls `scripts/layout-site.sh`.
-- `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 26), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 33). It does not copy `247420/internal/`.
+- `scripts/dev/stage.sh`: builds wasm when the pkg is missing, runs `mapexport` for each pack in a fixed loop (`for p in moba duel-routes`, line 11), then calls `scripts/layout-site.sh`.
+- `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 19), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 32). It does not copy `247420/internal/`.
 - `.github/workflows/ci.yml` (lines 139 to 141) and `pages.yml` (lines 75 to 77) build `mapexport` and name both packs explicitly.
 - `.github/workflows/tests.yml` (lines 152 to 165) runs `mapexport` twice and compares the bytes.
 - `scripts/pack-package.mjs`: `--build` runs `mapexport` first; archives are split above 25 MiB.
@@ -79,7 +79,7 @@ items.tsv      item_id slug name kind tier cost components stats active stock re
 
 **Generated outputs, one direction only.**
 
-1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs`. The `tools/` folder is excluded from Pages by `layout-site.sh` line 26.
+1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs`. The `tools/` folder is excluded from Pages by `layout-site.sh` line 19.
 2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
 3. A drift check: the tool regenerates everything and fails if the tree differs. This copies the determinism check already in `tests.yml`.
 
@@ -142,7 +142,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 - **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `247420/internal/`, so the map does not ship today.
 - **R2. The plan is tracked but outside the build.** `plan/` and `internal/` are tracked in git; `layout-site.sh` does not copy them. Drift checks can read them in CI, but generated plan tables are never shipped.
-- **R3. Pack wiring is hard-coded.** `stage.sh` line 16, `pages.yml` lines 91 to 92 and `ci.yml` lines 89 to 90 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
+- **R3. Pack wiring is hard-coded.** `stage.sh` line 11, `pages.yml` lines 75 to 77 and `ci.yml` lines 139 to 141 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
 - **R4. Ultimate gates agree.** FORMAT.md line 315 gives 6.88g ultimates 6, 11 and 16, the same as plan sections 7 and 9.
 - **R5. Time units do not divide evenly.** Ticks run at 16 per second (REFERENCE.md line 5), and FORMAT.md requires durations as integer ticks. The plan's 3.8 s per level gives 60.8 ticks. Resolved in section 2: ticks round to the nearest integer, so 3.8 s is 61 ticks.
 - **R6. Clout, Reach, Stan, Markdown, Resell and global Trend modifiers have no data slot.** ITEM_STATS is fixed at 48 entries (FORMAT.md line 304), and plan decision 9 says Clout is never a stat, so these are Lua hooks. AXTN modifiers (8 per ability, FORMAT.md line 328) cannot express a global modifier. Each hook runs under a 2,500-step budget (docs/MODDING.md line 47), which constrains per-tick Reach recalculation.
@@ -150,14 +150,6 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 - **R8. Ids are positions.** Item ids are record indices, and ability indices follow declaration order (FORMAT.md). Unit `kind` is a `u16` position on the wire. Inserting a row renumbers everything after it, which makes a new image hash and a SWAP at a tick (docs/WIRE.md). Generation must keep ids stable, as section 2 says.
 - **R9. Output must be byte-stable.** `tests.yml` compares two `mapexport` runs byte for byte. The generator must sort, use LF, fix float formatting and write no timestamps.
 - **R10. FORMAT.md is internally inconsistent.** It says "the reader requires all twenty-eight tags" (line 28), but the header, the table and the rule at line 17 all say 27. The oscraft repo owns `rust/crates/data/FORMAT.md`; this plan does not edit it.
-- **R11. Contradictions found on 2026-10-25, resolved on 2026-10-27.**
-  - The component 1 band is 50 to 100, the finished Tier 1 band is 65 to 300, and assembly is explicitly discounted (file 11).
-  - Spoiler Tag moved to Tier 1 at 75 gold (file 11).
-  - Drain Blade, Grindset and Lite Plan gained roster rows; Drain Blade and Lite Plan gained stats rows (file 11).
-  - File 12 now names eight Trend modifiers, with check rows for all eight.
-  - Files 10 and 15 still use short archetype labels ("Late-game Clout carry", "Ghost-account summoner", "Resell healer, buffer", "Offline sustain") while files 09, 14 and 19 use the full names. The TSV `alias` column carries both.
-  - Rebrand is an action, not an item (file 05); file 26 matches.
-  - `00-index.md` lists files 00 to 26 and its links resolve (checked 2026-10-27).
 - **R12. The source moved on 2026-10-27.** Files 06, 11, 12 and 14 changed, and files 22, 23, 24 and 26 were added. Generators must find tables by heading and must reject duplicate or missing headings.
 - **R13. The 6.88g map is on this machine.** The convert tools can run against it; no derived table has been regenerated from it yet. The local checkout and origin/main matched on 2026-10-27.
 - **R14. Local changes on 2026-10-27.** `scripts/dev/stage.sh` and several `js/client` files were modified in the working tree that day. The `stage.sh` facts in A2 come from the working tree.

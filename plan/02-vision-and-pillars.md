@@ -16,7 +16,7 @@ Four rules every system must pass:
 | --- | --- | --- |
 | Last hitting | Engagement farming: +1 Clout when in enemy hero vision | Farm in fog for gold, or in sight for gold, Clout and risk |
 | Denying | Deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
-| Vision and wards | Audience: enemy heroes give Clout. Enemy wards reveal, earn nothing. | Warding reveals the enemy at no Clout cost |
+| Vision and wards | Audience: enemy heroes give Clout. Enemy wards reveal, earn nothing. | Warding reveals the enemy at no Clout cost; the warder pays the ward's gold |
 | Creep wave pressure | Stan: allied creeps inside Reach gain damage and armor | Stand with the wave to push, or rotate and lose the buff |
 | Map pressure, rotation | Hype Spike: 20 s spike with global reveal | Spend the spike on a siege, or play around its global reveal |
 | Boss objective and revive reward | The Trend and Snapshot | Contest the pit, or trade it for towers |

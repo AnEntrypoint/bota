@@ -59,7 +59,7 @@ Rebrand resets a hero to Quiet at 0 Clout.
 
 ### Late-game Clout carry mood
 
-- Job: comeback pressure (plan/02, Comeback gold row). The cost is the Front Runner icon on the minimap, or the Reach +50 given up to hide it.
+- Job: leader pressure (plan/02, Comeback gold row). The cost is the Front Runner icon on the minimap, or the Reach +50 given up to hide it.
 
 Each team has one mood, set by the gap between the two teams' total Clout. Mood changes Reach and minimap reveal only. Numbers are UNVERIFIED.
 

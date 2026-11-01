@@ -41,4 +41,4 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 
 - Job: surrender (plan/02, Surrender row). The cost is the rest of the match given up.
 
-Surrender rule: at 30 minutes, a team can vote to surrender with 4 of 5 players agreeing. Voting resets after each failed vote, and a vote is open once per 5 minutes.
+Surrender rule: at 30 minutes, a team can vote to surrender with 4 of 5 players agreeing. After a failed vote, the next vote opens 300 s later (UNVERIFIED).

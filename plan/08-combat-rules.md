@@ -67,6 +67,6 @@ A hard disable or ultimate that lands on an enemy starts a resell chain.
 | Stack effect | +8% attack speed or spell amp per stack, chosen by the caster when the chain starts and fixed for every stack of that chain |
 | Spread | Any ally who damages the target passes a stack to allies within 600 of them |
 | Max stacks | 5 |
-| Stack decay | 4 s |
+| Stack decay | 4 s per stack, from that stack's own spread (UNVERIFIED) |
 
 Stacks show as dotted arcs between heroes. Resell arcs are capped at five on screen.
