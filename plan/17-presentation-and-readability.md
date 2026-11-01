@@ -52,4 +52,4 @@ Rules:
 - Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Engagement and Impressions.
 - Tooltips: mechanical text first, italic flavor second. 14 px minimum.
 - Cursor: four states (default, attack, ability target, invalid). 32 × 32.
-- Minimap: Trend timer, Hype Spike overlays, and the Front Runner icon (white pennant on a grey disc, UNVERIFIED).
+- Minimap: Trend timer, Hype Spike overlays, the Front Runner icon (white pennant on a grey disc, UNVERIFIED), the Underdog reveal (white outline on the hero dot, UNVERIFIED), and the day clock (a sun or moon glyph on the top edge, UNVERIFIED).

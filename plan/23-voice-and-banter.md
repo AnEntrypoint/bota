@@ -109,7 +109,7 @@ Flavor lines are fad-forward one-liners that carry the joke. They carry no numbe
 | Old Hoodie | Worn to every ticker. Washed never. |
 | Rubber Duck | Explain the bug out loud. Watch it solve itself. |
 | Burner Phone | Not registered to anyone you know. |
-| Charger | Always at 99%. |
+| Charger | Always almost charged. |
 | Cold Brew | Brewed too long and served without regret. |
 | Tripod | Stands firm. Opinions on the shot: none. |
 

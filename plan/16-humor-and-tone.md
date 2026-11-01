@@ -53,9 +53,9 @@ Every number in this table is UNVERIFIED.
 | Snapshot revive | We're so back. |
 | Rebrand | Under new management. |
 | The Trend killed | Trending number one. |
-| Exchange destroyed | Listing removed. |
-| Victory screen | Your listing sold. |
-| Defeat screen | Your listing has been delisted. |
+| Exchange destroyed | Stall shut. |
+| Victory screen | Victory. Stall sold. |
+| Defeat screen | Defeat. Stall closed. |
 | Delivery Drone dies | F. |
 | Kill streak, seven | Seven deep. Pinned. |
 | Kill streak, ten | Cooked. |

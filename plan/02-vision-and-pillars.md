@@ -18,11 +18,11 @@ Four rules every system must pass:
 | Denying | Markdown deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
 | Vision and wards | Audience: enemy heroes give Clout. Enemy wards reveal, earn nothing. | Warding reveals the enemy at no Clout cost |
 | Creep wave pressure | Stan: allied creeps inside Reach gain damage and armor | Stand with the wave to push, or rotate and lose the buff |
-| Map pressure, rotation | Hype Spike: 20 s spike with global reveal | Spend the spike on a siege, or hold it as a threat |
+| Map pressure, rotation | Hype Spike: 20 s spike with global reveal | Spend the spike on a siege, or play around its global reveal |
 | Boss objective and revive reward | The Trend and Snapshot | Contest the pit, or trade it for towers |
 | Patch meta | Trend modifiers, rotating each patch | Draft and itemize for the modifier |
 | Teamfight chain | Resell chain | Group to chain the buff, or spread against AoE |
-| Comeback gold | Markdown transfer on death | A leader cannot take risky fights for free |
+| Comeback gold | The team with fewer kills gets 20 gold per level of each dead enemy hero (UNVERIFIED) | A leader cannot take risky fights for free |
 | Glyph | Go Private: buildings invulnerable 5 s, 5 min cooldown | Timing of the emergency button in a siege |
 | Talents | Power growth: tier choices at levels 10, 15, 20 and 25 | Take the tier that fits the match, or the one that scales |
 | Backpack | Passive storage that gives stats but no actives | Carry a spare passive, or keep the active slots free |
@@ -33,4 +33,4 @@ Four rules every system must pass:
 | Surrender | A 4 of 5 vote ends the match after 30 minutes | Vote early to save the match, or hold for a comeback |
 | Draft | The pick order sets the hero pool, the lanes and the items | Pick the hero that fits the lane plan, or deny the pool you need |
 | Buyback | Rebrand: costs gold, resets Clout to 0 | Respawn now with no Clout, or wait with Clout intact |
-| Support tether | Tethered support, dueler tether: 20% of an ally's Clout is shared | Stan the carry for safety, or the roamer for pressure |
+| Support tether | Tethered support, dueler tether: gains 20% of a tethered ally's Clout gains while within 600 range; the ally's Clout is unchanged (UNVERIFIED) | Stan the carry for safety, or the roamer for pressure |

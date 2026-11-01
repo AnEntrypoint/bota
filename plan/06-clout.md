@@ -54,7 +54,7 @@ Rebrand resets a hero to Quiet at 0 Clout.
 ### Design rules
 
 - Clout is never a stat. It never adds damage or armor directly. Its only effects are Reach (which carries the Stan buff), Hype Spike and the Late-game Clout carry mood.
-- Clout moves between teams only through the rules that name it: Deny takes it from the nearest enemy hero, and Markdown moves it on death. The ally tether (section 2) shares a fraction of an ally's Clout, and only with that ally.
+- Clout moves between teams only through the rules that name it: Deny takes it from the nearest enemy hero, and Markdown moves it on death. The ally tether (section 2) gives 20% of a tethered ally's Clout gains while within 600 range; the ally keeps its own Clout (UNVERIFIED).
 - Clout is shown as one number on the top bar, abbreviated (1.2K) and exact on hover.
 
 ### Late-game Clout carry mood

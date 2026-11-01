@@ -16,7 +16,7 @@ The draft is the first decision of the match. It sets the hero pool, the lane pl
 
 ### Showrunner Draft order
 
-Ten bans and ten picks, alternating by team. The order (final order):
+Ten bans and ten picks, in the order below (1st and 2nd name the two teams). The order (final order):
 
 1. Ban: 1st, 2nd, 1st, 2nd
 2. Pick: 1st, 2nd, 2nd, 1st
@@ -65,4 +65,4 @@ Lane preference by archetype. This is guidance for the draft UI, not a restricti
 
 ### Pick screen
 
-The pick screen is titled "Draft your content plan." It shows the archetype role icon on every hero, and the Trend modifier for the match once it is known.
+The pick screen is titled "Draft your content plan." It shows the archetype role icon on every hero, and the Trend modifier for its 4 min once it is known.

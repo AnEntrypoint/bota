@@ -23,7 +23,7 @@ Vision decides what the enemy can see, and therefore what they can take. Under B
 | Tool | Brainrot name | Effect |
 | --- | --- | --- |
 | Gem | Gem of Subtext | True sight carried by one hero. Drops on death. |
-| Dust | Dust of Receipts | Reveals invisible units within 600 range (UNVERIFIED) |
+| Dust | Dust of Receipts | Reveals invisible units in the radius plan/11 gives |
 | Smoke | Smoke of Deniability | Group invisibility, hidden on the minimap until an enemy hero is within 300 range or an enemy tower within 700 range (UNVERIFIED). Restock 11 min. |
 
 ### Vision states

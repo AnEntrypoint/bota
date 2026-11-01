@@ -19,7 +19,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no sigma |
 | Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Sigma regen doubles below 50% sigma |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
-| Viking | Mead Bash slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 sigma regen / Ragnarok March cooldown −15 s | Mead Bash leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Bash hits heroes below 50% HP for +10% |
+| Viking | Mead Clink slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 sigma regen / Ragnarok March cooldown −15 s | Mead Clink leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Clink hits heroes below 50% HP for +10% |
 | Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
 | Boxxy | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
 | Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
@@ -117,7 +117,7 @@ Numbers in this section are UNVERIFIED.
 
 - Job: map pressure, rotation (plan/02, Map pressure row). The cost is the river walk.
 - Spawns with the other boosts on the river. Lasts 50 s.
-- While held: Reach +100 and a grey pip on the minimap. No cooldown or sigma change.
+- While held: Reach +100 and a white diamond pip on the minimap, shown to the holder's team only (UNVERIFIED). No cooldown or sigma change.
 
 ### Coffee
 
