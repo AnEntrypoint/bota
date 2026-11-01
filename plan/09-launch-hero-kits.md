@@ -57,7 +57,7 @@ Notes:
 
 ### Emergent hooks
 
-At most one cross-hero hook per row (the first-named launch hero leads it). Heroes with no hook: Forever [068], Lifehack [096].
+Heroes with no hook: Forever [068], Lifehack [096].
 
 - Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts stack (GUESS).
 - Spudgunner [084] with Greg [034]: Polo Flak victims stay inside the Ear Muff Span attack range (GUESS).

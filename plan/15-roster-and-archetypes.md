@@ -143,4 +143,4 @@ Rules for the roster columns:
 | 111 | Preacher | Heckler | Agi | Ranged | Shouts through a battery megaphone so the sermon chains between enemies, and the raised Bible stuns whoever it lands on. |
 | 112 | Scalper | Archivist | Int | Melee | Drops sealed boxes as a rooting snare, and enemies standing nearby are charged a little more every second. |
 
-Reserve (not in the 112): 113 Wanderer, 114 Raker, 115 Seeder, 116 Wartrucker, 117 Bouncer. Their prompts are in bota/characters.
+Reserve (not in the 112): the five slots named at the top of this chapter. Their prompts are in bota/characters.

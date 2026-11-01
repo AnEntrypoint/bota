@@ -43,7 +43,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 
 1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window, and an Underdog capture of a Breaking News zone takes half the time of a normal capture (UNVERIFIED).
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
-3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: exactly 200 Clout moves, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
+3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, which the 400 start makes bind at exactly 200, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
@@ -52,7 +52,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 
 ## Runnable checks
 
-Each check has an ID, an input, an output and a threshold. Thresholds come from section 19.
+Each check has an ID, an input, an output and a threshold. Thresholds come from section 19, plan/12 (C3, Breaking News) and plan/06 (C4, 30 s window).
 
 | ID | Check | Input | Output | Pass |
 | --- | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C5 | Ratio cap | Ratio events | Clout moved per death | At most 200 |
 | C6 | Disable cap | Hard disables per team | Fourth disable in any 10 s window | Shortened to 0.5 s every time |
 | C7 | Snowball | Matches with a 10,000 gold deficit | Comeback rate | At least 10% |
-| C8 | Rename regression | Win rate before and after a rename | Difference in points | Within 1 point |
+| C8 | Rename regression | Win rate before and after a rename | Difference in percentage points | Within 1 percentage point, with at least 200 matches in each arm (UNVERIFIED) |
 | C9 | Chat mute | Mutes in the first 10 minutes | Share of players | At most 25% of players mute; above 25%, rotate the phrase pool |
 | C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
 | C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Effects that change damage or armour | Zero |

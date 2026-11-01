@@ -76,7 +76,6 @@ Each event has one line. The Alternates table adds eight lines for game states t
 | Third kill in a row inside one lane | Bumped it again. |
 | Lane creep wave dies untouched | Nobody replied. |
 | Team wipe while you are Viral | Quote-posted by all five. |
-| Comeback from 10,000 gold behind | Screenshots aged badly. |
 | Surrender vote fails | Thread stays open. |
 | Neutral camp taken before the first minute | Pulled early. Nice weather. |
 | Tower destroyed by a lone hero | Mod action, no appeal. |

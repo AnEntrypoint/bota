@@ -10,7 +10,7 @@
 | 5 | Seven boosts, Algorithm Boost included. | Readable boost pool |
 | 6 | Roster is 112, Scalper included. | Matches the roster target |
 | 7 | Meme vocabulary in voice lines, item flavor and marketing copy is generic usage only: no brand names, named creators, franchise characters or owned catchphrases. The six roster labels Zyzz, Uber, Crossfit, Starwarskid, Rickroll and Frogger are listed for the record. Hero and ability labels are outside this scope. | Lets phrases rotate each patch while the roster stays stable |
-| 8 | Every ability in sections 9 and 10 has a Brainrot name. Original hero, ability and item names live only in internal/parity-map.md and in this decision record; they never appear in shipped text or elsewhere in the plan. | Original names stay out of shipped text |
+| 8 | Every ability in sections 9 and 10 has a Brainrot name. Original hero, ability and item names live only in internal/parity-map.md and in this decision record; decision 22 keeps them out of shipped text. | Original names stay out of shipped text |
 | 9 | Clout drives Reach, reveal and mood only, never a stat. Late-game Clout carry mood, Breaking News, stage camps and signature mechanics keep to that rule. | Keeps the one-currency rule from section 6 |
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). | Uniqueness |
 | 11 | Every new number is UNVERIFIED until a playable build exists. | Matches the balance rule in /workspace/oscraft/AGENTS.md |

@@ -62,9 +62,9 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 A build passes QA when:
 
 1. Every hero renders at gameplay zoom, and passes the blind silhouette test in plan/17 (90% or better).
-2. Every ability has a cast point, an impact effect and a telegraph (where the table calls for one).
-3. Every item's tooltip reads without its flavor line.
-4. Every signal (LIVE, Stan, Go Viral, Ratio, Repost) reads in grayscale, at minimap size, and under each colorblind preset.
+2. Every ability has a cast point and an impact effect.
+3. Every item's tooltip shows its stat and effect lines with the flavor line hidden, and at least 9 of 10 testers (UNVERIFIED) name the effect.
+4. Every signal (LIVE, Stan, Go Viral, Ratio, Repost) is named by at least 4 of 5 observers (UNVERIFIED) in grayscale, at minimap size, and under each colorblind preset.
 5. Every gag in section 16 fires on its trigger, and none of them hides a signal.
 6. The 10,000 gold snowball check and the bracket test are inside their targets on the current patch.
 

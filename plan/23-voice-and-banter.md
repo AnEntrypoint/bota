@@ -93,7 +93,7 @@ Two example lines:
 
 ### Item flavor
 
-Flavor lines are meme-forward one-liners that carry the joke. They carry no numbers. Any number a tooltip adds is UNVERIFIED until the balance pass.
+Flavor lines are meme-forward one-liners that carry the joke. They carry no numbers.
 
 #### Components (section 11)
 
