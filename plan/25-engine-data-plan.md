@@ -166,7 +166,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 ### Open questions
 
 1. **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-2. **Starting gold: open.** 600, per section 20, decision 14; the repo holds 625 (table above).
+2. **Starting gold: resolved.** 600, per section 20, decision 14; the repo holds 625 (table above).
 3. **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 4. **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 5. **Rebrand: resolved.** An action (file 05), never an item.
