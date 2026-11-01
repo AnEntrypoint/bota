@@ -75,6 +75,7 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 Numbers in this section are UNVERIFIED.
 
 - Two Safe Spots per team, one at each river crossing next to the team's safe lane. Available from 0:00.
+- Job: map pressure and rotation (plan/02). The cost is the walk to a river crossing, since each spot shares one 45 s cooldown.
 - Active: heals all allies within 500 radius for 14% of max HP per second, for 5 s.
 - Cooldown 45 s, shared per Safe Spot.
 
@@ -86,6 +87,8 @@ Numbers in this section are UNVERIFIED.
 
 ### Chat Check
 
+Numbers in this section are UNVERIFIED.
+
 - Reveals enemy heroes within 900 radius for 8 s.
 - Shared team cooldown of 270 s. Any hero on the team can cast it.
 
@@ -96,10 +99,14 @@ Numbers in this section are UNVERIFIED.
 
 ### Algorithm Boost
 
+Numbers in this section are UNVERIFIED.
+
 - Spawns with the other boosts on the river. Lasts 50 s.
 - While held: Reach +100 and a grey pip on the minimap. No cooldown or mana change.
 
 ### Gamer Fuel
+
+Numbers in this section are UNVERIFIED.
 
 - The Trend drops Gamer Fuel on its second kill and every kill after.
 - Gamer Fuel cannot be sold. Chug it to restore 2,500 HP and 1,000 mana over 4 s. One can per drop.
