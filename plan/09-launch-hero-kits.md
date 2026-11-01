@@ -59,7 +59,7 @@ Notes:
 
 Heroes with no hook: Forever [068], Lifehack [096].
 
-- Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts stack (GUESS).
+- Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3).
 - Spudgunner [084] with Greg [034]: Polo Flak victims stay inside the Ear Muff Span attack range (GUESS).
 - Tinfoil [073] with Glitch [076]: Foil Mention exposes the target to Chromatic Hold (GUESS).
 - Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).

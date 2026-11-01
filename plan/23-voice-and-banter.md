@@ -37,7 +37,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Spudgunner (Drifter) | Full ticker on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
 | Boomer (Heckler) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
-| Disaster (Firebrand) | MATCH POINT! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
+| Disaster (Firebrand) | THAT KILL! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
 | Tricky (Bulwark) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |

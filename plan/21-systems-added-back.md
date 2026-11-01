@@ -56,7 +56,7 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 | Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
 | Firebrand (Hot-take initiator) | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
 | Archivist (Utility, zone control) | Radius +30 / Duration +0.5 s | Range +100 / Duration +1 s | Two charges / Reveals a Clout pulse | Detonates on death / LIVE for 2 s |
-| Tether (Tethered support, duelist) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for each ally in radius |
+| Tether (Tethered support, dueler) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for each ally in radius |
 | Recluse (Offline sustain) | Radius +50 / Cooldown −5 s | Treant +1 / Range +200 | Root +0.5 s / Treants heal | Clout from the ultimate / Regen +2% unseen |
 
 ### Backpack
@@ -133,7 +133,7 @@ Numbers in this section are UNVERIFIED.
 - **Name:** Scalper. Role family: Archivist. Attribute: Intelligence. Range: Melee.
 - **Gag:** Runs the pit. Has never been to it.
 - **Ability 1, Sold Out Snare:** area trap in 400 radius that roots and damages. The radius is UNVERIFIED.
-- **Ability 2, Markup Drain:** aura that damages nearby enemies, growing by 10% per second in combat, uncapped (UNVERIFIED).
+- **Ability 2, Markup Drain:** aura that damages nearby enemies, growing by 10% per second in combat, capped at +100% (UNVERIFIED).
 - **Ability 3, Queue Bypass:** places a gate at a point. Allies who step through teleport to the other gate.
 - **Ultimate, Bulk Buy Drop:** teleports an ally to a point, then damages enemies around the arrival.
 

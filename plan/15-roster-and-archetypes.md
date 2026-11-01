@@ -16,7 +16,7 @@
 | 08 | Phantom | Ghost-account summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with followers | Ghost |
 | 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Hyped hot take at emergency volume | Hot Take |
 | 10 | Archivist | Utility, zone control | Wide rectangle | Sepia | Filing-cabinet backpack | Lists receipts that turn every Trend against whoever stands in the zone | Archivist |
-| 11 | Tether | Tethered support, duelist | Two linked circles | Rose | Framed photo of the rival | Insists the rival is a close friend, so the Stan tether never breaks | Parasocial |
+| 11 | Tether | Tethered support, dueler | Two linked circles | Rose | Framed photo of the rival | Insists the rival is a close friend, so the Stan tether never breaks | Parasocial |
 | 12 | Recluse | Offline sustain | Rounded mound | Moss green | Wearing actual turf | Stays offline between camps, smug and healed above any Clout threshold | Touch-Grass Hermit |
 
 Each variant differs from the others in at least two of: body proportion, prop silhouette, primary value group. A Stalker in a hood and a Stalker in a hazmat suit share a role family and read as two heroes.

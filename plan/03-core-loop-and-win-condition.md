@@ -18,7 +18,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 - Job: map pressure, rotation (plan/02, Map pressure, rotation row). The cost is the tower held or the lane rotated away from.
 
 - Tower HP: T1 1,300, T2 1,600, T3 1,600, T4 2,200. Gold per tower: 160, 200, 240, 280.
-- Towers regenerate and take reduced damage when no enemy creeps are nearby (backdoor protection).
+- Towers regenerate and take reduced damage when no enemy creeps are within 900 range (UNVERIFIED: 2% max HP per second; damage taken halved) (backdoor protection).
 - Job: glyph (plan/02, Glyph row). The cost is the 5 min cooldown, which makes the timing the choice.
 - Go Private (padlock): makes all team buildings invulnerable for 5 s. Cooldown 5 min. It refreshes when a T1 falls.
 
@@ -29,7 +29,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 - A wave spawns every 30 s: three melee and one ranged per lane.
 - A siege creep joins every fifth wave.
 - Creeps upgrade every 7.5 min: +12 HP and +2 gold per upgrade.
-- Aggro: attacking an enemy hero draws nearby creeps for 2.5 s, with a 2.5 s cooldown.
+- Aggro: attacking an enemy hero draws creeps within 900 range for 2.5 s (UNVERIFIED), with a 2.5 s cooldown.
 
 ### Match flow
 

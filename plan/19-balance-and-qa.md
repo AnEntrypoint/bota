@@ -43,11 +43,11 @@ Numbers in this section are UNVERIFIED.
 | Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
 | Markdown ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
 | Hype Spike limit | None. Each Hyped hero runs its own 20 s Hype Spike and pays its own global reveal. |
-| Resell cap | Five stacks per target. Stacks from one source do not stack twice. |
+| Resell cap | Five stacks per target. Stacks from one source (the same ability cast by the same hero) do not stack twice. |
 
 ### Stat sheet
 
-- HP, damage, armor and sigma per tier (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 sigma; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
+- HP, damage, armor and sigma per tier, as totals at level 1 (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 sigma; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
 - Attack time (BAT) and turn rate are set per hero, and are the main tool for a hero's feel.
 - Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).
 

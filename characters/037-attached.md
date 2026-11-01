@@ -5,7 +5,7 @@ Hero slot: 037
 ## Card
 
 - Role family: Tether
-- Role: Tethered support, duelist
+- Role: Tethered support, dueler
 - Attribute: Agi
 - Range: Melee
 - Distinct prop: Hands clasped under the chin (no held prop)

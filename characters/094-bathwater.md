@@ -5,7 +5,7 @@ Hero slot: 094
 ## Card
 
 - Role family: Tether
-- Role: Tethered support, duelist
+- Role: Tethered support, dueler
 - Attribute: Int
 - Range: Ranged
 - Distinct prop: Sealed glass canning jar of glowing pink liquid

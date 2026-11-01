@@ -5,7 +5,7 @@ Hero slot: 046
 ## Card
 
 - Role family: Tether
-- Role: Tethered support, duelist
+- Role: Tethered support, dueler
 - Attribute: Int
 - Range: Melee
 - Distinct prop: Twin high-carbon machetes

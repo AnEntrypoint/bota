@@ -5,7 +5,7 @@ Hero slot: 110
 ## Card
 
 - Role family: Tether
-- Role: Tethered support, duelist
+- Role: Tethered support, dueler
 - Attribute: Str
 - Range: Ranged
 - Distinct prop: Coiled landline handset and Bluetooth headset

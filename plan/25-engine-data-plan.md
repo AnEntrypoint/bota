@@ -157,7 +157,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 ### Open questions
 
-1. **Starting gold: open.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 875 (table above).
+1. **Starting gold: resolved.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 875 (table above).
 
 ### Resolved (moved from open questions)
 

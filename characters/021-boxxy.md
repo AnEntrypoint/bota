@@ -5,7 +5,7 @@ Hero slot: 021
 ## Card
 
 - Role family: Tether
-- Role: Tethered support, duelist
+- Role: Tethered support, dueler
 - Attribute: Str
 - Range: Melee
 - Distinct prop: Open-palm gestures (no held prop)

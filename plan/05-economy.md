@@ -23,7 +23,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 - **Death cost:** 30 × hero level, taken from unreliable gold.
 - **Comeback gold:** the team with fewer kills gets 20 gold per level of the dead hero, shared among its heroes (UNVERIFIED).
 - **Respawn:** 5 + 3.8 × level seconds (8.8 s at level 1, 100 s at level 25).
-- **Markdown on death:** the victim loses 50% of Clout (section 6), split among killers and assists.
+- **Markdown on death:** the victim loses 50% of Clout (section 6); the killer takes half of the Clout lost and assists split the rest.
 
 ### Rebrand
 

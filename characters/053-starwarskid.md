@@ -5,7 +5,7 @@ Hero slot: 053
 ## Card
 
 - Role family: Tether
-- Role: Tethered support, duelist
+- Role: Tethered support, dueler
 - Attribute: Str
 - Range: Melee
 - Distinct prop: Hollow plastic golf-ball retriever pole

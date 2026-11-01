@@ -36,7 +36,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 20 | A hero who dies while Hyped gets a grey Hyped-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Hype Spike, Rebrand | Death while Hyped | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge (UNVERIFIED) | Cosmetic. Never in a fight. |
 | 22 | At 100 Clout the Clout bar shows the Hype Spike threshold. [GUESS] | Hype Spike | At 100 Clout | Self and allies only. |
-| 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the name plate for 10 s (UNVERIFIED). Name plate only, never the LIVE dot. | Markdown on death | Death with 200+ Clout | Name plate, 10 s. |
+| 23 | A hero who dies shows the Markdown amount on the name plate for 10 s (UNVERIFIED); at 200+ Clout the amount also gets a cracked-mask emoticon. Name plate only, never the LIVE dot. | Markdown on death | Any death | Name plate, 10 s. |
 
 ### Announcer lines
 
