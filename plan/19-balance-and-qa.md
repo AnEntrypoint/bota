@@ -64,13 +64,13 @@ A build passes QA when:
 1. Every hero renders at gameplay zoom, and passes the blind silhouette test in plan/17 (90% or better).
 2. Every ability has a cast point, an impact effect and a telegraph (where the table calls for one).
 3. Every item's tooltip reads without its flavor line.
-4. Every signal (LIVE, Stan, Go Viral, Ratio, Repost) reads in grayscale and under each colorblind preset.
+4. Every signal (LIVE, Stan, Go Viral, Ratio, Repost) reads in grayscale, at minimap size, and under each colorblind preset.
 5. Every gag in section 16 fires on its trigger, and none of them hides a signal.
 6. The 10,000 gold snowball check and the bracket test are inside their targets on the current patch.
 
 ### New-system checks
 
-Targets for the first simulated and played matches. These are thresholds to test, not results. Runnable versions of the C-checks, with IDs and inputs, are in plan/26 (C1 to C10). The Sweat Mode and rename checks are tracked by hand until a build exists.
+Targets for the first simulated and played matches. These are thresholds to test, not results. Runnable versions of the C-checks, with IDs and inputs, are in plan/26 (C1 to C10). The Sweat Mode check is tracked by hand until a build exists; C8 is runnable.
 
 | System | Check | Pass |
 | --- | --- | --- |

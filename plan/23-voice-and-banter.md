@@ -3,10 +3,10 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 
 ### Rules
 1. Voice follows the archetype in section 15. Hot-take initiator archetype is the only one that screams.
-2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + ratio and similar). A loaded line aims at the play it follows, a kill, a death or a lane, and never at a person, group, creator or real event.
+2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + ratio and similar). A loaded line aims at the play it follows, a kill, a death or a lane (plan/16 rule 6).
 3. Read path: LIVE, Stan, Go Viral, Ratio and Repost are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
-5. No line names a real person, real event, brand, creator or franchise, and no line borrows another game's names. Generic internet vocabulary only.
+5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.
 6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldowns are set in the balance pass.
 7. Item flavor is the second, italic line of a tooltip. Mechanics come first. Compact tooltips hide flavor (file 16, gag 09).
 8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Only Tricky and Ghillie speak in records and citations; every other hero keeps its own register.
@@ -78,7 +78,7 @@ Each pair plays once per match, on the first moment both heroes see each other. 
 
 The tag is gag 05 in file 16: a small grey word after a hero name, reading "formerly" and a fixed former name. It names a Rebrand (file 05), so it only appears after one in the same match.
 
-1. Text: "formerly Guest" for every hero and every client. No name pool and no stored state.
+1. Text: "formerly Guest" for every hero and every client.
 2. Colour: grey only. Never Clout violet, LIVE violet or red. The tag carries no state, no number and no stat. It never appears on the scoreboard, the minimap or the hero model.
 3. Trigger: the hero has Rebranded in this match.
 4. Budget: a match shows at most one formerly tag, on the death recap or the victory screen, whichever comes first. The loading screen never shows it.

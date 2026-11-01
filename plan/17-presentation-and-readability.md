@@ -1,5 +1,5 @@
 # 17. Presentation and readability
-Every gameplay signal passes three tests: it reads in grayscale, at gameplay zoom, and at minimap size.
+Every gameplay signal passes the tests in plan/19 gates 1 and 4.
 
 ### Size targets
 

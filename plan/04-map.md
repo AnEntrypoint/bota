@@ -35,4 +35,4 @@ Towers, Content Mills, Original Post and Spawn Lounge are in section 3. Shops, i
 
 ### Map props and marginalia
 
-Out-of-bounds marginalia (ten static vignettes) sit on the map edge. They never block movement and never hide a unit. Full list in section 18.
+Out-of-bounds marginalia (ten static vignettes) sit on the map edge. They never block movement and never hide a unit. Count in section 18.
