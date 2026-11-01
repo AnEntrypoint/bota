@@ -7,12 +7,12 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 | Source | Value | Notes |
 | --- | --- | --- |
-| Starting gold | 600 | Fixed value |
+| Starting gold | 600 | UNVERIFIED, decision 14 |
 | Passive income | 1 gold per second | Gold each second alive |
 | Lane creep last hit | Melee 38-48, ranged 43-53, siege 66-80 | Unreliable. Wave composition in section 3 (UNVERIFIED) |
 | Hero kill | 110 + streak bounty + level × 9.9 | Reliable |
 | Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. Shared across heroes in range. |
-| Streak bounty | 60 up to 480 at a long streak | Ends on death |
+| Streak bounty | 60 up to 480 at a kill streak of ten (UNVERIFIED) | Ends on death |
 | Tower | Team gold per tier (about 160, 200, 240, 280) | Denied tower = 50%. |
 | Lurker Cam kill | 100 gold, 25 XP | Enemy ward, section 13 |
 
@@ -37,7 +37,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 Hero kill XP: 100, 120, 140, 160, 180 for levels 1 to 5, then 100 more per level. Shared among heroes in range. Denied lane creeps give 50% of their XP to the enemy team. Neutral-denied creeps give 35%.
 
-Total XP at checkpoint levels (cumulative). Every level from 2 to 25 is in the engine's xp_curve (tuning.osd, from 6.88g misc.ini NeedHeroXP):
+Total XP at checkpoint levels (cumulative, recalled and UNVERIFIED; plan/25 section 4 records that the 6.88g data holds no experience table):
 
 | Level | Total XP | Level | Total XP |
 | --- | --- | --- | --- |

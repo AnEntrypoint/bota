@@ -51,7 +51,7 @@ A faceless boss built from stacked trending banners. Every number in this block 
 | HP | 8,000, plus 175 per minute |
 | Magic resistance | 55% |
 | Respawn | 8 to 11 min, random |
-| Reward | Gold and XP. The killing team picks one of two rotating modifiers for 4 min. The killer takes the Snapshot. |
+| Reward | Gold and XP. The killing team picks one of two rotating modifiers for 4 min. The Trend drops Gamer Fuel on its second kill and every kill after (UNVERIFIED). The killer takes the Snapshot. |
 | Snapshot | One revive at the Spawn Lounge after a 3 s rewind clip. Expires 5 min after pickup. |
 
 ### Trend modifiers

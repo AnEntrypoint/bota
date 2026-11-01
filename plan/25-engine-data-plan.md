@@ -33,7 +33,7 @@ Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. 
 
 ### A3. Is there a 6.88g data source, and where (question c)
 
-- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The path the doc gives, `/workspace/oscraft/reference map 6.88g.w3x`, is not present. A listing of `/workspace/oscraft` and `/workspace` shows no such file, and a filename search for "w3x" in the repo returns nothing.
+- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The path the doc gives, `/workspace/oscraft/reference map 6.88g.w3x`, is not present. A listing of `/workspace/oscraft` and `/workspace` shows no such file, and a filename search for "w3x" in the repo returns nothing. Decision 21 keeps this a blocker for section 4.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
 - The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).
@@ -166,7 +166,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 ### Open questions
 
 1. **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-2. **Starting gold: resolved.** 600, per section 20, decision 14; the repo holds 625 (table above).
+2. **Starting gold: open.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 625 (table above).
 3. **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 4. **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 5. **Rebrand: resolved.** An action (file 05), never an item.
@@ -174,7 +174,6 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 7. **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
 8. **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
 9. **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.
-10. **Archive access: a blocker under decision 21.** The owner supplies `reference map 6.88g.w3x`, which is still absent (A3), so section 4 cannot run.
 
 ## Method and limits
 

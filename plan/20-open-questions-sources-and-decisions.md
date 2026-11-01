@@ -37,10 +37,10 @@
 | 32 | Item classic jobs stay in internal/parity-map.md; the balance pass checks each item's Mapped job there. | A 50-row Job column would copy the internal mapping into the plan, against decision 22. |
 | 33 | Draft maps to a plan/02 Draft row, named in the draft chapter. | Drafting holds a classic job (plan/02 rule 3), and the pick order has a cost on each side (rule 2). |
 | 34 | The premise is a commodity market, not posting. Go Viral becomes Bull Run, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The user asked for less lame humour and kept Clout. Decisions 4 and 9 are unchanged. |
-| 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | Lame L243: the leader had no choice, only an icon it could not avoid. |
-| 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point (lame L300). |
-| 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition (lame L311). |
-| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap, value UNVERIFIED. | Five reflects need the same rule (lame L266, L319). |
+| 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | The leader had no choice, only an icon it could not avoid. |
+| 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point. |
+| 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition. |
+| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap, value UNVERIFIED. | Five reflects need the same rule. |
 
 ### Open questions
 
