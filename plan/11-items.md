@@ -23,7 +23,7 @@ Twelve components. Tier 1 and Tier 2 components combine into finished items. Tie
 | Component | Tier | Effect |
 | --- | --- | --- |
 | Cheap Dagger | 1 | Bonus damage |
-| Drafted Note | 1 | Bonus mana |
+| Drafted Note | 1 | Bonus sigma |
 | Sticky Note | 1 | Ward component (vision) |
 | Hot Sauce Bottle | 1 | Small heal |
 | Ring Light | 1 | Vision radius +50 |
@@ -31,7 +31,7 @@ Twelve components. Tier 1 and Tier 2 components combine into finished items. Tie
 | Old Hoodie | 1 | Bonus armor |
 | Rubber Duck | 2 | Attack speed |
 | Burner Phone | 2 | Spell amplification |
-| Charger | 2 | Mana regeneration |
+| Charger | 2 | Sigma regeneration |
 | Cold Brew | 2 | Health regeneration |
 | Tripod | 2 | Attack range |
 
@@ -68,14 +68,14 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Refresh Page | Resets all cooldowns | Results may vary. |
 | Rapier, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
 | Gem of Subtext | Reveals invisible units and wards | Reads between the lines. |
-| Bottle of Copium | Restores HP and mana over time | You are fine. Totally fine. For 12 seconds. |
+| Bottle of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |
 | Lurker Cam | Vision. Enemies see the reveal, earn no Clout. | Watching, not listing. |
 | Spoiler Tag | True sight ward | Reveals what is hidden. Also what is coming. |
 | Dust of Receipts | Reveals invisible units in radius | The proof is in the dust. |
 | Smoke of Deniability | Invisibility cloud for allies | Nothing happened here. |
 | Gas Station Sushi | Heals over time | Sell-by date is a suggestion. |
-| Lo-Fi Beats | Restores mana over time | Beats to farm to. |
+| Lo-Fi Beats | Restores sigma over time | Beats to farm to. |
 | Hot Sauce | Instant heal | Not for beginners. |
 | Link in Bio Scroll | Teleports to base | Stay a while. |
 | Boots of Scrolling | Movement speed | Infinite scroll, finite boots. |
@@ -98,7 +98,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Confident Answer | Attacks reveal the target's last position for 2 s, 20% chance | Delivered with total certainty and no sources. |
 | Prompt Injection | The next ability the target casts hits its nearest ally | Adds one line to the instructions, and the instructions obey. |
 | Sycophant | Aura: allies inside gain Reach +100 | Agrees with everyone nearby, which everyone mistakes for friendship. |
-| Grindset | +3 HP regen, +1 mana regen | The grind does not stop. Neither do you. |
+| Grindset | +3 HP regen, +1 sigma regen | The grind does not stop. Neither do you. |
 | Drain Blade | Attack lifesteal after an attack lands | Take their energy. Literally. |
 | Lite Plan | Adds one second effect to a basic ability | The budget version of an upgrade. It still counts. |
 
@@ -113,7 +113,7 @@ Design notes:
 | Item | Cost (gold) | Effect |
 | --- | --- | --- |
 | Cheap Dagger | 100 | +12 damage |
-| Drafted Note | 90 | +25 mana, +0.5 mana regen |
+| Drafted Note | 90 | +25 sigma, +0.5 sigma regen |
 | Sticky Note | 75 | Ward component. Reveal radius +300 |
 | Hot Sauce Bottle | 50 | Heal 120 instantly |
 | Ring Light | 75 | Vision radius +50 |
@@ -121,7 +121,7 @@ Design notes:
 | Old Hoodie | 90 | +2 armor |
 | Rubber Duck | 225 | +10% attack speed |
 | Burner Phone | 200 | +6% spell amplification |
-| Charger | 225 | +2 mana regen |
+| Charger | 225 | +2 sigma regen |
 | Cold Brew | 200 | +2 HP regen |
 | Tripod | 200 | +75 attack range |
 | Lurker Cam | 65 | Vision ward, 6 min, 2 stock, 4 max |
@@ -133,11 +133,11 @@ Design notes:
 | Spoiler Tag | 75 | True sight ward, true sight 900, 6 min |
 | Ragequit Dagger | 900 | Hard Cut 1,100 range, 12 s cooldown, +20 damage |
 | Gem of Subtext | 800 | True sight 900 radius, drops on death |
-| Bottle of Copium | 800 | Restores 60 HP and mana per second for 12 s |
+| Bottle of Copium | 800 | Restores 60 HP and sigma per second for 12 s |
 | Smoke of Deniability | 700 | Group invisibility 6 s, 11 min restock |
-| Grindset | 700 | +3 HP regen, +1 mana regen |
+| Grindset | 700 | +3 HP regen, +1 sigma regen |
 | Gas Station Sushi | 750 | Heal 115 over 16 s |
-| Lo-Fi Beats | 650 | +1.5 mana regen, +1 armor |
+| Lo-Fi Beats | 650 | +1.5 sigma regen, +1 armor |
 | Boots of Scrolling | 600 | +80 move speed |
 | Anon Mask | 800 | Fade for 5 s on use, 90 s cooldown, +20 damage |
 | Participation Trophy | 1,600 | Revive at the Spawn Lounge once, 5 min |

@@ -8,7 +8,7 @@ Hero slot: 103
 - Role: Harasser, zoner
 - Attribute: Str
 - Range: Ranged
-- Distinct prop: Yellow yardstick held like a pointer
+- Distinct prop: Yellow yardstick held across the chest
 - Value groups (body / head / prop): M / L / D
 
 ## Subject

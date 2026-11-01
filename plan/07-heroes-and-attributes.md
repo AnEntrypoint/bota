@@ -9,7 +9,7 @@ Every hero has three attributes, a primary attribute, and a base stat block.
 | --- | --- | --- |
 | Strength | +20 max HP, +0.1 HP regen | Melee durability |
 | Agility | +1 attack speed, +1/7 armor |
-| Intelligence | +12 max mana, +0.05 mana regen, +1% spell amp per 16 INT | Spell amp is additive with item amp |
+| Intelligence | +12 max sigma, +0.05 sigma regen, +1% spell amp per 16 INT | Spell amp is additive with item amp |
 
 Primary attribute: +1 damage per point of the primary attribute. There is no Universal attribute.
 
@@ -18,7 +18,7 @@ Primary attribute: +1 damage per point of the primary attribute. There is no Uni
 | Stat | Value |
 | --- | --- |
 | Base HP | 200 |
-| Base mana | 50 |
+| Base sigma | 50 |
 | Base movement speed | 300 |
 | Maximum movement speed | 522 |
 | Melee attack range | 150 |
@@ -39,7 +39,7 @@ Each hero can override the base attack time and turn rate. These two values defi
 
 ### Respawn
 
-Heroes respawn at their Spawn Lounge. Respawn time is in section 5. Heroes spawn with full health and mana.
+Heroes respawn at their Spawn Lounge. Respawn time is in section 5. Heroes spawn with full health and sigma.
 
 ### Hero shape
 

@@ -14,7 +14,7 @@
 | 9 | Clout drives Reach, reveal and mood only, never a stat. Late-game Clout carry mood, Breaking News, stage camps and signature mechanics keep to that rule. | Keeps the one-currency rule from section 6 |
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). Creep, lane, jungle and tower stay generic usage. | Uniqueness |
 | 11 | Every new number is UNVERIFIED until a playable build exists. | Keeps new numbers from passing as checked values |
-| 12 | Demand Boost changes from cooldown and mana cuts to Reach +100. | Keeps it on the Clout identity |
+| 12 | Demand Boost changes from cooldown and sigma cuts to Reach +100. | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc's 6, 12 and 18 change to match. | The plan is the design source |
@@ -42,6 +42,7 @@
 | 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition. |
 | 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, Lamp Reflect, Reply All, Zip Tie Network, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap of one quarter of the hit, value UNVERIFIED. | Nine reflects need the same rule. |
 | 39 | The launch set is the 24 heroes with kits in plan/09, Frogger and Chudjak included. Mallcop and Rageguy are remaining heroes with kits in plan/10. The plan/23 voice, the plan/25 heroes.tsv row and the plan/26 slice follow this set. | plan/09 holds the kits and plan/21 the talents the engine data is built on. The voice and slice lines had been written for Mallcop and Rageguy, so they were retargeted to Chudjak, Frogger and Disaster. |
+| 40 | The resource is named sigma in every design doc: prose, table column names and character text. Original names stay in internal/parity-map.md. Engine identifiers live in the engine repo and change only when its data format does. | Owner request for a full rename. Sigma is the Brainrot resource word; the rename removes the original resource name from shipped text. |
 
 ### Open questions
 

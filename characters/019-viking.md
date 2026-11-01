@@ -17,7 +17,7 @@ lean defined muscular physique, tight pale skin, braided blonde beard, silver ha
 
 ## Hook
 
-Sips from a half-full water bottle to restore allies' mana, and each march step stomps the ground around him.
+Sips from a half-full water bottle to restore allies' sigma, and each march step stomps the ground around him.
 
 ## Aesthetic refs
 

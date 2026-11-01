@@ -33,7 +33,7 @@ Rules for the roster columns:
 | 001 | Neckbeard | Heckler | Str | Melee | Soaks the first hit for an ally in a greasy taco shirt, then banishes a friend to a basement that sandal socks make unbearable. |
 | 002 | Chungus | Bulwark | Str | Melee | Lands belly-first on a target, then naps through one cooldown and swaps it into another. |
 | 003 | Chad | Showboat | Str | Melee | Freezes enemies with one glance at the jaw, and when he dies the pompadour returns perfectly sculpted four seconds later. |
-| 004 | Gigachad | Bulwark | Agi | Melee | Silent marble statue that crosses the map in one unbroken stride and hits harder as his mana empties. |
+| 004 | Gigachad | Bulwark | Agi | Melee | Silent marble statue that crosses the map in one unbroken stride and hits harder as his sigma empties. |
 | 005 | Wojak | Recluse | Str | Melee | Sighs at the clouds until every enemy in range turns on him, then finishes anyone already low on health. |
 | 006 | Soyjak | Herald | Str | Melee | Gapes until a target falls asleep, while the plain yellow shirt is so unremarkable that enemy damage sags. |
 | 007 | Doomer | Drifter | Str | Ranged | Embers from a lit cigarette rain over an area, and a frayed hoodie carries an ally out of the fight. |
@@ -48,7 +48,7 @@ Rules for the roster columns:
 | 016 | Harold | Archivist | Str | Melee | Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides. |
 | 017 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
 | 018 | Slender | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
-| 019 | Viking | Herald | Str | Melee | Sips from a half-full water bottle to restore allies' mana, and each march step stomps the ground around him. |
+| 019 | Viking | Herald | Str | Melee | Sips from a half-full water bottle to restore allies' sigma, and each march step stomps the ground around him. |
 | 020 | Leeroy | Firebrand | Str | Melee | Charges in alone, mouth open, then walls off the path with copies of his mismatched armour. |
 | 021 | Boxxy | Tether | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |
 | 022 | Rickroll | Showboat | Agi | Ranged | Mutes a whole area through a chrome microphone, then sends dancing spirits at anyone left in range. |
@@ -81,7 +81,7 @@ Rules for the roster columns:
 | 049 | Ecce | Archivist | Int | Melee | Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces. |
 | 050 | Gopnik | Firebrand | Str | Melee | Squats flat-footed with a crowbar across his knees, calling wolves, then becomes a werewolf himself. |
 | 051 | Mallcop | Bulwark | Int | Melee | Rides a scooter in a line of shocks, pinning one target and gathering the rest into a stun. |
-| 052 | Vapebro | Drifter | Agi | Ranged | Vapes a plume that sprays arrows everywhere, shields himself with mana, and freezes enemies in the haze. |
+| 052 | Vapebro | Drifter | Agi | Ranged | Vapes a plume that sprays arrows everywhere, shields himself with sigma, and freezes enemies in the haze. |
 | 053 | Starwarskid | Tether | Str | Melee | Spins a golf-ball retriever like a staff, roots an area, and teleports to a clone left mid-spin. |
 | 054 | Tay | Herald | Int | Ranged | Leans away from the microphone, snapping an arrow along a line and leaping to gain attack speed. |
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and copies one enemy ability. |
@@ -93,7 +93,7 @@ Rules for the roster columns:
 | 061 | Florida | Firebrand | Agi | Melee | Swings a live alligator like a club to stun, and double-casts every spell under a backward trucker cap. |
 | 062 | Waffle | Bulwark | Int | Melee | Holds a diner tray as a buckler, shrugging off debuffs and healing the table with a sorry-not-sorry burst. |
 | 063 | Tpose | Phantom | Int | Melee | Floats two inches off the floor in a rigid T-pose, delaying incoming hits until the render catches up. |
-| 064 | Zalgo | Drifter | Str | Ranged | Levitates as corrupted characters, caging enemies in glyphs and hitting harder the more mana they hold. |
+| 064 | Zalgo | Drifter | Str | Ranged | Levitates as corrupted characters, caging enemies in glyphs and hitting harder the more sigma they hold. |
 | 065 | Helios | Phantom | Str | Ranged | Marble bust that teleports onto its own pedestal and vanishes behind mirrored shades while throwing daggers. |
 | 066 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies, so enemies cannot tell which idle stance is the real one. |
 | 067 | Derp | Recluse | Int | Melee | Stumbles in cross-eyed dives, then pops back up from death, potato head first. |

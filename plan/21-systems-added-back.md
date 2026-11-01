@@ -16,10 +16,10 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / LIVE hidden for 10 s after each kill |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
 | Disaster | Smirk Read slows +15% / Fire Fade cooldown −4 s | Fire Wall of Text +1 s / Smolder Drop radius +100 | Smirk Read freezes for 0.5 s / Fire Fade heals 10% | Smolder Drop marks the target for 2 s / Enemies silenced for 1 s on cast |
-| Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no mana |
-| Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Mana regen doubles below 50% mana |
+| Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no sigma |
+| Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Sigma regen doubles below 50% sigma |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
-| Viking | Mead Bash slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Bash leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Bash hits heroes below 50% HP for +10% |
+| Viking | Mead Bash slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 sigma regen / Ragnarok March cooldown −15 s | Mead Bash leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Bash hits heroes below 50% HP for +10% |
 | Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
 | Boxxy | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
 | Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
@@ -49,8 +49,8 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 | Showboat (Clout carry) | +2 Clout per kill / Ability radius +100 | Reach +25 / Aura −2 armor | Ultimate +2 s / Extra hit on ability 1 | Bull Run at 80 Clout / Survive death once |
 | Stalker (Assassin, vision denial) | Unseen damage +25% / Radius +50 | Ability 3 cooldown −3 s / Invisibility +1 s | Refresh on kill / Aura slows | No Clout from ultimate / Hidden 10 s after kill |
 | Heckler (Harasser, zoner) | Slow +15% / Cooldown −4 s | Stun +1 s / Radius +100 | Freeze 0.5 s / Heal 10% | Mark 2 s / Silence 1 s on cast |
-| Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Mana regen doubles below 50% mana |
-| Drifter (Ranged nuker) | Slow +10% / Root +1 s | Mana regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs heroes below 50% HP |
+| Engine (Late-game Clout carry) | Damage +10 / Cooldown −2 s | Shield +1 s / Radius +50 | Heal 5% / Afterimage for 40 damage | Hit twice / Sigma regen doubles below 50% sigma |
+| Drifter (Ranged nuker) | Slow +10% / Root +1 s | Sigma regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs heroes below 50% HP |
 | Herald (Resell healer, buffer) | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
 | Bulwark (Reach tank, initiator) | Slow +1 s / Shield +50 | Radius +50 / Stun +0.5 s | Reflect 10% / Mark for allies | Stun on death / 1 Clout per 200 damage absorbed while an enemy hero sees it |
 | Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
@@ -78,7 +78,7 @@ Numbers in this section are UNVERIFIED.
 | --- | --- | --- |
 | 1 | Small camps | Ticker Pin: +10 damage. Crumb Pouch: +1.5 HP regen. NPC Badge: +8% spell amplification. |
 | 2 | Medium camps | Echo Ring: 8% attack lifesteal. Stan Sign: allied creeps in Reach gain +5% damage. Hot Mic: 15% chance on attack to silence for 0.6 s. |
-| 3 | Hard camps | Bullish Bell: 10% chance on attack to heal 60 HP. Markdown Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max mana. |
+| 3 | Hard camps | Bullish Bell: 10% chance on attack to heal 60 HP. Markdown Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max sigma. |
 | 4 | Old Forum Ticker | Eternal Ticker: +150 HP, +20 damage, 10% faster cooldowns. Vintage Lot: active, 2 s reveal and 1.5 s stun in 400 radius, 60 s cooldown. Long Tail: +25% Clout gain. |
 
 ### Safe Spots
@@ -117,7 +117,7 @@ Numbers in this section are UNVERIFIED.
 
 - Job: map pressure, rotation (plan/02, Map pressure row). The cost is the river walk.
 - Spawns with the other boosts on the river. Lasts 50 s.
-- While held: Reach +100 and a grey pip on the minimap. No cooldown or mana change.
+- While held: Reach +100 and a grey pip on the minimap. No cooldown or sigma change.
 
 ### Gamer Fuel
 
@@ -125,7 +125,7 @@ Numbers in this section are UNVERIFIED.
 
 - Job: sustain (plan/02, Sustain row). The cost is the Trend kill it waits for.
 - The Trend drops Gamer Fuel on its second kill and every kill after.
-- Gamer Fuel cannot be sold. Chug it to restore 2,500 HP and 1,000 mana over 4 s. One can per drop.
+- Gamer Fuel cannot be sold. Chug it to restore 2,500 HP and 1,000 sigma over 4 s. One can per drop.
 
 ### Scalper (roster entry 112)
 

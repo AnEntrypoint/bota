@@ -17,7 +17,7 @@ hyper-symmetrical chiseled facial features, dark designer stubble, monolithic an
 
 ## Hook
 
-Silent marble statue that crosses the map in one unbroken stride and hits harder as his mana empties.
+Silent marble statue that crosses the map in one unbroken stride and hits harder as his sigma empties.
 
 ## Aesthetic refs
 

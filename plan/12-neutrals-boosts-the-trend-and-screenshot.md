@@ -67,9 +67,9 @@ Eight modifiers rotate each patch. Two are offered per kill:
 | --- | --- |
 | Cast Rush | +10% move speed for 3 s after each cast. Each cast reveals the caster for 1 s. |
 | Unboxing | −15% item cooldowns, items cost 10% more gold |
-| Learn to Code | +10% XP from all sources, abilities cost 5% more mana |
+| Learn to Code | +10% XP from all sources, abilities cost 5% more sigma |
 | Speedrun | +15% move speed, towers deal +10% damage to you, and your team earns 10% less tower gold |
-| Storytime | Channeled abilities finish 25% faster and cost 15% more mana |
+| Storytime | Channeled abilities finish 25% faster and cost 15% more sigma |
 | Get Ready With Me | Items bought at the Spawn Lounge cost 10% less. Respawn takes 2 s longer. |
 | Demand Tide | Clout gain +20%, Clout decay +50% |
 | Solo Queue | +8% ability damage while no ally is within 600, -10% move speed |
@@ -84,7 +84,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | --- | --- | --- | --- |
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
 | Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; C2 flags it if its pick rate passes 65% |
-| Learn to Code | Low-mana heroes who cast rarely | Medium: the mana cost is small for them | Speedrun |
+| Learn to Code | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Speedrun |
 | Speedrun | Aggressive early teams | High: tower damage and speed reward an early rush | Slow the rush; the rusher pays the tower tax |
 | Storytime | Channel-heavy heroes (Curl Drain, Silhouette Breath) | Medium | Channel-free kits |
 | Get Ready With Me | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |

@@ -20,7 +20,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 001 | Neckbeard | Heckler | - | Ult makes an ally untargetable; otherwise shield, heal, slow. |
 | 002 | Chungus | Bulwark | - | Slow and damage; team stat boost; ult gold per kill, timed. |
 | 003 | Chad | Showboat | - | Ult replays the next death after a delay; frost slow, stun mark. |
-| 004 | Gigachad | Bulwark | - | Short teleport is its escape; spell block; missing-mana damage. |
+| 004 | Gigachad | Bulwark | - | Short teleport is its escape; spell block; missing-sigma damage. |
 | 005 | Wojak | Recluse | - | Taunt, slow, reflect, threshold kill; no global, stacking or escape. |
 | 006 | Soyjak | Herald | FLAG | Sleep has no timer; damage wakes it; ult holds and damages. |
 | 007 | Doomer | Drifter | - | Area burn, path burn, pull into fire; no escape or stacking. |
@@ -56,7 +56,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 037 | Attached | Tether | - | Teleports an ally; shared heals; orb damage; overclock ult. |
 | 038 | Zyzz | Showboat | - | Fire and ice breath; zone burn and slow; ult sustained line fire. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
-| 040 | Dino | Bulwark | - | Beam, area blind, mana restore; ult fast flight, heals on pass. |
+| 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
 | 041 | Fuuuu | Recluse | - | Stun wave, strike and slow, marking; ult sails through enemies. |
 | 042 | Jeff | Stalker | - | Damage scales with nearby allies; dash, lifesteal; ult one-on-one. |
 | 043 | Jack | Stalker | - | Stun and damage, zone, bounce; ult nearby silence. |
@@ -68,7 +68,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 049 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
 | 050 | Gopnik | Firebrand | - | Wolf summons, werewolf form; ult boosts all allies. |
 | 051 | Mallcop | Bulwark | - | Line damage, ally damage boost, charge pull; ult pulls together, stuns. |
-| 052 | Vapebro | Drifter | - | Multi-direction arrows, bounce, mana shield; ult briefly petrifies. |
+| 052 | Vapebro | Drifter | - | Multi-direction arrows, bounce, sigma shield; ult briefly petrifies. |
 | 053 | Starwarskid | Tether | - | Teleports to a clone; area root; ult clones fight on their own. |
 | 054 | Tay | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
 | 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
@@ -80,7 +80,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 061 | Florida | Firebrand | - | Stun and damage blast, burn, ally attack speed; ult casts spells twice. |
 | 062 | Waffle | Bulwark | - | Ult briefly makes allies invulnerable; area damage, debuff immunity, heal. |
 | 063 | Tpose | Phantom | - | Delayed damage, heal-and-damage, damage block; ult damage and stun. |
-| 064 | Zalgo | Drifter | - | Projectile gains damage, hold, mana regen aura; ult scales with enemy mana. |
+| 064 | Zalgo | Drifter | - | Projectile gains damage, hold, sigma regen aura; ult scales with enemy sigma. |
 | 065 | Helios | Phantom | - | Teleport and evasion-stealth escapes; slow dagger; ult crit chance. |
 | 066 | NPC | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
 | 067 | Derp | Recluse | - | Ult revives on death; burn dash, damage orbs, channeled ally heal. |
@@ -95,7 +95,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 076 | Glitch | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
 | 078 | Critic | Archivist | FLAG | Polymorph transforms an enemy with no timer; hold; serpent ult. |
-| 079 | Crossfit | Engine | - | Area silence; mana on attack; stun silenced enemies; ult mass silence. |
+| 079 | Crossfit | Engine | - | Area silence; sigma on attack; stun silenced enemies; ult mass silence. |
 | 080 | Acorn | Stalker | - | Ult revives on death; lifesteal aura, critical damage, rebrand blast. |
 | 081 | Mallarcher | Engine | - | Silence, area damage, bolt slow; ult slow and damage. |
 | 082 | Paintballer | Stalker | - | Area stun, chance stun, more damage taken; ult armor reduction. |

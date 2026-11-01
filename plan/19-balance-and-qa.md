@@ -45,7 +45,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Stat sheet
 
-- HP, damage, armor and mana per tier (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 mana; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
+- HP, damage, armor and sigma per tier (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 sigma; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
 - Attack time (BAT) and turn rate are set per hero, and are the main tool for a hero's feel.
 - Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).
 
@@ -55,7 +55,7 @@ Numbers in this section are UNVERIFIED.
 
 | Stage | Measure | Action |
 | --- | --- | --- |
-| Stat sheet | Power budget per hero | Set HP, damage, armor and mana to the archetype tier |
+| Stat sheet | Power budget per hero | Set HP, damage, armor and sigma to the archetype tier |
 | Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% |
 | Matchup test | Win rate for each hard counter pair | Retune any pair outside 45 to 55% |
 | Pick and ban test | Pick rate and ban rate per hero | Retune any hero above 3× the average pick or ban rate |
