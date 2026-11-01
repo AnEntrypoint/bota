@@ -44,6 +44,8 @@ Each hero is in one of four states at any time. The state sets what the rest of 
 3. **Bullish.** At 100 Clout. Bull Run is active for 20 s. The hero is revealed on the global minimap.
 4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn.
 
+- Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the global reveal that a Bullish hero gives up for 20 s.
+
 Rebrand resets a hero to Quiet at 0 Clout.
 
 ### Design rules
@@ -54,13 +56,13 @@ Rebrand resets a hero to Quiet at 0 Clout.
 
 ### Late-game Clout carry mood
 
-- Job: comeback pressure (plan/02, Comeback gold row). The cost is the Front Runner icon on the minimap.
+- Job: comeback pressure (plan/02, Comeback gold row). The cost is the Front Runner icon on the minimap, or the Reach +50 given up to hide it.
 
 Each team has one mood, set by the gap between the two teams' total Clout. Mood changes Reach and minimap reveal only. Numbers are UNVERIFIED.
 
 | Mood | Entered when | Effect |
 | --- | --- | --- |
-| Front Runner | Team total ahead by 300 Clout or more for 30 s | Its heroes get Reach +50. Its highest-Clout hero shows on the minimap as a Front Runner icon for 20 s every 60 s. |
+| Front Runner | Team total ahead by 300 Clout or more for 30 s | Its heroes get Reach +50. Its highest-Clout hero shows on the minimap as a Front Runner icon for 20 s every 60 s, unless its heroes give up Reach +50 for those 20 s to hide it (UNVERIFIED). |
 | Underdog | Team total behind by 300 Clout or more for 30 s | Its heroes get Reach +50 and show on the minimap for 10 s after each kill (UNVERIFIED). |
 | Even | Neither of the above | No effect. |
 

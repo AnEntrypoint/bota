@@ -37,6 +37,7 @@
 | 32 | Item classic jobs stay in internal/parity-map.md; the balance pass checks each item's Mapped job there. | A 50-row Job column would copy the internal mapping into the plan, against decision 22. |
 | 33 | Draft maps to a plan/02 Draft row, named in the draft chapter. | Drafting holds a classic job (plan/02 rule 3), and the pick order has a cost on each side (rule 2). |
 | 34 | The premise is a commodity market, not posting. Go Viral becomes Bull Run, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The user asked for less lame humour and kept Clout. Decisions 4 and 9 are unchanged. |
+| 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | Lame L243: the leader had no choice, only an icon it could not avoid. |
 
 ### Open questions
 

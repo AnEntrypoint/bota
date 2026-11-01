@@ -28,7 +28,7 @@ The tier sets the total stat and ability points before the ±10% shift.
 | 2 | 90 | 20 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
 | 3 | 80 | 16 | Offline sustain |
 
-Allocation: start at the tier total, then shift up to ±10% by attribute and range. The shifted total stays within the tier total. All values are UNVERIFIED.
+Allocation: start at the tier total, then shift up to ±10% by attribute and range. A shift up on one attribute is paid for by an equal shift down on others, so the shifted total equals the tier total. All values are UNVERIFIED.
 
 ### Fight rules
 

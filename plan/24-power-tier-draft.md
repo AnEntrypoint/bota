@@ -11,6 +11,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 - Timed disables scale with the ability 2 table, so only disables with no timer or an until-condition count as long.
 - Stacks with a stated cap count as stacking but are not flagged. Talent choices count only when they add a global, uncapped-stacking or no-timer disable effect.
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
+- The archetype average is the mean of the same measure over every other hero with the same Archetype in section 1, taken from the same test (UNVERIFIED until the first playtest).
 
 ## 1. Table (112 heroes)
 
@@ -146,3 +147,11 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 8. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: the global choice's win rate stays within 5 points of the local one (UNVERIFIED).
 9. Airhorn (088): talent grows Escalating Blare per cast with no cap stated. Measure the damage multiplier after repeated casts in one fight. Pass: the damage multiplier after 5 casts stays at or below 2× (UNVERIFIED).
 10. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (UNVERIFIED).
+11. Soyjak (006): sleep has no timer and damage wakes it. Measure the longest sleep on a target that takes no damage. Pass: the longest undamaged sleep stays at or below 3 s (UNVERIFIED).
+12. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
+13. Numa (024): ult silences and damages until the target dies, with no timer. Measure the longest silence on a target that survives. Pass: the longest silence on a surviving target stays at or below 3 s (UNVERIFIED).
+14. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the longest transform stays at or below 3 s (UNVERIFIED).
+15. Kazoo (056): area sleep has no timer. Measure the longest area sleep on a target that takes no damage. Pass: the longest area sleep stays at or below 3 s (UNVERIFIED).
+16. Critic (078): polymorph has no timer. Measure the longest polymorph. Pass: the longest polymorph stays at or below 3 s (UNVERIFIED).
+17. Snackvendor (108): Tournament Curse charms with no stated timer. Measure the longest charm and the DoT total per charm. Pass: the longest charm stays at or below 3 s (UNVERIFIED).
+18. Spudgunner (084): talent stacks Pressure Gauge Reply with no cap stated. Measure stacks at fight end and the damage they add. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).

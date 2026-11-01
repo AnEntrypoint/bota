@@ -5,6 +5,8 @@ Vision decides what the enemy can see, and therefore what they can take. Under B
 
 ### Wards
 
+- Job: vision and wards (plan/02, Vision and wards row). The cost is the ward's gold and its 6 min life.
+
 | Ward | Brainrot name | Cost | Duration | Stock | Function |
 | --- | --- | --- | --- | --- | --- |
 | Vision ward | Lurker Cam | 65 gold | 6 min | Start 2, max 4, restock 150 s | Vision. Enemies see the reveal and earn no Clout. |
@@ -15,6 +17,8 @@ Vision decides what the enemy can see, and therefore what they can take. Under B
 - Towers give true sight at 700 range.
 
 ### Reveal tools
+
+- Job: reveal (plan/02, Vision and wards row). The cost is the item at risk: the Gem drops on death, and Smoke restocks in 11 min.
 
 | Tool | Brainrot name | Effect |
 | --- | --- | --- |

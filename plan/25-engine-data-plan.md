@@ -149,7 +149,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 - **R7. Filter bits are capped.** FNAM allows at most 15 bits (FORMAT.md line 376). Twelve archetype filters plus role filters can exhaust that. Keep archetype as a data column and use filter bits only for targeting.
 - **R8. Ids are positions.** Item ids are record indices, and ability indices follow declaration order (FORMAT.md). Unit `kind` is a `u16` position on the wire. Inserting a row renumbers everything after it, which makes a new image hash and a SWAP at a tick (docs/WIRE.md). Generation must keep ids stable, as section 2 says.
 - **R9. Output must be byte-stable.** `tests.yml` compares two `mapexport` runs byte for byte. The generator must sort, use LF, fix float formatting and write no timestamps.
-- **R10. FORMAT.md is internally inconsistent.** It says "the reader requires all twenty-eight tags" (line 28), but the header, the table and the rule at line 17 all say 27. Fix the sentence when the file is next edited.
+- **R10. FORMAT.md is internally inconsistent.** It says "the reader requires all twenty-eight tags" (line 28), but the header, the table and the rule at line 17 all say 27. The oscraft repo owns `rust/crates/data/FORMAT.md`; this plan does not edit it.
 - **R11. Contradictions found on 2026-10-25, resolved on 2026-10-27.**
   - The component 1 band is 50 to 100, the finished Tier 1 band is 65 to 300, and assembly is explicitly discounted (file 11).
   - Spoiler Tag moved to Tier 1 at 75 gold (file 11).
