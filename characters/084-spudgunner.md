@@ -18,6 +18,3 @@ red-and-black buffalo plaid fleece hunting jacket, industrial ear-muff protector
 ## Hook
 
 Fires a pipe cannon that slows an area, then charges the pressure gauge to punish slowed targets.
-
-## Aesthetic refs
-

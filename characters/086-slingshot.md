@@ -18,6 +18,3 @@ burly smiling build, short beard, dark green work tee, heavy wrist-braced slings
 ## Hook
 
 Charges a triple-tube slingshot to stun, then teleports the shot onto a target across the map.
-
-## Aesthetic refs
-

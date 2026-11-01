@@ -18,6 +18,3 @@ retro red nylon track jacket with white sleeve stripes, bulky over-ear soundproo
 ## Hook
 
 Blasts two air horns to stun, each stun making the next blare louder and every attack emptying a canister.
-
-## Aesthetic refs
-

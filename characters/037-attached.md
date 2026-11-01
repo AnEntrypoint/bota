@@ -22,6 +22,3 @@ unnervingly wide unblinking teal eyes, locked rigid white-toothed smile, smooth 
 ## Hook
 
 Holds both hands clasped under an unblinking smile, tethered to an ally so every heal is shared between them.
-
-## Aesthetic refs
-

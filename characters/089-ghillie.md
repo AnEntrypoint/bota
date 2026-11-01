@@ -18,6 +18,3 @@ heavy suit made from thousands of shredded burlap strips and dried corn stalks, 
 ## Hook
 
 Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope.
-
-## Aesthetic refs
-

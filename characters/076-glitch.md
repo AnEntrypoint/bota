@@ -18,6 +18,3 @@ bipedal humanoid mesh fractured into displaced red, green, and blue chromatic of
 ## Hook
 
 Holds an enemy in place and copies its image through red, green and blue offset layers.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ bulky olive-drab rubberized hazmat suit, twin-canister rubber gas mask with fogg
 ## Hook
 
 Slams a storm-shelter blast door into place, rooting an area behind a gas mask and summoning taped-up treants.
-
-## Aesthetic refs
-

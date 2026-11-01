@@ -18,6 +18,3 @@ full digital desert camouflage battle dress, four-tube panoramic night-vision go
 ## Hook
 
 Snipes from a crouch through four night-vision tubes, with desert camouflage that heals everyone standing in it.
-
-## Aesthetic refs
-

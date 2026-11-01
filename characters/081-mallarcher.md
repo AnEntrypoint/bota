@@ -18,6 +18,3 @@ fingerless black tactical gloves, matte-black compound bow equipped with six rid
 ## Hook
 
 Silences a target with six absurdly long stabilizer rods, then slows survivors with neon-fletched arrows.
-
-## Aesthetic refs
-

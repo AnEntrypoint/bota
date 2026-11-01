@@ -18,6 +18,3 @@ smooth white cranium, eyes squeezed into tight crescents of agony, mouth open in
 ## Hook
 
 Screams until the lane floods, stunning everyone in the wave, then cruises through the survivors on it.
-
-## Aesthetic refs
-

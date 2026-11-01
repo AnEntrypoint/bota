@@ -18,6 +18,3 @@ round cheerful face, oversized grey over-ear studio headphones, short-sleeve lig
 ## Hook
 
 Swallows a creep whole for health, then keeps the beat going on a silenced target until it dies.
-
-## Aesthetic refs
-

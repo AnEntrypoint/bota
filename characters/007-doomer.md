@@ -18,6 +18,3 @@ heavy dark circles under hollow eyes, unwashed five-o'clock shadow, faded black 
 ## Hook
 
 Embers from a lit cigarette rain over an area, and a frayed hoodie carries an ally out of the fight.
-
-## Aesthetic refs
-

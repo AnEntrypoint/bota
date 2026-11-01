@@ -1,7 +1,7 @@
 # 9. Launch hero kits
 Twenty-four launch characters across eleven of the twelve role families (Archivist has no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
 
-Re-theme of the former launch kits onto the character set (bota/ROSTER.md). Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
+Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
 
 Emergent rewrite (GUESS): each effect carries its character's gag (a visible trait from the character prompt). Ability IDs, slot order, the four-ability count, effect kinds and the tier numbers below are kept. Any number that moved is GUESS inline (decision 42). Every cross-hero hook is GUESS and lives only in Emergent hooks, at most one per row (a hero may be named as the partner in several rows). No new engine kinds or ability slots; ideas that need one are in Requests.
 

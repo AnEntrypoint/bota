@@ -13,6 +13,3 @@ massive broad-shouldered build, reflective blue sport wraparound sunglasses, tor
 ## Hook
 
 Charges forward holding a chrome truck grille in both hands, a battering ram that has clearly lost its truck.
-
-## Aesthetic refs
-

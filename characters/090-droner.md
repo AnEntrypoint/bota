@@ -18,6 +18,3 @@ bulky white digital FPV goggles resting on forehead, neck strap holding dual-sti
 ## Hook
 
 Drops quadcopter traps, then sends the drone after trapped enemies to reveal and damage them.
-
-## Aesthetic refs
-

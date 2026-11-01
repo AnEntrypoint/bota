@@ -22,6 +22,3 @@ limbless brown potato trunk with a slight lean to one side and visible thumbprin
 ## Hook
 
 Spits stacking slows from a potato trunk, then hits back harder for every blow it has taken.
-
-## Aesthetic refs
-

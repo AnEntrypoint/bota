@@ -18,6 +18,3 @@ clenched squared jawline, narrow steely eyes, arms tightly folded across chest, 
 ## Hook
 
 Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ floating 8-bit black pixel sunglasses, glowing green crosshair hitmarker project
 ## Hook
 
 Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies.
-
-## Aesthetic refs
-

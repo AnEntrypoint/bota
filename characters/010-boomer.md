@@ -18,6 +18,3 @@ receding grey hairline with sunburned forehead, wrap-around blue-mirror sport su
 ## Hook
 
 Turns invisible behind blue-mirror sunglasses until he swings, then collects gold for every grass stain left on enemies.
-
-## Aesthetic refs
-

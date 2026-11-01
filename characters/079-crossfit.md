@@ -18,6 +18,3 @@ chalk-dusted hands, black compression tights, neon sweatband across brow, massiv
 ## Hook
 
 Silences a whole area with chalk, then rolls a tractor tire in to stun anyone left muted.
-
-## Aesthetic refs
-

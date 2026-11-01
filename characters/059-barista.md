@@ -18,6 +18,3 @@ neatly waxed handlebar mustache, dark selvedge denim bib apron, rolled chambray 
 ## Hook
 
 Twists a portafilter to stun, dims the cafe to cut vision, and terrorizes enemies with tattoo sleeves.
-
-## Aesthetic refs
-

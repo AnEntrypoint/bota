@@ -18,6 +18,3 @@ slicked dark hair, pure white plastic wayfarer sunglasses, fitted dark blue suit
 ## Hook
 
 Silences an area with a pelvic-thrust solo, then flips down white shades to reveal a target's path.
-
-## Aesthetic refs
-

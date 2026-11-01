@@ -18,6 +18,3 @@ heavyset biped, patchy unwashed neck curtain beard, greying threadbare t-shirt w
 ## Hook
 
 Soaks the first hit for an ally in a greasy taco shirt, then banishes a friend to a basement that sandal socks make unbearable.
-
-## Aesthetic refs
-

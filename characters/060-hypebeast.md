@@ -18,6 +18,3 @@ bright crimson utility chest pack with bold white lettering, oversized designer 
 ## Hook
 
 Stacks shoeboxes into a line spike, brainwashes a creep with platform sneakers, and strikes unseen.
-
-## Aesthetic refs
-

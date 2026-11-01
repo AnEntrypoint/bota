@@ -18,6 +18,3 @@ faceless slate-grey biped, crimson circular combat lenses, thick white bandages 
 ## Hook
 
 Swings twin machetes in a line, stacking speed with each swing, then spends the stacks on a single burst.
-
-## Aesthetic refs
-

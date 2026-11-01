@@ -18,6 +18,3 @@ bright blue three-striped nylon tracksuit, wool newsboy flat cap pulled low, bla
 ## Hook
 
 Squats flat-footed with a crowbar across his knees, calling wolves, then becomes a werewolf himself.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ polished bald cranium, sharp upturned nose, half-lidded eyelids, curled asymmetr
 ## Hook
 
 Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ receding flat buzzcut, severe downturned scowl, heavy flat unibrow, olive-green 
 ## Hook
 
 Clubs a line of enemies with a rolled manifesto and grows angrier the more of them surround him.
-
-## Aesthetic refs
-

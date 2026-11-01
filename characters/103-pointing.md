@@ -18,6 +18,3 @@ wide unhinged eyes behind square spectacles, open gaping oval mouth, long slende
 ## Hook
 
 Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone.
-
-## Aesthetic refs
-

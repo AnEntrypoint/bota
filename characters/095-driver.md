@@ -18,6 +18,3 @@ glowing neon-yellow paper nightclub wristband, keychain with plastic fobs spinni
 ## Hook
 
 Hurls a detached steering wheel at one enemy, then spins a keychain on a finger until the whole club piles on.
-
-## Aesthetic refs
-

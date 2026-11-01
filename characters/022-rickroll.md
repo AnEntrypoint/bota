@@ -18,6 +18,3 @@ voluminous ginger pompadour with razor side-part, double-breasted beige trench c
 ## Hook
 
 Mutes a whole area through a chrome microphone, then sends dancing spirits at anyone left in range.
-
-## Aesthetic refs
-

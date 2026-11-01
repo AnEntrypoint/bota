@@ -18,6 +18,3 @@ misshapen lumpy cranium with deep tear crevices carved down cheeks, mouth turned
 ## Hook
 
 Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends.
-
-## Aesthetic refs
-

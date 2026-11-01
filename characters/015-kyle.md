@@ -18,6 +18,3 @@ sideways black flat-brim motocross cap, neon-green skate shoes, sleeveless black
 ## Hook
 
 Smashes whoever is nearest with drywall knuckles and calls a skate crew of sideways-capped illusions.
-
-## Aesthetic refs
-

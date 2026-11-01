@@ -18,6 +18,3 @@ bright sky-blue spherical floating head, enormous thick red cartoon lips opened 
 ## Hook
 
 Charges plasma in an open mouth, dashes through enemies, and copies one enemy ability.
-
-## Aesthetic refs
-

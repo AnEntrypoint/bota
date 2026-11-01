@@ -22,6 +22,3 @@ short wavy brown bob, knowing devilish sideways smirk directly at viewer, plain 
 ## Hook
 
 Smirks at the viewer in front of a burning house, freezing enemies in place while the fire spreads.
-
-## Aesthetic refs
-

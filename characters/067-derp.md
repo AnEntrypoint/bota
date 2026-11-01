@@ -18,6 +18,3 @@ smooth white potato head, pupils pointing in completely opposite directions, wid
 ## Hook
 
 Stumbles in cross-eyed dives, then pops back up from death, potato head first.
-
-## Aesthetic refs
-

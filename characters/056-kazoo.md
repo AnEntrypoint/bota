@@ -22,6 +22,3 @@ bright red-and-white horizontally striped t-shirt, pristine golden bowl haircut,
 ## Hook
 
 Plays a kazoo that holds enemies in place, puts an area to sleep, and fills the lane with illusions.
-
-## Aesthetic refs
-

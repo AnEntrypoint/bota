@@ -18,6 +18,3 @@ flat world map printed on tunic, brass carpenter's spirit level held in hand, fl
 ## Hook
 
 Lifts and throws enemies with a spirit level, then copies their spells onto a flat map.
-
-## Aesthetic refs
-

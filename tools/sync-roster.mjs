@@ -122,10 +122,7 @@ const renderHero = h => [
   "",
   h.hook,
   "",
-  "## Aesthetic refs",
-  "",
-  ...h.refs.map(r => `- ${r}`),
-  "",
+  ...(h.refs.length ? ["## Aesthetic refs", "", ...h.refs.map(r => `- ${r}`), ""] : []),
 ].join("\n");
 
 const q = JSON.stringify;

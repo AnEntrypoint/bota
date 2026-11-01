@@ -18,6 +18,3 @@ stark monochromatic grey 1-bit pixel aesthetic, running bipedal tyrannosaur silh
 ## Hook
 
 Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels.
-
-## Aesthetic refs
-

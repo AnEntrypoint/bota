@@ -18,6 +18,3 @@ stark white bald cranium, simple expressive ink-etched facial contours, downcast
 ## Hook
 
 Sighs at the clouds until every enemy in range turns on him, then finishes anyone already low on health.
-
-## Aesthetic refs
-

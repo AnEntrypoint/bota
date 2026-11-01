@@ -18,6 +18,3 @@ hollow sunken cheeks, wide bloodshot unblinking eyes, disheveled greasy hair, st
 ## Hook
 
 Claps one oversized arm to stun, then summons clones that all carry the same arm.
-
-## Aesthetic refs
-

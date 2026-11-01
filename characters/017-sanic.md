@@ -18,6 +18,3 @@ crudely distorted electric-blue bipedal scribble, oversized asymmetric pupils po
 ## Hook
 
 Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons.
-
-## Aesthetic refs
-

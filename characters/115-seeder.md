@@ -13,6 +13,3 @@ ragged long naval pirate coat with brass buttons, peg leg made from stacked bare
 ## Hook
 
 Limps in on a peg leg of hard drive platters, lassoing strangers with a rope made of links.
-
-## Aesthetic refs
-

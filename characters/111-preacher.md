@@ -18,6 +18,3 @@ threadbare charcoal suit jacket, intense wide-eyed gaze, thick leather-bound Bib
 ## Hook
 
 Shouts through a battery megaphone so the sermon chains between enemies, and the raised Bible stuns whoever it lands on.
-
-## Aesthetic refs
-

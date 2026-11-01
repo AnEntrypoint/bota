@@ -18,6 +18,3 @@ smooth white stylized face, eyes squeezed shut in absolute laughing glee, mouth 
 ## Hook
 
 Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along.
-
-## Aesthetic refs
-

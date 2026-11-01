@@ -18,6 +18,3 @@ friendly warm grin, popped polo shirt collar on striped pastel shirt, unlit roll
 ## Hook
 
 Smiles warmly, unlit cigarette in his lips, while rockets drop on a zone he politely welcomed enemies into.
-
-## Aesthetic refs
-

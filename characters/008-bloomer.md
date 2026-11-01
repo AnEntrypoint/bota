@@ -18,6 +18,3 @@ wide earnest smile, bright clear eyes, healthy posture, pastel yellow windbreake
 ## Hook
 
 Blinds nearby enemies with a wholesome smile, then sends a boar in a pastel windbreaker to charge them.
-
-## Aesthetic refs
-

@@ -22,6 +22,3 @@ colorful knotted floral headscarf, wide expressive alarmed eyes, gold hoop earri
 ## Hook
 
 Pops a cherry to slow targets, and wide alarmed eyes spot every critical strike before it lands.
-
-## Aesthetic refs
-

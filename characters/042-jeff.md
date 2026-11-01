@@ -18,6 +18,3 @@ bleached paper-white face, unclosing lidless black ringed eyes, carved bloody cr
 ## Hook
 
 Locks lidless eyes on one victim and drags the fight into a private duel, stronger with every ally nearby.
-
-## Aesthetic refs
-

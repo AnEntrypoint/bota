@@ -18,6 +18,3 @@ thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinit
 ## Hook
 
 Teleports with a scarf flourish and scalds foes with pour-over coffee that keeps burning after the first hit.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ emaciated olive-green frame, bulbous bald cranium, elongated flexible rubbery fi
 ## Hook
 
 Clatters three spoons for an armor and slow aura, then takes control of a creep with rubbery fingers.
-
-## Aesthetic refs
-

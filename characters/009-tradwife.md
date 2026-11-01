@@ -22,6 +22,3 @@ neat retro golden bob haircut, serene smile, bright sky-blue sundress with tiny 
 ## Hook
 
 Swats enemies with warm brioche that hurts more the farther they walk, while apron strings speed her attacks.
-
-## Aesthetic refs
-

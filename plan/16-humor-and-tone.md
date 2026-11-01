@@ -2,7 +2,7 @@
 The register is maximalist, fad-forward and then some. Two images carry two readings. The second reading is the punchline.
 
 ### Rules
-1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Trollhunter bumps old threads (GUESS), Pointing points at everything.
+1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Trollhunter bumps old tickers (GUESS), Pointing points at everything.
 2. Every joke has a setup and a punchline.
 3. Voice is expressive and reactive. Rageguy and Krazed scream; Viking reacts by scrolling past. Only the Hot-take initiator screams.
 4. Gags have a lifespan. Forever replays the same loop, Acorn rebrands every week (GUESS), Krazed's monitor cracks once and is folded into the next patch.

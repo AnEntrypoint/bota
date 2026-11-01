@@ -18,6 +18,3 @@ glossy royal-blue wooden mask with empty black sockets weeping thick black tar, 
 ## Hook
 
 Weeps black tar that bounces between enemies, then pulses outward to silence everyone standing close.
-
-## Aesthetic refs
-

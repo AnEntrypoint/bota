@@ -13,6 +13,3 @@ bright yellow sealed hazmat jumpsuit with crinkled folds, dark reflective helmet
 ## Hook
 
 Walks through empty yellow corridors in a sealed hazmat suit, filming everything and touching none of it.
-
-## Aesthetic refs
-

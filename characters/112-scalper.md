@@ -18,6 +18,3 @@ dark hooded windbreaker with hood pulled tight, oversized mountaineering backpac
 ## Hook
 
 Drops sealed boxes as a rooting snare, and enemies standing nearby are charged a little more every second.
-
-## Aesthetic refs
-

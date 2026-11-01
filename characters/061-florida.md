@@ -18,6 +18,3 @@ deep leathery sunburn, shredded frayed denim jorts, backward neon-yellow mesh tr
 ## Hook
 
 Swings a live alligator like a club to stun, and double-casts every spell under a backward trucker cap.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ canvas utility apron bursting with electric hot glue guns, industrial spools of 
 ## Hook
 
 Zip-ties enemies to the spot with a belt of neon fasteners, then hot-glues the problem shut in five minutes.
-
-## Aesthetic refs
-

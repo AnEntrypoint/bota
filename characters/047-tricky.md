@@ -18,6 +18,3 @@ mottled decay-green skin, wild frizzy neon-red hair curls, rusted iron hockey fa
 ## Hook
 
 Hops in, slams a stop sign, and turns the target into a sheep after a hockey-mask check.
-
-## Aesthetic refs
-

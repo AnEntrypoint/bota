@@ -13,6 +13,3 @@ completely hairless pale grey emaciated biped, hyper-extended curved spine, elon
 ## Hook
 
 Crouches in the beam of your own flashlight, visibly unbothered that you are the one holding it.
-
-## Aesthetic refs
-

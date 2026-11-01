@@ -18,6 +18,3 @@ deeply tanned aesthetic physique, neon-pink short-shorts, spiked highlighted hai
 ## Hook
 
 Flexes a double bicep and breathes fire and ice, finishing with a wall of flames along a line.
-
-## Aesthetic refs
-

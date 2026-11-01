@@ -18,6 +18,3 @@ anthropomorphic pure white domestic cat, sitting upright behind dark restaurant 
 ## Hook
 
 Squints from behind the salad, ropes a target across the table, and puts an arrow in it.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ smooth white head tilted back, jet-black sunglasses, smug upturned chin, hands f
 ## Hook
 
 Hooks and pulls targets from behind sunglasses while hands stay in pockets, growing smugger with every kill.
-
-## Aesthetic refs
-

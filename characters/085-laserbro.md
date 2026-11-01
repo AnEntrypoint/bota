@@ -18,6 +18,3 @@ dark wool overcoat, small dark sunglasses, handheld black aluminum high-powered 
 ## Hook
 
 Reflects damage with a dead-straight beam and hits harder while standing completely alone.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ grey fleece sweatpants, tucked-in plain navy tee, intense focused brow with furr
 ## Hook
 
 Spins a golf-ball retriever like a staff, roots an area, and teleports to a clone left mid-spin.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ singed grey zip-up hoodie with soot marks, backward clear safety goggles, dual m
 ## Hook
 
 Fires firework tubes from both hands, pulling enemies into a spark vortex before dashing off through the smoke.
-
-## Aesthetic refs
-

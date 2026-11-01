@@ -18,6 +18,3 @@ car-vent dashboard mount holding smartphone with glowing GPS navigation route, w
 ## Hook
 
 Offers mints and chilled water, and every passenger ally attacks faster for the whole ride.
-
-## Aesthetic refs
-

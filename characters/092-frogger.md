@@ -18,6 +18,3 @@ mottled blue amphibious skin, vintage leather aviator flying cap with ear flaps,
 ## Hook
 
 Rides an imaginary hover motorcycle in mid-air, and the landing hits enemies with the full weight of a very real frog.
-
-## Aesthetic refs
-

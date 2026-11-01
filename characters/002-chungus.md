@@ -18,6 +18,3 @@ colossal pear-shaped bipedal hare, massive double chin resting on chest, smug ha
 ## Hook
 
 Lands belly-first on a target, then naps through one cooldown and swaps it into another.
-
-## Aesthetic refs
-

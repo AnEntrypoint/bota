@@ -18,6 +18,3 @@ wispy white hair, heavy crinkled eye bags, pained forced toothy grimace, sensibl
 ## Hook
 
 Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides.
-
-## Aesthetic refs
-

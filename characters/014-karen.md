@@ -22,6 +22,3 @@ razor-sharp asymmetrical blonde wedge haircut, large bug-eye designer sunglasses
 ## Hook
 
 Demands the manager by charging every enemy in a line, and bounces hits back with an endless receipt.
-
-## Aesthetic refs
-

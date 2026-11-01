@@ -18,6 +18,3 @@ full white handlebar mustache and chinstrap beard, black leather dress gloves, t
 ## Hook
 
 Swings an auction gavel to heal allies, pays its own health for damage, and later calls a delayed kill.
-
-## Aesthetic refs
-

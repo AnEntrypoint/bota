@@ -18,6 +18,3 @@ plain white baseball cap worn forward, oversized black suit jacket, bright red n
 ## Hook
 
 Screams at enemies until they turn into bit players, then unspools film strips into serpents.
-
-## Aesthetic refs
-

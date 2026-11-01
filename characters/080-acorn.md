@@ -18,6 +18,3 @@ full tactical desert camouflage uniform, heavy ceramic plate carrier, dark mirro
 ## Hook
 
 Dives and fires at the ground in a full tactical loadout, lifesteals through the plate carrier, and revives after death.
-
-## Aesthetic refs
-

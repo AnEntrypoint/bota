@@ -22,6 +22,3 @@ crushed paper diner pillbox cap, faded brown restaurant apron, rolled short slee
 ## Hook
 
 Holds a diner tray as a buckler, shrugging off debuffs and healing the table with a sorry-not-sorry burst.
-
-## Aesthetic refs
-

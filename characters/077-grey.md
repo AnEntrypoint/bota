@@ -22,6 +22,3 @@ large smooth teardrop grey head, enormous slanted liquid-black almond eyes, spin
 ## Hook
 
 Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits.
-
-## Aesthetic refs
-

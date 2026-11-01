@@ -22,6 +22,3 @@ strict black-and-white monochromatic palette, round black ears, button-front whi
 ## Hook
 
 Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies.
-
-## Aesthetic refs
-

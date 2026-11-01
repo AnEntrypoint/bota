@@ -18,6 +18,3 @@ suit made entirely of crumpled overlapping sheets of aluminum foil, tall conical
 ## Hook
 
 Strikes from behind while unseen, blinks with a coat hanger, and leaves foil balls that revive allies once.
-
-## Aesthetic refs
-

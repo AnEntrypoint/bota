@@ -13,6 +13,3 @@ towering muscular biped, tight black compression crewneck tee stretching over br
 ## Hook
 
 Folds his arms at the entrance and stays put, whatever names are on the list.
-
-## Aesthetic refs
-

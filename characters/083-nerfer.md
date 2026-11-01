@@ -18,6 +18,3 @@ crisscrossed black nylon bandoliers loaded with dozens of bright-blue foam darts
 ## Hook
 
 Leaps in under bandoliers of foam darts, stuns on landing, then steals stats through plastic goggles.
-
-## Aesthetic refs
-

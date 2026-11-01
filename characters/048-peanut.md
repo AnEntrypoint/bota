@@ -22,6 +22,3 @@ smooth pill-shaped tan concrete body with pitted aggregate texture, short tapere
 ## Hook
 
 Stays motionless as concrete, regenerating only while no enemy hero watches, and grows stronger when unseen.
-
-## Aesthetic refs
-

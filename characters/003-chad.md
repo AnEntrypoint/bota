@@ -18,6 +18,3 @@ impossibly sharp rectangular jawline, sculpted blonde pompadour, full golden chi
 ## Hook
 
 Freezes enemies with one glance at the jaw, and when he dies the pompadour returns perfectly sculpted four seconds later.
-
-## Aesthetic refs
-

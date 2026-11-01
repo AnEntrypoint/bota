@@ -18,6 +18,3 @@ emerald green flat cap, green long-sleeve undershirt, dark denim overalls with y
 ## Hook
 
 Stands perfectly rigid and stares, draining health from enemies, then hides inside one and heals from within.
-
-## Aesthetic refs
-

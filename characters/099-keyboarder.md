@@ -18,6 +18,3 @@ severely hunched spine, blue-light blocking glasses, coiled black USB cable swin
 ## Hook
 
 Swings a mechanical keyboard on its USB cable, rotting targets and draining creeps from a posture that is already ruined.
-
-## Aesthetic refs
-

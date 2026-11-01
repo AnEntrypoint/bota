@@ -18,6 +18,3 @@ wide frayed woven straw hat, faded denim overalls over bare chest, lever-action 
 ## Hook
 
 Sits cross-legged behind a straw-hat decoy and trades places with it, then takes the shot from wherever the real one ended up.
-
-## Aesthetic refs
-

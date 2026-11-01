@@ -18,6 +18,3 @@ blurred primate-like fresco face with smudged eyes and mouth, thick crude painte
 ## Hook
 
 Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces.
-
-## Aesthetic refs
-

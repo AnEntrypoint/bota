@@ -132,4 +132,4 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 ## Pending labels
 
 - Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn (plan/20 decision 25).
-- Body percentages and luminance mapping are design targets, UNVERIFIED, until the balance pass (plan/19).
+- Body percentages and luminance mapping are design targets, UNVERIFIED, checked by the Body and luminance test (plan/19).

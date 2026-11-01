@@ -18,6 +18,3 @@ neatly parted side-swept hair, thick brown handlebar mustache, leather clip susp
 ## Hook
 
 Presents a sizzling skillet that heals allies or burns enemies, and ties targets together with cured links.
-
-## Aesthetic refs
-

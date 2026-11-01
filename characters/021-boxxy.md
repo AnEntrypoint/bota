@@ -22,6 +22,3 @@ massive side-swept feathered black emo hair, heavy thick black eyeliner wings, o
 ## Hook
 
 Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death.
-
-## Aesthetic refs
-

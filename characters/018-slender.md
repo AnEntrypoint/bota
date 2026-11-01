@@ -18,6 +18,3 @@ featureless blank white oval face with no eyes or mouth, ultra-tall elongated bl
 ## Hook
 
 Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare.
-
-## Aesthetic refs
-

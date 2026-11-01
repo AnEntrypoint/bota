@@ -18,6 +18,3 @@ ultra-saturated yellow and red color palette, blinding red lens-flare beacons bl
 ## Hook
 
 Burrows through the ground with red lens flares blasting from the eyes, leaving blinding waves of repeated damage.
-
-## Aesthetic refs
-

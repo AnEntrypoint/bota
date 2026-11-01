@@ -18,6 +18,3 @@ low-slung rounded slouch, oversized sagging olive-drab winter parka with faux-fu
 ## Hook
 
 Hatches spiderlings from a parka hood and heals every time one of them kills something.
-
-## Aesthetic refs
-

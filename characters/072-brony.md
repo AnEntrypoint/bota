@@ -18,6 +18,3 @@ dark brown fedora pinned with pastel buttons, ankle-length black microfiber tren
 ## Hook
 
 Chains lightning from a plastic rainbow star staff and radiates a damage aura through sheer fedora eye contact.
-
-## Aesthetic refs
-

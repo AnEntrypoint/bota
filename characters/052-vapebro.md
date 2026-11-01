@@ -18,6 +18,3 @@ sideways teal snapback cap, oversized sleeveless down puffer vest, camo cargo sh
 ## Hook
 
 Vapes a plume that sprays arrows everywhere, shields himself with sigma, and freezes enemies in the haze.
-
-## Aesthetic refs
-

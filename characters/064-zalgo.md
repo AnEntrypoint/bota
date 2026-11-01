@@ -22,6 +22,3 @@ jagged pitch-black silhouette, cranial mesh violently splitting into floating co
 ## Hook
 
 Levitates as corrupted characters, caging enemies in glyphs and hitting harder the more sigma they hold.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ gaping unhinged oval mouth showing tongue and teeth, circular wire-rim glasses, 
 ## Hook
 
 Gapes until a target falls asleep, while the plain yellow shirt is so unremarkable that enemy damage sags.
-
-## Aesthetic refs
-

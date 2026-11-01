@@ -22,6 +22,3 @@ bright neon-pink twin pigtails, oversized pastel anime graphic t-shirt, black-an
 ## Hook
 
 Fires a laser out of a sealed canning jar that blinds targets, then bounces once to reset every cooldown.
-
-## Aesthetic refs
-

@@ -18,6 +18,3 @@ red-faced furious expression, distended howling jaw, disheveled brown hair, shre
 ## Hook
 
 Smashes a monitor overhead for damage, then sends the loose pixels off as familiars to keep attacking.
-
-## Aesthetic refs
-

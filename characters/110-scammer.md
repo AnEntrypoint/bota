@@ -18,6 +18,3 @@ oversized ill-fitting shiny grey polyester suit, bright blue blinking wireless B
 ## Hook
 
 Arcs a coiled phone cord onto a target while the headset pitch talks over every refusal.
-
-## Aesthetic refs
-

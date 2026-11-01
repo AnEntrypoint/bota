@@ -18,6 +18,3 @@ messy blonde side-part hair, metallic wire dental braces on wide awkward grin, l
 ## Hook
 
 Grins through his braces as a target burns, attacking faster the closer his health gets to nothing.
-
-## Aesthetic refs
-

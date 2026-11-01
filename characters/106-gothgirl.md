@@ -22,6 +22,3 @@ messy black ponytail with loose strands, heavy smudged black eyeliner, tight bla
 ## Hook
 
 Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the cigarette smoke.
-
-## Aesthetic refs
-

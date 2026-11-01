@@ -18,6 +18,3 @@ smooth grey untextured low-poly mannequin mesh, arms locked in horizontal rigid 
 ## Hook
 
 Floats two inches off the floor in a rigid T-pose, delaying incoming hits until the render catches up.
-
-## Aesthetic refs
-

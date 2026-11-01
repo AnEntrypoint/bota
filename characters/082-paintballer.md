@@ -18,6 +18,3 @@ full-coverage thermal mask with chrome mirrored lens, baggy neon-splattered tour
 ## Hook
 
 Stuns an area with a splattering jersey, and bonks targets through a chrome mask with a chance to stun.
-
-## Aesthetic refs
-

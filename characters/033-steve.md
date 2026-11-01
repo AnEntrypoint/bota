@@ -18,6 +18,3 @@ sideways brown fur-trimmed flat cap, thick fleece-lined tan shearling jacket wit
 ## Hook
 
 Flicks a cheap lighter and snaps back to where he stood moments ago, leaving pursuers chasing a ghost.
-
-## Aesthetic refs
-

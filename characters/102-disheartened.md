@@ -18,6 +18,3 @@ smooth matte grey Wojak face, downcast heavy eyelids, hands buried deep into poc
 ## Hook
 
 Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova.
-
-## Aesthetic refs
-

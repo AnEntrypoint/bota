@@ -18,6 +18,3 @@ rotund heavyset build, dark navy short-sleeve security guard shirt with gold pol
 ## Hook
 
 Rides a scooter in a line of shocks, pinning one target and gathering the rest into a stun.
-
-## Aesthetic refs
-
