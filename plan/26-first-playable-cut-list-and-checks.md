@@ -9,11 +9,11 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Area | In the slice |
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
-| Heroes | Six: Grey (Clout carry), Tinfoil (Assassin, vision denial), Reach tank, initiator (Reach tank, initiator), Hot-take initiator (Hot-take initiator), Waffle (Repost healer, buffer), Ghillie (Utility, zone control). One per archetype group. |
+| Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Mallcop (Bulwark, Reach tank, initiator), Rageguy (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
 | Clout | Earn, decay, Reach, Go Viral, Ratio on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
-| Modifiers | Two from the pool: Challenge and Learn to Code. |
+| Modifiers | Two from the pool: Cast Rush and Learn to Code. |
 | Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer. |
 | Presentation | LIVE dot, Clout bar, death recap (Ratio), Rebrand record, announcer lines for kills and Ratio. |
 
@@ -42,9 +42,9 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 Run each scenario in the build. Record the result, the time taken and any sign that a rule was unreadable.
 
 1. **Clout comeback.** One team gets 300 Clout ahead for 30 s. Does the Front Runner mood show on the minimap, and does the Underdog catch-up feel fair? Pass: the mood flips and flips back with no flicker inside 30 s.
-2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Unseen Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and the state reads without text.
+2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and the state reads without text.
 3. **Ratio cap.** A hero dies with 200 or more Clout. Pass: no more than 200 Clout moves, and the split goes to the killer and assists.
-4. **Trend modifier fight.** Challenge and Learn to Code both on offer. Pass: the result is logged for the modifier check in section 12.
+4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: the result is logged for the modifier check in section 12.
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Viral.** A Viral hero dies. Pass: the CANCELLED stamp shows, and Rebrand swaps it for Rebranded.

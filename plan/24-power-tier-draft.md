@@ -63,7 +63,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. The Was column 
 | 045 | Weegee | Comment Leech | Phantom | - | Ult hides inside an enemy and heals from it; lifesteal attacks. |
 | 046 | Hank | Dragon Scroll | Tether | - | Machete Meter stacks, capped (talent raises cap); line; delayed area stun. |
 | 047 | Tricky | Well Actually | Bulwark | FLAG | Sheep transform has no stated timer; slow, drain, source ult. |
-| 048 | Peanut | Off-Grid Forester | Recluse | - | Companion attacks, attack speed, regen; ult transforms into stronger form. Thin prompt: see section 9 note. |
+| 048 | Peanut | Off-Grid Forester | Recluse | - | Companion attacks, attack speed, regen; ult transforms into stronger form. |
 | 049 | Ecce | Moonlight Creator | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
 | 050 | Gopnik | Pack Account | Firebrand | - | Wolf summons, werewolf form; ult boosts all allies. |
 | 051 | Mallcop | Strong Opinion | Bulwark | - | Line damage, ally damage boost, charge pull; ult pulls together, stuns. |

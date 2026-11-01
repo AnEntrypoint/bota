@@ -21,4 +21,3 @@ Offers mints and chilled water, and every passenger ally attacks faster for the 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/uber

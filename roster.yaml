@@ -107,8 +107,7 @@ roster:
 
   - name: "Rickroll"
     prompt: "stylized 3d character, voluminous ginger pompadour with razor side-part, double-breasted beige trench coat with oversized lapels, black polo neck shirt, black dress shoes, vintage chrome broadcast microphone on stand, confident rhythmic dance bounce, soft studio key light, neutral background"
-    aesthetic_refs:
-      - "https://knowyourmeme.com/memes/rickroll"
+    aesthetic_refs: []
 
   - name: "Saxguy"
     prompt: "stylized 3d character, slicked dark hair, pure white plastic wayfarer sunglasses, fitted dark blue suit jacket over open-collar shirt, polished brass alto saxophone, energetic exaggerated pelvic-thrust performance stance, soft studio key light, neutral background"
@@ -187,8 +186,7 @@ roster:
 
   - name: "Zyzz"
     prompt: "stylized 3d character, deeply tanned aesthetic physique, neon-pink short-shorts, spiked highlighted hair, aviator sunglasses resting on chest, double-bicep victory flex, hand-painted digital textures, soft studio key light, neutral background"
-    aesthetic_refs:
-      - "https://knowyourmeme.com/memes/zyzz"
+    aesthetic_refs: []
 
   - name: "Noscope"
     prompt: "stylized 3d character, floating 8-bit black pixel sunglasses, glowing green crosshair hitmarker projected over face, oversized green marijuana leaf bucket hat, bright track jacket with sponsor patches, bolt-action precision rifle, soft studio key light, neutral background"
@@ -262,8 +260,7 @@ roster:
 
   - name: "Starwarskid"
     prompt: "stylized 3d character, grey fleece sweatpants, tucked-in plain navy tee, intense focused brow with furrowed concentration, hollow plastic golf-ball retriever pole held with two-handed grip, dynamic mid-spin martial stance, soft studio key light, neutral background"
-    aesthetic_refs:
-      - "https://knowyourmeme.com/memes/star-wars-kid"
+    aesthetic_refs: []
 
   - name: "Tay"
     prompt: "stylized 3d character, slender frame, crisp white dress shirt, burgundy elastic suspenders, dark tailored trousers, vintage large-diaphragm chrome studio microphone, tilted head leaning sideways away from mic, soft studio key light, neutral background"
@@ -392,8 +389,7 @@ roster:
 
   - name: "Crossfit"
     prompt: "stylized 3d character, chalk-dusted hands, black compression tights, neon sweatband across brow, massive knobby black rubber tractor tire held mid-roll, explosive athletic stride, soft studio key light, neutral background"
-    aesthetic_refs:
-      - "https://knowyourmeme.com/memes/crossfit"
+    aesthetic_refs: []
 
   - name: "Acorn"
     prompt: "stylized 3d character, full tactical desert camouflage uniform, heavy ceramic plate carrier, dark mirrored sport shades, duty belt with holsters, rapid two-handed combat pistol grip aimed at ground, evasive dive posture, soft studio key light, neutral background"
@@ -457,8 +453,7 @@ roster:
 
   - name: "Frogger"
     prompt: "stylized 3d character, mottled blue amphibious skin, vintage leather aviator flying cap with ear flaps, white round goggles, imaginary hovering motorcycle handlebars in hands, mid-air crouching leap, soft studio key light, neutral background"
-    aesthetic_refs:
-      - "https://knowyourmeme.com/memes/crazy-frog"
+    aesthetic_refs: []
 
   - name: "Oiler"
     prompt: "stylized 3d female character, pastel-purple high-waisted yoga leggings, oversized cream knit sweater, patterned canvas tote bag, handheld ultrasonic diffuser emitting thick purple lavender vapor clouds, serene peaceful pose, soft studio key light, neutral background"
@@ -482,8 +477,7 @@ roster:
 
   - name: "Uber"
     prompt: "stylized 3d character, car-vent dashboard mount holding smartphone with glowing GPS navigation route, woven wicker basket filled with foil-wrapped mints and chilled plastic water bottles, friendly welcoming customer-service posture, soft studio key light, neutral background"
-    aesthetic_refs:
-      - "https://knowyourmeme.com/memes/uber"
+    aesthetic_refs: []
 
   - name: "Widemouth"
     prompt: "stylized 3d character, smooth white stylized face, eyes squeezed shut in absolute laughing glee, mouth wide in a massive smooth crescent curve showing teeth, red crewneck sweater, upright welcoming stance, soft studio key light, neutral background"

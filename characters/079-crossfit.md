@@ -21,4 +21,3 @@ Silences a whole area with chalk, then rolls a tractor tire in to stun anyone le
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/crossfit

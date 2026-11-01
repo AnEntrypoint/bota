@@ -21,4 +21,3 @@ Spins a golf-ball retriever like a staff, roots an area, and teleports to a clon
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/star-wars-kid

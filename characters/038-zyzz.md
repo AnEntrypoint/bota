@@ -21,4 +21,3 @@ Flexes a double bicep and breathes fire and ice, finishing with a wall of flames
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/zyzz

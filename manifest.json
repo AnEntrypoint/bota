@@ -161,18 +161,6 @@
   ]
  },
  {
-  "title": "Internal",
-  "files": [
-   "internal/parity-map.md"
-  ]
- },
- {
-  "title": "Spec",
-  "files": [
-   "spec.prd"
-  ]
- },
- {
   "title": "Roster",
   "files": [
    "ROSTER.md",

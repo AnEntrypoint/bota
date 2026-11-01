@@ -589,3 +589,16 @@ Original names for parity work only. The plan and all shipped data use the Brain
 - Fountain = Spawn Lounge. Courier = Delivery Drone. Barracks = Content Mills. Rune(s) = Boost(s). Buyback = Rebrand.
 - Sigma Wanderer = Noscope. Free Range = Karen. Small Creator = Driver. Gadget Guy = Bathwater.
 - Ent Camouflage = Bark Camouflage (Lifehack A1). Renamed because the earlier name came from a franchise.
+
+## Aesthetic refs moved from shipped character files
+
+These URLs cite named creators, brands or franchise characters. They stay internal so the shipped character files do not carry them.
+
+| Hero | URL |
+| --- | --- |
+| Zyzz | https://knowyourmeme.com/memes/zyzz |
+| Crossfit | https://knowyourmeme.com/memes/crossfit |
+| Starwarskid | https://knowyourmeme.com/memes/star-wars-kid |
+| Rickroll | https://knowyourmeme.com/memes/rickroll |
+| Frogger | https://knowyourmeme.com/memes/crazy-frog |
+| Uber | https://knowyourmeme.com/memes/uber |

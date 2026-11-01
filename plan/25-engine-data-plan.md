@@ -106,7 +106,7 @@ The slice is file 26: six heroes, two modifiers, a fixed draft order, one stage 
 | `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Reach tank, initiator, Hot-take initiator, Waffle, Ghillie |
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 6 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note and Ring Light (components of Lurker Cam). Rebrand is an action, not an item (section 5). |
-| `modifiers.tsv` | 2 | Lua rule | Challenge and Learn to Code |
+| `modifiers.tsv` | 2 | Lua rule | Cast Rush and Learn to Code |
 | `rules.tsv` | about 30 | rules file | Clout: Viral at 100, 20 s, 25 after, cap 200, decay. Reach: 300 base, plus 3 per Clout, cap 600. Stan: +20% damage, +2 armor. Repost: cap 5, +8%, radius 600, 4 s decay. Ratio: 50%. |
 | `moods.tsv` | 3 | Lua | Front Runner, Underdog and Even (file 06) |
 | `events.tsv` | 1 | Lua | Breaking News zone rules (file 12) |

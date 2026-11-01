@@ -21,4 +21,3 @@ Rides an imaginary hover motorcycle in mid-air, and the landing hits enemies wit
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/crazy-frog

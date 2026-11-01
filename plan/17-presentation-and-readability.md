@@ -46,7 +46,7 @@ Rules:
 
 ### UI
 
-- Top bar: Clout bar and follower count. Abbreviated 1.2K and 3.4M, exact on hover.
+- Top bar: Clout bar. Abbreviated 1.2K, exact on hover.
 - Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Engagement and Impressions.
 - Tooltips: mechanical text first, italic flavor second. 14 px minimum.
 - Cursor: four states (default, attack, ability target, invalid). 32 × 32.

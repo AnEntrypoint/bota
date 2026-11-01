@@ -74,7 +74,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Screen or element | Count | Copy |
 | --- | --- | --- |
 | HUD frame | 1, plus 3 colorblind skins | None |
-| Clout bar and follower count | 1 | Clout |
+| Clout bar | 1 | Clout |
 | LIVE dot | 1 | LIVE. Slow pulse, 1 Hz or below. |
 | Scoreboard | 1 | K, D, A, Clout, Net Worth |
 | Pick and ban screen | 1 | Draft your content plan |

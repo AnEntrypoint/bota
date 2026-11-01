@@ -6,7 +6,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + ratio and similar). A loaded line aims at the play it follows, a kill, a death or a lane, and never at a person, group, creator or real event.
 3. Read path: LIVE, Stan, Go Viral, Ratio and Repost are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
-5. No line names a real person, real event, brand, creator or franchise, and no line borrows another game's names. Generic internet vocabulary only. Brand names and owned catchphrases are allowed in the Brainrot tier and rotate per patch.
+5. No line names a real person, real event, brand, creator or franchise, and no line borrows another game's names. Generic internet vocabulary only.
 6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldowns are set in the balance pass.
 7. Item flavor is the second, italic line of a tooltip. Mechanics come first. Compact tooltips hide flavor (file 16, gag 09).
 8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Only Tricky and Ghillie speak in records and citations; every other hero keeps its own register.
@@ -30,32 +30,32 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 
 ### Hero lines
 
-| Hero (archetype) | Kill | Death | Idle |
+| Hero (role family) | Kill | Death | Idle |
 |---|---|---|---|
-| Grey (Clout carry) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
-| Spudgunner (Clout carry) | Full thread on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
-| Tinfoil (Assassin, vision denial) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
-| Boomer (Assassin, vision denial) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
-| Disaster (Harasser, zoner) | Match point. Cold read? No. Planned, actually. | Fire's out. Not dead. Buffering. | Warming my hands. Nobody asked, I know. |
-| Tricky (Harasser, zoner) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
-| Gigachad (Late-game Clout carry) | Efficiency: high. Joy: null. | Chiseled, yet it hit. Suboptimal. | Carved and still. Effort: none. |
-| Noscope (Late-game Clout carry) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
-| Viking (Ranged nuker) | Finger pointed. Scrolled past. Next. | Bottle's empty. Lecture cut short. | Marching in place. Drink water, friend. |
-| Hank (Ranged nuker) | Machete, machete, machete again. | Lenses dimmed. Feed went quiet. | Blades low. Refresh? Yes. Again. |
-| Boxxy (Repost healer, buffer) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
-| Waffle (Repost healer, buffer) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
-| Mallcop (Reach tank, initiator) | Stay where you are. Thank you. | Scooter stalled. Please remain calm. I will. | Idling on the scooter. Nothing to see. |
-| Airhorn (Reach tank, initiator) | Canisters spent. Quiet now. | Earmuffs bounced off. Quiet, finally. | Jumping in place, counting canisters. |
-| Helios (Ghost-account summoner) | Posted anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no posts. |
-| Starwarskid (Ghost-account summoner) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
-| Rageguy (Hot-take initiator) | FIST UP. THAT WAS DESERVED. | VEINS BURST. THE GAME WAS WRONG. | FISTS SHAKING. NOTHING YET. |
-| Wojak (Hot-take initiator) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
-| Ghillie (Utility, zone control) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
-| Fuckyea (Utility, zone control) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
-| Forever (Tethered support, dueler) | Again, again, again. Nice one. | Crawling back to the start. | Loop again. Charming yet? |
-| Scammer (Tethered support, dueler) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
-| Prepper (Offline sustain) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Standing in the sun, healthier than you. |
-| Lifehack (Offline sustain) | Glue gun set. Enemy no longer standing. | Tape ran out. Turf stayed, I did not. | Zip-ties on the belt, growing slowly. |
+| Grey (Drifter) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
+| Spudgunner (Drifter) | Full thread on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
+| Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
+| Boomer (Heckler) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
+| Disaster (Firebrand) | Match point. Cold read? No. Planned, actually. | Fire's out. Not dead. Buffering. | Warming my hands. Nobody asked, I know. |
+| Tricky (Bulwark) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
+| Gigachad (Bulwark) | Efficiency: high. Joy: null. | Chiseled, yet it hit. Suboptimal. | Carved and still. Effort: none. |
+| Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
+| Viking (Herald) | Finger pointed. Scrolled past. Next. | Bottle's empty. Lecture cut short. | Marching in place. Drink water, friend. |
+| Hank (Tether) | Machete, machete, machete again. | Lenses dimmed. Feed went quiet. | Blades low. Refresh? Yes. Again. |
+| Boxxy (Tether) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
+| Waffle (Bulwark) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
+| Mallcop (Bulwark) | Stay where you are. Thank you. | Scooter stalled. Please remain calm. I will. | Idling on the scooter. Nothing to see. |
+| Airhorn (Heckler) | Canisters spent. Quiet now. | Earmuffs bounced off. Quiet, finally. | Jumping in place, counting canisters. |
+| Helios (Phantom) | Posted anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no posts. |
+| Starwarskid (Tether) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
+| Rageguy (Firebrand) | FIST UP. THAT WAS DESERVED. | VEINS BURST. THE GAME WAS WRONG. | FISTS SHAKING. NOTHING YET. |
+| Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
+| Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
+| Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
+| Forever (Recluse) | Again, again, again. Nice one. | Crawling back to the start. | Loop again. Charming yet? |
+| Scammer (Tether) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
+| Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Standing in the sun, healthier than you. |
+| Lifehack (Engine) | Glue gun set. Enemy no longer standing. | Tape ran out. Turf stayed, I did not. | Zip-ties on the belt, growing slowly. |
 
 ### Hero pair lines
 
@@ -63,16 +63,16 @@ Each pair plays once per match, on the first moment both heroes see each other. 
 
 | Pair | Hero | Line | Hero | Line |
 |---|---|---|---|---|
-| 1 | Disaster (Harasser, zoner) | That ruling was a cold read, actually. | Airhorn (Reach tank, initiator) | Canisters loaded. Your objection, overruled. |
-| 2 | Rageguy (Hot-take initiator) | THIS THREAD NEEDS MY FISTS, IMMEDIATELY. | Mallcop (Reach tank, initiator) | Lower your voice, sir. Please. |
-| 3 | Tinfoil (Assassin, vision denial) | I was not here. Foil suit says so. | Boxxy (Repost healer, buffer) | Seen you. Hands up, lurker. |
-| 4 | Grey (Clout carry) | Stand in the orb light. Green flatters everyone. | Prepper (Offline sustain) | Sunlight's free. Your glow has a subscription. |
-| 5 | Gigachad (Late-game Clout carry) | Your take has no source. Marble doesn't bend. | Wojak (Hot-take initiator) | Source? Floor. Look down. |
-| 6 | Helios (Ghost-account summoner) | No name, no trail, no problem. | Ghillie (Utility, zone control) | Twine remembers. It says you. |
-| 7 | Spudgunner (Clout carry) | That reply needs a full thread. | Waffle (Repost healer, buffer) | Pinged you mid-thread. Sorry. Mostly. |
-| 8 | Starwarskid (Ghost-account summoner) | Alt account for this one. Pole swung. | Fuckyea (Utility, zone control) | Which account is this? Ask me later. |
-| 9 | Scammer (Tethered support, dueler) | Call me back! Tickets still available! | Viking (Ranged nuker) | Hydrate. Scroll past. Load more. |
-| 10 | Lifehack (Offline sustain) | Glue gun warm. Turf's still nicer. | Noscope (Late-game Clout carry) | Pixel shades on. Vibe check not included. |
+| 1 | Disaster (Firebrand) | That ruling was a cold read, actually. | Airhorn (Heckler) | Canisters loaded. Your objection, overruled. |
+| 2 | Rageguy (Firebrand) | THIS THREAD NEEDS MY FISTS, IMMEDIATELY. | Mallcop (Bulwark) | Lower your voice, sir. Please. |
+| 3 | Tinfoil (Drifter) | I was not here. Foil suit says so. | Boxxy (Tether) | Seen you. Hands up, lurker. |
+| 4 | Grey (Drifter) | Stand in the orb light. Green flatters everyone. | Prepper (Bulwark) | Sunlight's free. Your glow has a subscription. |
+| 5 | Gigachad (Bulwark) | Your take has no source. Marble doesn't bend. | Wojak (Recluse) | Source? Floor. Look down. |
+| 6 | Helios (Phantom) | No name, no trail, no problem. | Ghillie (Stalker) | Twine remembers. It says you. |
+| 7 | Spudgunner (Drifter) | That reply needs a full thread. | Waffle (Bulwark) | Pinged you mid-thread. Sorry. Mostly. |
+| 8 | Starwarskid (Tether) | Alt account for this one. Pole swung. | Fuckyea (Showboat) | Which account is this? Ask me later. |
+| 9 | Scammer (Tether) | Call me back! Tickets still available! | Viking (Herald) | Hydrate. Scroll past. Load more. |
+| 10 | Lifehack (Engine) | Glue gun warm. Turf's still nicer. | Noscope (Stalker) | Pixel shades on. Vibe check not included. |
 
 ### Formerly tag
 

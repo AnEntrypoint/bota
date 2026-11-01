@@ -21,4 +21,3 @@ Mutes a whole area through a chrome microphone, then sends dancing spirits at an
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/rickroll
