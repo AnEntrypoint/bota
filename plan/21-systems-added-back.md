@@ -5,6 +5,8 @@ These systems were left out of the earlier draft. They are part of the game. Eac
 
 Numbers in these tables are UNVERIFIED.
 
+- Job: power growth (plan/02, Talents row). The cost is the tier not taken.
+
 Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The launch heroes are listed below by hero name, with the ability names of sections 9 and 10. Heroes outside the launch set use the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
@@ -36,6 +38,8 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 
 ### Talent sets for every hero
 
+- Job: power growth (plan/02, Talents row). The cost is the tier not taken.
+
 Every hero gets the talent set of its role family below. Launch heroes use the named choices above. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
@@ -55,12 +59,15 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 
 ### Backpack
 
+- Job: backpack row (plan/02). The cost is that actives do not work from it.
+
 Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. Active items do not work from the backpack. Sell-back rules match the inventory.
 
 ### Neutral items
 
 Numbers in this section are UNVERIFIED.
 
+- Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.
 - One neutral item slot per hero. It sits outside the six inventory slots and the backpack.
 - Neutral items drop from jungle camps. A hero gets one choice of three. A new neutral replaces the old one.
 - Tier timings: tier 1 from 7:00, tier 2 from 17:00, tier 3 from 27:00, tier 4 from 37:00.
@@ -91,18 +98,22 @@ Numbers in this section are UNVERIFIED.
 
 Numbers in this section are UNVERIFIED.
 
+- Job: vision (plan/02, Vision and wards row). The cost is the 8 s window.
 - Reveals enemy heroes within 900 radius for 8 s.
 - Shared team cooldown of 270 s. Any hero on the team can cast it.
 
 ### Status resistance
 
+- Job: disable duration (plan/02, Disable duration row). The cost is the damage slot it replaces.
+
 - Base 0%. Items and talents add it. It shortens the duration of each disable in plan/08 Disables by its percent (UNVERIFIED).
-- Reduces the duration of stuns, silences, roots, polymorphs, fear and taunts. Cap 50%.
+- The total reduction is capped at 50%.
 
 ### Algorithm Boost
 
 Numbers in this section are UNVERIFIED.
 
+- Job: map pressure, rotation (plan/02, Map pressure row). The cost is the river walk.
 - Spawns with the other boosts on the river. Lasts 50 s.
 - While held: Reach +100 and a grey pip on the minimap. No cooldown or mana change.
 
@@ -110,6 +121,7 @@ Numbers in this section are UNVERIFIED.
 
 Numbers in this section are UNVERIFIED.
 
+- Job: sustain (plan/02, Sustain row). The cost is the Trend kill it waits for.
 - The Trend drops Gamer Fuel on its second kill and every kill after.
 - Gamer Fuel cannot be sold. Chug it to restore 2,500 HP and 1,000 mana over 4 s. One can per drop.
 
@@ -159,10 +171,3 @@ A season is one patch. Each season rotates three things and changes no numbers:
 
 Numbers change only in the balance pass.
 
-### Spectator reactions
-
-Numbers in this section are UNVERIFIED.
-
-- Spectators send reactions from the chat wheel (section 18). Each viewer has a 10 s cooldown per reaction.
-- Reactions show to spectators only. They have no effect on play.
-- Ranked matches show no spectator reactions on the player screen.

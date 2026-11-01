@@ -22,5 +22,10 @@ Four rules every system must pass:
 | Teamfight chain | Repost chain | Group to chain the buff, or spread against AoE |
 | Comeback gold | Ratio transfer on death | A leader cannot take risky fights for free |
 | Glyph | Go Private: buildings invulnerable 5 s, 5 min cooldown | Timing of the emergency button in a siege |
+| Talents | Power growth: tier choices at levels 10, 15, 20 and 25 | Take the tier that fits the match, or the one that scales |
+| Backpack | Passive storage that gives stats but no actives | Carry a spare passive, or keep the active slots free |
+| Neutral items | One neutral slot, filled from neutral camps | Fight the camp for its item, or take the gold |
+| Disable duration | Status resistance shortens disables | Build it against disable-heavy teams, or spend the slot on damage |
+| Sustain | Gamer Fuel restores HP and mana over time | Chug it mid-fight, or keep it for the next Trend drop |
 | Buyback | Rebrand: costs gold, resets Clout to 0 | Respawn now with no Clout, or wait with Clout intact |
 | Support tether | Tethered support, dueler tether: 20% of an ally's Clout is shared | Stan the carry for safety, or the roamer for pressure |

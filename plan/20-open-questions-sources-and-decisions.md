@@ -15,7 +15,7 @@
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). | Uniqueness |
 | 11 | Every new number is UNVERIFIED until a playable build exists. | Matches the balance rule in /workspace/oscraft/AGENTS.md |
 | 12 | Algorithm Boost changes from cooldown and mana cuts to Reach +100. | Keeps it on the Clout identity |
-| 13 | Spectators can react but never vote on play. | Ranked integrity |
+| 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600. The engine docs say 625 and need changing to match. | The plan is the design source; the engine number is recalled, not confirmed |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc's 6, 12 and 18 change to match. | The plan is the design source |
 | 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |
@@ -30,6 +30,7 @@
 | 25 | Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn. | No owner confirmation is pending; the default is recorded here so plan/22 has no open item. |
 | 26 | Stat Boost and Decoy Posts are cut. Leftover ability points after the four skills are maxed stay unspent. | Stat Boost has no rival use for leftover points, and Decoy Posts have no classic job (plan/02 rules 2 and 3). |
 | 27 | Counter coverage means at least one hard counter per archetype, read from its Hard counter cell. Soft counters are not a separate rule. | The archetype table has no soft-counter column, and four archetype rows have no weak entry beyond their hard counter. |
+| 28 | Spectator reactions are cut. Decision 13 keeps only its no-vote clause. Talents, backpack, neutral items, disable duration and sustain gain plan/02 rows; Chat Check and Algorithm Boost use the vision and map-pressure rows. | Spectator reactions have no classic job (plan/02 rules 2 and 3), as with Decoy Posts in decision 26. |
 
 ### Open questions
 
