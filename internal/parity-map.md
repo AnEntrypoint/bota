@@ -13,7 +13,7 @@ Original names for parity work only. The plan and all shipped data use the Brain
 | Disaster | Invoker |
 | Tricky | Lion |
 | Gigachad | Anti-Mage |
-| Sigma Wanderer | Juggernaut |
+| Noscope | Juggernaut |
 | Viking | Crystal Maiden |
 | Hank | Lina |
 | Boxxy | Dazzle |
@@ -40,7 +40,7 @@ Original names for parity work only. The plan and all shipped data use the Brain
 | Coomer | Brewmaster |
 | Gondola | Bristleback |
 | Spurdo | Broodmother |
-| Free Range | Centaur Warrunner |
+| Karen | Centaur Warrunner |
 | Kyle | Chaos Knight |
 | Harold | Chen |
 | Sanic | Clinkz |
@@ -101,8 +101,8 @@ Original names for parity work only. The plan and all shipped data use the Brain
 | Droner | Templar Assassin |
 | Plinker | Terrorblade |
 | Oiler | Timbersaw |
-| Gadget Guy | Tinker |
-| Small Creator | Tiny |
+| Bathwater | Tinker |
+| Driver | Tiny |
 | Uber | Troll Warlord |
 | Widemouth | Tusk |
 | Keyboarder | Undying |

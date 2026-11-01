@@ -79,7 +79,7 @@ Targets for the first simulated and played matches. These are thresholds to test
 | System | Check | Pass |
 | --- | --- | --- |
 | Trend modifiers (8, 2 offered per kill) | Win rate of the team that picks each modifier | 45 to 55% for every modifier |
-| Learn to Code, Speedrun, Storytime, Get Ready With Me | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
+| Every modifier in the plan/12 table (eight) | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
 | Sweat Mode boost | Share of teamfights opened within 10 s of pickup | Under 40% |
 | Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |
 | Renamed abilities | Hero win rate before and after the rename pass | Within 1 point, with at least 200 matches in each arm (UNVERIFIED). A rename never changes a number. |

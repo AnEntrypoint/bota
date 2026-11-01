@@ -52,4 +52,4 @@ Rules:
 - Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Engagement and Impressions.
 - Tooltips: mechanical text first, italic flavor second. 14 px minimum.
 - Cursor: four states (default, attack, ability target, invalid). 32 × 32.
-- Minimap: Trend timer, Bull Run overlays, and the Front Runner icon (white chevron on a grey disc, UNVERIFIED).
+- Minimap: Trend timer, Bull Run overlays, and the Front Runner icon (white pennant on a grey disc, UNVERIFIED).

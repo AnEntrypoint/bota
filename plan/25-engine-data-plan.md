@@ -22,7 +22,7 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 ### A2. What the build pipeline does with that data (question b)
 
 - `scripts/dev/stage.sh`: builds wasm when the pkg is missing, runs `mapexport` for each pack in a fixed loop (`for p in moba duel-routes`, line 16), then calls `scripts/layout-site.sh`.
-- `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 26), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 33). It does not copy `247420/`.
+- `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 26), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 33). It does not copy `internal/`.
 - `.github/workflows/ci.yml` (lines 88 to 90) and `pages.yml` (lines 90 to 92) build `mapexport` and name both packs explicitly.
 - `.github/workflows/tests.yml` (lines 130 and 152 to 165) runs `mapexport` twice and compares the bytes.
 - `scripts/pack-package.mjs`: `--build` runs `mapexport` first; archives are split above 25 MiB.
@@ -80,7 +80,7 @@ items.tsv      item_id slug name kind tier cost components stats active stock re
 **Generated outputs, one direction only.**
 
 1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs`. The `tools/` folder is excluded from Pages by `layout-site.sh` line 26.
-2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
+2. The markdown tables in `plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
 3. A drift check: the tool regenerates everything and fails if the tree differs. This copies the determinism check already in `tests.yml`.
 
 Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing flows back. Before the first generation the plan markdown is the source, so the first TSV is produced once from it and reviewed. After that cutover, a number is typed only in the TSV.
@@ -94,7 +94,7 @@ Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing f
 
 **Units.** Numbers are typed in plan units: seconds, percent, gold and game units. The generator converts. Seconds become ticks at 16 per second, rounded (3.8 s is 60.8 ticks, so 61). Percentages become Q16 (65536 equals 1.0). Distance is in game units, the engine whole-unit scale: 1 game unit is 125/8 milli-units (section 20, decision 24).
 
-**Pack location.** Option A is `scenarios/brainrot/`. It ships automatically through `cp -r scenarios`, but it needs `mapexport` lines added to `stage.sh`, `pages.yml` and `ci.yml`. Option B is `247420/pack/`, which needs a copy line in `layout-site.sh`. Use B for the first slice; move to A when the pack wiring lines land.
+**Pack location.** Option A is `scenarios/brainrot/`. It ships automatically through `cp -r scenarios`, but it needs `mapexport` lines added to `stage.sh`, `pages.yml` and `ci.yml`. Option B is a separate `pack/` folder, which needs a copy line in `layout-site.sh`. Use B for the first slice; move to A when the pack wiring lines land.
 
 ## 3. Smallest first-playable slice: data files
 
@@ -119,7 +119,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 ## 4. Which plan numbers can be checked against 6.88g today
 
-**Short answer: none can be confirmed today.** The archive is not on this machine (A3). The pairing between plan names and 6.88g rows lives in `internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 94 launch-ability rows against 96 slots, and 31 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
+**Short answer: none can be confirmed today.** The archive is not on this machine (A3). The pairing between plan names and 6.88g rows lives in `internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 95 launch-ability rows against 96 slots, and 32 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
 
 | Plan number | Section | Repo value and where it sits | Status |
 | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 ### Risks
 
-- **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `247420/`, so the map does not ship today.
+- **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `internal/`, so the map does not ship today.
 - **R2. The plan is tracked but outside the build.** `plan/` and `internal/` are tracked in git; `layout-site.sh` does not copy them. Drift checks can read them in CI, but generated plan tables are never shipped.
 - **R3. Pack wiring is hard-coded.** `stage.sh` line 16, `pages.yml` lines 91 to 92 and `ci.yml` lines 89 to 90 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
 - **R4. Ultimate gates agree.** FORMAT.md line 315 gives 6.88g ultimates 6, 11 and 16, the same as plan sections 7 and 9.
@@ -170,7 +170,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 ### Resolved (moved from open questions)
 
 - **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-- **Pack location: resolved.** The slice pack lives at `247420/pack/`; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
+- **Pack location: resolved.** The slice pack uses the option B `pack/` folder; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
 - **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are inputs written by the balance pass.
 - **Rebrand: resolved.** An action (file 05), never an item.
 - **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).

@@ -40,7 +40,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 022 | Rickroll (P2) | Showboat | Vintage chrome broadcast mic on stand | Peach, ginger | L / D / M |
 | 023 | Saxguy (P3) | Showboat | Polished brass alto saxophone | Peach, neon | L / D / M |
 | 024 | Numa (P5) | Herald | Oversized grey studio headphones | Soft cyan, pale blue | L / D / M |
-| 025 | Dodson (P4) | Heckler | Pointing arm (no held prop) | Mustard, crimson | L / D / M |
+| 025 | Dodson (P4) | Heckler | Pointing arm (no held prop) | Mustard, bronze | L / D / M |
 | 026 | Sweetbrown (P2) | Drifter | Red cherry pop held at chin height | Night blue, warm | L / D / M |
 | 027 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
 | 028 | Chudjak (P3) | Bulwark | Rolled brown paper manifesto | Grey, olive | L / D / M |
@@ -71,11 +71,11 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 053 | Starwarskid (P4) | Tether | Hollow plastic golf-ball retriever pole | Rose, grey | L / D / M |
 | 054 | Tay (P6) | Herald | Vintage chrome studio microphone | Soft cyan, burgundy | L / D / M |
 | 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
-| 056 | Kazoo (P6) | Showboat | Glossy red plastic kazoo | Peach, red | L / D / M |
+| 056 | Kazoo (P6) | Showboat | Glossy red plastic kazoo | Peach, apricot | L / D / M |
 | 057 | Prepper (P1) | Bulwark | Steel storm-shelter blast door | Grey, olive | M / L / D |
-| 058 | Trollhunter (P2) | Bulwark | Heavy wooden auction gavel | Grey, red tie | M / L / D |
+| 058 | Trollhunter (P2) | Bulwark | Heavy wooden auction gavel | Grey, navy tie | M / L / D |
 | 059 | Barista (P1) | Herald | Stainless portafilter handle | Soft cyan, denim | M / L / D |
-| 060 | Hypebeast (P1) | Showboat | Stack of branded shoeboxes | Peach, crimson | M / L / D |
+| 060 | Hypebeast (P1) | Showboat | Stack of branded shoeboxes | Peach, sand | M / L / D |
 | 061 | Florida (P2) | Firebrand | Two live alligators under the arms | Ember, neon yellow | M / L / D |
 | 062 | Waffle (P3) | Bulwark | Heavy stainless food tray as a buckler | Grey, pastel | M / L / D |
 | 063 | Tpose (P3) | Phantom | Wireframe grid on the torso (no held prop) | Lavender, neon green | L / D / M |
@@ -90,7 +90,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 072 | Brony (P6) | Phantom | Staff topped with a glitter rainbow star | Lavender, pastel | L / D / M |
 | 073 | Tinfoil (P2) | Drifter | Copper wire coat-hanger antenna as a wand | Night blue, silver | M / L / D |
 | 074 | Flatearth (P4) | Archivist | Brass spirit level and glass dome | Sepia, map cream | L / D / M |
-| 075 | Deepfried (P3) | Drifter | Lens-flare beams from the eye sockets (no held prop) | Night blue, saturated red | M / L / D |
+| 075 | Deepfried (P3) | Drifter | Lens-flare beams from the eye sockets (no held prop) | Night blue, saturated green | M / L / D |
 | 076 | Glitch (P1) | Phantom | Offset chromatic duplicate layers (no held prop) | Lavender, neon | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 078 | Critic (P5) | Archivist | Antique 35mm film canister held overhead | Sepia, black | L / D / M |
@@ -99,11 +99,11 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 081 | Mallarcher (P3) | Engine | Compound bow with six stabilizer rods | Cold teal, matte black | L / D / M |
 | 082 | Paintballer (P6) | Stalker | Electronic speedball marker with hopper | Slate, neon | L / D / M |
 | 083 | Nerfer (P1) | Heckler | Neon-orange toy blaster with tactical rails | Mustard, neon orange | M / L / D |
-| 084 | Spudgunner (P5) | Drifter | Shoulder-mounted PVC pipe cannon | Night blue, buffalo red | M / L / D |
+| 084 | Spudgunner (P5) | Drifter | Shoulder-mounted PVC pipe cannon | Night blue, buffalo tan | M / L / D |
 | 085 | Laserbro (P4) | Engine | Black aluminum laser emitter | Cold teal, electric blue | L / D / M |
 | 086 | Slingshot (P2) | Heckler | Triple-tube steel-ball slingshot | Mustard, green | M / L / D |
 | 087 | Candler (P3) | Firebrand | Multi-shot firework tubes held like pistols | Ember, neon sparks | M / L / D |
-| 088 | Airhorn (P3) | Heckler | Dual brass compressed-air horn canisters | Mustard, red | M / L / D |
+| 088 | Airhorn (P3) | Heckler | Dual brass compressed-air horn canisters | Mustard, brass | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
 | 090 | Droner (P2) | Phantom | Hovering FPV quadcopter drone | Lavender, carbon | M / L / D |
 | 091 | Plinker (P2) | Recluse | Lever-action metal air rifle | Moss, golden | M / L / D |

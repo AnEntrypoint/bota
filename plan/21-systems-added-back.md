@@ -1,5 +1,5 @@
 # 21. Systems added back
-These systems were left out of the earlier draft. They are part of the game. Each one has rules and numbers below.
+Each system below has rules and numbers.
 
 ### Talent trees
 

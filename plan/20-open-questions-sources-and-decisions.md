@@ -17,7 +17,7 @@
 | 12 | Demand Boost changes from cooldown and sigma cuts to Reach +100. | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |
-| 15 | Ultimates unlock at 6, 11 and 16. The engine format doc's 6, 12 and 18 change to match. | The plan is the design source |
+| 15 | Ultimates unlock at 6, 11 and 16. The engine format doc already gives 6, 11 and 16. | The plan is the design source |
 | 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |
 | 17 | Item costs in section 11 are the cost bands the roster uses, and only the balance pass changes them. | One place to change item costs |
 | 18 | Drain Blade: 1,600 gold, 12% attack lifesteal for 6 s after a hit. UNVERIFIED. | Its tier 3 entry had no row |
@@ -25,7 +25,7 @@
 | 20 | Power tier letters are withdrawn until a playable build exists. The flag list and the test-first list stay. | Tier A held 64 of 112 heroes, so the letters measure nothing |
 | 21 | No classic number is checked against 6.88g until the archive is available. Each stays UNVERIFIED. | Keeps classic numbers from passing as checked values |
 | 22 | The parity map stays internal: tracked in git, never copied into plan/, the site or a pack. | Keeps original names out of shipped text |
-| 23 | The engine build is not started in this round. The first-playable slice (plan/26) is the next task, and it starts once the repo is synced (the local checkout and origin/main matched on 2026-10-27). | A build needs the repo state fixed first |
+| 23 | The engine build starts after the first-playable slice (plan/26), which is the next build task. | A build needs the slice scope fixed first |
 | 24 | Plan distances are game units: 1 game unit is 125/8 milli-units. | Removes the last unit ambiguity for the data generator |
 | 25 | Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn. | No owner confirmation is pending; the default is recorded here so plan/22 has no open item. |
 | 26 | Stat Boost and Decoy Lots are cut. Leftover ability points after the four skills are maxed stay unspent. | Stat Boost has no rival use for leftover points, and Decoy Lots have no classic job (plan/02 rules 2 and 3). |
