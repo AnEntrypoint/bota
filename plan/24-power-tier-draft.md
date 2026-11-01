@@ -136,13 +136,13 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 
 ## 3. Test first
 
-1. Disaster (036): global ult plus fade escape. Measure whether delayed global damage lands and how often it can be dodged.
-2. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use.
-3. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills.
-4. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills.
-5. NPC (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage.
-6. Edgelord (100): Karambit Swipes stacks with no cap stated. Measure stacks at fight end and damage per stack.
-7. Oiler (093): Yoga Stack with no cap stated. Measure armor at fight end against damage taken.
-8. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one.
-9. Airhorn (088): talent grows Escalating Blare per cast with no cap stated. Measure the damage multiplier after repeated casts in one fight.
-10. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it.
+1. Disaster (036): global ult plus fade escape. Measure whether delayed global damage lands and how often it can be dodged. Pass: delayed global damage lands in at least 90% of test casts, and dodges stay under 10% of casts (UNVERIFIED).
+2. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use. Pass: aura damage over a 10-minute fight stays within 25% of the archetype average (UNVERIFIED).
+3. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (UNVERIFIED).
+4. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
+5. NPC (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
+6. Edgelord (100): Karambit Swipes stacks with no cap stated. Measure stacks at fight end and damage per stack. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
+7. Oiler (093): Yoga Stack with no cap stated. Measure armor at fight end against damage taken. Pass: armor at fight end stays within 10 of the archetype average (UNVERIFIED).
+8. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: the global choice's win rate stays within 5 points of the local one (UNVERIFIED).
+9. Airhorn (088): talent grows Escalating Blare per cast with no cap stated. Measure the damage multiplier after repeated casts in one fight. Pass: the damage multiplier after 5 casts stays at or below 2× (UNVERIFIED).
+10. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (UNVERIFIED).

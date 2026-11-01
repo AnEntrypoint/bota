@@ -41,11 +41,11 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 
 Run each scenario in the build. Record the result, the time taken and any sign that a rule was unreadable.
 
-1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window, and an Underdog capture of a Breaking News zone takes half the time of a normal capture (UNVERIFIED).
+1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window.
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
 3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, which the 400 start makes bind at exactly 200, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
-5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
+5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made. An Underdog capture takes half the time of a normal capture (UNVERIFIED).
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Viral.** A Viral hero dies. Pass: the CANCELLED stamp shows, and Rebrand swaps it for Rebranded.
 8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Ratio and Repost. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
