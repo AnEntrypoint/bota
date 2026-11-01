@@ -48,7 +48,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: C3 records zero capture progress.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Bullish.** A Bullish hero dies. Pass: the Bullish-ended marker shows, and Rebrand swaps it for Rebranded.
-8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Markdown and Resell. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
+8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Bull Run, Markdown and Resell. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
 
 ## Runnable checks
 

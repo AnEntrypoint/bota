@@ -18,7 +18,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Component tree
 
-Twelve components. Tier 1 and Tier 2 components combine into finished items. Tier 3 and Tier 4 finished items combine finished items with components.
+Twelve components. Tier 1 and Tier 2 components combine into finished items. Tier 3 and Tier 4 finished items combine finished items with components. Recipes for every finished item are in data/items.tsv (plan/25).
 
 | Component | Tier | Effect |
 | --- | --- | --- |

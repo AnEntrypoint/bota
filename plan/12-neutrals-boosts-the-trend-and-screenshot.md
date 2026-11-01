@@ -5,7 +5,7 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 
 | Creature | Camp type | Notes |
 | --- | --- | --- |
-| Background NPCs | Small | Repeat one voice line. Mirrors the Morning Market palette |
+| Background NPCs | Small | Repeat one voice line. Grey, not a team colour. |
 | Spam | Small | Fast, low HP |
 | Shill | Medium | Casts a slowing aura |
 | Troll-Bridge | Hard | Blocks a bridge crossing until killed |
@@ -91,6 +91,8 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Solo Queue | Assassins and solo laners | High: isolated picks get both bonuses | Group up; the damage bonus turns off |
 
 ### Breaking News (event)
+
+Numbers in this section are UNVERIFIED.
 
 - Job: capture objective (plan/02, Capture objective row). The cost is the contest, which stops progress while both teams have heroes inside.
 

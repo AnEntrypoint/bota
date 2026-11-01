@@ -1,7 +1,7 @@
 # 4. Map
 
 Numbers in this chapter are UNVERIFIED.
-The map is two halves split by a river. Each half holds three lanes, a jungle and a base.
+The map is two halves split by a river. Each half holds three lanes, a primary and a secondary jungle, and a base.
 
 ### Bases
 

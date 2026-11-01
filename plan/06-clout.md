@@ -39,10 +39,10 @@ Numbers in this section are UNVERIFIED.
 
 Each hero is in one of four states at any time. The state sets what the rest of the map can see.
 
-1. **Quiet.** Below 50 Clout, no enemy vision. Earns gold and XP only.
+1. **Quiet.** Below 100 Clout and no enemy vision. Earns gold and XP only.
 2. **LIVE.** An enemy hero has the hero in vision. The violet LIVE dot shows on the portrait. Clout is earned.
 3. **Bullish.** At 100 Clout. Bull Run is active for 20 s. The hero is revealed on the global minimap.
-4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn.
+4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn. When states overlap, Marked down wins, then Bullish, then LIVE, then Quiet.
 
 - Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the global reveal that a Bullish hero gives up for 20 s.
 

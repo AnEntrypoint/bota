@@ -7,7 +7,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 3. Voice is expressive and reactive. Rageguy and Krazed scream; Viking reacts by scrolling past. Only the Hot-take initiator screams.
 4. Gags have a lifespan. Forever replays the same loop, Acorn rebrands every week (GUESS), Krazed's keyboard breaks once and is folded into the next patch.
 5. Fad vocabulary is the roster's own Trend and Clout terms: Smugcat's squint carries cope, Viking's Load more carries the Trend, Npc repeats one line (GUESS). Phrases rotate per patch. Three dated platform fads are kept on purpose: Nobody: / Me: (gag 18), [deleted] (gag 11), CANCELLED (gag 20).
-6. The stock phrases (cope, skill issue, L + markdown) are the only ones used in announcer lines; Smugcat and Rageguy voice them and aim at the play, a kill, a death or a lane, never at a person.
+6. The stock phrases (cope, skill issue, L + markdown, We're so back., F., Cooked.) are the only ones used in announcer lines; Smugcat and Rageguy voice them and aim at the play, a kill, a death or a lane, never at a person.
 7. Every announcer line names the game state it reacts to. Tpose floats with arms locked out and lands; Npc's repeat is cut unless it lands once.
 
 ### Gags
@@ -32,9 +32,9 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 16 | A hero who dies to their own ability, item or tower-aggro mistake gets a grey footnote: Self-inflicted. No replies needed. [GUESS] | Death recap | Self-inflicted death | Footnote only. |
 | 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
-| 19 | A hero who dies three times in a row gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
+| 19 | A hero who dies three times in a row (UNVERIFIED) gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
 | 20 | A hero who dies while Bullish gets a grey Bullish-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Bull Run, Rebrand | Death while Bullish | Scoreboard only. |
-| 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge | Cosmetic. Never in a fight. |
+| 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge (UNVERIFIED) | Cosmetic. Never in a fight. |
 | 22 | At 100 Clout the Clout bar shows the Bull Run threshold. [GUESS] | Bull Run | At 100 Clout | Self and allies only. |
 | 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the name plate for 10 s (UNVERIFIED). Name plate only, never the LIVE dot. | Markdown on death | Death with 200+ Clout | Name plate, 10 s. |
 

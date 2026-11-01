@@ -37,7 +37,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Spudgunner (Drifter) | Full ticker on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
 | Boomer (Heckler) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
-| Disaster (Firebrand) | MATCH POINT! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! NOT DEAD! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
+| Disaster (Firebrand) | MATCH POINT! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
 | Tricky (Bulwark) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
@@ -55,7 +55,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
 | Forever (Recluse) | Again, again, again. Nice one. | Crawling back to the start. | Loop again. Charming yet? |
 | Scammer (Tether) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
-| Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Standing in the sun, healthier than you. |
+| Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Please stay in the sun. Thank you. |
 | Lifehack (Engine) | Glue gun set. Enemy no longer standing. | Tape ran out. Turf stayed, I did not. | Zip-ties on the belt, growing slowly. |
 
 ### Hero pair lines
