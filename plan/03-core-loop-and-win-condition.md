@@ -15,6 +15,8 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 | All six Content Mills down | n/a | Mega creeps spawn in all three lanes until a mill respawns |
 | Exchange | 1 | Invulnerable until both T4s fall. Destroying it wins. |
 
+- Job: map pressure, rotation (plan/02, Map pressure, rotation row). The cost is the tower held or the lane rotated away from.
+
 - Tower HP: T1 1,300, T2 1,600, T3 1,600, T4 2,200. Gold per tower: 160, 200, 240, 280.
 - Towers regenerate and take reduced damage when no enemy creeps are nearby (backdoor protection).
 - Job: glyph (plan/02, Glyph row). The cost is the 5 min cooldown, which makes the timing the choice.

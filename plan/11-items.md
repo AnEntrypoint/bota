@@ -98,7 +98,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Confident Answer | Attacks reveal the target's last position for 2 s, 20% chance | Delivered with total certainty and no sources. |
 | Prompt Injection | The next ability the target casts hits its nearest ally | Adds one line to the instructions, and the instructions obey. |
 | Sycophant | Aura: allies inside gain Reach +100 | Agrees with everyone nearby, which everyone mistakes for friendship. |
-| Grindset | Attack speed and damage after a kill | The grind does not stop. Neither do you. |
+| Grindset | +3 HP regen, +1 mana regen | The grind does not stop. Neither do you. |
 | Drain Blade | Attack lifesteal after an attack lands | Take their energy. Literally. |
 | Lite Plan | Adds one second effect to a basic ability | The budget version of an upgrade. It still counts. |
 

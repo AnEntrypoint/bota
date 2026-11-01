@@ -39,8 +39,8 @@
 | 34 | The premise is a commodity market, not posting. Go Viral becomes Bull Run, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The user asked for less lame humour and kept Clout. Decisions 4 and 9 are unchanged. |
 | 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | Lame L243: the leader had no choice, only an icon it could not avoid. |
 | 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point (lame L300). |
-| 37 | A hard disable is a stun, hold, sleep, fear, charm or polymorph; silence, root, slow, blind and disarm are soft. | C6 and the resell trigger need one definition (lame L311). |
-| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback) share one per-hit reflect cap, value UNVERIFIED. | Three heroes need the same rule (lame L266). |
+| 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition (lame L311). |
+| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap, value UNVERIFIED. | Five reflects need the same rule (lame L266, L319). |
 
 ### Open questions
 

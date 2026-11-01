@@ -33,6 +33,8 @@ Numbers in this table are UNVERIFIED.
 | Clout decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
 | Cap on Markdown | At most 200 Clout moves in one death |
 
+- Job: vision and wards (plan/02, Vision and wards row). The cost is the Clout lost while unseen.
+
 ### Clout states
 
 Numbers in this section are UNVERIFIED.

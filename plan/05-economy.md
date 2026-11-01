@@ -37,7 +37,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 Hero kill XP: 100, 120, 140, 160, 180 for levels 1 to 5, then 100 more per level. Shared among heroes in range. Denied lane creeps give 50% of their XP to the enemy team. Neutral-denied creeps give 35%.
 
-Total XP to reach each level (cumulative, lookup values):
+Total XP at checkpoint levels (cumulative). Every level from 2 to 25 is in the engine's xp_curve (tuning.osd, from 6.88g misc.ini NeedHeroXP):
 
 | Level | Total XP | Level | Total XP |
 | --- | --- | --- | --- |
