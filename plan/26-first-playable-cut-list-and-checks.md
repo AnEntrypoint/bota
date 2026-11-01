@@ -45,7 +45,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
 3. **Ratio cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, so the 200 cap binds exactly at 400 Clout, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Ratio row).
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
-5. **Breaking News contest.** Both teams have heroes in the zone. Pass: no capture progress is made.
+5. **Breaking News contest.** Both teams have heroes in the zone. Pass: C3 records zero capture progress.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Viral.** A Viral hero dies. Pass: the CANCELLED stamp shows, and Rebrand swaps it for Rebranded.
 8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Ratio and Repost. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
@@ -66,6 +66,6 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C8 | Rename regression | Win rate before and after a rename | Difference in percentage points | Within 1 percentage point, with at least 200 matches in each arm (UNVERIFIED) |
 | C9 | Chat mute | Mutes in the first 10 minutes | Share of players | At most 25% of players mute; above 25%, rotate the phrase pool |
 | C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
-| C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Effects that change damage or armour | Zero |
+| C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Clout effects that change damage or armour, Stan buff included | Zero |
 
 C11 checks the Clout-only rule (decision 9 in section 20) by reading the effect text of every Clout effect; it is a reading check, not a runtime check.

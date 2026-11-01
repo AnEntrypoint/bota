@@ -94,7 +94,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | --- | --- |
 | Go Viral glow, 20 s | Steady violet rim light. Slow upward particles. Shadow counter. |
 | Ratio record-scratch | Clout bar halves. Violet arc from corpse to killers. 0.3 s desaturation on the victim's screen. |
-| Repost arcs | Ally-blue dotted arc with violet core and via tags. At most 5 drawn. |
+| Repost arcs | Ally-blue dotted arc with grey core and via tags. At most 5 drawn. |
 | Trend banner | Slides from top, 2 s |
 | Go Private | Padlock decal, 5 s ring timer, blinds |
 | Screenshot revive | 3 s rewind clip. Corner brackets snap in. Soft white fade. |

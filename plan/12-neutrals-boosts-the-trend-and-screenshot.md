@@ -61,7 +61,7 @@ Eight modifiers rotate each patch. Two are offered per kill:
 
 | Modifier | Effect |
 | --- | --- |
-| Cast Rush | +10% move speed for 3 s after each cast |
+| Cast Rush | +10% move speed for 3 s after each cast. Each cast reveals the caster for 1 s. |
 | Unboxing | −15% item cooldowns, items cost 10% more gold |
 | Learn to Code | +10% XP from all sources, abilities cost 5% more mana |
 | Speedrun | +15% move speed, towers deal +10% damage to you, and your team earns 10% less tower gold |

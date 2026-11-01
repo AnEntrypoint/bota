@@ -17,6 +17,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Original Pos
 
 - Tower HP: T1 1,300, T2 1,600, T3 1,600, T4 2,200. Gold per tower: 160, 200, 240, 280.
 - Towers regenerate and take reduced damage when no enemy creeps are nearby (backdoor protection).
+- Job: glyph (plan/02, Glyph row). The cost is the 5 min cooldown, which makes the timing the choice.
 - Go Private (padlock): makes all team buildings invulnerable for 5 s. Cooldown 5 min. It refreshes when a T1 falls.
 
 ### Creep waves

@@ -56,6 +56,8 @@ Rules:
 
 ### Repost chain (Brainrot original)
 
+- Job: teamfight chain (plan/02, Teamfight chain row). The cost is the grouping it needs, or the spread against area damage.
+
 A hard disable or ultimate that lands on an enemy starts a repost chain.
 
 | Property | Value |

@@ -7,7 +7,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 
 | Element | Author size | Minimum display | Test |
 | --- | --- | --- | --- |
-| Ability icon | 128 × 128 PNG | 32 px | Motif identifiable in grayscale. Fills 60 to 75% of frame. Bottom-right 25% clear for cooldown numbers. |
+| Ability icon | 128 × 128 PNG | 32 px | Motif identifiable in grayscale by at least 4 of 5 observers (UNVERIFIED). Fills 60 to 75% of frame. Bottom-right 25% clear for cooldown numbers. |
 | Item icon | 88 × 64 PNG; 176 × 128 master | 44 × 32 | One object, ¾ view, rim light, no text |
 | Status icon | 64 × 64 | 18 px | Single glyph in system color with 2 px dark outline |
 | Minimap hero icon | 32 × 32 (64 master) | 16 px | Head-only caricature reads as a solid silhouette |

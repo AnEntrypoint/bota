@@ -9,7 +9,7 @@ The baseline is a classic MOBA rule set. Every system is either part of this bas
 | Lanes, towers, content mills, Original Post | Ratio (death transfer) |
 | Boss objective with a revive reward | Repost chain |
 | Delivery Drone, shops, wards, day/night | Rebrand |
-| Ultimate upgrade item | Go Private (padlock) |
+| Glyph | Go Private (padlock) |
 | Attribute stat rules | The Trend and Screenshot |
 | Gold, XP, bounties | Tethered support, dueler tether |
 
