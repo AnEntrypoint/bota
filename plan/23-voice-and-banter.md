@@ -9,7 +9,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.
 6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldowns are set in the balance pass.
 7. Item flavor is the second, italic line of a tooltip. Mechanics come first. Compact tooltips hide flavor (file 16, gag 09).
-8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Only Tricky and Ghillie speak in records and citations; every other hero keeps its own register.
+8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Tricky and Ghillie speak in records and citations, and so do the Utility and Harasser archetypes; every other hero keeps its own register.
 
 ### Voice by archetype
 
@@ -22,6 +22,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Ranged nuker | Quiet and tired; reads the market aloud. | "Load more." |
 | Resell healer, buffer | Friendly and eager; means well and interrupts itself. | "Just checking in." |
 | Reach tank, initiator | Calm and procedural; violence is quiet, not shouted. | Short polite orders. |
+| Bulwark | Calm and procedural, like the Reach tank; holds the line without raising its voice. | Short polite orders. |
 | Ghost-account summoner | No name, no history, confident anyway. | "Listed anonymously." |
 | Hot-take initiator | Loud, certain, always at emergency volume. | "UNPOPULAR OPINION:" |
 | Utility, zone control | Dry and exact; cites dates and logs. | "On file." / "Per the log." |
@@ -36,9 +37,9 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Spudgunner (Drifter) | Full ticker on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
 | Boomer (Heckler) | Saw you across the lawn. Saw you here too. | The sun got me. I'm remembering this. | Weedwhacker idling, right behind you. |
-| Disaster (Firebrand) | Match point. Cold read? No. Planned, actually. | Fire's out. Not dead. Buffering. | Warming my hands. Nobody asked, I know. |
+| Disaster (Firebrand) | MATCH POINT! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! NOT DEAD! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
 | Tricky (Bulwark) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
-| Gigachad (Bulwark) | Efficiency: high. Joy: null. | Chiseled, yet it hit. Suboptimal. | Carved and still. Effort: none. |
+| Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
 | Viking (Herald) | Finger pointed. Scrolled past. Next. | Bottle's empty. Lecture cut short. | Marching in place. Drink water, friend. |
 | Hank (Tether) | Machete, machete, machete again. | Lenses dimmed. Market went quiet. | Blades low. Refresh? Yes. Again. |

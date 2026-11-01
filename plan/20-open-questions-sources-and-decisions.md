@@ -16,7 +16,7 @@
 | 11 | Every new number is UNVERIFIED until a playable build exists. | Matches the balance rule in /workspace/oscraft/AGENTS.md |
 | 12 | Demand Boost changes from cooldown and mana cuts to Reach +100. | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
-| 14 | Starting gold is 600. | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |
+| 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source; the engine number is recalled, not confirmed, and tracked in plan/25 section 4 |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc's 6, 12 and 18 change to match. | The plan is the design source |
 | 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |
 | 17 | Item costs in section 11 are the cost bands the roster uses, and only the balance pass changes them. | One place to change item costs |

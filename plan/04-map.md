@@ -7,7 +7,7 @@ The map is two halves split by a river. Each half holds three lanes, a jungle an
 
 - **Morning Market** (ally): light value, sunrise palette. The river is the Market, with slow caustics.
 - **Late Night Market** (enemy): dark value, screen glow.
-- Each base holds the Spawn Lounge, a main shop at the Spawn Lounge, one Back Alley Shop, two Side Shops (one each on the top and bottom lanes), and a Trending Pit.
+- Each base holds the Spawn Lounge, a main shop at the Spawn Lounge, one Back Alley Shop, two Side Shops (one each on the top and bottom lanes).
 
 ### Lanes
 

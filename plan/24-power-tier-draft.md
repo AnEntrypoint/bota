@@ -52,7 +52,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 033 | Steve | Drifter | - | Lighter Rewind rewinds position (escape); zone freeze ult; slow. |
 | 034 | Greg | Recluse | - | Rockets, stun on hit, flak; ult zone airstrike. |
 | 035 | Brian | Archivist | - | Burn per attack; attack speed from health loss; charge with heal ult. |
-| 036 | Disaster | Firebrand | FLAG | Ult is delayed global damage; fade escape; freeze, path wall. |
+| 036 | Disaster | Firebrand | - | Ult is delayed area damage; fade escape; freeze, path wall. |
 | 037 | Attached | Tether | - | Teleports an ally; shared heals; orb damage; overclock ult. |
 | 038 | Zyzz | Showboat | - | Fire and ice breath; zone burn and slow; ult sustained line fire. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
@@ -133,11 +133,11 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 ## 2. Summary
 
 - Coverage: 24 launch kits (section 9), 88 remaining kits (section 10, Scalper included). All 112 matched by slot.
-- Flags: 18. Global 3 (Chudjak 028 via talent, Smugjak 029, Disaster 036). Permanent disable 7 (Soyjak 006, Numa 024, Tricky 047, Kazoo 056, Forever 068, Critic 078, Snackvendor 108). Uncapped stacking 8 (Gondola 012, Spurdo 013, NPC 066, Spudgunner 084 via talent, Airhorn 088 via talent, Oiler 093, Edgelord 100, Scalper 112).
+- Flags: 17. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 7 (Soyjak 006, Numa 024, Tricky 047, Kazoo 056, Forever 068, Critic 078, Snackvendor 108). Uncapped stacking 8 (Gondola 012, Spurdo 013, NPC 066, Spudgunner 084 via talent, Airhorn 088 via talent, Oiler 093, Edgelord 100, Scalper 112).
 
 ## 3. Test first
 
-1. Disaster (036): global ult plus fade escape. Measure whether delayed global damage lands and how often it can be dodged. Pass: delayed global damage lands in at least 90% of test casts, and dodges stay under 10% of casts (UNVERIFIED).
+1. Disaster (036): delayed area ult plus fade escape. Measure whether delayed area damage lands and how often it can be dodged. Pass: delayed area damage lands in at least 90% of test casts, and dodges stay under 10% of casts (UNVERIFIED).
 2. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use. Pass: aura damage over a 10-minute fight stays within 25% of the archetype average (UNVERIFIED).
 3. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (UNVERIFIED).
 4. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).

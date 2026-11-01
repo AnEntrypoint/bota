@@ -31,12 +31,14 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage |
 | Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings show as LIVE to enemies for 2 s |
 | Fuckyea | Noir Hook stun +1 s / Jacket Stale damage +10 | Smug Stacks cap +5 / Pocket Edit channel −0.5 s | Smug Stacks heal / Jacket Stale spreads to nearby enemies | Noir Hook pulls a second target / Pocket Edit steals 5% of target Clout |
-| Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for allied Clout |
+| Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius |
 | Scammer | Landline Teaser range +100 / Bluetooth Bait heal +5% | Sales Pitch Bait chance +10% / Cord Coil Arc timer −2 s | Landline Teaser burn +5 / Bluetooth Bait spreads | Cord Coil Arc keeps 50% of Clout / Death recap header reads Return confirmed |
 | Prepper | Gas Mask Air radius +50 / Blast Door Leave cooldown −5 s | Storm Shelter adds a treant / Hazmat Breach range +200 | Gas Mask Air roots +0.5 s / Treants heal allies | Hazmat Breach pays Clout / +2% health regen while no enemy sees you |
 | Lifehack | Glue Gun Camouflage +1 s / Zip Tie Market drains +10% | Duct Tape Shield +50 / Zip Tie Network +0.5 s | Zip Tie Market spreads / Glue Gun Camouflage works while moving | Zip Tie Network reflects damage / Allies in trees gain 10% move speed |
 
 ### Talent sets for every hero
+
+Numbers in this section are UNVERIFIED.
 
 - Job: power growth (plan/02, Talents row). The cost is the tier not taken.
 
@@ -54,7 +56,7 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 | Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
 | Firebrand (Hot-take initiator) | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
 | Archivist (Utility, zone control) | Radius +30 / Duration +0.5 s | Range +100 / Duration +1 s | Two charges / Reveals a Clout pulse | Detonates on death / LIVE for 2 s |
-| Tether (Tethered support, duelist) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for allied Clout |
+| Tether (Tethered support, duelist) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for each ally in radius |
 | Recluse (Offline sustain) | Radius +50 / Cooldown −5 s | Treant +1 / Range +200 | Root +0.5 s / Treants heal | Clout from the ultimate / Regen +2% unseen |
 
 ### Backpack

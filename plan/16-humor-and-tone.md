@@ -33,12 +33,14 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
-| 20 | A hero who dies while Bullish gets a grey CANCELLED stamp on the scoreboard row. Rebrand swaps it for a Rebranded stamp. [GUESS] | Bull Run, Rebrand | Death while Bullish | Scoreboard only. |
+| 20 | A hero who dies while Bullish gets a grey Bullish-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Bull Run, Rebrand | Death while Bullish | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge | Cosmetic. Never in a fight. |
 | 22 | At 100 Clout the Clout bar shows the Bull Run threshold. [GUESS] | Bull Run | At 100 Clout | Self and allies only. |
 | 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the name plate for 10 s (UNVERIFIED). Name plate only, never the LIVE dot. | Markdown on death | Death with 200+ Clout | Name plate, 10 s. |
 
 ### Announcer lines
+
+Every number in this table is UNVERIFIED.
 
 | Event | Line |
 |---|---|
@@ -66,7 +68,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | Surrender vote passes | Ticker abandoned. |
 | Rebrand while Marked down | Not cancelled. Rebranded. |
 
-Each event has one line. The Alternates table adds eight lines for game states that no event line covers.
+Each event has one line. The Alternates table adds seven lines for game states that no event line covers.
 
 ### Alternates
 

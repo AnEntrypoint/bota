@@ -47,7 +47,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: C1 and C2 hold (see Runnable checks).
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: C3 records zero capture progress.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
-7. **Rebrand while Bullish.** A Bullish hero dies. Pass: the CANCELLED stamp shows, and Rebrand swaps it for Rebranded.
+7. **Rebrand while Bullish.** A Bullish hero dies. Pass: the Bullish-ended marker shows, and Rebrand swaps it for Rebranded.
 8. **Read check.** Grayscale and each colorblind preset show LIVE, Stan, Markdown and Resell. Pass: at least 4 of 5 observers (UNVERIFIED) name each signal without its color under deuteranopia, protanopia and tritanopia.
 
 ## Runnable checks
@@ -66,6 +66,6 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C8 | Rename regression | Win rate before and after a rename | Difference in percentage points | Within 1 percentage point, with at least 200 matches in each arm (UNVERIFIED) |
 | C9 | Chat mute | Mutes in the first 10 minutes | Share of players | At most 25% of players mute; above 25%, rotate the phrase pool |
 | C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
-| C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Clout effects that change damage or armour, Stan buff included | Zero |
+| C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Clout effects that change damage or armour directly; the Stan buff is Reach and out of scope | Zero |
 
 C11 checks the Clout-only rule (decision 9 in section 20) by reading the effect text of every Clout effect; it is a reading check, not a runtime check.
