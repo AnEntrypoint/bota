@@ -89,7 +89,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 070 | Challenge | Tether | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
 | 071 | Hipster | Herald | - | Teleport to a point is its escape; cone damage, DoT, push ult. |
 | 072 | Brony | Phantom | - | Chaining lightning link, speed boost, aura with armor; ult area field. |
-| 073 | Tinfoil | Drifter | - | Blink and invisible strikes; unseen strike from behind; blind cloud. |
+| 073 | Tinfoil | Drifter | - | Coat Hanger Open and invisible strikes; unseen strike from behind; blind cloud. |
 | 074 | Flatearth | Archivist | - | Lift and throw; nearby damage; spell amplification; ult copies enemy spell. |
 | 075 | Deepfried | Drifter | - | Burrow while striking counts as escape; area damage; repeated waves ult. |
 | 076 | Glitch | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
@@ -122,7 +122,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 103 | Pointing | Heckler | - | DoT, damage amplification, attacker damage; ult slow and damage. |
 | 104 | Krazed | Firebrand | - | Slow, damage, shield; ult summons familiars that attack. |
 | 105 | Baconlover | Herald | - | Heal-or-damage word, drain, golem summon; ult links and damages. |
-| 106 | Gothgirl | Recluse | - | Blink is its escape; bug summons, double attack, ult rewinds target. |
+| 106 | Gothgirl | Recluse | - | Cardigan Flicker is its escape; bug summons, double attack, ult rewinds target. |
 | 107 | Smugcat | Showboat | - | Candlelit Dash evasion is its escape; rope pull, arrow, focus ult. |
 | 108 | Snackvendor | Herald | FLAG | Tournament Curse charms enemies with no stated timer; DoT, slow, heal ally. |
 | 109 | Sealcommando | Stalker | - | Bounce, heal aura, curse damage; ult channel strike. |

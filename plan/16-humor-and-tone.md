@@ -18,7 +18,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Resell adds a via tag to the chain. By the fifth link the original is too small to read, but its tag stays legible. [GUESS] | Resell | Chain of 3 or more | Spectator and hover only |
 | 04 | Header: Your listing was marked down, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Markdown | Death | Standard damage table first. |
-| 05 | Hero name followed by a small grey formerly tag, like Acorn's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
+| 05 | Hero name followed by a small grey formerly tag, like Helios's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. | Go Private | Activation | Cosmetic. The padlock is the read. |
 | 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS] | The Trend | Kill | Fades on respawn |
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
@@ -62,7 +62,7 @@ Every number in this table is UNVERIFIED.
 | Level 25 | Max level. Verified. |
 | Enemy delivery drone killed | Cope. |
 | Death to a lane creep | Skill issue. |
-| Kill on a Bullish hero | Engagement farmed. |
+| Kill on a Bullish hero | Bullish hero down. |
 | Team wipe | L + markdown. |
 | Comeback from a 10,000 gold deficit | The markdown flipped. |
 | Surrender vote passes | Ticker abandoned. |

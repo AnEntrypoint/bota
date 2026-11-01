@@ -14,6 +14,7 @@ Numbers in this section are UNVERIFIED.
 | Hero kill | +10 | None |
 | Assist | +4 | None |
 | Tower damage | +1 per 100 damage | While an enemy hero sees the tower |
+| Stage camp creature | +1 | While an enemy hero sees the camp |
 | Enemy ward | 0 | Reveals the warded area, earns nothing |
 | Any action unseen | 0 | Gold and XP still earned |
 
@@ -25,7 +26,7 @@ Numbers in this table are UNVERIFIED.
 | --- | --- |
 | Reach radius | 300 + 3 × Clout, capped at 600 |
 | Stan | Allied creeps inside Reach: +20% damage, +2 armor |
-| Bull Run threshold | 100 Clout |
+| Bull Run threshold | 100 Clout, unless a talent sets its own (plan/21) |
 | Bull Run duration | 20 s |
 | Bull Run effects | Reach +200; caster revealed on the global minimap |
 | Clout after Bull Run | 25 |
