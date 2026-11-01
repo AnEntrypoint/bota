@@ -12,12 +12,12 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Thread +2 s / Beam Quote hits a third time | Go Viral at 80 Clout / Abduction Count survives death |
 | Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
 | Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / LIVE hidden for 10 s after each kill |
-| Boomer | Pull Cord Toss bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Toss briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
+| Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
 | Disaster | Smirk Read slows +15% / Fire Fade cooldown −4 s | Fire Wall of Text +1 s / Smolder Drop radius +100 | Smirk Read freezes for 0.5 s / Fire Fade heals 10% | Smolder Drop marks the target for 2 s / Enemies silenced for 1 s on cast |
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no mana |
 | Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Void Post radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Void Post hits twice / Mana regen doubles below 50% mana |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
-| Viking | Mead Feast slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Feast leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Feast hits heroes below 50% HP for +10% |
+| Viking | Mead Bash slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 mana regen / Ragnarok March cooldown −15 s | Mead Bash leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Bash hits heroes below 50% HP for +10% |
 | Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
 | Boxxy | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
 | Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
@@ -115,7 +115,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Signature mechanics
 
-Each of these heroes has one rule that makes its kit read differently on the map. Each rule uses only Reach, reveal, Stan, Repost, Clout, the scoreboard or vision, never a stat. Numbers are UNVERIFIED.
+Each of these heroes has one rule that makes its kit read differently on the map. Each rule uses only Reach, reveal, Repost, Clout, the scoreboard or vision, never a stat; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
 
 | Hero | Signature mechanic | Clout tie |
 | --- | --- | --- |

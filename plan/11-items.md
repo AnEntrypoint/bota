@@ -58,7 +58,7 @@ Every item holds the job of a classic item. The internal parity map pairs them; 
 
 | Brainrot item | Function | Flavor |
 | --- | --- | --- |
-| Ragequit Dagger | Blink, short disengage | Logs off from your current position. |
+| Ragequit Dagger | Short disengage | Logs off from your current position. |
 | Participation Trophy | One revive at the Spawn Lounge | Everyone gets one. |
 | Refresh Page | Resets all cooldowns | Results may vary. |
 | Rapier, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
