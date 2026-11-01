@@ -82,5 +82,5 @@ Targets for the first simulated and played matches. These are thresholds to test
 | Learn to Code, Speedrun, Storytime, Get Ready With Me | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
 | Sweat Mode boost | Share of teamfights opened within 10 s of pickup | Under 40% |
 | Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |
-| Renamed abilities | Hero win rate before and after the rename pass | Within 1 point. A rename never changes a number. |
+| Renamed abilities | Hero win rate before and after the rename pass | Within 1 point, with at least 200 matches in each arm (UNVERIFIED). A rename never changes a number. |
 | Breaking News capture rate | Captures per event | At least one per event; no team above 70% of events (UNVERIFIED). |

@@ -32,6 +32,7 @@
 | 27 | Counter coverage means at least one hard counter per archetype, read from its Hard counter cell. Soft counters are not a separate rule. | The archetype table has no soft-counter column, and four archetype rows have no weak entry beyond their hard counter. |
 | 28 | Spectator reactions are cut. Decision 13 keeps only its no-vote clause. Talents, backpack, neutral items, disable duration and sustain gain plan/02 rows; Chat Check and Algorithm Boost use the vision and map-pressure rows. | Spectator reactions have no classic job (plan/02 rules 2 and 3), as with Decoy Posts in decision 26. |
 | 29 | Breaking News maps to the Capture objective row in plan/02. | Breaking News is a capture objective with its own cost, the contest, as plan/02 rule 3 requires. |
+| 30 | The surrender vote has a plan/02 Surrender row: a vote that ends the match. | Decisions 26 and 28 cut systems with no classic job; this one has a classic forfeit, so it stays with a cost. |
 
 ### Open questions
 

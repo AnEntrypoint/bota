@@ -16,7 +16,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 | UI text contrast |  |  | 4.5:1 or better on HUD panels |
 | Status glyph against health bar |  |  | 3:1 or better |
 | Cast point | 0.2 to 0.5 s |  | Anticipation pose readable top-down. Unique per ability. |
-| Death animation | 2.0 s or less |  | |
+| Death animation | 2.0 s or less |  | Frame count from death trigger to last frame in a build capture, at most 120 frames at 60 fps |
 | AoE telegraph | Team-colored decal |  | Outline at true radius. Fill at 25% opacity or less. |
 
 ### Hero shape language

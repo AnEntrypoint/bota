@@ -5,7 +5,7 @@ Numbers in this section are UNVERIFIED.
 
 - Six item slots, plus a six-slot stash. Backpack: three slots, see section 21.
 - Consumables stack. Stock-limited items have a restock timer (Lurker Cam, Smoke of Deniability).
-- Sell-back: full refund within 10 s of purchase, 50% after that. Screenshot and Gamer Fuel cannot be sold.
+- Sell-back: full refund within 10 s of purchase, 50% after that. Screenshot and Gamer Fuel (section 21) cannot be sold.
 - Drop-on-death items: Rapier, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
 - Items that take an active use a shared item cooldown per item, not per hero.
 - Delivery Drone: the flying courier that an Envelope item sends to base. Its speed bonus is the Envelope component's.
@@ -74,7 +74,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Spoiler Tag | True sight ward | Reveals what is hidden. Also what is coming. |
 | Dust of Receipts | Reveals invisible units in radius | The proof is in the dust. |
 | Smoke of Deniability | Invisibility cloud for allies | Nothing happened here. |
-| Gas Station Sushi | Heals, restores trees | Sell-by date is a suggestion. |
+| Gas Station Sushi | Heals over time | Sell-by date is a suggestion. |
 | Lo-Fi Beats | Restores mana over time | Beats to farm to. |
 | Hot Sauce | Instant heal | Not for beginners. |
 | Link in Bio Scroll | Teleports to base | Stay a while. |
@@ -163,4 +163,4 @@ Design notes:
 | Sycophant | 800 | Aura 500 radius: allies inside gain Reach +100. UNVERIFIED |
 | Drain Blade | 1,600 | 12% attack lifesteal for 6 s after an attack lands. UNVERIFIED |
 
-Costs set the tier bands in the component tree. Costs are UNVERIFIED until a playable build exists, and change only in the balance pass.
+Costs stay inside the tier bands in the component tree. Costs are UNVERIFIED until a playable build exists, and change only in the balance pass.

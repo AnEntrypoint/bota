@@ -81,4 +81,4 @@ Heroes with no hook: Forever [068], Lifehack [096].
 ### Requests
 
 - A cross-hero unit-counter read that does not need Lua per hook (GUESS): several hooks above read another hero's stack; a shared stack channel would make them plain data.
-- An armor-cut stack rule that caps combined armor cuts (GUESS): Orb Vibes and Smug Citation stack without a limit in the current kit.
+- An armor-cut stack rule that caps combined armor cuts (GUESS): Orb Vibes and Smug Citation stack to a combined armour cut of 4 (GUESS, no 6.88g source); no further limit in the current kit.

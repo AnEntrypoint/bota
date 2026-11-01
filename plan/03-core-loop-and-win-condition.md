@@ -22,6 +22,8 @@ Two teams of five. Each team defends a base, a set of lanes, and an Original Pos
 
 ### Creep waves
 
+- Job: creep wave pressure (plan/02, Creep wave pressure row). The cost is the lane held.
+
 - A wave spawns every 30 s: three melee and one ranged per lane.
 - A siege creep joins every fifth wave.
 - Creeps upgrade every 7.5 min: +12 HP and +2 gold per upgrade.
@@ -34,5 +36,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Original Pos
 3. Rotations and objectives. The Trend opens at about 10:00 (plan/05).
 4. Pushing. Break T1s, then T2s and T3s, then content mills.
 5. Original Post. The team that breaks the Original Post wins.
+
+- Job: surrender (plan/02, Surrender row). The cost is the rest of the match given up.
 
 Surrender rule: at 30 minutes, a team can vote to surrender with 4 of 5 players agreeing. Voting resets after each failed vote, and a vote is open once per 5 minutes.

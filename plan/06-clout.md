@@ -3,6 +3,8 @@ Clout is the signature resource. A hero earns Clout only while an enemy hero can
 
 ### Earning Clout
 
+- Job: last hitting, denying and vision (plan/02 rows). The cost is the Clout earned only while seen.
+
 Numbers in this section are UNVERIFIED.
 
 | Action | Clout | Condition |

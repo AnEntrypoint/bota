@@ -174,7 +174,7 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 7. **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
 8. **Name collision: resolved.** Archetypes have no engine name list; the hero slug `moderator` keeps its name.
 9. **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.
-10. **Archive access: open.** The owner supplies `reference map 6.88g.w3x`, which is still absent (A3), so section 4 cannot run.
+10. **Archive access: a blocker under decision 21.** The owner supplies `reference map 6.88g.w3x`, which is still absent (A3), so section 4 cannot run.
 
 ## Method and limits
 

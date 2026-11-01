@@ -9,8 +9,8 @@
 | 01 | Showboat | Clout carry | Inverted triangle | Warm peach, violet trim | Ring-light halo disk | Holds its Clout steady while every fight around it goes absurd | Influencer |
 | 02 | Stalker | Assassin, vision denial | Tall thin triangle, hunched | Desaturated slate | Oversized hood | Lurks outside enemy vision and brags about it only in the lurk | Lurker |
 | 03 | Heckler | Harasser, zoner | Forward diagonal | Mustard | Raised index finger | Replies to every Trend with a correction, even to its own abilities | Reply Guy |
-| 04 | Engine | Late-game Clout carry | Rigid vertical rectangle | Cold teal | Chart-line spine plate | Maximizes every Clout threshold and cannot enjoy a single one | Algorithm |
-| 05 | Drifter | Ranged nuker | Long stooped horizontal | Night blue | Paper scroll trailing to the floor | Every ability loads more Trend the longer you keep scrolling | Doomscroller |
+| 04 | Engine | Late-game Clout carry | Rigid vertical triangle | Cold teal | Chart-line spine plate | Maximizes every Clout threshold and cannot enjoy a single one | Algorithm |
+| 05 | Drifter | Ranged nuker | Long stooped diagonal | Night blue | Paper scroll trailing to the floor | Every ability loads more Trend the longer you keep scrolling | Doomscroller |
 | 06 | Herald | Repost healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Repost heals you and interrupts you in the same ping | Notification |
 | 07 | Bulwark | Reach tank, initiator | Big square | Grey with team color | Plate or shield held forward | Files every initiation as a polite form with maximum Reach | Moderator |
 | 08 | Phantom | Ghost-account summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Posts nothing yet its Stan count fills the lane with followers | Ghost |
