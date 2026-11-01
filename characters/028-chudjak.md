@@ -21,4 +21,3 @@ Clubs a line of enemies with a rolled manifesto and grows angrier the more of th
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/chudjak

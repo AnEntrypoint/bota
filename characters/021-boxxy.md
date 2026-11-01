@@ -25,4 +25,3 @@ Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/boxxy

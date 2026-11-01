@@ -16,4 +16,3 @@ Walks through empty yellow corridors in a sealed hazmat suit, filming everything
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/the-backrooms

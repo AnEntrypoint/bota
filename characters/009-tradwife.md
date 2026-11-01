@@ -25,4 +25,3 @@ Swats enemies with warm brioche that hurts more the farther they walk, while apr
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/trad-girl-tradwife

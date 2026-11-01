@@ -21,4 +21,3 @@ Turns invisible behind blue-mirror sunglasses until he swings, then collects gol
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/30-year-old-boomer

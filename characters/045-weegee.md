@@ -21,4 +21,3 @@ Stands perfectly rigid and stares, draining health from enemies, then hides insi
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/weegee

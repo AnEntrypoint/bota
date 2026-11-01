@@ -21,4 +21,3 @@ Hatches spiderlings from a parka hood and heals every time one of them kills som
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/spurdo-spanke

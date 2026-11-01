@@ -25,4 +25,3 @@ Plays a kazoo that holds enemies in place, puts an area to sleep, and fills the 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/kazoo-kid

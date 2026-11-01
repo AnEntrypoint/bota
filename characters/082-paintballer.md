@@ -21,4 +21,3 @@ Stuns an area with a splattering jersey, and bonks targets through a chrome mask
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/paintball

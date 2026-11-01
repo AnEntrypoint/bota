@@ -21,4 +21,3 @@ Swings twin machetes in a line, stacking speed with each swing, then spends the 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/subcultures/madness-combat

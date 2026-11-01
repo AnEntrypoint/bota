@@ -25,4 +25,3 @@ Stays motionless as concrete, regenerating only while no enemy hero watches, and
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/scp-173

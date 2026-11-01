@@ -21,4 +21,3 @@ Swallows a creep whole for health, then keeps the beat going on a silenced targe
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/numa-numa

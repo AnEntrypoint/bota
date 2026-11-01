@@ -21,4 +21,3 @@ Screams until the lane floods, stunning everyone in the wave, then cruises throu
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu

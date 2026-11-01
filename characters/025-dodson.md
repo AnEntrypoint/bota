@@ -21,4 +21,3 @@ Knocks enemies back with an accusing finger, then hits bigger after a sideways-l
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/antoine-dodson-bed-intruder

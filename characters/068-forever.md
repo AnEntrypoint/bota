@@ -21,4 +21,3 @@ Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weepi
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/forever-alone

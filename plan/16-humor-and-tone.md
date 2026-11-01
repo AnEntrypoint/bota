@@ -14,7 +14,7 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 
 | # | Gag | System | Trigger | Fade or opt-out |
 |---|---|---|---|---|
-| 01 | Two outer panels slide together like Willie's ship helm turning, revealing the first Trend modifier. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
+| 01 | Two outer panels slide together like Willie's ship bell swinging, revealing the first Trend modifier. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Repost adds a via tag to the chain. By the fifth link the original is too small to read. [GUESS] | Repost | Chain of 3 or more | Spectator and hover only |
 | 04 | Header: Your post was ratioed, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Ratio | Death | Standard damage table first. |

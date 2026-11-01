@@ -21,4 +21,3 @@ Arcs a coiled phone cord onto a target while the headset pitch talks over every 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/tech-support-scam

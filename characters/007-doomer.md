@@ -21,4 +21,3 @@ Embers from a lit cigarette rain over an area, and a frayed hoodie carries an al
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/doomer

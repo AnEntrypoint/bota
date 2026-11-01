@@ -25,4 +25,3 @@ Spits stacking slows from a potato trunk, then hits back harder for every blow i
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/gondola

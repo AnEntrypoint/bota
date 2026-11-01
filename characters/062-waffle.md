@@ -25,4 +25,3 @@ Holds a diner tray as a buckler, shrugging off debuffs and healing the table wit
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/waffle-house-wendy

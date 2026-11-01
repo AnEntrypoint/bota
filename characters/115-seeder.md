@@ -16,4 +16,3 @@ Limps in on a peg leg of hard drive platters, lassoing strangers with a rope mad
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/sites/the-pirate-bay

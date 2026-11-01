@@ -21,4 +21,3 @@ Holds enemies in detention with a mug, and grimaces at a creep until it agrees t
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/hide-the-pain-harold

@@ -21,4 +21,3 @@ Drops quadcopter traps, then sends the drone after trapped enemies to reveal and
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/drone

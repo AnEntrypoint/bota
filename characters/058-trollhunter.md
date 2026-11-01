@@ -21,4 +21,3 @@ Swings an auction gavel to heal allies, pays its own health for damage, and late
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/the-rent-is-too-damn-high

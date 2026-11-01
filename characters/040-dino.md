@@ -21,4 +21,3 @@ Sprints in blocky 1-bit steps, chomping through the air to heal and blinding eve
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/the-chrome-dinosaur

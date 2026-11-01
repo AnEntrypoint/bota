@@ -21,4 +21,3 @@ Laughs so wide that the sprayed shards cut a straight line through the lane, wit
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/yao-ming-face-bitch-please

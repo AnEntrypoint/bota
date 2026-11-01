@@ -21,4 +21,3 @@ Silent marble statue that crosses the map in one unbroken stride and hits harder
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/gigachad

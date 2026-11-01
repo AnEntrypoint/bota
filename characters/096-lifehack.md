@@ -21,4 +21,3 @@ Zip-ties enemies to the spot with a belt of neon fasteners, then hot-glues the p
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/subcultures/5-minute-crafts

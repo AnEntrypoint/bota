@@ -21,4 +21,3 @@ Hurls a detached steering wheel at one enemy, then spins a keychain on a finger 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/designated-driver

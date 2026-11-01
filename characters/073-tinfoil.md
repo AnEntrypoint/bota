@@ -21,4 +21,3 @@ Strikes from behind while unseen, blinks with a coat hanger, and leaves foil bal
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/tinfoil-hat

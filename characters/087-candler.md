@@ -21,4 +21,3 @@ Fires firework tubes from both hands, pulling enemies into a spark vortex before
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/roman-candle-wars

@@ -21,4 +21,3 @@ Marble bust that teleports onto its own pedestal and vanishes behind mirrored sh
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/vaporwave

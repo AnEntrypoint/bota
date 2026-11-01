@@ -25,4 +25,3 @@ Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/doomer-girl

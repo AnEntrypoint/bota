@@ -21,4 +21,3 @@ Charges a triple-tube slingshot to stun, then teleports the shot onto a target a
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/people/jorg-sprave

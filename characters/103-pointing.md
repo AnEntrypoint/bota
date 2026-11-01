@@ -21,4 +21,3 @@ Extends a yardstick long enough to review a target over time, leaving it taking 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/two-soyjaks-pointing

@@ -21,4 +21,3 @@ Hooks and pulls targets from behind sunglasses while hands stay in pockets, grow
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/fuck-yea

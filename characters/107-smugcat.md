@@ -21,4 +21,3 @@ Squints from behind the salad, ropes a target across the table, and puts an arro
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/smudge-the-cat

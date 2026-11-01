@@ -21,4 +21,3 @@ Leaps in under bandoliers of foam darts, stuns on landing, then steals stats thr
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/nerf

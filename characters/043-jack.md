@@ -21,4 +21,3 @@ Weeps black tar that bounces between enemies, then pulses outward to silence eve
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/eyeless-jack

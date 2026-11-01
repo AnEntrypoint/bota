@@ -21,4 +21,3 @@ Blasts two air horns to stun, each stun making the next blare louder and every a
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/air-horn

@@ -25,4 +25,3 @@ Smirks at the viewer in front of a burning house, freezing enemies in place whil
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/disaster-girl

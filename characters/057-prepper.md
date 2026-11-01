@@ -21,4 +21,3 @@ Slams a storm-shelter blast door into place, rooting an area behind a gas mask a
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/doomsday-preppers

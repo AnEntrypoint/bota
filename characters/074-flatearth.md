@@ -21,4 +21,3 @@ Lifts and throws enemies with a spirit level, then copies their spells onto a fl
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/flat-earth

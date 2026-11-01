@@ -21,4 +21,3 @@ Dives and fires at the ground in a full tactical loadout, lifesteals through the
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/events/florida-deputy-shoots-at-acorn

@@ -21,4 +21,3 @@ Burrows through the ground with red lens flares blasting from the eyes, leaving 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/deep-fried-memes

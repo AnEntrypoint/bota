@@ -21,4 +21,3 @@ Twists a portafilter to stun, dims the cafe to cut vision, and terrorizes enemie
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/hipster-barista

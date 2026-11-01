@@ -21,4 +21,3 @@ Squats flat-footed with a crowbar across his knees, calling wolves, then becomes
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/squatting-slavs-in-tracksuits-gopniks

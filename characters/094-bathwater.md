@@ -25,4 +25,3 @@ Fires a laser out of a sealed canning jar that blinds targets, then bounces once
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/gamer-girl-bath-water

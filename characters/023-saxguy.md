@@ -21,4 +21,3 @@ Silences an area with a pelvic-thrust solo, then flips down white shades to reve
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/epic-sax-guy

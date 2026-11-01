@@ -21,4 +21,3 @@ Rides a scooter in a line of shocks, pinning one target and gathering the rest i
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/paul-blart-mall-cop

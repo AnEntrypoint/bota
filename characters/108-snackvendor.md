@@ -21,4 +21,3 @@ Hands out soda hugs that heal allies and tournament curses that charm enemies, a
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/doritos-and-mountain-dew

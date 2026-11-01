@@ -21,4 +21,3 @@ Floats two inches off the floor in a rigid T-pose, delaying incoming hits until 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/t-pose

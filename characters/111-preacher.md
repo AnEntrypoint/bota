@@ -21,4 +21,3 @@ Shouts through a battery megaphone so the sermon chains between enemies, and the
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/street-preacher

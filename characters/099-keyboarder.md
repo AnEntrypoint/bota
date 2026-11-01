@@ -21,4 +21,3 @@ Swings a mechanical keyboard on its USB cable, rotting targets and draining cree
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/keyboard-warrior

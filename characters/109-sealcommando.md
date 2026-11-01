@@ -21,4 +21,3 @@ Snipes from a crouch through four night-vision tubes, with desert camouflage tha
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/navy-seal-copypasta

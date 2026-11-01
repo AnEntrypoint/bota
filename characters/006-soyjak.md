@@ -21,4 +21,3 @@ Gapes until a target falls asleep, while the plain yellow shirt is so unremarkab
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/soy-boy-face-soyjak

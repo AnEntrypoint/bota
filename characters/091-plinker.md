@@ -21,4 +21,3 @@ Sits cross-legged behind a straw-hat decoy and trades places with it, then takes
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/red-ryder-bb-gun

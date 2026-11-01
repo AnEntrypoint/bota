@@ -21,4 +21,3 @@ Reads a citation aloud to cut nearby armour, then splits the ground with hands c
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/smug-wojak

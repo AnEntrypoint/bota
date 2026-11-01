@@ -21,4 +21,3 @@ Smiles warmly, unlit cigarette in his lips, while rockets drop on a zone he poli
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/good-guy-greg

@@ -25,4 +25,3 @@ Levitates as corrupted characters, caging enemies in glyphs and hitting harder t
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/zalgo

@@ -21,4 +21,3 @@ Folds arms to make an ally untargetable, then drains an enemy into them out of s
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/challenge-accepted

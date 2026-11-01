@@ -21,4 +21,3 @@ Smashes a monitor overhead for damage, then sends the loose pixels off as famili
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/angry-german-kid-keyboard-crasher

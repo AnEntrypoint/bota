@@ -21,4 +21,3 @@ Drags grey gloom across the lane, slowing everything it touches, and finally det
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/wojak

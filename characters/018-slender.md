@@ -21,4 +21,3 @@ Pulls targets toward a blank face with tendrils, then stuns everything in the ro
 
 ## Aesthetic refs
 
-- https://en.wikipedia.org/wiki/Slender_Man

@@ -25,4 +25,3 @@ Demands the manager by charging every enemy in a line, and bounces hits back wit
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/karen

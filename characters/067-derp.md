@@ -21,4 +21,3 @@ Stumbles in cross-eyed dives, then pops back up from death, potato head first.
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/derp

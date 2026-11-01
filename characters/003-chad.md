@@ -21,4 +21,3 @@ Freezes enemies with one glance at the jaw, and when he dies the pompadour retur
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/yes-chad

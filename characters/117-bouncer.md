@@ -16,4 +16,3 @@ Folds his arms at the entrance and stays put, whatever names are on the list.
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/bouncer

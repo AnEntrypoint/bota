@@ -21,4 +21,3 @@ Roots enemies with pulsing temple veins, then dashes through them and leaves a h
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu

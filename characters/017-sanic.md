@@ -21,4 +21,3 @@ Smears out of sight while running, then attacks in a blur with a swarm of scribb
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/sanic-hegehog

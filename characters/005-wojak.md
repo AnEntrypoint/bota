@@ -21,4 +21,3 @@ Sighs at the clouds until every enemy in range turns on him, then finishes anyon
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/wojak

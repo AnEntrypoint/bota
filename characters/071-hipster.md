@@ -21,4 +21,3 @@ Teleports with a scarf flourish and scalds foes with pour-over coffee that keeps
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/hipster

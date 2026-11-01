@@ -21,4 +21,3 @@ Stacks shoeboxes into a line spike, brainwashes a creep with platform sneakers, 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/hypebeast

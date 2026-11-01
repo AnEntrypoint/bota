@@ -21,4 +21,3 @@ Drops sealed boxes as a rooting snare, and enemies standing nearby are charged a
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/scalpers

@@ -42,7 +42,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 024 | Numa (P5) | Herald | Oversized grey studio headphones | Soft cyan, pale blue | L / D / M |
 | 025 | Dodson (P4) | Heckler | Pointing arm (no held prop) | Mustard, crimson | L / D / M |
 | 026 | Sweetbrown (P2) | Drifter | Red cherry pop held at chin height | Night blue, warm | L / D / M |
-| 027 | Willie (P1) | Engine | Free-floating wooden ship helm | Cold teal, black and white | L / D / M |
+| 027 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
 | 028 | Chudjak (P3) | Bulwark | Rolled brown paper manifesto | Grey, olive | L / D / M |
 | 029 | Smugjak (P4) | Showboat | Hands clasped behind back (no held prop) | Peach, burgundy | L / D / M |
 | 030 | Rageguy (P5) | Firebrand | Raised fists (no held prop) | Ember, stark white | L / D / M |

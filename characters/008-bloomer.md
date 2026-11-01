@@ -21,4 +21,3 @@ Blinds nearby enemies with a wholesome smile, then sends a boar in a pastel wind
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/bloomer

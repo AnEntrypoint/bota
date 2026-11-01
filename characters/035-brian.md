@@ -21,4 +21,3 @@ Grins through his braces as a target burns, attacking faster the closer his heal
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/bad-luck-brian

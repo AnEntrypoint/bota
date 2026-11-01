@@ -21,4 +21,3 @@ Chains lightning from a plastic rainbow star staff and radiates a damage aura th
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/subcultures/my-little-pony-friendship-is-magic

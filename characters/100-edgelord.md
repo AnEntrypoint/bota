@@ -21,4 +21,3 @@ Stalks low in a torn trenchcoat, stacking karambit swipes while the spiked choke
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/mall-goth

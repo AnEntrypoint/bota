@@ -21,4 +21,3 @@ Silences a target with six absurdly long stabilizer rods, then slows survivors w
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/mall-ninja

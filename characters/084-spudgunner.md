@@ -21,4 +21,3 @@ Fires a pipe cannon that slows an area, then charges the pressure gauge to punis
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/spud-gun

@@ -21,4 +21,3 @@ Smashes whoever is nearest with drywall knuckles and calls a skate crew of sidew
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/kyle

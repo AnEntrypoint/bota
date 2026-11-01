@@ -21,4 +21,3 @@ Sips from a half-full water bottle to restore allies' mana, and each march step 
 
 ## Aesthetic refs
 
-- https://en.wikipedia.org/wiki/Techno_Viking

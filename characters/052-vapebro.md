@@ -21,4 +21,3 @@ Vapes a plume that sprays arrows everywhere, shields himself with mana, and free
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/vape-nation

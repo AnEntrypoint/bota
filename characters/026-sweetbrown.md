@@ -25,4 +25,3 @@ Pops a cherry to slow targets, and wide alarmed eyes spot every critical strike 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/sweet-brown-aint-nobody-got-time-for-that

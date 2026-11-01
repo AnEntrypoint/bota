@@ -21,4 +21,3 @@ Reflects damage with a dead-straight beam and hits harder while standing complet
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/laser-pointer

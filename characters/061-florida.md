@@ -21,4 +21,3 @@ Swings a live alligator like a club to stun, and double-casts every spell under 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/florida-man

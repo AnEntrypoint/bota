@@ -21,4 +21,3 @@ Clatters three spoons for an armor and slow aura, then takes control of a creep 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/subcultures/salad-fingers

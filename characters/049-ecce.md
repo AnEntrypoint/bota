@@ -21,4 +21,3 @@ Beams a smudged halo for a stun, then reshares the damage between enemies as it 
 
 ## Aesthetic refs
 
-- https://commons.wikimedia.org/wiki/File:Elias_Garcia_Martinez_-_Ecce_Homo.jpg

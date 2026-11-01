@@ -25,4 +25,3 @@ Abducts specimens from dead enemies, stacking up to five, and spends each stack 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/greys

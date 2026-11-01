@@ -21,4 +21,3 @@ Locks lidless eyes on one victim and drags the fight into a private duel, strong
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/jeff-the-killer

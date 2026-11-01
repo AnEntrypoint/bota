@@ -25,4 +25,3 @@ Spins a canvas tote through crowds, then drags enemies along a rope of lavender 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/essential-oils

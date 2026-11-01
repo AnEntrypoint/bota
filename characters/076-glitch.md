@@ -21,4 +21,3 @@ Holds an enemy in place and copies its image through red, green and blue offset 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/glitch-art

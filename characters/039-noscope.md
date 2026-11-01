@@ -21,4 +21,3 @@ Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/360-noscope

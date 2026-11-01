@@ -21,4 +21,3 @@ Charges in alone, mouth open, then walls off the path with copies of his mismatc
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/leeroy-jenkins

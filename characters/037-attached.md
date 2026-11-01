@@ -25,4 +25,3 @@ Holds both hands clasped under an unblinking smile, tethered to an ally so every
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/overly-attached-girlfriend

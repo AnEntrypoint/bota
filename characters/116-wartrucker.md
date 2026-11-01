@@ -16,4 +16,3 @@ Charges forward holding a chrome truck grille in both hands, a battering ram tha
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/truck-driver-freakout

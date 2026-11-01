@@ -21,4 +21,3 @@ Presents a sizzling skillet that heals allies or burns enemies, and ties targets
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/bacon

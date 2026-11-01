@@ -21,4 +21,3 @@ Hops in, slams a stop sign, and turns the target into a sheep after a hockey-mas
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/tricky-the-clown-tiky

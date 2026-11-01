@@ -21,5 +21,3 @@ Soaks the first hit for an ally in a greasy taco shirt, then banishes a friend t
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/neckbeard
-- https://github.com/DietrichGebert/ponytail/raw/main/assets/logo.png

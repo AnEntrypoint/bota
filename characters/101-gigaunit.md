@@ -21,4 +21,3 @@ Launches a puffer jacket at an enemy as a stunning missile, then swaps places wi
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/absolute-unit

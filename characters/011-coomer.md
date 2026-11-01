@@ -21,4 +21,3 @@ Claps one oversized arm to stun, then summons clones that all carry the same arm
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/coomer

@@ -21,4 +21,3 @@ Charges plasma in an open mouth, dashes through enemies, and copies one enemy ab
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor

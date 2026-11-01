@@ -21,4 +21,3 @@ Argues mid-sentence with a tablespoon while a soggy bowl lets hits slide off and
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/cereal-guy

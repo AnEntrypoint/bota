@@ -21,4 +21,3 @@ Screams at enemies until they turn into bit players, then unspools film strips i
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/the-nostalgia-critic

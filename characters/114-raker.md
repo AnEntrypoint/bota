@@ -16,4 +16,3 @@ Crouches in the beam of your own flashlight, visibly unbothered that you are the
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/the-rake

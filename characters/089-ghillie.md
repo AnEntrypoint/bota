@@ -21,4 +21,3 @@ Scatters burlap strips as area traps, holds enemies with twine, and detonates th
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/doomsday-preppers

@@ -21,4 +21,3 @@ Lands belly-first on a target, then naps through one cooldown and swaps it into 
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/big-chungus

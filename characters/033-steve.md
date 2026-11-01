@@ -21,4 +21,3 @@ Flicks a cheap lighter and snaps back to where he stood moments ago, leaving pur
 
 ## Aesthetic refs
 
-- https://knowyourmeme.com/memes/scumbag-steve
