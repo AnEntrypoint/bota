@@ -1,5 +1,3 @@
-** PLANNED FOR AFTER PARITY WORK **
-
 # 6.88 Brainrot: Complete Game Bible
 
 Oct 19, 2026 · @Admin

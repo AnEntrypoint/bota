@@ -98,7 +98,6 @@ Emergent rewrite (GUESS): mechanic text reworked so each effect carries the char
 
 Notes:
 
-- Bad Night (former name) is Soyjak [006]. Its row keeps the old flag and kit mechanics (section 24).
 - Scalper [112] row is re-themed onto roster entry 112 in section 15: Sold Out Snare, Markup Drain, Queue Bypass, Bulk Buy Drop. Ability slot IDs are pending (the old roster names no slot IDs). Every number and name is GUESS.
 - Talent trees are in section 21.
 

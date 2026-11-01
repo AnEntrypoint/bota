@@ -71,7 +71,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Modifier | Likely favors | Dominance risk | Answer |
 | --- | --- | --- | --- |
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
-| Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Nothing needed; watch its pick rate |
+| Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Nothing needed; C2 flags it if its pick rate passes 65% |
 | Learn to Code | Low-mana heroes who cast rarely | Medium: the mana cost is small for them | Speedrun |
 | Speedrun | Aggressive early teams | High: tower damage and speed reward an early rush | Slow the rush; the rusher pays the tower tax |
 | Storytime | Channel-heavy heroes (Curl Drain, Silhouette Breath) | Medium | Channel-free kits |

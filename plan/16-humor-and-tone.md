@@ -38,9 +38,6 @@ The register is maximalist, meme-forward and then some. Two images carry two rea
 | 22 | At 100 Clout the Clout bar shows the Go Viral threshold. [GUESS] | Go Viral | At 100 Clout | Self and allies only. |
 | 23 | A hero who dies with 200+ Clout gets a cracked-mask emoticon on the portrait. Portrait only. | Ratio on death | Death with 200+ Clout | Portrait only. |
 
-### Running bit
-The formerly tag (gag 05) is the running joke. Its rules and sample lines are in plan/23-voice-and-banter.md.
-
 ### Announcer lines
 
 | Event | Line |

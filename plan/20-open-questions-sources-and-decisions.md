@@ -19,7 +19,7 @@
 | 14 | Starting gold is 600. The engine docs say 625 and need changing to match. | The plan is the design source; the engine number is recalled, not confirmed |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc's 6, 12 and 18 change to match. | The plan is the design source |
 | 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |
-| 17 | Cost bands in section 11 are set to the costs the roster uses. Costs are unchanged. | The roster costs are the fixed point |
+| 17 | Item costs in section 11 are the cost bands the roster uses, and only the balance pass changes them. | One place to change item costs |
 | 18 | Drain Blade: 1,600 gold, 12% attack lifesteal for 6 s after a hit. UNVERIFIED. | Its tier 3 entry had no row |
 | 19 | The formerly tag reads "formerly Guest" and shows only on the death recap or victory screen. No client storage. | Removes an invented name pool and new client state |
 | 20 | Power tier letters are withdrawn until a playable build exists. The flag list and the test-first list stay. | Tier A held 64 of 112 heroes, so the letters measure nothing |

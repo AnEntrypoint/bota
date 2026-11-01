@@ -3,20 +3,20 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 
 ### Archetype budgets
 
-| Archetype | Role | Early power | Late power | Disable budget | Strong against | Weak against | Hard counter |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Clout carry | Clout carry | Low | High | Low | Offline sustain | Reach tank, initiator, Repost healer, buffer | Reach tank, initiator |
-| Assassin, vision denial | Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Repost healer, buffer | Utility, zone control |
-| Harasser, zoner | Harasser, zoner | Medium | Medium | Medium | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
-| Late-game Clout carry | Late-game Clout carry | Low | High | Low | None | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
-| Ranged nuker | Ranged nuker | High | Medium | Low | Late-game Clout carry | Assassin, vision denial, Reach tank, initiator | Assassin, vision denial |
-| Repost healer, buffer | Repost healer, buffer | Medium | Medium | Medium | None | Hot-take initiator, Ranged nuker | Hot-take initiator |
-| Reach tank, initiator | Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Ghost-account summoner, Utility, zone control | Ghost-account summoner |
-| Ghost-account summoner | Ghost-account summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
-| Hot-take initiator | Hot-take initiator | High | Low | High | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
-| Utility, zone control | Utility, zone control | Medium | High | Medium | Assassin, vision denial, Ghost-account summoner | Ranged nuker | Ranged nuker |
-| Tethered support, dueler | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
-| Offline sustain | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
+| Archetype | Early power | Late power | Disable budget | Strong against | Weak against | Hard counter |
+| --- | --- | --- | --- | --- | --- | --- |
+| Clout carry | Low | High | Low | Offline sustain | Reach tank, initiator, Repost healer, buffer | Reach tank, initiator |
+| Assassin, vision denial | High | Medium | Low | Clout carry | Utility, zone control, Repost healer, buffer | Utility, zone control |
+| Harasser, zoner | Medium | Medium | Medium | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
+| Late-game Clout carry | Low | High | Low | None | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
+| Ranged nuker | High | Medium | Low | Late-game Clout carry | Assassin, vision denial, Reach tank, initiator | Assassin, vision denial |
+| Repost healer, buffer | Medium | Medium | Medium | None | Hot-take initiator, Ranged nuker | Hot-take initiator |
+| Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Ghost-account summoner, Utility, zone control | Ghost-account summoner |
+| Ghost-account summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
+| Hot-take initiator | High | Low | High | Repost healer, buffer | Reach tank, initiator | Reach tank, initiator |
+| Utility, zone control | Medium | High | Medium | Assassin, vision denial, Ghost-account summoner | Ranged nuker | Ranged nuker |
+| Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
+| Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
 
 ### Archetype tiers (UNVERIFIED)
 
@@ -77,6 +77,6 @@ Targets for the first simulated and played matches. These are thresholds to test
 | Trend modifiers (8, 2 offered per kill) | Win rate of the team that picks each modifier | 45 to 55% for every modifier |
 | Learn to Code, Speedrun, Storytime, Get Ready With Me | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
 | Sweat Mode boost | Share of teamfights opened within 10 s of pickup | Under 40% |
-| Loaded gags | Players who mute chat in the first 10 minutes | Tracked per patch. Phrase pool rotates when above 25%. |
+| Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |
 | Renamed abilities | Hero win rate before and after the rename pass | Within 1 point. A rename never changes a number. |
 | Breaking News capture rate | Captures per event | At least one per event; no team above 70% of events (UNVERIFIED). |

@@ -31,7 +31,7 @@ The LIVE dot is violet with a white ring. It is never red (red means damage).
 ### Day and night
 
 - The day and night cycle runs 4 min day, 4 min night.
-- At night, vision radius drops for every hero. Some heroes have night abilities (Barista, Tinfoil).
+- At night, vision radius drops for every hero. Some heroes have night abilities (Barista).
 - The clock is shown on the minimap as a sun or moon.
 
 ### Fog rules
