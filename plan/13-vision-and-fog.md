@@ -1,4 +1,6 @@
 # 13. Vision and fog
+
+Numbers in this chapter are UNVERIFIED.
 Vision decides what the enemy can see, and therefore what they can take. Under Brainrot, enemy vision is also the source of your Clout. Vision is the most-used system in the game.
 
 ### Wards

@@ -32,6 +32,8 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 
 ### Fight rules
 
+Numbers in this section are UNVERIFIED.
+
 | Rule | Value |
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
@@ -48,6 +50,8 @@ Allocation: start at the tier total, then shift up to ±10% by attribute and ran
 - Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).
 
 ### Balance process
+
+Numbers in this section are UNVERIFIED.
 
 | Stage | Measure | Action |
 | --- | --- | --- |

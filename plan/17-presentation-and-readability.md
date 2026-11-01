@@ -1,4 +1,6 @@
 # 17. Presentation and readability
+
+Numbers and thresholds in this chapter are UNVERIFIED.
 Every gameplay signal passes the tests in plan/19 gates 1 and 4.
 
 ### Size targets

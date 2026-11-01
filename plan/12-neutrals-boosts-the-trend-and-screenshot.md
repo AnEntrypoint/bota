@@ -22,6 +22,8 @@ Stacking:
 
 ### Boosts
 
+Numbers in this section are UNVERIFIED.
+
 Six listed boosts plus the Algorithm Boost (section 21): seven in total. Two spawn spots on the river; they respawn every 2 min.
 
 | Boost | Effect | Duration |
@@ -48,6 +50,8 @@ A faceless boss built from stacked trending banners. Every number in this block 
 | Screenshot | One revive at the Spawn Lounge after a 3 s rewind clip. Expires 5 min after pickup. |
 
 ### Trend modifiers
+
+Numbers in this section are UNVERIFIED.
 
 Eight modifiers rotate each patch. Two are offered per kill:
 
