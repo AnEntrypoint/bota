@@ -43,6 +43,7 @@
 | 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, Lamp Reflect, Reply All, Zip Tie Network, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap of one quarter of the hit, value UNVERIFIED. | Nine reflects need the same rule. |
 | 39 | The launch set is the 24 heroes with kits in plan/09, Frogger and Chudjak included. Mallcop and Rageguy are remaining heroes with kits in plan/10. The plan/23 voice, the plan/25 heroes.tsv row and the plan/26 slice follow this set. | plan/09 holds the kits and plan/21 the talents the engine data is built on. The voice and slice lines had been written for Mallcop and Rageguy, so they were retargeted to Chudjak, Frogger and Disaster. |
 | 40 | The resource is named sigma in every design doc: prose, table column names and character text. Original names stay in internal/parity-map.md. Engine identifiers live in the engine repo and change only when its data format does. | Owner request for a full rename. Sigma is the Brainrot resource word; the rename removes the original resource name from shipped text. |
+| 41 | The energy-drink item is named Coffee. Brand names stay out of shipped text under decision 7; the parity map keeps the original name. | Owner flagged the brand as a trademark risk and chose Coffee as the replacement. |
 
 ### Open questions
 

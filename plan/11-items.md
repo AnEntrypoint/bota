@@ -5,7 +5,7 @@ Numbers in this section are UNVERIFIED.
 
 - Six item slots, plus a six-slot stash. Backpack: three slots, see section 21.
 - Consumables stack. Stock-limited items have a restock timer (Lurker Cam, Smoke of Deniability).
-- Sell-back: full refund within 10 s of purchase, 50% after that. The Trend's Snapshot and Gamer Fuel (section 21) cannot be sold.
+- Sell-back: full refund within 10 s of purchase, 50% after that. The Trend's Snapshot and Coffee (section 21) cannot be sold.
 - Drop-on-death items: Rapier, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
 - Items that take an active use a shared item cooldown per item, not per hero.
 - Delivery Drone: the flying courier that an Envelope item sends to base. Its speed bonus is the Envelope component's.

@@ -579,7 +579,7 @@ Original names for parity work only. The plan and all shipped data use the Brain
 
 ## Other renames
 
-- Scalper = Underlord. Gamer Fuel = Cheese. Chat Check = Scan. Screenshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
+- Scalper = Underlord. Coffee = Cheese. Chat Check = Scan. Screenshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
 - Sources: https://liquipedia.net/dota2/Gold , https://liquipedia.net/dota2/Time_of_Day , https://liquipedia.net/dota2/Observer_and_Sentry_Wards
 - Original Post (base) = Ancient. Back Alley Shop = Secret Shop. Lurker Cam = Observer Ward. Spoiler Tag = Sentry Ward.
 - Paintballer (Slardar): Whale Splash = Slithereen Crush, Pity Bonk = Bash, Sunk Cost = Amplify Damage, Receipt Haze = Corrosive Haze. Final Warning = Land Mines.

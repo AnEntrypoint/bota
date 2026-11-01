@@ -119,13 +119,13 @@ Numbers in this section are UNVERIFIED.
 - Spawns with the other boosts on the river. Lasts 50 s.
 - While held: Reach +100 and a grey pip on the minimap. No cooldown or sigma change.
 
-### Gamer Fuel
+### Coffee
 
 Numbers in this section are UNVERIFIED.
 
 - Job: sustain (plan/02, Sustain row). The cost is the Trend kill it waits for.
-- The Trend drops Gamer Fuel on its second kill and every kill after.
-- Gamer Fuel cannot be sold. Chug it to restore 2,500 HP and 1,000 sigma over 4 s. One can per drop.
+- The Trend drops Coffee on its second kill and every kill after.
+- Coffee cannot be sold. Chug it to restore 2,500 HP and 1,000 sigma over 4 s. One can per drop.
 
 ### Scalper (roster entry 112)
 
