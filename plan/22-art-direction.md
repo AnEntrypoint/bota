@@ -21,7 +21,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 003 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Peach, emerald | L / D / M |
 | 004 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
 | 005 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |
-| 006 | Soyjak (P1) | Herald | Gaping mouth and wire glasses (no held prop) | Soft cyan, yellow | L / D / M |
+| 006 | Soyjak (P1) | Herald | Gaping mouth (no held prop) | Soft cyan, yellow | L / D / M |
 | 007 | Doomer (P1) | Drifter | Glowing cigarette with smoke plume | Night blue, smoky | L / D / M |
 | 008 | Bloomer (P2) | Herald | Pastel windbreaker zip (worn; no held prop) | Soft cyan, pastel yellow | L / D / M |
 | 009 | Tradwife (P3) | Herald | Braided brioche loaf in oven mitts | Sky blue, cream | L / D / M |
@@ -77,12 +77,12 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 059 | Barista (P1) | Herald | Stainless portafilter handle | Soft cyan, denim | M / L / D |
 | 060 | Hypebeast (P1) | Showboat | Stack of branded shoeboxes | Peach, sand | M / L / D |
 | 061 | Florida (P2) | Firebrand | Two live alligators under the arms | Ember, neon yellow | M / L / D |
-| 062 | Waffle (P3) | Bulwark | Heavy stainless food tray as a buckler | Grey, pastel | M / L / D |
+| 062 | Waffle (P3) | Bulwark | Heavy stainless food tray on one palm | Grey, pastel | M / L / D |
 | 063 | Tpose (P3) | Phantom | Wireframe grid on the torso (no held prop) | Lavender, neon green | L / D / M |
 | 064 | Zalgo (P1) | Drifter | Corrupted Unicode splinters (no held prop) | Night blue, black | M / L / D |
 | 065 | Helios (P4) | Phantom | Floating marble bust and mirrored sunglasses | Lavender, pastel cyan | L / D / M |
 | 066 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
-| 067 | Derp (P6) | Recluse | Mismatched shoes (worn; no held prop) | Moss, white | L / D / M |
+| 067 | Derp (P6) | Recluse | Loosened crooked necktie (worn; no held prop) | Moss, white | L / D / M |
 | 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
 | 069 | Fuckyea (P2) | Showboat | Hands jammed in trouser pockets | Peach, jet black | M / L / D |
 | 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
@@ -95,7 +95,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 078 | Critic (P5) | Archivist | Antique 35mm film canister held overhead | Sepia, black | L / D / M |
 | 079 | Crossfit (P2) | Engine | Knobby rubber tractor tire mid-roll | Cold teal, black | L / D / M |
-| 080 | Acorn (P5) | Stalker | Two-handed combat pistol grip | Slate, desert camo | L / D / M |
+| 080 | Acorn (P5) | Stalker | Two-handed combat pistol grip | Slate, woodland camo | L / D / M |
 | 081 | Mallarcher (P3) | Engine | Compound bow with six stabilizer rods | Cold teal, matte black | L / D / M |
 | 082 | Paintballer (P6) | Stalker | Electronic speedball marker with hopper | Slate, neon | L / D / M |
 | 083 | Nerfer (P1) | Heckler | Neon-orange toy blaster with tactical rails | Mustard, neon orange | M / L / D |

@@ -13,7 +13,7 @@ Hero slot: 019
 
 ## Subject
 
-lean defined muscular physique, tight pale skin, braided blonde beard, silver hammer pendant, bare chest, rugged dark utility pants tucked into black combat boots, pointed authoritative index finger, half-full clear plastic water bottle, rhythmic march stance
+lean defined muscular physique, tight pale skin, braided blonde beard, silver hammer pendant, bare chest, rugged dark utility pants tucked into black combat boots, raised authoritative open palm, half-full clear plastic water bottle, rhythmic march stance
 
 ## Hook
 

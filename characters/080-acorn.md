@@ -13,7 +13,7 @@ Hero slot: 080
 
 ## Subject
 
-full tactical desert camouflage uniform, heavy ceramic plate carrier, dark mirrored sport shades, duty belt with holsters, rapid two-handed combat pistol grip aimed at ground, evasive dive posture
+full tactical woodland camouflage uniform, heavy ceramic plate carrier, dark mirrored sport shades, duty belt with holsters, rapid two-handed combat pistol grip aimed at ground, evasive dive posture
 
 ## Hook
 

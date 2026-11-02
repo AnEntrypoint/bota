@@ -13,7 +13,7 @@ Hero slot: 102
 
 ## Subject
 
-smooth matte grey Wojak face, downcast heavy eyelids, hands buried deep into pockets of an oversized drab charcoal overcoat, slow defeated dragging walk
+smooth matte grey face, flat unblinking eyelids, hands buried deep into pockets of an oversized drab charcoal overcoat, stiff shuffling walk, shoulders squared
 
 ## Hook
 

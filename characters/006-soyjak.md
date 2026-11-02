@@ -8,7 +8,7 @@ Hero slot: 006
 - Role: Resell healer, buffer
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Gaping mouth and wire glasses (no held prop)
+- Distinct prop: Gaping mouth (no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Subject

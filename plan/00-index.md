@@ -1,6 +1,6 @@
 # Brainrot of the AI - BotA: Complete Game Bible
 
-Oct 19, 2026 · @Admin
+Nov 2, 2026 · @Admin
 
 This bible specifies a complete 5v5 MOBA on a classic MOBA rule set, with the Brainrot remix layered on top. Every system below has a number, a rule and a reason.
 

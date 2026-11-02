@@ -15,7 +15,7 @@
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). Creep, lane, jungle and tower stay generic usage. | Uniqueness |
 | 11 | A new number with a source is UNVERIFIED until a playable build exists. A new number with no source is GUESS with its reason (decision 42). | Keeps new numbers from passing as checked values |
 | 12 | Demand Boost changes from cooldown and sigma cuts to Reach +100 (UNVERIFIED). | Keeps it on the Clout identity |
-| 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
+| 13 | Spectators never vote on play. | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source. The engine repo holds 875 (scenarios/moba/economy.osd); the plan keeps 600 until the balance pass sets it. |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc already gives 6, 11 and 16. | The plan is the design source |
 | 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |

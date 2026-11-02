@@ -8,7 +8,7 @@ Hero slot: 062
 - Role: Reach tank, initiator
 - Attribute: Int
 - Range: Melee
-- Distinct prop: Heavy stainless food tray as a buckler
+- Distinct prop: Heavy stainless food tray on one palm
 - Value groups (body / head / prop): M / L / D
 
 ## Lead
@@ -17,7 +17,7 @@ stylized 3d female character
 
 ## Subject
 
-crushed paper diner pillbox cap, faded brown restaurant apron, rolled short sleeves, unlit cigarette behind ear, flat heavy stainless steel food tray held like a combat buckler, grounded defensive crouch
+crushed paper diner pillbox cap, faded brown restaurant apron, rolled short sleeves, unlit cigarette behind ear, flat heavy stainless steel food tray balanced on one palm, grounded defensive crouch
 
 ## Hook
 

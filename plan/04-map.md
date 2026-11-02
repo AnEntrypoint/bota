@@ -16,8 +16,7 @@ Three lanes per team: top, mid and bottom. Lane assignment by role is in section
 
 ### River
 
-- The river splits the map. It holds the two boost spots and the Trend pit.
-- Two boost spots on the river. Boosts spawn every 2 min (section 12).
+- The river splits the map. It holds the two boost spots, which spawn every 2 min (section 12), and the Trend pit.
 - Shallow crossings let heroes cross the river at fixed points only.
 
 ### Jungle
@@ -31,10 +30,6 @@ Each team has a primary and a secondary jungle.
 | Near Back Alley Shop | 1 hard | Guards the Back Alley Shop approach |
 
 Jungle creature names are in section 12.
-
-### Structure list
-
-Towers, Content Mills, Exchange and Spawn Lounge are in section 3. Shops, inventory and items are in section 11. Wards are in section 13.
 
 ### Map props and marginalia
 
