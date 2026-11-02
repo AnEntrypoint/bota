@@ -29,7 +29,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 - Job: respawn (plan/02, Respawn row). The cost is the Clout reset to 0.
 
-- **Cost:** 100 + 1.5 × level² + 0.25 × game seconds. Spends reliable gold first, then unreliable gold for the rest; a total short of the cost refuses the Rebrand.
+- **Cost:** 100 + 1.5 × level² + 0.25 × game seconds. Paid from reliable gold only; a reliable total short of the cost refuses the Rebrand.
 - **Effect:** a Rebrand resets Clout to 0 and ends the respawn timer early.
 - **Penalty:** no unreliable gold until the normal respawn timer would have ended. 25% of the skipped timer, in seconds, is added to the next respawn timer, capped at 60 s (GUESS: the cap bounds a rebrand chain; the balance pass sets it).
 - **Cooldown:** 6 min (360 s).

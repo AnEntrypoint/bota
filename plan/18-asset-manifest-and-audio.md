@@ -83,7 +83,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Clout bar | 1 | Clout |
 | LIVE dot | 1 | LIVE. Slow pulse, 1 Hz or below. |
 | Scoreboard | 1 | K, D, A, Clout, Net Worth |
-| Pick and ban screen | 1 | Draft your content plan |
+| Pick and ban screen | 1 | Title in plan/14 |
 | Loading screen | 1 template, 24 dioramas | Caption from gag 01 (plan/16) |
 | Victory and defeat | 2 | Victory. Stall sold. / Defeat. Stall closed. |
 | Shop | 1 | The Plug |
@@ -116,4 +116,4 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 ### Totals (launch)
 
-Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 34 screen and element units, including 24 loading dioramas, and about 700 strings. Audio, non-voice 103. No music in the game. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.
+Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 34 screen and element units, including 24 loading dioramas, and about 700 strings. Audio, non-voice 103. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.

@@ -1,7 +1,7 @@
 # 10. Remaining hero kits
 The 88 characters outside the launch set (section 9), Scalper [112] included. Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass.
 
-Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. The Scalper [112] names are written in the Scalper row below. Each GUESS in the tables is a theme value with no 6.88g or repo source; its reason is the character's gag.
+Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. Each GUESS in the tables is a theme value with no 6.88g or repo source; its reason is the character's gag.
 
 | Hero | Archetype | Ability 1 | Ability 2 | Ability 3 | Ultimate |
 | --- | --- | --- | --- | --- | --- |
@@ -148,5 +148,4 @@ Heroes without an entry carry no hook.
 
 ### Requests
 
-- A cross-hero stack channel is requested in the Requests list of plan/09.
-- A passive that reflects damage to an attacker with a per-hit cap (decision 38): Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell and Lamp Reflect use it, as do Reply All (plan/11) and the Handlebar Appeal, Bulwark Reflect 10% and Zip Tie Network talents in plan/21.
+- Reflect passives share the per-hit cap of decision 38.

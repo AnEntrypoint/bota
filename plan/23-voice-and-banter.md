@@ -3,7 +3,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 
 ### Rules
 1. Voice follows the archetype in section 15.
-2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + markdown and similar). A loaded line aims at the play it follows, a kill, a death or a lane (plan/16 rule 6).
+2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + markdown and similar). Its aim follows plan/16 rule 6.
 3. Read path: LIVE, Stan, Hype Spike, Markdown and Resell are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
 5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.

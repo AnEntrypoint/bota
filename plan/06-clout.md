@@ -1,5 +1,5 @@
 # 6. Clout
-Clout is the signature resource. A hero earns Clout only while an enemy hero can see them. It is the reason to stay in the open, and the reason to be marked down when you are.
+Clout is the signature resource. It is the reason to stay in the open, and the reason to be marked down when you are.
 
 ### Earning Clout
 
