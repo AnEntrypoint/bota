@@ -1,7 +1,5 @@
 # 094 Bathwater
 
-Hero slot: 094
-
 ## Card
 
 - Role family: Leash

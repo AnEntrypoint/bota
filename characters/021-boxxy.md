@@ -1,7 +1,5 @@
 # 021 Boxxy
 
-Hero slot: 021
-
 ## Card
 
 - Role family: Leash

@@ -1,7 +1,5 @@
 # 111 Preacher
 
-Hero slot: 111
-
 ## Card
 
 - Role family: Heckler

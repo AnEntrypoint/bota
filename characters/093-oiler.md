@@ -1,7 +1,5 @@
 # 093 Oiler
 
-Hero slot: 093
-
 ## Card
 
 - Role family: Recluse

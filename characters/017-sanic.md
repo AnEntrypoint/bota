@@ -1,7 +1,5 @@
 # 017 Sanic
 
-Hero slot: 017
-
 ## Card
 
 - Role family: Stalker

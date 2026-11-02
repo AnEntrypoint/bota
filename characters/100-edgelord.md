@@ -1,7 +1,5 @@
 # 100 Edgelord
 
-Hero slot: 100
-
 ## Card
 
 - Role family: Stalker

@@ -1,7 +1,5 @@
 # 008 Bloomer
 
-Hero slot: 008
-
 ## Card
 
 - Role family: Herald

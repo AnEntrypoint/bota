@@ -1,7 +1,5 @@
 # 025 Dodson
 
-Hero slot: 025
-
 ## Card
 
 - Role family: Heckler

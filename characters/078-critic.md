@@ -1,7 +1,5 @@
 # 078 Critic
 
-Hero slot: 078
-
 ## Card
 
 - Role family: Archivist

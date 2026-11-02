@@ -1,7 +1,5 @@
 # 014 Karen
 
-Hero slot: 014
-
 ## Card
 
 - Role family: Heckler

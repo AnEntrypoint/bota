@@ -1,7 +1,5 @@
 # 079 Crossfit
 
-Hero slot: 079
-
 ## Card
 
 - Role family: Engine

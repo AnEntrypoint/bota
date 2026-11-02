@@ -1,7 +1,5 @@
 # 036 Disaster
 
-Hero slot: 036
-
 ## Card
 
 - Role family: Firebrand

@@ -1,7 +1,5 @@
 # 073 Tinfoil
 
-Hero slot: 073
-
 ## Card
 
 - Role family: Drifter

@@ -1,7 +1,5 @@
 # 114 Raker
 
-Hero slot: reserve
-
 ## Card
 
 - Status: reserve. No role family, attribute or prop until promoted (plan/15).

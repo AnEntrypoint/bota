@@ -1,7 +1,5 @@
 # 069 Fuckyea
 
-Hero slot: 069
-
 ## Card
 
 - Role family: Showboat

@@ -1,7 +1,5 @@
 # 013 Spurdo
 
-Hero slot: 013
-
 ## Card
 
 - Role family: Firebrand

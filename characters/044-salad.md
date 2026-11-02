@@ -1,7 +1,5 @@
 # 044 Salad
 
-Hero slot: 044
-
 ## Card
 
 - Role family: Drifter

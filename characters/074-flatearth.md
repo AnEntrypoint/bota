@@ -1,7 +1,5 @@
 # 074 Flatearth
 
-Hero slot: 074
-
 ## Card
 
 - Role family: Archivist

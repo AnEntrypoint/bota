@@ -29,7 +29,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 - A wave spawns every 30 s: three melee and one ranged per lane.
 - A siege creep joins every fifth wave.
 - Creeps upgrade every 7.5 min: +12 HP and +2 gold per upgrade. Melee and ranged creeps upgrade; siege creeps do not. Four upgrades at most (GUESS: caps late creeps at 48 HP above base so waves stay killable; the balance pass sets it).
-- Aggro: attacking an enemy hero draws creeps within 900 range for 2.5 s (UNVERIFIED), with a 2.5 s cooldown.
+- Aggro: attacking an enemy hero draws creeps within 900 range for 2.5 s (UNVERIFIED), with a 2.5 s cooldown that starts when the draw ends.
 
 ### Match flow
 

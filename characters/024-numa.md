@@ -1,7 +1,5 @@
 # 024 Numa
 
-Hero slot: 024
-
 ## Card
 
 - Role family: Herald

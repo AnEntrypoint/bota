@@ -1,7 +1,5 @@
 # 046 Hank
 
-Hero slot: 046
-
 ## Card
 
 - Role family: Leash

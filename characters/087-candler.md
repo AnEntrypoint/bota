@@ -1,7 +1,5 @@
 # 087 Candler
 
-Hero slot: 087
-
 ## Card
 
 - Role family: Firebrand

@@ -1,7 +1,5 @@
 # 091 Plinker
 
-Hero slot: 091
-
 ## Card
 
 - Role family: Recluse

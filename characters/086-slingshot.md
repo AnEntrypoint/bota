@@ -1,7 +1,5 @@
 # 086 Slingshot
 
-Hero slot: 086
-
 ## Card
 
 - Role family: Heckler

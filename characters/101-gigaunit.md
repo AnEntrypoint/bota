@@ -1,7 +1,5 @@
 # 101 Gigaunit
 
-Hero slot: 101
-
 ## Card
 
 - Role family: Bulwark

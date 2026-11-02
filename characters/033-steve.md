@@ -1,7 +1,5 @@
 # 033 Steve
 
-Hero slot: 033
-
 ## Card
 
 - Role family: Drifter

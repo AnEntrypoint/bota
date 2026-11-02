@@ -1,7 +1,5 @@
 # 083 Nerfer
 
-Hero slot: 083
-
 ## Card
 
 - Role family: Heckler

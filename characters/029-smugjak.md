@@ -1,7 +1,5 @@
 # 029 Smugjak
 
-Hero slot: 029
-
 ## Card
 
 - Role family: Showboat

@@ -9,6 +9,8 @@ Emergent rewrite (GUESS): each effect carries its character's gag (a visible tra
 
 Every ability uses one of these tiers. Each hero's abilities are sized to them, with the role-family talent sets in section 21 added on top.
 
+Sigma is the ability resource: base pool 50, +12 max per Intelligence point and +0.05 regen per second per Intelligence point (plan/07). A cast spends its Sigma figure from the table below (UNVERIFIED).
+
 | Ability type | Level 1 | Level 2 | Level 3 | Level 4 | Cooldown (L1 to L4) | Sigma (L1 to L4) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Ability 1, damage | 80 | 160 | 240 | 320 | 10, 9, 8, 7 s | 60, 70, 80, 90 |

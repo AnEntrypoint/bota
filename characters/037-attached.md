@@ -1,7 +1,5 @@
 # 037 Attached
 
-Hero slot: 037
-
 ## Card
 
 - Role family: Leash

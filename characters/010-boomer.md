@@ -1,7 +1,5 @@
 # 010 Boomer
 
-Hero slot: 010
-
 ## Card
 
 - Role family: Heckler

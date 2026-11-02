@@ -1,7 +1,5 @@
 # 104 Krazed
 
-Hero slot: 104
-
 ## Card
 
 - Role family: Firebrand

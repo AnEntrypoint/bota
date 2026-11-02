@@ -1,7 +1,5 @@
 # 060 Hypebeast
 
-Hero slot: 060
-
 ## Card
 
 - Role family: Showboat

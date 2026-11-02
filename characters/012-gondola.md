@@ -1,7 +1,5 @@
 # 012 Gondola
 
-Hero slot: 012
-
 ## Card
 
 - Role family: Recluse

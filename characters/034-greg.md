@@ -1,7 +1,5 @@
 # 034 Greg
 
-Hero slot: 034
-
 ## Card
 
 - Role family: Recluse

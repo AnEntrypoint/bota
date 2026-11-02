@@ -1,7 +1,5 @@
 # 011 Coomer
 
-Hero slot: 011
-
 ## Card
 
 - Role family: Firebrand

@@ -1,7 +1,5 @@
 # 018 Slender
 
-Hero slot: 018
-
 ## Card
 
 - Role family: Phantom

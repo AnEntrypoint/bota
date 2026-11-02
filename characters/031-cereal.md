@@ -1,7 +1,5 @@
 # 031 Cereal
 
-Hero slot: 031
-
 ## Card
 
 - Role family: Heckler

@@ -1,7 +1,5 @@
 # 040 Dino
 
-Hero slot: 040
-
 ## Card
 
 - Role family: Bulwark

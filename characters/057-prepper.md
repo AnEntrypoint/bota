@@ -1,7 +1,5 @@
 # 057 Prepper
 
-Hero slot: 057
-
 ## Card
 
 - Role family: Bulwark

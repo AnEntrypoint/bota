@@ -1,7 +1,5 @@
 # 109 Sealcommando
 
-Hero slot: 109
-
 ## Card
 
 - Role family: Stalker

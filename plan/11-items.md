@@ -72,7 +72,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Gem of Subtext | Reveals invisible units and wards; drops on death | Reads between the lines. |
 | Vial of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |
-| Lurker Cam | Vision: the owner's team sees the reveal of invisible units and wards in the area; enemies earn no Clout. | Watching, not listing. |
+| Lurker Cam | Vision: the owner's team sees the reveal of invisible units and wards in the area; enemies earn no Clout. | Watching, not bidding. |
 | Spoiler Tag | True sight ward | Reveals what is hidden. Also what is coming. |
 | Dust of Receipts | Reveals invisible units in radius | The proof is in the dust. |
 | Smoke of Deniability | Invisibility cloud for allies | Nothing happened here. |

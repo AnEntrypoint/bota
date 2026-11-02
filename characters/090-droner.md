@@ -1,7 +1,5 @@
 # 090 Droner
 
-Hero slot: 090
-
 ## Card
 
 - Role family: Phantom

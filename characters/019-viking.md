@@ -1,7 +1,5 @@
 # 019 Viking
 
-Hero slot: 019
-
 ## Card
 
 - Role family: Herald

@@ -1,7 +1,5 @@
 # 105 Baconlover
 
-Hero slot: 105
-
 ## Card
 
 - Role family: Herald

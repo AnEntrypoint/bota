@@ -1,7 +1,5 @@
 # 053 Starwarskid
 
-Hero slot: 053
-
 ## Card
 
 - Role family: Leash

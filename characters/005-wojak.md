@@ -1,7 +1,5 @@
 # 005 Wojak
 
-Hero slot: 005
-
 ## Card
 
 - Role family: Recluse

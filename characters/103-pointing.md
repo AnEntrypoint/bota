@@ -1,7 +1,5 @@
 # 103 Pointing
 
-Hero slot: 103
-
 ## Card
 
 - Role family: Heckler

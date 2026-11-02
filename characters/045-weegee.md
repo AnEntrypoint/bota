@@ -1,7 +1,5 @@
 # 045 Weegee
 
-Hero slot: 045
-
 ## Card
 
 - Role family: Phantom

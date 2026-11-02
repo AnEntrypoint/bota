@@ -1,7 +1,5 @@
 # 004 Gigachad
 
-Hero slot: 004
-
 ## Card
 
 - Role family: Bulwark

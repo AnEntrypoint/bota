@@ -1,7 +1,5 @@
 # 020 Leeroy
 
-Hero slot: 020
-
 ## Card
 
 - Role family: Firebrand

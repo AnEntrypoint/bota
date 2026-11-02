@@ -1,7 +1,5 @@
 # 085 Laserbro
 
-Hero slot: 085
-
 ## Card
 
 - Role family: Engine

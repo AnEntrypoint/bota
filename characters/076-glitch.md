@@ -1,7 +1,5 @@
 # 076 Glitch
 
-Hero slot: 076
-
 ## Card
 
 - Role family: Phantom

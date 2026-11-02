@@ -1,7 +1,5 @@
 # 112 Scalper
 
-Hero slot: 112
-
 ## Card
 
 - Role family: Archivist

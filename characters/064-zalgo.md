@@ -1,7 +1,5 @@
 # 064 Zalgo
 
-Hero slot: 064
-
 ## Card
 
 - Role family: Drifter

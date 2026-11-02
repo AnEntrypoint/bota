@@ -1,7 +1,5 @@
 # 099 Keyboarder
 
-Hero slot: 099
-
 ## Card
 
 - Role family: Firebrand

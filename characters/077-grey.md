@@ -1,7 +1,5 @@
 # 077 Grey
 
-Hero slot: 077
-
 ## Card
 
 - Role family: Drifter

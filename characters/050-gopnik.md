@@ -1,7 +1,5 @@
 # 050 Gopnik
 
-Hero slot: 050
-
 ## Card
 
 - Role family: Firebrand

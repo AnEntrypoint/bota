@@ -1,7 +1,5 @@
 # 007 Doomer
 
-Hero slot: 007
-
 ## Card
 
 - Role family: Drifter

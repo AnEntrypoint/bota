@@ -1,7 +1,5 @@
 # 108 Snackvendor
 
-Hero slot: 108
-
 ## Card
 
 - Role family: Herald

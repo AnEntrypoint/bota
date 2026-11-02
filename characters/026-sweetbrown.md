@@ -1,7 +1,5 @@
 # 026 Sweetbrown
 
-Hero slot: 026
-
 ## Card
 
 - Role family: Drifter

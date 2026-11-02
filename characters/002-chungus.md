@@ -1,7 +1,5 @@
 # 002 Chungus
 
-Hero slot: 002
-
 ## Card
 
 - Role family: Bulwark

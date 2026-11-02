@@ -1,7 +1,5 @@
 # 075 Deepfried
 
-Hero slot: 075
-
 ## Card
 
 - Role family: Drifter

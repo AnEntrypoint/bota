@@ -1,7 +1,5 @@
 # 102 Disheartened
 
-Hero slot: 102
-
 ## Card
 
 - Role family: Recluse

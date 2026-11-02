@@ -1,7 +1,5 @@
 # 072 Brony
 
-Hero slot: 072
-
 ## Card
 
 - Role family: Phantom

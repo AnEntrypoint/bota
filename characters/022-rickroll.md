@@ -1,7 +1,5 @@
 # 022 Rickroll
 
-Hero slot: 022
-
 ## Card
 
 - Role family: Showboat

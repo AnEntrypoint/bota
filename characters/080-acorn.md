@@ -1,7 +1,5 @@
 # 080 Acorn
 
-Hero slot: 080
-
 ## Card
 
 - Role family: Stalker

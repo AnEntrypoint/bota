@@ -1,7 +1,5 @@
 # 098 Widemouth
 
-Hero slot: 098
-
 ## Card
 
 - Role family: Showboat

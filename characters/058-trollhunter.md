@@ -1,7 +1,5 @@
 # 058 Trollhunter
 
-Hero slot: 058
-
 ## Card
 
 - Role family: Bulwark

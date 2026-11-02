@@ -1,7 +1,5 @@
 # 049 Ecce
 
-Hero slot: 049
-
 ## Card
 
 - Role family: Archivist

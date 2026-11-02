@@ -1,7 +1,5 @@
 # 081 Mallarcher
 
-Hero slot: 081
-
 ## Card
 
 - Role family: Engine

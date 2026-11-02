@@ -1,7 +1,5 @@
 # 003 Chad
 
-Hero slot: 003
-
 ## Card
 
 - Role family: Showboat
@@ -17,4 +15,4 @@ impossibly sharp rectangular jawline, sculpted blonde pompadour, full golden chi
 
 ## Hook
 
-Freezes enemies with one glance at the jaw, and when he dies the pompadour returns perfectly sculpted four seconds later.
+Freezes enemies with one glance at the jaw, and for five seconds the pompadour disarms everyone in range.

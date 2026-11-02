@@ -1,7 +1,5 @@
 # 096 Lifehack
 
-Hero slot: 096
-
 ## Card
 
 - Role family: Engine

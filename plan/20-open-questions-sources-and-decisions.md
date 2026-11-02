@@ -18,7 +18,7 @@
 | 13 | Spectators never vote on play. | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source. The engine repo holds 875 (scenarios/moba/economy.osd); the plan keeps 600 until the balance pass sets it. |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc already gives 6, 11 and 16. | The plan is the design source |
-| 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |
+| 16 | The LIVE dot is #6A1FD1 with a white ring (GUESS). | Keeps it apart from Clout's #A35CFF |
 | 17 | Item costs in section 11 are the cost bands the roster uses, and only the balance pass changes them. | One place to change item costs |
 | 18 | Drain Blade: cost and lifesteal in plan/11. UNVERIFIED. | Its tier 3 entry had no row |
 | 19 | The formerly tag reads "formerly Guest" and shows only on the death recap or victory screen. No client storage. | Removes an invented name pool and new client state |

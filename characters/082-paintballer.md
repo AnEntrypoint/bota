@@ -1,7 +1,5 @@
 # 082 Paintballer
 
-Hero slot: 082
-
 ## Card
 
 - Role family: Stalker

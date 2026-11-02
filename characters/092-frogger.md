@@ -1,7 +1,5 @@
 # 092 Frogger
 
-Hero slot: 092
-
 ## Card
 
 - Role family: Showboat

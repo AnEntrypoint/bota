@@ -67,4 +67,4 @@ Lane preference by archetype. This is guidance for the draft UI, not a restricti
 
 ### Pick screen
 
-The pick screen is titled "Draft your content plan." It shows the archetype role icon on every hero, and the Trend modifier for its 4 min once it is known.
+The pick screen is titled "Draft your content plan." It shows the archetype role icon on every hero, and the Trend modifier for its 4 min once the Trend kill picks it (plan/12).

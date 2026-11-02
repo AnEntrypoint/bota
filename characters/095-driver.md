@@ -1,7 +1,5 @@
 # 095 Driver
 
-Hero slot: 095
-
 ## Card
 
 - Role family: Engine

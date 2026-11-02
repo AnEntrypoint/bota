@@ -1,7 +1,5 @@
 # 030 Rageguy
 
-Hero slot: 030
-
 ## Card
 
 - Role family: Firebrand

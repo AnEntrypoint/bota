@@ -18,7 +18,7 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 
 Stacking:
 
-- A camp respawns on the minute if its spawn box is empty.
+- A camp respawns on the minute if no unit of the camp is alive in its spawn box, the rectangle the camp spawns into.
 - Pulling a camp out at about :53 to :55 stacks an extra camp for the next minute.
 - Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising 20 per tier (UNVERIFIED under decision 21; the balance pass sets the step; section 19 budgets cover heroes, not neutrals).
 - Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.

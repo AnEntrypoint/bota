@@ -1,7 +1,5 @@
 # 089 Ghillie
 
-Hero slot: 089
-
 ## Card
 
 - Role family: Stalker

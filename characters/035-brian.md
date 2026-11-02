@@ -1,7 +1,5 @@
 # 035 Brian
 
-Hero slot: 035
-
 ## Card
 
 - Role family: Archivist

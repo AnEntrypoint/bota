@@ -1,7 +1,5 @@
 # 016 Harold
 
-Hero slot: 016
-
 ## Card
 
 - Role family: Archivist

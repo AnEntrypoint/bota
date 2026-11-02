@@ -1,7 +1,5 @@
 # 055 Shoop
 
-Hero slot: 055
-
 ## Card
 
 - Role family: Drifter

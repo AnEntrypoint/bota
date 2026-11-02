@@ -1,7 +1,5 @@
 # 052 Vapebro
 
-Hero slot: 052
-
 ## Card
 
 - Role family: Drifter

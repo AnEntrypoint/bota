@@ -1,7 +1,5 @@
 # 009 Tradwife
 
-Hero slot: 009
-
 ## Card
 
 - Role family: Herald

@@ -1,7 +1,5 @@
 # 067 Derp
 
-Hero slot: 067
-
 ## Card
 
 - Role family: Recluse

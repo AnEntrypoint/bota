@@ -1,7 +1,5 @@
 # 051 Mallcop
 
-Hero slot: 051
-
 ## Card
 
 - Role family: Bulwark

@@ -1,7 +1,5 @@
 # 043 Jack
 
-Hero slot: 043
-
 ## Card
 
 - Role family: Stalker

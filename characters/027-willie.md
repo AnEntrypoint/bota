@@ -1,7 +1,5 @@
 # 027 Willie
 
-Hero slot: 027
-
 ## Card
 
 - Role family: Engine

@@ -1,7 +1,5 @@
 # 061 Florida
 
-Hero slot: 061
-
 ## Card
 
 - Role family: Firebrand

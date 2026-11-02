@@ -1,7 +1,5 @@
 # 071 Hipster
 
-Hero slot: 071
-
 ## Card
 
 - Role family: Herald

@@ -97,24 +97,7 @@ Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing f
 
 ## 3. Smallest first-playable slice: data files
 
-The slice is file 26, which lists its contents. Row counts are what the slice needs.
-
-| File | Rows | Compiles to | Note |
-| --- | --- | --- | --- |
-| `manifest.json` | 1 | pack root | modules, image name, tables, rules file |
-| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Chudjak, Disaster, Waffle, Ghillie |
-| `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
-| `items.tsv` | 7 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note (Sticky Note and Ring Light build Lurker Cam; Drafted Note and Sticky Note build Spoiler Tag). Rebrand is an action, not an item (section 5). |
-| `modifiers.tsv` | 2 | Lua rule | Cast Rush and Learn to Code |
-| `rules.tsv` | about 30 | rules file | Clout: Hyped at 100, 20 s, 25 after, cap 200, decay. Reach: 300 base, plus 3 per Clout, cap 600. Stan: +20% damage, +2 armor. Resell: cap 5, +8%, radius 600, 4 s decay. Markdown: 50%. |
-| `moods.tsv` | 3 | Lua | Front Runner, Underdog and Even (file 06) |
-| `events.tsv` | 1 | Lua | Breaking News zone rules (file 12) |
-| `camps.tsv` | 2 | `spawn(...)` | one stage camp per side (file 26) |
-| `draft_order.tsv` | 1 mode | lobby | fixed pick order for the slice |
-| `lines.tsv` | about 12 | UI JSON and Lua | kill, Markdown, Clout 100 and Rebrand lines (file 16) |
-| map | 1 | `map.osd` and `routes.osd` | Short Form (file 14): two lanes per side, river, both bases |
-
-Code the slice also needs, which is not data: the Clout state machine, Reach, Markdown on death with the 200 cap, Resell, Stan, the mood check, the Breaking News capture rule, and Rebrand. All of it is Lua hooks under the 2,500-step budget per call (docs/MODDING.md).
+The slice contents and its data-file row counts are in plan/26, under Engine data files.
 
 ## 4. Which plan numbers can be checked against 6.88g today
 

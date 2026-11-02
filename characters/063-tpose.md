@@ -1,7 +1,5 @@
 # 063 Tpose
 
-Hero slot: 063
-
 ## Card
 
 - Role family: Phantom

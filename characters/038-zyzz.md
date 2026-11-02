@@ -1,7 +1,5 @@
 # 038 Zyzz
 
-Hero slot: 038
-
 ## Card
 
 - Role family: Showboat

@@ -1,7 +1,5 @@
 # 028 Chudjak
 
-Hero slot: 028
-
 ## Card
 
 - Role family: Bulwark

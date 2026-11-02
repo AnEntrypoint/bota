@@ -50,7 +50,7 @@ const heroes = readdirSync(dir).filter(n => /^\d{3}-.+\.md$/.test(n)).sort().map
   const text = readFileSync(join(dir, file), "utf8");
   const slot = file.slice(0, 3);
   const title = text.split("\n")[0].match(/^# (\d{3}) (.+)$/);
-  const reserve = /^Hero slot: reserve$/m.test(text);
+  const reserve = /^- Status: reserve\./m.test(text);
   const s = sections(text);
   const hero = {
     file,
@@ -106,8 +106,6 @@ const card = h => {
 
 const renderHero = h => [
   `# ${h.slot} ${h.name}`,
-  "",
-  `Hero slot: ${h.reserve ? "reserve" : h.slot}`,
   "",
   "## Card",
   "",

@@ -1,7 +1,5 @@
 # 015 Kyle
 
-Hero slot: 015
-
 ## Card
 
 - Role family: Firebrand

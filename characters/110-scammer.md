@@ -1,7 +1,5 @@
 # 110 Scammer
 
-Hero slot: 110
-
 ## Card
 
 - Role family: Leash

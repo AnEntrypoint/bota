@@ -1,7 +1,5 @@
 # 047 Tricky
 
-Hero slot: 047
-
 ## Card
 
 - Role family: Bulwark

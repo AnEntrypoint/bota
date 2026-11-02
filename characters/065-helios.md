@@ -1,7 +1,5 @@
 # 065 Helios
 
-Hero slot: 065
-
 ## Card
 
 - Role family: Phantom

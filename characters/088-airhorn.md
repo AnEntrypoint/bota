@@ -1,7 +1,5 @@
 # 088 Airhorn
 
-Hero slot: 088
-
 ## Card
 
 - Role family: Heckler

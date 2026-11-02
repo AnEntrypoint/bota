@@ -1,7 +1,5 @@
 # 106 Gothgirl
 
-Hero slot: 106
-
 ## Card
 
 - Role family: Recluse

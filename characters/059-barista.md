@@ -1,7 +1,5 @@
 # 059 Barista
 
-Hero slot: 059
-
 ## Card
 
 - Role family: Herald

@@ -1,7 +1,5 @@
 # 039 Noscope
 
-Hero slot: 039
-
 ## Card
 
 - Role family: Stalker

@@ -1,7 +1,5 @@
 # 048 Peanut
 
-Hero slot: 048
-
 ## Card
 
 - Role family: Recluse

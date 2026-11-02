@@ -1,7 +1,5 @@
 # 084 Spudgunner
 
-Hero slot: 084
-
 ## Card
 
 - Role family: Drifter

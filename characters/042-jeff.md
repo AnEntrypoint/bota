@@ -1,7 +1,5 @@
 # 042 Jeff
 
-Hero slot: 042
-
 ## Card
 
 - Role family: Stalker

@@ -1,7 +1,5 @@
 # 023 Saxguy
 
-Hero slot: 023
-
 ## Card
 
 - Role family: Showboat

@@ -1,7 +1,5 @@
 # 056 Kazoo
 
-Hero slot: 056
-
 ## Card
 
 - Role family: Showboat

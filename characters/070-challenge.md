@@ -1,7 +1,5 @@
 # 070 Challenge
 
-Hero slot: 070
-
 ## Card
 
 - Role family: Leash

@@ -1,7 +1,5 @@
 # 097 Uber
 
-Hero slot: 097
-
 ## Card
 
 - Role family: Engine

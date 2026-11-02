@@ -1,7 +1,5 @@
 # 068 Forever
 
-Hero slot: 068
-
 ## Card
 
 - Role family: Recluse

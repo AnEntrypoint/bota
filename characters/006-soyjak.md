@@ -1,7 +1,5 @@
 # 006 Soyjak
 
-Hero slot: 006
-
 ## Card
 
 - Role family: Herald

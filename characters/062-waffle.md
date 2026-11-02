@@ -1,7 +1,5 @@
 # 062 Waffle
 
-Hero slot: 062
-
 ## Card
 
 - Role family: Bulwark

@@ -1,7 +1,5 @@
 # 041 Fuuuu
 
-Hero slot: 041
-
 ## Card
 
 - Role family: Recluse

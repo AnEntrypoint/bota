@@ -1,7 +1,5 @@
 # 107 Smugcat
 
-Hero slot: 107
-
 ## Card
 
 - Role family: Showboat
