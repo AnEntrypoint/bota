@@ -101,7 +101,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Trend banner | Slides from top, 2 s |
 | Go Private | Padlock decal, 5 s ring timer, blinds |
 | Snapshot revive | 3 s rewind clip. Corner brackets snap in. Soft white fade. |
-| Rebrand record | Formerly tag on the death recap or victory screen, static |
+| Rebrand record | Formerly tag, static; behaviour in plan/23 |
 
 ### Audio
 

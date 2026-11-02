@@ -84,6 +84,6 @@ Targets for the first simulated and played matches. These are thresholds to test
 | Trend modifiers (8, 2 offered per kill) | Win rate of the team that picks each modifier | 45 to 55% for every modifier, with at least 200 matches each (plan/26 C1) |
 | Every modifier in the plan/12 table (eight) | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
 | Sweat Mode boost (Later: deferred by plan/26, not measured in the first playable) | Share of teamfights opened within 10 s of pickup, where a teamfight opens at the first hero-on-hero damage | Under 40% |
-| Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |
+| Loaded gags | Players who mute chat in the first 10 minutes | Check C9 in plan/26. Tracked per patch. |
 | Renamed abilities | Hero win rate before and after the rename pass | Check C8 in plan/26. A rename never changes a number. |
 | Breaking News capture rate | Captures per event | Check C10 in plan/26. |

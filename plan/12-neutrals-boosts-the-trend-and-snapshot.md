@@ -20,7 +20,7 @@ Stacking:
 
 - A camp respawns on the minute if its spawn box is empty.
 - Pulling a camp out at about :53 to :55 stacks an extra camp for the next minute.
-- Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising 20 per tier (GUESS: no 6.88g source is checked; the balance pass sets the step; section 19 budgets cover heroes, not neutrals).
+- Camp stat budgets: Small 300 HP, Medium 550, Hard 950, Elder 1,600, with damage rising 20 per tier (UNVERIFIED under decision 21; the balance pass sets the step; section 19 budgets cover heroes, not neutrals).
 - Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.
 - Stage camps: the camps beside the river's shallow crossings. A pull made while an enemy hero can see the camp gives +1 Clout per creature killed. Unwatched pulls give normal gold only.
 

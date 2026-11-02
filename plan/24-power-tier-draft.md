@@ -137,20 +137,22 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 3. Test first
 
+Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), unless a line gives its own bound.
+
 1. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use. Pass: aura damage over a 10-minute fight stays within 25% of the archetype average (UNVERIFIED).
 2. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
 3. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
 4. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
-5. Edgelord (100): Karambit Swipes stacks with no cap stated. Measure stacks at fight end and damage per stack. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
+5. Edgelord (100): Karambit Swipes stacks with no cap stated. Measure stacks at fight end and damage per stack. Pass: the stack bound above holds.
 6. Oiler (093): Yoga Stack with no cap stated. Measure armor at fight end against damage taken. Pass: armor at fight end stays within 10 of the archetype average (UNVERIFIED).
-7. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: the global choice's win rate stays within 5 points of the local one (UNVERIFIED).
+7. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: over at least 200 matches per choice (UNVERIFIED), the global choice's win rate stays within 5 points of the local one.
 8. Airhorn (088): talent grows Escalating Blare per cast with no cap stated. Measure the damage multiplier after repeated casts in one fight. Pass: the damage multiplier after 5 casts stays at or below 2× (UNVERIFIED).
 9. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
-10. Soyjak (006): sleep has no timer and damage wakes it. Measure the longest sleep on a target that takes no damage. Pass: the longest undamaged sleep stays at or below 3 s (UNVERIFIED).
-11. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
-12. Numa (024): ult silences and damages until the target dies, with no timer. Measure the longest silence on a target that survives. Pass: the longest silence on a surviving target stays at or below 3 s (UNVERIFIED).
-13. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the longest transform stays at or below 3 s (UNVERIFIED).
+10. Soyjak (006): sleep has no timer and damage wakes it. Measure the longest sleep on a target that takes no damage. Pass: the timer bound above holds.
+11. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
+12. Numa (024): measure the longest silence on a target that survives. Pass: the timer bound above holds.
+13. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.
 14. Kazoo (056): area sleep has no timer. Measure the longest area sleep on a target that takes no damage. Pass: the longest area sleep stays at or below 3 s (UNVERIFIED).
 15. Critic (078): polymorph has no timer. Measure the longest polymorph. Pass: the longest polymorph stays at or below 3 s (UNVERIFIED).
 16. Snackvendor (108): Tournament Curse charms with no stated timer. Measure the longest charm and the DoT total per charm. Pass: the longest charm stays at or below 3 s (UNVERIFIED).
-17. Spudgunner (084): talent stacks Pressure Gauge Reply with no cap stated. Measure stacks at fight end and the damage they add. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
+17. Spudgunner (084): talent stacks Pressure Gauge Reply with no cap stated. Measure stacks at fight end and the damage they add. Pass: the stack bound above holds.

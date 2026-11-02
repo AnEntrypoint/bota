@@ -26,7 +26,7 @@ Each team has a primary and a secondary jungle.
 | Jungle | Camps | Stack rule |
 | --- | --- | --- |
 | Primary | 2 hard, 2 medium, 1 small | Pulled camps respawn on the minute |
-| Secondary | 1 hard, 1 elder | Elders are magic-resistant, not spell-immune (see section 12) |
+| Secondary | 1 hard, 1 elder | Elders: see section 12 |
 | Near Back Alley Shop | 1 hard | Guards the Back Alley Shop approach |
 
 Jungle creature names are in section 12.
