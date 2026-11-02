@@ -49,6 +49,7 @@
 | 44 | Open Market is the casual mode with no bans. Players pick in seat order, one at a time, and a later seat picks from the heroes the earlier seats left (UNVERIFIED). | Gives the free pick a cost on each side (plan/02 rule 2), as decision 33 requires of every draft. |
 | 45 | The chat wheel is cut. Its phrases stay as announcer lines only. | It has no classic job (plan/02 rule 3), as with spectator reactions in decision 28. |
 | 46 | Engine values that differ from a plan number stay in the plan as design values, and the difference is logged in plan/25 section 4 (passive gold, buyback cooldown, assist radius). | The plan is the design source (decision 14); the balance pass chooses between the values with both on record. |
+| 47 | plan/02 gains five classic-job rows: Reflect, Durability, Cooldown reset, Mode switch and Illusion. The five items the parity map had labelled GUESS now hold these rows. Their numbers are UNVERIFIED. | Rule 3 needs a real job for every system; the nearest-row stand-ins were not real jobs. Illusion is a real job, so Sponsored Style stays, unlike Decoy Lots (decision 26). |
 
 ### Open questions
 

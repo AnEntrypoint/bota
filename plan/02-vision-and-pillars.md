@@ -38,3 +38,8 @@ Four rules every system must pass:
 | Respawn | Rebrand: costs gold, resets Clout to 0 | Respawn now with no Clout, or wait with Clout intact |
 | Death | Markdown: the victim loses half its Clout, and the killer and assists share it | Fight close to share the Clout, or hold back and keep yours |
 | Support tether | Tethered support, dueler tether: gains 20% of a tethered ally's Clout gains while within 600 range; the ally's Clout is unchanged (UNVERIFIED) | Stan the carry for safety, or the roamer for pressure |
+| Reflect | Reflect passive: returns a quarter of each hit to its attacker, at most once per hit (decision 38, UNVERIFIED) | Trade the hit for the return, or dodge the hit and keep the return |
+| Durability | Large HP pool; nearby allies gain 5% less Clout (UNVERIFIED) | Spend the slot on HP and pay the Clout tax, or spend it on damage |
+| Cooldown reset | Refresh Page: resets all cooldowns | Hold it for the fight that needs it, or use it early and reset twice |
+| Mode switch | Sleep Mode: toggles attribute and movement | Switch to the mode the fight needs, and lose both modes during the switch |
+| Illusion | Sponsored Style: creates illusions that copy the hero | Spend the slot on a copy, or on damage |
