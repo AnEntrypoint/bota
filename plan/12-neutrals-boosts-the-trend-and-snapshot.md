@@ -9,7 +9,7 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 | --- | --- | --- |
 | Background NPCs | Small | Repeat one voice line. Grey, not a team colour. |
 | Spam | Small | Fast, low HP |
-| Shill | Medium | Casts a slowing aura |
+| Scoffer | Medium | Casts a slowing aura |
 | Troll-Bridge | Hard | Blocks a bridge crossing until killed |
 | Old Forum Ticker | Elder | Long-lived creature, magic-resistant |
 | Static Imp, Ticker Sprite, Bio Bot | Small | Camp stat budgets under Stacking |

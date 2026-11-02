@@ -92,9 +92,9 @@ Rules for the roster columns:
 | 060 | Hypebeast | Showboat | Str | Melee | Stacks shoeboxes into a line spike, brainwashes a creep with platform sneakers, and strikes unseen. |
 | 061 | Florida | Firebrand | Agi | Melee | Swings a live alligator like a club to stun, and double-casts every spell under a backward trucker cap. |
 | 062 | Waffle | Bulwark | Int | Melee | Holds a diner tray as a buckler, shrugging off debuffs and healing the table with a sorry-not-sorry burst. |
-| 063 | Tpose | Phantom | Int | Melee | Floats two inches off the floor in a rigid T-pose, delaying incoming hits until the render catches up. |
+| 063 | Tpose | Phantom | Int | Melee | Floats two inches off the floor in a T-pose, delaying incoming hits until the render catches up. |
 | 064 | Zalgo | Drifter | Str | Ranged | Levitates as corrupted characters, caging enemies in glyphs and hitting harder the more sigma they hold. |
-| 065 | Helios | Phantom | Str | Ranged | Marble bust that teleports onto its own pedestal and vanishes behind mirrored shades while throwing daggers. |
+| 065 | Helios | Phantom | Str | Ranged | Marble bust that drifts onto its own pedestal and vanishes behind mirrored shades while throwing daggers. |
 | 066 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies, so enemies cannot tell which idle stance is the real one. |
 | 067 | Derp | Recluse | Int | Melee | Stumbles in cross-eyed dives, then pops back up from death, potato head first. |
 | 068 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |

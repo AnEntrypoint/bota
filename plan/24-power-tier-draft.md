@@ -80,8 +80,8 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 061 | Florida | Firebrand | - | Stun and damage blast, burn, ally attack speed; ult casts spells twice. |
 | 062 | Waffle | Bulwark | - | Ult briefly makes allies invulnerable; area damage, debuff immunity, heal. |
 | 063 | Tpose | Phantom | - | Delayed damage, heal-and-damage, damage block; ult damage and stun. |
-| 064 | Zalgo | Drifter | - | Projectile gains damage, hold, sigma regen aura; ult scales with enemy sigma. |
-| 065 | Helios | Phantom | - | Teleport and evasion-stealth escapes; slow dagger; ult crit chance. |
+| 064 | Zalgo | Drifter | - | Projectile gains damage, slow, sigma regen aura; ult scales with enemy sigma. |
+| 065 | Helios | Phantom | - | Drift and evasion-stealth escapes; slow dagger; ult crit chance. |
 | 066 | Npc | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
 | 067 | Derp | Recluse | - | Ult revives on death; burn dash, damage orbs, channeled ally heal. |
 | 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |

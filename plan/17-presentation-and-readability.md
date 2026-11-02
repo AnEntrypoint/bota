@@ -13,7 +13,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 | Status icon | 64 × 64 | 18 px | Single glyph in system color with 2 px dark outline |
 | Kill streak readout | Number on the hero's Clout bar | 16 px | Shows the streak count from three kills (UNVERIFIED) |
 | Gold readout | Reliable and unreliable gold as two counts on the top bar | 16 px | Both counts read at once, with no text (UNVERIFIED) |
-| Minimap hero icon | 32 × 32 (64 master) | 16 px | Head-only caricature reads as a solid silhouette (blind test: at least 4 of 5 testers name it, UNVERIFIED) |
+| Minimap hero icon | 32 × 32 (64 master) | 16 px | Head-only caricature reads as a solid silhouette (blind test: at least 4 of 5 observers name it, UNVERIFIED) |
 | Hero model | Gameplay zoom, 60 to 90 px tall |  | Silhouette identifies hero and facing, 90% or better in a blind test of 10 testers (UNVERIFIED) |
 | Value groups |  |  | At least 3 per hero. Head and prop at least 30% relative-luminance delta from body, read from the grayscale capture (UNVERIFIED). |
 | UI text contrast |  |  | 4.5:1 or better on HUD panels |
@@ -51,7 +51,7 @@ Rules:
 
 ### UI
 
-- Top bar: Clout bar. Abbreviated 1.2K, exact on hover.
+- Top bar: Clout bar, shown as plan/06 sets out.
 - Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Clout and Reach (plan/06).
 - Tooltips: mechanical text first, italic flavor second. 14 px minimum.
 - Cursor: four states (default, attack, ability target, invalid). 32 × 32.

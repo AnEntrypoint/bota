@@ -72,7 +72,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Melee, ranged, siege, two teams | 6 | Allies rounded hood. Enemies angular hood. |
 | Stan-buffed overlays | 6 | Raised sign and orange trim |
 | Mega creeps | 6 | +25% scale, gold trim, original seal emblem |
-| Jungle camp creatures | 12 | NPCs, Spam, Shill, Troll-Bridge, Old Forum Ticker, and others |
+| Jungle camp creatures | 12 | NPCs, Spam, Scoffer, Troll-Bridge, Old Forum Ticker, and others |
 | Creep animations | 180 | Six per model: idle, walk, attack, death, Stan cheer, spawn |
 
 ### Interface
@@ -87,7 +87,6 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Loading screen | 1 template, 24 dioramas | Caption from gag 01 (plan/16) |
 | Victory and defeat | 2 | Victory. Stall sold. / Defeat. Stall closed. |
 | Shop | 1 | The Plug |
-| Chat wheel | 1 wheel, 21 phrases | Seen. / Listing this. / Muted, respectfully. / Ward the river pls. / We're so back. / It's so over. / Chat, is this real? / Cope. / F. / Bruh. / Sus. / Let him cook. / Cooked. / Touch grass. / Skill issue. / Seethe. / Cry about it. / L + markdown. / Mald. / No cap. / Ok boomer. |
 | Settings | 1 | Reduced motion, flash limiter, colorblind presets, subtitle size and background |
 | Tooltips | About 600 | Order and size in plan/17. |
 | Announcer strings | About 70 | Section 16 |
@@ -117,4 +116,4 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 ### Totals (launch)
 
-Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 35 screen and element units, including 24 loading dioramas, and about 700 strings. Audio, non-voice 103. No music in the game. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.
+Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 34 screen and element units, including 24 loading dioramas, and about 700 strings. Audio, non-voice 103. No music in the game. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.

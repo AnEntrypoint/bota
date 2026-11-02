@@ -1,5 +1,4 @@
 # 21. Systems added back
-Each system below has rules and numbers.
 
 ### Talent trees
 
@@ -123,7 +122,7 @@ Numbers in this section are UNVERIFIED.
 
 - Job: sustain (plan/02, Sustain row). The cost is the Trend kill it waits for.
 - Drop rule: plan/12, The Trend (Reward row).
-- Coffee cannot be sold. Chug it to restore 2,500 HP and 1,000 sigma over 4 s. One can per drop.
+- Coffee cannot be sold. Chug it to restore 700 HP and 300 sigma over 4 s (GUESS: one tier 1 hero's full pool, plan/19). One can per drop.
 
 ### Signature mechanics
 
@@ -159,7 +158,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 A season is one patch. Each season rotates three things and changes no numbers:
 
 - The Trend modifier pool (section 12).
-- The phrase pool for the announcer and chat wheel (sections 16 and 18).
+- The phrase pool for the announcer (sections 16 and 18).
 - The cosmetic skin theme: costumes, plinths and the Trend banner.
 
 Numbers change only in the balance pass.

@@ -40,7 +40,7 @@ Notes:
 | Waffle [062] | Bulwark | Pillbox Apology: the pillbox cap heals allies and damages enemies in a sorry-not-sorry burst (GUESS) | Tray Dismiss: immunity to selected debuffs; the tray knocks them off (GUESS) | Buckler Pin: the food tray is held as a buckler, damaging enemies in an area (GUESS) | Diner Samples: allies invulnerable for 1 s, a regular's tip for the table (GUESS) |
 | Frogger [092] | Showboat | Flying Cap Warning: ear flaps flap to slow and damage (GUESS) | Handlebar Appeal: damage reduction on cooldown; the imaginary handlebars block hits (GUESS) | Frog Strike: mid-air crouching leap lands for area damage (GUESS) | Helmet Lockdown: white goggles lock on for a delayed area stun (GUESS) |
 | Airhorn [088] | Heckler | Airhorn Blast: the brass canisters blast a stun and damage (GUESS) | Canister Remove: each attack empties a canister in a cleave (GUESS) | Pinstripe Jacket Pitch: sponsor-stripe armor and speed for allies (GUESS) | Escalating Blare: damage increase; each stun Airhorn Blast applies adds to the blare (GUESS) |
-| Helios [065] | Phantom | Marble Dagger: a marble dagger thrown from the floating bust slows and damages (GUESS) | Pedestal Rephrase: the bust floats to a target and teleports onto its pedestal (GUESS) | Mirror Shade Mode: mirrored sunglasses give evasion and stealth (GUESS) | Sun Lot: chance for critical damage in a neon-sun flash (GUESS) |
+| Helios [065] | Phantom | Marble Dagger: a marble dagger thrown from the floating bust slows and damages (GUESS) | Pedestal Rephrase: the bust floats to a target and drifts onto its pedestal (GUESS) | Mirror Shade Mode: mirrored sunglasses give evasion and stealth (GUESS) | Sun Lot: chance for critical damage in a neon-sun flash (GUESS) |
 | Starwarskid [053] | Leash | Golf Pole Root: the hollow golf-ball pole roots an area (GUESS) | Mid-Spin Clone: a furrowed-brow clone; he teleports to it (GUESS) | Furrowed Puppet: a furrowed-brow puppet damages and slows (GUESS) | Alt Spin Squad: clones fight on their own, spinning in with the same focus (GUESS) |
 | Chudjak [028] | Bulwark | Manifesto Slam: the rolled manifesto clubs a line of damage and stun (GUESS) | Olive Totem: the olive surplus jacket empowers attacks (GUESS) | Buzzcut Follow: a stun and damage around the hero with a severe scowl (GUESS) | Surplus Echo: surplus rage scales damage with nearby enemies (GUESS) |
 | Wojak [005] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
@@ -61,7 +61,7 @@ Notes:
 
 No hook is led by Forever [068] or Lifehack [096]; each may still be the partner named in another hero's hook.
 
-- Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3).
+- Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3 keeps orb effects from stacking, and this extends it to armor cuts).
 - Spudgunner [084] with Greg [034]: Polo Flak victims stay inside the Ear Muff Span attack range (GUESS).
 - Tinfoil [073] with Glitch [076]: Foil Mention exposes the target to Chromatic Hold (GUESS).
 - Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
@@ -83,4 +83,4 @@ No hook is led by Forever [068] or Lifehack [096]; each may still be the partner
 ### Requests
 
 - A cross-hero unit-counter read that does not need Lua per hook (GUESS): several hooks above read another hero's stack; a shared stack channel would make them plain data.
-- An armor-cut stack rule that caps combined armor cuts (GUESS): Orb Vibes and Smug Citation stack to a combined armour cut of 4 (GUESS, no 6.88g source); no further limit in the current kit.
+- An armor-cut stack rule that caps combined armor cuts (GUESS): Orb Vibes and Smug Citation would stack to a combined armor cut of 4 instead of the larger applying (GUESS, no 6.88g source).

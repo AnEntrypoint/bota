@@ -47,6 +47,7 @@
 | 42 | GUESS marks a value, name or slot choice with no source in 6.88g, the repo or the web, and its row gives the reason. UNVERIFIED marks a value that has a source not yet checked. | Keeps a design guess apart from a source-backed value that is not checked yet. |
 | 43 | The spike is named Hype Spike and the state is named Hyped. Crypto terms stay out of shipped text. | Owner: crypto is lame; the spike and the state keep their mechanics. |
 | 44 | Open Market is the casual mode with no bans. Players pick in seat order, one at a time, and a later seat picks from the heroes the earlier seats left (UNVERIFIED). | Gives the free pick a cost on each side (plan/02 rule 2), as decision 33 requires of every draft. |
+| 45 | The chat wheel is cut. Its phrases stay as announcer lines only. | It has no classic job (plan/02 rule 3), as with spectator reactions in decision 28. |
 
 ### Open questions
 

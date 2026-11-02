@@ -17,4 +17,4 @@ floating classical Roman marble bust, iridescent mirrored sunglasses, wireframe 
 
 ## Hook
 
-Marble bust that teleports onto its own pedestal and vanishes behind mirrored shades while throwing daggers.
+Marble bust that drifts onto its own pedestal and vanishes behind mirrored shades while throwing daggers.
