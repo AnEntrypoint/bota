@@ -68,4 +68,3 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
 | C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Clout effects that change damage or armour directly; the Stan buff is Reach and out of scope | Zero |
 
-C11 checks the Clout-only rule (decision 9 in section 20) by reading the effect text of every Clout effect; it is a reading check, not a runtime check.

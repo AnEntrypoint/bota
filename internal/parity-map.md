@@ -592,20 +592,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 - Sigma Wanderer = Noscope. Free Range = Karen. Small Creator = Driver. Gadget Guy = Bathwater.
 - Ent Camouflage = Bark Camouflage (Lifehack A1). Renamed because the earlier name came from a franchise.
 
-## Aesthetic refs moved from shipped character files
-
-These URLs cite named creators, brands or franchise characters. They stay internal so the shipped character files do not carry them.
-
-| Hero | URL |
-| --- | --- |
-| Zyzz | https://knowyourmeme.com/memes/zyzz |
-| Crossfit | https://knowyourmeme.com/memes/crossfit |
-| Starwarskid | https://knowyourmeme.com/memes/star-wars-kid |
-| Rickroll | https://knowyourmeme.com/memes/rickroll |
-| Frogger | https://knowyourmeme.com/memes/crazy-frog |
-| Uber | https://knowyourmeme.com/memes/uber |
-
-
 ## Former draft hero names
 
 | Slot | Hero | Former name |
@@ -848,3 +834,9 @@ These URLs cite named creators, brands or franchise characters. They stay intern
 | 115-seeder | https://knowyourmeme.com/memes/sites/the-pirate-bay |
 | 116-wartrucker | https://knowyourmeme.com/memes/truck-driver-freakout |
 | 117-bouncer | https://knowyourmeme.com/memes/bouncer |
+| 038-zyzz | https://knowyourmeme.com/memes/zyzz |
+| 079-crossfit | https://knowyourmeme.com/memes/crossfit |
+| 053-starwarskid | https://knowyourmeme.com/memes/star-wars-kid |
+| 022-rickroll | https://knowyourmeme.com/memes/rickroll |
+| 092-frogger | https://knowyourmeme.com/memes/crazy-frog |
+| 097-uber | https://knowyourmeme.com/memes/uber |

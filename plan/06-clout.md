@@ -17,6 +17,7 @@ Numbers in this section are UNVERIFIED.
 | Stage camp creature | +1 | While an enemy hero sees the camp |
 | Enemy ward | 0 | Reveals the warded area, earns nothing |
 | Any action unseen | 0 | Gold and XP still earned |
+| Item aura, nearby allies | −5% of their Clout gain | Nearby allies of the item holder (UNVERIFIED) |
 
 ### Clout rules
 
@@ -46,7 +47,7 @@ Each hero is in one of four states at any time. The state sets what the rest of 
 1. **Quiet.** Below 100 Clout and no enemy vision. Earns gold and XP only.
 2. **LIVE.** An enemy hero has the hero in vision. The violet LIVE dot shows on the portrait. Clout is earned.
 3. **Hyped.** At 100 Clout. Hype Spike is active for 20 s. The hero is revealed on the global minimap. Above 100 Clout, Reach keeps growing at 3 per Clout (the Reach radius row).
-4. **Marked down.** Death. The victim loses 50% of Clout. The killer takes half of that and assists split the rest (Clout rules). The hero returns to Quiet at spawn. When states overlap, Marked down wins, then Hyped, then LIVE, then Quiet.
+4. **Marked down.** Death. The victim loses 50% of Clout. The hero returns to Quiet at spawn. When states overlap, Marked down wins, then Hyped, then LIVE, then Quiet.
 
 - Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the global reveal that a Hyped hero gives up for 20 s.
 

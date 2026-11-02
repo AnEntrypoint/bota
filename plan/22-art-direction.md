@@ -120,7 +120,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 102 | Disheartened (P4) | Recluse | Crumpled receipt, half out of a pocket | Moss, charcoal | M / L / D |
 | 103 | Pointing (P4) | Heckler | Yellow yardstick held across the chest | Mustard, blue | M / L / D |
 | 104 | Krazed (P5) | Firebrand | Cracked beige CRT monitor held overhead | Ember, charcoal | M / L / D |
-| 105 | Baconlover (P3) | Herald | Cast-iron skillet of sizzling bacon | Soft cyan, warm | M / L / D |
+| 105 | Baconlover (P3) | Herald | Bundle of sizzling bacon strips | Soft cyan, warm | M / L / D |
 | 106 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |
 | 107 | Smugcat (P5) | Showboat | White porcelain plate of green salad | Peach, white | M / L / D |
 | 108 | Snackvendor (P4) | Herald | Armful of chip bags and soda bottles | Soft cyan, neon green | M / L / D |
