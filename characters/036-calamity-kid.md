@@ -1,4 +1,4 @@
-# 036 Disaster
+# 036 Calamity Kid
 
 ## Card
 

@@ -1,4 +1,4 @@
-# 045 Weegee
+# 045 Flash Pappy
 
 ## Card
 

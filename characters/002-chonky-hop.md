@@ -1,4 +1,4 @@
-# 002 Chungus
+# 002 Chonky Hop
 
 ## Card
 

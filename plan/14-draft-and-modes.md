@@ -12,7 +12,7 @@ The draft is the first decision of the match. It sets the hero pool, the lane pl
 | Demand Draft | Casual | Heroes drawn from a 50-hero pool (UNVERIFIED). |
 | Shuffle Draft | Casual | Each player picks from a random 10-hero set (UNVERIFIED). |
 | Ranked Open Market | Ranked | Each player nominates a hero, then half the nominated heroes are banned at random. Then the remaining heroes are picked in turn (order UNVERIFIED); a banned nominee is lost to its nominator, so nominating costs a pick. |
-| Short Form | Casual or ranked, 25 minute target | Two lanes per side, mid removed. Trend opens at 5:00. Exchange falls once both enemy T2s, one in each lane, are down. Surrender vote at 15 min, overriding the 30 min rule in section 2 (UNVERIFIED). |
+| Short Form | Casual or ranked, 25 minute target | Two lanes per side, mid removed. Trend opens at 5:00. Stockpile falls once both enemy T2s, one in each lane, are down. Surrender vote at 15 min, overriding the 30 min rule in section 2 (UNVERIFIED). |
 
 ### Showrunner Draft order
 
@@ -33,7 +33,7 @@ Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 - Position 2 takes a surviving lane alone (top or bottom, UNVERIFIED), since mid is removed.
 - Neutral items: tiers 1 and 2 only. Tiers 3 and 4 start at 27:00 and 37:00, past the 25 minute target (UNVERIFIED).
 - The Trend respawns in 4 to 6 min (a Short Form override of plan/12's 8 to 11 min, UNVERIFIED).
-- Exchange is invulnerable until both enemy Tier 2 towers, one in each lane, fall, not both Tier 4s.
+- Stockpile is invulnerable until both enemy Tier 2 towers, one in each lane, fall, not both Tier 4s.
 - The XP a hero gains is multiplied by 1.5; the XP needed per level is unchanged (UNVERIFIED).
 - Clout gain, Reach, Stan and the Resell chain work as in the full game. Breaking News runs its 18:00 event only (UNVERIFIED).
 
@@ -47,7 +47,7 @@ Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 | 4 | Roamer | Safe lane, with carry | Soft support, gank pressure |
 | 5 | Hard support | Safe lane, with carry | Vision, protection, Stan support |
 
-Jungler is a viable role for heroes with camp-clearing kits (Weegee, Assassin, vision denial archetype). A jungler is a position choice, not a sixth slot.
+Jungler is a viable role for heroes with camp-clearing kits (Flash Pappy, Assassin, vision denial archetype). A jungler is a position choice, not a sixth slot.
 
 ### Archetype lanes
 

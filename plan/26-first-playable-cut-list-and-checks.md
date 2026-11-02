@@ -9,11 +9,11 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Area | In the slice |
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
-| Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Chudjak (Bulwark, Reach tank, initiator), Disaster (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
+| Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Chudjak (Bulwark, Reach tank, initiator), Calamity Kid (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
 | Clout | Earn, decay, Reach, Hype Spike, Markdown on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
-| Modifiers | Two from the pool: Cast Rush and Learn to Code. |
+| Modifiers | Two from the pool: Cast Rush and Study Tax. |
 | Items | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light, Burner Phone and Drafted Note. |
 | Presentation | LIVE dot, Clout bar, Stan, Hype Spike and Resell signals, the Front Runner minimap icon, death recap (Markdown), Rebrand record, announcer lines for kills and Markdown. |
 
@@ -28,16 +28,16 @@ Row counts are what the slice needs.
 | File | Rows | Compiles to | Note |
 | --- | --- | --- | --- |
 | `manifest.json` | 1 | pack root | modules, image name, tables, rules file |
-| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Chudjak, Disaster, Waffle, Ghillie |
+| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Chudjak, Calamity Kid, Waffle, Ghillie |
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 7 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note (Sticky Note and Ring Light build Lurker Cam; Drafted Note and Sticky Note build Spoiler Tag). Rebrand is an action, not an item (section 5). |
-| `modifiers.tsv` | 2 | Lua rule | Cast Rush and Learn to Code |
-| `rules.tsv` | about 30 | rules file | Clout: Hyped at 100, 20 s, 25 after, cap 200, decay. Reach: 300 base, plus 3 per Clout, cap 600. Stan: +20% damage, +2 armor. Resell: cap 5, +8%, radius 600, 4 s decay. Markdown: 50%. |
+| `modifiers.tsv` | 2 | Lua rule | Cast Rush and Study Tax |
+| `rules.tsv` | 15 | rules file | Clout: Hyped at 100, 20 s, 25 after, cap 200, decay. Reach: 300 base, plus 3 per Clout, cap 600. Stan: +20% damage, +2 armor. Resell: cap 5, +8%, radius 600, 4 s decay. Markdown: 50%. |
 | `moods.tsv` | 3 | Lua | Front Runner, Underdog and Even (file 06) |
 | `events.tsv` | 1 | Lua | Breaking News zone rules (file 12) |
 | `camps.tsv` | 2 | `spawn(...)` | one stage camp per side (file 26) |
 | `draft_order.tsv` | 1 mode | lobby | fixed pick order for the slice |
-| `lines.tsv` | about 12 | UI JSON and Lua | kill, Markdown, Clout 100 and Rebrand lines (file 16) |
+| `lines.tsv` | 9 | UI JSON and Lua | kill streaks three, five, seven and ten, The Trend killed, Markdown on death, Clout reaches 100, Rebrand, and Rebrand while Marked down (file 16) |
 | map | 1 | `map.osd` and `routes.osd` | Short Form (file 14): two lanes per side, river, both bases |
 
 Code the slice also needs, which is not data: the Clout state machine, Reach, Markdown on death with the 200 cap, Resell, Stan, the mood check, the Breaking News capture rule, and Rebrand. All of it is Lua hooks under the 2,500-step budget per call (docs/MODDING.md).
@@ -65,7 +65,7 @@ Run each scenario in the build. Record the result, the time taken and any sign t
 1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window, and the Front Runner icon shows on the minimap for 20 s.
 2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
 3. **Markdown cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, so the 200 cap binds exactly at 400 Clout, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Markdown row).
-4. **Trend modifier fight.** Cast Rush and Learn to Code both on offer. Pass: both offers and the pick are logged in one fight; C1 and C2 are checked across matches (see Runnable checks).
+4. **Trend modifier fight.** Cast Rush and Study Tax both on offer. Pass: both offers and the pick are logged in one fight; C1 and C2 are checked across matches (see Runnable checks).
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: C3 records zero capture progress.
 6. **Stage camp.** The same pull is made watched and unwatched. Pass: only the watched pull gives Clout.
 7. **Rebrand while Hyped.** A Hyped hero dies. Pass: the Hyped-ended marker shows, and Rebrand swaps it for Rebranded.

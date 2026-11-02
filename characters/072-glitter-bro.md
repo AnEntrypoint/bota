@@ -1,4 +1,4 @@
-# 072 Brony
+# 072 Glitter Bro
 
 ## Card
 

@@ -8,10 +8,10 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 | Source | Value | Notes |
 | --- | --- | --- |
 | Starting gold | 600 | UNVERIFIED, decision 14 |
-| Passive income | 1 gold per second | Gold each second alive. Unreliable. |
+| Passive income | 1 gold per second | Gold each second alive. Unreliable. Repo: 5 gold per 3 s (plan/25). |
 | Lane creep last hit | Melee 38-48, ranged 43-53, siege 66-80 | Unreliable. Wave composition in section 3 (UNVERIFIED) |
 | Hero kill | 110 + streak bounty + L × 9.9 (L is the victim's level) | Reliable |
-| Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. The figure is the pool for that many heroes, split equally among them (UNVERIFIED). Shared across heroes within 1,200 game units (UNVERIFIED). Reliable. |
+| Assist, AoE share | 1 hero: 150 + 6L · 2: 100 + 5L · 3: 40 + 4L · 4: 25 + 3L · 5: 20 + 3L | L is the victim's level. The figure is the pool for that many heroes, split equally among them (UNVERIFIED). Shared across heroes within 1,200 game units (UNVERIFIED; repo about 1,325, plan/25). Reliable. |
 | Streak bounty | 60 at a kill streak of one, rising in equal steps to 480 at ten, rounded to whole gold (UNVERIFIED) | Reliable. Ends on death |
 | Tower | Team gold per tier (about 160, 200, 240, 280) | Reliable. Denied tower (destroyed by the team that owns it) = 50% of the tier gold, to the team that destroys it. |
 | Lurker Cam kill | 100 gold, 25 XP | Reliable. Enemy ward, section 13 |
@@ -32,7 +32,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 - **Cost:** 100 + 1.5 × level² + 0.25 × game seconds. Paid from reliable gold only; a reliable total short of the cost refuses the Rebrand.
 - **Effect:** a Rebrand resets Clout to 0 and ends the respawn timer early.
 - **Penalty:** no unreliable gold until the normal respawn timer would have ended. 25% of the skipped timer, in seconds, is added to the next respawn timer, capped at 60 s (GUESS: the cap bounds a rebrand chain; the balance pass sets it).
-- **Cooldown:** 6 min (360 s).
+- **Cooldown:** 6 min (360 s; repo 420 s, plan/25).
 
 ### Experience
 

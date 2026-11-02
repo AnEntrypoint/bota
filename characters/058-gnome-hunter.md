@@ -1,4 +1,4 @@
-# 058 Trollhunter
+# 058 Gnome Hunter
 
 ## Card
 

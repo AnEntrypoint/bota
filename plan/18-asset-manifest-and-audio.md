@@ -58,7 +58,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Terrain kits and props | 3 kits, 120 props | Lanes, jungle, river |
 | Towers | 8 | Four tiers across two teams. Tier read by size and stacked stamps. |
 | Content Mills | 4 | Melee and ranged, two teams |
-| Exchange | 2 | Pinned shop-card monolith. Ends as a grey, half-height monolith; the \[deleted\] placeholder is an end-screen gag only. |
+| Stockpile | 2 | Pinned shop-card monolith. Ends as a grey, half-height monolith; the \[deleted\] placeholder is an end-screen gag only. |
 | Boosts | 7 | Each a unique shape |
 | Front Runner icon | 1 | White pennant on a grey disc (UNVERIFIED). |
 | Wards | 4 | Lurker Cam: closed-eye icon. Spoiler Tag: open-eye icon with a tag. Two teams. Placed and revealed states. |
@@ -89,7 +89,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Shop | 1 | The Plug |
 | Settings | 1 | Reduced motion, flash limiter, colorblind presets, subtitle size and background |
 | Tooltips | About 600 | Order and size in plan/17. |
-| Announcer strings | About 70 | Section 16 |
+| Announcer strings | About 30 | Section 16 |
 
 ### Effects
 

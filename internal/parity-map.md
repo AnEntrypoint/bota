@@ -840,3 +840,80 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | 022-rickroll | https://knowyourmeme.com/memes/rickroll |
 | 092-frogger | https://knowyourmeme.com/memes/crazy-frog |
 | 097-uber | https://knowyourmeme.com/memes/uber |
+
+## Item classic jobs
+
+Each Brainrot item's classic job is its plan/02 row. The balance pass checks it (plan/20 decision 32).
+
+| Brainrot item | Classic job (plan/02 row) |
+| --- | --- |
+| Ragequit Dagger | Escape |
+| Participation Trophy | Boss objective and revive reward |
+| Refresh Page | Talents |
+| Hot Take, Unironic | Death |
+| Gem of Subtext | Vision and wards |
+| Vial of Copium | Sustain |
+| Heart of Brainrot | Base shield |
+| Lurker Cam | Vision and wards |
+| Spoiler Tag | Vision and wards |
+| Dust of Receipts | Vision and wards |
+| Smoke of Deniability | Escape |
+| Gas Station Sushi | Sustain |
+| Lo-Fi Beats | Sustain |
+| Hot Sauce | Sustain |
+| Link in Bio Scroll | Escape |
+| Boots of Scrolling | Escape |
+| Sleep Mode | Talents |
+| Immunity Shield | Base shield |
+| Reply All | Base shield |
+| Co-Working Space | Support tether |
+| Anon Mask | Escape |
+| Main Character Energy | Teamfight chain |
+| Sponsored Style | Talents |
+| Rescheduled | Disable duration |
+| Pro Plan | Talents |
+| Monetized | Last hitting |
+| Sheep Check | Disable duration |
+| Dunk | Disable duration |
+| Heavenly Feedback | Disable duration |
+| Magic Enthusiast | Sustain |
+| Ghost Mode | Escape |
+| Envelope With Legs | Courier |
+| Confident Answer | Vision and wards |
+| Prompt Injection | Support tether |
+| Sycophant | Support tether |
+| Grindset | Sustain |
+| Drain Blade | Sustain |
+| Lite Plan | Talents |
+
+## Roster label renames (cycle 5)
+
+Shipped text carries the new labels; the old ones stay here for the record (plan/20 decision 7).
+
+| Old label | New label | Slot |
+| --- | --- | --- |
+| Chungus | Chonky Hop | 002 |
+| Kyle | Trevor | 015 |
+| Harold | Howard | 016 |
+| Sanic | Turtlic | 017 |
+| Slender | Lankdad | 018 |
+| Leeroy | Charging Carl | 020 |
+| Boxxy | Smudge | 021 |
+| Rickroll | Earworm | 022 |
+| Numa | Wobble Pal | 024 |
+| Dodson | Finger Dan | 025 |
+| Sweetbrown | Sugar Shack | 026 |
+| Yao | Yolkface | 032 |
+| Brian | Bryce | 035 |
+| Disaster | Calamity Kid | 036 |
+| Zyzz | Gymbro | 038 |
+| Weegee | Flash Pappy | 045 |
+| Starwarskid | Broomstick Kid | 053 |
+| Tay | Bot Bernard | 054 |
+| Trollhunter | Gnome Hunter | 058 |
+| Hypebeast | Drop Chaser | 060 |
+| Brony | Glitter Bro | 072 |
+| Crossfit | Chalk Dad | 079 |
+| Nerfer | Foamer | 083 |
+| Frogger | Ribbit | 092 |
+| Uber | Carpool | 097 |

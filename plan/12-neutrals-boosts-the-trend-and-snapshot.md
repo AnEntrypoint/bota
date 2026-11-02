@@ -68,13 +68,13 @@ Eight modifiers rotate each patch. Two are offered per kill:
 | Modifier | Effect |
 | --- | --- |
 | Cast Rush | +10% move speed for 3 s after each cast. Each cast reveals the caster for 1 s. |
-| Unboxing | −15% item cooldowns, items cost 10% more gold |
-| Learn to Code | +10% XP from all sources, abilities cost 5% more sigma |
-| Speedrun | +15% move speed, towers deal +10% damage to you, and your team earns 10% less tower gold |
-| Storytime | Channeled abilities finish 25% faster and cost 15% more sigma |
-| Get Ready With Me | Items bought at the Spawn Lounge cost 10% less. Respawn takes 2 s longer. |
+| Cooldown Sale | −15% item cooldowns, items cost 10% more gold |
+| Study Tax | +10% XP from all sources, abilities cost 5% more sigma |
+| Sprint Bonus | +15% move speed, towers deal +10% damage to you, and your team earns 10% less tower gold |
+| Channel Haste | Channeled abilities finish 25% faster and cost 15% more sigma |
+| Lounge Discount | Items bought at the Spawn Lounge cost 10% less. Respawn takes 2 s longer. |
 | Demand Tide | Clout gain +20%, Clout decay +50% |
-| Solo Queue | +8% ability damage while no ally is within 600, -10% move speed |
+| Solo Hustle | +8% ability damage while no ally is within 600, -10% move speed |
 
 The modifier shows on the minimap timer as its own icon, one per modifier, and as a team-colored HUD filter for its duration.
 
@@ -85,13 +85,13 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Modifier | Likely favors | Dominance risk | Answer |
 | --- | --- | --- | --- |
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
-| Unboxing | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; pick-rate check C2 in plan/26 |
-| Learn to Code | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Speedrun |
-| Speedrun | Aggressive early teams | High: speed rewards an early rush, and the tower damage and cut tower gold are the rusher's cost | Slow the rush; the rusher pays the tower tax |
-| Storytime | Channel-heavy heroes (Tricky, Dino) | Medium | Channel-free kits |
-| Get Ready With Me | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
+| Cooldown Sale | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; pick-rate check C2 in plan/26 |
+| Study Tax | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Sprint Bonus |
+| Sprint Bonus | Aggressive early teams | High: speed rewards an early rush, and the tower damage and cut tower gold are the rusher's cost | Slow the rush; the rusher pays the tower tax |
+| Channel Haste | Channel-heavy heroes (Tricky, Dino) | Medium | Channel-free kits |
+| Lounge Discount | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
 | Demand Tide | Clout-scaling heroes | Medium: rewards safe Clout farming | Force fights; decay eats the lead |
-| Solo Queue | Assassins and solo laners | High: isolated picks get the damage bonus and a move speed penalty | Group up; the damage bonus turns off |
+| Solo Hustle | Assassins and solo laners | High: isolated picks get the damage bonus and a move speed penalty | Group up; the damage bonus turns off |
 
 ### Breaking News (event)
 

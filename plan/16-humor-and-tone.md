@@ -2,7 +2,7 @@
 The register is maximalist, fad-forward and then some. Two images carry two readings.
 
 ### Rules
-1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Trollhunter bumps old tickers (GUESS), Pointing points at everything.
+1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Gnome Hunter bumps old tickers (GUESS), Pointing points at everything.
 2. Every joke has a setup and a punchline.
 3. Voice is expressive and reactive. Viking reacts by scrolling past. Only the Hot-take initiator screams.
 4. Gags have a lifespan. Forever replays the same loop, Acorn rebrands every week (GUESS), Krazed's monitor cracks once and is folded into the next patch.
@@ -17,20 +17,20 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 01 | Two outer panels slide together like Willie's ship bell swinging, revealing the caption. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Resell adds a via tag to the chain. By the fifth link the original is too small to read, but its tag stays legible. [GUESS] | Resell | Chain of 3 or more | Spectator and hover only |
-| 04 | Header: Your stall was marked down, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Clout redistributed: 50%. | Markdown | Death | Standard damage table first. |
+| 04 | Header: Your stall was marked down, under Howard's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Clout redistributed: 50%. | Markdown | Death | Standard damage table first. |
 | 05 | Hero name followed by a small grey formerly tag, like Helios's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. | Go Private | Activation | Cosmetic. The padlock is the read. |
 | 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS: a visual gag with no value to source] | The Trend | Kill | Fades on respawn |
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (plan/15, Peanut row). | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Ticker in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
-| 11 | Click and hold reveals the losing Exchange as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Exchange | End screen | Requires a click. Clean stats view is the default. |
+| 11 | Click and hold reveals the losing Stockpile as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Stockpile | End screen | Requires a click. Clean stats view is the default. |
 | 12 | The hero's own shadow stretches toward the Clout bar. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP plays Fact check pending on the announcer. | Kills | Kill at under 10% HP | 1.5 s, announcer only, once per 2 min (UNVERIFIED). |
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
 | 15 | When Vial of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Vial of Copium | Item ends | Portrait only. |
 | 16 | A hero who dies to their own ability or item gets a grey footnote: Self-inflicted. No replies needed. [GUESS] | Death recap | Self-inflicted death | Footnote only. |
-| 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a straight pointing line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
+| 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a straight pointing line to your portrait, drawn like Finger Dan's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row (UNVERIFIED) gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
 | 20 | A hero who dies while Hyped gets a grey Hyped-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Hype Spike, Rebrand | Death while Hyped | Scoreboard only. |
@@ -53,7 +53,7 @@ Every number in this table is UNVERIFIED.
 | Snapshot revive | We're so back. |
 | Rebrand | Under new management. |
 | The Trend killed | Top seller number one. |
-| Exchange destroyed | Stall shut. |
+| Stockpile destroyed | Stall shut. |
 | Victory screen | Victory. Stall sold. |
 | Defeat screen | Defeat. Stall closed. |
 | Delivery Drone dies | F. |

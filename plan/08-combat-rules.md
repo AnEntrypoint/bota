@@ -32,7 +32,7 @@ Numbers in this chapter are UNVERIFIED.
 - Attack lifesteal: items, and the hero abilities whose kit row in plan/09 or plan/10 says attack lifesteal (Stare Glaze, plan/10).
 - Spell lifesteal: none in v1.
 - Spell amplification: Intelligence (section 7) plus the spell amp of every item held, added together (UNVERIFIED).
-- Cooldown reduction: Refresh Page (cooldown reset), the Unboxing modifier, and Eternal Ticker (10% faster cooldowns). Ability-specific cooldown cuts are not global CDR.
+- Cooldown reduction: Refresh Page (cooldown reset), the Cooldown Sale modifier, and Eternal Ticker (10% faster cooldowns). Ability-specific cooldown cuts are not global CDR.
 
 ### Disables
 

@@ -1,4 +1,4 @@
-# 024 Numa
+# 024 Wobble Pal
 
 ## Card
 

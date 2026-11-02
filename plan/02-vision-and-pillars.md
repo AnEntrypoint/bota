@@ -33,7 +33,7 @@ Four rules every system must pass:
 | Courier | Delivery Drone: the flying courier an Envelope item sends to base | Send the item and stay in the lane, or walk it back and lose the time |
 | Capture objective | Breaking News zone: a held zone gives its heroes Front Page reach | Contest the zone with heroes, or spend the rotation elsewhere |
 | Surrender | A 4 of 5 vote ends the match after 30 minutes | Vote early to save the match, or hold for a comeback |
-| Win objective | The Exchange: invulnerable until both T4s fall, destroying it wins | Commit the team to the push, or defend the base for a comeback |
+| Win objective | The Stockpile: invulnerable until both T4s fall, destroying it wins | Commit the team to the push, or defend the base for a comeback |
 | Draft | The pick order sets the hero pool, the lanes and the items | Pick the hero that fits the lane plan, or deny the pool you need |
 | Respawn | Rebrand: costs gold, resets Clout to 0 | Respawn now with no Clout, or wait with Clout intact |
 | Death | Markdown: the victim loses half its Clout, and the killer and assists share it | Fight close to share the Clout, or hold back and keep yours |

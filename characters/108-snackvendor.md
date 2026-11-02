@@ -15,4 +15,4 @@ bright green dealer sun-visor, black-and-green tournament gaming headset, bright
 
 ## Hook
 
-Hands out soda hugs that heal allies and tournament curses that charm enemies, all from one armful of chips.
+Hands out free samples that heal allies and tournament curses that charm enemies, all from one armful of chips.

@@ -36,7 +36,7 @@ Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. 
 - The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The name the engine doc gives is not on this machine, but a file of the same size, `DotA v6.88g Allstars.w3x` (41,467,779 bytes, MPQ header), is outside the repo.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
-- The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).
+- The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, and 32 neutral rows, the boss included (sections 7 and 8).
 
 ### A4. Does the wire layer limit where game data can live
 
@@ -51,7 +51,7 @@ Status words: exists, partial (format or content partly there), missing.
 
 | Plan table (section) | Proposed data file and format | Repo file or folder already in that role | Status |
 | --- | --- | --- | --- |
-| Hero: roster (15), kits (9, 10), flags (24) | `data/heroes.tsv`, one row per hero. Key `hero_id` 001 to 112, stable. Columns: the `heroes.tsv` line below. Compiles to `unit(...)` lines. | `scenarios/moba/units_heroes.osd`; `scenarios/moba/heroes_688g.tsv` (original-game names); `scenarios/moba/heroes.lua`; generator pattern `scenarios/moba/tools/gen-heroes.mjs`; view `docs/REFERENCE.md` (128 heroes, all rows read are UNVERIFIED) | partial: format and generator pattern exist. The content is the original-game roster, not the 112-entry plan roster. |
+| Hero: roster (15), kits (9, 10), flags (24) | `data/heroes.tsv`, one row per hero. Key `hero_id` 001 to 112, stable. Columns: the `heroes.tsv` line below. Compiles to `unit(...)` lines. | `scenarios/moba/units_heroes.osd`; `scenarios/moba/heroes_688g.tsv` (original-game names); `scenarios/moba/heroes.lua`; generator pattern `scenarios/moba/tools/gen-heroes.mjs`; view `docs/REFERENCE.md` (its heading counts 128 heroes against the roster's 117 files, 112 active and 5 reserve; all rows read are UNVERIFIED) | partial: format and generator pattern exist. The content is the original-game roster, not the 112-entry plan roster. |
 | Archetype: 12 rows (15), budgets and counters (19), lanes (14) | `data/archetypes.tsv`, one row per archetype. Columns: canonical `name`, `alias` (the short labels that file 10 and file 15 use), `role`, budget fields, `hard_counter` as an archetype id. | None. FORMAT.md has no archetype field. The UNIT filter mask (FNAM, 15 bits) is the nearest carrier. | missing |
 | Ability: kits (9, 10) and value tiers (9) | `data/abilities.tsv`, key `hero_id` plus `slot` 1 to 4. Columns: `slug`, `name`, `kind`, `tier`, damage, cooldown and sigma for ranks 1 to 4, `ult_gate_1..3`, `status`. Compiles to `ability(...)`, SKIL and AXTN records. | `scenarios/moba/abilities.osd`; `abilities_688g_b01.osd` to `b12.osd`; `abilities_688g.tsv`; `abilities_688g_perlevel.tsv`; `scenarios/moba/tools/gen-abilities.mjs`, `ability-recipes.mjs`; FORMAT.md SKIL (per-rank damage, cooldown, energy) | partial: per-rank values fit SKIL. Ultimate gates are 6, 11 and 16, as FORMAT.md line 315 states. |
 | Talents (21) | `data/talents.tsv`, key `hero_id` plus level 10, 15, 20 or 25. Columns: choice `L` and `R` as text and as numbers, `status`. | `scenarios/moba/talents.lua` (a rules module); no table | partial |
@@ -117,6 +117,8 @@ The slice contents and its data-file row counts are in plan/26, under Engine dat
 | Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md line 315 gives ultimates 6, 11, 16 | Agrees with the plan. |
 
 To make a check possible: (1) have the owner supply the archive, (2) run `convert-688g-map.mjs` with the archive path as an argument, not a machine path, (3) pair locally against the map, (4) write `checked:<path>` into the matching `status` cells. Step 3 cannot run in CI until the map is tracked.
+
+Repo values that differ from plan/05 (decision 46): passive gold is 5 per 3 s (the engine's `scenarios/moba/attr_rules.txt` lines 17 and 18; `docs/REFERENCE.md` lines 1013 and 1014); the buyback cooldown is 420 s (`docs/REFERENCE.md` line 1012); the assist radius is 20703 milli-units, about 1,325 game units (`docs/REFERENCE.md` line 1023). The plan keeps its design values.
 
 ## 5. Risks and open questions
 

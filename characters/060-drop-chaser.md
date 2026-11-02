@@ -1,4 +1,4 @@
-# 060 Hypebeast
+# 060 Drop Chaser
 
 ## Card
 

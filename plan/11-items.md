@@ -61,7 +61,7 @@ Assembly may discount a finished item, but not every one costs less than its com
 
 Numbers in this section are UNVERIFIED.
 
-Every item holds the job of a classic item. Its classic job is its row in internal/parity-map.md; the balance pass checks each item's Mapped job there (decision 32). Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
+Every item holds the job of a classic item. Its classic job is its row in the Item classic jobs table of internal/parity-map.md; the balance pass checks each item's Mapped job there (decision 32). Component and neutral item flavor lines are in plan/23-voice-and-banter.md.
 
 | Brainrot item | Function | Flavor |
 | --- | --- | --- |
@@ -121,7 +121,7 @@ Numbers in this section are UNVERIFIED.
 | Hot Sauce Bottle | 50 | Heal 120 instantly |
 | Ring Light | 75 | Vision radius +50 |
 | Envelope | 80 | Delivery Drone speed +10% |
-| Old Hoodie | 90 | +2 armor |
+| Old Hoodie | 90 | +2 armor, 10 status resistance (UNVERIFIED) |
 | Rubber Duck | 225 | +10% attack speed |
 | Burner Phone | 200 | +6% spell amplification |
 | Charger | 225 | +2 sigma regen |

@@ -3,7 +3,7 @@ roster:
     prompt: "stylized 3d character, heavyset biped, patchy unwashed neck curtain beard, greying threadbare t-shirt with faded cracked taco illustration and greasy food stains, sagging grey cargo shorts with bulging pockets, white crew socks pulled halfway up calves into dark hook-and-loop sandals, heavy round wire glasses, unkempt ponytail with receding hairline, slouched posture, hand-painted digital textures, clean volumetric cloth folds, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Chungus"
+  - name: "Chonky Hop"
     prompt: "stylized 3d character, colossal pear-shaped bipedal hare, massive double chin resting on chest, smug half-lidded eyes, tiny comical suspenders struggling across an immense soft belly, oversized flat foot pads, hand-painted stylized textures, clean silhouette, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -55,19 +55,19 @@ roster:
     prompt: "stylized 3d female character, razor-sharp asymmetrical blonde wedge haircut, large bug-eye designer sunglasses, fitted pastel-pink velour tracksuit, white slip-on sneakers, holding an endless accordion-folded printed receipt, aggressive forward lean, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Kyle"
+  - name: "Trevor"
     prompt: "stylized 3d character, sideways black flat-brim motocross cap, neon-green skate shoes, sleeveless black hoodie with shredded armholes, cargo shorts, dual jagged slabs of shattered white drywall held like knuckles, airborne lunging stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Harold"
+  - name: "Howard"
     prompt: "stylized 3d character, wispy white hair, heavy crinkled eye bags, pained forced toothy grimace, sensible beige short-sleeve office polo shirt tucked into brown trousers, white ceramic mug with bold 'WORLD'S BEST' text, hand-painted stylized textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Sanic"
+  - name: "Turtlic"
     prompt: "stylized 3d character, crudely distorted electric-blue bipedal scribble, oversized asymmetric pupils pointing in different directions, horizontal 30-degree forward running lean, flat red running shoes with white cuffs, hand-painted textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Slender"
+  - name: "Lankdad"
     prompt: "stylized 3d character, featureless blank white oval face with no eyes or mouth, ultra-tall elongated black two-piece funeral suit, narrow crimson necktie, glossy black dress shoes, writhing black tendrils emerging from upper spine, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -75,15 +75,15 @@ roster:
     prompt: "stylized 3d character, lean defined muscular physique, tight pale skin, braided blonde beard, silver hammer pendant, bare chest, rugged dark utility pants tucked into black combat boots, raised authoritative open palm, half-full clear plastic water bottle, rhythmic march stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Leeroy"
+  - name: "Charging Carl"
     prompt: "stylized 3d character, mismatched clashing medieval plate armor pieces, golden lion crest tabard worn backwards, heavy steel broadsword held overhead, mouth agape in mid-shout, unstoppable charging stride, hand-painted textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Boxxy"
+  - name: "Smudge"
     prompt: "stylized 3d female character, massive side-swept feathered black emo hair, heavy thick black eyeliner wings, oversized grey thrift-store knit sweater falling off one shoulder, silver ball-chain necklace, animated open-palm hand gestures, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Rickroll"
+  - name: "Earworm"
     prompt: "stylized 3d character, voluminous ginger pompadour with razor side-part, double-breasted beige trench coat with oversized lapels, black polo neck shirt, black dress shoes, vintage chrome broadcast microphone on stand, confident rhythmic dance bounce, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -91,15 +91,15 @@ roster:
     prompt: "stylized 3d character, slicked dark hair, pure white plastic wayfarer sunglasses, fitted dark blue suit jacket over open-collar shirt, polished brass alto saxophone, energetic exaggerated pelvic-thrust performance stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Numa"
+  - name: "Wobble Pal"
     prompt: "stylized 3d character, round cheerful face, oversized grey over-ear studio headphones, short-sleeve light-blue casual button-up shirt, seated upper-torso posture with rhythmically pumping bent elbows, joyful head tilt, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Dodson"
+  - name: "Finger Dan"
     prompt: "stylized 3d character, bright crimson silk bandana tied low across brow, ribbed black athletic tank top, gold chain necklace, accusatory outstretched arm with pointed index finger, expressive sideways leaning posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Sweetbrown"
+  - name: "Sugar Shack"
     prompt: "stylized 3d female character, colorful knotted floral headscarf, wide expressive alarmed eyes, gold hoop earrings, vibrant geometric-patterned blouse, bright red cherry fruit pop held at chin height, energetic defensive posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -123,7 +123,7 @@ roster:
     prompt: "stylized 3d character, clean white porcelain cereal bowl head filled with round cereal bits and white milk, stick-thin white limbs, dark trousers, oversized stainless steel tablespoon pointed forward mid-argument, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Yao"
+  - name: "Yolkface"
     prompt: "stylized 3d character, deeply crinkled joyful laugh lines, squeezed-shut laughing eyes, red athletic warm-up tracksuit with white piping, broad dismissive outward hand-wave gesture holding a folded paper fan, hand-painted textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -135,11 +135,11 @@ roster:
     prompt: "stylized 3d character, friendly warm grin, popped polo shirt collar on striped pastel shirt, unlit rolled cigarette resting between lips, relaxed welcoming posture with open hands, hand-painted stylized textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Brian"
+  - name: "Bryce"
     prompt: "stylized 3d character, messy blonde side-part hair, metallic wire dental braces on wide awkward grin, light-blue plaid tartan sweater vest over crisp white collared shirt, khaki trousers, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Disaster"
+  - name: "Calamity Kid"
     prompt: "stylized 3d female character, short wavy brown bob, knowing devilish sideways smirk directly at viewer, plain faded red crewneck t-shirt, blue denim shorts, warm orange-and-yellow fire glow illuminating silhouette from behind, clean volumetric shading, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -147,7 +147,7 @@ roster:
     prompt: "stylized 3d female character, unnervingly wide unblinking teal eyes, locked rigid white-toothed smile, smooth shoulder-length brunette hair, light-blue scoop-neck cotton shirt, hands clasped tightly under chin, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Zyzz"
+  - name: "Gymbro"
     prompt: "stylized 3d character, deeply tanned aesthetic physique, neon-pink short-shorts, spiked highlighted hair, aviator sunglasses resting on chest, double-bicep victory flex, hand-painted digital textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -175,7 +175,7 @@ roster:
     prompt: "stylized 3d character, emaciated olive-green frame, bulbous bald cranium, elongated flexible rubbery fingers, threadbare moth-eaten green knit sweater, three tarnished vintage silver spoons held between knuckles, eerie gentle stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Weegee"
+  - name: "Flash Pappy"
     prompt: "stylized 3d character, emerald green flat cap, green long-sleeve undershirt, dark denim overalls with yellow brass buttons, perfectly vertical posture, arms pinned rigid to thighs, flat unblinking hypnotic stare, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -207,11 +207,11 @@ roster:
     prompt: "stylized 3d character, sideways teal snapback cap, oversized sleeveless down puffer vest, camo cargo shorts, thick swirling white vapor plume enveloping upper body, polished brass mechanical box-mod vape, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Starwarskid"
+  - name: "Broomstick Kid"
     prompt: "stylized 3d character, grey fleece sweatpants, tucked-in plain navy tee, intense focused brow with furrowed concentration, hollow plastic golf-ball retriever pole held with two-handed grip, dynamic mid-spin martial stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Tay"
+  - name: "Bot Bernard"
     prompt: "stylized 3d character, slender frame, crisp white dress shirt, burgundy elastic suspenders, dark tailored trousers, vintage large-diaphragm chrome studio camera, tilted head leaning sideways away from lens, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -227,7 +227,7 @@ roster:
     prompt: "stylized 3d character, bulky olive-drab rubberized hazmat suit, twin-canister rubber gas mask with fogged round lenses, duct tape around wrists and ankles, bolted steel storm-shelter blast door held like a tower shield, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Trollhunter"
+  - name: "Gnome Hunter"
     prompt: "stylized 3d character, full white handlebar mustache and chinstrap beard, black leather dress gloves, tailored three-piece black suit, bright red necktie, heavy wooden auction gavel, authoritative upright stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -235,7 +235,7 @@ roster:
     prompt: "stylized 3d character, neatly waxed handlebar mustache, dark selvedge denim bib apron, rolled chambray sleeves showing intricate tattoo sleeves, earlobe gauge tunnels, stainless steel espresso portafilter handle, confident cafe stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Hypebeast"
+  - name: "Drop Chaser"
     prompt: "stylized 3d character, bright crimson utility chest pack with bold white lettering, oversized designer box-logo hoodie, black drop-crotch joggers, massive chunky platform sneakers with exaggerated air bubbles, carrying stack of branded shoeboxes, trendy street posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -283,7 +283,7 @@ roster:
     prompt: "stylized 3d character, thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding a glass teapot, casual intellectual posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Brony"
+  - name: "Glitter Bro"
     prompt: "stylized 3d character, dark brown fedora pinned with pastel buttons, ankle-length black microfiber trenchcoat, tie-dye pastel shirt, fingerless gloves, staff topped with a glittering plastic rainbow star, dramatic spellcasting stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -311,7 +311,7 @@ roster:
     prompt: "stylized 3d character, plain white baseball cap worn forward, oversized black suit jacket, bright red necktie, screaming wide-open mouth showing red interior, round wire glasses, antique 35mm metal film reel canister held overhead, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Crossfit"
+  - name: "Chalk Dad"
     prompt: "stylized 3d character, chalk-dusted hands, black compression tights, neon sweatband across brow, massive knobby black rubber tractor tire held mid-roll, explosive athletic stride, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -327,7 +327,7 @@ roster:
     prompt: "stylized 3d character, full-coverage thermal mask with chrome mirrored lens, baggy neon-splattered tournament jersey, padded slider pants, electronic speedball marker with top-mounted round hopper, low sliding crouch, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Nerfer"
+  - name: "Foamer"
     prompt: "stylized 3d character, crisscrossed black nylon bandoliers loaded with dozens of bright-blue foam darts, oversized neon-orange toy blaster with tactical rails, clear safety goggles, combat dash posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -363,7 +363,7 @@ roster:
     prompt: "stylized 3d character, wide frayed woven straw hat, faded denim overalls over bare chest, lever-action metal air rifle held in relaxed cross-legged seated posture, calm focused squint, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Frogger"
+  - name: "Ribbit"
     prompt: "stylized 3d character, mottled blue amphibious skin, vintage leather aviator flying cap with ear flaps, white round goggles, imaginary hovering motorcycle handlebars in hands, mid-air crouching leap, soft studio key light, neutral background"
     aesthetic_refs: []
 
@@ -383,7 +383,7 @@ roster:
     prompt: "stylized 3d character, canvas utility apron bursting with electric hot glue guns, industrial spools of rainbow duct tape, cluster of neon zip-ties looped to belt, eager manic problem-solving stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Uber"
+  - name: "Carpool"
     prompt: "stylized 3d character, car-vent dashboard mount holding smartphone with glowing GPS navigation route, woven wicker basket filled with foil-wrapped candies and chilled plastic water bottles, friendly welcoming customer-service posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
