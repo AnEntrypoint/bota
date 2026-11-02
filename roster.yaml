@@ -384,7 +384,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Uber"
-    prompt: "stylized 3d character, car-vent dashboard mount holding smartphone with glowing GPS navigation route, woven wicker basket filled with foil-wrapped mints and chilled plastic water bottles, friendly welcoming customer-service posture, soft studio key light, neutral background"
+    prompt: "stylized 3d character, car-vent dashboard mount holding smartphone with glowing GPS navigation route, woven wicker basket filled with foil-wrapped candies and chilled plastic water bottles, friendly welcoming customer-service posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Widemouth"

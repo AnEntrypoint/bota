@@ -112,7 +112,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 094 | Bathwater (P6) | Leash | Sealed glass canning jar of glowing pink liquid | Rose, pink | L / D / M |
 | 095 | Driver (P5) | Engine | Detached matte-black steering wheel | Cold teal, neon yellow | L / D / M |
 | 096 | Lifehack (P6) | Engine | Hot glue guns on a canvas apron | Cold teal, rainbow | L / D / M |
-| 097 | Uber (P1) | Engine | Phone on a vent mount, wicker basket of mints | Cold teal, mint | M / L / D |
+| 097 | Uber (P1) | Engine | Phone on a vent mount, wicker basket of candies | Cold teal, mint | M / L / D |
 | 098 | Widemouth (P4) | Showboat | Huge smile, a cardboard hand fan held at the chest | Peach, white | M / L / D |
 | 099 | Keyboarder (P4) | Firebrand | Mechanical keyboard swung on a coiled cable | Ember, cool | M / L / D |
 | 100 | Edgelord (P2) | Stalker | Dual folding steel karambits | Slate, purple | M / L / D |

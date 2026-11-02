@@ -21,4 +21,4 @@ pastel-purple high-waisted yoga leggings, oversized cream knit sweater, patterne
 
 ## Hook
 
-Spins a canvas tote through crowds, then drags enemies along a rope of lavender vapor that smells expensive.
+Spins a canvas tote through crowds, then fills the air with lavender vapor that smells expensive.

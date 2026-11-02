@@ -126,7 +126,7 @@ Flavor lines are fad-forward one-liners that carry the joke. They carry no numbe
 | Thick Cloak | Hides the markdown, not the numbers. |
 | Prompt Injection | Adds one line to the instructions, and the instructions obey. |
 | Cancel Mask | Worn to dodge the discourse. Started the discourse anyway. |
-| Eternal Ticker | Never ends. That is the entire problem. |
+| Eternal Ticker | Never ends. |
 | Vintage Lot | Old enough to be someone's first lot. |
 | Long Tail | Pays out long after everyone forgot. |
 

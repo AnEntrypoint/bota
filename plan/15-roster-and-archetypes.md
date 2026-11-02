@@ -84,7 +84,7 @@ Rules for the roster columns:
 | 052 | Vapebro | Drifter | Agi | Ranged | Vapes a plume that sprays arrows everywhere, shields himself with sigma, and freezes enemies in the haze. |
 | 053 | Starwarskid | Leash | Str | Melee | Spins a golf-ball retriever like a staff, roots an area, and teleports to a clone left mid-spin. |
 | 054 | Tay | Herald | Int | Ranged | Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed. |
-| 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and copies one enemy ability. |
+| 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit. |
 | 056 | Kazoo | Showboat | Int | Ranged | Plays a kazoo that holds enemies in place, puts an area to sleep, and fills the lane with illusions. |
 | 057 | Prepper | Bulwark | Str | Melee | Slams a storm-shelter blast door into place, rooting an area behind a gas mask and summoning taped-up treants. |
 | 058 | Trollhunter | Bulwark | Agi | Melee | Swings an auction gavel to heal allies, pays its own health for damage, and later calls a delayed kill. |
@@ -122,11 +122,11 @@ Rules for the roster columns:
 | 090 | Droner | Phantom | Agi | Ranged | Drops quadcopter traps, then sends the drone after trapped enemies to reveal and damage them. |
 | 091 | Plinker | Recluse | Agi | Ranged | Sits cross-legged behind a straw-hat decoy and trades places with it, then takes the shot from wherever the real one ended up. |
 | 092 | Frogger | Showboat | Int | Melee | Rides an imaginary hover motorcycle in mid-air, and the landing hits enemies with the full weight of a very real frog. |
-| 093 | Oiler | Recluse | Int | Ranged | Spins a canvas tote through crowds, then drags enemies along a rope of lavender vapor that smells expensive. |
+| 093 | Oiler | Recluse | Int | Ranged | Spins a canvas tote through crowds, then fills the air with lavender vapor that smells expensive. |
 | 094 | Bathwater | Leash | Int | Ranged | Fires a laser out of a sealed canning jar that blinds targets, then bounces once to reset every cooldown. |
 | 095 | Driver | Engine | Agi | Melee | Hurls a detached steering wheel at one enemy, then spins a keychain on a finger until the whole club piles on. |
 | 096 | Lifehack | Engine | Int | Ranged | Zip-ties enemies to the spot with a belt of neon fasteners, then hot-glues the problem shut in five minutes. |
-| 097 | Uber | Engine | Str | Melee | Offers mints and chilled water, and every passenger ally attacks faster for the whole ride. |
+| 097 | Uber | Engine | Str | Melee | Offers candies and chilled water, and every passenger ally attacks faster for the whole ride. |
 | 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |
 | 099 | Keyboarder | Firebrand | Str | Melee | Swings a mechanical keyboard on its USB cable, rotting targets and draining creeps from a posture that is already ruined. |
 | 100 | Edgelord | Stalker | Agi | Melee | Stalks low in a torn trenchcoat, stacking karambit swipes while the spiked choker shrugs off incoming damage. |

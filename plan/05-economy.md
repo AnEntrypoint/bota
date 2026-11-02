@@ -36,7 +36,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 ### Experience
 
-Hero kill XP is indexed by the killing hero's level: 100, 120, 140, 160, 180 for levels 1 to 5, then 100 more per level above 5 (UNVERIFIED). Shared among heroes within 1,200 game units (UNVERIFIED). Denied lane creeps give 50% of their XP to the enemy team.
+Hero kill XP is indexed by the killing hero's level: 100, 120, 140, 160, 180 for levels 1 to 5, then 100 more per level above 5 (UNVERIFIED). Shared among heroes as the assist row sets out. Denied lane creeps give 50% of their XP to the enemy team.
 
 Total XP at checkpoint levels (cumulative, UNVERIFIED):
 
