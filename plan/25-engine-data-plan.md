@@ -80,7 +80,7 @@ items.tsv      item_id slug name kind tier cost components stats active stock re
 **Generated outputs, one direction only.**
 
 1. `scenarios/brainrot/*.osd` and a key=value rules file, written by `scenarios/brainrot/tools/gen.mjs` (a planned folder: no brainrot pack exists in the repo yet; the packs present are listed in A1). The `tools/` folder is excluded from Pages by `layout-site.sh` line 19.
-2. The markdown tables in `247420/plan/NN-*.md`, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
+2. The markdown tables in `plan/NN-*.md` of this repo, written by the same tool. It finds each table by its heading text. It does not use HTML comment markers.
 3. A drift check: the tool regenerates everything and fails if the tree differs. This copies the determinism check already in `tests.yml`.
 
 Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing flows back. Before the first generation the plan markdown is the source, so the first TSV is produced once from it and reviewed. After that cutover, a number is typed only in the TSV.
@@ -119,7 +119,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 ## 4. Which plan numbers can be checked against 6.88g today
 
-**Short answer: none has been checked yet.** The 6.88g map is on this machine outside the repo (A3). The pairing between plan names and 6.88g rows lives in `247420/internal/parity-map.md`. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 95 launch-ability rows against 96 slots, and 32 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
+**Short answer: none has been checked yet.** The 6.88g map is on this machine outside the repo (A3). The pairing between plan names and 6.88g rows lives in `internal/parity-map.md` in this repo. For this note only its counts were read, and no name from it was copied: about 110 hero rows against 112 roster entries, 95 launch-ability rows against 96 slots, and 32 item rows. That file is tracked in git but never copied into the pack or Pages, so CI can read it and the build cannot ship it.
 
 | Plan number | Section | Repo value and where it sits | Status |
 | --- | --- | --- | --- |

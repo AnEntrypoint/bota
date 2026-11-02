@@ -37,7 +37,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 018 | Slender | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
 | 019 | Viking | Herald | - | Area damage and slow; root with damage over time; area nuke ult. |
 | 020 | Leeroy | Firebrand | - | Dash, approach damage, point pull; ult copy wall blocks path. |
-| 021 | Boxxy | Tether | - | Protects an ally from death briefly; DoT, bounce, armor shred ult. |
+| 021 | Boxxy | Leash | - | Protects an ally from death briefly; DoT, bounce, armor shred ult. |
 | 022 | Rickroll | Showboat | - | Slowing bug summons, area silence, drain, ult spirits in range. |
 | 023 | Saxguy | Showboat | - | Area silence and damage; push; path reveal; ult repeated lightning. |
 | 024 | Numa | Herald | FLAG | Ult silences and damages until the target dies; no timer. |
@@ -53,7 +53,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 034 | Greg | Recluse | - | Rockets, stun on hit, flak; ult zone airstrike. |
 | 035 | Brian | Archivist | - | Burn per attack; attack speed from health loss; charge with heal ult. |
 | 036 | Disaster | Firebrand | - | Ult is delayed area damage; fade escape; freeze, path wall. |
-| 037 | Attached | Tether | - | Teleports an ally; shared heals; orb damage; overclock ult. |
+| 037 | Attached | Leash | - | Teleports an ally; shared heals; orb damage; overclock ult. |
 | 038 | Zyzz | Showboat | - | Fire and ice breath; zone burn and slow; ult sustained line fire. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
 | 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
@@ -62,14 +62,14 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 043 | Jack | Stalker | - | Stun and damage, zone, bounce; ult nearby silence. |
 | 044 | Salad | Drifter | - | Damage and slow, armor-slow aura, chain bounce; ult takes a creep. |
 | 045 | Weegee | Phantom | - | Ult hides inside an enemy and heals from it; lifesteal attacks. |
-| 046 | Hank | Tether | - | Machete Meter stacks, capped (talent raises cap); line; delayed area stun. |
+| 046 | Hank | Leash | - | Machete Meter stacks, capped (talent raises cap); line; delayed area stun. |
 | 047 | Tricky | Bulwark | FLAG | Sheep transform has no stated timer; slow, drain, source ult. |
 | 048 | Peanut | Recluse | - | Companion attacks, attack speed, regen; ult transforms into stronger form. |
 | 049 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
 | 050 | Gopnik | Firebrand | - | Wolf summons, werewolf form; ult boosts all allies. |
 | 051 | Mallcop | Bulwark | - | Line damage, ally damage boost, charge pull; ult pulls together, stuns. |
 | 052 | Vapebro | Drifter | - | Multi-direction arrows, bounce, sigma shield; ult briefly petrifies. |
-| 053 | Starwarskid | Tether | - | Teleports to a clone; area root; ult clones fight on their own. |
+| 053 | Starwarskid | Leash | - | Teleports to a clone; area root; ult clones fight on their own. |
 | 054 | Tay | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
 | 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
 | 056 | Kazoo | Showboat | FLAG | Area sleep has no timer; hold, slow, illusion ult. |
@@ -86,7 +86,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 067 | Derp | Recluse | - | Ult revives on death; burn dash, damage orbs, channeled ally heal. |
 | 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
 | 069 | Fuckyea | Showboat | - | Kill stacks give strength, capped (talent raises cap); hook, pull ult. |
-| 070 | Challenge | Tether | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
+| 070 | Challenge | Leash | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
 | 071 | Hipster | Herald | - | Teleport to a point is its escape; cone damage, DoT, push ult. |
 | 072 | Brony | Phantom | - | Chaining lightning link, speed boost, aura with armor; ult area field. |
 | 073 | Tinfoil | Drifter | - | Coat Hanger Open and invisible strikes; unseen strike from behind; blind cloud. |
@@ -110,7 +110,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 091 | Plinker | Recluse | - | Illusion swap is an escape; clones, transform damage; ult swaps health. |
 | 092 | Frogger | Showboat | - | Slow and damage, damage reduction, area strike; ult delayed area stun. |
 | 093 | Oiler | Recluse | FLAG | Yoga Stack adds armor per hit taken, no cap stated; area spin. |
-| 094 | Bathwater | Tether | - | Damage and blind laser, homing, cooldown reset; ult summons turrets. |
+| 094 | Bathwater | Leash | - | Damage and blind laser, homing, cooldown reset; ult summons turrets. |
 | 095 | Driver | Engine | - | Area damage, throw, attack range; ult gains health and damage. |
 | 096 | Lifehack | Engine | - | Invisibility in trees is its escape; drain, shield, ult root network. |
 | 097 | Uber | Engine | - | Attack speed, spinning damage, crit chance; ult attack speed for allies. |
@@ -126,7 +126,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 | 107 | Smugcat | Showboat | - | Candlelit Dash evasion is its escape; rope pull, arrow, focus ult. |
 | 108 | Snackvendor | Herald | FLAG | Tournament Curse charms enemies with no stated timer; DoT, slow, heal ally. |
 | 109 | Sealcommando | Stalker | - | Bounce, heal aura, curse damage; ult channel strike. |
-| 110 | Scammer | Tether | - | Ult revives on death; line burn, lifesteal aura, crit strikes. |
+| 110 | Scammer | Leash | - | Ult revives on death; line burn, lifesteal aura, crit strikes. |
 | 111 | Preacher | Heckler | - | Enemy chain, bolt stun, damage aura; ult summons a storm. |
 | 112 | Scalper | Archivist | FLAG | Markup Drain grows in combat, no cap stated; Queue Bypass gate and Bulk Buy Drop teleports. |
 

@@ -42,37 +42,37 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
 | Viking (Herald) | Finger pointed. Scrolled past. Next. | Bottle's empty. Lecture cut short. | Marching in place. Drink water, friend. |
-| Hank (Tether) | Machete, machete, machete again. | Lenses dimmed. Market went quiet. | Blades low. Refresh? Yes. Again. |
-| Boxxy (Tether) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
+| Hank (Leash) | Machete, machete, machete again. | Lenses dimmed. Market went quiet. | Blades low. Refresh? Yes. Again. |
+| Boxxy (Leash) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
 | Waffle (Bulwark) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
 | Chudjak (Bulwark) | Manifesto read aloud. Please remain where you are. | The manifesto fell out. I will pick it up, politely. | Holding the line, standing firm. Carry on, please. |
 | Airhorn (Heckler) | Canisters spent. Logged: quiet now. | Earmuffs bounced off. Correction: quiet, finally. | Jumping in place. Canisters counted, per the log. |
 | Helios (Phantom) | Listed anonymously. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no listings. |
-| Starwarskid (Tether) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
+| Starwarskid (Leash) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
 | Frogger (Showboat) | Okay, so. That landing was captioned for the replay. | Okay, so. Camera cut. Please don't clip that. | Okay, so. Nobody is filming. Smile anyway. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
 | Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
 | Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
 | Forever (Recluse) | Again, again, again. Nice one. | Crawling back to the start. | Loop again. Charming yet? |
-| Scammer (Tether) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
+| Scammer (Leash) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
 | Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Please stay in the sun. Thank you. |
 | Lifehack (Engine) | Glue gun set. Enemy no longer standing. | Tape ran out. Turf stayed, I did not. | Zip-ties on the belt, growing slowly. |
 
 ### Hero pair lines
 
-Each pair plays once per match, on the first moment both heroes see each other. One line per hero.
+Each pair plays once per match, on the first moment an enemy hero sees the other. One line per hero.
 
 | Pair | Hero | Line | Hero | Line |
 |---|---|---|---|---|
 | 1 | Disaster (Firebrand) | That ruling was a cold read, actually. | Airhorn (Heckler) | Canisters loaded. Your objection, overruled. |
 | 2 | Frogger (Showboat) | Okay, so. The landing says hello. | Chudjak (Bulwark) | Please lower your voice. The line is holding. |
-| 3 | Tinfoil (Drifter) | I was not here. Foil suit says so. | Boxxy (Tether) | Seen you. Hands up, lurker. |
+| 3 | Tinfoil (Drifter) | I was not here. Foil suit says so. | Boxxy (Leash) | Seen you. Hands up, lurker. |
 | 4 | Grey (Drifter) | Stand in the orb light. Green flatters everyone. | Prepper (Bulwark) | Sunlight's free. Your glow has a subscription. |
 | 5 | Gigachad (Bulwark) | Your take has no source. Marble doesn't bend. | Wojak (Recluse) | Source? Floor. Look down. |
 | 6 | Helios (Phantom) | No name, no trail, no problem. | Ghillie (Stalker) | Twine remembers. It says you. |
 | 7 | Spudgunner (Drifter) | That reply needs a full ticker. | Waffle (Bulwark) | Pinged you mid-ticker. Sorry. Mostly. |
-| 8 | Starwarskid (Tether) | Alt account for this one. Pole swung. | Fuckyea (Showboat) | Which account is this? Ask me later. |
-| 9 | Scammer (Tether) | Call me back! Tickets still available! | Viking (Herald) | Hydrate. Scroll past. Load more. |
+| 8 | Starwarskid (Leash) | Alt account for this one. Pole swung. | Fuckyea (Showboat) | Which account is this? Ask me later. |
+| 9 | Scammer (Leash) | Call me back! Tickets still available! | Viking (Herald) | Hydrate. Scroll past. Load more. |
 | 10 | Lifehack (Engine) | Glue gun warm. Turf's still nicer. | Noscope (Stalker) | Pixel shades on. Vibe check not included. |
 
 ### Formerly tag

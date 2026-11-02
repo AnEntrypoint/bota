@@ -25,7 +25,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
 | Frogger | Flying Cap Warning slows +1 s / Handlebar Appeal shield +50 | Frog Strike radius +50 / Helmet Lockdown +0.5 s | Handlebar Appeal reflects 10% / Flying Cap Warning marks the target for allies | Helmet Lockdown stuns on death / 1 Clout per 200 damage absorbed while an enemy hero sees it |
 | Airhorn | Airhorn Blast +1 stun / Canister Remove cleave +20% | Pinstripe Jacket Pitch armor +2 / Escalating Blare +5% damage | Canister Remove marks the target / Airhorn Blast resets on kill | Escalating Blare grows +2% per cast / Target earns no Clout for 10 s |
-| Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Lot crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Lot kills give double Clout / Name hidden on death recap |
+| Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Lot crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Lot kills give double Clout / Sun Lot kills give +50 Reach for 10 s (UNVERIFIED) |
 | Starwarskid | Golf Pole Root radius +50 / Mid-Spin Clone range +100 | Furrowed Puppet +20 damage / Alt Spin Squad adds a clone | Golf Pole Root roots +0.5 s / Clones gain 10% damage | Clones earn half Clout / Starwarskid respawns once as a clone |
 | Chudjak | Manifesto Slam +100 length / Olive Totem +10% attack speed | Buzzcut Follow stun +0.3 s / Surplus Echo adds a target | Manifesto Slam stuns 0.5 s / Olive Totem heals allies | Surplus Echo is global / Buzzcut Follow victims revealed for 2 s |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage |
@@ -56,7 +56,7 @@ Every hero gets the talent set of its role family below. Launch heroes use the n
 | Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
 | Firebrand (Hot-take initiator) | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
 | Archivist (Utility, zone control) | Radius +30 / Duration +0.5 s | Range +100 / Duration +1 s | Two charges / Reveals a Clout pulse | Detonates on death / LIVE for 2 s |
-| Tether (Tethered support, dueler) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for each ally in radius |
+| Leash (Tethered support, dueler) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for each ally in radius |
 | Recluse (Offline sustain) | Radius +50 / Cooldown −5 s | Treant +1 / Range +200 | Root +0.5 s / Treants heal | Clout from the ultimate / Regen +2% unseen |
 
 ### Backpack

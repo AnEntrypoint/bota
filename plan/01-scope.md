@@ -12,5 +12,6 @@ The baseline is a classic MOBA rule set. Every system is either part of this bas
 | Glyph | Go Private (padlock) |
 | Attribute stat rules | The Trend and Snapshot |
 | Gold, XP, bounties | Tethered support, dueler tether |
+| — | Breaking News, Chat Check, Sweat Mode |
 
 Remix policy: a Brainrot original may only sit in the slot of a classic system (see section 2). It may add a decision. It may not add a new resource that nobody can read. Numbers marked UNVERIFIED are set in the balance pass. The classic numbers in this chapter are UNVERIFIED under decision 21.

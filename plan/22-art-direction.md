@@ -10,7 +10,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 - **Primary value group** is the body value.
 - **Sibling rule.** Within a role family, take the hero's 0-based index k in roster order. Body code is P(k mod 6 + 1). Body value is L, M, D for floor(k/6) = 0, 1, 2. Every prop in a role family is unique. Any two siblings therefore differ in prop silhouette and in at least one of body code or body value, which meets the two-of-three rule in section 15.
 - **Accent shifts** are named steps from the role family accent (section 15). No hex is set here.
-- **Color guards.** Keep #A35CFF and #6A1FD1 off hero trim; use a desaturated violet outside both. Keep red (damage only), #2E8BFF and #FF8A1F (team colors), and #3DDC97 (heal) off hero trim. Firebrand ember and Tether rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
+- **Color guards.** Keep #A35CFF and #6A1FD1 off hero trim; use a desaturated violet outside both. Keep red (damage only), #2E8BFF and #FF8A1F (team colors), and #3DDC97 (heal) off hero trim. Firebrand ember and Leash rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
 
 ## 1. Hero table (112)
 
@@ -36,7 +36,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 018 | Slender (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
 | 019 | Viking (P4) | Herald | Half-full clear water bottle | Soft cyan, steel | L / D / M |
 | 020 | Leeroy (P4) | Firebrand | Broadsword held overhead | Ember, gold | L / D / M |
-| 021 | Boxxy (P1) | Tether | Open-palm gestures (no held prop) | Rose, grey | L / D / M |
+| 021 | Boxxy (P1) | Leash | Open-palm gestures (no held prop) | Rose, grey | L / D / M |
 | 022 | Rickroll (P2) | Showboat | Vintage chrome broadcast mic on stand | Peach, ginger | L / D / M |
 | 023 | Saxguy (P3) | Showboat | Polished brass alto saxophone | Peach, neon | L / D / M |
 | 024 | Numa (P5) | Herald | Oversized grey studio headphones | Soft cyan, pale blue | L / D / M |
@@ -52,7 +52,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 034 | Greg (P3) | Recluse | Unlit rolled cigarette between lips | Moss, golden | L / D / M |
 | 035 | Brian (P2) | Archivist | Metal wire braces (worn; no held prop) | Sepia, plaid | L / D / M |
 | 036 | Disaster (P6) | Firebrand | Fire glow behind the silhouette (no held prop) | Ember, orange | L / D / M |
-| 037 | Attached (P2) | Tether | Hands clasped under the chin (no held prop) | Rose, cool | L / D / M |
+| 037 | Attached (P2) | Leash | Hands clasped under the chin (no held prop) | Rose, cool | L / D / M |
 | 038 | Zyzz (P5) | Showboat | Aviator sunglasses on the chest | Peach, neon pink | L / D / M |
 | 039 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
 | 040 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
@@ -61,14 +61,14 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 043 | Jack (P4) | Stalker | Polished steel surgical scalpel | Slate, royal blue | L / D / M |
 | 044 | Salad (P4) | Drifter | Three silver spoons between knuckles | Night blue, olive | L / D / M |
 | 045 | Weegee (P2) | Phantom | Hypnotic stare (no held prop) | Lavender, emerald | L / D / M |
-| 046 | Hank (P3) | Tether | Twin high-carbon machetes | Rose, charcoal | L / D / M |
+| 046 | Hank (P3) | Leash | Twin high-carbon machetes | Rose, charcoal | L / D / M |
 | 047 | Tricky (P5) | Bulwark | Octagonal stop sign on an iron pipe | Grey, decay green | L / D / M |
 | 048 | Peanut (P5) | Recluse | Spray-painted facial markings (no held prop) | Moss, concrete tan | L / D / M |
 | 049 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
 | 050 | Gopnik (P1) | Firebrand | Steel crowbar across the knees | Ember, royal blue | M / L / D |
 | 051 | Mallcop (P6) | Bulwark | Two-wheeled motorized scooter | Grey, navy | L / D / M |
 | 052 | Vapebro (P5) | Drifter | Brass mechanical box-mod vape | Night blue, brass | L / D / M |
-| 053 | Starwarskid (P4) | Tether | Hollow plastic golf-ball retriever pole | Rose, grey | L / D / M |
+| 053 | Starwarskid (P4) | Leash | Hollow plastic golf-ball retriever pole | Rose, grey | L / D / M |
 | 054 | Tay (P6) | Herald | Vintage chrome studio microphone | Soft cyan, burgundy | L / D / M |
 | 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
 | 056 | Kazoo (P6) | Showboat | Glossy red plastic kazoo | Peach, apricot | L / D / M |
@@ -85,7 +85,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 067 | Derp (P6) | Recluse | Mismatched shoes (worn; no held prop) | Moss, white | L / D / M |
 | 068 | Forever (P1) | Recluse | Hunched crawl (no held prop) | Moss, grey | M / L / D |
 | 069 | Fuckyea (P2) | Showboat | Hands jammed in trouser pockets | Peach, jet black | M / L / D |
-| 070 | Challenge (P5) | Tether | Folded arms across the chest | Rose, crisp white | L / D / M |
+| 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
 | 071 | Hipster (P2) | Herald | Glass pour-over coffee carafe | Soft cyan, mustard | M / L / D |
 | 072 | Brony (P6) | Phantom | Staff topped with a glitter rainbow star | Lavender, pastel | L / D / M |
 | 073 | Tinfoil (P2) | Drifter | Copper wire coat-hanger antenna as a wand | Night blue, silver | M / L / D |
@@ -109,7 +109,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 091 | Plinker (P2) | Recluse | Lever-action metal air rifle | Moss, golden | M / L / D |
 | 092 | Frogger (P3) | Showboat | Imaginary motorcycle handlebars (no held prop) | Peach, mottled blue | M / L / D |
 | 093 | Oiler (P3) | Recluse | Handheld ultrasonic diffuser, lavender vapour | Moss, lilac | M / L / D |
-| 094 | Bathwater (P6) | Tether | Sealed glass canning jar of glowing pink liquid | Rose, pink | L / D / M |
+| 094 | Bathwater (P6) | Leash | Sealed glass canning jar of glowing pink liquid | Rose, pink | L / D / M |
 | 095 | Driver (P5) | Engine | Detached matte-black steering wheel | Cold teal, neon yellow | L / D / M |
 | 096 | Lifehack (P6) | Engine | Hot glue guns on a canvas apron | Cold teal, rainbow | L / D / M |
 | 097 | Uber (P1) | Engine | Phone on a vent mount, wicker basket of mints | Cold teal, mint | M / L / D |
@@ -125,7 +125,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 107 | Smugcat (P5) | Showboat | White porcelain plate of green salad | Peach, white | M / L / D |
 | 108 | Snackvendor (P4) | Herald | Armful of chip bags and soda bottles | Soft cyan, neon green | M / L / D |
 | 109 | Sealcommando (P3) | Stalker | Suppressed heavy sniper rifle with bipod | Slate, desert camo | M / L / D |
-| 110 | Scammer (P1) | Tether | Coiled landline handset and Bluetooth headset | Rose, bright blue | M / L / D |
+| 110 | Scammer (P1) | Leash | Coiled landline handset and Bluetooth headset | Rose, bright blue | M / L / D |
 | 111 | Preacher (P5) | Heckler | White megaphone and a leather-bound Bible | Mustard, charcoal | M / L / D |
 | 112 | Scalper (P6) | Archivist | Mountaineering backpack of graphics-card boxes | Sepia, dark | L / D / M |
 

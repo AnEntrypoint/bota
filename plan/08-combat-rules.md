@@ -18,7 +18,7 @@ Numbers in this chapter are UNVERIFIED.
 ### Attack speed
 
 - Attacks per second = (100 + bonus attack speed) / (BAT × 100).
-- Total attack speed is capped at 600.
+- Bonus attack speed (the term in the formula above) is capped at 600 (UNVERIFIED).
 - Attack animation: attack point, then backswing. Animation canceling is allowed.
 
 ### Evasion and miss

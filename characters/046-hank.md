@@ -4,7 +4,7 @@ Hero slot: 046
 
 ## Card
 
-- Role family: Tether
+- Role family: Leash
 - Role: Tethered support, dueler
 - Attribute: Int
 - Range: Melee

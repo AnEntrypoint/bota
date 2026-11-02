@@ -16,7 +16,7 @@
 | 08 | Phantom | Ghost-account summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with followers | Ghost |
 | 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Hyped hot take at emergency volume | Hot Take |
 | 10 | Archivist | Utility, zone control | Wide rectangle | Sepia | Filing-cabinet backpack | Lists receipts that turn every Trend against whoever stands in the zone | Archivist |
-| 11 | Tether | Tethered support, dueler | Two linked circles | Rose | Framed photo of the rival | Insists the rival is a close friend, so the Stan tether never breaks | Parasocial |
+| 11 | Leash | Tethered support, dueler | Two linked circles | Rose | Framed photo of the rival | Insists the rival is a close friend, so the Stan tether never breaks | Parasocial |
 | 12 | Recluse | Offline sustain | Rounded mound | Moss green | Wearing actual turf | Stays offline between camps, smug and healed above any Clout threshold | Touch-Grass Hermit |
 
 Each variant differs from the others in at least two of: body proportion, prop silhouette, primary value group. A Stalker in a hood and a Stalker in a hazmat suit share a role family and read as two heroes.
@@ -50,7 +50,7 @@ Rules for the roster columns:
 | 018 | Slender | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
 | 019 | Viking | Herald | Str | Melee | Sips from a half-full water bottle to restore allies' sigma, and each march step stomps the ground around him. |
 | 020 | Leeroy | Firebrand | Str | Melee | Charges in alone, mouth open, then walls off the path with copies of his mismatched armour. |
-| 021 | Boxxy | Tether | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |
+| 021 | Boxxy | Leash | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |
 | 022 | Rickroll | Showboat | Agi | Ranged | Mutes a whole area through a chrome microphone, then sends dancing spirits at anyone left in range. |
 | 023 | Saxguy | Showboat | Int | Ranged | Silences an area with a pelvic-thrust solo, then flips down white shades to reveal a target's path. |
 | 024 | Numa | Herald | Agi | Ranged | Swallows a creep whole for health, then keeps the beat going on a silenced target until it dies. |
@@ -66,7 +66,7 @@ Rules for the roster columns:
 | 034 | Greg | Recluse | Int | Melee | Smiles warmly, unlit cigarette in his lips, while rockets drop on a zone he politely welcomed enemies into. |
 | 035 | Brian | Archivist | Agi | Melee | Grins through his braces as a target burns, attacking faster the closer his health gets to nothing. |
 | 036 | Disaster | Firebrand | Int | Ranged | Smirks at the viewer in front of a burning house, freezing enemies in place while the fire spreads. |
-| 037 | Attached | Tether | Agi | Melee | Holds both hands clasped under an unblinking smile, tethered to an ally so every heal is shared between them. |
+| 037 | Attached | Leash | Agi | Melee | Holds both hands clasped under an unblinking smile, tethered to an ally so every heal is shared between them. |
 | 038 | Zyzz | Showboat | Agi | Melee | Flexes a double bicep and breathes fire and ice, finishing with a wall of flames along a line. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
@@ -75,14 +75,14 @@ Rules for the roster columns:
 | 043 | Jack | Stalker | Str | Melee | Weeps black tar that bounces between enemies, then pulses outward to silence everyone standing close. |
 | 044 | Salad | Drifter | Str | Ranged | Clatters three spoons for an armor and slow aura, then takes control of a creep with rubbery fingers. |
 | 045 | Weegee | Phantom | Agi | Ranged | Stands perfectly rigid and stares, draining health from enemies, then hides inside one and heals from within. |
-| 046 | Hank | Tether | Int | Melee | Swings twin machetes in a line, stacking speed with each swing, then spends the stacks on a single burst. |
+| 046 | Hank | Leash | Int | Melee | Swings twin machetes in a line, stacking speed with each swing, then spends the stacks on a single burst. |
 | 047 | Tricky | Bulwark | Agi | Melee | Hops in, slams a stop sign, and turns the target into a sheep after a hockey-mask check. |
 | 048 | Peanut | Recluse | Agi | Melee | Stays motionless as concrete, regenerating only while no enemy hero watches, and grows stronger when unseen. |
 | 049 | Ecce | Archivist | Int | Melee | Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces. |
 | 050 | Gopnik | Firebrand | Str | Melee | Squats flat-footed with a crowbar across his knees, calling wolves, then becomes a werewolf himself. |
 | 051 | Mallcop | Bulwark | Int | Melee | Rides a scooter in a line of shocks, pinning one target and gathering the rest into a stun. |
 | 052 | Vapebro | Drifter | Agi | Ranged | Vapes a plume that sprays arrows everywhere, shields himself with sigma, and freezes enemies in the haze. |
-| 053 | Starwarskid | Tether | Str | Melee | Spins a golf-ball retriever like a staff, roots an area, and teleports to a clone left mid-spin. |
+| 053 | Starwarskid | Leash | Str | Melee | Spins a golf-ball retriever like a staff, roots an area, and teleports to a clone left mid-spin. |
 | 054 | Tay | Herald | Int | Ranged | Leans away from the microphone, snapping an arrow along a line and leaping to gain attack speed. |
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and copies one enemy ability. |
 | 056 | Kazoo | Showboat | Int | Ranged | Plays a kazoo that holds enemies in place, puts an area to sleep, and fills the lane with illusions. |
@@ -99,7 +99,7 @@ Rules for the roster columns:
 | 067 | Derp | Recluse | Int | Melee | Stumbles in cross-eyed dives, then pops back up from death, potato head first. |
 | 068 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |
 | 069 | Fuckyea | Showboat | Agi | Melee | Hooks and pulls targets from behind sunglasses while hands stay in pockets, growing smugger with every kill. |
-| 070 | Challenge | Tether | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
+| 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
 | 071 | Hipster | Herald | Agi | Melee | Teleports with a scarf flourish and scalds foes with pour-over coffee that keeps burning after the first hit. |
 | 072 | Brony | Phantom | Int | Ranged | Chains lightning from a plastic rainbow star staff and radiates a damage aura through sheer fedora eye contact. |
 | 073 | Tinfoil | Drifter | Agi | Ranged | Strikes from behind while unseen, blinks with a coat hanger, and leaves foil balls that revive allies once. |
@@ -123,7 +123,7 @@ Rules for the roster columns:
 | 091 | Plinker | Recluse | Agi | Ranged | Sits cross-legged behind a straw-hat decoy and trades places with it, then takes the shot from wherever the real one ended up. |
 | 092 | Frogger | Showboat | Int | Melee | Rides an imaginary hover motorcycle in mid-air, and the landing hits enemies with the full weight of a very real frog. |
 | 093 | Oiler | Recluse | Int | Ranged | Spins a canvas tote through crowds, then drags enemies along a rope of lavender vapor that smells expensive. |
-| 094 | Bathwater | Tether | Int | Ranged | Fires a laser out of a sealed canning jar that blinds targets, then bounces once to reset every cooldown. |
+| 094 | Bathwater | Leash | Int | Ranged | Fires a laser out of a sealed canning jar that blinds targets, then bounces once to reset every cooldown. |
 | 095 | Driver | Engine | Agi | Melee | Hurls a detached steering wheel at one enemy, then spins a keychain on a finger until the whole club piles on. |
 | 096 | Lifehack | Engine | Int | Ranged | Zip-ties enemies to the spot with a belt of neon fasteners, then hot-glues the problem shut in five minutes. |
 | 097 | Uber | Engine | Str | Melee | Offers mints and chilled water, and every passenger ally attacks faster for the whole ride. |
@@ -139,7 +139,7 @@ Rules for the roster columns:
 | 107 | Smugcat | Showboat | Agi | Melee | Squints from behind the salad, ropes a target across the table, and puts an arrow in it. |
 | 108 | Snackvendor | Herald | Str | Melee | Hands out soda hugs that heal allies and tournament curses that charm enemies, all from one armful of chips. |
 | 109 | Sealcommando | Stalker | Int | Ranged | Snipes from a crouch through four night-vision tubes, with desert camouflage that heals everyone standing in it. |
-| 110 | Scammer | Tether | Str | Ranged | Arcs a coiled phone cord onto a target while the headset pitch talks over every refusal. |
+| 110 | Scammer | Leash | Str | Ranged | Arcs a coiled phone cord onto a target while the headset pitch talks over every refusal. |
 | 111 | Preacher | Heckler | Agi | Ranged | Shouts through a battery megaphone so the sermon chains between enemies, and the raised Bible stuns whoever it lands on. |
 | 112 | Scalper | Archivist | Int | Melee | Drops sealed boxes as a rooting snare, and enemies standing nearby are charged a little more every second. |
 
