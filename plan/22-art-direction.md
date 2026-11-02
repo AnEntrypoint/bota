@@ -1,6 +1,6 @@
 # 22. Art direction
 
-Visual direction for the 112 heroes (roster 001 to 112, characters from bota/characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
+Visual direction for the 112 heroes (roster 001 to 112, characters from characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
 
 ## Rules used in every table
 
@@ -8,7 +8,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 - **Value groups.** Written as body / head / prop, using L (light), M (mid) and D (dark). Head and prop each differ from body by the 30% luminance delta in section 17. Mapping: L about 85%, M about 55%, D about 25% luminance, all UNVERIFIED.
 - **Head and prop default.** Body L gives head D, prop M. Body M gives head L, prop D. Body D gives head L, prop M. Set by rule, not by the prompt.
 - **Primary value group** is the body value.
-- **Sibling rule.** Within a role family, take the hero's 0-based index k in roster order. Body code is P(k mod 6 + 1). Body value is L, M, D for floor(k/6) = 0, 1, 2. Every prop in a role family is unique. Any two siblings therefore differ in prop silhouette and in at least one of body code or body value, which meets the two-of-three rule in section 15.
+- **Sibling rule.** Within a role family, take the hero's 0-based index k in roster order. Body code is P(k mod 6 + 1). Body value is L, M, D for floor(k/6) = 0, 1, 2. Every prop in a role family is unique, except for a hero with no held prop (plan/20 decision 25). Two siblings that both carry a prop differ in prop silhouette and in at least one of body code or body value. A hero with no held prop differs from each sibling in both body code and body value, which meets the two-of-three rule in section 15.
 - **Accent shifts** are named steps from the role family accent (section 15). No hex is set here.
 - **Color guards.** Keep #A35CFF and #6A1FD1 off hero trim; use a desaturated violet outside both. Keep red (damage only), #2E8BFF and #FF8A1F (team colors), and #3DDC97 (heal) off hero trim. Firebrand ember and Leash rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
 
@@ -86,7 +86,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
 | 069 | Fuckyea (P2) | Showboat | Hands jammed in trouser pockets | Peach, jet black | M / L / D |
 | 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
-| 071 | Hipster (P2) | Herald | Glass pour-over coffee carafe | Soft cyan, mustard | M / L / D |
+| 071 | Hipster (P2) | Herald | Glass teapot | Soft cyan, mustard | M / L / D |
 | 072 | Brony (P6) | Phantom | Staff topped with a glitter rainbow star | Lavender, pastel | L / D / M |
 | 073 | Tinfoil (P2) | Drifter | Copper wire coat-hanger antenna as a wand | Night blue, silver | M / L / D |
 | 074 | Flatearth (P4) | Archivist | Brass spirit level and glass dome | Sepia, map cream | L / D / M |
@@ -124,7 +124,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 106 | Gothgirl (P5) | Recluse | Cigarette with a rising smoke trail | Moss, black | M / L / D |
 | 107 | Smugcat (P5) | Showboat | White porcelain plate of green salad | Peach, white | M / L / D |
 | 108 | Snackvendor (P4) | Herald | Armful of chip bags and soda bottles | Soft cyan, neon green | M / L / D |
-| 109 | Sealcommando (P3) | Stalker | Suppressed heavy sniper rifle with bipod | Slate, desert camo | M / L / D |
+| 109 | Sealcommando (P3) | Stalker | Four-tube night-vision helmet | Slate, desert camo | M / L / D |
 | 110 | Scammer (P1) | Leash | Coiled landline handset and wireless earpiece | Rose, bright blue | M / L / D |
 | 111 | Preacher (P5) | Heckler | White megaphone and a leather-bound Bible | Mustard, charcoal | M / L / D |
 | 112 | Scalper (P6) | Archivist | Mountaineering backpack of graphics-card boxes | Sepia, dark | L / D / M |

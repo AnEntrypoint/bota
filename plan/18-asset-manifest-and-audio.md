@@ -23,12 +23,12 @@ Launch counts assume 24 heroes and four abilities each. Full-roster counts (112 
 | Cast VFX | 96 \[448\] | Particle, 512² flipbook |
 | Impact VFX | 96 \[448\] | Particle, peak 0.4 s or less |
 | Ground telegraphs (about 40% of abilities) | About 38 \[about 180\] | Team-colored decal |
-| Clout status icons | 9 | 64 × 64 |
+| Mechanic status icons | 9 | 64 × 64 |
 | Kill streak readout | 1 | Number on the Clout bar, not an icon |
 | Generic status icons | 12 | 64 × 64 |
 | Trend modifier icons | 8 | 64 × 64, plus 256 × 256 banner |
 
-Clout status icons: Reach (concentric arcs), Stan (raised sign), Hype Spike (spike with ring timer), Markdown (split circle), LIVE (filled dot with ring), Resell stacks 1 to 5 (curved double arrow with pips), Snapshot (corner brackets), Go Private (padlock with timer ring), Rebrand (circular arrow around a blank tag).
+Mechanic status icons: Reach (concentric arcs), Stan (raised sign), Hype Spike (spike with ring timer), Markdown (split circle), LIVE (filled dot with ring), Resell stacks 1 to 5 (curved double arrow with pips), Snapshot (corner brackets), Go Private (padlock with timer ring), Rebrand (circular arrow around a blank tag).
 
 ### Items
 

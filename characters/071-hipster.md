@@ -8,13 +8,13 @@ Hero slot: 071
 - Role: Resell healer, buffer
 - Attribute: Agi
 - Range: Melee
-- Distinct prop: Glass pour-over coffee carafe
+- Distinct prop: Glass teapot
 - Value groups (body / head / prop): M / L / D
 
 ## Subject
 
-thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding glass pour-over coffee carafe, casual intellectual posture
+thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding a glass teapot, casual intellectual posture
 
 ## Hook
 
-Teleports with a scarf flourish and scalds foes with pour-over coffee that keeps burning after the first hit.
+Teleports with a scarf flourish and scalds foes with a hot teapot pour that keeps burning after the first hit.

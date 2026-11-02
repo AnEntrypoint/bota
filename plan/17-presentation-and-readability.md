@@ -40,7 +40,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 | Clout, all Clout UI and VFX | #A35CFF | Reserved for Clout only. Never red. |
 | LIVE | Violet dot #6A1FD1, white ring | Never red. Deeper than Clout's #A35CFF so the two stay apart. |
 | Damage and danger | #D9534F | Flashing elements stay below R/(R+G+B) of 0.8 |
-| Heal and buff | #3DDC97 | Paired with an upward chevron |
+| Heal and buff | #3DDC97 | Paired with an upward chevron. The one green mark on an enemy is Noscope's crosshair (exception, UNVERIFIED). |
 | Debuff | Shape only | Inverted chevron |
 
 Rules:
@@ -52,7 +52,7 @@ Rules:
 ### UI
 
 - Top bar: Clout bar. Abbreviated 1.2K, exact on hover.
-- Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Engagement and Impressions.
+- Scoreboard: K, D, A, Clout, Net Worth. Tooltips: Clout and Reach (plan/06).
 - Tooltips: mechanical text first, italic flavor second. 14 px minimum.
 - Cursor: four states (default, attack, ability target, invalid). 32 × 32.
 - Minimap: Trend timer, Hype Spike overlays, the Front Runner icon (white pennant on a grey disc, UNVERIFIED), the Underdog reveal (white outline on the hero dot, UNVERIFIED), the Breaking News zone ring and capture meter (UNVERIFIED), and the day clock (a sun or moon glyph on the top edge, UNVERIFIED).

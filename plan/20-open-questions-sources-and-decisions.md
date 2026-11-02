@@ -50,7 +50,3 @@
 ### Open questions
 
 No design question in sections 1 to 24 and 26 is open: each is closed by a decision above or by a value in the body. Section 25 records engine and data questions; archive access is tracked as decision 21, not as an open question.
-
-### Sources
-
-The original-name parity map is decision 22. Numbers are set in the balance pass.

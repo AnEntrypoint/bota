@@ -1,6 +1,6 @@
 # 15. Roster and role families
 
-112 heroes across twelve gameplay role families. Roster slots 001 to 112 are characters 001 to 112 from bota/characters (INDEX.tsv order). Reserve 113 to 117 (Wanderer, Raker, Seeder, Wartrucker, Bouncer) has no role family or attribute until promoted. Each row gives the character, role family, attribute, range and a signature gag taken from the character prompt. The old archetype names are kept in the last column of the family table only.
+112 heroes across twelve gameplay role families. Roster slots 001 to 112 are characters 001 to 112 from characters (INDEX.tsv order). Reserve 113 to 117 (Wanderer, Raker, Seeder, Wartrucker, Bouncer) has no role family or attribute until promoted. Each row gives the character, role family, attribute, range and a signature gag taken from the character prompt. The old archetype names are kept in the last column of the family table only.
 
 ### Role families
 
@@ -100,7 +100,7 @@ Rules for the roster columns:
 | 068 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |
 | 069 | Fuckyea | Showboat | Agi | Melee | Hooks and pulls targets from behind sunglasses while hands stay in pockets, growing smugger with every kill. |
 | 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
-| 071 | Hipster | Herald | Agi | Melee | Teleports with a scarf flourish and scalds foes with pour-over coffee that keeps burning after the first hit. |
+| 071 | Hipster | Herald | Agi | Melee | Teleports with a scarf flourish and scalds foes with a hot teapot pour that keeps burning after the first hit. |
 | 072 | Brony | Phantom | Int | Ranged | Chains lightning from a plastic rainbow star staff and radiates a damage aura through sheer fedora eye contact. |
 | 073 | Tinfoil | Drifter | Agi | Ranged | Strikes from behind while unseen, blinks with a coat hanger, and leaves foil balls that revive allies once. |
 | 074 | Flatearth | Archivist | Str | Melee | Lifts and throws enemies with a spirit level, then copies their spells onto a flat map. |
@@ -143,4 +143,4 @@ Rules for the roster columns:
 | 111 | Preacher | Heckler | Agi | Ranged | Shouts through a battery megaphone so the sermon chains between enemies, and the raised Bible stuns whoever it lands on. |
 | 112 | Scalper | Archivist | Int | Melee | Drops sealed boxes as a rooting snare, and enemies standing nearby are charged a little more every second. |
 
-Reserve (not in the 112): the five slots named at the top of this chapter. Their prompts are in bota/characters.
+Reserve (not in the 112): the five slots named at the top of this chapter. Their prompts are in characters.

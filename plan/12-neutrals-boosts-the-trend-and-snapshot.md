@@ -41,7 +41,7 @@ Six listed boosts plus the Demand Boost (section 21): seven in total. Two spawn 
 | Dank Goods (Regeneration) | Heal 4 HP per second (GUESS: a steady heal the 20 s duration can carry) | 20 s |
 | Bounty | 150 gold and 100 XP on pickup (GUESS: a fixed sum near an early camp) | One-time |
 
-Bounty boosts spawn at the river at game start. Four in total. They give gold and XP, except the first boost at game start, which gives gold only.
+Bounty boosts spawn as plan/05 sets out. They give gold and XP, except the first boost at game start, which gives gold only.
 
 ### The Trend
 

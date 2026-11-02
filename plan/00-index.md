@@ -20,7 +20,7 @@ This bible specifies a complete 5v5 MOBA on a classic MOBA rule set, with the Br
 - [12. Neutrals, boosts, The Trend and Snapshot](12-neutrals-boosts-the-trend-and-snapshot.md)
 - [13. Vision and fog](13-vision-and-fog.md)
 - [14. Draft and modes](14-draft-and-modes.md)
-- [15. Roster and archetypes](15-roster-and-archetypes.md)
+- [15. Roster and role families](15-roster-and-archetypes.md)
 - [16. Humor and tone](16-humor-and-tone.md)
 - [17. Presentation and readability](17-presentation-and-readability.md)
 - [18. Asset manifest and audio](18-asset-manifest-and-audio.md)

@@ -54,7 +54,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
 | Forever (Recluse) | Again, again, again. Nice one. | Crawling back to the start. | Loop again. Charming yet? |
 | Scammer (Leash) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
-| Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Please stay in the sun. Thank you. |
+| Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Please stay in the sun. |
 | Lifehack (Engine) | Glue gun set. Enemy no longer standing. | Tape ran out. Turf stayed, I did not. | Zip-ties on the belt, growing slowly. |
 
 ### Hero pair lines

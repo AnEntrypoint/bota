@@ -4,7 +4,7 @@
 
 UNVERIFIED. No simulation exists. Flags are read from the kit text (sections 9, 10, 21). This is not a power budget or a balance result.
 
-Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits are GUESS (theme only); kit mechanics are unchanged, so the flags carry over.
+Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUESS (theme only); kit mechanics are unchanged, so the flags carry over.
 
 ## Method
 

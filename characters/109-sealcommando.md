@@ -8,12 +8,12 @@ Hero slot: 109
 - Role: Assassin, vision denial
 - Attribute: Int
 - Range: Ranged
-- Distinct prop: Suppressed heavy sniper rifle with bipod
+- Distinct prop: Four-tube night-vision helmet
 - Value groups (body / head / prop): M / L / D
 
 ## Subject
 
-full digital desert camouflage battle dress, four-tube panoramic night-vision goggle mount flipped down over eyes, heavy tactical chest rig, suppressed heavy sniper rifle with bipod, low tactical combat crouch
+full digital desert camouflage battle dress, four-tube panoramic night-vision goggle mount flipped down over eyes, heavy tactical chest rig, low tactical combat crouch
 
 ## Hook
 

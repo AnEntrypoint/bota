@@ -280,7 +280,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Hipster"
-    prompt: "stylized 3d character, thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding glass pour-over coffee carafe, casual intellectual posture, soft studio key light, neutral background"
+    prompt: "stylized 3d character, thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding a glass teapot, casual intellectual posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Brony"
@@ -432,7 +432,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Sealcommando"
-    prompt: "stylized 3d character, full digital desert camouflage battle dress, four-tube panoramic night-vision goggle mount flipped down over eyes, heavy tactical chest rig, suppressed heavy sniper rifle with bipod, low tactical combat crouch, soft studio key light, neutral background"
+    prompt: "stylized 3d character, full digital desert camouflage battle dress, four-tube panoramic night-vision goggle mount flipped down over eyes, heavy tactical chest rig, low tactical combat crouch, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Scammer"
