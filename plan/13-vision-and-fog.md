@@ -31,7 +31,7 @@ Vision decides what the enemy can see, and therefore what they can take. Under B
 - **Hidden:** no enemy hero sees you. No Clout is earned. This is the vision side of plan/06's Quiet state: Quiet is Hidden with Clout below the Hype Spike threshold, and a hero at that threshold is Hyped instead (plan/06 overlap order).
 - **Revealed** (a visibility flag, not a Clout state): an enemy ward, a reveal tool, or a reveal modifier or ability (Cast Rush, Tendril Flare) shows your position. No Clout is earned.
 
-The LIVE dot is violet with a white ring. It is never red (red means damage).
+The LIVE dot uses the colour and ring in decision 16. It is never red (red means damage).
 
 ### Day and night
 

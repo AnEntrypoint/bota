@@ -27,7 +27,7 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 - `.github/workflows/tests.yml` (lines 152 to 165) runs `mapexport` twice and compares the bytes.
 - `scripts/pack-package.mjs`: `--build` runs `mapexport` first; archives are split above 25 MiB.
 - `scenarios/moba/tools/check-fx.mjs` runs in CI (docs/MODDING.md).
-- `rust/gate/` holds check modules (checks.rs, mechanic_checks.rs, spell_checks.rs, mod_checks.rs). Not read for this note.
+- `rust/gate/` holds check modules (checks.rs, mechanic_checks.rs, spell_checks.rs, mod_checks.rs).
 
 Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. If one edit is missed, `layout-site.sh` still succeeds and ships a pack with no `.osdt`, because it checks only the moba pack.
 
@@ -51,7 +51,7 @@ Status words: exists, partial (format or content partly there), missing.
 
 | Plan table (section) | Proposed data file and format | Repo file or folder already in that role | Status |
 | --- | --- | --- | --- |
-| Hero: roster (15), kits (9, 10), flags (24) | `data/heroes.tsv`, one row per hero. Key `hero_id` 001 to 112, stable. Columns: `slug`, `name`, `archetype_id`, `attr`, `range`, `launch`, `status`. Compiles to `unit(...)` lines. | `scenarios/moba/units_heroes.osd`; `scenarios/moba/heroes_688g.tsv` (original-game names); `scenarios/moba/heroes.lua`; generator pattern `scenarios/moba/tools/gen-heroes.mjs`; view `docs/REFERENCE.md` (128 heroes, all rows read are UNVERIFIED) | partial: format and generator pattern exist. The content is the original-game roster, not the 112-entry plan roster. |
+| Hero: roster (15), kits (9, 10), flags (24) | `data/heroes.tsv`, one row per hero. Key `hero_id` 001 to 112, stable. Columns: the `heroes.tsv` line below. Compiles to `unit(...)` lines. | `scenarios/moba/units_heroes.osd`; `scenarios/moba/heroes_688g.tsv` (original-game names); `scenarios/moba/heroes.lua`; generator pattern `scenarios/moba/tools/gen-heroes.mjs`; view `docs/REFERENCE.md` (128 heroes, all rows read are UNVERIFIED) | partial: format and generator pattern exist. The content is the original-game roster, not the 112-entry plan roster. |
 | Archetype: 12 rows (15), budgets and counters (19), lanes (14) | `data/archetypes.tsv`, one row per archetype. Columns: canonical `name`, `alias` (the short labels that file 10 and file 15 use), `role`, budget fields, `hard_counter` as an archetype id. | None. FORMAT.md has no archetype field. The UNIT filter mask (FNAM, 15 bits) is the nearest carrier. | missing |
 | Ability: kits (9, 10) and value tiers (9) | `data/abilities.tsv`, key `hero_id` plus `slot` 1 to 4. Columns: `slug`, `name`, `kind`, `tier`, damage, cooldown and sigma for ranks 1 to 4, `ult_gate_1..3`, `status`. Compiles to `ability(...)`, SKIL and AXTN records. | `scenarios/moba/abilities.osd`; `abilities_688g_b01.osd` to `b12.osd`; `abilities_688g.tsv`; `abilities_688g_perlevel.tsv`; `scenarios/moba/tools/gen-abilities.mjs`, `ability-recipes.mjs`; FORMAT.md SKIL (per-rank damage, cooldown, energy) | partial: per-rank values fit SKIL. Ultimate gates are 6, 11 and 16, as FORMAT.md line 315 states. |
 | Talents (21) | `data/talents.tsv`, key `hero_id` plus level 10, 15, 20 or 25. Columns: choice `L` and `R` as text and as numbers, `status`. | `scenarios/moba/talents.lua` (a rules module); no table | partial |
@@ -132,7 +132,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 | Trend HP 8000, plus 175 per minute; magic resistance 55% | 12 | The repo has a boss row from 6.88g (section 8 of the convergence report). Pairing needs the map. | UNVERIFIED |
 | Clout, Markdown, Resell, Hype Spike, Stan values | 6, 8 | Brainrot originals. A classic archive cannot contain them. | GUESS (Brainrot original, no source) |
 | Ability value tiers (damage 80 to 320, cooldowns, sigma) | 9 | Repo ability rows are original-game values, all UNVERIFIED | UNVERIFIED |
-| Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md line 315 gives ultimates 6, 11, 16 | Agrees with the plan. See R4. |
+| Ultimate unlocks at 6, 11, 16 | 7, 9 | FORMAT.md line 315 gives ultimates 6, 11, 16 | Agrees with the plan. |
 
 To make a check possible: (1) have the owner supply the archive, (2) run `convert-688g-map.mjs` with the archive path as an argument, not a machine path, (3) pair locally against the map, (4) write `checked:<path>` into the matching `status` cells. Step 3 cannot run in CI until the map is tracked.
 
@@ -143,7 +143,6 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 - **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `247420/internal/`, so the map does not ship today.
 - **R2. The plan is tracked but outside the build.** `plan/` and `internal/` are tracked in git; `layout-site.sh` does not copy them. Drift checks can read them in CI, but generated plan tables are never shipped.
 - **R3. Pack wiring is hard-coded.** `stage.sh` line 11, `pages.yml` lines 75 to 77 and `ci.yml` lines 139 to 141 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
-- **R4. Ultimate gates agree.** FORMAT.md line 315 gives 6.88g ultimates 6, 11 and 16, the same as plan sections 7 and 9.
 - **R5. Time units do not divide evenly.** Ticks run at 16 per second (REFERENCE.md line 5), and FORMAT.md requires durations as integer ticks. The plan's 3.8 s per level gives 60.8 ticks. Resolved in section 2: ticks round to the nearest integer, so 3.8 s is 61 ticks.
 - **R6. Clout, Reach, Stan, Markdown, Resell and global Trend modifiers have no data slot.** ITEM_STATS is fixed at 48 entries (FORMAT.md line 304), and plan decision 9 says Clout is never a stat, so these are Lua hooks. AXTN modifiers (8 per ability, FORMAT.md line 336) cannot express a global modifier. Each hook runs under a 2,500-step budget (docs/MODDING.md line 47), which constrains per-tick Reach recalculation.
 - **R7. Filter bits are capped.** FNAM allows at most 15 bits (FORMAT.md line 384). Twelve archetype filters plus role filters can exhaust that. Keep archetype as a data column and use filter bits only for targeting.
@@ -160,13 +159,3 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 - **Sell-back rule gap.** plan/11 gives a full refund within 10 s of purchase, then 50%. The engine repo's store.lua sale_refund gives floor(cost/2) with no window (AGENTS.md). The plan keeps its rule until the balance pass decides (UNVERIFIED).
 
 1. **Starting gold: resolved.** 600, per section 20, decision 14 (UNVERIFIED); the repo holds 875 (table above).
-
-### Resolved (moved from open questions)
-
-- **Plan distance unit: resolved 2026-10-27.** Distances are game units; 1 game unit is 125/8 milli-units (section 20, decision 24).
-- **Pack location: resolved.** The slice pack goes in option B's `247420/pack/` folder, which does not exist yet; it moves to `scenarios/brainrot/` once the pack wiring lines land (R3).
-- **Power tiers and budgets: resolved.** Power-tier letters are withdrawn (decision 20). Archetype budgets are the tier table in plan/19.
-- **Rebrand: resolved.** An action (file 05), never an item.
-- **Trend modifiers: resolved.** Eight, with Demand Tide and Solo Queue added (file 12).
-- **Missing rows: resolved.** Drain Blade, Grindset and Lite Plan have rows; Spoiler Tag is Tier 1 (file 11).
-- **Who sets `checked`: resolved.** The build owner runs the local pairing and writes `checked:`; no CI job can.

@@ -1,6 +1,6 @@
 # 24. Power tier draft (UNVERIFIED)
 
-**Status: tier letters withdrawn.** The first pass put 64 of 112 heroes in A, so the letters measure nothing. The flag list and the test-first list stay: they are what the first playtest should check. UNVERIFIED throughout.
+**Status: tier letters withdrawn** (decision 20). The flag list and the test-first list stay: they are what the first playtest should check. UNVERIFIED throughout.
 
 No simulation exists. Flags are read from the kit text (sections 9, 10, 21). This is not a power budget or a balance result.
 

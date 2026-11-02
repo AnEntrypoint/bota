@@ -35,9 +35,9 @@ Each hero can override the base attack time and turn rate. These two values defi
 
 - Level cap: 25. Level comes from XP (section 5).
 - Ability points: one per level, from level 1 to 25 (25 in all). An ultimate uses no extra point; it takes one of the points at its unlock level (6, 11 or 16).
-- Ultimates unlock at levels 6, 11 and 16. They max at level 3.
+- Ultimates max at level 3.
 - Standard abilities max at level 4.
-- Level 25 is the final level. Points left after the three basic skills and the ultimate are maxed stay unspent.
+- Level 25 is the final level. Leftover points stay unspent (decision 26).
 
 ### Respawn
 

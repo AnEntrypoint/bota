@@ -7,7 +7,7 @@ Emergent rewrite (GUESS): each effect carries its character's gag (a visible tra
 
 ### Ability value tiers
 
-Every ability uses one of these tiers. Every number here is UNVERIFIED until a playable build exists. Each hero's abilities are sized to them, with the role-family talent sets in section 21 added on top.
+Every ability uses one of these tiers. Each hero's abilities are sized to them, with the role-family talent sets in section 21 added on top.
 
 | Ability type | Level 1 | Level 2 | Level 3 | Level 4 | Cooldown (L1 to L4) | Sigma (L1 to L4) |
 | --- | --- | --- | --- | --- | --- | --- |

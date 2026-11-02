@@ -106,7 +106,6 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 
 Design notes:
 
-- Anon Mask is an invisibility item. It is not a blink, and the name matches the function.
 - Pro Plan is named for what it does.
 - Orb effects do not stack (plan/20 decision 3). Other attack modifiers stack additively: percent bonuses add together, then flat bonuses add (UNVERIFIED).
 

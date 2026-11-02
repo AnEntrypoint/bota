@@ -114,7 +114,7 @@ Numbers in this section are UNVERIFIED.
 
 Numbers in this section are UNVERIFIED.
 
-- Job: map pressure, rotation (plan/02, Map pressure row). The cost is the river walk.
+- Job: the Boosts Job line in plan/12.
 - Spawns with the other boosts on the river. Lasts 50 s.
 - While held: Reach +100 and a white diamond pip on the minimap, shown to the holder's team only (UNVERIFIED). No cooldown or sigma change.
 

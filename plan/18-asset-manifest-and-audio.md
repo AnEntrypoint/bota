@@ -84,7 +84,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | LIVE dot | 1 | LIVE. Slow pulse, 1 Hz or below. |
 | Scoreboard | 1 | K, D, A, Clout, Net Worth |
 | Pick and ban screen | 1 | Draft your content plan |
-| Loading screen | 1 template, 24 dioramas | What is everyone talking about this match? |
+| Loading screen | 1 template, 24 dioramas | Caption from gag 01 (plan/16) |
 | Victory and defeat | 2 | Victory. Stall sold. / Defeat. Stall closed. |
 | Shop | 1 | The Plug |
 | Chat wheel | 1 wheel, 21 phrases | Seen. / Listing this. / Muted, respectfully. / Ward the river pls. / We're so back. / It's so over. / Chat, is this real? / Cope. / F. / Bruh. / Sus. / Let him cook. / Cooked. / Touch grass. / Skill issue. / Seethe. / Cry about it. / L + markdown. / Mald. / No cap. / Ok boomer. |
