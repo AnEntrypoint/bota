@@ -3,6 +3,8 @@
 Numbers in this chapter are UNVERIFIED.
 Every hero has three attributes, a primary attribute, and a base stat block.
 
+Job: attributes and levels are the Power growth of the Talents row in plan/02; the attribute split is the cost.
+
 ### Attributes
 
 | Attribute | Per point | Notes |

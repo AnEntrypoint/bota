@@ -94,7 +94,7 @@ Numbers in this section are UNVERIFIED.
 
 - Job: power growth (plan/02, Talents row). The cost is the item slot and its gold.
 - Cost: plan/11 Stats and costs. A standalone item, not built from Pro Plan.
-- Adds one second effect to a basic ability on the holder. The effect per hero is UNVERIFIED; the balance pass sets it.
+- Adds a second effect to a basic ability on the holder: that ability's cooldown is 1 s shorter (UNVERIFIED).
 - Stacks with Pro Plan.
 
 ### Chat Check

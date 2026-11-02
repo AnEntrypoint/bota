@@ -9,7 +9,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.
 6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldown is 8 s (GUESS: long enough that a line does not repeat within one fight; the balance pass sets it).
 7. Item flavor is the second, italic line of a tooltip. Mechanics come first. Compact tooltips hide flavor (file 16, gag 09).
-8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Tricky and Ghillie speak in records and citations, and so do the Utility and Harasser archetypes; every other hero keeps its own register within the archetype voice.
+8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Tricky and Ghillie speak in records and citations, and so do the Utility and Harasser archetypes; every other hero keeps its own register within the archetype voice. Tinfoil (Drifter) is the one deliberate exception and speaks in the Assassin register.
 
 ### Voice by archetype
 
@@ -22,7 +22,6 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Ranged nuker | Quiet and tired; reads the market aloud. | "Load more." |
 | Resell healer, buffer | Friendly and eager; means well and interrupts itself. | "Just checking in." |
 | Reach tank, initiator | Calm and procedural; violence is quiet, not shouted. | Short polite orders. |
-| Bulwark | Calm and procedural, like the Reach tank; holds the line without raising its voice. | Short polite orders. |
 | Ghost-account summoner | No name, no history, confident anyway. | "Listed anonymously." |
 | Hot-take initiator | Loud, certain, always at emergency volume. | "UNPOPULAR OPINION:" |
 | Utility, zone control | Dry and exact; cites dates and logs. | "On file." / "Per the log." |
@@ -44,7 +43,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Viking (Herald) | Finger pointed. Scrolled past. Next. | Bottle's empty. Lecture cut short. | Marching in place. Drink water, friend. |
 | Hank (Leash) | Machete, machete, machete again. | Lenses dimmed. Market went quiet. | Blades low. Refresh? Yes. Again. |
 | Boxxy (Leash) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
-| Waffle (Bulwark) | Tray swung! Pinged everyone, mostly by accident. | Tray hit the floor. Everyone mentioned me. | Hiding behind the tray. Hello? Anyone? |
+| Waffle (Bulwark) | Tray swung. Pinged everyone, by accident. | Tray on the floor. Everyone mentioned me, in order. | Holding the tray in position, as instructed. |
 | Chudjak (Bulwark) | Manifesto read aloud. Please remain where you are. | The manifesto fell out. I will pick it up, politely. | Holding the line, standing firm. Carry on, please. |
 | Airhorn (Heckler) | Canisters spent. Logged: quiet now. | Earmuffs bounced off. Correction: quiet, finally. | Jumping in place. Canisters counted, per the log. |
 | Helios (Phantom) | Anonymous. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no sales. |
@@ -72,7 +71,7 @@ Each pair plays once per match, on the first moment an enemy hero sees the other
 | 6 | Helios (Phantom) | No name, no trail, no problem. | Ghillie (Stalker) | Twine remembers. It says you. |
 | 7 | Spudgunner (Drifter) | That reply needs a full ticker. | Waffle (Bulwark) | Pinged you mid-ticker. Sorry. Mostly. |
 | 8 | Starwarskid (Leash) | Alt account for this one. Pole swung. | Fuckyea (Showboat) | Which account is this? Ask me later. |
-| 9 | Scammer (Leash) | Call me back! Tickets still available! | Viking (Herald) | Hydrate. Scroll past. Load more. |
+| 9 | Scammer (Leash) | Call me back! Tickets still available! | Viking (Herald) | Hydrate. Scroll past. Just checking in. |
 | 10 | Lifehack (Engine) | Glue gun warm. Turf's still nicer. | Noscope (Stalker) | Pixel shades on. Vibe check not included. |
 
 ### Formerly tag

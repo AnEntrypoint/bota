@@ -57,7 +57,7 @@ Lane preference by archetype. This is guidance for the draft UI, not a restricti
 - Carry: Late-game Clout carry, Clout carry, Ranged nuker
 - Mid: Ranged nuker, Ghost-account summoner, Hot-take initiator
 - Offlane: Reach tank, initiator, Hot-take initiator
-- Roamer: Assassin, vision denial, Harasser, zoner, Tethered support, dueler
+- Roamer: Assassin, vision denial; Harasser, zoner; Tethered support, dueler
 - Hard support: Resell healer, buffer, Utility, zone control
 
 ### Ban phase
