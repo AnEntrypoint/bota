@@ -17,4 +17,4 @@ plain white baseball cap worn forward, oversized black suit jacket, bright red n
 
 ## Hook
 
-Screams at enemies until they turn into bit players, then unspools film strips into serpents.
+Unspools film strips into serpents, then turns the rest of the cast into bit players.

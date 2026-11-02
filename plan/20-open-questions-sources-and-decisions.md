@@ -40,12 +40,13 @@
 | 35 | Front Runner's icon is a choice: its heroes may hide it for 20 s by giving up Reach +50 for that window (UNVERIFIED). | The leader had no choice, only an icon it could not avoid. |
 | 36 | Tier 4 finished items are sold at the Back Alley Shop, with the Tier 2 and Tier 3 items. | Tier 4 items had prices but no sale point. |
 | 37 | A hard disable is a stun, hold, sleep, fear, charm, polymorph, cyclone or petrify; silence, root, slow, blind, disarm and taunt are soft. | C6 and the resell trigger need one definition. |
-| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, Lamp Reflect, Reply All, Zip Tie Network, and the Handlebar Appeal and Bulwark Reflect 10% talents) share one per-hit reflect cap of one quarter of the hit, value UNVERIFIED. | Nine reflects need the same rule. |
+| 38 | Passives that reflect damage to an attacker (Rolling Back, Receipt Reflect, Sad Clapback, Chunky Shell, Lamp Reflect, Reply All, Zip Tie Network, and the level-20 Handlebar Appeal (Frogger) and Bulwark Reflect 10% talents in plan/21) share one per-hit reflect cap of one quarter of the hit, value UNVERIFIED. | Nine reflects need the same rule. |
 | 39 | The launch set is the 24 heroes with kits in plan/09, Frogger and Chudjak included. Mallcop and Rageguy are remaining heroes with kits in plan/10. The plan/23 voice, the plan/25 heroes.tsv row and the plan/26 slice follow this set. | plan/09 holds the kits and plan/21 the talents the engine data is built on. |
 | 40 | The resource is named sigma in every design doc: prose, table column names and character text. Original names stay in internal/parity-map.md. Engine identifiers live in the engine repo and change only when its data format does. | Owner request for a full rename. Sigma is the Brainrot resource word; the rename removes the original resource name from shipped text. |
 | 41 | The energy-drink item is named Coffee. Brand names stay out of shipped text under decision 7; the parity map keeps the original name. | Owner flagged the brand as a trademark risk and chose Coffee as the replacement. |
 | 42 | GUESS marks a value, name or slot choice with no source in 6.88g, the repo or the web, and its row gives the reason. UNVERIFIED marks a value that has a source not yet checked. | Keeps a design guess apart from a source-backed value that is not checked yet. |
 | 43 | The spike is named Hype Spike and the state is named Hyped. Crypto terms stay out of shipped text. | Owner: crypto is lame; the spike and the state keep their mechanics. |
+| 44 | Open Market is the casual mode with no bans. Players pick in seat order, one at a time, and a later seat picks from the heroes the earlier seats left (UNVERIFIED). | Gives the free pick a cost on each side (plan/02 rule 2), as decision 33 requires of every draft. |
 
 ### Open questions
 

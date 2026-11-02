@@ -164,7 +164,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Jeff"
-    prompt: "stylized 3d character, bleached paper-white face, unclosing lidless black ringed eyes, carved bloody crimson smile from ear to ear, blood-flecked oversized white hoodie, black skinny jeans, steel kitchen butcher knife, soft studio key light, neutral background"
+    prompt: "stylized 3d character, bleached paper-white face, unclosing lidless black ringed eyes, carved bloody crimson smile from ear to ear, blood-flecked oversized white hoodie, black skinny jeans, cast-iron frying pan held low, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Jack"
@@ -428,7 +428,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Snackvendor"
-    prompt: "stylized 3d character, bright green dealer sun-visor, black-and-green tournament gaming headset, bright red oversized athletic tee, armful of triangular tortilla chip bags and 2-liter neon-green soda bottles, triumphant celebratory stance, soft studio key light, neutral background"
+    prompt: "stylized 3d character, bright green dealer sun-visor, black-and-green tournament gaming headset, bright red oversized athletic tee, armful of generic chip bags and a plain soda bottle, triumphant celebratory stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Sealcommando"

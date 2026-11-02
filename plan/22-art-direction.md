@@ -57,7 +57,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 039 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
 | 040 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
 | 041 | Fuuuu (P4) | Recluse | Hands clutching temples (no held prop) | Moss, pale | L / D / M |
-| 042 | Jeff (P3) | Stalker | Steel kitchen butcher knife | Slate, bleached white | L / D / M |
+| 042 | Jeff (P3) | Stalker | Cast-iron frying pan held low | Slate, bleached white | L / D / M |
 | 043 | Jack (P4) | Stalker | Polished steel surgical scalpel | Slate, royal blue | L / D / M |
 | 044 | Salad (P4) | Drifter | Three silver spoons between knuckles | Night blue, olive | L / D / M |
 | 045 | Weegee (P2) | Phantom | Hypnotic stare (no held prop) | Lavender, emerald | L / D / M |

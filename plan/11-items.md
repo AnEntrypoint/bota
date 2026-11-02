@@ -90,7 +90,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Sponsored Style | Creates illusions | Duplicates you. Disclosed. |
 | Rescheduled | Disables and displaces | Moved to a later time. |
 | Pro Plan | Upgrades the ultimate per hero | Upgrade unlocked. |
-| Monetized | Converts creep kills to gold | Gold from creeps. |
+| Monetized | Creep kills give +25% gold | Gold from creeps. |
 | Sheep Check | Polymorph on the target | Deliberate. Sheepish. |
 | Dunk | Silence and bonus damage | Silenced. Still right. |
 | Heavenly Feedback | Disarms and slows | Feedback delivered in person. |

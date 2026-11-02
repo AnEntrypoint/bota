@@ -60,7 +60,7 @@ Rules for the roster columns:
 | 028 | Chudjak | Bulwark | Int | Melee | Clubs a line of enemies with a rolled manifesto and grows angrier the more of them surround him. |
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
 | 030 | Rageguy | Firebrand | Agi | Melee | Roots enemies with pulsing temple veins, then dashes through them and leaves a howling clone behind. |
-| 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon while a soggy bowl lets hits slide off and a flattered creep switches sides. |
+| 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon that hushes a creep while a soggy bowl lets hits slide off. |
 | 032 | Yao | Heckler | Int | Ranged | Waves off every enemy with one dismissive hand, dragging them to a point, then laughs them into a stun. |
 | 033 | Steve | Drifter | Int | Ranged | Flicks a cheap stopwatch and snaps back to where he stood moments ago, leaving pursuers chasing a ghost. |
 | 034 | Greg | Recluse | Int | Melee | Smiles warmly, unlit cigarette in his lips, while rockets drop on a zone he politely welcomed enemies into. |
@@ -107,7 +107,7 @@ Rules for the roster columns:
 | 075 | Deepfried | Drifter | Int | Ranged | Burrows through the ground with red lens flares blasting from the eyes, leaving blinding waves of repeated damage. |
 | 076 | Glitch | Phantom | Str | Ranged | Holds an enemy in place and copies its image through red, green and blue offset layers. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
-| 078 | Critic | Archivist | Agi | Melee | Screams at enemies until they turn into bit players, then unspools film strips into serpents. |
+| 078 | Critic | Archivist | Agi | Melee | Unspools film strips into serpents, then turns the rest of the cast into bit players. |
 | 079 | Crossfit | Engine | Agi | Melee | Silences a whole area with chalk, then rolls a tractor tire in to stun anyone left muted. |
 | 080 | Acorn | Stalker | Agi | Ranged | Dives and fires at the ground in a full tactical loadout, lifesteals through the plate carrier, and revives after death. |
 | 081 | Mallarcher | Engine | Int | Ranged | Silences a target with six absurdly long stabilizer rods, then slows survivors with neon-fletched arrows. |

@@ -13,7 +13,7 @@ Hero slot: 108
 
 ## Subject
 
-bright green dealer sun-visor, black-and-green tournament gaming headset, bright red oversized athletic tee, armful of triangular tortilla chip bags and 2-liter neon-green soda bottles, triumphant celebratory stance
+bright green dealer sun-visor, black-and-green tournament gaming headset, bright red oversized athletic tee, armful of generic chip bags and a plain soda bottle, triumphant celebratory stance
 
 ## Hook
 

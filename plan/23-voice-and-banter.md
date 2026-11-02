@@ -33,7 +33,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Hero (role family) | Kill | Death | Idle |
 |---|---|---|---|
 | Grey (Drifter) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
-| Spudgunner (Drifter) | Full ticker on that shot, coming up. | Pipe's dry! Muffs stay on. | Hands on the gauge. Pressure's fine. |
+| Spudgunner (Drifter) | Full ticker on that shot, coming up. | Shot's gone. Muffs stay on. | Hands on the pipe. Whistling, mostly. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
 | Boomer (Heckler) | Correction: across the lawn, then here, per the log. | Citation on file: the sun got me. | Weedwhacker idling. Logged, right behind you. |
 | Disaster (Firebrand) | THAT KILL! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
@@ -52,7 +52,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
 | Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
 | Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
-| Forever (Recluse) | Again, again, again. Nice one. | Crawling back to the start. | Loop again. Charming yet? |
+| Forever (Recluse) | Nice one. Sleep it off. | Crawling back to the start. | Loop again. Charming yet? |
 | Scammer (Leash) | Congratulations, you've won a loss! | Line's tangled. Call you right back! | Pacing the sales floor. One moment! |
 | Prepper (Bulwark) | Blast door swung. Fresh air, delivered smugly. | Went outside, got hit. Worth it. | Please stay in the sun. |
 | Lifehack (Engine) | Glue gun set. Enemy no longer standing. | Tape ran out. Turf stayed, I did not. | Zip-ties on the belt, growing slowly. |

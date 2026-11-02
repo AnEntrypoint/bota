@@ -138,7 +138,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision |
 | Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach |
-| Viking | When a rooted target dies, the root jumps to the nearest enemy hero within 300. | Clout |
+| Viking | When a rooted target dies, the root jumps to the nearest enemy hero within 300. | None |
 | Hank | Each Machete Meter stack adds Reach +20. | Reach |
 | Boxxy | Eyeliner Bleed shows its team each enemy's last seen position for 10 s. | Vision |
 | Waffle | Pillbox Apology gives a pinged ally Stan radius +100 for 5 s. | Stan |

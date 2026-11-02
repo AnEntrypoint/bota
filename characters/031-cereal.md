@@ -17,4 +17,4 @@ clean white porcelain cereal bowl head filled with round cereal bits and white m
 
 ## Hook
 
-Argues mid-sentence with a tablespoon while a soggy bowl lets hits slide off and a flattered creep switches sides.
+Argues mid-sentence with a tablespoon that hushes a creep while a soggy bowl lets hits slide off.
