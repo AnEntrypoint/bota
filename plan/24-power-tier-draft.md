@@ -145,7 +145,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 6. Oiler (093): Yoga Stack with no cap stated. Measure armor at fight end against damage taken. Pass: armor at fight end stays within 10 of the archetype average (UNVERIFIED).
 7. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: the global choice's win rate stays within 5 points of the local one (UNVERIFIED).
 8. Airhorn (088): talent grows Escalating Blare per cast with no cap stated. Measure the damage multiplier after repeated casts in one fight. Pass: the damage multiplier after 5 casts stays at or below 2× (UNVERIFIED).
-9. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (UNVERIFIED).
+9. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
 10. Soyjak (006): sleep has no timer and damage wakes it. Measure the longest sleep on a target that takes no damage. Pass: the longest undamaged sleep stays at or below 3 s (UNVERIFIED).
 11. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
 12. Numa (024): ult silences and damages until the target dies, with no timer. Measure the longest silence on a target that survives. Pass: the longest silence on a surviving target stays at or below 3 s (UNVERIFIED).

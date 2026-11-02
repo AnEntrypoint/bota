@@ -7,7 +7,7 @@ The draft is the first decision of the match. It sets the hero pool, the lane pl
 
 | Mode | Use | Rule |
 | --- | --- | --- |
-| Showrunner Draft | Ranked and main | Two captains ban and pick in turn. 30 s per pick, 130 s bonus time per team (UNVERIFIED). |
+| Showrunner Draft | Ranked and main | Two captains (the first seated player on each team, UNVERIFIED) ban and pick in turn. 30 s per pick, 130 s bonus time per team (UNVERIFIED). |
 | Open Market | Casual | Each player picks freely. No bans. |
 | Demand Draft | Casual | Heroes drawn from a 50-hero pool (UNVERIFIED). |
 | Shuffle Draft | Casual | Each player picks from a random 10-hero set (UNVERIFIED). |

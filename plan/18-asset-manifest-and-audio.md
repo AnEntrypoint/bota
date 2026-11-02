@@ -24,6 +24,7 @@ Launch counts assume 24 heroes and four abilities each. Full-roster counts (112 
 | Impact VFX | 96 \[448\] | Particle, peak 0.4 s or less |
 | Ground telegraphs (about 40% of abilities) | About 38 \[about 180\] | Team-colored decal |
 | Clout status icons | 9 | 64 × 64 |
+| Kill streak readout | 1 | Number on the Clout bar, not an icon |
 | Generic status icons | 12 | 64 × 64 |
 | Trend modifier icons | 8 | 64 × 64, plus 256 × 256 banner |
 

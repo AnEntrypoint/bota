@@ -74,7 +74,7 @@ Each event has one line. The Alternates table adds seven lines for game states t
 
 | Game state | Line |
 |---|---|
-| First kill after a 5-minute drought | Finally listed. |
+| First kill after a 5-minute drought | Finally open for business. |
 | Third kill in a row inside one lane | Bumped it again. |
 | Lane creep wave dies untouched | Nobody replied. |
 | Team wipe while you are Hyped | Repeated by all five. |

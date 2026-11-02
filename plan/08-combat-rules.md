@@ -25,7 +25,7 @@ Numbers in this chapter are UNVERIFIED.
 
 - Evasion uses pseudo-random distribution, checked on impact.
 - Miss chance is separate from evasion.
-- True strike ignores evasion. Sources: specific items and the Hot-take initiator archetype.
+- True strike ignores evasion. Source: the Hot-take initiator role (Firebrand family, plan/15).
 
 ### Lifesteal and amplification
 
