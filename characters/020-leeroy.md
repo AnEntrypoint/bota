@@ -17,4 +17,4 @@ mismatched clashing medieval plate armor pieces, golden lion crest tabard worn b
 
 ## Hook
 
-Charges in alone, mouth open, then walls off the path with copies of his mismatched armour.
+Charges in alone, then walls off the path with copies of his mismatched armour.

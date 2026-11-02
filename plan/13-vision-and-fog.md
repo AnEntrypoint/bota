@@ -41,6 +41,6 @@ The LIVE dot uses the colour and ring in decision 16. It is never red (red means
 
 ### Fog rules
 
-- Clout uses enemy hero vision only. Enemy creeps, towers and wards do not count.
+- Enemy creeps, towers and wards do not count toward Clout vision (plan/06).
 - A stealthed hero is revealed by true sight, reveal tools and any enemy hero within 300 range.
 - Invisibility from items and abilities is broken when the hero attacks, casts or takes damage.

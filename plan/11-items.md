@@ -68,7 +68,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Ragequit Dagger | Short disengage | Logs off from your current position. |
 | Participation Trophy | One revive at the Spawn Lounge | Everyone can buy one. |
 | Refresh Page | Resets all cooldowns | Results may vary. |
-| Hot Take, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
+| Hot Take, Unironic | High-value item, drops on death | Everyone sees it go. |
 | Gem of Subtext | Reveals invisible units and wards; drops on death | Reads between the lines. |
 | Vial of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |

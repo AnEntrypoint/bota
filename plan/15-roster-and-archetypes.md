@@ -49,7 +49,7 @@ Rules for the roster columns:
 | 017 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
 | 018 | Slender | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
 | 019 | Viking | Herald | Str | Melee | Sips from a half-full water bottle to restore allies' sigma, and each march step stomps the ground around him. |
-| 020 | Leeroy | Firebrand | Str | Melee | Charges in alone, mouth open, then walls off the path with copies of his mismatched armour. |
+| 020 | Leeroy | Firebrand | Str | Melee | Charges in alone, then walls off the path with copies of his mismatched armour. |
 | 021 | Boxxy | Leash | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |
 | 022 | Rickroll | Showboat | Agi | Ranged | Mutes a whole area through a chrome microphone, then sends dancing spirits at anyone left in range. |
 | 023 | Saxguy | Showboat | Int | Ranged | Silences an area with a pelvic-thrust solo, then flips down white shades to reveal a target's path. |
@@ -120,7 +120,7 @@ Rules for the roster columns:
 | 088 | Airhorn | Heckler | Int | Ranged | Blasts two air horns to stun, each stun making the next blare louder and every attack emptying a canister. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
 | 090 | Droner | Phantom | Agi | Ranged | Drops quadcopter traps, then sends the drone after trapped enemies to reveal and damage them. |
-| 091 | Plinker | Recluse | Agi | Ranged | Sits cross-legged behind a straw-hat decoy and trades places with it, then takes the shot from wherever the real one ended up. |
+| 091 | Plinker | Recluse | Agi | Ranged | Sits cross-legged behind a straw-hat decoy, then takes the shot from wherever the real one ended up. |
 | 092 | Frogger | Showboat | Int | Melee | Rides an imaginary hover motorcycle in mid-air, and the landing hits enemies with the full weight of a very real frog. |
 | 093 | Oiler | Recluse | Int | Ranged | Spins a canvas tote through crowds, then fills the air with lavender vapor that smells expensive. |
 | 094 | Bathwater | Leash | Int | Ranged | Fires a laser out of a sealed canning jar that blinds targets, then bounces once to reset every cooldown. |

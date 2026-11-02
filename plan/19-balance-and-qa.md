@@ -49,7 +49,6 @@ Numbers in this section are UNVERIFIED.
 ### Stat sheet
 
 - HP, damage, armor and sigma per tier, as totals at level 1 (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 sigma; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
-- Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).
 
 ### Balance process
 

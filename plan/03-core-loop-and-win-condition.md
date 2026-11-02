@@ -37,7 +37,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 2. Laning, 0:00 to about 10:00. Farm, deny, trade, ward.
 3. Rotations and objectives. The Trend opens at about 10:00 (plan/05).
 4. Pushing. Break T1s, then T2s and T3s, then content mills.
-5. Exchange. The team that breaks the Exchange wins.
+5. Exchange.
 
 - Job: surrender (plan/02, Surrender row). The cost is the rest of the match given up.
 

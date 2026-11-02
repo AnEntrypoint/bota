@@ -21,8 +21,6 @@ Three lanes per team: top, mid and bottom. Lane assignment by role is in section
 
 ### Jungle
 
-Each team has a primary and a secondary jungle.
-
 | Jungle | Camps | Stack rule |
 | --- | --- | --- |
 | Primary | 2 hard, 2 medium, 1 small | Pulled camps respawn on the minute |

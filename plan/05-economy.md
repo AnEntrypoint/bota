@@ -50,6 +50,5 @@ Total XP at checkpoint levels (cumulative, UNVERIFIED):
 
 - Creeps spawn at 0:00.
 - Neutrals spawn at 0:30 and every minute after.
-- Boosts spawn every 2 min.
 - The Trend opens at about 10:00.
 - Bounty boosts spawn at the river at game start, four in total.

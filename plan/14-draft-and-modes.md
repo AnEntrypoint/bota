@@ -16,7 +16,7 @@ The draft is the first decision of the match. It sets the hero pool, the lane pl
 
 ### Showrunner Draft order
 
-Ten bans and ten picks, in the order below (1st and 2nd name the two teams). The order (final order):
+Ten bans and ten picks, in the order below (1st and 2nd name the two teams).
 
 1. Ban: 1st, 2nd, 1st, 2nd
 2. Pick: 1st, 2nd, 2nd, 1st
