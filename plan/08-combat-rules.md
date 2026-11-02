@@ -19,11 +19,11 @@ Numbers in this chapter are UNVERIFIED.
 
 - Attacks per second = (100 + bonus attack speed) / (BAT × 100).
 - Bonus attack speed (the term in the formula above) is capped at 600 (UNVERIFIED).
-- Attack animation: attack point, then backswing. Animation canceling is allowed.
+- Attack animation: attack point 0.3 s, then backswing 0.2 s at base attack speed (GUESS: a short wind-up and recovery read as one swing; the balance pass sets them). Animation canceling is allowed; a cancel leaves the cooldown spent.
 
 ### Evasion and miss
 
-- Evasion uses pseudo-random distribution, checked on impact.
+- Evasion uses pseudo-random distribution, checked on impact. The base chance is 0%; each source adds a flat percent, 25% for Evasion (GUESS: a quarter reads at a glance; the balance pass sets it).
 - Miss chance is separate from evasion.
 - True strike ignores evasion. Source: the Hot-take initiator role (Firebrand family, plan/15).
 
@@ -51,7 +51,7 @@ Numbers in this chapter are UNVERIFIED.
 Rules:
 
 - Hard disable cap: 3 hard disables per team in any 10 s window (a hard disable is defined in decision 37). A fourth is shortened to 0.5 s.
-- Purge: basic dispel removes most buffs, root and disarm. Strong dispel removes polymorph, silence and cyclone.
+- Purge: basic dispel removes the Stan, Front Page and boost buffs (Sweat Mode, Dank Goods), plus root and disarm. It does not remove Hype Spike, Resell or Clout states. Strong dispel removes polymorph, silence and cyclone.
 - Spell immunity blocks magical damage and disables, not pure damage or HP removal.
 
 ### Resell chain (Brainrot original)

@@ -37,7 +37,7 @@ Notes:
 | Viking [019] | Herald | Mead Clink: area damage and slow; the slow lasts while enemies stand in Water Bottle Regen's aura (GUESS) | Hammer Hold: the silver hammer pendant roots and damages over time (GUESS) | Water Bottle Regen: sigma regen for allies, sipped from a half-full bottle (GUESS) | Ragnarok March: area nuke around the hero; each rhythmic march step stomps the ground (GUESS) |
 | Hank [046] | Leash | Machete Scroll: line of damage from a twin-machete swing (GUESS) | Lens Flash: crimson lenses flash for a delayed stun in an area (GUESS) | Machete Meter: attack speed and movement stacks; stacks are spent on Machete Clip (same hero, GUESS) | Machete Clip: single-target burst with the twin machetes; a kill resets Machete Meter (GUESS) |
 | Boxxy [021] | Leash | Eyeliner Bleed: damage over time as the eyeliner runs; bleeding targets take the Emo Vibes armor cut (same hero, GUESS) | Sweater Slip: the oversized sweater slips off one shoulder to protect an ally from death for 2 s (GUESS) | Open Palm Bounce: animated open-palm gestures bounce to nearby units (GUESS) | Emo Vibes: reduces enemy armor; the cut doubles on targets already bleeding from Eyeliner Bleed (GUESS) |
-| Waffle [062] | Bulwark | Pillbox Apology: the pillbox cap heals allies and damages enemies in a sorry-not-sorry burst (GUESS) | Tray Dismiss: immunity to selected debuffs; the tray knocks them off (GUESS) | Buckler Pin: the food tray is held as a buckler, damaging enemies in an area (GUESS) | Diner Likes: allies invulnerable for 1 s, a regular's tip for the table (GUESS) |
+| Waffle [062] | Bulwark | Pillbox Apology: the pillbox cap heals allies and damages enemies in a sorry-not-sorry burst (GUESS) | Tray Dismiss: immunity to selected debuffs; the tray knocks them off (GUESS) | Buckler Pin: the food tray is held as a buckler, damaging enemies in an area (GUESS) | Diner Samples: allies invulnerable for 1 s, a regular's tip for the table (GUESS) |
 | Frogger [092] | Showboat | Flying Cap Warning: ear flaps flap to slow and damage (GUESS) | Handlebar Appeal: damage reduction on cooldown; the imaginary handlebars block hits (GUESS) | Frog Strike: mid-air crouching leap lands for area damage (GUESS) | Helmet Lockdown: white goggles lock on for a delayed area stun (GUESS) |
 | Airhorn [088] | Heckler | Airhorn Blast: the brass canisters blast a stun and damage (GUESS) | Canister Remove: each attack empties a canister in a cleave (GUESS) | Pinstripe Jacket Pitch: sponsor-stripe armor and speed for allies (GUESS) | Escalating Blare: damage increase; each stun Airhorn Blast applies adds to the blare (GUESS) |
 | Helios [065] | Phantom | Marble Dagger: a marble dagger thrown from the floating bust slows and damages (GUESS) | Pedestal Rephrase: the bust floats to a target and teleports onto its pedestal (GUESS) | Mirror Shade Mode: mirrored sunglasses give evasion and stealth (GUESS) | Sun Lot: chance for critical damage in a neon-sun flash (GUESS) |
@@ -59,7 +59,7 @@ Notes:
 
 ### Emergent hooks
 
-Heroes with no hook: Forever [068], Lifehack [096].
+No hook is led by Forever [068] or Lifehack [096]; each may still be the partner named in another hero's hook.
 
 - Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3).
 - Spudgunner [084] with Greg [034]: Polo Flak victims stay inside the Ear Muff Span attack range (GUESS).

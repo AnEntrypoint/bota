@@ -125,7 +125,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 107 | Smugcat (P5) | Showboat | White porcelain plate of green salad | Peach, white | M / L / D |
 | 108 | Snackvendor (P4) | Herald | Armful of chip bags and soda bottles | Soft cyan, neon green | M / L / D |
 | 109 | Sealcommando (P3) | Stalker | Suppressed heavy sniper rifle with bipod | Slate, desert camo | M / L / D |
-| 110 | Scammer (P1) | Leash | Coiled landline handset and Bluetooth headset | Rose, bright blue | M / L / D |
+| 110 | Scammer (P1) | Leash | Coiled landline handset and wireless earpiece | Rose, bright blue | M / L / D |
 | 111 | Preacher (P5) | Heckler | White megaphone and a leather-bound Bible | Mustard, charcoal | M / L / D |
 | 112 | Scalper (P6) | Archivist | Mountaineering backpack of graphics-card boxes | Sepia, dark | L / D / M |
 

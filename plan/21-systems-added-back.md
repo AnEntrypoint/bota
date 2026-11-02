@@ -22,7 +22,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Viking | Mead Clink slows +10% / Hammer Hold +1 s | Water Bottle Regen +1 sigma regen / Ragnarok March cooldown −15 s | Mead Clink leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Clink hits heroes below 50% HP for +10% |
 | Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
 | Boxxy | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
-| Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Likes lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Likes shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
+| Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Samples lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Samples shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
 | Frogger | Flying Cap Warning slows +1 s / Handlebar Appeal shield +50 | Frog Strike radius +50 / Helmet Lockdown +0.5 s | Handlebar Appeal reflects 10% / Flying Cap Warning marks the target for allies | Helmet Lockdown stuns on death / 1 Clout per 200 damage absorbed while an enemy hero sees it |
 | Airhorn | Airhorn Blast +1 stun / Canister Remove cleave +20% | Pinstripe Jacket Pitch armor +2 / Escalating Blare +5% damage | Canister Remove marks the target / Airhorn Blast resets on kill | Escalating Blare grows +2% per cast / Target earns no Clout for 10 s |
 | Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Lot crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Lot kills give double Clout / Sun Lot kills give +50 Reach for 10 s (UNVERIFIED) |
@@ -42,7 +42,7 @@ Numbers in this section are UNVERIFIED.
 
 - Job: power growth (plan/02, Talents row). The cost is the tier not taken.
 
-Every hero gets the talent set of its role family below. Launch heroes use the named choices above. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
+Every other hero gets the talent set of its role family below. Launch heroes use the named choices above. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
@@ -165,6 +165,8 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Scammer | On revive, Reach +200 for 10 s. | Reach |
 
 ### Seasons
+
+- Job: patch meta (plan/02, Patch meta row). The cost is that no season changes a number.
 
 A season is one patch. Each season rotates three things and changes no numbers:
 

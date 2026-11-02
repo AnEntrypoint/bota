@@ -8,7 +8,7 @@ Hero slot: 110
 - Role: Tethered support, dueler
 - Attribute: Str
 - Range: Ranged
-- Distinct prop: Coiled landline handset and Bluetooth headset
+- Distinct prop: Coiled landline handset and wireless earpiece
 - Value groups (body / head / prop): M / L / D
 
 ## Subject
