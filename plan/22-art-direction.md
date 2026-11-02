@@ -48,7 +48,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 030 | Rageguy (P5) | Firebrand | Raised fists (no held prop) | Ember, stark white | L / D / M |
 | 031 | Cereal (P5) | Heckler | Oversized steel tablespoon | Mustard, white | L / D / M |
 | 032 | Yao (P6) | Heckler | Dismissive hand-wave (no held prop) | Mustard, warm | L / D / M |
-| 033 | Steve (P3) | Drifter | Metallic flip lighter held forward | Night blue, brown | L / D / M |
+| 033 | Steve (P3) | Drifter | Metallic flip stopwatch held forward | Night blue, brown | L / D / M |
 | 034 | Greg (P3) | Recluse | Unlit rolled cigarette between lips | Moss, golden | L / D / M |
 | 035 | Brian (P2) | Archivist | Metal wire braces (worn; no held prop) | Sepia, plaid | L / D / M |
 | 036 | Disaster (P6) | Firebrand | Fire glow behind the silhouette (no held prop) | Ember, orange | L / D / M |
@@ -69,7 +69,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 051 | Mallcop (P6) | Bulwark | Two-wheeled motorized scooter | Grey, navy | L / D / M |
 | 052 | Vapebro (P5) | Drifter | Brass mechanical box-mod vape | Night blue, brass | L / D / M |
 | 053 | Starwarskid (P4) | Leash | Hollow plastic golf-ball retriever pole | Rose, grey | L / D / M |
-| 054 | Tay (P6) | Herald | Vintage chrome studio microphone | Soft cyan, burgundy | L / D / M |
+| 054 | Tay (P6) | Herald | Vintage chrome studio camera | Soft cyan, burgundy | L / D / M |
 | 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
 | 056 | Kazoo (P6) | Showboat | Glossy red plastic kazoo | Peach, apricot | L / D / M |
 | 057 | Prepper (P1) | Bulwark | Steel storm-shelter blast door | Grey, olive | M / L / D |
@@ -121,7 +121,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 103 | Pointing (P4) | Heckler | Yellow yardstick held across the chest | Mustard, blue | M / L / D |
 | 104 | Krazed (P5) | Firebrand | Cracked beige CRT monitor held overhead | Ember, charcoal | M / L / D |
 | 105 | Baconlover (P3) | Herald | Cast-iron skillet of sizzling bacon | Soft cyan, warm | M / L / D |
-| 106 | Gothgirl (P5) | Recluse | Cigarette with a rising smoke trail | Moss, black | M / L / D |
+| 106 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |
 | 107 | Smugcat (P5) | Showboat | White porcelain plate of green salad | Peach, white | M / L / D |
 | 108 | Snackvendor (P4) | Herald | Armful of chip bags and soda bottles | Soft cyan, neon green | M / L / D |
 | 109 | Sealcommando (P3) | Stalker | Four-tube night-vision helmet | Slate, desert camo | M / L / D |

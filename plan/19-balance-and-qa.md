@@ -41,7 +41,6 @@ Numbers in this section are UNVERIFIED.
 | Rule | Value |
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
-| Hard disable cap | Rule in plan/08. |
 | Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
 | Markdown ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
 | Hype Spike limit | None. Each Hyped hero runs its own 20 s Hype Spike and pays its own global reveal. |
@@ -87,5 +86,5 @@ Targets for the first simulated and played matches. These are thresholds to test
 | Every modifier in the plan/12 table (eight) | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
 | Sweat Mode boost | Share of teamfights opened within 10 s of pickup | Under 40% |
 | Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |
-| Renamed abilities | Hero win rate before and after the rename pass | Within 1 point, with at least 200 matches in each arm (UNVERIFIED). A rename never changes a number. |
-| Breaking News capture rate | Captures per event | At least one per event; no team above 70% of events (UNVERIFIED). |
+| Renamed abilities | Hero win rate before and after the rename pass | Check C8 in plan/26. A rename never changes a number. |
+| Breaking News capture rate | Captures per event | Check C10 in plan/26. |

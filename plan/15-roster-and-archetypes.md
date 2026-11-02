@@ -62,7 +62,7 @@ Rules for the roster columns:
 | 030 | Rageguy | Firebrand | Agi | Melee | Roots enemies with pulsing temple veins, then dashes through them and leaves a howling clone behind. |
 | 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon while a soggy bowl lets hits slide off and a flattered creep switches sides. |
 | 032 | Yao | Heckler | Int | Ranged | Waves off every enemy with one dismissive hand, dragging them to a point, then laughs them into a stun. |
-| 033 | Steve | Drifter | Int | Ranged | Flicks a cheap lighter and snaps back to where he stood moments ago, leaving pursuers chasing a ghost. |
+| 033 | Steve | Drifter | Int | Ranged | Flicks a cheap stopwatch and snaps back to where he stood moments ago, leaving pursuers chasing a ghost. |
 | 034 | Greg | Recluse | Int | Melee | Smiles warmly, unlit cigarette in his lips, while rockets drop on a zone he politely welcomed enemies into. |
 | 035 | Brian | Archivist | Agi | Melee | Grins through his braces as a target burns, attacking faster the closer his health gets to nothing. |
 | 036 | Disaster | Firebrand | Int | Ranged | Smirks at the viewer in front of a burning house, freezing enemies in place while the fire spreads. |
@@ -83,7 +83,7 @@ Rules for the roster columns:
 | 051 | Mallcop | Bulwark | Int | Melee | Rides a scooter in a line of shocks, pinning one target and gathering the rest into a stun. |
 | 052 | Vapebro | Drifter | Agi | Ranged | Vapes a plume that sprays arrows everywhere, shields himself with sigma, and freezes enemies in the haze. |
 | 053 | Starwarskid | Leash | Str | Melee | Spins a golf-ball retriever like a staff, roots an area, and teleports to a clone left mid-spin. |
-| 054 | Tay | Herald | Int | Ranged | Leans away from the microphone, snapping an arrow along a line and leaping to gain attack speed. |
+| 054 | Tay | Herald | Int | Ranged | Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed. |
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and copies one enemy ability. |
 | 056 | Kazoo | Showboat | Int | Ranged | Plays a kazoo that holds enemies in place, puts an area to sleep, and fills the lane with illusions. |
 | 057 | Prepper | Bulwark | Str | Melee | Slams a storm-shelter blast door into place, rooting an area behind a gas mask and summoning taped-up treants. |
@@ -135,7 +135,7 @@ Rules for the roster columns:
 | 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |
 | 104 | Krazed | Firebrand | Agi | Melee | Smashes a monitor overhead for damage, then sends the loose pixels off as familiars to keep attacking. |
 | 105 | Baconlover | Herald | Int | Melee | Presents a sizzling skillet that heals allies or burns enemies, and ties targets together with cured links. |
-| 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the cigarette smoke. |
+| 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
 | 107 | Smugcat | Showboat | Agi | Melee | Squints from behind the salad, ropes a target across the table, and puts an arrow in it. |
 | 108 | Snackvendor | Herald | Str | Melee | Hands out soda hugs that heal allies and tournament curses that charm enemies, all from one armful of chips. |
 | 109 | Sealcommando | Stalker | Int | Ranged | Snipes from a crouch through four night-vision tubes, with desert camouflage that heals everyone standing in it. |

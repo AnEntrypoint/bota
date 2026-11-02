@@ -40,8 +40,6 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 
 Numbers in this section are UNVERIFIED.
 
-- Job: power growth (plan/02, Talents row). The cost is the tier not taken.
-
 Every other hero gets the talent set of its role family below. Launch heroes use the named choices above. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
@@ -125,7 +123,7 @@ Numbers in this section are UNVERIFIED.
 Numbers in this section are UNVERIFIED.
 
 - Job: sustain (plan/02, Sustain row). The cost is the Trend kill it waits for.
-- The Trend drops Coffee on its second kill and every kill after.
+- Drop rule: plan/12, The Trend (Reward row).
 - Coffee cannot be sold. Chug it to restore 2,500 HP and 1,000 sigma over 4 s. One can per drop.
 
 ### Signature mechanics

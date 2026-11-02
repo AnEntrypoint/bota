@@ -128,7 +128,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Steve"
-    prompt: "stylized 3d character, sideways brown fur-trimmed flat cap, thick fleece-lined tan shearling jacket with wide open collar, heavy gold chain over bare chest, dark sagging jeans, cheap metallic flip lighter held forward, cocky posture, soft studio key light, neutral background"
+    prompt: "stylized 3d character, sideways brown fur-trimmed flat cap, thick fleece-lined tan shearling jacket with wide open collar, heavy gold chain over bare chest, dark sagging jeans, cheap metallic flip stopwatch held forward, cocky posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Greg"
@@ -212,7 +212,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Tay"
-    prompt: "stylized 3d character, slender frame, crisp white dress shirt, burgundy elastic suspenders, dark tailored trousers, vintage large-diaphragm chrome studio microphone, tilted head leaning sideways away from mic, soft studio key light, neutral background"
+    prompt: "stylized 3d character, slender frame, crisp white dress shirt, burgundy elastic suspenders, dark tailored trousers, vintage large-diaphragm chrome studio camera, tilted head leaning sideways away from lens, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Shoop"
@@ -420,7 +420,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Gothgirl"
-    prompt: "stylized 3d female character, messy black ponytail with loose strands, heavy smudged black eyeliner, tight black velvet choker, oversized black knit cardigan hanging off shoulder, dark denim, cigarette with rising thin smoke trail, relaxed disaffected pose, soft studio key light, neutral background"
+    prompt: "stylized 3d female character, messy black ponytail with loose strands, heavy smudged black eyeliner, tight black velvet choker, oversized black knit cardigan hanging off shoulder, dark denim, black lace fan held open, relaxed disaffected pose, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Smugcat"

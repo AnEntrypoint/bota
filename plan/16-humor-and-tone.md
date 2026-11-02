@@ -25,7 +25,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (plan/15, Peanut row). | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Ticker in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Exchange as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Exchange | End screen | Requires a click. Clean stats view is the default. |
-| 12 | The hero's own shadow stretches toward the Clout bar. Reduced opacity. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
+| 12 | The hero's own shadow stretches toward the Clout bar. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP plays Fact check pending on the announcer. | Kills | Kill at under 10% HP | 1.5 s, announcer only, once per 2 min (UNVERIFIED). |
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
 | 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Bottle of Copium | Item ends | Portrait only. |

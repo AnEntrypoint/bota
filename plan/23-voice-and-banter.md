@@ -46,7 +46,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Waffle (Bulwark) | Tray swung. Pinged everyone, by accident. | Tray on the floor. Everyone mentioned me, in order. | Holding the tray in position, as instructed. |
 | Chudjak (Bulwark) | Manifesto read aloud. Please remain where you are. | The manifesto fell out. I will pick it up, politely. | Holding the line, standing firm. Carry on, please. |
 | Airhorn (Heckler) | Canisters spent. Logged: quiet now. | Earmuffs bounced off. Correction: quiet, finally. | Jumping in place. Canisters counted, per the log. |
-| Helios (Phantom) | Anonymous. Beams, not credit. | Shades cracked. Now you know my name. | Floating bust. No name, no sales. |
+| Helios (Phantom) | Anonymous. Beams, not credit. | Listed anonymously. Now you know my name. | Floating bust. No name, no sales. |
 | Starwarskid (Leash) | Pole swung. My alt confirms it. | Another me is here instead. Hi. | Which of me is idle? All of us. |
 | Frogger (Showboat) | Okay, so. That landing was captioned for the replay. | Okay, so. Camera cut. Please don't clip that. | Okay, so. Nobody is filming. Smile anyway. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |

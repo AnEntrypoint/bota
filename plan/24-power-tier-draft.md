@@ -49,7 +49,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 030 | Rageguy | Firebrand | - | Root and damage, dash through enemies, fire shield, dashing clone ult. |
 | 031 | Cereal | Heckler | - | Evasion is its escape; bonus attack damage; creep ally; heal ult. |
 | 032 | Yao | Heckler | - | Stun and damage; creep conversion; zone DoT; ult pulls to point. |
-| 033 | Steve | Drifter | - | Lighter Rewind rewinds position (escape); zone freeze ult; slow. |
+| 033 | Steve | Drifter | - | Stopwatch Rewind rewinds position (escape); zone freeze ult; slow. |
 | 034 | Greg | Recluse | - | Rockets, stun on hit, flak; ult zone airstrike. |
 | 035 | Brian | Archivist | - | Burn per attack; attack speed from health loss; charge with heal ult. |
 | 036 | Disaster | Firebrand | - | Ult is delayed area damage; fade escape; freeze, path wall. |
@@ -82,7 +82,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 063 | Tpose | Phantom | - | Delayed damage, heal-and-damage, damage block; ult damage and stun. |
 | 064 | Zalgo | Drifter | - | Projectile gains damage, hold, sigma regen aura; ult scales with enemy sigma. |
 | 065 | Helios | Phantom | - | Teleport and evasion-stealth escapes; slow dagger; ult crit chance. |
-| 066 | NPC | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
+| 066 | Npc | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
 | 067 | Derp | Recluse | - | Ult revives on death; burn dash, damage orbs, channeled ally heal. |
 | 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
 | 069 | Fuckyea | Showboat | - | Kill stacks give strength, capped (talent raises cap); hook, pull ult. |
@@ -133,14 +133,14 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 ## 2. Summary
 
 - Coverage: 24 launch kits (section 9), 88 remaining kits (section 10, Scalper included). All 112 matched by slot.
-- Flags: 17. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 7 (Soyjak 006, Numa 024, Tricky 047, Kazoo 056, Forever 068, Critic 078, Snackvendor 108). Uncapped stacking 8 (Gondola 012, Spurdo 013, NPC 066, Spudgunner 084 via talent, Airhorn 088 via talent, Oiler 093, Edgelord 100, Scalper 112).
+- Flags: 17. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 7 (Soyjak 006, Numa 024, Tricky 047, Kazoo 056, Forever 068, Critic 078, Snackvendor 108). Uncapped stacking 8 (Gondola 012, Spurdo 013, Npc 066, Spudgunner 084 via talent, Airhorn 088 via talent, Oiler 093, Edgelord 100, Scalper 112).
 
 ## 3. Test first
 
 1. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use. Pass: aura damage over a 10-minute fight stays within 25% of the archetype average (UNVERIFIED).
 2. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
 3. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
-4. NPC (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
+4. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
 5. Edgelord (100): Karambit Swipes stacks with no cap stated. Measure stacks at fight end and damage per stack. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).
 6. Oiler (093): Yoga Stack with no cap stated. Measure armor at fight end against damage taken. Pass: armor at fight end stays within 10 of the archetype average (UNVERIFIED).
 7. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: the global choice's win rate stays within 5 points of the local one (UNVERIFIED).
