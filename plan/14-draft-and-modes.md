@@ -29,6 +29,7 @@ Ten bans and ten picks, in the order below (1st and 2nd name the two teams). The
 
 Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 
+- Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the late-game rotations this mode gives up.
 - Two lanes per side (top and bottom). Mid lane and its tower and Content Mill rows are removed.
 - Position 2 takes a surviving lane alone (top or bottom, UNVERIFIED), since mid is removed.
 - Neutral items: tiers 1 and 2 only. Tiers 3 and 4 start at 27:00 and 37:00, past the 25 minute target (UNVERIFIED).

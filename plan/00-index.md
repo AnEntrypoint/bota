@@ -1,4 +1,4 @@
-# 6.88 Brainrot: Complete Game Bible
+# Brainrot of the AI - BotA: Complete Game Bible
 
 Oct 19, 2026 · @Admin
 

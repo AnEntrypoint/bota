@@ -436,7 +436,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Scammer"
-    prompt: "stylized 3d character, oversized ill-fitting shiny grey polyester suit, bright blue blinking wireless Bluetooth headset clipped to ear, tangled coiled landline phone handset, slicked hair, rapid energetic sales stride, soft studio key light, neutral background"
+    prompt: "stylized 3d character, oversized ill-fitting shiny grey polyester suit, bright blue blinking wireless earpiece clipped to ear, tangled coiled landline phone handset, slicked hair, rapid energetic sales stride, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Preacher"

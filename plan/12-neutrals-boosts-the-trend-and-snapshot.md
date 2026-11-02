@@ -35,11 +35,11 @@ Six listed boosts plus the Demand Boost (section 21): seven in total. Two spawn 
 | Boost | Effect | Duration |
 | --- | --- | --- |
 | Sweat Mode | Double damage | 40 s |
-| Dank Goods (Haste) | Movement speed boost | 25 s |
-| Dank Goods (Illusion) | Spawns an illusion of self | 40 s |
-| Dank Goods (Invisibility) | Invisibility until it attacks or casts | 30 s |
-| Dank Goods (Regeneration) | Heal over time | 20 s |
-| Bounty | Gold and XP on pickup | One-time |
+| Dank Goods (Haste) | +20% movement speed (UNVERIFIED) | 25 s |
+| Dank Goods (Illusion) | Spawns an illusion of self dealing 50% damage (GUESS: a half-strength copy keeps the boost readable) | 40 s |
+| Dank Goods (Invisibility) | Invisibility until it attacks or casts, with +10% movement speed (GUESS: keeps invisible movement from reading as free) | 30 s |
+| Dank Goods (Regeneration) | Heal 4 HP per second (GUESS: a steady heal the 20 s duration can carry) | 20 s |
+| Bounty | 150 gold and 100 XP on pickup (GUESS: a fixed sum near an early camp) | One-time |
 
 Bounty boosts spawn at the river at game start. Four in total. They give gold and XP, except the first boost at game start, which gives gold only.
 

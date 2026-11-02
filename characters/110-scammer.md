@@ -13,7 +13,7 @@ Hero slot: 110
 
 ## Subject
 
-oversized ill-fitting shiny grey polyester suit, bright blue blinking wireless Bluetooth headset clipped to ear, tangled coiled landline phone handset, slicked hair, rapid energetic sales stride
+oversized ill-fitting shiny grey polyester suit, bright blue blinking wireless earpiece clipped to ear, tangled coiled landline phone handset, slicked hair, rapid energetic sales stride
 
 ## Hook
 

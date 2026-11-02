@@ -14,7 +14,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 
 | # | Gag | System | Trigger | Fade or opt-out |
 |---|---|---|---|---|
-| 01 | Two outer panels slide together like Willie's ship bell swinging, revealing the first Trend modifier. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
+| 01 | Two outer panels slide together like Willie's ship bell swinging, revealing the caption. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Resell adds a via tag to the chain. By the fifth link the original is too small to read, but its tag stays legible. [GUESS] | Resell | Chain of 3 or more | Spectator and hover only |
 | 04 | Header: Your listing was marked down, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Markdown | Death | Standard damage table first. |
@@ -35,7 +35,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 19 | A hero who dies three times in a row (UNVERIFIED) gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
 | 20 | A hero who dies while Hyped gets a grey Hyped-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Hype Spike, Rebrand | Death while Hyped | Scoreboard only. |
 | 21 | A hero standing at the Spawn Lounge sprouts grass and a tiny sun. Never in a fight. | Spawn Lounge idle | 60 s at Spawn Lounge (UNVERIFIED) | Cosmetic. Never in a fight. |
-| 22 | At 100 Clout the Clout bar shows the Hype Spike threshold. [GUESS] | Hype Spike | At 100 Clout | Self and allies only. |
+| 22 | The Clout bar shows each hero's own Hype Spike threshold, 100 Clout unless a talent sets its own. [GUESS: the bar must show the number a talent changes] | Hype Spike | At 100 Clout | Self and allies only. |
 | 23 | A hero who dies shows the Markdown amount on the name plate for 10 s (UNVERIFIED); at 200+ Clout the amount also gets a cracked-mask emoticon. Name plate only, never the LIVE dot. | Markdown on death | Any death | Name plate, 10 s. |
 
 ### Announcer lines
