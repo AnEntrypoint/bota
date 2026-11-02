@@ -47,7 +47,7 @@ Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 | 4 | Roamer | Safe lane, with carry | Soft support, gank pressure |
 | 5 | Hard support | Safe lane, with carry | Vision, protection, Stan support |
 
-Jungler is a viable role for heroes with camp-clearing kits (Weegee, Offline sustain, Assassin, vision denial archetype). A jungler is a position choice, not a sixth slot.
+Jungler is a viable role for heroes with camp-clearing kits (Weegee, Assassin, vision denial archetype). A jungler is a position choice, not a sixth slot.
 
 ### Archetype lanes
 

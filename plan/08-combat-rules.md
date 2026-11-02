@@ -36,17 +36,22 @@ Numbers in this chapter are UNVERIFIED.
 
 ### Disables
 
-| Disable | Effect | Break rule |
-| --- | --- | --- |
-| Stun | No actions or movement | Stun cannot be broken |
-| Polymorph | Transforms the target | Dispelled by strong dispel |
-| Silence | No abilities, items still work | Strong dispel removes it |
-| Root | No movement, abilities work | Dispelled by basic dispel |
-| Sleep | Stun that breaks on damage | Breaks on any damage |
-| Taunt | Forced to attack the source | Lasts its duration |
-| Disarm | No attacks, abilities work | Dispelled by basic dispel |
-| Fear | Forced to move away | Lasts its duration |
-| Cyclone | Airborne, no actions | Stun-equivalent, dispelled by strong dispel |
+| Disable | Class | Effect | Break rule |
+| --- | --- | --- | --- |
+| Stun | Hard | No actions or movement | Stun cannot be broken |
+| Polymorph | Hard | Transforms the target | Dispelled by strong dispel |
+| Silence | Soft | No abilities, items still work | Strong dispel removes it |
+| Root | Soft | No movement, abilities work | Dispelled by basic dispel |
+| Sleep | Hard | Stun that breaks on damage | Breaks on any damage |
+| Taunt | Soft | Forced to attack the source | Lasts its duration |
+| Disarm | Soft | No attacks, abilities work | Dispelled by basic dispel |
+| Fear | Hard | Forced to move away | Lasts its duration |
+| Cyclone | Hard | Airborne, no actions | Stun-equivalent, dispelled by strong dispel |
+| Hold | Hard | No actions or movement; held in place | Lasts its duration (GUESS: no break rule in our data yet) |
+| Charm | Hard | Forced to move toward the source | Lasts its duration (GUESS: no break rule in our data yet) |
+| Petrify | Hard | No actions or movement; stone form | Breaks on damage (GUESS: keeps petrify readable as a hold that breaks) |
+| Slow | Soft | Movement and attack speed reduced | Lasts its duration (GUESS: no break rule in our data yet) |
+| Blind | Soft | Attacks can miss at the blind miss percent | Lasts its duration (GUESS: no break rule in our data yet) |
 
 Rules:
 
@@ -57,8 +62,6 @@ Rules:
 ### Resell chain (Brainrot original)
 
 - Job: teamfight chain (plan/02, Teamfight chain row). The cost is the grouping it needs, or the spread against area damage.
-
-A hard disable or ultimate that lands on an enemy starts a resell chain.
 
 | Property | Value |
 | --- | --- |

@@ -87,7 +87,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
 | Unboxing | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; C2 flags it if its pick rate passes 65% |
 | Learn to Code | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Speedrun |
-| Speedrun | Aggressive early teams | High: tower damage and speed reward an early rush | Slow the rush; the rusher pays the tower tax |
+| Speedrun | Aggressive early teams | High: speed rewards an early rush, and the tower damage and cut tower gold are the rusher's cost | Slow the rush; the rusher pays the tower tax |
 | Storytime | Channel-heavy heroes (Tricky, Dino) | Medium | Channel-free kits |
 | Get Ready With Me | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
 | Demand Tide | Clout-scaling heroes | Medium: rewards safe Clout farming | Force fights; decay eats the lead |

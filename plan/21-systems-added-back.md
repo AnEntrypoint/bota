@@ -67,7 +67,7 @@ Three backpack slots, indexed 7 to 9. Backpack items give their passive stats. A
 
 Numbers in this section are UNVERIFIED.
 
-- Job: neutral camp reward (plan/02, Neutral items row). The cost is the camp fight.
+- Job: see plan/12 (neutral camp reward). The cost is the camp fight.
 - One neutral item slot per hero. It sits outside the six inventory slots and the backpack.
 - Neutral items drop from jungle camps. A hero gets one choice of three. A new neutral replaces the old one.
 - Tier timings: tier 1 from 7:00, tier 2 from 17:00, tier 3 from 27:00, tier 4 from 37:00.

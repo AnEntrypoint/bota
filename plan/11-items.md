@@ -69,7 +69,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Participation Trophy | One revive at the Spawn Lounge | Everyone can buy one. |
 | Refresh Page | Resets all cooldowns | Results may vary. |
 | Rapier, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
-| Gem of Subtext | Reveals invisible units and wards | Reads between the lines. |
+| Gem of Subtext | Reveals invisible units and wards; drops on death | Reads between the lines. |
 | Bottle of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |
 | Lurker Cam | Vision. Enemies see the reveal, earn no Clout. | Watching, not listing. |

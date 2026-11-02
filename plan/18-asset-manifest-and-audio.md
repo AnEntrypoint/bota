@@ -53,7 +53,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Snapshot pickup and revive | 2 | One model, one VFX |
 | Breaking News zone | 1 | Ground ring with a capture meter above it |
 | Front Page icon | 1 | Reach buff from a held zone, 64 × 64 |
-| The Trending Pit | 1 | Recessed amphitheater with marginal props |
+| The Trend pit | 1 | Recessed amphitheater with marginal props |
 | Bases | 2 | Morning Market and Late Night Market |
 | Terrain kits and props | 3 kits, 120 props | Lanes, jungle, river |
 | Towers | 8 | Four tiers across two teams. Tier read by size and stacked stamps. |

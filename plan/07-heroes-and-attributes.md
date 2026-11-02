@@ -10,7 +10,7 @@ Job: attributes and levels are the Power growth of the Talents row in plan/02; t
 | Attribute | Per point | Notes |
 | --- | --- | --- |
 | Strength | +20 max HP, +0.1 HP regen per second | Melee durability |
-| Agility | +1% attack speed, +1/7 armor per point |
+| Agility | +1% attack speed, +1/7 armor per point | - |
 | Intelligence | +12 max sigma, +0.05 sigma regen per second, +1% spell amp per 16 INT | Spell amp is additive with item amp |
 
 Primary attribute: +1 damage per point of the primary attribute. There is no Universal attribute. Stat points come from the archetype tier total in plan/19 (UNVERIFIED), split across the three attributes.

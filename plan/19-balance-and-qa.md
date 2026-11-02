@@ -42,9 +42,9 @@ Numbers in this section are UNVERIFIED.
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
 | Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
-| Markdown ceiling | At most 50% of Clout moves, and at most 200 Clout in total per death |
+| Markdown ceiling | Rule in plan/06 (Markdown on death and its cap) |
 | Hype Spike limit | None. Each Hyped hero runs its own 20 s Hype Spike and pays its own global reveal. |
-| Resell cap | Five stacks per target. Stacks from one source (the same ability cast by the same hero) do not stack twice. |
+| Resell cap | Rule in plan/08 (Resell chain, max stacks and stacking) |
 
 ### Stat sheet
 

@@ -19,7 +19,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 
 **Not in the slice:** Showrunner Draft (the slice uses one fixed pick order of six picks, three per team, where A and B are the two teams: A, B, B, A, A, B, UNVERIFIED), everything else in the cut list below.
 
-**Exit criteria:** the runnable checks below pass across at least 200 matches (UNVERIFIED), the eight playtest scenarios each meet their Pass clause, and the test-first passes in plan/24 meet their Pass clauses.
+**Exit criteria:** the runnable checks below pass on at least 200 matches per C1 modifier and per C8 arm (UNVERIFIED), the eight playtest scenarios each meet their Pass clause, and the test-first passes in plan/24 meet their Pass clauses.
 
 ## Cut list
 
