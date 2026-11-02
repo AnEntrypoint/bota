@@ -587,7 +587,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 - Paintballer (Slardar): Whale Splash = Slithereen Crush, Pity Bonk = Bash, Sunk Cost = Amplify Damage, Receipt Haze = Corrosive Haze. Final Warning = Land Mines.
 - Modes: Showrunner Draft = Captains Mode, Open Market = All Pick, Demand Draft = Random Draft, Shuffle Draft = Single Draft, Ranked Open Market = Ranked All Pick. Safe Spots = Shrines. Decoy Posts = Effigies. Stat Boost = Attribute Bonus. Go Private = Glyph of Fortification.
 
-## Generic-term renames (round 6)
+## Generic-term renames
 - Fountain = Spawn Lounge. Courier = Delivery Drone. Barracks = Content Mills. Rune(s) = Boost(s). Buyback = Rebrand.
 - Sigma Wanderer = Noscope. Free Range = Karen. Small Creator = Driver. Gadget Guy = Bathwater.
 - Ent Camouflage = Bark Camouflage (Lifehack A1). Renamed because the earlier name came from a franchise.
@@ -606,9 +606,7 @@ These URLs cite named creators, brands or franchise characters. They stay intern
 | Uber | https://knowyourmeme.com/memes/uber |
 
 
-## Former draft hero names (power tier draft)
-
-These are previous-draft names, not original MOBA names.
+## Former draft hero names
 
 | Slot | Hero | Former name |
 | --- | --- | --- |

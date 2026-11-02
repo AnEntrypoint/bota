@@ -74,7 +74,7 @@ A build passes QA when:
 3. Every item's tooltip shows its stat and effect lines with the flavor line hidden, and at least 9 of 10 testers (UNVERIFIED) name the effect.
 4. Every signal (LIVE, Stan, Hype Spike, Markdown, Resell) is named by at least 4 of 5 observers (UNVERIFIED) in grayscale, at minimap size, and under each colorblind preset.
 5. Every gag in section 16 fires on its trigger, and none of them hides a signal, which 4 of 5 observers confirm (UNVERIFIED).
-6. The 10,000 gold Comeback check and the bracket test are inside their targets on the current patch.
+6. The 10,000 gold Comeback check and the bracket test are inside their targets on the build under test (named by version or commit at each run).
 
 ### New-system checks
 
@@ -82,7 +82,7 @@ Targets for the first simulated and played matches. These are thresholds to test
 
 | System | Check | Pass |
 | --- | --- | --- |
-| Trend modifiers (8, 2 offered per kill) | Win rate of the team that picks each modifier | 45 to 55% for every modifier |
+| Trend modifiers (8, 2 offered per kill) | Win rate of the team that picks each modifier | 45 to 55% for every modifier, with at least 200 matches each (plan/26 C1) |
 | Every modifier in the plan/12 table (eight) | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
 | Sweat Mode boost | Share of teamfights opened within 10 s of pickup, where a teamfight opens at the first hero-on-hero damage | Under 40% |
 | Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |

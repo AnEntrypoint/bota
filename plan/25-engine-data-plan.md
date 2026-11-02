@@ -4,7 +4,7 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 
 ## A. What the repo does today
 
-### A1. How content is defined (question a)
+### A1. How content is defined
 
 - **Packs.** A game is a directory with `manifest.json` at its root. Data is `.osd` source, compiled by `mapexport` into one `.osdt` image. Rules are Lua modules listed in the manifest. `.tsv`, `.json` and `.txt` are allowed as tables, UI and key=value rule files. `.js`, `.mjs`, `.html`, `.wasm`, `.ts` and `.map` are refused on load, edit and transfer (docs/MODDING.md, docs/SCENARIOS.md).
 - **Packs present.** `scenarios/moba` (the match) and `scenarios/duel-routes` (a routes test). The engine names no genre.
@@ -19,7 +19,7 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 - **Name rule.** Engine names match `[a-z][a-z0-9_]*`, at most 255 bytes (FORMAT.md, Names).
 - **Absent.** No Clout, Trend, boost, Markdown, Resell, Stan, draft-mode or archetype data exists in the engine or the packs.
 
-### A2. What the build pipeline does with that data (question b)
+### A2. What the build pipeline does with that data
 
 - `scripts/dev/stage.sh`: builds wasm when the pkg is missing, runs `mapexport` for each pack in a fixed loop (`for p in moba duel-routes`, line 11), then calls `scripts/layout-site.sh`.
 - `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 19), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 32). It does not copy `247420/internal/`.
@@ -31,14 +31,14 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 
 Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. If one edit is missed, `layout-site.sh` still succeeds and ships a pack with no `.osdt`, because it checks only the moba pack.
 
-### A3. Is there a 6.88g data source, and where (question c)
+### A3. Is there a 6.88g data source, and where
 
 - The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The name the engine doc gives is not on this machine, but a file of the same size, `DotA v6.88g Allstars.w3x` (41,467,779 bytes, MPQ header), is outside the repo.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
 - The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).
 
-### A4. Does the wire layer limit where game data can live (question d)
+### A4. Does the wire layer limit where game data can live
 
 - Data lives in the pack directory and reaches the browser through the Pages site. Peers get data only from the host. The host edits, Save sends `PACK_FILE` frames, and a file over 256 KiB travels by content hash through `PACK_WANT` (engine-repo files docs/MODDING.md, docs/WIRE.md).
 - A data change changes the image hash (FNV-1a over the image bytes). The host announces it with `SWAP` at a tick, each peer answers `SWAP_READY` or `SWAP_NOT_READY` for that tick and hash, and the host can drop it with `SWAP_CANCEL` (docs/WIRE.md, frames 14, 17 to 19).

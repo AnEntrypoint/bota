@@ -8,7 +8,7 @@ Hero slot: 102
 - Role: Offline sustain
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Hands in overcoat pockets (no held prop)
+- Distinct prop: Crumpled receipt, half out of a pocket
 - Value groups (body / head / prop): M / L / D
 
 ## Subject

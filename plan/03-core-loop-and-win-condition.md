@@ -20,7 +20,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 - Tower HP: T1 1,300, T2 1,600, T3 1,600, T4 2,200. Gold per tower: the Tower row of plan/05.
 - Towers regenerate and take reduced damage when no enemy creeps are within 900 range (UNVERIFIED: 2% max HP per second; damage taken halved) (backdoor protection).
 - Job: base shield (plan/02, Base shield row). The cost is the 5 min cooldown, which makes the timing the choice.
-- Go Private (padlock): makes all team buildings invulnerable for 5 s. Cooldown 5 min. It refreshes when a T1 falls.
+- Go Private (padlock): makes all team buildings invulnerable for 5 s. Cooldown 5 min. It refreshes when a T1 of the caster's team falls.
 
 ### Creep waves
 

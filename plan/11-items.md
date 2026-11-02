@@ -6,7 +6,7 @@ Numbers in this section are UNVERIFIED.
 - Six item slots, plus a six-slot stash. Backpack: three slots, see section 21.
 - Consumables stack. Stock-limited items have a restock timer (Lurker Cam, Smoke of Deniability).
 - Sell-back: full refund within 10 s of purchase, 50% after that. The Trend's Snapshot (section 12) and Coffee (section 21) cannot be sold.
-- Drop-on-death items: Rapier, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
+- Drop-on-death items: Hot Take, Unironic and Gem of Subtext. Their holder drops them on death, visible to all.
 - Items that take an active use a shared item cooldown per item, not per hero.
 - Delivery Drone: the flying courier that an Envelope item sends to base. Its speed bonus is the Envelope component's.
 
@@ -40,7 +40,7 @@ Finished items by tier (built from the components):
 - **Tier 1:** Lurker Cam (Sticky Note + Ring Light), Dust of Receipts (Drafted Note + Sticky Note), Hot Sauce (Hot Sauce Bottle + Drafted Note), Link in Bio Scroll (Envelope + Old Hoodie), Envelope With Legs (Envelope + Sticky Note), Magic Enthusiast (Drafted Note + Hot Sauce Bottle), Spoiler Tag (Sticky Note + Drafted Note).
 - **Tier 2:** Ragequit Dagger (Cheap Dagger + Burner Phone), Gem of Subtext (Drafted Note + Rubber Duck), Bottle of Copium (Hot Sauce Bottle + Cold Brew), Smoke of Deniability (Burner Phone + Old Hoodie), Grindset (Cold Brew + Charger), Gas Station Sushi (Hot Sauce Bottle + Envelope), Lo-Fi Beats (Charger + Rubber Duck), Boots of Scrolling (Old Hoodie + Tripod), Anon Mask (Ring Light + Burner Phone), Confident Answer (Drafted Note + Ring Light), Prompt Injection (Rubber Duck + Sticky Note), Sycophant (Ring Light + Envelope).
 - **Tier 3:** Participation Trophy (Gem of Subtext + Tripod), Heart of Brainrot (Grindset + Old Hoodie), Sleep Mode (Smoke of Deniability + Charger), Reply All (Prompt Injection + Sticky Note), Co-Working Space (Boots of Scrolling + Tripod), Rescheduled (Gas Station Sushi + Cold Brew), Pro Plan (Lo-Fi Beats + Burner Phone), Dunk (Ragequit Dagger + Rubber Duck), Heavenly Feedback (Sycophant + Ring Light), Ghost Mode (Anon Mask + Old Hoodie), Drain Blade (Confident Answer + Cheap Dagger), Lite Plan (Bottle of Copium + Charger).
-- **Tier 4:** Refresh Page (Reply All + Cold Brew); Rapier, Unironic (Drain Blade + Ragequit Dagger); Dark Mode Shield (Ghost Mode + Old Hoodie); Main Character Energy (Heavenly Feedback + Ring Light); Sponsored Style (Co-Working Space + Ring Light); Monetized (Participation Trophy + Sticky Note); Sheep Check (Sleep Mode + Tripod).
+- **Tier 4:** Refresh Page (Reply All + Cold Brew); Hot Take, Unironic (Drain Blade + Ragequit Dagger); Dark Mode Shield (Ghost Mode + Old Hoodie); Main Character Energy (Heavenly Feedback + Ring Light); Sponsored Style (Co-Working Space + Ring Light); Monetized (Participation Trophy + Sticky Note); Sheep Check (Sleep Mode + Tripod).
 
 Where two finished items share a component set (Hot Sauce and Magic Enthusiast), the buyer picks which one the set crafts.
 
@@ -68,7 +68,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Ragequit Dagger | Short disengage | Logs off from your current position. |
 | Participation Trophy | One revive at the Spawn Lounge | Everyone can buy one. |
 | Refresh Page | Resets all cooldowns | Results may vary. |
-| Rapier, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
+| Hot Take, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
 | Gem of Subtext | Reveals invisible units and wards; drops on death | Reads between the lines. |
 | Bottle of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |
@@ -155,7 +155,7 @@ Numbers in this section are UNVERIFIED.
 | Heavenly Feedback | 1,800 | Disarm 2 s, slow 20% |
 | Ghost Mode | 1,600 | Move through units while moving |
 | Refresh Page | 5,000 | Resets all cooldowns, 280 s cooldown |
-| Rapier, Unironic | 6,000 | +200 damage. Drops on death, visible to all |
+| Hot Take, Unironic | 6,000 | +200 damage. Drops on death, visible to all |
 | Dark Mode Shield | 4,500 | Spell immunity 4 s |
 | Main Character Energy | 4,200 | Aura burns nearby enemies for 150 per second in a 400 radius and reveals the holder to them (UNVERIFIED) |
 | Sponsored Style | 4,000 | Two illusions for 15 s |
