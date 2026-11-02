@@ -11,10 +11,10 @@ Every hero plays against the others in fights. Each archetype has a fixed power 
 | Late-game Clout carry | Low | High | Low | None | Hot-take initiator, Assassin, vision denial | Hot-take initiator |
 | Ranged nuker | High | Medium | Low | Late-game Clout carry | Assassin, vision denial, Reach tank, initiator | Assassin, vision denial |
 | Resell healer, buffer | Medium | Medium | Medium | None | Hot-take initiator, Ranged nuker | Hot-take initiator |
-| Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Ghost-account summoner, Utility, zone control | Ghost-account summoner |
-| Ghost-account summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
+| Reach tank, initiator | Medium | Medium | High | Clout carry, Late-game Clout carry, Tethered support, dueler | Middleman summoner, Utility, zone control | Middleman summoner |
+| Middleman summoner | Medium | High | Low | Reach tank, initiator | Utility, zone control, Hot-take initiator | Utility, zone control |
 | Hot-take initiator | High | Low | High | Resell healer, buffer | Reach tank, initiator | Reach tank, initiator |
-| Utility, zone control | Medium | High | Medium | Assassin, vision denial, Ghost-account summoner | Ranged nuker | Ranged nuker |
+| Utility, zone control | Medium | High | Medium | Assassin, vision denial, Middleman summoner | Ranged nuker | Ranged nuker |
 | Tethered support, dueler | Medium | Medium | Medium | Clout carry | Hot-take initiator | Hot-take initiator |
 | Offline sustain | Low | High | Low | Hot-take initiator | Assassin, vision denial, Utility, zone control | Assassin, vision denial |
 
@@ -29,7 +29,7 @@ The tier sets the total stat points and the ability power budget before the ±10
 | Tier | Stat points | Ability power | Archetypes |
 | --- | --- | --- | --- |
 | 1 | 100 | 15 | Clout carry; Assassin, vision denial; Harasser, zoner; Hot-take initiator |
-| 2 | 90 | 12 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Ghost-account summoner; Utility, zone control; Tethered support, dueler |
+| 2 | 90 | 12 | Late-game Clout carry; Ranged nuker; Resell healer, buffer; Reach tank, initiator; Middleman summoner; Utility, zone control; Tethered support, dueler |
 | 3 | 80 | 9 | Offline sustain |
 
 Allocation: start at the tier total, then shift up to ±10% by attribute and range. A shift up on one attribute is paid for by an equal shift down on others, so the shifted total equals the tier total. All values are UNVERIFIED.
@@ -41,7 +41,7 @@ Numbers in this section are UNVERIFIED.
 | Rule | Value |
 | --- | --- |
 | Power budget | Total stats and ability points fixed by archetype tier, then shifted within ±10% by attribute and range |
-| Counter coverage | Every archetype row names at least one hard counter in its Hard counter cell |
+| Counter coverage | Decision 27 (plan/20), read from the Hard counter cell |
 | Markdown ceiling | Rule in plan/06 (Markdown on death and its cap) |
 | Hype Spike limit | None. Each Hyped hero runs its own 20 s Hype Spike and pays its own global reveal. |
 | Resell cap | Rule in plan/08 (Resell chain, max stacks and stacking) |
@@ -49,7 +49,6 @@ Numbers in this section are UNVERIFIED.
 ### Stat sheet
 
 - HP, damage, armor and sigma per tier, as totals at level 1 (UNVERIFIED): tier 1 has 700 HP, 55 damage, 4 armor and 300 sigma; tier 2 has 630, 50, 3 and 270; tier 3 has 560, 45, 2 and 240.
-- Attack time (BAT) and turn rate are set per hero, and are the main tool for a hero's feel.
 - Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).
 
 ### Balance process

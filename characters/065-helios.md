@@ -5,7 +5,7 @@ Hero slot: 065
 ## Card
 
 - Role family: Phantom
-- Role: Ghost-account summoner
+- Role: Middleman summoner
 - Attribute: Str
 - Range: Ranged
 - Distinct prop: Floating marble bust and mirrored sunglasses

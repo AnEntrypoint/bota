@@ -89,7 +89,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Shop | 1 | The Plug |
 | Chat wheel | 1 wheel, 21 phrases | Seen. / Listing this. / Muted, respectfully. / Ward the river pls. / We're so back. / It's so over. / Chat, is this real? / Cope. / F. / Bruh. / Sus. / Let him cook. / Cooked. / Touch grass. / Skill issue. / Seethe. / Cry about it. / L + markdown. / Mald. / No cap. / Ok boomer. |
 | Settings | 1 | Reduced motion, flash limiter, colorblind presets, subtitle size and background |
-| Tooltips | About 600 | Mechanical text first. Italic flavor second. |
+| Tooltips | About 600 | Order and size in plan/17. |
 | Announcer strings | About 70 | Section 16 |
 
 ### Effects

@@ -10,7 +10,7 @@ Vision decides what the enemy can see, and therefore what they can take. Under B
 | Ward | Brainrot name | Cost | Duration | Stock | Function |
 | --- | --- | --- | --- | --- | --- |
 | Vision ward | Lurker Cam | 65 gold | 6 min | Start 2, max 4, restock 150 s | Vision. Enemies see the reveal and earn no Clout. |
-| True sight ward | Spoiler Tag | 75 gold | 6 min | Shares a slot with Lurker Cam | True sight. Reveals invisible units and wards. |
+| True sight ward | Spoiler Tag | 75 gold | 6 min | Start 1, max 2, restock 150 s (GUESS: no source gives its stock; it takes the Lurker Cam restock so the pair reads alike) | True sight. Reveals invisible units and wards. |
 
 - Enemy wards reveal the area but earn their owner no Clout.
 - Towers give true sight at 700 range.

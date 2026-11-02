@@ -5,7 +5,7 @@ Hero slot: 063
 ## Card
 
 - Role family: Phantom
-- Role: Ghost-account summoner
+- Role: Middleman summoner
 - Attribute: Int
 - Range: Melee
 - Distinct prop: Wireframe grid on the torso (no held prop)

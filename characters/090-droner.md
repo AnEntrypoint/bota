@@ -5,7 +5,7 @@ Hero slot: 090
 ## Card
 
 - Role family: Phantom
-- Role: Ghost-account summoner
+- Role: Middleman summoner
 - Attribute: Agi
 - Range: Ranged
 - Distinct prop: Hovering FPV quadcopter drone

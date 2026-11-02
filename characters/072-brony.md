@@ -5,7 +5,7 @@ Hero slot: 072
 ## Card
 
 - Role family: Phantom
-- Role: Ghost-account summoner
+- Role: Middleman summoner
 - Attribute: Int
 - Range: Ranged
 - Distinct prop: Staff topped with a glitter rainbow star

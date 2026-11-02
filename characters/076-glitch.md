@@ -5,7 +5,7 @@ Hero slot: 076
 ## Card
 
 - Role family: Phantom
-- Role: Ghost-account summoner
+- Role: Middleman summoner
 - Attribute: Str
 - Range: Ranged
 - Distinct prop: Offset chromatic duplicate layers (no held prop)

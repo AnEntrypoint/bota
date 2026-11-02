@@ -5,7 +5,7 @@ Hero slot: 018
 ## Card
 
 - Role family: Phantom
-- Role: Ghost-account summoner
+- Role: Middleman summoner
 - Attribute: Str
 - Range: Ranged
 - Distinct prop: Black tendrils from the upper spine

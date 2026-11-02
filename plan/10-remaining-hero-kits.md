@@ -3,8 +3,6 @@ The 88 characters outside the launch set (section 9), Scalper [112] included. Ea
 
 Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. The Scalper [112] names are written in the Scalper row below.
 
-Emergent rewrite (GUESS): mechanic text reworked so each effect carries the character's visible trait from characters. Ability names, slot order, the four-ability count and effect kinds are kept. Any changed number is GUESS inline. Every cross-hero hook is GUESS. No new engine kinds or ability slots. Each row has at most one hook, listed under Emergent hooks.
-
 | Hero | Archetype | Ability 1 | Ability 2 | Ability 3 | Ultimate |
 | --- | --- | --- | --- | --- | --- |
 | Neckbeard [001] | Heckler | Taco Shield: absorbs damage for an ally; the greasy taco shirt soaks the first hit (GUESS) | Second Helping: heals the shielded ally and offers a stained leftover taco from the cargo pockets (GUESS) | Crumb Trail: slows nearby enemies; cargo-pocket crumbs drop under them and slow each step (GUESS) | Basement Exile: ally untargetable for 3 s; banished to the basement, where the sock-and-sandal smell drives foes off (GUESS) |

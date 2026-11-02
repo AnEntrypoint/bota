@@ -8,7 +8,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 | Element | Author size | Minimum display | Test |
 | --- | --- | --- | --- |
 | Ability icon | 128 × 128 PNG | 32 px | Motif identifiable in grayscale by at least 4 of 5 observers (UNVERIFIED). Fills 60 to 75% of frame. Bottom-right 25% clear for cooldown numbers. |
-| Item icon | 88 × 64 PNG; 176 × 128 master | 44 × 32 | One object, ¾ view, rim light, no text |
+| Item icon | 88 × 64 PNG; 176 × 128 master | 44 × 32 | Style in plan/18; must read at 44 × 32 |
 | Vote result banner | Top banner, 480 × 64 | 24 px | Text names the result: Surrender passed or Surrender failed, shown 5 s (UNVERIFIED). |
 | Status icon | 64 × 64 | 18 px | Single glyph in system color with 2 px dark outline |
 | Kill streak readout | Number on the hero's Clout bar | 16 px | Shows the streak count from three kills (UNVERIFIED) |

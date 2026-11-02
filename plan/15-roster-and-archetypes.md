@@ -13,7 +13,7 @@
 | 05 | Drifter | Ranged nuker | Long stooped diagonal | Night blue | Paper scroll trailing to the floor | Every ability loads more Trend the longer you keep scrolling | Doomscroller |
 | 06 | Herald | Resell healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Resell speeds your attacks and interrupts you in the same ping | Notification |
 | 07 | Bulwark | Reach tank, initiator | Big square | Grey with team color | Plate or shield held forward | Files every initiation as a polite form with maximum Reach | Moderator |
-| 08 | Phantom | Ghost-account summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with followers | Ghost |
+| 08 | Phantom | Middleman summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with followers | Ghost |
 | 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Hyped hot take at emergency volume | Hot Take |
 | 10 | Archivist | Utility, zone control | Wide rectangle | Sepia | Filing-cabinet backpack | Lists receipts that turn every Trend against whoever stands in the zone | Archivist |
 | 11 | Leash | Tethered support, dueler | Two linked circles | Rose | Framed photo of the rival | Insists the rival is a close friend, so the Stan tether never breaks | Parasocial |

@@ -22,7 +22,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Ranged nuker | Quiet and tired; reads the market aloud. | "Load more." |
 | Resell healer, buffer | Friendly and eager; means well and interrupts itself. | "Just checking in." |
 | Reach tank, initiator | Calm and procedural; violence is quiet, not shouted. | Short polite orders. |
-| Ghost-account summoner | No name, no history, confident anyway. | "Listed anonymously." |
+| Middleman summoner | No name, no history, confident anyway. | "Listed anonymously." |
 | Hot-take initiator | Loud, certain, always at emergency volume. | "UNPOPULAR OPINION:" |
 | Utility, zone control | Dry and exact; cites dates and logs. | "On file." / "Per the log." |
 | Tethered support, dueler | Warm and overfamiliar; performs closeness. | "You know me." |

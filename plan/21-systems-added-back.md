@@ -51,7 +51,7 @@ Every other hero gets the talent set of its role family below. Launch heroes use
 | Drifter (Ranged nuker) | Slow +10% / Root +1 s | Sigma regen +1 / Cooldown −15 s | Puddle on ground / Damage +50% | Every second cast / +10% vs heroes below 50% HP |
 | Herald (Resell healer, buffer) | Damage over time +2 / Shield +1 s | Bounce +1 / Armor −2 | Spreads on death / Heal 20% | Worse effect / Reveal 3 s |
 | Bulwark (Reach tank, initiator) | Slow +1 s / Shield +50 | Radius +50 / Stun +0.5 s | Reflect 10% / Mark for allies | Stun on death / 1 Clout per 200 damage absorbed while an enemy hero sees it |
-| Phantom (Ghost-account summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
+| Phantom (Middleman summoner) | Slow +10% / Cooldown −2 s | Stealth +1 s / Crit +50% | Leaves a decoy / Not revealed | Double Clout / Name hidden on death |
 | Firebrand (Hot-take initiator) | Length +100 / Attack speed +10% | Stun +0.3 s / Extra target | Stun 0.5 s / Heal allies | Global / Reveal 2 s |
 | Archivist (Utility, zone control) | Radius +30 / Duration +0.5 s | Range +100 / Duration +1 s | Two charges / Reveals a Clout pulse | Detonates on death / LIVE for 2 s |
 | Leash (Tethered support, dueler) | Speed +10% / Duration +1 s | Damage +50 / Stun +0.5 s | Orb returns / Leaves a copy | Repeats on death / Extends for each ally in radius |
@@ -99,9 +99,8 @@ Numbers in this section are UNVERIFIED.
 
 Numbers in this section are UNVERIFIED.
 
-- Job: vision (plan/02, Vision and wards row). The cost is the 270 s shared team cooldown.
+- Job: vision (plan/02, Vision and wards row). The cost is the 270 s shared team cooldown. Any hero on the team can cast it.
 - Reveals enemy heroes within 900 radius for 8 s.
-- Shared team cooldown of 270 s. Any hero on the team can cast it.
 
 ### Status resistance
 

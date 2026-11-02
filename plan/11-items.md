@@ -160,7 +160,7 @@ Numbers in this section are UNVERIFIED.
 | Sponsored Style | 4,000 | Two illusions for 15 s |
 | Monetized | 3,500 | Creep kills give +25% gold |
 | Sheep Check | 3,000 | Polymorph 3 s, 15 s cooldown |
-| Lite Plan | 1,400 | Adds one second effect to a basic ability (section 21). Standalone; not built from Pro Plan |
+| Lite Plan | 1,400 | See the item roster. Standalone; not built from Pro Plan |
 | Confident Answer | 650 | Attacks reveal the target's last position for 2 s, 20% chance. UNVERIFIED |
 | Prompt Injection | 700 | The next ability the target casts hits its nearest ally, 4 s, 30 s cooldown. UNVERIFIED |
 | Sycophant | 800 | Aura 500 radius: allies inside gain Reach +100. UNVERIFIED |
