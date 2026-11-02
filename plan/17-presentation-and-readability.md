@@ -46,7 +46,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 Rules:
 
 - Every color signal on a unit or ability carries a shape. Ally creeps have rounded hoods. Enemy creeps have angular hoods. Team colour on structures carries value instead (see the team rows above).
-- Colorblind presets: deuteranopia, protanopia, tritanopia, and a custom picker.
+- Colorblind presets: deuteranopia, protanopia, tritanopia, and a custom picker. The custom picker is not a gate preset; the gate checks the three fixed presets (UNVERIFIED).
 - Red is never used for a non-damage signal.
 
 ### UI

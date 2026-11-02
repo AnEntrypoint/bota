@@ -126,7 +126,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Signature mechanics
 
-Each of these heroes has one rule that makes its kit read differently on the map. Each rule uses only Reach, reveal, Resell, Clout, the scoreboard or vision, never a stat; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
+Each of these heroes has one rule that makes its kit read differently on the map. Each rule follows decision 9; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
 
 | Hero | Signature mechanic | Clout tie |
 | --- | --- | --- |

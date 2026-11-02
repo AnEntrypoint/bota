@@ -24,7 +24,7 @@ How the plan's tables become engine data, and how the plan's markdown tables are
 - `scripts/dev/stage.sh`: builds wasm when the pkg is missing, runs `mapexport` for each pack in a fixed loop (`for p in moba duel-routes`, line 11), then calls `scripts/layout-site.sh`.
 - `scripts/layout-site.sh`: copies `js/client`, the wasm pkg, `scenarios/` (removing each pack's `tools/`, line 19), and `mods/` into the site. It packs `scenarios/moba` into a split archive unless `SKIP_PACKS=1`. Its only content check is for `scenarios/moba/manifest.json` and `moba.osdt` (line 32). It does not copy `247420/internal/`.
 - `.github/workflows/ci.yml` (lines 139 to 141) and `pages.yml` (lines 75 to 77) build `mapexport` and name both packs explicitly.
-- `.github/workflows/tests.yml` (lines 152 to 165) runs `mapexport` twice and compares the bytes.
+- `.github/workflows/tests.yml` (lines 152 to 165) runs `mapexport` twice and compares the bytes; the generator must sort, use LF, fix float formatting and write no timestamps.
 - `scripts/pack-package.mjs`: `--build` runs `mapexport` first; archives are split above 25 MiB.
 - `scenarios/moba/tools/check-fx.mjs` runs in CI (docs/MODDING.md).
 - `rust/gate/` holds check modules (checks.rs, mechanic_checks.rs, spell_checks.rs, mod_checks.rs).
@@ -97,7 +97,7 @@ Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing f
 
 ## 3. Smallest first-playable slice: data files
 
-The slice is file 26: six heroes, two modifiers, a fixed draft order, one stage camp per side, Clout, mood, Breaking News and the Short Form map. Row counts are what the slice needs.
+The slice is file 26, which lists its contents. Row counts are what the slice needs.
 
 | File | Rows | Compiles to | Note |
 | --- | --- | --- | --- |
@@ -141,12 +141,11 @@ To make a check possible: (1) have the owner supply the archive, (2) run `conver
 
 - **R1. The parity map stays out of packs and Pages.** `layout-site.sh` copies `scenarios/`, `mods/` and `js/client/`, not `247420/internal/`, so the map does not ship today.
 - **R2. The plan is tracked but outside the build.** `plan/` and `internal/` are tracked in git; `layout-site.sh` does not copy them. Drift checks can read them in CI, but generated plan tables are never shipped.
-- **R3. Pack wiring is hard-coded.** `stage.sh` line 11, `pages.yml` lines 75 to 77 and `ci.yml` lines 139 to 141 list the packs by name. A new pack without these edits gets no `.osdt`, and `layout-site.sh` still succeeds because it checks only moba (A2).
+- **R3. Pack wiring is hard-coded.** `stage.sh` line 11, `pages.yml` lines 75 to 77 and `ci.yml` lines 139 to 141 list the packs by name.
 - **R5. Time units do not divide evenly.** Ticks run at 16 per second (REFERENCE.md line 5), and FORMAT.md requires durations as integer ticks. The plan's 3.8 s per level gives 60.8 ticks.
 - **R6. Clout, Reach, Stan, Markdown, Resell and global Trend modifiers have no data slot.** ITEM_STATS is fixed at 48 entries (FORMAT.md line 304), and plan decision 9 says Clout is never a stat, so these are Lua hooks. AXTN modifiers (8 per ability, FORMAT.md line 336) cannot express a global modifier. Each hook runs under a 2,500-step budget (docs/MODDING.md line 47), which constrains per-tick Reach recalculation.
 - **R7. Filter bits are capped.** FNAM allows at most 15 bits (FORMAT.md line 384). Twelve archetype filters plus role filters can exhaust that. Keep archetype as a data column and use filter bits only for targeting.
 - **R8. Ids are positions.** Item ids are record indices, and ability indices follow declaration order (FORMAT.md). Unit `kind` is a `u16` position on the wire. Inserting a row renumbers everything after it, which makes a new image hash and a SWAP at a tick (docs/WIRE.md). Generation must keep ids stable, as section 2 says.
-- **R9. Output must be byte-stable.** `tests.yml` compares two `mapexport` runs byte for byte. The generator must sort, use LF, fix float formatting and write no timestamps.
 - **R10. FORMAT.md is internally inconsistent.** It says "the reader requires all twenty-eight tags" (line 28), but the header, the table and the rule at line 17 all say 27. The oscraft repo owns `rust/crates/data/FORMAT.md`; this plan does not edit it.
 - **R12. The source moved on 2026-10-27.** Files 06, 11, 12 and 14 changed, and files 22, 23, 24 and 26 were added. Generators must find tables by heading and must reject duplicate or missing headings.
 - **R13. The 6.88g map is on this machine.** The convert tools can run against it; no derived table has been regenerated from it yet. The local checkout and origin/main matched on 2026-10-27.

@@ -98,7 +98,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Ghost Mode | Phases through units while moving | Escape (plan/02, Escape row) |
 | Envelope With Legs | Delivers items to base | Late. Always. |
 | Confident Answer | Attacks reveal the target's last position for 2 s, 20% chance | Delivered with total certainty and no sources. |
-| Prompt Injection | The next ability the target casts hits its nearest ally | Adds one line to the instructions, and the instructions obey. |
+| Prompt Injection | The next ability the target casts hits its nearest ally | See the flavor in plan/23. |
 | Sycophant | Aura: allies inside gain Reach +100 | Agrees with everyone nearby, which everyone mistakes for friendship. |
 | Grindset | +3 HP regen, +1 sigma regen | The grind does not stop. Neither do you. |
 | Drain Blade | Attack lifesteal after an attack lands | Take their energy. |

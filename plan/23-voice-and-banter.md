@@ -124,6 +124,7 @@ Flavor lines are fad-forward one-liners that carry the joke. They carry no numbe
 | Hot Mic | Left on at the wrong moment. Any moment. |
 | Ding Bell | Ding. Someone just shared your worst moment. |
 | Thick Cloak | Hides the markdown, not the numbers. |
+| Prompt Injection | Adds one line to the instructions, and the instructions obey. |
 | Cancel Mask | Worn to dodge the discourse. Started the discourse anyway. |
 | Eternal Ticker | Never ends. That is the entire problem. |
 | Vintage Lot | Old enough to be someone's first lot. |

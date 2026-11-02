@@ -85,7 +85,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Modifier | Likely favors | Dominance risk | Answer |
 | --- | --- | --- | --- |
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
-| Unboxing | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; C2 flags it if its pick rate passes 65% |
+| Unboxing | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; pick-rate check C2 in plan/26 |
 | Learn to Code | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Speedrun |
 | Speedrun | Aggressive early teams | High: speed rewards an early rush, and the tower damage and cut tower gold are the rusher's cost | Slow the rush; the rusher pays the tower tax |
 | Storytime | Channel-heavy heroes (Tricky, Dino) | Medium | Channel-free kits |

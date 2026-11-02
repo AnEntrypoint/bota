@@ -23,12 +23,12 @@ Vision decides what the enemy can see, and therefore what they can take. Under B
 | --- | --- | --- |
 | Gem | Gem of Subtext | True sight carried by one hero. Drops on death. |
 | Dust | Dust of Receipts | Reveals invisible units in the radius plan/11 gives |
-| Smoke | Smoke of Deniability | Group invisibility, hidden on the minimap until an enemy hero is within 300 range or an enemy tower within 700 range (UNVERIFIED). Restock 11 min. |
+| Smoke | Smoke of Deniability | Group invisibility, hidden on the minimap until a reveal in the fog rules applies or an enemy tower is within 700 range (UNVERIFIED). Restock 11 min. |
 
 ### Vision states
 
 - **LIVE:** an enemy hero sees you. Clout is earned. The LIVE dot shows on your portrait.
-- **Hidden:** no enemy hero sees you. No Clout is earned. This is the vision side of plan/06's Quiet state: Quiet is Hidden with Clout below the Hype Spike threshold, and a hero at that threshold is Hyped instead (plan/06 overlap order).
+- **Hidden:** no enemy hero sees you. No Clout is earned. The state rules are in plan/06.
 - **Revealed** (a visibility flag, not a Clout state): an enemy ward, a reveal tool, or a reveal modifier or ability (Cast Rush, Tendril Flare) shows your position. No Clout is earned.
 
 The LIVE dot uses the colour and ring in decision 16. It is never red (red means damage).
