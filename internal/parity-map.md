@@ -849,11 +849,11 @@ Each Brainrot item's classic job is its plan/02 row. The balance pass checks it 
 | --- | --- |
 | Ragequit Dagger | Escape |
 | Participation Trophy | Boss objective and revive reward |
-| Refresh Page | Talents |
+| Refresh Page | Teamfight chain (GUESS: a fight-wide cooldown reset sets the chain tempo) |
 | Hot Take, Unironic | Death |
 | Gem of Subtext | Vision and wards |
 | Vial of Copium | Sustain |
-| Heart of Brainrot | Base shield |
+| Heart of Brainrot | Backpack (GUESS: a passive stat with no active; its Clout cost is the trade) |
 | Lurker Cam | Vision and wards |
 | Spoiler Tag | Vision and wards |
 | Dust of Receipts | Vision and wards |
@@ -863,13 +863,13 @@ Each Brainrot item's classic job is its plan/02 row. The balance pass checks it 
 | Hot Sauce | Sustain |
 | Link in Bio Scroll | Escape |
 | Boots of Scrolling | Escape |
-| Sleep Mode | Talents |
+| Sleep Mode | Escape (GUESS: a movement-mode switch, the nearest escape row) |
 | Immunity Shield | Base shield |
-| Reply All | Base shield |
+| Reply All | Base shield (GUESS: nearest defensive row; no plan/02 row names reflect) |
 | Co-Working Space | Support tether |
 | Anon Mask | Escape |
 | Main Character Energy | Teamfight chain |
-| Sponsored Style | Talents |
+| Sponsored Style | Talents (GUESS: illusions are a power choice; no plan/02 row names illusions) |
 | Rescheduled | Disable duration |
 | Pro Plan | Talents |
 | Monetized | Last hitting |
