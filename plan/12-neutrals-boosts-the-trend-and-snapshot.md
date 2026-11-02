@@ -14,7 +14,7 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 | Old Forum Ticker | Elder | Long-lived creature, magic-resistant |
 | Static Imp, Ticker Sprite, Bio Bot | Small | Camp stat budgets under Stacking |
 | Reverb Wraith, Cancel Mob | Medium | Camp stat budgets under Stacking |
-| Hyped Golem, Markdown Hound | Hard | Camp stat budgets under Stacking |
+| Clang Golem, Markdown Hound | Hard | Camp stat budgets under Stacking |
 
 Stacking:
 
@@ -28,7 +28,7 @@ Stacking:
 
 Numbers in this section are UNVERIFIED.
 
-- Job: map pressure and rotation (plan/02, Map pressure row). The cost is the river walk.
+- Job: map pressure and rotation (plan/02, Map pressure, rotation row). The cost is the river walk.
 
 Six listed boosts plus the Demand Boost (section 21): seven in total. Two spawn spots on the river; they respawn every 2 min.
 

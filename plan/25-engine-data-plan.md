@@ -74,7 +74,6 @@ Extra tables that the plan also has: wards (13) map to `items.tsv` rows. Lines (
 ```
 heroes.tsv     hero_id slug name archetype_id attr range launch status
 abilities.tsv  hero_id slot slug name kind tier dmg_r1 dmg_r2 dmg_r3 dmg_r4 cd_r1 cd_r2 cd_r3 cd_r4 sigma_r1 sigma_r2 sigma_r3 sigma_r4 ult_gate_1 ult_gate_2 ult_gate_3 status
-items.tsv      item_id slug name kind tier cost components stats active stock restock_s drop_on_death flavor status
 ```
 
 **Generated outputs, one direction only.**

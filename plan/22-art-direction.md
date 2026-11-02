@@ -18,7 +18,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | --- | --- | --- | --- | --- | --- |
 | 001 | Neckbeard (P1) | Heckler | Round wire-rim glasses (worn; no held prop) | Mustard, dingy | L / D / M |
 | 002 | Chungus (P1) | Bulwark | Suspenders (worn; no held prop) | Grey, soft | L / D / M |
-| 003 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Peach, emerald | L / D / M |
+| 003 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Gold, emerald | L / D / M |
 | 004 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
 | 005 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |
 | 006 | Soyjak (P1) | Herald | Gaping mouth (no held prop) | Soft cyan, yellow | L / D / M |
@@ -127,4 +127,4 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 109 | Sealcommando (P3) | Stalker | Four-tube night-vision helmet | Slate, desert camo | M / L / D |
 | 110 | Scammer (P1) | Leash | Coiled landline handset and wireless earpiece | Rose, bright blue | M / L / D |
 | 111 | Preacher (P5) | Heckler | White megaphone and a leather-bound Bible | Mustard, charcoal | M / L / D |
-| 112 | Scalper (P6) | Archivist | Mountaineering backpack of graphics-card boxes | Sepia, dark | L / D / M |
+| 112 | Scalper (P6) | Archivist | Mountaineering backpack of sealed toy boxes | Sepia, dark | L / D / M |

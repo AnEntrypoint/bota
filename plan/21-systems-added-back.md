@@ -75,7 +75,7 @@ Numbers in this section are UNVERIFIED.
 | --- | --- | --- |
 | 1 | Small camps | Ticker Pin: +10 damage. Crumb Pouch: +1.5 HP regen. NPC Badge: +8% spell amplification. |
 | 2 | Medium camps | Echo Ring: 8% attack lifesteal. Stan Sign: allied creeps in Reach gain +5% damage. Hot Mic: 15% chance on attack to silence for 0.6 s. |
-| 3 | Hard camps | Hyped Bell: 10% chance on attack to heal 60 HP. Markdown Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max sigma. |
+| 3 | Hard camps | Ding Bell: 10% chance on attack to heal 60 HP. Thick Cloak: 8% damage reduction below 50% HP. Cancel Mask: +6% magic resistance, +50 max sigma. |
 | 4 | Old Forum Ticker | Eternal Ticker: +150 HP, +20 damage, 10% faster cooldowns. Vintage Lot: active, 2 s reveal and 1.5 s stun in 400 radius, 60 s cooldown. Long Tail: +25% Clout gain. |
 
 ### Safe Spots

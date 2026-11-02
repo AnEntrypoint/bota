@@ -1,10 +1,10 @@
 # 16. Humor and tone
-The register is maximalist, fad-forward and then some. Two images carry two readings. The second reading is the punchline.
+The register is maximalist, fad-forward and then some. Two images carry two readings.
 
 ### Rules
 1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Trollhunter bumps old tickers (GUESS), Pointing points at everything.
 2. Every joke has a setup and a punchline.
-3. Voice is expressive and reactive. Rageguy and Krazed scream; Viking reacts by scrolling past. Only the Hot-take initiator screams.
+3. Voice is expressive and reactive. Viking reacts by scrolling past. Only the Hot-take initiator screams.
 4. Gags have a lifespan. Forever replays the same loop, Acorn rebrands every week (GUESS), Krazed's monitor cracks once and is folded into the next patch.
 5. Fad vocabulary is the roster's own Trend and Clout terms: Smugcat's squint carries cope, Npc repeats one line (GUESS). Phrases rotate per patch. Two dated platform fads are kept on purpose: Nobody: / Me: (gag 18) and [deleted] (gag 11).
 6. The stock phrases (cope, skill issue, L + markdown, We're so back., F., Cooked.) are the only loaded phrases in announcer lines; the other lines in the table below are neutral. Smugcat and Rageguy voice the loaded ones and aim at the play, a kill, a death or a lane, never at a person.

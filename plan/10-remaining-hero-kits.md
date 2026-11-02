@@ -1,7 +1,7 @@
 # 10. Remaining hero kits
 The 88 characters outside the launch set (section 9), Scalper [112] included. Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass.
 
-Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. The Scalper [112] names are written in the Scalper row below.
+Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. The Scalper [112] names are written in the Scalper row below. Each GUESS in the tables is a theme value with no 6.88g or repo source; its reason is the character's gag.
 
 | Hero | Archetype | Ability 1 | Ability 2 | Ability 3 | Ultimate |
 | --- | --- | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot b
 | Snackvendor [108] | Herald | Sun Visor Burn: damage over time and slow; the bright green sun visor burns (GUESS) | Armful Splinters: damage; the armful of chip bags splinters (GUESS) | Soda Hug: heals an ally; the 2-liter soda hug heals (GUESS) | Tournament Curse: charms enemies; the gaming headset curses with a tournament charm (GUESS) |
 | Sealcommando [109] | Stalker | Goggle Pep: bounces between enemies; the four-tube night-vision goggles bounce (GUESS) | Desert Restore: heal aura; the digital desert camouflage restores (GUESS) | Suppressed Curse: damage; the suppressed sniper curses (GUESS) | Night Ward: channel strike; the moonlit rig channels a strike (GUESS) |
 | Preacher [111] | Heckler | Megaphone Chain: chains between enemies; the battery megaphone chains (GUESS) | Bible Bolt: stuns; the leather-bound Bible held high bolts (GUESS) | Zealot Static: damage aura; the wide-eyed gaze crackles (GUESS) | Sermon Cloud: summons a storm; the zealous shouting summons a storm (GUESS) |
-| Scalper [112] | Archivist | Sold Out Snare: area trap that roots and damages; the backpack of sealed graphics-card boxes drops as a snare (GUESS) | Markup Drain: aura that damages nearby enemies, growing 10% per second in combat; the nervous sideways stance keeps raising the price (GUESS) | Queue Bypass: places a gate; allies who step through teleport to the other gate, as the hooded windbreaker slips past the line (GUESS) | Bulk Buy Drop: teleports an ally to a point, then damages enemies around the arrival (GUESS) |
+| Scalper [112] | Archivist | Sold Out Snare: area trap that roots and damages; the backpack of sealed toy boxes drops as a snare (GUESS) | Markup Drain: aura that damages nearby enemies, growing 10% per second in combat; the nervous sideways stance keeps raising the price (GUESS) | Queue Bypass: places a gate; allies who step through teleport to the other gate, as the hooded windbreaker slips past the line (GUESS) | Bulk Buy Drop: teleports an ally to a point, then damages enemies around the arrival (GUESS) |
 
 Notes:
 

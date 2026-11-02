@@ -36,7 +36,7 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Spudgunner (Drifter) | Full ticker on that shot, coming up. | Shot's gone. Muffs stay on. | Hands on the pipe. Whistling, mostly. |
 | Tinfoil (Drifter) | Zap. I did not see that. Neither did you. | Copper snapped. I was never here. | Crouched in foil. Not LIVE. |
 | Boomer (Heckler) | Correction: across the lawn, then here, per the log. | Citation on file: the sun got me. | Weedwhacker idling. Logged, right behind you. |
-| Disaster (Firebrand) | THAT KILL! COLD READ? NO! PLANNED, ACTUALLY! | FIRE'S OUT! BUFFERING! | WARMING MY HANDS! NOBODY ASKED, I KNOW! |
+| Disaster (Firebrand) | That kill! Cold read? No! Planned, actually! | Fire's out! Buffering! | Warming my hands! Nobody asked, I know! |
 | Tricky (Bulwark) | Stop sign said stop. Citation attached. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
@@ -122,8 +122,8 @@ Flavor lines are fad-forward one-liners that carry the joke. They carry no numbe
 | Echo Ring | Every hit repeats itself until someone hears it. |
 | Stan Sign | Hand-lettered, slightly misspelled, deeply sincere. |
 | Hot Mic | Left on at the wrong moment. Any moment. |
-| Hyped Bell | Ding. Someone just shared your worst moment. |
-| Markdown Cloak | Hides the markdown, not the numbers. |
+| Ding Bell | Ding. Someone just shared your worst moment. |
+| Thick Cloak | Hides the markdown, not the numbers. |
 | Cancel Mask | Worn to dodge the discourse. Started the discourse anyway. |
 | Eternal Ticker | Never ends. That is the entire problem. |
 | Vintage Lot | Old enough to be someone's first lot. |
