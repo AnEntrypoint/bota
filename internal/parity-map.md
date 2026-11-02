@@ -581,6 +581,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 
 - Scalper = Underlord. Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
 - Hype Spike = Bull Run (previous draft name). Hyped = Bullish (previous draft name).
+- Lane Stall = Side Shop.
 - Sources: https://liquipedia.net/dota2/Gold , https://liquipedia.net/dota2/Time_of_Day , https://liquipedia.net/dota2/Observer_and_Sentry_Wards
 - Exchange (base) = Ancient. Back Alley Shop = Secret Shop. Lurker Cam = Observer Ward. Spoiler Tag = Sentry Ward.
 - Paintballer (Slardar): Whale Splash = Slithereen Crush, Pity Bonk = Bash, Sunk Cost = Amplify Damage, Receipt Haze = Corrosive Haze. Final Warning = Land Mines.

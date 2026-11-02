@@ -13,7 +13,7 @@ Numbers in this section are UNVERIFIED.
 ### Shop
 
 - The Spawn Lounge shop is run by The Plug, the shop NPC (section 18). It sells every component, every Tier 1 finished item and the consumable wards.
-- The Back Alley Shop sells the Tier 2, Tier 3 and Tier 4 finished items. The two Side Shops sell components only (section 4).
+- The Back Alley Shop sells the Tier 2, Tier 3 and Tier 4 finished items. The two Lane Stalls sell components only (section 4).
 - Purchases spend reliable gold first, then unreliable gold.
 
 ### Component tree

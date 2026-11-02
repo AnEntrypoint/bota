@@ -50,6 +50,8 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Trend death husks | 8 | One per modifier. Desaturated, no health bar. |
 | Trend announcement banners | 8 | 1920 × 200 |
 | Snapshot pickup and revive | 2 | One model, one VFX |
+| Breaking News zone | 1 | Ground ring with a capture meter above it |
+| Front Page icon | 1 | Reach buff from a held zone, 64 × 64 |
 | The Trending Pit | 1 | Recessed amphitheater with marginal props |
 | Bases | 2 | Morning Market and Late Night Market |
 | Terrain kits and props | 3 kits, 120 props | Lanes, jungle, river |
@@ -95,7 +97,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | --- | --- |
 | Hype Spike glow, 20 s | Steady violet rim light. Slow upward particles. Shadow counter. |
 | Markdown record-scratch | Clout bar halves. Violet arc from corpse to killers. 0.3 s desaturation on the victim's screen. |
-| Resell arcs | Ally-blue dotted arc with grey core and via tags. At most 5 drawn. |
+| Resell arcs | Ally-blue dotted arc with grey core. Via tags show on hover only. At most 5 drawn. |
 | Trend banner | Slides from top, 2 s |
 | Go Private | Padlock decal, 5 s ring timer, blinds |
 | Snapshot revive | 3 s rewind clip. Corner brackets snap in. Soft white fade. |

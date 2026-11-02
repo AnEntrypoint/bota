@@ -30,6 +30,8 @@ Ten bans and ten picks, in the order below (1st and 2nd name the two teams). The
 Short Form is the same game on a smaller map. All numbers are UNVERIFIED.
 
 - Two lanes per side (top and bottom). Mid lane and its tower and Content Mill rows are removed.
+- Position 2 takes a surviving lane alone (top or bottom, UNVERIFIED), since mid is removed.
+- Neutral items: tiers 1 and 2 only. Tiers 3 and 4 start at 27:00 and 37:00, past the 25 minute target (UNVERIFIED).
 - The Trend opens at 5:00 and respawns in 4 to 6 min (a Short Form override of plan/12's 8 to 11 min, UNVERIFIED).
 - Exchange is invulnerable until both enemy Tier 2 towers, one in each lane, fall, not both Tier 4s.
 - The XP a hero gains is multiplied by 1.5; the XP needed per level is unchanged (UNVERIFIED).

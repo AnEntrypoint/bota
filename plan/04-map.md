@@ -7,11 +7,12 @@ The map is two halves split by a river. Each half holds three lanes, a primary a
 
 - **Morning Market** (ally): light value, sunrise palette. The river is the Market, with slow caustics.
 - **Late Night Market** (enemy): dark value, screen glow.
-- Each base holds the Spawn Lounge, a main shop at the Spawn Lounge, one Back Alley Shop, two Side Shops (one each on the top and bottom lanes).
+- Each base holds the Spawn Lounge, a main shop at the Spawn Lounge, one Back Alley Shop, two Lane Stalls (one each on the top and bottom lanes).
+- Job: respawn (plan/02, Respawn row). The cost is the walk home.
 
 ### Lanes
 
-Three lanes per team: top, mid and bottom. Lane assignment by role is in section 14. Side Shops sit at the lane mouths and sell basic components.
+Three lanes per team: top, mid and bottom. Lane assignment by role is in section 14. Lane Stalls sit at the lane mouths and sell basic components.
 
 ### River
 

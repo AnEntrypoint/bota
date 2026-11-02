@@ -27,7 +27,7 @@ There are three currencies: gold (spent), XP (levels), and Clout (section 6, a B
 
 ### Rebrand
 
-- Job: buyback (plan/02, Buyback row). The cost is the Clout reset to 0.
+- Job: respawn (plan/02, Respawn row). The cost is the Clout reset to 0.
 
 - **Cost:** 100 + 1.5 × level² + 0.25 × game seconds. Spends reliable gold first.
 - **Effect:** a Rebrand resets Clout to 0 and ends the respawn timer early.

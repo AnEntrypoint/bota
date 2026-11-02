@@ -20,7 +20,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 04 | Header: Your listing was marked down, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Markdown | Death | Standard damage table first. |
 | 05 | Hero name followed by a small grey formerly tag, like Helios's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. | Go Private | Activation | Cosmetic. The padlock is the read. |
-| 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS] | The Trend | Kill | Fades on respawn |
+| 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS: a visual gag with no value to source] | The Trend | Kill | Fades on respawn |
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (plan/15, Peanut row). | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Trending in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |

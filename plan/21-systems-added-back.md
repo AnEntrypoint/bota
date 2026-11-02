@@ -145,7 +145,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | --- | --- | --- |
 | Tinfoil | Lurk Meter: 8 s unseen charges one free Foil Mention. | Unseen play |
 | Boomer | Tracked Lawn marks a target; its LIVE state shows to the whole team as a counter. | Vision |
-| Disaster | Smirk Read freezes its target 1 s longer (UNVERIFIED). | Clout |
+| Disaster | Smirk Read freezes its target 1 s longer (UNVERIFIED). | None |
 | Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision |
 | Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach |
@@ -161,7 +161,7 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach |
 | Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal |
 | Fuckyea | A hooked hero loses Reach while hooked. | Reach |
-| Forever | Its stun repeats until the clip ends. | Vision |
+| Forever | Its stun repeats until the clip ends, while the target stays in its vision. | Vision |
 | Scammer | On revive, Reach +200 for 10 s. | Reach |
 
 ### Seasons

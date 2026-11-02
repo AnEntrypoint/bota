@@ -13,7 +13,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 | Tier 4 towers | 2 (at the Exchange) | Invulnerable until a T3 falls in any lane |
 | Content Mills | 6 (two per lane, melee and ranged) | A lane with both its Content Mills down spawns Mega creeps; a destroyed mill respawns after 5 min (UNVERIFIED) |
 | All six Content Mills down | n/a | Mega creeps spawn in all three lanes until a mill respawns |
-| Exchange | 1 | Invulnerable until both T4s fall. Destroying it wins. |
+| Exchange | 1 | Invulnerable until both T4s fall. Destroying it wins (plan/02, Win objective row). |
 
 - Job: map pressure, rotation (plan/02, Map pressure, rotation row). The cost is the tower held or the lane rotated away from.
 
