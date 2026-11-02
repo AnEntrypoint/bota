@@ -38,9 +38,9 @@ Twelve components. Tier 1 and Tier 2 components combine into finished items. Tie
 Finished items by tier (built from the components):
 
 - **Tier 1:** Lurker Cam (Sticky Note + Ring Light), Dust of Receipts (Drafted Note + Sticky Note), Hot Sauce (Hot Sauce Bottle + Drafted Note), Link in Bio Scroll (Envelope + Old Hoodie), Envelope With Legs (Envelope + Sticky Note), Magic Enthusiast (Drafted Note + Hot Sauce Bottle), Spoiler Tag (Sticky Note + Drafted Note).
-- **Tier 2:** Ragequit Dagger (Cheap Dagger + Burner Phone), Gem of Subtext (Drafted Note + Rubber Duck), Bottle of Copium (Hot Sauce Bottle + Cold Brew), Smoke of Deniability (Burner Phone + Old Hoodie), Grindset (Cold Brew + Charger), Gas Station Sushi (Hot Sauce Bottle + Envelope), Lo-Fi Beats (Charger + Rubber Duck), Boots of Scrolling (Old Hoodie + Tripod), Anon Mask (Ring Light + Burner Phone), Confident Answer (Drafted Note + Ring Light), Prompt Injection (Rubber Duck + Sticky Note), Sycophant (Ring Light + Envelope).
-- **Tier 3:** Participation Trophy (Gem of Subtext + Tripod), Heart of Brainrot (Grindset + Old Hoodie), Sleep Mode (Smoke of Deniability + Charger), Reply All (Prompt Injection + Sticky Note), Co-Working Space (Boots of Scrolling + Tripod), Rescheduled (Gas Station Sushi + Cold Brew), Pro Plan (Lo-Fi Beats + Burner Phone), Dunk (Ragequit Dagger + Rubber Duck), Heavenly Feedback (Sycophant + Ring Light), Ghost Mode (Anon Mask + Old Hoodie), Drain Blade (Confident Answer + Cheap Dagger), Lite Plan (Bottle of Copium + Charger).
-- **Tier 4:** Refresh Page (Reply All + Cold Brew); Hot Take, Unironic (Drain Blade + Ragequit Dagger); Dark Mode Shield (Ghost Mode + Old Hoodie); Main Character Energy (Heavenly Feedback + Ring Light); Sponsored Style (Co-Working Space + Ring Light); Monetized (Participation Trophy + Sticky Note); Sheep Check (Sleep Mode + Tripod).
+- **Tier 2:** Ragequit Dagger (Cheap Dagger + Burner Phone), Gem of Subtext (Drafted Note + Rubber Duck), Vial of Copium (Hot Sauce Bottle + Cold Brew), Smoke of Deniability (Burner Phone + Old Hoodie), Grindset (Cold Brew + Charger), Gas Station Sushi (Hot Sauce Bottle + Envelope), Lo-Fi Beats (Charger + Rubber Duck), Boots of Scrolling (Old Hoodie + Tripod), Anon Mask (Ring Light + Burner Phone), Confident Answer (Drafted Note + Ring Light), Prompt Injection (Rubber Duck + Sticky Note), Sycophant (Ring Light + Envelope).
+- **Tier 3:** Participation Trophy (Gem of Subtext + Tripod), Heart of Brainrot (Grindset + Old Hoodie), Sleep Mode (Smoke of Deniability + Charger), Reply All (Prompt Injection + Sticky Note), Co-Working Space (Boots of Scrolling + Tripod), Rescheduled (Gas Station Sushi + Cold Brew), Pro Plan (Lo-Fi Beats + Burner Phone), Dunk (Ragequit Dagger + Rubber Duck), Heavenly Feedback (Sycophant + Ring Light), Ghost Mode (Anon Mask + Old Hoodie), Drain Blade (Confident Answer + Cheap Dagger), Lite Plan (Vial of Copium + Charger).
+- **Tier 4:** Refresh Page (Reply All + Cold Brew); Hot Take, Unironic (Drain Blade + Ragequit Dagger); Immunity Shield (Ghost Mode + Old Hoodie); Main Character Energy (Heavenly Feedback + Ring Light); Sponsored Style (Co-Working Space + Ring Light); Monetized (Participation Trophy + Sticky Note); Sheep Check (Sleep Mode + Tripod).
 
 Where two finished items share a component set (Hot Sauce and Magic Enthusiast), the buyer picks which one the set crafts.
 
@@ -70,7 +70,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Refresh Page | Resets all cooldowns | Results may vary. |
 | Hot Take, Unironic | High-value item, drops on death | Dropped on death. Visible to all. |
 | Gem of Subtext | Reveals invisible units and wards; drops on death | Reads between the lines. |
-| Bottle of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
+| Vial of Copium | Restores HP and sigma over time | You are fine. Totally fine. For 12 seconds. |
 | Heart of Brainrot | Large HP pool. Nearby allies gain 5% less Clout. | Your allies are slightly less sure of themselves. |
 | Lurker Cam | Vision: the owner's team sees the reveal of invisible units and wards in the area; enemies earn no Clout. | Watching, not listing. |
 | Spoiler Tag | True sight ward | Reveals what is hidden. Also what is coming. |
@@ -82,7 +82,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Link in Bio Scroll | Teleports to base | Stay a while. |
 | Boots of Scrolling | Movement speed | Infinite scroll, finite boots. |
 | Sleep Mode | Toggles attribute and movement | Switch modes. Never fully off. |
-| Dark Mode Shield | Brief spell immunity | Works everywhere. |
+| Immunity Shield | Brief spell immunity | Works everywhere. |
 | Reply All | Reflects damage | Everyone sees what you said. |
 | Co-Working Space | Heal aura for the team | Good vibes, shared desk, one outlet. |
 | **Anon Mask** | Fade, invisibility on use | Nobody knows who did this. |
@@ -101,7 +101,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Prompt Injection | The next ability the target casts hits its nearest ally | Adds one line to the instructions, and the instructions obey. |
 | Sycophant | Aura: allies inside gain Reach +100 | Agrees with everyone nearby, which everyone mistakes for friendship. |
 | Grindset | +3 HP regen, +1 sigma regen | The grind does not stop. Neither do you. |
-| Drain Blade | Attack lifesteal after an attack lands | Take their energy. Literally. |
+| Drain Blade | Attack lifesteal after an attack lands | Take their energy. |
 | Lite Plan | Adds one second effect to a basic ability | The budget version of an upgrade. It still counts. |
 
 Design notes:
@@ -137,7 +137,7 @@ Numbers in this section are UNVERIFIED.
 | Spoiler Tag | 75 | True sight ward, true sight 900, 6 min |
 | Ragequit Dagger | 900 | Hard Cut 1,100 range, 12 s cooldown, +20 damage |
 | Gem of Subtext | 800 | True sight 900 radius, drops on death |
-| Bottle of Copium | 800 | Restores 60 HP and sigma per second for 12 s |
+| Vial of Copium | 800 | Restores 60 HP and sigma per second for 12 s |
 | Smoke of Deniability | 700 | Group invisibility 6 s, 11 min restock |
 | Grindset | 700 | +3 HP regen, +1 sigma regen |
 | Gas Station Sushi | 750 | Heal 115 over 16 s, and 8% lifesteal for 16 s (UNVERIFIED) |
@@ -156,7 +156,7 @@ Numbers in this section are UNVERIFIED.
 | Ghost Mode | 1,600 | Move through units while moving |
 | Refresh Page | 5,000 | Resets all cooldowns, 280 s cooldown |
 | Hot Take, Unironic | 6,000 | +200 damage. Drops on death, visible to all |
-| Dark Mode Shield | 4,500 | Spell immunity 4 s |
+| Immunity Shield | 4,500 | Spell immunity 4 s |
 | Main Character Energy | 4,200 | Aura burns nearby enemies for 150 per second in a 400 radius and reveals the holder to them (UNVERIFIED) |
 | Sponsored Style | 4,000 | Two illusions for 15 s |
 | Monetized | 3,500 | Creep kills give +25% gold |

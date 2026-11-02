@@ -59,7 +59,7 @@ Numbers in this section are UNVERIFIED.
 | Stage | Measure | Action |
 | --- | --- | --- |
 | Stat sheet | Power budget per hero | Set HP, damage, armor and sigma to the archetype tier |
-| Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% |
+| Bracket test | Win rate by archetype, by bracket (a bracket is one of three equal groups of matches, sorted by average Clout at 10:00; UNVERIFIED) | Retune any archetype outside 47 to 53% (UNVERIFIED, with at least 200 matches per archetype per bracket) |
 | Matchup test | Win rate for each hard counter pair (counter side) and each strong or weak pair | Retune a hard counter pair below 55% or above 65%, and any strong or weak pair outside 45 to 55% (UNVERIFIED) |
 | Pick and ban test | Pick rate and ban rate per hero, over Showrunner Draft matches only (at least 200 matches; UNVERIFIED) | Retune any hero above 3× the average pick or ban rate |
 | Body and luminance test | Body percentages from plan/22 and the head-to-body luminance delta from plan/17, read from the grayscale capture | Fail any hero outside the plan/22 percentages or under a 30% luminance delta (UNVERIFIED) |
@@ -67,7 +67,7 @@ Numbers in this section are UNVERIFIED.
 
 ### QA gates
 
-A build passes QA when:
+Testers are ten players who have not played the build; observers are five of them, chosen at random and shown the grayscale capture. A build passes QA when:
 
 1. Every hero renders at gameplay zoom, and passes the blind silhouette test in plan/17 (90% or better).
 2. Every ability has a cast point and an impact effect.
@@ -84,7 +84,7 @@ Targets for the first simulated and played matches. These are thresholds to test
 | --- | --- | --- |
 | Trend modifiers (8, 2 offered per kill) | Win rate of the team that picks each modifier | 45 to 55% for every modifier, with at least 200 matches each (plan/26 C1) |
 | Every modifier in the plan/12 table (eight) | Pick rate when offered against another modifier | No modifier picked above 65% of offers |
-| Sweat Mode boost | Share of teamfights opened within 10 s of pickup, where a teamfight opens at the first hero-on-hero damage | Under 40% |
+| Sweat Mode boost (Later: deferred by plan/26, not measured in the first playable) | Share of teamfights opened within 10 s of pickup, where a teamfight opens at the first hero-on-hero damage | Under 40% |
 | Loaded gags | Players who mute chat in the first 10 minutes | At most 25% of players mute; above 25%, rotate the phrase pool. Tracked per patch. |
 | Renamed abilities | Hero win rate before and after the rename pass | Check C8 in plan/26. A rename never changes a number. |
 | Breaking News capture rate | Captures per event | Check C10 in plan/26. |

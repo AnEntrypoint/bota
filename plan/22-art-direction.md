@@ -47,7 +47,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 | 029 | Smugjak (P4) | Showboat | Hands clasped behind back (no held prop) | Peach, burgundy | L / D / M |
 | 030 | Rageguy (P5) | Firebrand | Raised fists (no held prop) | Ember, stark white | L / D / M |
 | 031 | Cereal (P5) | Heckler | Oversized steel tablespoon | Mustard, white | L / D / M |
-| 032 | Yao (P6) | Heckler | Dismissive hand-wave (no held prop) | Mustard, warm | L / D / M |
+| 032 | Yao (P6) | Heckler | Dismissive hand-wave holding a folded paper fan | Mustard, warm | L / D / M |
 | 033 | Steve (P3) | Drifter | Metallic flip stopwatch held forward | Night blue, brown | L / D / M |
 | 034 | Greg (P3) | Recluse | Unlit rolled cigarette between lips | Moss, golden | L / D / M |
 | 035 | Brian (P2) | Archivist | Metal wire braces (worn; no held prop) | Sepia, plaid | L / D / M |

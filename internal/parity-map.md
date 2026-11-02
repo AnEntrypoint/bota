@@ -549,7 +549,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Refresh Page | Refresher Orb |
 | Hot Take, Unironic | Divine Rapier |
 | Gem of Subtext | Gem of True Sight |
-| Bottle of Copium | Bottle |
+| Vial of Copium | Bottle |
 | Heart of Brainrot | Heart of Tarrasque |
 | Lurker Cam | Observer Ward |
 | Spoiler Tag | Sentry Ward |
@@ -561,7 +561,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Link in Bio Scroll | Town Portal Scroll |
 | Boots of Scrolling | Boots of Speed |
 | Sleep Mode | Power Treads |
-| Dark Mode Shield | Black King Bar |
+| Immunity Shield | Black King Bar |
 | Reply All | Blade Mail |
 | Co-Working Space | Mekansm |
 | **Anon Mask** | Shadow Blade (renamed from Anonymous Blade) |

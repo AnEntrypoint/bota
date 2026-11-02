@@ -28,7 +28,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 12 | The hero's own shadow stretches toward the Clout bar. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP plays Fact check pending on the announcer. | Kills | Kill at under 10% HP | 1.5 s, announcer only, once per 2 min (UNVERIFIED). |
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
-| 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Bottle of Copium | Item ends | Portrait only. |
+| 15 | When Vial of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Vial of Copium | Item ends | Portrait only. |
 | 16 | A hero who dies to their own ability or item gets a grey footnote: Self-inflicted. No replies needed. [GUESS] | Death recap | Self-inflicted death | Footnote only. |
 | 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a straight pointing line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |

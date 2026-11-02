@@ -47,7 +47,7 @@ Bounty boosts spawn as plan/05 sets out. They give gold and XP, except the first
 
 - Job: boss objective (plan/02, Boss objective and revive reward row). The cost is the pit contest, or the towers traded for it.
 
-A faceless boss built from stacked ticker banners. Every number in this block is UNVERIFIED.
+A blank boss built from stacked ticker banners. Every number in this block is UNVERIFIED.
 
 | Property | Value |
 | --- | --- |

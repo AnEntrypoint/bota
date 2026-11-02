@@ -65,6 +65,6 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C7 | Comeback | Matches where a team is 10,000 gold behind at 15:00 | Share of those matches the behind team wins | At least 10% (UNVERIFIED), over at least 200 deficit matches |
 | C8 | Rename regression | Win rate before and after a rename | Difference in percentage points | Within 1 percentage point, with at least 200 matches in each arm (UNVERIFIED) |
 | C9 | Chat mute | Mutes in the first 10 minutes | Share of players | At most 25% of players mute; above 25%, rotate the phrase pool |
-| C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% (UNVERIFIED) |
+| C10 | Breaking News capture rate | Captures per event | Capture rate | At least one per event; no team above 70% of events, over at least 200 matches (UNVERIFIED) |
 | C11 | Clout-only rule (reading check) | Effect text of every Clout effect | Clout effects that change damage or armour directly; the Stan buff is Reach and out of scope | Zero |
 

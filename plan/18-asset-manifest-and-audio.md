@@ -45,7 +45,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 | Asset | Count | Notes |
 | --- | --- | --- |
-| The Trend base model | 1 | Faceless boss built from stacked banners |
+| The Trend base model | 1 | Blank boss built from stacked banners |
 | The Trend costumes | 8 | Swappable modifier meshes. Silhouette stays constant. |
 | The Trend animations | 7 | Idle, three attacks, enrage, death, respawn |
 | Trend death husks | 8 | One per modifier. Desaturated, no health bar. |
