@@ -7,7 +7,7 @@ Voice for the twelve archetypes, the 24 launch heroes, hero pairs, the formerly 
 3. Read path: LIVE, Stan, Hype Spike, Markdown and Resell are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
 5. Named people, brands, creators and franchises are excluded by decision 7 in plan/20.
-6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldowns are set in the balance pass.
+6. Hero lines: kill plays on a kill, death on the hero's death, idle after the hero stands still outside a fight for a pause (length UNVERIFIED). Each line plays once per trigger. Per-line cooldown is 8 s (GUESS: long enough that a line does not repeat within one fight; the balance pass sets it).
 7. Item flavor is the second, italic line of a tooltip. Mechanics come first. Compact tooltips hide flavor (file 16, gag 09).
 8. Verbal habits are flavor openers only; no habit gates, triggers or changes a mechanic. Tricky and Ghillie speak in records and citations, and so do the Utility and Harasser archetypes; every other hero keeps its own register within the archetype voice.
 

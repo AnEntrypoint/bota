@@ -65,7 +65,7 @@ A hard disable or ultimate that lands on an enemy starts a resell chain.
 | Trigger | Hard disable or ultimate lands on an enemy |
 | Radius | 600 |
 | Stack effect | +8% attack speed or spell amp per stack, chosen by the caster when the chain starts and fixed for every stack of that chain |
-| Spread | Any ally who damages the target passes a stack to allies within 600 of them |
+| Spread | Any ally who damages the target passes a stack to allies within 600 of the target; the donor keeps its stack (UNVERIFIED) |
 | Max stacks | 5 |
 | Stack decay | 4 s per stack, from that stack's own spread (UNVERIFIED) |
 

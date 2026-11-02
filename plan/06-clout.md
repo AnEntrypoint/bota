@@ -10,7 +10,7 @@ Numbers in this section are UNVERIFIED.
 | Action | Clout | Condition |
 | --- | --- | --- |
 | Last hit | +1 | Inside enemy hero vision |
-| Deny | +0.5 | Taken from the nearest enemy hero, while that hero sees the creep |
+| Deny | +0.5 | A hero kills an allied creep at 25% health or less; the creep gives the enemy team no gold or XP. Taken from the nearest enemy hero, measured from the creep, while that hero sees it. Clout is kept as a half and the bar rounds down (UNVERIFIED) |
 | Hero kill | +10 | Inside enemy hero vision |
 | Assist | +4 | Inside enemy hero vision |
 | Tower damage | +1 per 100 damage | While an enemy hero sees the tower |
@@ -30,11 +30,12 @@ Numbers in this table are UNVERIFIED.
 | Hype Spike duration | 20 s |
 | Hype Spike effects | Reach +200; caster revealed on the global minimap |
 | Clout after Hype Spike | Set to 25 when Hype Spike ends at 20 s |
-| Markdown on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally |
+| Markdown on death | Victim loses 50% of Clout: the killer takes half of it and assists split the other half equally (with no assist, the killer takes all of it) |
 | Clout decay | Above 50 Clout: −1 every 10 s while unseen for those 10 s |
 | Cap on Markdown | At most 200 Clout moves in one death |
 
-- Job: vision and wards (plan/02, Vision and wards row). The cost is the Clout lost while unseen.
+- Job for the decay row: vision and wards (plan/02, Vision and wards row). The cost is the Clout lost while unseen.
+- Job for Markdown: death (plan/02, Death row). The cost is half the victim's Clout.
 
 ### Clout states
 

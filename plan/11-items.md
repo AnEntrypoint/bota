@@ -86,7 +86,7 @@ Every item holds the job of a classic item. Its classic job is its row in intern
 | Reply All | Reflects damage | Everyone sees what you said. |
 | Co-Working Space | Heal aura for the team | Good vibes, shared desk, one outlet. |
 | **Anon Mask** | Fade, invisibility on use | Nobody knows who did this. |
-| Main Character Energy | Burns nearby enemies | Everyone is looking. You noticed. |
+| Main Character Energy | Burns nearby enemies, revealing you | Everyone is looking. You noticed. |
 | Sponsored Style | Creates illusions | Duplicates you. Disclosed. |
 | Rescheduled | Disables and displaces | Moved to a later time. |
 | Pro Plan | Upgrades the ultimate per hero | Upgrade unlocked. |
@@ -157,7 +157,7 @@ Numbers in this section are UNVERIFIED.
 | Refresh Page | 5,000 | Resets all cooldowns, 280 s cooldown |
 | Rapier, Unironic | 6,000 | +200 damage. Drops on death, visible to all |
 | Dark Mode Shield | 4,500 | Spell immunity 4 s |
-| Main Character Energy | 4,200 | Aura burns nearby enemies for 150 per second in a 400 radius (UNVERIFIED) |
+| Main Character Energy | 4,200 | Aura burns nearby enemies for 150 per second in a 400 radius and reveals the holder to them (UNVERIFIED) |
 | Sponsored Style | 4,000 | Two illusions for 15 s |
 | Monetized | 3,500 | Creep kills give +25% gold |
 | Sheep Check | 3,000 | Polymorph 3 s, 15 s cooldown |

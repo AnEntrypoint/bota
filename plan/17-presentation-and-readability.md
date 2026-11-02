@@ -13,7 +13,7 @@ Every gameplay signal passes plan/19 gate 4. Hero silhouettes pass the blind tes
 | Status icon | 64 × 64 | 18 px | Single glyph in system color with 2 px dark outline |
 | Minimap hero icon | 32 × 32 (64 master) | 16 px | Head-only caricature reads as a solid silhouette (blind test: at least 4 of 5 testers name it, UNVERIFIED) |
 | Hero model | Gameplay zoom, 60 to 90 px tall |  | Silhouette identifies hero and facing, 90% or better in a blind test of 10 testers (UNVERIFIED) |
-| Value groups |  |  | At least 3 per hero. Head and prop at least 30% luminance delta from body. |
+| Value groups |  |  | At least 3 per hero. Head and prop at least 30% relative-luminance delta from body, read from the grayscale capture (UNVERIFIED). |
 | UI text contrast |  |  | 4.5:1 or better on HUD panels |
 | Status glyph against health bar |  |  | 3:1 or better |
 | Cast point | 0.2 to 0.5 s |  | Anticipation pose readable top-down. Unique per ability. |

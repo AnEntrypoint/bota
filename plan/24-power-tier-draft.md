@@ -138,7 +138,7 @@ Names: the characters are the bota/ROSTER.md set, slot = number. Renamed kits ar
 ## 3. Test first
 
 1. Scalper (112): Markup Drain grows in combat with no cap stated. Measure aura damage over long fights and Queue Bypass gate use. Pass: aura damage over a 10-minute fight stays within 25% of the archetype average (UNVERIFIED).
-2. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (UNVERIFIED).
+2. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
 3. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
 4. NPC (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
 5. Edgelord (100): Karambit Swipes stacks with no cap stated. Measure stacks at fight end and damage per stack. Pass: stacks at fight end stay at or below 10 (UNVERIFIED).

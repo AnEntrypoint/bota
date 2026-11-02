@@ -33,7 +33,7 @@ Consequence: a second pack needs edits in `stage.sh`, `pages.yml` and `ci.yml`. 
 
 ### A3. Is there a 6.88g data source, and where (question c)
 
-- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The name the engine doc gives is not on this machine, but a file of the same size, `DotA v6.88g Allstars.w3x` (41,467,779 bytes, MPQ header), is outside the repo. Decision 21 now lets section 4 run against it.
+- The 6.88g archive is external. Its name is `reference map 6.88g.w3x`, 41,467,779 bytes (engine-repo file docs/CONVERGENCE_688G.md, section 1). The name the engine doc gives is not on this machine, but a file of the same size, `DotA v6.88g Allstars.w3x` (41,467,779 bytes, MPQ header), is outside the repo.
 - What the repo holds is derived data only: `scenarios/moba/heroes_688g.tsv`, `creeps_688g.tsv`, `starts-688g.tsv`, `doodad-types-688g.tsv`, `doodads-688g.tsv`, `abilities_688g*.osd` and `.tsv`. The extractor is `scenarios/moba/tools/convert-688g-map.mjs`, which takes arguments and needs the archive.
 - Two other archives are also external: a 6.88w3 archive (docs/RESEARCH_688W3.md) and a 6.88f proxy (docs/RESEARCH_688F.md, historical). Neither is 6.88g and neither is used here.
 - The repo's own convergence report says the scenario stats come from a third-party dump, not from 6.88g (docs/CONVERGENCE_688G.md, intro). Its name-paired comparison has 714 field comparisons: 323 match, 366 differ, 25 are missing. Applied so far: 69 matched heroes, 32 neutral rows and one boss row (sections 7 and 8).

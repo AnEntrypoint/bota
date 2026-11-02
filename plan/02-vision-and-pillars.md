@@ -15,7 +15,7 @@ Four rules every system must pass:
 | Classic job | Brainrot system | Decision it creates |
 | --- | --- | --- |
 | Last hitting | Engagement farming: +1 Clout when in enemy hero vision | Farm in fog for gold, or in sight for gold, Clout and risk |
-| Denying | Deny: takes 0.5 Clout from the nearest enemy hero watching the creep | Contest the creep for gold, or drain enemy Clout |
+| Denying | Deny (plan/06 Deny row): an allied creep killed at 25% health or less gives the enemy no gold or XP, and 0.5 Clout moves from the nearest enemy hero watching it | Contest the creep for gold, or drain enemy Clout |
 | Vision and wards | Audience: enemy heroes give Clout. Enemy wards reveal, earn nothing. | Warding reveals the enemy at no Clout cost; the warder pays the ward's gold |
 | Creep wave pressure | Stan: allied creeps inside Reach gain damage and armor | Stand with the wave to push, or rotate and lose the buff |
 | Map pressure, rotation | Hype Spike: 20 s spike with global reveal | Spend the spike on a siege, or play around its global reveal |
@@ -23,7 +23,7 @@ Four rules every system must pass:
 | Patch meta | Trend modifiers, rotating each patch | Draft and itemize for the modifier |
 | Teamfight chain | Resell chain | Group to chain the buff, or spread against AoE |
 | Comeback gold | The team with fewer kills gets 20 gold per level of each dead enemy hero (UNVERIFIED) | A leader cannot take risky fights for free |
-| Glyph | Go Private: buildings invulnerable 5 s, 5 min cooldown | Timing of the emergency button in a siege |
+| Base shield | Go Private: buildings invulnerable 5 s, 5 min cooldown | Timing of the emergency button in a siege |
 | Talents | Power growth: tier choices at levels 10, 15, 20 and 25 | Take the tier that fits the match, or the one that scales |
 | Backpack | Passive storage that gives stats but no actives | Carry a spare passive, or keep the active slots free |
 | Neutral items | One neutral slot, filled from neutral camps | Fight the camp for its item, or take the gold |
@@ -36,4 +36,5 @@ Four rules every system must pass:
 | Win objective | The Exchange: invulnerable until both T4s fall, destroying it wins | Commit the team to the push, or defend the base for a comeback |
 | Draft | The pick order sets the hero pool, the lanes and the items | Pick the hero that fits the lane plan, or deny the pool you need |
 | Respawn | Rebrand: costs gold, resets Clout to 0 | Respawn now with no Clout, or wait with Clout intact |
+| Death | Markdown: the victim loses half its Clout, and the killer and assists share it | Fight close to share the Clout, or hold back and keep yours |
 | Support tether | Tethered support, dueler tether: gains 20% of a tethered ally's Clout gains while within 600 range; the ally's Clout is unchanged (UNVERIFIED) | Stan the carry for safety, or the roamer for pressure |

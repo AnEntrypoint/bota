@@ -13,7 +13,7 @@ Hero slot: 112
 
 ## Subject
 
-dark hooded windbreaker with hood pulled tight, oversized mountaineering backpack bursting with sealed retail graphics card boxes, nervous evasive sideways stance
+dark hooded windbreaker with hood pulled tight, oversized mountaineering backpack bursting with sealed retail sneaker boxes, nervous evasive sideways stance
 
 ## Hook
 

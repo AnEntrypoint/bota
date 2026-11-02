@@ -444,7 +444,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Scalper"
-    prompt: "stylized 3d character, dark hooded windbreaker with hood pulled tight, oversized mountaineering backpack bursting with sealed retail graphics card boxes, nervous evasive sideways stance, soft studio key light, neutral background"
+    prompt: "stylized 3d character, dark hooded windbreaker with hood pulled tight, oversized mountaineering backpack bursting with sealed retail sneaker boxes, nervous evasive sideways stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Wanderer"
