@@ -1,7 +1,7 @@
 # 3. Core loop and win condition
 
 Numbers in this chapter are UNVERIFIED.
-Two teams of five. Each team defends a base, a set of lanes, and an Stockpile. Destroying the enemy Stockpile wins the match.
+Two teams of five. Each team defends a base, a set of lanes, and a Stockpile. Destroying the enemy Stockpile wins the match.
 
 ### Lanes and structures
 
