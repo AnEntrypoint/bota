@@ -113,7 +113,7 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 | Trend SFX | 10 | Spawn, modifier reveal, attacks, death, Snapshot pickup and revive |
 | UI SFX | 40 | Click, hover, purchase, error, pick, ban, ready |
 | Ambient beds | 5 | Two bases, river, jungle, pit. Sound only, no music. |
-| Hero voice | About 60 per hero | Expressive and reactive. Hot-take initiator screams; everyone else reacts. |
+| Hero voice | About 60 per hero | Expressive and reactive; see plan/16 rule 3. |
 
 ### Totals (launch)
 

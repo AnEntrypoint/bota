@@ -547,7 +547,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Ragequit Dagger | Blink Dagger |
 | Participation Trophy | Aegis of the Immortal |
 | Refresh Page | Refresher Orb |
-| Rapier, Unironic | Divine Rapier |
+| Hot Take, Unironic | Divine Rapier |
 | Gem of Subtext | Gem of True Sight |
 | Bottle of Copium | Bottle |
 | Heart of Brainrot | Heart of Tarrasque |
@@ -583,7 +583,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 - Hype Spike = Bull Run (previous draft name). Hyped = Bullish (previous draft name).
 - Lane Stall = Side Shop.
 - Sources: https://liquipedia.net/dota2/Gold , https://liquipedia.net/dota2/Time_of_Day , https://liquipedia.net/dota2/Observer_and_Sentry_Wards
-- Exchange (base) = Ancient. Back Alley Shop = Secret Shop. Lurker Cam = Observer Ward. Spoiler Tag = Sentry Ward.
+- Exchange (base) = Ancient. Back Alley Shop = Secret Shop.
 - Paintballer (Slardar): Whale Splash = Slithereen Crush, Pity Bonk = Bash, Sunk Cost = Amplify Damage, Receipt Haze = Corrosive Haze. Final Warning = Land Mines.
 - Modes: Showrunner Draft = Captains Mode, Open Market = All Pick, Demand Draft = Random Draft, Shuffle Draft = Single Draft, Ranked Open Market = Ranked All Pick. Safe Spots = Shrines. Decoy Posts = Effigies. Stat Boost = Attribute Bonus. Go Private = Glyph of Fortification.
 

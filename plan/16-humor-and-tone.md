@@ -30,7 +30,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
 | 15 | When Bottle of Copium ends, the portrait takes a 0.5 s grey flash (UNVERIFIED). | Bottle of Copium | Item ends | Portrait only. |
 | 16 | A hero who dies to their own ability, item or tower-aggro mistake gets a grey footnote: Self-inflicted. No replies needed. [GUESS] | Death recap | Self-inflicted death | Footnote only. |
-| 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a dotted line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
+| 17 | The hero who killed you gets a tiny house icon for 2 min (UNVERIFIED), and a straight pointing line to your portrait, drawn like Dodson's accusing finger. Self only. | Scoreboard | Death | Self only. Cosmetic. Never hides a stat. |
 | 18 | Tips alternate plain and two-line Nobody: / Me: jokes about the Trend, the Nobody line in Chudjak's manifesto voice. Skippable. | Loading screen | Every load | Skippable. |
 | 19 | A hero who dies three times in a row (UNVERIFIED) gets a small steam puff at its feet, visible to its owner only. | Deaths | Third death in a row | Owner only. |
 | 20 | A hero who dies while Hyped gets a grey Hyped-ended marker on the scoreboard row. Rebrand swaps it for a Rebranded marker. [GUESS] | Hype Spike, Rebrand | Death while Hyped | Scoreboard only. |

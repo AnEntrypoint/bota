@@ -2,7 +2,7 @@
 Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the formerly tag and item flavor. Expressive by default, loud only for Hot-take initiator. Every number here is UNVERIFIED until the balance pass.
 
 ### Rules
-1. Voice follows the archetype in section 15. Hot-take initiator archetype is the only one that screams.
+1. Voice follows the archetype in section 15.
 2. Loaded tier: lines may use the rule 6 vocabulary from file 16 (cope, skill issue, L + markdown and similar). A loaded line aims at the play it follows, a kill, a death or a lane (plan/16 rule 6).
 3. Read path: LIVE, Stan, Hype Spike, Markdown and Resell are readable from the HUD alone. No line is the only copy of a signal, and no line claims a state the portrait, top bar or minimap does not show.
 4. Hero and pair lines stay under twelve words (cap UNVERIFIED). They carry no stats.
@@ -81,7 +81,7 @@ The tag is gag 05 in file 16: a small grey word after a hero name, reading "form
 1. Text: "formerly Guest" for every hero and every client.
 2. Colour: grey only. Never Clout violet, LIVE violet or red. The tag carries no state, no number and no stat. It never appears on the scoreboard, the minimap or the hero model.
 3. Trigger: the hero has Rebranded in this match.
-4. Budget: a match shows at most one formerly tag, on the death recap or the victory screen, whichever comes first. The loading screen never shows it.
+4. Budget: see gag 05 in plan/16.
 5. Death recap: the header stays the standard Markdown line from file 16, gag 04. The tag sits on the nameplate beside it.
 6. Victory screen: the tag sits beside the winning hero's name in the clean stats view. The click-and-hold fold (gag 11 in file 16) is unchanged.
 7. Reduced motion: the tag is static.

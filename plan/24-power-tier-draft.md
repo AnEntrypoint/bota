@@ -2,7 +2,7 @@
 
 **Status: tier letters withdrawn.** The first pass put 64 of 112 heroes in A, so the letters measure nothing. The flag list and the test-first list stay: they are what the first playtest should check. UNVERIFIED throughout.
 
-UNVERIFIED. No simulation exists. Flags are read from the kit text (sections 9, 10, 21). This is not a power budget or a balance result.
+No simulation exists. Flags are read from the kit text (sections 9, 10, 21). This is not a power budget or a balance result.
 
 Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUESS (theme only); kit mechanics are unchanged, so the flags carry over.
 
