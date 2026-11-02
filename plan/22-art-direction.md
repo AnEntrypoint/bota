@@ -83,7 +83,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 065 | Helios (P4) | Phantom | Floating marble bust and mirrored sunglasses | Lavender, pastel cyan | L / D / M |
 | 066 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
 | 067 | Derp (P6) | Recluse | Mismatched shoes (worn; no held prop) | Moss, white | L / D / M |
-| 068 | Forever (P1) | Recluse | Hunched crawl (no held prop) | Moss, grey | M / L / D |
+| 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
 | 069 | Fuckyea (P2) | Showboat | Hands jammed in trouser pockets | Peach, jet black | M / L / D |
 | 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
 | 071 | Hipster (P2) | Herald | Glass pour-over coffee carafe | Soft cyan, mustard | M / L / D |
@@ -128,8 +128,3 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from bota/cha
 | 110 | Scammer (P1) | Leash | Coiled landline handset and wireless earpiece | Rose, bright blue | M / L / D |
 | 111 | Preacher (P5) | Heckler | White megaphone and a leather-bound Bible | Mustard, charcoal | M / L / D |
 | 112 | Scalper (P6) | Archivist | Mountaineering backpack of graphics-card boxes | Sepia, dark | L / D / M |
-
-## Pending labels
-
-- Props marked (worn), (no held prop) or otherwise thin are taken from a worn item or a pose as drawn (plan/20 decision 25).
-- Body percentages and luminance mapping are design targets, UNVERIFIED, checked by the Body and luminance test (plan/19).

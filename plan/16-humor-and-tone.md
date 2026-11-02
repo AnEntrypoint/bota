@@ -17,13 +17,13 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 01 | Two outer panels slide together like Willie's ship bell swinging, revealing the caption. Caption in Grey's voice: What is everyone talking about this match? [GUESS] | The Trend | Every load | Skippable. Static in Reduced Motion. |
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Resell adds a via tag to the chain. By the fifth link the original is too small to read, but its tag stays legible. [GUESS] | Resell | Chain of 3 or more | Spectator and hover only |
-| 04 | Header: Your listing was marked down, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Engagement redistributed: 50%. | Markdown | Death | Standard damage table first. |
+| 04 | Header: Your listing was marked down, under Harold's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Clout redistributed: 50%. | Markdown | Death | Standard damage table first. |
 | 05 | Hero name followed by a small grey formerly tag, like Helios's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. | Go Private | Activation | Cosmetic. The padlock is the read. |
 | 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS: a visual gag with no value to source] | The Trend | Kill | Fades on respawn |
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
 | 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (plan/15, Peanut row). | Items | Tooltip hover | Hidden in compact tooltips |
-| 10 | A Trending in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
+| 10 | A Ticker in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Exchange as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Exchange | End screen | Requires a click. Clean stats view is the default. |
 | 12 | The hero's own shadow stretches toward the Clout bar. Reduced opacity. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP plays Fact check pending on the announcer. | Kills | Kill at under 10% HP | 1.5 s, announcer only, once per 2 min (UNVERIFIED). |

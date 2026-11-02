@@ -14,7 +14,7 @@
 | 9 | Clout drives Reach, reveal and mood only, never a stat. Late-game Clout carry mood, Breaking News, stage camps and signature mechanics keep to that rule. | Keeps the one-currency rule from section 6 |
 | 10 | Generic classic-MOBA terms are renamed to Brainrot names (mapping in internal/parity-map.md). Creep, lane, jungle and tower stay generic usage. | Uniqueness |
 | 11 | A new number with a source is UNVERIFIED until a playable build exists. A new number with no source is GUESS with its reason (decision 42). | Keeps new numbers from passing as checked values |
-| 12 | Demand Boost changes from cooldown and sigma cuts to Reach +100. | Keeps it on the Clout identity |
+| 12 | Demand Boost changes from cooldown and sigma cuts to Reach +100 (UNVERIFIED). | Keeps it on the Clout identity |
 | 13 | Spectators never vote on play. Reactions are cut (decision 28). | Ranked integrity |
 | 14 | Starting gold is 600 (UNVERIFIED). | The plan is the design source. The engine repo holds 875 (scenarios/moba/economy.osd); the plan keeps 600 until the balance pass sets it. |
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc already gives 6, 11 and 16. | The plan is the design source |
@@ -33,7 +33,7 @@
 | 28 | Spectator reactions are cut. Decision 13 keeps only its no-vote clause. Talents, backpack, neutral items, disable duration and sustain gain plan/02 rows; Chat Check and Demand Boost use the vision and map-pressure rows. | Spectator reactions have no classic job (plan/02 rules 2 and 3), as with Decoy Lots in decision 26. |
 | 29 | Breaking News maps to the Capture objective row in plan/02. | Breaking News is a capture objective with its own cost, the contest, as plan/02 rule 3 requires. |
 | 30 | The surrender vote has a plan/02 Surrender row: a vote that ends the match. | Decisions 26 and 28 cut systems with no classic job; this one has a classic forfeit, so it stays with a cost. |
-| 31 | Showboat's level-15 talent raises Reach by 25, after the Clout-term cap. | plan/06 Clout rules cap the Clout term of Reach at 600; the talent adds Reach after that cap. |
+| 31 | Showboat's level-15 talent raises Reach by 25 (UNVERIFIED), after the Clout-term cap. | plan/06 Clout rules cap the Clout term of Reach at 600; the talent adds Reach after that cap. |
 | 32 | Item classic jobs stay in internal/parity-map.md; the balance pass checks each item's Mapped job there. | A 50-row Job column would copy the internal mapping into the plan, against decision 22. |
 | 33 | Draft maps to a plan/02 Draft row, named in the draft chapter. | Drafting holds a classic job (plan/02 rule 3), and the pick order has a cost on each side (rule 2). |
 | 34 | The premise is a commodity market, not posting. Go Viral becomes Hype Spike, Repost becomes Resell, Original Post becomes Exchange, Screenshot becomes Snapshot, Feed becomes Market, Algorithm becomes Demand, Thread becomes Ticker, Ratio becomes Markdown, Meme becomes Fad. Clout stays the audience resource. Coffee and intelligence are the funniest goods. | The commodity-market premise is funnier than posting, and Clout stays the audience resource. Decisions 4 and 9 are unchanged. |

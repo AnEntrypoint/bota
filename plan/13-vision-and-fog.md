@@ -45,4 +45,4 @@ The LIVE dot is violet with a white ring. It is never red (red means damage).
 
 - Clout uses enemy hero vision only. Enemy creeps, towers and wards do not count.
 - A stealthed hero is revealed by true sight, reveal tools and any enemy hero within 300 range.
-- Invisibility from items and abilities is broken when the hero attacks, casts or takes damage (per item).
+- Invisibility from items and abilities is broken when the hero attacks, casts or takes damage.

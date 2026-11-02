@@ -47,7 +47,7 @@ Bounty boosts spawn at the river at game start. Four in total. They give gold an
 
 - Job: boss objective (plan/02, Boss objective and revive reward row). The cost is the pit contest, or the towers traded for it.
 
-A faceless boss built from stacked trending banners. Every number in this block is UNVERIFIED.
+A faceless boss built from stacked ticker banners. Every number in this block is UNVERIFIED.
 
 | Property | Value |
 | --- | --- |

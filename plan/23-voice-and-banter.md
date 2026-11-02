@@ -129,10 +129,4 @@ Flavor lines are fad-forward one-liners that carry the joke. They carry no numbe
 | Vintage Lot | Old enough to be someone's first lot. |
 | Long Tail | Pays out long after everyone forgot. |
 
-#### New items
-
-| Item | Flavor |
-|---|---|
-| Confident Answer | Delivered with total certainty and no sources. |
-| Prompt Injection | One extra line in the instructions. The instructions obey. |
-| Sycophant | Agrees with everyone nearby. Friendship, allegedly. |
+New item flavor lines are in the Flavor column of the new items table in plan/11.

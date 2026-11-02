@@ -99,6 +99,7 @@ Emergent rewrite (GUESS): mechanic text reworked so each effect carries the char
 Notes:
 
 - Scalper [112] row is re-themed onto roster entry 112 in section 15: Sold Out Snare, Markup Drain, Queue Bypass, Bulk Buy Drop. Ability slot IDs follow declaration order: Sold Out Snare 1, Markup Drain 2, Queue Bypass 3, Bulk Buy Drop 4. Every number and name is GUESS.
+- Gag: Runs the pit. Has never been to it.
 
 ### Emergent hooks
 

@@ -8,7 +8,7 @@ Hero slot: 068
 - Role: Offline sustain
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Hunched crawl (no held prop)
+- Distinct prop: Hunched crawl, tear-stained tissue in hand
 - Value groups (body / head / prop): M / L / D
 
 ## Subject
