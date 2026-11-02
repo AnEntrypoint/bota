@@ -85,10 +85,10 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Modifier | Likely favors | Dominance risk | Answer |
 | --- | --- | --- | --- |
 | Cast Rush | Mobile heroes and ganks | High: chase lineups take it every game | Roots, Polymorph and Rescheduled's displace |
-| Unboxing | Heroes with short cooldown kits | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; C2 flags it if its pick rate passes 65% |
+| Unboxing | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; C2 flags it if its pick rate passes 65% |
 | Learn to Code | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Speedrun |
 | Speedrun | Aggressive early teams | High: tower damage and speed reward an early rush | Slow the rush; the rusher pays the tower tax |
-| Storytime | Channel-heavy heroes (Curl Drain, Silhouette Breath) | Medium | Channel-free kits |
+| Storytime | Channel-heavy heroes (Tricky, Dino) | Medium | Channel-free kits |
 | Get Ready With Me | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
 | Demand Tide | Clout-scaling heroes | Medium: rewards safe Clout farming | Force fights; decay eats the lead |
 | Solo Queue | Assassins and solo laners | High: isolated picks get the damage bonus and a move speed penalty | Group up; the damage bonus turns off |

@@ -29,7 +29,7 @@ Numbers in this chapter are UNVERIFIED.
 
 ### Lifesteal and amplification
 
-- Attack lifesteal: items and a few hero abilities.
+- Attack lifesteal: items, and the hero abilities whose kit row in plan/09 or plan/10 says attack lifesteal (Stare Glaze, plan/10).
 - Spell lifesteal: none in v1.
 - Spell amplification: Intelligence (section 7) plus one item.
 - Cooldown reduction: Refresh Page (cooldown reset), the Unboxing modifier, and Eternal Ticker (10% faster cooldowns). Ability-specific cooldown cuts are not global CDR.

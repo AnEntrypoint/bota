@@ -150,8 +150,10 @@ for (const e of errors) console.error(`error: ${e}`);
 for (const w of warnings) console.error(`warning: ${w}`);
 if (errors.length) process.exit(1);
 
+const rosterMd = ["# Roster: 112 heroes from the character set", "", "Slot 001-112 = character 001-112 (file order). 113-117 reserve.", "", "| Slot | Character | Prompt file |", "| --- | --- | --- |", ...heroes.filter(h => !h.reserve).map(h => `| ${h.slot} | ${h.name} | characters/${h.file} |`), "", "## Reserve", "", ...heroes.filter(h => h.reserve).map(h => `- ${h.name} (characters/${h.file})`)].join("\n") + "\n";
 const outputs = [
   ["roster.yaml", rosterYaml],
+  ["ROSTER.md", rosterMd],
   ["characters/INDEX.tsv", index],
   ["plan/15-roster-and-archetypes.md", p15Next],
   ...heroes.map(h => [`characters/${h.file}`, renderHero(h)]),
