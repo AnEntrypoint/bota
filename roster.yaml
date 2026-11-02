@@ -180,7 +180,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Hank"
-    prompt: "stylized 3d character, faceless slate-grey biped, crimson circular combat lenses, thick white bandages wrapped around lower face, charcoal combat trenchcoat, fingerless gloves, twin high-carbon machetes, ready low-combat stance, soft studio key light, neutral background"
+    prompt: "stylized 3d character, featureless slate-grey biped, crimson circular combat lenses, thick white bandages wrapped around lower face, charcoal combat trenchcoat, fingerless gloves, twin high-carbon machetes, ready low-combat stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Tricky"

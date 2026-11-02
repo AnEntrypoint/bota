@@ -11,7 +11,7 @@
 
 ## Subject
 
-faceless slate-grey biped, crimson circular combat lenses, thick white bandages wrapped around lower face, charcoal combat trenchcoat, fingerless gloves, twin high-carbon machetes, ready low-combat stance
+featureless slate-grey biped, crimson circular combat lenses, thick white bandages wrapped around lower face, charcoal combat trenchcoat, fingerless gloves, twin high-carbon machetes, ready low-combat stance
 
 ## Hook
 

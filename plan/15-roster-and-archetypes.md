@@ -6,12 +6,12 @@
 
 | # | Role family | Role | Shape | Accent | Silhouette hook | Gag template | Was (old archetype) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 01 | Showboat | Clout carry | Inverted triangle | Warm peach, violet trim | Ring-light halo disk | Holds its Clout steady while every fight around it goes absurd | Influencer |
+| 01 | Showboat | Clout carry | Inverted triangle | Warm peach, violet trim | Ring-light halo disk | Holds its Clout steady while every fight around it goes absurd | Tastemaker |
 | 02 | Stalker | Assassin, vision denial | Tall thin triangle, hunched | Desaturated slate | Oversized hood | Lurks outside enemy vision and brags about it only in the lurk | Lurker |
 | 03 | Heckler | Harasser, zoner | Forward diagonal | Mustard | Raised index finger | Replies to every Trend with a correction, even to its own abilities | Reply Guy |
 | 04 | Engine | Late-game Clout carry | Rigid vertical triangle, flat-topped | Cold teal | Chart-line spine plate | Maximizes every Clout threshold and cannot enjoy a single one | Demand |
-| 05 | Drifter | Ranged nuker | Long stooped diagonal | Night blue | Paper scroll trailing to the floor | Every ability loads more Trend the longer you keep scrolling | Doomscroller |
-| 06 | Herald | Resell healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Resell speeds your attacks and interrupts you in the same ping | Notification |
+| 05 | Drifter | Ranged nuker | Long stooped diagonal | Night blue | Paper scroll trailing to the floor | Every ability loads more Trend the longer you keep scrolling | Window Shopper |
+| 06 | Herald | Resell healer, buffer | Small circle | Soft cyan (off heal green) | Badge dot over head | Every Resell speeds your attacks and interrupts you in the same ping | Price Alert |
 | 07 | Bulwark | Reach tank, initiator | Big square | Grey with team color | Plate or shield held forward | Files every initiation as a polite form with maximum Reach | Moderator |
 | 08 | Phantom | Middleman summoner | Stacked triangles, opaque | Pale lavender | Blank default head | Lists nothing yet its Stan count fills the lane with bystanders | Ghost |
 | 09 | Firebrand | Hot-take initiator | Sharp triangle | Desaturated ember | Megaphone shoulder | Opens every fight with a Hyped hot take at emergency volume | Hot Take |
@@ -110,7 +110,7 @@ Rules for the roster columns:
 | 078 | Critic | Archivist | Agi | Melee | Unspools film strips into serpents, then turns the rest of the cast into bit players. |
 | 079 | Crossfit | Engine | Agi | Melee | Silences a whole area with chalk, then rolls a tractor tire in to stun anyone left muted. |
 | 080 | Acorn | Stalker | Agi | Ranged | Dives and fires at the ground in a full tactical loadout, lifesteals through the plate carrier, and revives after death. |
-| 081 | Mallarcher | Engine | Int | Ranged | Silences a target with six absurdly long stabilizer rods, then slows survivors with neon-fletched arrows. |
+| 081 | Mallarcher | Engine | Int | Ranged | Flashes six absurdly long stabilizer rods across an area, then slows survivors with neon-fletched arrows. |
 | 082 | Paintballer | Stalker | Int | Ranged | Stuns an area with a splattering jersey, and bonks targets through a chrome mask with a chance to stun. |
 | 083 | Nerfer | Heckler | Str | Ranged | Leaps in under bandoliers of foam darts, stuns on landing, then steals stats through plastic goggles. |
 | 084 | Spudgunner | Drifter | Agi | Ranged | Fires a pipe cannon that slows an area, then charges the pressure gauge to punish slowed targets. |
@@ -133,7 +133,7 @@ Rules for the roster columns:
 | 101 | Gigaunit | Bulwark | Str | Melee | Launches a puffer jacket at an enemy as a stunning missile, then swaps places with whichever layer is nearest. |
 | 102 | Disheartened | Recluse | Str | Melee | Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova. |
 | 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |
-| 104 | Krazed | Firebrand | Agi | Melee | Smashes a monitor overhead for damage, then sends the loose pixels off as familiars to keep attacking. |
+| 104 | Krazed | Firebrand | Agi | Melee | Holds a cracked monitor overhead to chill the nearest enemy, then sends the loose pixels off as familiars to keep attacking. |
 | 105 | Baconlover | Herald | Int | Melee | Presents a bundle of sizzling bacon that heals allies or burns enemies, and ties targets together with cured links. |
 | 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
 | 107 | Smugcat | Showboat | Agi | Melee | Squints from behind the salad, ropes a target across the table, and puts an arrow in it. |

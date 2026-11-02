@@ -1,6 +1,6 @@
 # 26. First playable, cut list and checks
 
-The first playable tests what is unique before it tests the classic MOBA basics. Every number here is UNVERIFIED until a build runs the checks below.
+The first playable tests what is unique before it tests the classic MOBA basics.
 
 ## First playable slice
 

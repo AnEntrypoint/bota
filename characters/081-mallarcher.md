@@ -15,4 +15,4 @@ fingerless black tactical gloves, matte-black compound bow equipped with six rid
 
 ## Hook
 
-Silences a target with six absurdly long stabilizer rods, then slows survivors with neon-fletched arrows.
+Flashes six absurdly long stabilizer rods across an area, then slows survivors with neon-fletched arrows.
