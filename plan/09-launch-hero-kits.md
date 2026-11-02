@@ -53,7 +53,6 @@ Notes:
 
 Notes:
 
-- Marble Dagger (Helios [065], Ability 1) keeps the dagger role. It throws a dagger.
 - Mirror Shade Mode (Helios [065], Ability 3) is the invisibility effect. The item Anon Mask (section 11) is separate.
 - Talent trees are in section 21.
 

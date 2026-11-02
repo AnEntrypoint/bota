@@ -3,7 +3,7 @@
 
 | # | Decision | Reason |
 | --- | --- | --- |
-| 1 | Renames of items and abilities are listed in internal/parity-map.md. Anon Mask, Marble Dagger and Mirror Shade Mode are the Brainrot names. | Anon Mask names an invisibility item. Marble Dagger names a marble dagger. Mirror Shade Mode names the invisibility. |
+| 1 | Renames of items and abilities are listed in internal/parity-map.md. Anon Mask, Marble Dagger and Mirror Shade Mode are the Brainrot names. | Brainrot names for mechanics; originals stay in internal/parity-map.md. |
 | 2 | Pro Plan is the one ultimate upgrade per hero. | Clear name for an upgrade item |
 | 3 | Orbs do not stack. | Keeps attack modifiers simple |
 | 4 | Clout is the only audience resource. | Keeps one readable currency |
@@ -20,10 +20,10 @@
 | 15 | Ultimates unlock at 6, 11 and 16. The engine format doc already gives 6, 11 and 16. | The plan is the design source |
 | 16 | The LIVE dot is #6A1FD1 with a white ring. | Keeps it apart from Clout's #A35CFF |
 | 17 | Item costs in section 11 are the cost bands the roster uses, and only the balance pass changes them. | One place to change item costs |
-| 18 | Drain Blade: 1,600 gold, 12% attack lifesteal for 6 s after a hit. UNVERIFIED. | Its tier 3 entry had no row |
+| 18 | Drain Blade: cost and lifesteal in plan/11. UNVERIFIED. | Its tier 3 entry had no row |
 | 19 | The formerly tag reads "formerly Guest" and shows only on the death recap or victory screen. No client storage. | Removes an invented name pool and new client state |
 | 20 | Power tier letters are withdrawn until a playable build exists. The flag list and the test-first list stay. | Tier A held 64 of 112 heroes, so the letters measure nothing |
-| 21 | No classic number is checked against 6.88g until the archive is available. Each stays UNVERIFIED. | Keeps classic numbers from passing as checked values |
+| 21 | No classic number is checked against 6.88g until the archive is available. Each stays UNVERIFIED. | Same rule as decision 11, for classic numbers. |
 | 22 | The parity map stays internal: tracked in git, never copied into plan/, the site or a pack. | Keeps original names out of shipped text |
 | 23 | The engine build starts after the first-playable slice (plan/26), which is the next build task. | A build needs the slice scope fixed first |
 | 24 | Plan distances are game units: 1 game unit is 125/8 milli-units. | Removes the last unit ambiguity for the data generator |

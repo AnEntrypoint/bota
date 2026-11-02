@@ -59,7 +59,7 @@ Each check has an ID, an input, an output and a threshold. Thresholds come from 
 | C1 | Modifier win rate | Each Trend pick grouped by its modifier | Win rate per modifier | 45 to 55% for each, with at least 200 matches per modifier (UNVERIFIED) |
 | C2 | Modifier pick rate | Offers and picks | Share of offers picked | At most 65% |
 | C3 | Breaking News contest | Matches with both teams in the zone | Capture progress made while both teams are inside the zone | Zero |
-| C4 | Mood flicker | Mood flips with timestamps | Flips within 30 s of the last flip | Zero |
+| C4 | Mood flicker | Mood flips with timestamps | Flips less than 30 s after the last flip | Zero |
 | C5 | Markdown cap | Markdown events | Clout moved per death | At most 200 |
 | C6 | Disable cap | Hard disables per team | Fourth disable in any 10 s window | Shortened to 0.5 s every time |
 | C7 | Comeback | Matches where a team is 10,000 gold behind at 15:00 | Share of those matches the behind team wins | At least 10% (UNVERIFIED), over at least 200 deficit matches |

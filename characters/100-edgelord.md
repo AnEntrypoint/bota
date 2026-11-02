@@ -17,4 +17,4 @@ floor-length black trenchcoat with torn hem, spiked leather choker, baggy black 
 
 ## Hook
 
-Stalks low in a torn trenchcoat, stacking karambit swipes while the spiked choker shrugs off incoming damage.
+Stalks low in a torn trenchcoat, slashing with karambit swipes while the spiked choker shrugs off incoming damage.

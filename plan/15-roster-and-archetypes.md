@@ -44,7 +44,7 @@ Rules for the roster columns:
 | 012 | Gondola | Recluse | Agi | Melee | Spits stacking slows from a potato trunk, then hits back harder for every blow it has taken. |
 | 013 | Spurdo | Firebrand | Agi | Melee | Hatches spiderlings from a parka hood and heals every time one of them kills something. |
 | 014 | Karen | Heckler | Int | Ranged | Demands the manager by charging every enemy in a line, and bounces hits back with an endless receipt. |
-| 015 | Kyle | Firebrand | Int | Melee | Smashes whoever is nearest with drywall knuckles and calls a skate crew of sideways-capped illusions. |
+| 015 | Kyle | Firebrand | Int | Melee | Smashes whoever is nearest with drywall knuckles and calls a skate crew that grinds the nearest wall. |
 | 016 | Harold | Archivist | Str | Melee | Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides. |
 | 017 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
 | 018 | Slender | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
@@ -59,7 +59,7 @@ Rules for the roster columns:
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
 | 028 | Chudjak | Bulwark | Int | Melee | Clubs a line of enemies with a rolled manifesto and grows angrier the more of them surround him. |
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
-| 030 | Rageguy | Firebrand | Agi | Melee | Roots enemies with pulsing temple veins, then dashes through them and leaves a howling clone behind. |
+| 030 | Rageguy | Firebrand | Agi | Melee | Roots enemies with pulsing temple veins, then dashes through them and leaves a howling wake behind. |
 | 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon that hushes a creep while a soggy bowl lets hits slide off. |
 | 032 | Yao | Heckler | Int | Ranged | Waves off every enemy with one dismissive hand, dragging them to a point, then laughs them into a stun. |
 | 033 | Steve | Drifter | Int | Ranged | Flicks a cheap stopwatch and snaps back to where he stood moments ago, leaving pursuers chasing a ghost. |
@@ -129,7 +129,7 @@ Rules for the roster columns:
 | 097 | Uber | Engine | Str | Melee | Offers candies and chilled water, and every passenger ally attacks faster for the whole ride. |
 | 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |
 | 099 | Keyboarder | Firebrand | Str | Melee | Swings a mechanical keyboard on its USB cable, rotting targets and draining creeps from a posture that is already ruined. |
-| 100 | Edgelord | Stalker | Agi | Melee | Stalks low in a torn trenchcoat, stacking karambit swipes while the spiked choker shrugs off incoming damage. |
+| 100 | Edgelord | Stalker | Agi | Melee | Stalks low in a torn trenchcoat, slashing with karambit swipes while the spiked choker shrugs off incoming damage. |
 | 101 | Gigaunit | Bulwark | Str | Melee | Launches a puffer jacket at an enemy as a stunning missile, then swaps places with whichever layer is nearest. |
 | 102 | Disheartened | Recluse | Str | Melee | Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova. |
 | 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |

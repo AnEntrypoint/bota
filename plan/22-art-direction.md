@@ -10,7 +10,7 @@ Visual direction for the 112 heroes (roster 001 to 112, characters from characte
 - **Primary value group** is the body value.
 - **Sibling rule.** Within a role family, take the hero's 0-based index k in roster order. Body code is P(k mod 6 + 1). Body value is L, M, D for floor(k/6) = 0, 1, 2. Every prop in a role family is unique, except for a hero with no held prop (plan/20 decision 25). Two siblings that both carry a prop differ in prop silhouette and in at least one of body code or body value. A hero with no held prop differs from each sibling in both body code and body value, which meets the two-of-three rule in section 15.
 - **Accent shifts** are named steps from the role family accent (section 15). No hex is set here.
-- **Color guards.** Keep #A35CFF and #6A1FD1 off hero trim; use a desaturated violet outside both. Keep red (damage only), #2E8BFF and #FF8A1F (team colors), and #3DDC97 (heal) off hero trim. Firebrand ember and Leash rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
+- **Color guards.** Hero trim stays off the plan/17 colour table; use a desaturated violet outside the Clout and LIVE violets. Firebrand ember and Leash rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
 
 ## 1. Hero table (112)
 

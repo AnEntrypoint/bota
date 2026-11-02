@@ -88,7 +88,7 @@ The tag is gag 05 in file 16: a small grey word after a hero name, reading "form
 
 Two example lines:
 
-- Death recap: "Disaster, formerly Guest." Header: "Your listing was marked down."
+- Death recap: "Disaster, formerly Guest." Header: "Your stall was marked down."
 - Victory screen: "Grey, formerly Guest." Header: "Victory. Stall sold."
 
 ### Item flavor

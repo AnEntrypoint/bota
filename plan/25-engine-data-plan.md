@@ -91,7 +91,7 @@ Direction: TSV to `.osd`, TSV to the rules file, TSV to plan markdown. Nothing f
 - A rename changes the `name` column only. Changing a `slug` is an engine rename, done once, in the generator.
 - The `status` column is `UNVERIFIED` (default), `GUESS` (a value with no source; its row gives the reason), or `checked:<repo path>` (only when a 6.88g value equals the local value on the same named field, exactly). The generator prints it next to every number, which is the AGENTS.md rule that unknowns stay marked in the file that holds the value.
 
-**Units.** Numbers are typed in plan units: seconds, percent, gold and game units. The generator converts. Seconds become ticks at 16 per second, rounded (3.8 s is 60.8 ticks, so 61). Percentages become Q16 (65536 equals 1.0). Distance is in game units, the engine whole-unit scale: 1 game unit is 125/8 milli-units (section 20, decision 24).
+**Units.** Numbers are typed in plan units: seconds, percent, gold and game units. The generator converts. Seconds become ticks at 16 per second, rounded (3.8 s is 60.8 ticks, so 61). Percentages become Q16 (65536 equals 1.0). Distance is in game units, the engine whole-unit scale: the game unit scale is decision 24 (section 20).
 
 **Pack location.** Option A is `scenarios/brainrot/`. It ships automatically through `cp -r scenarios`, but it needs `mapexport` lines added to `stage.sh`, `pages.yml` and `ci.yml`. Option B is `247420/pack/`, which does not exist yet and needs a copy line in `layout-site.sh`. Use B for the first slice; move to A when the pack wiring lines land.
 

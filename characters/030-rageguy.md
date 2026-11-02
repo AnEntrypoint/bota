@@ -17,4 +17,4 @@ stark white head with pulsating red temple veins, gaping square howling mouth, h
 
 ## Hook
 
-Roots enemies with pulsing temple veins, then dashes through them and leaves a howling clone behind.
+Roots enemies with pulsing temple veins, then dashes through them and leaves a howling wake behind.
