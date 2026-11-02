@@ -7,8 +7,8 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 
 | Structure | Per side | Rule |
 | --- | --- | --- |
-| Tier 1 tower | 3 (one per lane) | Armor aura for allied heroes: +1 |
-| Tier 2 tower | 3 | Armor aura: +3. Invulnerable until its T1 falls. |
+| Tier 1 tower | 3 (one per lane) | Armor aura for allied heroes: +1. Attack 60 damage (UNVERIFIED). |
+| Tier 2 tower | 3 | Armor aura: +3. Attack 90 damage (UNVERIFIED). Invulnerable until its T1 falls. |
 | Tier 3 tower | 3 | Armor aura: +3. Damage equal to T2. |
 | Tier 4 towers | 2 (at the Exchange) | Invulnerable until a T3 falls in any lane |
 | Content Mills | 6 (two per lane, melee and ranged) | A lane with both its Content Mills down spawns Mega creeps; a destroyed mill respawns after 5 min (UNVERIFIED) |
@@ -28,7 +28,7 @@ Two teams of five. Each team defends a base, a set of lanes, and an Exchange. De
 
 - A wave spawns every 30 s: three melee and one ranged per lane.
 - A siege creep joins every fifth wave.
-- Creeps upgrade every 7.5 min: +12 HP and +2 gold per upgrade.
+- Creeps upgrade every 7.5 min: +12 HP and +2 gold per upgrade. Melee and ranged creeps upgrade; siege creeps do not. Four upgrades at most (GUESS: caps late creeps at 48 HP above base so waves stay killable; the balance pass sets it).
 - Aggro: attacking an enemy hero draws creeps within 900 range for 2.5 s (UNVERIFIED), with a 2.5 s cooldown.
 
 ### Match flow

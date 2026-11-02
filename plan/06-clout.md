@@ -25,7 +25,7 @@ Numbers in this table are UNVERIFIED.
 | Rule | Value |
 | --- | --- |
 | Reach radius | 300 + 3 × Clout, capped at 600 for the Clout term; Hype Spike and talent Reach add after the cap, each source as its chapter lists it (UNVERIFIED) |
-| Stan | Allied creeps inside Reach: +20% damage, +2 armor |
+| Stan | Allied creeps inside the Reach of any allied hero: +20% damage, +2 armor. Overlapping Reach does not stack it. |
 | Hype Spike threshold | 100 Clout, unless a talent sets its own (plan/21) |
 | Hype Spike duration | 20 s |
 | Hype Spike effects | Reach +200; caster revealed on the global minimap |

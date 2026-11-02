@@ -12,7 +12,9 @@ Camp types: small, medium, hard and elder. Elders are magic-resistant (not spell
 | Shill | Medium | Casts a slowing aura |
 | Troll-Bridge | Hard | Blocks a bridge crossing until killed |
 | Old Forum Ticker | Elder | Long-lived creature, magic-resistant |
-| Static Imp, Reverb Wraith, Ticker Sprite, Bio Bot, Hyped Golem, Cancel Mob, Markdown Hound | Mixed | Camp stat budgets under Stacking |
+| Static Imp, Ticker Sprite, Bio Bot | Small | Camp stat budgets under Stacking |
+| Reverb Wraith, Cancel Mob | Medium | Camp stat budgets under Stacking |
+| Hyped Golem, Markdown Hound | Hard | Camp stat budgets under Stacking |
 
 Stacking:
 
@@ -52,7 +54,7 @@ A faceless boss built from stacked trending banners. Every number in this block 
 | HP | 8,000, plus 175 per minute |
 | Magic resistance | 55% |
 | Respawn | 8 to 11 min, random |
-| Reward | Gold and XP. The killing team picks one of two rotating modifiers for 4 min. The Trend drops Coffee on its second kill and every kill after (UNVERIFIED). The killer takes the Snapshot. |
+| Reward | Gold and XP. The hero who lands the kill picks one of two rotating modifiers for 4 min, within 10 s (GUESS: a short window so the pick does not hold up the fight); if no one picks, the first modifier applies. The Trend drops Coffee on its second kill and every kill after (UNVERIFIED). The killer takes the Snapshot. |
 | Snapshot | One revive at the Spawn Lounge after a 3 s rewind clip. Expires 5 min after pickup. |
 
 ### Trend modifiers

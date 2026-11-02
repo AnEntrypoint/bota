@@ -77,7 +77,7 @@ Each event has one line. The Alternates table adds seven lines for game states t
 | First kill after a 5-minute drought | Finally listed. |
 | Third kill in a row inside one lane | Bumped it again. |
 | Lane creep wave dies untouched | Nobody replied. |
-| Team wipe while you are Hyped | Re-listed by all five. |
+| Team wipe while you are Hyped | Repeated by all five. |
 | Surrender vote fails | Ticker stays open. |
 | Neutral camp taken before the first minute | Pulled early. Nice weather. |
 | Tower destroyed by a lone hero | Mod action, no appeal. |

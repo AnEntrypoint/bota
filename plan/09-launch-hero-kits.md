@@ -13,13 +13,15 @@ Every ability uses one of these tiers. Every number here is UNVERIFIED until a p
 | --- | --- | --- | --- | --- | --- | --- |
 | Ability 1, damage | 80 | 160 | 240 | 320 | 10, 9, 8, 7 s | 60, 70, 80, 90 |
 | Ability 2, control or utility | 2.0 s | 2.5 s | 3.0 s | 3.5 s | 12, 11, 10, 9 s | 70, 80, 90, 100 |
-| Ability 3, aura or passive | 300 radius | 350 radius | 400 radius | 450 radius | 14, 12, 10, 8 s | 0 (passive) or 50 |
+| Ability 3, aura or passive | 300 radius | 350 radius | 400 radius | 450 radius | 14, 12, 10, 8 s | 0 when the kit's Ability 3 is a passive, 50 when it is an aura (each hero's kit names which) |
 | Ultimate (unlocks at 6, 11, 16) | 250 damage | 400 damage | 550 damage | n/a (max 3) | 100, 85, 70 s | 150, 200, 250 |
 
 Notes:
 
 - Stun and root durations in ability 2 (the control or utility slot) scale with its Level 1 to Level 4 durations in the table above. Status resistance (section 21) reduces them.
 - Damage numbers are base values. Attribute scaling and item bonuses are added on top.
+- Nearby means within 300 units when a row names no radius (UNVERIFIED).
+- Default damage type: Ability 1 physical, Ability 2 magical, Ability 3 pure (UNVERIFIED); a kit row can name another type.
 - Hooks name the other hero and the ability they touch. A hook that needs a counter read across heroes uses an existing unit counter from Lua (GUESS).
 
 | Hero | Archetype | Ability 1 | Ability 2 | Ability 3 | Ultimate |

@@ -23,7 +23,7 @@ Each variant differs from the others in at least two of: body proportion, prop s
 
 Rules for the roster columns:
 
-- **Attr.** Within each role family, in roster order, attribute cycles Str, Agi, Int. Every family therefore holds all three, and the overall split is about one third each.
+- **Attr.** Within each role family, in roster order, attribute cycles Str, Agi, Int. Every family therefore holds all three, and the overall split is Str 42, Agi 38, Int 32.
 - **Range.** Melee is unarmed or a hand-held close weapon or prop. Ranged is a projectile, beam, sound, throw or thrown-out prop. Where the prompt gives no weapon, range defaults to Melee.
 
 ### Roster
