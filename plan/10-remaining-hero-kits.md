@@ -1,5 +1,5 @@
 # 10. Remaining hero kits
-The 30 kept characters outside the launch set (section 9). Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass.
+The 29 kept characters outside the launch set (section 9). Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass.
 
 Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. Each GUESS in the tables is a theme value with no 6.88g or repo source; its reason is the character's gag.
 
@@ -29,7 +29,6 @@ Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot b
 | Bot Bernard [054] | Herald | Suspender Arrow: stuns in a line; the burgundy suspenders snap an arrow along a line (GUESS) | Lens Hop: leaps and grants attack speed; the chrome camera leaps with him (GUESS) | Spotlight Fan: grants a shadow to an ally; the tilted head leans the shadow away from the spotlight (GUESS) | Stage Rain: damages all nearby enemies; the stage rain pours down (GUESS) |
 | Shoop [055] | Drifter | Plasma Wipe: dashes and damages; the bulging white eyes dash and wipe (GUESS) | Lips Strike: damage scales with stats; the enormous red lips strike with stats (GUESS) | Red Lips Swap: swaps strength and agility; the red lips swap strength and agility (GUESS) | Eye Copycat: copies an enemy's ability; the bulging eyes copy the ability (GUESS) |
 | Npc [066] | Phantom | Idle Lance: slows and damages; the idle stance lances with a flat stare (GUESS) | Patrol Twin: creates illusions; identical grey polos patrol (GUESS) | Idle Flicker: blinks to a target; blank oval eyes blink to it (GUESS) | Idle Crowd: a decoy copy draws enemy attacks for 3 s; the rigid arms-down idle is the decoy (GUESS) |
-| Derp [067] | Recluse | Stumble Dive: dashes and burns; the crooked flailing stumble dives (GUESS) | Cross-Eyed Orbs: orbs that damage; the opposed pupils aim the orbs (GUESS) | Tongue Stream: channeled beam that heals an ally; the tongue lolls sideways and heals (GUESS) | Derp Rebirth: revives on death; the potato head pops back up (GUESS) |
 | Challenge [070] | Leash | Stern Stride Blast: area damage; the folded arms blast the area (GUESS) | Folded Arms Cloak: ghosts an ally, untargetable; the folded arms cloak the ally (GUESS) | Crisp Ward: magic damage on spells; the crisp white collared shirt wards off magic (GUESS) | Clench Drain: drains an enemy into an ally; the clenched squared jaw drains (GUESS) |
 | Glitch [076] | Phantom | Chromatic Hold: holds an enemy, copies its image; the chromatic offset layers copy its image (GUESS) | Offset Log: bonus damage; the offset layers add bonus damage (GUESS) | Glitch Poison: damage over time; the glitching mesh poisons (GUESS) | Corrupt Purge: stuns and slows; the fractured mesh purges and slows (GUESS) |
 | Widemouth [098] | Showboat | Chip Bag Shards: damages in a line; the laughing crescent mouth sprays shards (GUESS) | Soda Roll: rolls and damages; the eyes-shut glee rolls the soda (GUESS) | Welcome Tag Along: an ally joins the attack; the upright welcoming stance brings a tag-along (GUESS) | Laugh Cone Punch: stuns and damages; the cone of laughter punches (GUESS) |
@@ -50,7 +49,6 @@ Heroes without an entry carry no hook.
 - Coomer [011] with Bot Bernard [054]: Tank Top Splash pushes into Stage Rain zones (GUESS).
 - Gondola [012] with Spurdo [013]: Parka Hunger kills market Potato Grudge (GUESS).
 - Finger Dan [025] with Grey [077]: Accusing Finger knockback victim is Orb Vibes cut target (GUESS).
-- Derp [067] with Forever [068]: Derp Rebirth refused on Eternal Loop target (GUESS).
 
 ### Requests
 

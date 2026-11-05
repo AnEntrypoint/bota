@@ -119,10 +119,6 @@ roster:
     prompt: "stylized 3d character, flat slate-grey skin, sharp triangular nose, blank unblinking oval eyes with black dots, plain grey short-sleeve polo shirt, rigid upright idle posture with arms hanging straight down, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Derp"
-    prompt: "stylized 3d character, smooth white potato head, pupils pointing in completely opposite directions, wide open grin with pink tongue lolling sideways, loosened crooked necktie, crooked flailing limbs in a clumsy stumbling run, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Forever"
     prompt: "stylized 3d character, misshapen lumpy cranium with deep tear crevices carved down cheeks, mouth turned down in weeping grimace, hunched crawling bipedal posture, baggy muted-grey sweat suit, soft studio key light, neutral background"
     aesthetic_refs: []

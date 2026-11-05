@@ -1,6 +1,6 @@
 # Gallery
 
-**40 of 40 characters generated.** Every image below opens full size.
+**39 of 39 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -41,7 +41,6 @@
 <figure><a href="gallery/054-bot-bernard.jpg"><img src="gallery/054-bot-bernard.jpg" alt="054 Bot Bernard" loading="lazy"></a><figcaption>054 Bot Bernard</figcaption></figure>
 <figure><a href="gallery/055-shoop.jpg"><img src="gallery/055-shoop.jpg" alt="055 Shoop" loading="lazy"></a><figcaption>055 Shoop</figcaption></figure>
 <figure><a href="gallery/066-npc.jpg"><img src="gallery/066-npc.jpg" alt="066 Npc" loading="lazy"></a><figcaption>066 Npc</figcaption></figure>
-<figure><a href="gallery/067-derp.jpg"><img src="gallery/067-derp.jpg" alt="067 Derp" loading="lazy"></a><figcaption>067 Derp</figcaption></figure>
 <figure><a href="gallery/068-forever.jpg"><img src="gallery/068-forever.jpg" alt="068 Forever" loading="lazy"></a><figcaption>068 Forever</figcaption></figure>
 <figure><a href="gallery/069-fuckyea.jpg"><img src="gallery/069-fuckyea.jpg" alt="069 Fuckyea" loading="lazy"></a><figcaption>069 Fuckyea</figcaption></figure>
 <figure><a href="gallery/070-challenge.jpg"><img src="gallery/070-challenge.jpg" alt="070 Challenge" loading="lazy"></a><figcaption>070 Challenge</figcaption></figure>

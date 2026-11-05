@@ -1,4 +1,4 @@
-# Roster: 40 heroes from the character set
+# Roster: 39 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -34,7 +34,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 054 | Bot Bernard | characters/054-bot-bernard.md |
 | 055 | Shoop | characters/055-shoop.md |
 | 066 | Npc | characters/066-npc.md |
-| 067 | Derp | characters/067-derp.md |
 | 068 | Forever | characters/068-forever.md |
 | 069 | Fuckyea | characters/069-fuckyea.md |
 | 070 | Challenge | characters/070-challenge.md |

@@ -54,7 +54,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Trollhunter | Necrophos |
 | Hypebeast | Nyx Assassin |
 | Npc | Phantom Lancer |
-| Derp | Phoenix |
 | Challenge | Pugna |
 | Brony | Razor |
 | Glitch | Shadow Demon |
@@ -531,7 +530,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 054 | Tay | Moonlight Fan |
 | 055 | Shoop | Glow-Up |
 | 066 | NPC | Multi-Accounter |
-| 067 | Derp | Comeback Story |
 | 068 | Forever | Looping Clip |
 | 069 | Fuckyea | Hook Guy |
 | 070 | Challenge | Late Night Poster |
@@ -577,7 +575,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 054-tay | https://knowyourmeme.com/memes/chocolate-rain |
 | 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
 | 066-npc | https://en.wikipedia.org/wiki/NPC_(meme) |
-| 067-derp | https://knowyourmeme.com/memes/derp |
 | 068-forever | https://knowyourmeme.com/memes/forever-alone |
 | 069-fuckyea | https://knowyourmeme.com/memes/fuck-yea |
 | 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
