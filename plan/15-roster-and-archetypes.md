@@ -51,7 +51,6 @@ Rules for the roster columns:
 | 025 | Finger Dan | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast. |
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
-| 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon that hushes a creep while a soggy bowl lets hits slide off. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
 | 041 | Fuuuu | Recluse | Str | Melee | Screams until the lane floods, stunning everyone in the wave, then cruises through the survivors on it. |
@@ -61,7 +60,6 @@ Rules for the roster columns:
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit. |
 | 066 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies, so enemies cannot tell which idle stance is the real one. |
 | 068 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |
-| 069 | Fuckyea | Showboat | Agi | Melee | Hooks and pulls targets from behind sunglasses while hands stay in pockets, growing smugger with every kill. |
 | 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
 | 076 | Cole | Phantom | Str | Ranged | Thunderbolt holds an enemy in place and copies its image in a Poke Ball flash. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |

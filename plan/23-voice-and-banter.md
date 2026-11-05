@@ -40,7 +40,6 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Smudge (Leash) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
 | Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
-| Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
 | Forever (Recluse) | Nice one. Sleep it off. | Crawling back to the start. | Loop again. Charming yet? |
 
 ### Hero pair lines

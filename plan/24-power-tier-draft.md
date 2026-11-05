@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (38 active heroes)
+## 1. Table (36 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -37,7 +37,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 025 | Finger Dan | Heckler | - | Fire cone, stun and knockback, armor and regen; ult stronger attacks. |
 | 027 | Willie | Engine | - | Rolling rock projectiles, line roll, pull; ult zone stun. |
 | 029 | Smugjak | Showboat | FLAG | Smug Splitter fissure across the map; spirit scout, stun, armor ult. |
-| 031 | Cereal | Heckler | - | Evasion is its escape; bonus attack damage; creep ally; heal ult. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
 | 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
 | 041 | Fuuuu | Recluse | - | Stun wave, strike and slow, marking; ult sails through enemies. |
@@ -47,7 +46,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
 | 066 | Npc | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
 | 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
-| 069 | Fuckyea | Showboat | - | Kill stacks give strength, capped (talent raises cap); hook, pull ult. |
 | 070 | Challenge | Leash | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
 | 076 | Cole | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
@@ -58,7 +56,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 9 launch kits (section 9), 29 remaining kits (section 10). All 38 active heroes matched by slot.
+- Coverage: 8 launch kits (section 9), 28 remaining kits (section 10). All 36 active heroes matched by slot.
 - Flags: 5. Global 1 (Smugjak 029). Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first

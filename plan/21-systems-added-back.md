@@ -18,7 +18,6 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Smudge | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage, counted inside the decision 38 reflect cap |
 | Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13) |
-| Fuckyea | Noir Hook stun +1 s / Jacket Stale damage +10 | Smug Stacks cap +5 / Pocket Edit channel −0.5 s | Smug Stacks heal / Jacket Stale spreads to nearby enemies | Noir Hook pulls a second target / Pocket Edit steals 5% of target Clout |
 | Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius |
 
 ### Talent sets for every hero
@@ -123,7 +122,6 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Smudge | Eyeliner Bleed shows its team each enemy's last seen position for 10 s. | Vision | Vision and wards |
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach | Vision and wards |
 | Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal | Vision and wards |
-| Fuckyea | A hooked hero loses Reach while hooked. | Reach | Disable duration |
 | Forever | Its stun repeats until the clip ends, while the target stays in its vision. | Vision | Disable duration |
 
 ### Seasons

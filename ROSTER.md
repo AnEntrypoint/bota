@@ -1,4 +1,4 @@
-# Roster: 39 heroes from the character set
+# Roster: 37 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -25,7 +25,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 025 | Finger Dan | characters/025-finger-dan.md |
 | 027 | Willie | characters/027-willie.md |
 | 029 | Smugjak | characters/029-smugjak.md |
-| 031 | Cereal | characters/031-cereal.md |
 | 039 | Noscope | characters/039-noscope.md |
 | 040 | Dino | characters/040-dino.md |
 | 041 | Fuuuu | characters/041-fuuuu.md |
@@ -35,7 +34,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 055 | Shoop | characters/055-shoop.md |
 | 066 | Npc | characters/066-npc.md |
 | 068 | Forever | characters/068-forever.md |
-| 069 | Fuckyea | characters/069-fuckyea.md |
 | 070 | Challenge | characters/070-challenge.md |
 | 076 | Cole | characters/076-cole.md |
 | 077 | Grey | characters/077-grey.md |

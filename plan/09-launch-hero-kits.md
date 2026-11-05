@@ -1,5 +1,5 @@
 # 9. Launch hero kits
-Nine launch characters across seven of the twelve role families (Archivist, Bulwark, Firebrand, Engine and Phantom have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
+Eight launch characters across six of the twelve role families (Archivist, Bulwark, Engine, Firebrand, Phantom and Showboat have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
 
 Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
 
@@ -35,7 +35,6 @@ Notes:
 | Smudge [021] | Leash | Eyeliner Bleed: damage over time as the eyeliner runs; bleeding targets take the Emo Vibes armor cut (same hero, GUESS) | Sweater Slip: the oversized sweater slips off one shoulder to protect an ally from death for 2 s (GUESS) | Open Palm Bounce: animated open-palm gestures bounce to nearby units (GUESS) | Emo Vibes: reduces enemy armor; the cut doubles on targets already bleeding from Eyeliner Bleed (GUESS) |
 | Wojak [005] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
 | Ghillie [089] | Stalker | Burlap Warning: burlap strips scatter as area traps with damage (GUESS) | Twine Lock: camouflage twine holds and reveals enemies (GUESS) | Corn Stalk Jump: leaping strike with damage; a jump over a trap triggers it early (GUESS) | Scoped Temp Ban: remote detonation through the scope disables (GUESS) |
-| Fuckyea [069] | Showboat | Noir Hook: black sunglasses hook and pull a target (GUESS) | Jacket Stale: damage over time and slow in an area (GUESS) | Smug Stacks: gains strength with each kill, smugly (GUESS) | Pocket Edit: hands stay in pockets while a channel damages and pulls (GUESS) |
 | Forever [068] | Recluse | Tear Clip: a single tear projectile; a slowed target keeps the tear stuck (GUESS) | Lumpy Wail: a weeping wail damages around the hero (GUESS) | Crawl Ghost: brief evasion while crawling low (GUESS) | Eternal Loop: the weeping stun repeats until its clip of three stuns ends, then refills, forever (GUESS; the three-stun clip is UNVERIFIED) |
 
 Notes:
@@ -48,7 +47,6 @@ No hook is led by Forever [068]; it may still be the partner named in another he
 
 - Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3 keeps orb effects from stacking, and this extends it to armor cuts).
 - Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
-- Fuckyea [069] with Challenge [070]: Folded Arms Cloak refuses Pocket Edit pulls (GUESS).
 
 ### Requests
 

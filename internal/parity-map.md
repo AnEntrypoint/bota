@@ -18,7 +18,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Burst initiator | Earthshaker |
 | Wojak | Axe |
 | Ghillie | Techies |
-| Fuckyea | Pudge |
 | Forever | Puck |
 | Neckbeard | Abaddon |
 | Chungus | Alchemist |
@@ -40,7 +39,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Sweetbrown | Drow Ranger |
 | Willie | Earth Spirit |
 | Smugjak | Elder Titan |
-| Cereal | Enchantress |
 | Yao | Enigma |
 | Brian | Huskar |
 | Zyzz | Jakiro |
@@ -116,10 +114,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Ghillie | Locked Thread | Stasis Trap |
 | Ghillie | Jump | Blast Off! |
 | Ghillie | Temp Ban | Remote Mines |
-| Fuckyea | Pulled Into Thread | Meat Hook |
-| Fuckyea | Stale | Rot |
-| Fuckyea | Stacks | Flesh Heap |
-| Fuckyea | Edit | Dismember |
 | Forever | Recycled Content | Illusory Orb |
 | Forever | Scheduled Post | Waning Rift |
 | Forever | Ghosting | Phase Shift |
@@ -521,7 +515,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 025 | Dodson | Dragon Admin |
 | 027 | Willie | Rock Star |
 | 029 | Smugjak | Lore Keeper |
-| 031 | Cereal | Sweet Talker |
 | 039 | Noscope | Solo Wolf Poster |
 | 040 | Dino | Lighting Director |
 | 041 | Fuuuu | Captain Obvious |
@@ -531,7 +524,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 055 | Shoop | Glow-Up |
 | 066 | NPC | Multi-Accounter |
 | 068 | Forever | Looping Clip |
-| 069 | Fuckyea | Hook Guy |
 | 070 | Challenge | Late Night Poster |
 | 076 | Cole | Shadow Admin |
 | 077 | Grey | Based Fiend |
@@ -566,7 +558,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 025-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
 | 029-smugjak | https://knowyourmeme.com/memes/smug-wojak |
-| 031-cereal | https://knowyourmeme.com/memes/cereal-guy |
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
 | 041-fuuuu | https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu |
@@ -576,7 +567,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
 | 066-npc | https://en.wikipedia.org/wiki/NPC_(meme) |
 | 068-forever | https://knowyourmeme.com/memes/forever-alone |
-| 069-fuckyea | https://knowyourmeme.com/memes/fuck-yea |
 | 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
 | 076-cole | https://knowyourmeme.com/memes/glitch-art |
 | 077-grey | https://knowyourmeme.com/memes/greys |

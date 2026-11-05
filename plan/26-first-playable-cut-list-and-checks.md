@@ -46,7 +46,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 | Item | v1 | Later | Why |
 | --- | --- | --- | --- |
-| Heroes | 6 | 9 launch, then 29 more (38 active) | Test the mechanics before the roster. |
+| Heroes | 6 | 8 launch, then 28 more (36 active) | Test the mechanics before the roster. |
 | Boosts | Demand Boost, Bounty, Dank Goods (Haste) | Dank Goods (Illusion, Invisibility, Regeneration), Sweat Mode | Fewer boosts make the Clout effects easier to read. |
 | Trend modifiers | 2 | 8 | Compare two before adding more. |
 | Talents | None | Full sets from section 21 | Power growth comes after the base kits are tested. |
