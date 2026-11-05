@@ -2,7 +2,7 @@
 The register is maximalist, fad-forward and then some. Two images carry two readings.
 
 ### Rules
-1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Pointing points at everything.
+1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS).
 2. Every joke has a setup and a punchline.
 3. Voice is expressive and reactive. A hero reacts by scrolling past. Only the Hot-take initiator screams.
 4. Gags have a lifespan. Forever replays the same loop, a hero rebrands every week (GUESS), and a one-off gag cracks once and is folded into the next patch.

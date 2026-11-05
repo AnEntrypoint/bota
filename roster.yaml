@@ -71,10 +71,6 @@ roster:
     prompt: "stylized 3d anthropomorphic character, strict black-and-white monochromatic palette, round black ears, button-front white shorts, puffed whistling cheeks, hands gripping a free-floating brass ship bell, bouncing rhythmic stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Smugjak"
-    prompt: "stylized 3d character, polished bald cranium, sharp upturned nose, half-lidded eyelids, curled asymmetrical smirk, burgundy turtleneck sweater, hands clasped behind back, self-satisfied upright stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Noscope"
     prompt: "stylized 3d character, floating 8-bit black pixel sunglasses, glowing green crosshair hitmarker projected over face, oversized green marijuana leaf bucket hat, bright track jacket with sponsor patches, bolt-action precision rifle, soft studio key light, neutral background"
     aesthetic_refs: []
@@ -125,10 +121,6 @@ roster:
 
   - name: "Widemouth"
     prompt: "stylized 3d character, smooth white stylized face, eyes squeezed shut in absolute laughing glee, mouth wide in a massive smooth crescent curve showing teeth, red crewneck sweater, upright welcoming stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
-  - name: "Pointing"
-    prompt: "stylized 3d character, wide unhinged eyes behind square spectacles, open gaping oval mouth, long slender arm extending a yellow yardstick forward like a pointer, plain blue t-shirt, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Gothgirl"

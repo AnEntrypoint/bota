@@ -1,6 +1,6 @@
 # Gallery
 
-**33 of 34 characters generated.** Every image below opens full size.
+**31 of 32 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -29,7 +29,6 @@
 <figure><a href="gallery/018-lankdad.jpg"><img src="gallery/018-lankdad.jpg" alt="018 Lankdad" loading="lazy"></a><figcaption>018 Lankdad</figcaption></figure>
 <figure><a href="gallery/025-finger-dan.jpg"><img src="gallery/025-finger-dan.jpg" alt="025 Finger Dan" loading="lazy"></a><figcaption>025 Finger Dan</figcaption></figure>
 <figure><a href="gallery/027-willie.jpg"><img src="gallery/027-willie.jpg" alt="027 Willie" loading="lazy"></a><figcaption>027 Willie</figcaption></figure>
-<figure><a href="gallery/029-smugjak.jpg"><img src="gallery/029-smugjak.jpg" alt="029 Smugjak" loading="lazy"></a><figcaption>029 Smugjak</figcaption></figure>
 <figure><a href="gallery/039-noscope.jpg"><img src="gallery/039-noscope.jpg" alt="039 Noscope" loading="lazy"></a><figcaption>039 Noscope</figcaption></figure>
 <figure><a href="gallery/040-dino.jpg"><img src="gallery/040-dino.jpg" alt="040 Dino" loading="lazy"></a><figcaption>040 Dino</figcaption></figure>
 <figure><a href="gallery/044-salad.jpg"><img src="gallery/044-salad.jpg" alt="044 Salad" loading="lazy"></a><figcaption>044 Salad</figcaption></figure>
@@ -42,7 +41,6 @@
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
 <figure><a href="gallery/098-widemouth.jpg"><img src="gallery/098-widemouth.jpg" alt="098 Widemouth" loading="lazy"></a><figcaption>098 Widemouth</figcaption></figure>
-<figure><a href="gallery/103-pointing.jpg"><img src="gallery/103-pointing.jpg" alt="103 Pointing" loading="lazy"></a><figcaption>103 Pointing</figcaption></figure>
 <figure><a href="gallery/106-gothgirl.jpg"><img src="gallery/106-gothgirl.jpg" alt="106 Gothgirl" loading="lazy"></a><figcaption>106 Gothgirl</figcaption></figure>
 </div>
 

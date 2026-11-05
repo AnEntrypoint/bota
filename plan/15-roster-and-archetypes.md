@@ -48,7 +48,6 @@ Rules for the roster columns:
 | 018 | Lankdad | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
 | 025 | Finger Dan | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast. |
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
-| 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
 | 044 | Salad | Drifter | Str | Ranged | Clatters three spoons for an armor and slow aura, then takes control of a creep with rubbery fingers. |
@@ -62,7 +61,6 @@ Rules for the roster columns:
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
 | 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |
-| 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |
 | 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
 
 Reserve (not in the 59): the five slots named at the top of this chapter. Their prompts are in characters.

@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (33 active heroes)
+## 1. Table (31 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -34,7 +34,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 018 | Lankdad | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
 | 025 | Finger Dan | Heckler | - | Fire cone, stun and knockback, armor and regen; ult stronger attacks. |
 | 027 | Willie | Engine | - | Rolling rock projectiles, line roll, pull; ult zone stun. |
-| 029 | Smugjak | Showboat | FLAG | Smug Splitter fissure across the map; spirit scout, stun, armor ult. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
 | 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
 | 044 | Salad | Drifter | - | Damage and slow, armor-slow aura, chain bounce; ult takes a creep. |
@@ -48,20 +47,18 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
 | 098 | Widemouth | Showboat | - | Line shards, rolling snowball, ally joins attack; ult cone stun. |
-| 103 | Pointing | Heckler | - | DoT, damage amplification, attacker damage; ult slow and damage. |
 | 106 | Gothgirl | Recluse | - | Cardigan Flicker is its escape; bug summons, double attack, ult rewinds target. |
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 27 remaining kits (section 10). All 33 active heroes matched by slot.
-- Flags: 5. Global 1 (Smugjak 029). Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
+- Coverage: 6 launch kits (section 9), 25 remaining kits (section 10). All 31 active heroes matched by slot.
+- Flags: 4. Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first
 
 Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), unless a line gives its own bound.
 
 1. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
-2. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
-3. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
-4. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
-5. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
+2. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
+3. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
+4. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.

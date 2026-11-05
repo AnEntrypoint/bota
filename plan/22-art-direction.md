@@ -34,7 +34,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 018 | Lankdad (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
 | 025 | Finger Dan (P4) | Heckler | Pointing arm (no held prop) | Mustard, bronze | L / D / M |
 | 027 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
-| 029 | Smugjak (P4) | Showboat | Hands clasped behind back (no held prop) | Peach, burgundy | L / D / M |
 | 039 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
 | 040 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
 | 044 | Salad (P4) | Drifter | Three silver spoons between knuckles | Night blue, olive | L / D / M |
@@ -48,5 +47,4 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
 | 098 | Widemouth (P4) | Showboat | Huge smile, a cardboard hand fan held at the chest | Peach, white | M / L / D |
-| 103 | Pointing (P4) | Heckler | Yellow yardstick held across the chest | Mustard, blue | M / L / D |
 | 106 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |

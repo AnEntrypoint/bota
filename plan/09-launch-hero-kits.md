@@ -43,10 +43,8 @@ Notes:
 
 No hook is led by Forever [068]; it may still be the partner named in another hero's hook.
 
-- Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3 keeps orb effects from stacking, and this extends it to armor cuts).
 - Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
 
 ### Requests
 
 - A cross-hero unit-counter read that does not need Lua per hook (GUESS): several hooks above read another hero's stack; a shared stack channel would make them plain data.
-- An armor-cut stack rule that caps combined armor cuts (GUESS): Orb Vibes and Smug Citation would stack to a combined armor cut of 4 instead of the larger applying (GUESS, no 6.88g source).

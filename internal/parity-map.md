@@ -37,7 +37,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Dodson | Dragon Knight |
 | Sweetbrown | Drow Ranger |
 | Willie | Earth Spirit |
-| Smugjak | Elder Titan |
 | Yao | Enigma |
 | Brian | Huskar |
 | Zyzz | Jakiro |
@@ -57,7 +56,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Nerfer | Slark |
 | Uber | Troll Warlord |
 | Widemouth | Tusk |
-| Pointing | Viper |
 | Gothgirl | Weaver |
 
 ## Launch ability originals
@@ -506,7 +504,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 018 | Slender | Deadline Bot |
 | 025 | Dodson | Dragon Admin |
 | 027 | Willie | Rock Star |
-| 029 | Smugjak | Lore Keeper |
 | 039 | Noscope | Solo Wolf Poster |
 | 040 | Dino | Lighting Director |
 | 044 | Salad | Tenured Lich |
@@ -520,7 +517,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 077 | Grey | Based Fiend |
 | 089 | Ghillie | Mods |
 | 098 | Widemouth | Ice Cream Truck |
-| 103 | Pointing | Reviewer Two |
 | 106 | Gothgirl | Doomlooper |
 
 ## Aesthetic refs (moved from characters)
@@ -546,7 +542,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 018-slender | https://en.wikipedia.org/wiki/Slender_Man |
 | 025-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
-| 029-smugjak | https://knowyourmeme.com/memes/smug-wojak |
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
 | 044-salad | https://knowyourmeme.com/memes/subcultures/salad-fingers |
@@ -560,7 +555,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 077-grey | https://knowyourmeme.com/memes/greys |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
 | 098-widemouth | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |
-| 103-pointing | https://knowyourmeme.com/memes/two-soyjaks-pointing |
 | 106-gothgirl | https://knowyourmeme.com/memes/doomer-girl |
 
 ## Item classic jobs

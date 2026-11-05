@@ -1,4 +1,4 @@
-# Roster: 34 heroes from the character set
+# Roster: 32 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -22,7 +22,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 018 | Lankdad | characters/018-lankdad.md |
 | 025 | Finger Dan | characters/025-finger-dan.md |
 | 027 | Willie | characters/027-willie.md |
-| 029 | Smugjak | characters/029-smugjak.md |
 | 039 | Noscope | characters/039-noscope.md |
 | 040 | Dino | characters/040-dino.md |
 | 044 | Salad | characters/044-salad.md |
@@ -36,7 +35,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 077 | Grey | characters/077-grey.md |
 | 089 | Ghillie | characters/089-ghillie.md |
 | 098 | Widemouth | characters/098-widemouth.md |
-| 103 | Pointing | characters/103-pointing.md |
 | 106 | Gothgirl | characters/106-gothgirl.md |
 
 ## Reserve
