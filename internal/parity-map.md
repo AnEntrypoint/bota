@@ -533,7 +533,7 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 068 | Forever | Looping Clip |
 | 069 | Fuckyea | Hook Guy |
 | 070 | Challenge | Late Night Poster |
-| 076 | Glitch | Shadow Admin |
+| 076 | Cole | Shadow Admin |
 | 077 | Grey | Based Fiend |
 | 089 | Ghillie | Mods |
 | 098 | Widemouth | Ice Cream Truck |
@@ -578,7 +578,7 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 068-forever | https://knowyourmeme.com/memes/forever-alone |
 | 069-fuckyea | https://knowyourmeme.com/memes/fuck-yea |
 | 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
-| 076-glitch | https://knowyourmeme.com/memes/glitch-art |
+| 076-cole | https://knowyourmeme.com/memes/glitch-art |
 | 077-grey | https://knowyourmeme.com/memes/greys |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
 | 098-widemouth | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |

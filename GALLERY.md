@@ -1,6 +1,6 @@
 # Gallery
 
-**39 of 39 characters generated.** Every image below opens full size.
+**38 of 39 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -44,7 +44,6 @@
 <figure><a href="gallery/068-forever.jpg"><img src="gallery/068-forever.jpg" alt="068 Forever" loading="lazy"></a><figcaption>068 Forever</figcaption></figure>
 <figure><a href="gallery/069-fuckyea.jpg"><img src="gallery/069-fuckyea.jpg" alt="069 Fuckyea" loading="lazy"></a><figcaption>069 Fuckyea</figcaption></figure>
 <figure><a href="gallery/070-challenge.jpg"><img src="gallery/070-challenge.jpg" alt="070 Challenge" loading="lazy"></a><figcaption>070 Challenge</figcaption></figure>
-<figure><a href="gallery/076-glitch.jpg"><img src="gallery/076-glitch.jpg" alt="076 Glitch" loading="lazy"></a><figcaption>076 Glitch</figcaption></figure>
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
 <figure><a href="gallery/098-widemouth.jpg"><img src="gallery/098-widemouth.jpg" alt="098 Widemouth" loading="lazy"></a><figcaption>098 Widemouth</figcaption></figure>
@@ -54,4 +53,4 @@
 
 ## Pending
 
-Not generated yet: none.
+Not generated yet: 076.

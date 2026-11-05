@@ -37,7 +37,7 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 068 | Forever | characters/068-forever.md |
 | 069 | Fuckyea | characters/069-fuckyea.md |
 | 070 | Challenge | characters/070-challenge.md |
-| 076 | Glitch | characters/076-glitch.md |
+| 076 | Cole | characters/076-cole.md |
 | 077 | Grey | characters/077-grey.md |
 | 089 | Ghillie | characters/089-ghillie.md |
 | 098 | Widemouth | characters/098-widemouth.md |

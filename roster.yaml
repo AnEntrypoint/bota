@@ -131,8 +131,8 @@ roster:
     prompt: "stylized 3d character, clenched squared jawline, narrow steely eyes, arms tightly folded across chest, puffed out torso, crisp white collared shirt, resolute forward stride, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Glitch"
-    prompt: "stylized 3d character, bipedal humanoid mesh fractured into displaced red, green, and blue chromatic offset duplicate layers, jagged polygon edges, hovering unstable stance, soft studio key light, neutral background"
+  - name: "Cole"
+    prompt: "stylized 3d character, goofy cartoon trainer with spiky messy black hair under a red-and-white cap, huge round eyes, oversized toothy grin, blue vest over white shirt, backpack straps, bouncy cocky stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Grey"

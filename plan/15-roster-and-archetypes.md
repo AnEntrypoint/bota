@@ -63,7 +63,7 @@ Rules for the roster columns:
 | 068 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |
 | 069 | Fuckyea | Showboat | Agi | Melee | Hooks and pulls targets from behind sunglasses while hands stay in pockets, growing smugger with every kill. |
 | 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
-| 076 | Glitch | Phantom | Str | Ranged | Holds an enemy in place and copies its image through red, green and blue offset layers. |
+| 076 | Cole | Phantom | Str | Ranged | Thunderbolt holds an enemy in place and copies its image in a Poke Ball flash. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
 | 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |

@@ -49,7 +49,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
 | 069 | Fuckyea | Showboat | - | Kill stacks give strength, capped (talent raises cap); hook, pull ult. |
 | 070 | Challenge | Leash | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
-| 076 | Glitch | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
+| 076 | Cole | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
 | 098 | Widemouth | Showboat | - | Line shards, rolling snowball, ally joins attack; ult cone stun. |
