@@ -83,10 +83,6 @@ roster:
     prompt: "stylized 3d character, stark monochromatic grey 1-bit pixel aesthetic, running bipedal tyrannosaur silhouette, stubby forearms, snapping rectangular jaw, angular pixel-stepped running posture, crisp shadow, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Fuuuu"
-    prompt: "stylized 3d character, smooth white cranium, eyes squeezed into tight crescents of agony, mouth open in an immense oval scream revealing two rows of square teeth, hands clutching own temples, plain grey t-shirt, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Salad"
     prompt: "stylized 3d character, emaciated olive-green frame, bulbous bald cranium, elongated flexible rubbery fingers, threadbare moth-eaten green knit sweater, three tarnished vintage silver spoons held between knuckles, eerie gentle stance, soft studio key light, neutral background"
     aesthetic_refs: []

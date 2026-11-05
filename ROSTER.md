@@ -1,4 +1,4 @@
-# Roster: 35 heroes from the character set
+# Roster: 34 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -25,7 +25,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 029 | Smugjak | characters/029-smugjak.md |
 | 039 | Noscope | characters/039-noscope.md |
 | 040 | Dino | characters/040-dino.md |
-| 041 | Fuuuu | characters/041-fuuuu.md |
 | 044 | Salad | characters/044-salad.md |
 | 049 | Ecce | characters/049-ecce.md |
 | 054 | Bot Bernard | characters/054-bot-bernard.md |

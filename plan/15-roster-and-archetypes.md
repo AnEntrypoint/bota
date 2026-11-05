@@ -51,7 +51,6 @@ Rules for the roster columns:
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
-| 041 | Fuuuu | Recluse | Str | Melee | Screams until the lane floods, stunning everyone in the wave, then cruises through the survivors on it. |
 | 044 | Salad | Drifter | Str | Ranged | Clatters three spoons for an armor and slow aura, then takes control of a creep with rubbery fingers. |
 | 049 | Ecce | Archivist | Int | Melee | Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces. |
 | 054 | Bot Bernard | Herald | Int | Ranged | Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed. |

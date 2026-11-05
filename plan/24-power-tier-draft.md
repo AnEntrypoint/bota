@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (34 active heroes)
+## 1. Table (33 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -37,7 +37,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 029 | Smugjak | Showboat | FLAG | Smug Splitter fissure across the map; spirit scout, stun, armor ult. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
 | 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
-| 041 | Fuuuu | Recluse | - | Stun wave, strike and slow, marking; ult sails through enemies. |
 | 044 | Salad | Drifter | - | Damage and slow, armor-slow aura, chain bounce; ult takes a creep. |
 | 049 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
 | 054 | Bot Bernard | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
@@ -54,7 +53,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 28 remaining kits (section 10). All 34 active heroes matched by slot.
+- Coverage: 6 launch kits (section 9), 27 remaining kits (section 10). All 33 active heroes matched by slot.
 - Flags: 5. Global 1 (Smugjak 029). Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first
