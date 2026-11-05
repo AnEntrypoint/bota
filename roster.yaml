@@ -163,10 +163,6 @@ roster:
     prompt: "stylized 3d character, thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding a glass teapot, casual intellectual posture, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Deepfried"
-    prompt: "stylized 3d character, ultra-saturated yellow and red color palette, blinding red lens-flare beacons blasting from eye sockets, hyper-contrasted fabric folds on red hoodie, running combat pose, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Glitch"
     prompt: "stylized 3d character, bipedal humanoid mesh fractured into displaced red, green, and blue chromatic offset duplicate layers, jagged polygon edges, hovering unstable stance, soft studio key light, neutral background"
     aesthetic_refs: []

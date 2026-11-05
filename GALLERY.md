@@ -1,6 +1,6 @@
 # Gallery
 
-**56 of 56 characters generated.** Every image below opens full size.
+**55 of 55 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -52,7 +52,6 @@
 <figure><a href="gallery/069-fuckyea.jpg"><img src="gallery/069-fuckyea.jpg" alt="069 Fuckyea" loading="lazy"></a><figcaption>069 Fuckyea</figcaption></figure>
 <figure><a href="gallery/070-challenge.jpg"><img src="gallery/070-challenge.jpg" alt="070 Challenge" loading="lazy"></a><figcaption>070 Challenge</figcaption></figure>
 <figure><a href="gallery/071-hipster.jpg"><img src="gallery/071-hipster.jpg" alt="071 Hipster" loading="lazy"></a><figcaption>071 Hipster</figcaption></figure>
-<figure><a href="gallery/075-deepfried.jpg"><img src="gallery/075-deepfried.jpg" alt="075 Deepfried" loading="lazy"></a><figcaption>075 Deepfried</figcaption></figure>
 <figure><a href="gallery/076-glitch.jpg"><img src="gallery/076-glitch.jpg" alt="076 Glitch" loading="lazy"></a><figcaption>076 Glitch</figcaption></figure>
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/082-paintballer.jpg"><img src="gallery/082-paintballer.jpg" alt="082 Paintballer" loading="lazy"></a><figcaption>082 Paintballer</figcaption></figure>

@@ -57,7 +57,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 069 | Fuckyea (P2) | Showboat | Hands jammed in trouser pockets | Peach, jet black | M / L / D |
 | 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
 | 071 | Hipster (P2) | Herald | Glass teapot | Soft cyan, mustard | M / L / D |
-| 075 | Deepfried (P3) | Drifter | Lens-flare beams from the eye sockets (no held prop) | Night blue, saturated green | M / L / D |
 | 076 | Glitch (P1) | Phantom | Offset chromatic duplicate layers (no held prop) | Lavender, neon | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 082 | Paintballer (P6) | Stalker | Electronic speedball marker with hopper | Slate, neon | L / D / M |
