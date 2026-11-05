@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (47 active heroes)
+## 1. Table (46 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -57,7 +57,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 070 | Challenge | Leash | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
 | 076 | Glitch | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
-| 088 | Airhorn | Heckler | FLAG | Talent grows Escalating Blare per cast, no cap stated; cleave, stun. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
 | 097 | Carpool | Engine | - | Attack speed, spinning damage, crit chance; ult attack speed for allies. |
 | 098 | Widemouth | Showboat | - | Line shards, rolling snowball, ally joins attack; ult cone stun. |
@@ -67,8 +66,8 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 13 launch kits (section 9), 34 remaining kits (section 10). All 47 active heroes matched by slot.
-- Flags: 8. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 4 (Gondola 012, Spurdo 013, Npc 066, Airhorn 088 via talent).
+- Coverage: 12 launch kits (section 9), 34 remaining kits (section 10). All 46 active heroes matched by slot.
+- Flags: 7. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first
 
@@ -78,7 +77,6 @@ Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), 
 2. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
 3. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
 4. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: over at least 200 matches per choice (UNVERIFIED), the global choice's win rate stays within 5 points of the local one.
-5. Airhorn (088): talent grows Escalating Blare per cast with no cap stated. Measure the damage multiplier after repeated casts in one fight. Pass: the damage multiplier after 5 casts stays at or below 2× (UNVERIFIED).
-6. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
-7. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
-8. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.
+5. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
+6. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
+7. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.

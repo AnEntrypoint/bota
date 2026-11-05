@@ -15,7 +15,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Viking | Crystal Maiden |
 | Boxxy | Dazzle |
 | Tank, initiator | Tidehunter |
-| Airhorn | Sven |
 | Starwarskid | Meepo |
 | Burst initiator | Earthshaker |
 | Wojak | Axe |
@@ -110,10 +109,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Tank, initiator | Appeal | Kraken Shell |
 | Tank, initiator | Strike | Anchor Smash |
 | Tank, initiator | Lockdown | Ravage |
-| Airhorn | Gavel Slam | Storm Hammer |
-| Airhorn | Remove | Great Cleave |
-| Airhorn | Notice | Warcry |
-| Airhorn | Escalate | God's Strength |
 | Starwarskid | Fresh Account | Earthbind |
 | Starwarskid | New Account | Poof |
 | Starwarskid | Sock Puppet | Geostrike |
@@ -554,7 +549,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 070 | Challenge | Late Night Poster |
 | 076 | Glitch | Shadow Admin |
 | 077 | Grey | Based Fiend |
-| 088 | Airhorn | Ban Hammer |
 | 089 | Ghillie | Mods |
 | 097 | Uber | Bait Lord |
 | 098 | Widemouth | Ice Cream Truck |
@@ -607,7 +601,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
 | 076-glitch | https://knowyourmeme.com/memes/glitch-art |
 | 077-grey | https://knowyourmeme.com/memes/greys |
-| 088-airhorn | https://knowyourmeme.com/memes/air-horn |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
 | 098-widemouth | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |
 | 102-disheartened | https://knowyourmeme.com/memes/wojak |

@@ -1,5 +1,5 @@
 # 9. Launch hero kits
-Thirteen launch characters across eight of the twelve role families (Archivist, Firebrand, Engine and Phantom have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
+Twelve launch characters across eight of the twelve role families (Archivist, Firebrand, Engine and Phantom have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
 
 Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
 
@@ -35,7 +35,6 @@ Notes:
 | Noscope [039] | Stalker | Hitmarker Spin: spins and damages nearby enemies; each hit flashes the green crosshair hitmarker over the target (GUESS) | Sponsor Patch Heal: heals allies in radius; a healed ally also gets Noscope's Lucky Scope crit chance (GUESS) | Lucky Scope: the lens flare gives a chance to critically strike; a crit pays a sponsor bonus (GUESS) | Bolt Action Chain: rapid bolt-action strikes that jump between enemies (GUESS) |
 | Viking [019] | Herald | Mead Clink: area damage and slow; the slow lasts while enemies stand in Hydrate or Diedrate's aura (GUESS) | Hammer Hold: the silver hammer pendant roots and damages over time (GUESS) | Hydrate or Diedrate: sigma regen for allies, sipped from a half-full bottle (GUESS) | Ragnarok March: area nuke around the hero; each rhythmic march step stomps the ground (GUESS) |
 | Smudge [021] | Leash | Eyeliner Bleed: damage over time as the eyeliner runs; bleeding targets take the Emo Vibes armor cut (same hero, GUESS) | Sweater Slip: the oversized sweater slips off one shoulder to protect an ally from death for 2 s (GUESS) | Open Palm Bounce: animated open-palm gestures bounce to nearby units (GUESS) | Emo Vibes: reduces enemy armor; the cut doubles on targets already bleeding from Eyeliner Bleed (GUESS) |
-| Airhorn [088] | Heckler | Airhorn Blast: the brass canisters blast a stun and damage (GUESS) | Canister Remove: each attack empties a canister in a cleave (GUESS) | Pinstripe Jacket Pitch: sponsor-stripe armor and speed for allies (GUESS) | Escalating Blare: damage increase; each stun Airhorn Blast applies adds to the blare (GUESS) |
 | Chudjak [028] | Bulwark | Manifesto Slam: the rolled manifesto clubs a line of damage and stun (GUESS) | Olive Totem: the olive surplus jacket empowers attacks (GUESS) | Buzzcut Follow: a stun and damage around the hero with a severe scowl (GUESS) | Surplus Echo: surplus rage scales damage with nearby enemies (GUESS) |
 | Wojak [005] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
 | Ghillie [089] | Stalker | Burlap Warning: burlap strips scatter as area traps with damage (GUESS) | Twine Lock: camouflage twine holds and reveals enemies (GUESS) | Corn Stalk Jump: leaping strike with damage; a jump over a trap triggers it early (GUESS) | Scoped Temp Ban: remote detonation through the scope disables (GUESS) |
@@ -52,7 +51,6 @@ No hook is led by Forever [068]; it may still be the partner named in another he
 
 - Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3 keeps orb effects from stacking, and this extends it to armor cuts).
 - Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
-- Airhorn [088] with Chudjak [028]: Airhorn Blast knocks Buzzcut Follow victims (GUESS).
 - Fuckyea [069] with Challenge [070]: Folded Arms Cloak refuses Pocket Edit pulls (GUESS).
 
 ### Requests

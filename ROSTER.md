@@ -1,4 +1,4 @@
-# Roster: 47 heroes from the character set
+# Roster: 46 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -44,7 +44,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 070 | Challenge | characters/070-challenge.md |
 | 076 | Glitch | characters/076-glitch.md |
 | 077 | Grey | characters/077-grey.md |
-| 088 | Airhorn | characters/088-airhorn.md |
 | 089 | Ghillie | characters/089-ghillie.md |
 | 097 | Carpool | characters/097-carpool.md |
 | 098 | Widemouth | characters/098-widemouth.md |
