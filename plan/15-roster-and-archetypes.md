@@ -70,7 +70,6 @@ Rules for the roster columns:
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
 | 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |
-| 102 | Disheartened | Recluse | Str | Melee | Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova. |
 | 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |
 | 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
 

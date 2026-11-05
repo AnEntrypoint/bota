@@ -63,7 +63,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Nerfer | Slark |
 | Uber | Troll Warlord |
 | Widemouth | Tusk |
-| Disheartened | Venomancer |
 | Pointing | Viper |
 | Gothgirl | Weaver |
 
@@ -547,7 +546,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 077 | Grey | Based Fiend |
 | 089 | Ghillie | Mods |
 | 098 | Widemouth | Ice Cream Truck |
-| 102 | Disheartened | Toxic Positivity |
 | 103 | Pointing | Reviewer Two |
 | 106 | Gothgirl | Doomlooper |
 
@@ -596,7 +594,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 077-grey | https://knowyourmeme.com/memes/greys |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
 | 098-widemouth | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |
-| 102-disheartened | https://knowyourmeme.com/memes/wojak |
 | 103-pointing | https://knowyourmeme.com/memes/two-soyjaks-pointing |
 | 106-gothgirl | https://knowyourmeme.com/memes/doomer-girl |
 

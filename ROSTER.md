@@ -1,4 +1,4 @@
-# Roster: 43 heroes from the character set
+# Roster: 42 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -44,7 +44,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 077 | Grey | characters/077-grey.md |
 | 089 | Ghillie | characters/089-ghillie.md |
 | 098 | Widemouth | characters/098-widemouth.md |
-| 102 | Disheartened | characters/102-disheartened.md |
 | 103 | Pointing | characters/103-pointing.md |
 | 106 | Gothgirl | characters/106-gothgirl.md |
 

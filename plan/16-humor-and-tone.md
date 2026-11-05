@@ -24,7 +24,7 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
 | 09 | Item flavor lines in deadpan. | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Ticker in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
-| 11 | Click and hold reveals the losing Stockpile as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Stockpile | End screen | Requires a click. Clean stats view is the default. |
+| 11 | Click and hold reveals the losing Stockpile as [deleted], like a hand pulled out of a pocket. [GUESS] | Stockpile | End screen | Requires a click. Clean stats view is the default. |
 | 12 | The hero's own shadow stretches toward the Clout bar. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
 | 13 | A kill taken at under 10% HP plays Fact check pending on the announcer. | Kills | Kill at under 10% HP | 1.5 s, announcer only, once per 2 min (UNVERIFIED). |
 | 14 | NPC camp creatures repeat one grey speech bubble when pulled, in Npc's blank idle: Nice weather today. | Jungle camps | Pull | Fades in 2 s (UNVERIFIED). |
