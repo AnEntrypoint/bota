@@ -41,7 +41,6 @@ Rules for the roster columns:
 | 012 | Gondola | Recluse | Agi | Melee | Spits stacking slows from a potato trunk, then hits back harder for every blow it has taken. |
 | 013 | Spurdo | Firebrand | Agi | Melee | Hatches spiderlings from a parka hood and heals every time one of them kills something. |
 | 014 | Karen | Heckler | Int | Ranged | Demands the manager by charging every enemy in a line, and bounces hits back with an endless receipt. |
-| 015 | Trevor | Firebrand | Int | Melee | Smashes whoever is nearest with drywall knuckles and calls a skate crew that grinds the nearest wall. |
 | 016 | Howard | Archivist | Str | Melee | Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides. |
 | 017 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
 | 018 | Lankdad | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
@@ -54,7 +53,6 @@ Rules for the roster columns:
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit. |
 | 066 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies, so enemies cannot tell which idle stance is the real one. |
 | 068 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |
-| 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
 | 076 | Cole | Phantom | Str | Ranged | Thunderbolt holds an enemy in place and copies its image in a Poke Ball flash. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |

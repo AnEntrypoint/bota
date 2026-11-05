@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (28 active heroes)
+## 1. Table (26 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -27,7 +27,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 012 | Gondola | Recluse | FLAG | Potato Spit stacks, no cap stated; ult adds damage per hit taken. |
 | 013 | Spurdo | Firebrand | FLAG | Summons spiderlings, no cap stated; web slow, poison, heal on kills. |
 | 014 | Karen | Heckler | - | Nearby stun; charge; reflect when hit; line charge ult. |
-| 015 | Trevor | Firebrand | - | Random-target damage, crit heals; ult summons attacking illusions. |
 | 016 | Howard | Archivist | - | Ult is a temporary sanctuary; creep conversion and healing. |
 | 017 | Sanic | Stalker | - | Stealth while moving is its escape; fire arrows; skeleton ult. |
 | 018 | Lankdad | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
@@ -40,7 +39,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
 | 066 | Npc | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
 | 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
-| 070 | Challenge | Leash | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
 | 076 | Cole | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
@@ -48,7 +46,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 22 remaining kits (section 10). All 28 active heroes matched by slot.
+- Coverage: 6 launch kits (section 9), 20 remaining kits (section 10). All 26 active heroes matched by slot.
 - Flags: 4. Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first

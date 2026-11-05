@@ -1,4 +1,4 @@
-# Roster: 29 heroes from the character set
+# Roster: 27 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -15,7 +15,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 012 | Gondola | characters/012-gondola.md |
 | 013 | Spurdo | characters/013-spurdo.md |
 | 014 | Karen | characters/014-karen.md |
-| 015 | Trevor | characters/015-trevor.md |
 | 016 | Howard | characters/016-howard.md |
 | 017 | Sanic | characters/017-sanic.md |
 | 018 | Lankdad | characters/018-lankdad.md |
@@ -28,7 +27,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 055 | Shoop | characters/055-shoop.md |
 | 066 | Npc | characters/066-npc.md |
 | 068 | Forever | characters/068-forever.md |
-| 070 | Challenge | characters/070-challenge.md |
 | 076 | Cole | characters/076-cole.md |
 | 077 | Grey | characters/077-grey.md |
 | 089 | Ghillie | characters/089-ghillie.md |

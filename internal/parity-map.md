@@ -48,7 +48,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Trollhunter | Necrophos |
 | Hypebeast | Nyx Assassin |
 | Npc | Phantom Lancer |
-| Challenge | Pugna |
 | Brony | Razor |
 | Glitch | Shadow Demon |
 | Crossfit | Silencer |
@@ -495,7 +494,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 012 | Gondola | Angry Reply |
 | 013 | Spurdo | Spawn Farm |
 | 014 | Karen | Off-Leash Mod |
-| 015 | Kyle | Unhinged Knight |
 | 016 | Harold | Hall Monitor |
 | 017 | Sanic | Skeleton Account |
 | 018 | Slender | Deadline Bot |
@@ -508,7 +506,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 055 | Shoop | Glow-Up |
 | 066 | NPC | Multi-Accounter |
 | 068 | Forever | Looping Clip |
-| 070 | Challenge | Late Night Poster |
 | 076 | Cole | Shadow Admin |
 | 077 | Grey | Based Fiend |
 | 089 | Ghillie | Mods |
@@ -530,7 +527,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 012-gondola | https://knowyourmeme.com/memes/gondola |
 | 013-spurdo | https://knowyourmeme.com/memes/spurdo-spanke |
 | 014-karen | https://knowyourmeme.com/memes/karen |
-| 015-kyle | https://knowyourmeme.com/memes/kyle |
 | 016-harold | https://knowyourmeme.com/memes/hide-the-pain-harold |
 | 017-sanic | https://knowyourmeme.com/memes/sanic-hegehog |
 | 018-slender | https://en.wikipedia.org/wiki/Slender_Man |
@@ -543,7 +539,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
 | 066-npc | https://en.wikipedia.org/wiki/NPC_(meme) |
 | 068-forever | https://knowyourmeme.com/memes/forever-alone |
-| 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
 | 076-cole | https://knowyourmeme.com/memes/glitch-art |
 | 077-grey | https://knowyourmeme.com/memes/greys |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
@@ -600,7 +595,6 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 
 | Old label | New label | Slot |
 | --- | --- | --- |
-| Kyle | Trevor | 015 |
 | Harold | Howard | 016 |
 | Sanic | Sanic | 017 |
 | Slender | Lankdad | 018 |

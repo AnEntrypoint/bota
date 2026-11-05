@@ -43,10 +43,6 @@ roster:
     prompt: "stylized 3d female character, razor-sharp asymmetrical blonde wedge haircut, large bug-eye designer sunglasses, fitted pastel-pink velour tracksuit, white slip-on sneakers, holding an endless accordion-folded printed receipt, aggressive forward lean, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Trevor"
-    prompt: "stylized 3d character, sideways black flat-brim motocross cap, neon-green skate shoes, sleeveless black hoodie with shredded armholes, cargo shorts, dual jagged slabs of shattered white drywall held like knuckles, airborne lunging stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Howard"
     prompt: "stylized 3d character, wispy white hair, heavy crinkled eye bags, pained forced toothy grimace, sensible beige short-sleeve office polo shirt tucked into brown trousers, white ceramic mug with bold 'WORLD'S BEST' text, hand-painted stylized textures, soft studio key light, neutral background"
     aesthetic_refs: []
@@ -93,10 +89,6 @@ roster:
 
   - name: "Forever"
     prompt: "stylized 3d character, misshapen lumpy cranium with deep tear crevices carved down cheeks, mouth turned down in weeping grimace, hunched crawling bipedal posture, baggy muted-grey sweat suit, soft studio key light, neutral background"
-    aesthetic_refs: []
-
-  - name: "Challenge"
-    prompt: "stylized 3d character, clenched squared jawline, narrow steely eyes, arms tightly folded across chest, puffed out torso, crisp white collared shirt, resolute forward stride, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Cole"

@@ -1,6 +1,6 @@
 # Gallery
 
-**28 of 29 characters generated.** Every image below opens full size.
+**26 of 27 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -22,7 +22,6 @@
 <figure><a href="gallery/012-gondola.jpg"><img src="gallery/012-gondola.jpg" alt="012 Gondola" loading="lazy"></a><figcaption>012 Gondola</figcaption></figure>
 <figure><a href="gallery/013-spurdo.jpg"><img src="gallery/013-spurdo.jpg" alt="013 Spurdo" loading="lazy"></a><figcaption>013 Spurdo</figcaption></figure>
 <figure><a href="gallery/014-karen.jpg"><img src="gallery/014-karen.jpg" alt="014 Karen" loading="lazy"></a><figcaption>014 Karen</figcaption></figure>
-<figure><a href="gallery/015-trevor.jpg"><img src="gallery/015-trevor.jpg" alt="015 Trevor" loading="lazy"></a><figcaption>015 Trevor</figcaption></figure>
 <figure><a href="gallery/016-howard.jpg"><img src="gallery/016-howard.jpg" alt="016 Howard" loading="lazy"></a><figcaption>016 Howard</figcaption></figure>
 <figure><a href="gallery/017-sanic.jpg"><img src="gallery/017-sanic.jpg" alt="017 Sanic" loading="lazy"></a><figcaption>017 Sanic</figcaption></figure>
 <figure><a href="gallery/018-lankdad.jpg"><img src="gallery/018-lankdad.jpg" alt="018 Lankdad" loading="lazy"></a><figcaption>018 Lankdad</figcaption></figure>
@@ -35,7 +34,6 @@
 <figure><a href="gallery/055-shoop.jpg"><img src="gallery/055-shoop.jpg" alt="055 Shoop" loading="lazy"></a><figcaption>055 Shoop</figcaption></figure>
 <figure><a href="gallery/066-npc.jpg"><img src="gallery/066-npc.jpg" alt="066 Npc" loading="lazy"></a><figcaption>066 Npc</figcaption></figure>
 <figure><a href="gallery/068-forever.jpg"><img src="gallery/068-forever.jpg" alt="068 Forever" loading="lazy"></a><figcaption>068 Forever</figcaption></figure>
-<figure><a href="gallery/070-challenge.jpg"><img src="gallery/070-challenge.jpg" alt="070 Challenge" loading="lazy"></a><figcaption>070 Challenge</figcaption></figure>
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
 <figure><a href="gallery/106-gothgirl.jpg"><img src="gallery/106-gothgirl.jpg" alt="106 Gothgirl" loading="lazy"></a><figcaption>106 Gothgirl</figcaption></figure>

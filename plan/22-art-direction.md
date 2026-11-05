@@ -27,7 +27,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 012 | Gondola (P2) | Recluse | Two boots as the base (no held prop) | Moss, clay brown | L / D / M |
 | 013 | Spurdo (P2) | Firebrand | Dented aluminum baseball bat | Ember, olive | L / D / M |
 | 014 | Karen (P3) | Heckler | Endless accordion-folded receipt | Mustard, pastel pink | L / D / M |
-| 015 | Trevor (P3) | Firebrand | Two shattered drywall slabs held as knuckles | Ember, white-hot | L / D / M |
 | 016 | Howard (P1) | Archivist | White ceramic mug, WORLD'S BEST | Sepia, pale | L / D / M |
 | 017 | Sanic (P1) | Stalker | Running lean (no held prop) | Slate, electric blue | L / D / M |
 | 018 | Lankdad (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
@@ -40,7 +39,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
 | 066 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
 | 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
-| 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
 | 076 | Cole (P1) | Phantom | Red-and-white cap and backpack | Red, white, blue | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
