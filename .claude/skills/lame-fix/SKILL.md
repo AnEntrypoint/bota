@@ -28,14 +28,14 @@ State: .gm/lame/ledger.json. The full contract is in ../lame-list/SKILL.md; the 
 - Status: open | fixed | blocked | wontfix | stale. Keep every row and every id.
 - Round bound: rounds defaults to 3, clamped to 1..5. Fix at round N, then call list at round N+1. Never call list twice in one pass.
 - Terminal: the finish invariant names every allowed end. A pass that fixes nothing still hands off to lame-list while round < rounds; it does not stop on its own.
-- Degradation: plain JSON and only Read/Write are enough. If the harness has no skill tool, read ../lame-list/SKILL.md and follow it inline. When gm is available, use fs_read, fs_write, codesearch and the git verbs.
-- Tracking: when gm is available, mirror each row with prd_add (overwrite to rescope) or prd_note, and close a fixed row with prd_resolve and its witness. The JSON ledger stays the portable source when gm is absent.
+- Degradation: plain JSON and only Read/Write are enough. If the harness has no skill tool, read ../lame-list/SKILL.md and follow it inline. When gm is available, use gm.read_file, gm.write_file, gm.search and the gm.git_* verbs.
+- Tracking: when gm is available, mirror each row with prd_add, and close a fixed row with prd_resolve and its witness. The JSON ledger stays the portable source when gm is absent.
 
 ## Fix at the source
 
 | Finding is about | Edit | Regenerate |
 | --- | --- | --- |
-| A plan rule or number | plan/NN-*.md | spec.prd only through its generator, never by hand |
+| A plan rule or number | plan/NN-*.md | none |
 | A character's subject, hook or Card | characters/NNN-*.md subject or hook | node tools/sync-roster.mjs (then --check) |
 | A generated roster table or gag | the character or plan source | node tools/sync-roster.mjs |
 | An original MOBA name in shipped text | remove it from the shipped text; keep the mapping in internal/parity-map.md | none |
@@ -65,13 +65,13 @@ Repo rules the edit must keep:
    - Confirm touched links and paths exist. Confirm 49 active plus 5 reserve heroes and that INDEX.tsv matches the files.
    - If the edit touched internal/parity-map.md, confirm the map still has no original name in plan/, characters/, README.md or ROSTER.md.
    - If a check cannot run, record witness "unavailable: <reason>"; never mark a row fixed without a witness of some kind.
-7. Update the ledger: fixed with its witness, blocked with its exact question, wontfix with its reason. Rewrite the whole file atomically. Never commit the ledger. When gm is available, mirror the same status with prd_add overwrite or prd_note, and close a fixed row with prd_resolve and its witness.
+7. Update the ledger: fixed with its witness, blocked with its exact question, wontfix with its reason. Rewrite the whole file atomically. Never commit the ledger. When gm is available, mirror the same status with prd_add, and close a fixed row with prd_resolve and its witness.
 8. Publish, when publish is true and git is available: add only the product files changed, by explicit path; commit with the author lanmower and no Co-Authored-By, Signed-off-by or generated-with trailer; push main. On a rejected push, fetch, reapply on the new tip, push. If a CI run exists for the pushed sha, read it; a red run becomes a new P0 open row in the ledger, not a success. If git or the remote is unavailable, record publish unavailable in the response and leave the working tree.
 9. Handoff. Apply the finish invariant: HANDOFF when round < rounds, otherwise CAP with the counts fixed, blocked, wontfix and publish.
 
 ## Never
 
-- Never hand-edit spec.prd, roster.yaml, characters/INDEX.tsv, a Card section or plan/15 gags.
+- Never hand-edit roster.yaml, characters/INDEX.tsv, a Card section or plan/15 gags.
 - Never invent a 6.88g fact, a brand name, a new hero, or a new resource.
 - Never mark fixed without re-reading the anchor and recording a witness.
 - Never publish the ledger, .gm state or an unrelated file.
