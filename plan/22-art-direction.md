@@ -56,7 +56,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
 | 076 | Glitch (P1) | Phantom | Offset chromatic duplicate layers (no held prop) | Lavender, neon | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
-| 084 | Spudgunner (P5) | Drifter | Shoulder-mounted PVC pipe cannon | Night blue, buffalo tan | M / L / D |
 | 088 | Airhorn (P3) | Heckler | Dual brass compressed-air horn canisters | Mustard, brass | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
 | 097 | Carpool (P1) | Engine | Phone on a vent mount, wicker basket of candies | Cold teal, mint | M / L / D |

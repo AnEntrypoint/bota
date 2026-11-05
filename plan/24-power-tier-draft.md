@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (48 active heroes)
+## 1. Table (47 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -57,7 +57,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 070 | Challenge | Leash | - | Ally untargetable cloak; area blast, spell ward, drain ult. |
 | 076 | Glitch | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
-| 084 | Spudgunner | Drifter | FLAG | Talent stacks Pressure Gauge Reply, no cap stated; area slow; long-range ult. |
 | 088 | Airhorn | Heckler | FLAG | Talent grows Escalating Blare per cast, no cap stated; cleave, stun. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
 | 097 | Carpool | Engine | - | Attack speed, spinning damage, crit chance; ult attack speed for allies. |
@@ -68,8 +67,8 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 14 launch kits (section 9), 34 remaining kits (section 10). All 48 active heroes matched by slot.
-- Flags: 9. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 5 (Gondola 012, Spurdo 013, Npc 066, Spudgunner 084 via talent, Airhorn 088 via talent).
+- Coverage: 13 launch kits (section 9), 34 remaining kits (section 10). All 47 active heroes matched by slot.
+- Flags: 8. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 4 (Gondola 012, Spurdo 013, Npc 066, Airhorn 088 via talent).
 
 ## 3. Test first
 
@@ -83,4 +82,3 @@ Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), 
 6. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
 7. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
 8. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.
-9. Spudgunner (084): talent stacks Pressure Gauge Reply with no cap stated. Measure stacks at fight end and the damage they add. Pass: the stack bound above holds.

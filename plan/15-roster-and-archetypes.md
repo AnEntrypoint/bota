@@ -70,7 +70,6 @@ Rules for the roster columns:
 | 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
 | 076 | Glitch | Phantom | Str | Ranged | Holds an enemy in place and copies its image through red, green and blue offset layers. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
-| 084 | Spudgunner | Drifter | Agi | Ranged | Fires a pipe cannon that slows an area, then charges the pressure gauge to punish slowed targets. |
 | 088 | Airhorn | Heckler | Int | Ranged | Blasts two air horns to stun, each stun making the next blare louder and every attack emptying a canister. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
 | 097 | Carpool | Engine | Str | Melee | Offers candies and chilled water, and every passenger ally attacks faster for the whole ride. |

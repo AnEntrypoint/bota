@@ -33,7 +33,6 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Hero (role family) | Kill | Death | Idle |
 |---|---|---|---|
 | Grey (Drifter) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
-| Spudgunner (Drifter) | Full ticker on that shot, coming up. | Shot's gone. Muffs stay on. | Hands on the pipe. Whistling, mostly. |
 | Boomer (Heckler) | Correction: across the lawn, then here, per the log. | Citation on file: the sun got me. | Weedwhacker idling. Logged, right behind you. |
 | Tricky (Bulwark) | Stop sign said stop. Citation filed. | Citation needed for that fall. | Hopping in place, awaiting a citation. |
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |

@@ -11,7 +11,6 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
 | Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Hype Spike at 80 Clout / Abduction Count survives death |
-| Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no sigma |
 | Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Sigma regen doubles below 50% sigma |

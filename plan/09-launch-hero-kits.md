@@ -1,5 +1,5 @@
 # 9. Launch hero kits
-Fourteen launch characters across eight of the twelve role families (Archivist, Firebrand, Engine and Phantom have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
+Thirteen launch characters across eight of the twelve role families (Archivist, Firebrand, Engine and Phantom have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
 
 Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
 
@@ -29,7 +29,6 @@ Notes:
 | Hero | Archetype | Ability 1 | Ability 2 | Ability 3 | Ultimate |
 | --- | --- | --- | --- | --- | --- |
 | Grey [077] | Drifter | Beam Quote: three-hit tractor-beam burst; each hit spends an Abduction Count stack for +10% damage (GUESS) | Abduction Count: collects a specimen stack when a nearby enemy dies, cap 5 (GUESS); an allied kill adds one too (GUESS) | Orb Vibes Aura: the levitating orb hums, cutting nearby enemy armor (GUESS) | Probe Ticker: lines of damage that probe the target; each line that kills adds an Abduction Count stack (GUESS) |
-| Spudgunner [084] | Drifter | Pipe Spud: a spud fired from the pipe bursts into an area that damages and slows (GUESS); slowed enemies take +Pressure Gauge Reply damage (GUESS) | Pressure Gauge Reply: the gauge charges the next attack for bonus damage, doubled if the target stands in Pipe Spud (GUESS) | Ear Muff Span: extra attack range; the ear muffs block the noise, so nearby enemies do not wake from attacks (GUESS) | Long Shot Spud: long-range spud strike; a kill refunds half its cooldown to Pipe Spud (GUESS) |
 | Boomer [010] | Heckler | Pull Cord Hurl: yanks the weedwhacker cord and tosses it for a ranged slow (GUESS) | Ok Boomer Strike: next attack, with a dismissive wave, deals bonus damage (GUESS) | Cobalt Fade: a blue paint fade makes him invisible for 2 s while moving; attacking smears the fade and breaks the invisibility (GUESS) | Tracked Lawn: reveals an enemy; every hit leaves a grass stain that pays gold (GUESS) |
 | Tricky [047] | Bulwark | Stop Sign Citation: hops and slams the octagon for slow and damage (GUESS) | Hockey Correction: a hockey-mask check turns the target into a sheep (GUESS) | Curl Drain: frizzy neon-red curls soak sigma while channeling (GUESS) | Octagon Source: must cite a dead enemy as the source to cast (GUESS); the citation damages everything in the octagon (GUESS) |
 | Gigachad [004] | Bulwark | Flex Rebuttal: flexing damages per attack and drains sigma (GUESS) | Chiseled Step: short teleport in one unbroken stride (GUESS) | Monolith Block: a carved monolith blocks spell damage (GUESS) | Carved Gap Lot: damage scales with missing sigma, the empty marble gap (GUESS) |

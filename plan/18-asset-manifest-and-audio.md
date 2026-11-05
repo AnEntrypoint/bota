@@ -7,13 +7,13 @@ Launch counts assume 24 heroes and four abilities each. Full-roster counts (59 h
 
 | Asset | Per hero | Launch \[Full\] | Format |
 | --- | --- | --- | --- |
-| Model with LOD1 and LOD2 | 3 | 42 \[144\] | FBX or glTF. LOD0 12 to 18k tris, LOD1 50%, LOD2 25%. 2048² diffuse and mask. |
-| Animations | About 15: idle ×2, idle gag, run, haste run, attack ×2, cast ×4, channel, death, spawn, victory | 210 \[720\] | FBX, 30 fps |
-| HUD portrait | 1 | 14 \[48\] | 256 × 256 PNG |
-| Loading and promo art | 1 | 14 \[48\] | 1920 × 1080 and 1080 × 1920 |
-| Minimap icon | 1 | 14 \[48\] | 32 × 32 PNG |
-| Pick-screen pose | 1 | 14 \[48\] | Engine scene |
-| Voice lines | About 60 | 840 \[2,880\] | 48 kHz WAV, −16 LUFS, subtitled |
+| Model with LOD1 and LOD2 | 3 | 39 \[141\] | FBX or glTF. LOD0 12 to 18k tris, LOD1 50%, LOD2 25%. 2048² diffuse and mask. |
+| Animations | About 15: idle ×2, idle gag, run, haste run, attack ×2, cast ×4, channel, death, spawn, victory | 195 \[705\] | FBX, 30 fps |
+| HUD portrait | 1 | 13 \[47\] | 256 × 256 PNG |
+| Loading and promo art | 1 | 13 \[47\] | 1920 × 1080 and 1080 × 1920 |
+| Minimap icon | 1 | 13 \[47\] | 32 × 32 PNG |
+| Pick-screen pose | 1 | 13 \[47\] | Engine scene |
+| Voice lines | About 60 | 780 \[2,820\] | 48 kHz WAV, −16 LUFS, subtitled |
 
 ### Abilities and status
 

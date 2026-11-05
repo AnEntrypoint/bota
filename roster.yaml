@@ -159,10 +159,6 @@ roster:
     prompt: "stylized 3d alien character, large smooth teardrop grey head, enormous slanted liquid-black almond eyes, spindly thin grey limbs, unbuttoned beige trenchcoat over naked alien frame, levitating metallic silver orb, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Spudgunner"
-    prompt: "stylized 3d character, red-and-black buffalo plaid fleece hunting jacket, industrial ear-muff protectors, shoulder-mounted heavy white PVC pipe cannon with pressure gauge, braced firing stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Airhorn"
     prompt: "stylized 3d character, retro red nylon track jacket with white sleeve stripes, bulky over-ear soundproof earmuffs, dual handheld brass compressed-air horn canisters, celebratory jumping blast pose, soft studio key light, neutral background"
     aesthetic_refs: []

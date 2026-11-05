@@ -7,7 +7,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Brainrot | Original |
 | --- | --- |
 | Grey | Shadow Fiend |
-| Spudgunner | Sniper |
 | Boomer | Bounty Hunter |
 | Disaster | Invoker |
 | Tricky | Lion |
@@ -79,10 +78,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Grey | Follower Count | Necromastery |
 | Grey | Vibes Aura | Presence of the Dark Lord |
 | Grey | Viral Thread | Requiem of Souls |
-| Spudgunner | Thread | Shrapnel |
-| Spudgunner | Pinned Reply | Headshot |
-| Spudgunner | Attention Span | Take Aim |
-| Spudgunner | Breaking News | Assassinate |
 | Boomer | Lead Magnet | Shuriken Toss |
 | Boomer | Cold Outreach | Jinada |
 | Boomer | Stealth Mode | Shadow Walk |
@@ -559,7 +554,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 070 | Challenge | Late Night Poster |
 | 076 | Glitch | Shadow Admin |
 | 077 | Grey | Based Fiend |
-| 084 | Spudgunner | Long-Form Creator |
 | 088 | Airhorn | Ban Hammer |
 | 089 | Ghillie | Mods |
 | 097 | Uber | Bait Lord |
@@ -613,7 +607,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
 | 076-glitch | https://knowyourmeme.com/memes/glitch-art |
 | 077-grey | https://knowyourmeme.com/memes/greys |
-| 084-spudgunner | https://knowyourmeme.com/memes/spud-gun |
 | 088-airhorn | https://knowyourmeme.com/memes/air-horn |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
 | 098-widemouth | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |
