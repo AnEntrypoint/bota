@@ -1,4 +1,4 @@
-# Roster: 45 heroes from the character set
+# Roster: 44 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -31,7 +31,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 039 | Noscope | characters/039-noscope.md |
 | 040 | Dino | characters/040-dino.md |
 | 041 | Fuuuu | characters/041-fuuuu.md |
-| 043 | Jack | characters/043-jack.md |
 | 044 | Salad | characters/044-salad.md |
 | 047 | Tricky | characters/047-tricky.md |
 | 049 | Ecce | characters/049-ecce.md |

@@ -43,7 +43,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 039 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
 | 040 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
 | 041 | Fuuuu (P4) | Recluse | Hands clutching temples (no held prop) | Moss, pale | L / D / M |
-| 043 | Jack (P4) | Stalker | Polished steel surgical scalpel | Slate, royal blue | L / D / M |
 | 044 | Salad (P4) | Drifter | Three silver spoons between knuckles | Night blue, olive | L / D / M |
 | 047 | Tricky (P5) | Bulwark | Octagonal stop sign on an iron pipe | Grey, decay green | L / D / M |
 | 049 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
