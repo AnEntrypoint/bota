@@ -57,7 +57,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 076 | Glitch (P1) | Phantom | Offset chromatic duplicate layers (no held prop) | Lavender, neon | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
-| 097 | Carpool (P1) | Engine | Phone on a vent mount, wicker basket of candies | Cold teal, mint | M / L / D |
 | 098 | Widemouth (P4) | Showboat | Huge smile, a cardboard hand fan held at the chest | Peach, white | M / L / D |
 | 102 | Disheartened (P4) | Recluse | Crumpled receipt, half out of a pocket | Moss, charcoal | M / L / D |
 | 103 | Pointing (P4) | Heckler | Yellow yardstick held across the chest | Mustard, blue | M / L / D |

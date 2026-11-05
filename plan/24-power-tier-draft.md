@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (46 active heroes)
+## 1. Table (45 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -58,7 +58,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 076 | Glitch | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
-| 097 | Carpool | Engine | - | Attack speed, spinning damage, crit chance; ult attack speed for allies. |
 | 098 | Widemouth | Showboat | - | Line shards, rolling snowball, ally joins attack; ult cone stun. |
 | 102 | Disheartened | Recluse | - | Slow and damage gale, DoT, ward summon; ult damage explosion. |
 | 103 | Pointing | Heckler | - | DoT, damage amplification, attacker damage; ult slow and damage. |
@@ -66,7 +65,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 12 launch kits (section 9), 34 remaining kits (section 10). All 46 active heroes matched by slot.
+- Coverage: 12 launch kits (section 9), 33 remaining kits (section 10). All 45 active heroes matched by slot.
 - Flags: 7. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first

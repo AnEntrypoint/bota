@@ -550,7 +550,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 076 | Glitch | Shadow Admin |
 | 077 | Grey | Based Fiend |
 | 089 | Ghillie | Mods |
-| 097 | Uber | Bait Lord |
 | 098 | Widemouth | Ice Cream Truck |
 | 102 | Disheartened | Toxic Positivity |
 | 103 | Pointing | Reviewer Two |
@@ -606,7 +605,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 102-disheartened | https://knowyourmeme.com/memes/wojak |
 | 103-pointing | https://knowyourmeme.com/memes/two-soyjaks-pointing |
 | 106-gothgirl | https://knowyourmeme.com/memes/doomer-girl |
-| 097-uber | https://knowyourmeme.com/memes/uber |
 
 ## Item classic jobs
 
@@ -667,4 +665,3 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 | Boxxy | Smudge | 021 |
 | Dodson | Finger Dan | 025 |
 | Tay | Bot Bernard | 054 |
-| Uber | Carpool | 097 |

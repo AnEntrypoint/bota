@@ -163,10 +163,6 @@ roster:
     prompt: "stylized 3d character, heavy suit made from thousands of shredded burlap strips and dried corn stalks, scoped hunting rifle wrapped in camouflage twine, low stalking crouch, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Carpool"
-    prompt: "stylized 3d character, car-vent dashboard mount holding smartphone with glowing GPS navigation route, woven wicker basket filled with foil-wrapped candies and chilled plastic water bottles, friendly welcoming customer-service posture, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Widemouth"
     prompt: "stylized 3d character, smooth white stylized face, eyes squeezed shut in absolute laughing glee, mouth wide in a massive smooth crescent curve showing teeth, red crewneck sweater, upright welcoming stance, soft studio key light, neutral background"
     aesthetic_refs: []

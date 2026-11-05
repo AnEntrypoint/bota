@@ -1,6 +1,6 @@
 # Gallery
 
-**46 of 46 characters generated.** Every image below opens full size.
+**45 of 45 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -52,7 +52,6 @@
 <figure><a href="gallery/076-glitch.jpg"><img src="gallery/076-glitch.jpg" alt="076 Glitch" loading="lazy"></a><figcaption>076 Glitch</figcaption></figure>
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
-<figure><a href="gallery/097-carpool.jpg"><img src="gallery/097-carpool.jpg" alt="097 Carpool" loading="lazy"></a><figcaption>097 Carpool</figcaption></figure>
 <figure><a href="gallery/098-widemouth.jpg"><img src="gallery/098-widemouth.jpg" alt="098 Widemouth" loading="lazy"></a><figcaption>098 Widemouth</figcaption></figure>
 <figure><a href="gallery/102-disheartened.jpg"><img src="gallery/102-disheartened.jpg" alt="102 Disheartened" loading="lazy"></a><figcaption>102 Disheartened</figcaption></figure>
 <figure><a href="gallery/103-pointing.jpg"><img src="gallery/103-pointing.jpg" alt="103 Pointing" loading="lazy"></a><figcaption>103 Pointing</figcaption></figure>
