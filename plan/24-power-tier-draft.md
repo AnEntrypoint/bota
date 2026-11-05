@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (29 active heroes)
+## 1. Table (28 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -44,12 +44,11 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 076 | Cole | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
 | 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
 | 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
-| 098 | Widemouth | Showboat | - | Line shards, rolling snowball, ally joins attack; ult cone stun. |
 | 106 | Gothgirl | Recluse | - | Cardigan Flicker is its escape; bug summons, double attack, ult rewinds target. |
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 23 remaining kits (section 10). All 29 active heroes matched by slot.
+- Coverage: 6 launch kits (section 9), 22 remaining kits (section 10). All 28 active heroes matched by slot.
 - Flags: 4. Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first

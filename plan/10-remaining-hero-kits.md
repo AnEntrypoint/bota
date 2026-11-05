@@ -1,5 +1,5 @@
 # 10. Remaining hero kits
-The 23 kept characters outside the launch set (section 9). Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass.
+The 22 kept characters outside the launch set (section 9). Each has three abilities and an ultimate, as in section 9. Kits are drafts for the balance pass.
 
 Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot brackets, GUESS labels and archetype mapping are as plan/09 line 4 states. Ability effect pairs such as stuns and damages are shared kit templates, not rules. Each GUESS in the tables is a theme value with no 6.88g or repo source; its reason is the character's gag.
 
@@ -26,7 +26,6 @@ Re-theme of the former remaining kits onto the character set (ROSTER.md). Slot b
 | Npc [066] | Phantom | Idle Lance: slows and damages; the idle stance lances with a flat stare (GUESS) | Patrol Twin: creates illusions; identical grey polos patrol (GUESS) | Idle Flicker: blinks to a target; blank oval eyes blink to it (GUESS) | Idle Crowd: a decoy copy draws enemy attacks for 3 s; the rigid arms-down idle is the decoy (GUESS) |
 | Challenge [070] | Leash | Stern Stride Blast: area damage; the folded arms blast the area (GUESS) | Folded Arms Cloak: ghosts an ally, untargetable; the folded arms cloak the ally (GUESS) | Crisp Ward: magic damage on spells; the crisp white collared shirt wards off magic (GUESS) | Clench Drain: drains an enemy into an ally; the clenched squared jaw drains (GUESS) |
 | Cole [076] | Phantom | Thunderbolt: holds an enemy in place and copies its image in a Poke Ball flash (GUESS) | Quick Attack: rapid strikes; each repeat adds bonus damage (GUESS) | Poison Sting: damage over time; the stinger poisons (GUESS) | Hyper Beam: a huge beam that stuns and slows (GUESS) |
-| Widemouth [098] | Showboat | Chip Bag Shards: damages in a line; the laughing crescent mouth sprays shards (GUESS) | Soda Roll: rolls and damages; the eyes-shut glee rolls the soda (GUESS) | Welcome Tag Along: an ally joins the attack; the upright welcoming stance brings a tag-along (GUESS) | Laugh Cone Punch: stuns and damages; the cone of laughter punches (GUESS) |
 | Gothgirl [106] | Recluse | Fan Swarm: summons bugs; the lace fan's breeze summons bugs (GUESS) | Cardigan Flicker: blinks; the cardigan hanging off one shoulder blinks (GUESS) | Velvet Double: double attack; the velvet choker doubles the attack (GUESS) | Rewind Smoke: rewinds a target's position; the cigarette smoke rewinds it (GUESS) |
 
 Notes:

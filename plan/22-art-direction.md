@@ -44,5 +44,4 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 076 | Cole (P1) | Phantom | Red-and-white cap and backpack | Red, white, blue | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
-| 098 | Widemouth (P4) | Showboat | Huge smile, a cardboard hand fan held at the chest | Peach, white | M / L / D |
 | 106 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |

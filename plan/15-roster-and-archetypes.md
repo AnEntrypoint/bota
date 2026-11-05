@@ -58,7 +58,6 @@ Rules for the roster columns:
 | 076 | Cole | Phantom | Str | Ranged | Thunderbolt holds an enemy in place and copies its image in a Poke Ball flash. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
-| 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |
 | 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
 
 Reserve (not in the 59): the five slots named at the top of this chapter. Their prompts are in characters.

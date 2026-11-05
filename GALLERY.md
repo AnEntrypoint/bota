@@ -1,6 +1,6 @@
 # Gallery
 
-**29 of 30 characters generated.** Every image below opens full size.
+**28 of 29 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -38,7 +38,6 @@
 <figure><a href="gallery/070-challenge.jpg"><img src="gallery/070-challenge.jpg" alt="070 Challenge" loading="lazy"></a><figcaption>070 Challenge</figcaption></figure>
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
-<figure><a href="gallery/098-widemouth.jpg"><img src="gallery/098-widemouth.jpg" alt="098 Widemouth" loading="lazy"></a><figcaption>098 Widemouth</figcaption></figure>
 <figure><a href="gallery/106-gothgirl.jpg"><img src="gallery/106-gothgirl.jpg" alt="106 Gothgirl" loading="lazy"></a><figcaption>106 Gothgirl</figcaption></figure>
 </div>
 

@@ -73,7 +73,7 @@ State: .gm/lame/ledger.json. Both skills read and rewrite this one file.
 | Original MOBA names | internal/parity-map.md | plan/, characters/, README.md, ROSTER.md, the site, a pack (plan/20 decisions 8 and 22) |
 | Numbers | the chapter that owns the number | any copy of the number elsewhere |
 
-Baseline facts: 29 active heroes plus 6 reserve heroes (35 files); INDEX.tsv is generated; node tools/sync-roster.mjs --check exits 1 on drift; manifest.json lists every shipped doc.
+Baseline facts: 28 active heroes plus 6 reserve heroes (34 files); INDEX.tsv is generated; node tools/sync-roster.mjs --check exits 1 on drift; manifest.json lists every shipped doc.
 
 ## Procedure
 
