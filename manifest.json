@@ -6,6 +6,12 @@
   ]
  },
  {
+  "title": "Gallery",
+  "files": [
+   "GALLERY.md"
+  ]
+ },
+ {
   "title": "Design",
   "files": [
    "plan/00-index.md",
