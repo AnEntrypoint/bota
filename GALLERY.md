@@ -1,6 +1,6 @@
 # Gallery
 
-**63 of 112 characters generated.** Every image below opens full size.
+**71 of 112 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -28,7 +28,9 @@
 <figure><a href="gallery/016-howard.jpg"><img src="gallery/016-howard.jpg" alt="016 Howard" loading="lazy"></a><figcaption>016 Howard</figcaption></figure>
 <figure><a href="gallery/017-turtlic.jpg"><img src="gallery/017-turtlic.jpg" alt="017 Turtlic" loading="lazy"></a><figcaption>017 Turtlic</figcaption></figure>
 <figure><a href="gallery/018-lankdad.jpg"><img src="gallery/018-lankdad.jpg" alt="018 Lankdad" loading="lazy"></a><figcaption>018 Lankdad</figcaption></figure>
+<figure><a href="gallery/019-viking.jpg"><img src="gallery/019-viking.jpg" alt="019 Viking" loading="lazy"></a><figcaption>019 Viking</figcaption></figure>
 <figure><a href="gallery/020-charging-carl.jpg"><img src="gallery/020-charging-carl.jpg" alt="020 Charging Carl" loading="lazy"></a><figcaption>020 Charging Carl</figcaption></figure>
+<figure><a href="gallery/021-smudge.jpg"><img src="gallery/021-smudge.jpg" alt="021 Smudge" loading="lazy"></a><figcaption>021 Smudge</figcaption></figure>
 <figure><a href="gallery/025-finger-dan.jpg"><img src="gallery/025-finger-dan.jpg" alt="025 Finger Dan" loading="lazy"></a><figcaption>025 Finger Dan</figcaption></figure>
 <figure><a href="gallery/027-willie.jpg"><img src="gallery/027-willie.jpg" alt="027 Willie" loading="lazy"></a><figcaption>027 Willie</figcaption></figure>
 <figure><a href="gallery/028-chudjak.jpg"><img src="gallery/028-chudjak.jpg" alt="028 Chudjak" loading="lazy"></a><figcaption>028 Chudjak</figcaption></figure>
@@ -39,7 +41,10 @@
 <figure><a href="gallery/039-noscope.jpg"><img src="gallery/039-noscope.jpg" alt="039 Noscope" loading="lazy"></a><figcaption>039 Noscope</figcaption></figure>
 <figure><a href="gallery/040-dino.jpg"><img src="gallery/040-dino.jpg" alt="040 Dino" loading="lazy"></a><figcaption>040 Dino</figcaption></figure>
 <figure><a href="gallery/041-fuuuu.jpg"><img src="gallery/041-fuuuu.jpg" alt="041 Fuuuu" loading="lazy"></a><figcaption>041 Fuuuu</figcaption></figure>
+<figure><a href="gallery/042-jeff.jpg"><img src="gallery/042-jeff.jpg" alt="042 Jeff" loading="lazy"></a><figcaption>042 Jeff</figcaption></figure>
+<figure><a href="gallery/043-jack.jpg"><img src="gallery/043-jack.jpg" alt="043 Jack" loading="lazy"></a><figcaption>043 Jack</figcaption></figure>
 <figure><a href="gallery/044-salad.jpg"><img src="gallery/044-salad.jpg" alt="044 Salad" loading="lazy"></a><figcaption>044 Salad</figcaption></figure>
+<figure><a href="gallery/046-hank.jpg"><img src="gallery/046-hank.jpg" alt="046 Hank" loading="lazy"></a><figcaption>046 Hank</figcaption></figure>
 <figure><a href="gallery/047-tricky.jpg"><img src="gallery/047-tricky.jpg" alt="047 Tricky" loading="lazy"></a><figcaption>047 Tricky</figcaption></figure>
 <figure><a href="gallery/049-ecce.jpg"><img src="gallery/049-ecce.jpg" alt="049 Ecce" loading="lazy"></a><figcaption>049 Ecce</figcaption></figure>
 <figure><a href="gallery/054-bot-bernard.jpg"><img src="gallery/054-bot-bernard.jpg" alt="054 Bot Bernard" loading="lazy"></a><figcaption>054 Bot Bernard</figcaption></figure>
@@ -54,6 +59,7 @@
 <figure><a href="gallery/068-forever.jpg"><img src="gallery/068-forever.jpg" alt="068 Forever" loading="lazy"></a><figcaption>068 Forever</figcaption></figure>
 <figure><a href="gallery/069-fuckyea.jpg"><img src="gallery/069-fuckyea.jpg" alt="069 Fuckyea" loading="lazy"></a><figcaption>069 Fuckyea</figcaption></figure>
 <figure><a href="gallery/070-challenge.jpg"><img src="gallery/070-challenge.jpg" alt="070 Challenge" loading="lazy"></a><figcaption>070 Challenge</figcaption></figure>
+<figure><a href="gallery/071-hipster.jpg"><img src="gallery/071-hipster.jpg" alt="071 Hipster" loading="lazy"></a><figcaption>071 Hipster</figcaption></figure>
 <figure><a href="gallery/074-flatearth.jpg"><img src="gallery/074-flatearth.jpg" alt="074 Flatearth" loading="lazy"></a><figcaption>074 Flatearth</figcaption></figure>
 <figure><a href="gallery/075-deepfried.jpg"><img src="gallery/075-deepfried.jpg" alt="075 Deepfried" loading="lazy"></a><figcaption>075 Deepfried</figcaption></figure>
 <figure><a href="gallery/076-glitch.jpg"><img src="gallery/076-glitch.jpg" alt="076 Glitch" loading="lazy"></a><figcaption>076 Glitch</figcaption></figure>
@@ -68,14 +74,16 @@
 <figure><a href="gallery/090-droner.jpg"><img src="gallery/090-droner.jpg" alt="090 Droner" loading="lazy"></a><figcaption>090 Droner</figcaption></figure>
 <figure><a href="gallery/091-plinker.jpg"><img src="gallery/091-plinker.jpg" alt="091 Plinker" loading="lazy"></a><figcaption>091 Plinker</figcaption></figure>
 <figure><a href="gallery/092-ribbit.jpg"><img src="gallery/092-ribbit.jpg" alt="092 Ribbit" loading="lazy"></a><figcaption>092 Ribbit</figcaption></figure>
+<figure><a href="gallery/097-carpool.jpg"><img src="gallery/097-carpool.jpg" alt="097 Carpool" loading="lazy"></a><figcaption>097 Carpool</figcaption></figure>
 <figure><a href="gallery/098-widemouth.jpg"><img src="gallery/098-widemouth.jpg" alt="098 Widemouth" loading="lazy"></a><figcaption>098 Widemouth</figcaption></figure>
 <figure><a href="gallery/102-disheartened.jpg"><img src="gallery/102-disheartened.jpg" alt="102 Disheartened" loading="lazy"></a><figcaption>102 Disheartened</figcaption></figure>
 <figure><a href="gallery/103-pointing.jpg"><img src="gallery/103-pointing.jpg" alt="103 Pointing" loading="lazy"></a><figcaption>103 Pointing</figcaption></figure>
 <figure><a href="gallery/105-baconlover.jpg"><img src="gallery/105-baconlover.jpg" alt="105 Baconlover" loading="lazy"></a><figcaption>105 Baconlover</figcaption></figure>
 <figure><a href="gallery/106-gothgirl.jpg"><img src="gallery/106-gothgirl.jpg" alt="106 Gothgirl" loading="lazy"></a><figcaption>106 Gothgirl</figcaption></figure>
 <figure><a href="gallery/109-sealcommando.jpg"><img src="gallery/109-sealcommando.jpg" alt="109 Sealcommando" loading="lazy"></a><figcaption>109 Sealcommando</figcaption></figure>
+<figure><a href="gallery/112-scalper.jpg"><img src="gallery/112-scalper.jpg" alt="112 Scalper" loading="lazy"></a><figcaption>112 Scalper</figcaption></figure>
 </div>
 
 ## Pending
 
-Not generated yet: 007, 019, 021, 022, 023, 024, 026, 032, 033, 034, 035, 036, 038, 042, 043, 045, 046, 048, 050, 051, 052, 053, 056, 058, 059, 060, 062, 071, 072, 073, 078, 079, 083, 085, 086, 093, 094, 095, 096, 097, 099, 100, 101, 104, 107, 108, 110, 111, 112.
+Not generated yet: 007, 022, 023, 024, 026, 032, 033, 034, 035, 036, 038, 045, 048, 050, 051, 052, 053, 056, 058, 059, 060, 062, 072, 073, 078, 079, 083, 085, 086, 093, 094, 095, 096, 099, 100, 101, 104, 107, 108, 110, 111.
