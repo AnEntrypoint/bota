@@ -65,7 +65,6 @@ Rules for the roster columns:
 | 049 | Ecce | Archivist | Int | Melee | Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces. |
 | 054 | Bot Bernard | Herald | Int | Ranged | Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed. |
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit. |
-| 061 | Florida | Firebrand | Agi | Melee | Swings a live alligator like a club to stun, and double-casts every spell under a backward trucker cap. |
 | 063 | Tpose | Phantom | Int | Melee | Floats two inches off the floor in a T-pose, delaying incoming hits until the render catches up. |
 | 066 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies, so enemies cannot tell which idle stance is the real one. |
 | 067 | Derp | Recluse | Int | Melee | Stumbles in cross-eyed dives, then pops back up from death, potato head first. |
