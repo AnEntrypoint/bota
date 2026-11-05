@@ -1,4 +1,4 @@
-# Roster: 42 heroes from the character set
+# Roster: 41 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -24,7 +24,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 021 | Smudge | characters/021-smudge.md |
 | 025 | Finger Dan | characters/025-finger-dan.md |
 | 027 | Willie | characters/027-willie.md |
-| 028 | Chudjak | characters/028-chudjak.md |
 | 029 | Smugjak | characters/029-smugjak.md |
 | 031 | Cereal | characters/031-cereal.md |
 | 039 | Noscope | characters/039-noscope.md |

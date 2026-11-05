@@ -1,6 +1,6 @@
 # Gallery
 
-**42 of 42 characters generated.** Every image below opens full size.
+**41 of 41 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -31,7 +31,6 @@
 <figure><a href="gallery/021-smudge.jpg"><img src="gallery/021-smudge.jpg" alt="021 Smudge" loading="lazy"></a><figcaption>021 Smudge</figcaption></figure>
 <figure><a href="gallery/025-finger-dan.jpg"><img src="gallery/025-finger-dan.jpg" alt="025 Finger Dan" loading="lazy"></a><figcaption>025 Finger Dan</figcaption></figure>
 <figure><a href="gallery/027-willie.jpg"><img src="gallery/027-willie.jpg" alt="027 Willie" loading="lazy"></a><figcaption>027 Willie</figcaption></figure>
-<figure><a href="gallery/028-chudjak.jpg"><img src="gallery/028-chudjak.jpg" alt="028 Chudjak" loading="lazy"></a><figcaption>028 Chudjak</figcaption></figure>
 <figure><a href="gallery/029-smugjak.jpg"><img src="gallery/029-smugjak.jpg" alt="029 Smugjak" loading="lazy"></a><figcaption>029 Smugjak</figcaption></figure>
 <figure><a href="gallery/031-cereal.jpg"><img src="gallery/031-cereal.jpg" alt="031 Cereal" loading="lazy"></a><figcaption>031 Cereal</figcaption></figure>
 <figure><a href="gallery/039-noscope.jpg"><img src="gallery/039-noscope.jpg" alt="039 Noscope" loading="lazy"></a><figcaption>039 Noscope</figcaption></figure>

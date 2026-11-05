@@ -17,7 +17,6 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
 | Viking | Mead Clink slows +10% / Hammer Hold +1 s | Hydrate or Diedrate +1 sigma regen / Ragnarok March cooldown −15 s | Mead Clink leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Clink hits heroes below 50% HP for +10% |
 | Smudge | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
-| Chudjak | Manifesto Slam +100 length / Olive Totem +10% attack speed | Buzzcut Follow stun +0.3 s / Surplus Echo adds a target | Manifesto Slam stuns 0.5 s / Olive Totem heals allies | Surplus Echo is global / Buzzcut Follow victims revealed for 2 s |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage, counted inside the decision 38 reflect cap |
 | Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13) |
 | Fuckyea | Noir Hook stun +1 s / Jacket Stale damage +10 | Smug Stacks cap +5 / Pocket Edit channel −0.5 s | Smug Stacks heal / Jacket Stale spreads to nearby enemies | Noir Hook pulls a second target / Pocket Edit steals 5% of target Clout |
@@ -124,7 +123,6 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach | Vision and wards |
 | Viking | When a rooted target dies, the root jumps to the nearest enemy hero within 300. | None | Disable duration |
 | Smudge | Eyeliner Bleed shows its team each enemy's last seen position for 10 s. | Vision | Vision and wards |
-| Chudjak | Each hard disable it lands gives its team Reach +50 for 10 s. | Reach | Disable duration |
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach | Vision and wards |
 | Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal | Vision and wards |
 | Fuckyea | A hooked hero loses Reach while hooked. | Reach | Disable duration |

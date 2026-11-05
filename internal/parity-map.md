@@ -526,7 +526,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 021 | Boxxy | Read Receipt |
 | 025 | Dodson | Dragon Admin |
 | 027 | Willie | Rock Star |
-| 028 | Chudjak | Hot Take |
 | 029 | Smugjak | Lore Keeper |
 | 031 | Cereal | Sweet Talker |
 | 039 | Noscope | Solo Wolf Poster |
@@ -574,7 +573,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 021-boxxy | https://knowyourmeme.com/memes/boxxy |
 | 025-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
-| 028-chudjak | https://knowyourmeme.com/memes/chudjak |
 | 029-smugjak | https://knowyourmeme.com/memes/smug-wojak |
 | 031-cereal | https://knowyourmeme.com/memes/cereal-guy |
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |

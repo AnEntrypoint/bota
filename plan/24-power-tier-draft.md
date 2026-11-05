@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (41 active heroes)
+## 1. Table (40 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -36,7 +36,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 021 | Smudge | Leash | - | Protects an ally from death briefly; DoT, bounce, armor shred ult. |
 | 025 | Finger Dan | Heckler | - | Fire cone, stun and knockback, armor and regen; ult stronger attacks. |
 | 027 | Willie | Engine | - | Rolling rock projectiles, line roll, pull; ult zone stun. |
-| 028 | Chudjak | Bulwark | FLAG | Talent makes ult Surplus Echo global; line stun, totem. |
 | 029 | Smugjak | Showboat | FLAG | Smug Splitter fissure across the map; spirit scout, stun, armor ult. |
 | 031 | Cereal | Heckler | - | Evasion is its escape; bonus attack damage; creep ally; heal ult. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
@@ -61,8 +60,8 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 11 launch kits (section 9), 30 remaining kits (section 10). All 41 active heroes matched by slot.
-- Flags: 7. Global 2 (Chudjak 028 via talent, Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
+- Coverage: 10 launch kits (section 9), 30 remaining kits (section 10). All 40 active heroes matched by slot.
+- Flags: 6. Global 1 (Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first
 
@@ -71,7 +70,6 @@ Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), 
 1. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
 2. Smugjak (029): map-wide fissure. Measure how often it hits heroes outside the caster's view and its share of kills. Pass: fissure hits outside the caster's view stay under 20% of fissure hits (UNVERIFIED).
 3. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
-4. Chudjak (028): talent makes Surplus Echo global. Measure win rate of the global choice against the local one. Pass: over at least 200 matches per choice (UNVERIFIED), the global choice's win rate stays within 5 points of the local one.
-5. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
-6. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
-7. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.
+4. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
+5. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
+6. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.

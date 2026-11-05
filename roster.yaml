@@ -79,10 +79,6 @@ roster:
     prompt: "stylized 3d anthropomorphic character, strict black-and-white monochromatic palette, round black ears, button-front white shorts, puffed whistling cheeks, hands gripping a free-floating brass ship bell, bouncing rhythmic stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Chudjak"
-    prompt: "stylized 3d character, receding flat buzzcut, severe downturned scowl, heavy flat unibrow, olive-green army surplus jacket over faded grey t-shirt, rolled brown paper manifesto held like a club, rigid combative stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Smugjak"
     prompt: "stylized 3d character, polished bald cranium, sharp upturned nose, half-lidded eyelids, curled asymmetrical smirk, burgundy turtleneck sweater, hands clasped behind back, self-satisfied upright stance, soft studio key light, neutral background"
     aesthetic_refs: []

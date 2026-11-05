@@ -50,7 +50,6 @@ Rules for the roster columns:
 | 021 | Smudge | Leash | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |
 | 025 | Finger Dan | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast. |
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
-| 028 | Chudjak | Bulwark | Int | Melee | Clubs a line of enemies with a rolled manifesto and grows angrier the more of them surround him. |
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
 | 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon that hushes a creep while a soggy bowl lets hits slide off. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |

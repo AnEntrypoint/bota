@@ -36,7 +36,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 021 | Smudge (P1) | Leash | Open-palm gestures (no held prop) | Rose, grey | L / D / M |
 | 025 | Finger Dan (P4) | Heckler | Pointing arm (no held prop) | Mustard, bronze | L / D / M |
 | 027 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
-| 028 | Chudjak (P3) | Bulwark | Rolled brown paper manifesto | Grey, olive | L / D / M |
 | 029 | Smugjak (P4) | Showboat | Hands clasped behind back (no held prop) | Peach, burgundy | L / D / M |
 | 031 | Cereal (P5) | Heckler | Oversized steel tablespoon | Mustard, white | L / D / M |
 | 039 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |

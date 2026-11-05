@@ -39,7 +39,6 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
 | Viking (Herald) | Palm raised. Scrolled past. Next. | Dehydrated, unlike my bank account. Lecture cut short. | Marching in place. Drink water, friend. |
 | Smudge (Leash) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
-| Chudjak (Bulwark) | Manifesto read aloud. Please remain where you are. | The manifesto fell out. I will pick it up, politely. | Holding the line, standing firm. Carry on, please. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
 | Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
 | Fuckyea (Showboat) | Chin up, hook first, questions later. | Pockets full, strut ends in dirt. | Any questions? Ask one. I dare you. |
