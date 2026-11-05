@@ -1,6 +1,6 @@
 # Gallery
 
-**49 of 49 characters generated.** Every image below opens full size.
+**48 of 48 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -38,7 +38,6 @@
 <figure><a href="gallery/039-noscope.jpg"><img src="gallery/039-noscope.jpg" alt="039 Noscope" loading="lazy"></a><figcaption>039 Noscope</figcaption></figure>
 <figure><a href="gallery/040-dino.jpg"><img src="gallery/040-dino.jpg" alt="040 Dino" loading="lazy"></a><figcaption>040 Dino</figcaption></figure>
 <figure><a href="gallery/041-fuuuu.jpg"><img src="gallery/041-fuuuu.jpg" alt="041 Fuuuu" loading="lazy"></a><figcaption>041 Fuuuu</figcaption></figure>
-<figure><a href="gallery/042-jeff.jpg"><img src="gallery/042-jeff.jpg" alt="042 Jeff" loading="lazy"></a><figcaption>042 Jeff</figcaption></figure>
 <figure><a href="gallery/043-jack.jpg"><img src="gallery/043-jack.jpg" alt="043 Jack" loading="lazy"></a><figcaption>043 Jack</figcaption></figure>
 <figure><a href="gallery/044-salad.jpg"><img src="gallery/044-salad.jpg" alt="044 Salad" loading="lazy"></a><figcaption>044 Salad</figcaption></figure>
 <figure><a href="gallery/047-tricky.jpg"><img src="gallery/047-tricky.jpg" alt="047 Tricky" loading="lazy"></a><figcaption>047 Tricky</figcaption></figure>

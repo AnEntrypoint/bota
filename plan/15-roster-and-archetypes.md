@@ -57,7 +57,6 @@ Rules for the roster columns:
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
 | 041 | Fuuuu | Recluse | Str | Melee | Screams until the lane floods, stunning everyone in the wave, then cruises through the survivors on it. |
-| 042 | Jeff | Stalker | Int | Melee | Locks lidless eyes on one victim and drags the fight into a private duel, stronger with every ally nearby. |
 | 043 | Jack | Stalker | Str | Melee | Weeps black tar that bounces between enemies, then pulses outward to silence everyone standing close. |
 | 044 | Salad | Drifter | Str | Ranged | Clatters three spoons for an armor and slow aura, then takes control of a creep with rubbery fingers. |
 | 047 | Tricky | Bulwark | Agi | Melee | Hops in, slams a stop sign, and turns the target into a sheep after a hockey-mask check. |

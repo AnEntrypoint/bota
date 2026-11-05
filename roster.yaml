@@ -107,10 +107,6 @@ roster:
     prompt: "stylized 3d character, smooth white cranium, eyes squeezed into tight crescents of agony, mouth open in an immense oval scream revealing two rows of square teeth, hands clutching own temples, plain grey t-shirt, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Jeff"
-    prompt: "stylized 3d character, bleached paper-white face, unclosing lidless black ringed eyes, carved bloody crimson smile from ear to ear, blood-flecked oversized white hoodie, black skinny jeans, cast-iron frying pan held low, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Jack"
     prompt: "stylized 3d character, glossy royal-blue wooden mask with empty black sockets weeping thick black tar, oversized black zip-up hoodie with hood up, dark work boots, polished steel surgical scalpel, hunched stalking crouch, soft studio key light, neutral background"
     aesthetic_refs: []

@@ -50,7 +50,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Zyzz | Jakiro |
 | Dino | Keeper of the Light |
 | Fuuuu | Kunkka |
-| Jeff | Legion Commander |
 | Jack | Leshrac |
 | Salad | Lich |
 | Weegee | Lifestealer |
@@ -547,7 +546,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 039 | Noscope | Solo Wolf Poster |
 | 040 | Dino | Lighting Director |
 | 041 | Fuuuu | Captain Obvious |
-| 042 | Jeff | Team Lead |
 | 043 | Jack | Lag Spike |
 | 044 | Salad | Tenured Lich |
 | 047 | Tricky | Well Actually |
@@ -602,7 +600,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
 | 041-fuuuu | https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu |
-| 042-jeff | https://knowyourmeme.com/memes/jeff-the-killer |
 | 043-jack | https://knowyourmeme.com/memes/eyeless-jack |
 | 044-salad | https://knowyourmeme.com/memes/subcultures/salad-fingers |
 | 047-tricky | https://knowyourmeme.com/memes/tricky-the-clown-tiky |
