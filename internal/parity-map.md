@@ -41,7 +41,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Brian | Huskar |
 | Zyzz | Jakiro |
 | Dino | Keeper of the Light |
-| Salad | Lich |
 | Weegee | Lifestealer |
 | Ecce | Luna |
 | Tay | Mirana |
@@ -505,7 +504,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 027 | Willie | Rock Star |
 | 039 | Noscope | Solo Wolf Poster |
 | 040 | Dino | Lighting Director |
-| 044 | Salad | Tenured Lich |
 | 049 | Ecce | Moonlight Creator |
 | 054 | Tay | Moonlight Fan |
 | 055 | Shoop | Glow-Up |
@@ -542,7 +540,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
-| 044-salad | https://knowyourmeme.com/memes/subcultures/salad-fingers |
 | 049-ecce | https://commons.wikimedia.org/wiki/File:Elias_Garcia_Martinez_-_Ecce_Homo.jpg |
 | 054-tay | https://knowyourmeme.com/memes/chocolate-rain |
 | 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |

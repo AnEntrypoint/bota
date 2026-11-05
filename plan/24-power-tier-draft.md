@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (30 active heroes)
+## 1. Table (29 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -35,7 +35,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 027 | Willie | Engine | - | Rolling rock projectiles, line roll, pull; ult zone stun. |
 | 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
 | 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
-| 044 | Salad | Drifter | - | Damage and slow, armor-slow aura, chain bounce; ult takes a creep. |
 | 049 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
 | 054 | Bot Bernard | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
 | 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
@@ -50,7 +49,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 24 remaining kits (section 10). All 30 active heroes matched by slot.
+- Coverage: 6 launch kits (section 9), 23 remaining kits (section 10). All 29 active heroes matched by slot.
 - Flags: 4. Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first

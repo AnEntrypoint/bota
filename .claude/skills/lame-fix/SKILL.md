@@ -62,7 +62,7 @@ Repo rules the edit must keep:
    - Re-read the changed line and confirm the defect is gone. A fix that only softens the wording without removing the contradiction or gap is not a fix.
 6. Verify the batch:
    - After any character or roster edit: run node tools/sync-roster.mjs --check. On failure, run node tools/sync-roster.mjs, then re-run --check. Record the exact command and exit result.
-   - Confirm touched links and paths exist. Confirm 30 active plus 6 reserve heroes and that INDEX.tsv matches the files.
+   - Confirm touched links and paths exist. Confirm 29 active plus 6 reserve heroes and that INDEX.tsv matches the files.
    - If the edit touched internal/parity-map.md, confirm the map still has no original name in plan/, characters/, README.md or ROSTER.md.
    - If a check cannot run, record witness "unavailable: <reason>"; never mark a row fixed without a witness of some kind.
 7. Update the ledger: fixed with its witness, blocked with its exact question, wontfix with its reason. Rewrite the whole file atomically. Never commit the ledger. When gm is available, mirror the same status with prd_add, and close a fixed row with prd_resolve and its witness.

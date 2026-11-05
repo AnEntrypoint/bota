@@ -1,6 +1,6 @@
 # Gallery
 
-**30 of 31 characters generated.** Every image below opens full size.
+**29 of 30 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -30,7 +30,6 @@
 <figure><a href="gallery/027-willie.jpg"><img src="gallery/027-willie.jpg" alt="027 Willie" loading="lazy"></a><figcaption>027 Willie</figcaption></figure>
 <figure><a href="gallery/039-noscope.jpg"><img src="gallery/039-noscope.jpg" alt="039 Noscope" loading="lazy"></a><figcaption>039 Noscope</figcaption></figure>
 <figure><a href="gallery/040-dino.jpg"><img src="gallery/040-dino.jpg" alt="040 Dino" loading="lazy"></a><figcaption>040 Dino</figcaption></figure>
-<figure><a href="gallery/044-salad.jpg"><img src="gallery/044-salad.jpg" alt="044 Salad" loading="lazy"></a><figcaption>044 Salad</figcaption></figure>
 <figure><a href="gallery/049-ecce.jpg"><img src="gallery/049-ecce.jpg" alt="049 Ecce" loading="lazy"></a><figcaption>049 Ecce</figcaption></figure>
 <figure><a href="gallery/054-bot-bernard.jpg"><img src="gallery/054-bot-bernard.jpg" alt="054 Bot Bernard" loading="lazy"></a><figcaption>054 Bot Bernard</figcaption></figure>
 <figure><a href="gallery/055-shoop.jpg"><img src="gallery/055-shoop.jpg" alt="055 Shoop" loading="lazy"></a><figcaption>055 Shoop</figcaption></figure>

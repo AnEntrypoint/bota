@@ -49,7 +49,6 @@ Rules for the roster columns:
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
-| 044 | Salad | Drifter | Str | Ranged | Clatters three spoons for an armor and slow aura, then takes control of a creep with rubbery fingers. |
 | 049 | Ecce | Archivist | Int | Melee | Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces. |
 | 054 | Bot Bernard | Herald | Int | Ranged | Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed. |
 | 055 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit. |
