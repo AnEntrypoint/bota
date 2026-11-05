@@ -55,10 +55,8 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
 | 069 | Fuckyea (P2) | Showboat | Hands jammed in trouser pockets | Peach, jet black | M / L / D |
 | 070 | Challenge (P5) | Leash | Folded arms across the chest | Rose, crisp white | L / D / M |
-| 071 | Hipster (P2) | Herald | Glass teapot | Soft cyan, mustard | M / L / D |
 | 076 | Glitch (P1) | Phantom | Offset chromatic duplicate layers (no held prop) | Lavender, neon | M / L / D |
 | 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
-| 082 | Paintballer (P6) | Stalker | Electronic speedball marker with hopper | Slate, neon | L / D / M |
 | 084 | Spudgunner (P5) | Drifter | Shoulder-mounted PVC pipe cannon | Night blue, buffalo tan | M / L / D |
 | 088 | Airhorn (P3) | Heckler | Dual brass compressed-air horn canisters | Mustard, brass | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |

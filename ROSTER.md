@@ -1,4 +1,4 @@
-# Roster: 51 heroes from the character set
+# Roster: 49 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -43,10 +43,8 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 068 | Forever | characters/068-forever.md |
 | 069 | Fuckyea | characters/069-fuckyea.md |
 | 070 | Challenge | characters/070-challenge.md |
-| 071 | Hipster | characters/071-hipster.md |
 | 076 | Glitch | characters/076-glitch.md |
 | 077 | Grey | characters/077-grey.md |
-| 082 | Paintballer | characters/082-paintballer.md |
 | 084 | Spudgunner | characters/084-spudgunner.md |
 | 088 | Airhorn | characters/088-airhorn.md |
 | 089 | Ghillie | characters/089-ghillie.md |

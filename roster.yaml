@@ -155,20 +155,12 @@ roster:
     prompt: "stylized 3d character, clenched squared jawline, narrow steely eyes, arms tightly folded across chest, puffed out torso, crisp white collared shirt, resolute forward stride, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Hipster"
-    prompt: "stylized 3d character, thick black square horn-rimmed glasses, oversized mustard-yellow knitted infinity scarf, rolled red buffalo-plaid flannel shirt, raw denim jeans with thick cuffs, holding a glass teapot, casual intellectual posture, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Glitch"
     prompt: "stylized 3d character, bipedal humanoid mesh fractured into displaced red, green, and blue chromatic offset duplicate layers, jagged polygon edges, hovering unstable stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Grey"
     prompt: "stylized 3d alien character, large smooth teardrop grey head, enormous slanted liquid-black almond eyes, spindly thin grey limbs, unbuttoned beige trenchcoat over naked alien frame, levitating metallic silver orb, soft studio key light, neutral background"
-    aesthetic_refs: []
-
-  - name: "Paintballer"
-    prompt: "stylized 3d character, full-coverage thermal mask with chrome mirrored lens, baggy neon-splattered tournament jersey, padded slider pants, electronic speedball marker with top-mounted round hopper, low sliding crouch, soft studio key light, neutral background"
     aesthetic_refs: []
 
   - name: "Spudgunner"
