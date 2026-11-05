@@ -17,29 +17,29 @@ Visual direction for the 26 active heroes (kept characters from characters). Eac
 | # | Hero | Role | Distinct prop | Accent shift | Value groups (body / head / prop) |
 | --- | --- | --- | --- | --- | --- |
 | 001 | Neckbeard (P1) | Heckler | Round wire-rim glasses (worn; no held prop) | Mustard, dingy | L / D / M |
-| 003 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Gold, emerald | L / D / M |
-| 004 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
-| 005 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |
-| 008 | Bloomer (P2) | Herald | Pastel windbreaker zip (worn; no held prop) | Soft cyan, pastel yellow | L / D / M |
-| 009 | Tradwife (P3) | Herald | Braided brioche loaf in oven mitts | Sky blue, cream | L / D / M |
-| 010 | Boomer (P2) | Heckler | Pull-cord gas weedwhacker at the hip | Mustard, khaki | L / D / M |
-| 011 | Coomer (P1) | Firebrand | Massive right arm (no held prop) | Ember, bloodshot | L / D / M |
-| 012 | Gondola (P2) | Recluse | Two boots as the base (no held prop) | Moss, clay brown | L / D / M |
-| 013 | Spurdo (P2) | Firebrand | Dented aluminum baseball bat | Ember, olive | L / D / M |
-| 014 | Karen (P3) | Heckler | Endless accordion-folded receipt | Mustard, pastel pink | L / D / M |
-| 016 | Howard (P1) | Archivist | White ceramic mug, WORLD'S BEST | Sepia, pale | L / D / M |
-| 017 | Sanic (P1) | Stalker | Running lean (no held prop) | Slate, electric blue | L / D / M |
-| 018 | Lankdad (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
-| 025 | Finger Dan (P4) | Heckler | Pointing arm (no held prop) | Mustard, bronze | L / D / M |
-| 027 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
-| 039 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
-| 040 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
-| 049 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
-| 054 | Bot Bernard (P6) | Herald | Vintage chrome studio camera | Soft cyan, burgundy | L / D / M |
-| 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
-| 066 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
-| 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
-| 076 | Cole (P1) | Phantom | Red-and-white cap and backpack | Red, white, blue | M / L / D |
-| 077 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
-| 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
-| 106 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |
+| 002 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Gold, emerald | L / D / M |
+| 003 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
+| 004 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |
+| 005 | Bloomer (P2) | Herald | Pastel windbreaker zip (worn; no held prop) | Soft cyan, pastel yellow | L / D / M |
+| 006 | Tradwife (P3) | Herald | Braided brioche loaf in oven mitts | Sky blue, cream | L / D / M |
+| 007 | Boomer (P2) | Heckler | Pull-cord gas weedwhacker at the hip | Mustard, khaki | L / D / M |
+| 008 | Coomer (P1) | Firebrand | Massive right arm (no held prop) | Ember, bloodshot | L / D / M |
+| 009 | Gondola (P2) | Recluse | Two boots as the base (no held prop) | Moss, clay brown | L / D / M |
+| 010 | Spurdo (P2) | Firebrand | Dented aluminum baseball bat | Ember, olive | L / D / M |
+| 011 | Karen (P3) | Heckler | Endless accordion-folded receipt | Mustard, pastel pink | L / D / M |
+| 012 | Howard (P1) | Archivist | White ceramic mug, WORLD'S BEST | Sepia, pale | L / D / M |
+| 013 | Sanic (P1) | Stalker | Running lean (no held prop) | Slate, electric blue | L / D / M |
+| 014 | Lankdad (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
+| 015 | Finger Dan (P4) | Heckler | Pointing arm (no held prop) | Mustard, bronze | L / D / M |
+| 016 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
+| 017 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
+| 018 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
+| 019 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
+| 020 | Bot Bernard (P6) | Herald | Vintage chrome studio camera | Soft cyan, burgundy | L / D / M |
+| 021 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
+| 022 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
+| 023 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
+| 024 | Cole (P1) | Phantom | Red-and-white cap and backpack | Red, white, blue | M / L / D |
+| 025 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
+| 026 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
+| 027 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |

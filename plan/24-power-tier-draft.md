@@ -18,42 +18,42 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
 | 001 | Neckbeard | Heckler | - | Ult makes an ally untargetable; otherwise shield, heal, slow. |
-| 003 | Chad | Showboat | - | Ult replays the next death after a delay; frost slow, stun mark. |
-| 005 | Wojak | Recluse | - | Taunt, slow, reflect, threshold kill; no global, stacking or escape. |
-| 008 | Bloomer | Herald | - | Stun and slow; hawk and boar summons; ult rallies allies. |
-| 009 | Tradwife | Herald | - | Movement-scaled bleed, attack speed, area damage; reveal and drain. |
-| 010 | Boomer | Heckler | - | Brief invisibility while moving; reveal and gold on hit; slow toss. |
-| 011 | Coomer | Firebrand | - | Stun and damage, fire area, knockback; ult summons self-clones. |
-| 012 | Gondola | Recluse | FLAG | Potato Spit stacks, no cap stated; ult adds damage per hit taken. |
-| 013 | Spurdo | Firebrand | FLAG | Summons spiderlings, no cap stated; web slow, poison, heal on kills. |
-| 014 | Karen | Heckler | - | Nearby stun; charge; reflect when hit; line charge ult. |
-| 016 | Howard | Archivist | - | Ult is a temporary sanctuary; creep conversion and healing. |
-| 017 | Sanic | Stalker | - | Stealth while moving is its escape; fire arrows; skeleton ult. |
-| 018 | Lankdad | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
-| 025 | Finger Dan | Heckler | - | Fire cone, stun and knockback, armor and regen; ult stronger attacks. |
-| 027 | Willie | Engine | - | Rolling rock projectiles, line roll, pull; ult zone stun. |
-| 039 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
-| 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
-| 049 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
-| 054 | Bot Bernard | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
-| 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
-| 066 | Npc | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
-| 068 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
-| 076 | Cole | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
-| 077 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
-| 089 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
-| 106 | Gothgirl | Recluse | - | Cardigan Flicker is its escape; bug summons, double attack, ult rewinds target. |
+| 002 | Chad | Showboat | - | Ult replays the next death after a delay; frost slow, stun mark. |
+| 004 | Wojak | Recluse | - | Taunt, slow, reflect, threshold kill; no global, stacking or escape. |
+| 005 | Bloomer | Herald | - | Stun and slow; hawk and boar summons; ult rallies allies. |
+| 006 | Tradwife | Herald | - | Movement-scaled bleed, attack speed, area damage; reveal and drain. |
+| 007 | Boomer | Heckler | - | Brief invisibility while moving; reveal and gold on hit; slow toss. |
+| 008 | Coomer | Firebrand | - | Stun and damage, fire area, knockback; ult summons self-clones. |
+| 009 | Gondola | Recluse | FLAG | Potato Spit stacks, no cap stated; ult adds damage per hit taken. |
+| 010 | Spurdo | Firebrand | FLAG | Summons spiderlings, no cap stated; web slow, poison, heal on kills. |
+| 011 | Karen | Heckler | - | Nearby stun; charge; reflect when hit; line charge ult. |
+| 012 | Howard | Archivist | - | Ult is a temporary sanctuary; creep conversion and healing. |
+| 013 | Sanic | Stalker | - | Stealth while moving is its escape; fire arrows; skeleton ult. |
+| 014 | Lankdad | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
+| 015 | Finger Dan | Heckler | - | Fire cone, stun and knockback, armor and regen; ult stronger attacks. |
+| 016 | Willie | Engine | - | Rolling rock projectiles, line roll, pull; ult zone stun. |
+| 017 | Noscope | Stalker | - | Nearby spin damage, radius heals, crit chance; ult jumps between enemies. |
+| 018 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
+| 019 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
+| 020 | Bot Bernard | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
+| 021 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
+| 022 | Npc | Phantom | FLAG | Ult creates more illusions, no cap stated; blink; slow lance. |
+| 023 | Forever | Recluse | FLAG | Ult stuns until the clip ends, no timer; brief evasion while moving. |
+| 024 | Cole | Phantom | - | Hold that copies an enemy's image; bonus damage, poison; ult stun, slow. |
+| 025 | Grey | Drifter | - | Abduction Count stacks on kills, capped (talent raises cap); burst; ult lines. |
+| 026 | Ghillie | Stalker | - | Area traps, hold and reveal, leaping strike; ult remote disable. |
+| 027 | Gothgirl | Recluse | - | Cardigan Flicker is its escape; bug summons, double attack, ult rewinds target. |
 
 ## 2. Summary
 
 - Coverage: 6 launch kits (section 9), 20 remaining kits (section 10). All 26 active heroes matched by slot.
-- Flags: 4. Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
+- Flags: 4. Permanent disable 1 (Forever 023). Uncapped stacking 3 (Gondola 009, Spurdo 010, Npc 022).
 
 ## 3. Test first
 
 Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), unless a line gives its own bound.
 
-1. Spurdo (013): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
-2. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
-3. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
-4. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
+1. Spurdo (010): spiderlings with no cap stated. Measure spiderlings alive over a match and heal from spider kills. Pass: spiderlings alive at once stay at or below 6 over a match (GUESS: a count a player can track on screen; the balance pass sets it).
+2. Npc (022): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
+3. Forever (023): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
+4. Gondola (009): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.

@@ -7,7 +7,7 @@ const GEN = "/workspace/characters/memes/generated";
 const OUT = `${BOTA}/gallery`;
 const PY = "/data/cache/venvs/ml/bin/python3";
 
-const RESERVE = new Set(["113", "114", "115", "116", "117"]);
+const RESERVE = new Set(["028", "029", "030", "031", "032"]);
 const roster = readdirSync(`${BOTA}/characters`)
   .map((f) => f.match(/^(\d{3})-(.+)\.md$/))
   .filter(Boolean)

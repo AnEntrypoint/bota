@@ -28,12 +28,12 @@ Notes:
 
 | Hero | Archetype | Ability 1 | Ability 2 | Ability 3 | Ultimate |
 | --- | --- | --- | --- | --- | --- |
-| Grey [077] | Drifter | Beam Quote: three-hit tractor-beam burst; each hit spends an Abduction Count stack for +10% damage (GUESS) | Abduction Count: collects a specimen stack when a nearby enemy dies, cap 5 (GUESS); an allied kill adds one too (GUESS) | Orb Vibes Aura: the levitating orb hums, cutting nearby enemy armor (GUESS) | Probe Ticker: lines of damage that probe the target; each line that kills adds an Abduction Count stack (GUESS) |
-| Boomer [010] | Heckler | Pull Cord Hurl: yanks the weedwhacker cord and tosses it for a ranged slow (GUESS) | Ok Boomer Strike: next attack, with a dismissive wave, deals bonus damage (GUESS) | Cobalt Fade: a blue paint fade makes him invisible for 2 s while moving; attacking smears the fade and breaks the invisibility (GUESS) | Tracked Lawn: reveals an enemy; every hit leaves a grass stain that pays gold (GUESS) |
-| Noscope [039] | Stalker | Hitmarker Spin: spins and damages nearby enemies; each hit flashes the green crosshair hitmarker over the target (GUESS) | Sponsor Patch Heal: heals allies in radius; a healed ally also gets Noscope's Lucky Scope crit chance (GUESS) | Lucky Scope: the lens flare gives a chance to critically strike; a crit pays a sponsor bonus (GUESS) | Bolt Action Chain: rapid bolt-action strikes that jump between enemies (GUESS) |
-| Wojak [005] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
-| Ghillie [089] | Stalker | Burlap Warning: burlap strips scatter as area traps with damage (GUESS) | Twine Lock: camouflage twine holds and reveals enemies (GUESS) | Corn Stalk Jump: leaping strike with damage; a jump over a trap triggers it early (GUESS) | Scoped Temp Ban: remote detonation through the scope disables (GUESS) |
-| Forever [068] | Recluse | Tear Clip: a single tear projectile; a slowed target keeps the tear stuck (GUESS) | Lumpy Wail: a weeping wail damages around the hero (GUESS) | Crawl Ghost: brief evasion while crawling low (GUESS) | Eternal Loop: the weeping stun repeats until its clip of three stuns ends, then refills, forever (GUESS; the three-stun clip is UNVERIFIED) |
+| Grey [025] | Drifter | Beam Quote: three-hit tractor-beam burst; each hit spends an Abduction Count stack for +10% damage (GUESS) | Abduction Count: collects a specimen stack when a nearby enemy dies, cap 5 (GUESS); an allied kill adds one too (GUESS) | Orb Vibes Aura: the levitating orb hums, cutting nearby enemy armor (GUESS) | Probe Ticker: lines of damage that probe the target; each line that kills adds an Abduction Count stack (GUESS) |
+| Boomer [007] | Heckler | Pull Cord Hurl: yanks the weedwhacker cord and tosses it for a ranged slow (GUESS) | Ok Boomer Strike: next attack, with a dismissive wave, deals bonus damage (GUESS) | Cobalt Fade: a blue paint fade makes him invisible for 2 s while moving; attacking smears the fade and breaks the invisibility (GUESS) | Tracked Lawn: reveals an enemy; every hit leaves a grass stain that pays gold (GUESS) |
+| Noscope [017] | Stalker | Hitmarker Spin: spins and damages nearby enemies; each hit flashes the green crosshair hitmarker over the target (GUESS) | Sponsor Patch Heal: heals allies in radius; a healed ally also gets Noscope's Lucky Scope crit chance (GUESS) | Lucky Scope: the lens flare gives a chance to critically strike; a crit pays a sponsor bonus (GUESS) | Bolt Action Chain: rapid bolt-action strikes that jump between enemies (GUESS) |
+| Wojak [004] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
+| Ghillie [026] | Stalker | Burlap Warning: burlap strips scatter as area traps with damage (GUESS) | Twine Lock: camouflage twine holds and reveals enemies (GUESS) | Corn Stalk Jump: leaping strike with damage; a jump over a trap triggers it early (GUESS) | Scoped Temp Ban: remote detonation through the scope disables (GUESS) |
+| Forever [023] | Recluse | Tear Clip: a single tear projectile; a slowed target keeps the tear stuck (GUESS) | Lumpy Wail: a weeping wail damages around the hero (GUESS) | Crawl Ghost: brief evasion while crawling low (GUESS) | Eternal Loop: the weeping stun repeats until its clip of three stuns ends, then refills, forever (GUESS; the three-stun clip is UNVERIFIED) |
 
 Notes:
 
@@ -41,9 +41,9 @@ Notes:
 
 ### Emergent hooks
 
-No hook is led by Forever [068]; it may still be the partner named in another hero's hook.
+No hook is led by Forever [023]; it may still be the partner named in another hero's hook.
 
-- Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
+- Boomer [007] with Wojak [004]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
 
 ### Requests
 

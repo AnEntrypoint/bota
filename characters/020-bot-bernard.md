@@ -1,0 +1,18 @@
+# 020 Bot Bernard
+
+## Card
+
+- Role family: Herald
+- Role: Resell healer, buffer
+- Attribute: Int
+- Range: Ranged
+- Distinct prop: Vintage chrome studio camera
+- Value groups (body / head / prop): L / D / M
+
+## Subject
+
+slender frame, crisp white dress shirt, burgundy elastic suspenders, dark tailored trousers, vintage large-diaphragm chrome studio camera, tilted head leaning sideways away from lens
+
+## Hook
+
+Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed.

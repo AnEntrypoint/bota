@@ -484,32 +484,32 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | Slot | Hero | Former name |
 | --- | --- | --- |
 | 001 | Neckbeard | Appeals Court |
-| 003 | Chad | Old Forum Poster |
-| 004 | Gigachad | Debate Bro |
-| 005 | Wojak | Yell at Clouds |
-| 008 | Bloomer | Community Manager |
-| 009 | Tradwife | Bleeding Heart |
-| 010 | Boomer | Retargeting |
-| 011 | Coomer | Cold Brew Account |
-| 012 | Gondola | Angry Reply |
-| 013 | Spurdo | Spawn Farm |
-| 014 | Karen | Off-Leash Mod |
-| 016 | Harold | Hall Monitor |
-| 017 | Sanic | Skeleton Account |
-| 018 | Slender | Deadline Bot |
-| 025 | Dodson | Dragon Admin |
-| 027 | Willie | Rock Star |
-| 039 | Noscope | Solo Wolf Poster |
-| 040 | Dino | Lighting Director |
-| 049 | Ecce | Moonlight Creator |
-| 054 | Tay | Moonlight Fan |
-| 055 | Shoop | Glow-Up |
-| 066 | NPC | Multi-Accounter |
-| 068 | Forever | Looping Clip |
-| 076 | Cole | Shadow Admin |
-| 077 | Grey | Based Fiend |
-| 089 | Ghillie | Mods |
-| 106 | Gothgirl | Doomlooper |
+| 002 | Chad | Old Forum Poster |
+| 003 | Gigachad | Debate Bro |
+| 004 | Wojak | Yell at Clouds |
+| 005 | Bloomer | Community Manager |
+| 006 | Tradwife | Bleeding Heart |
+| 007 | Boomer | Retargeting |
+| 008 | Coomer | Cold Brew Account |
+| 009 | Gondola | Angry Reply |
+| 010 | Spurdo | Spawn Farm |
+| 011 | Karen | Off-Leash Mod |
+| 012 | Harold | Hall Monitor |
+| 013 | Sanic | Skeleton Account |
+| 014 | Slender | Deadline Bot |
+| 015 | Dodson | Dragon Admin |
+| 016 | Willie | Rock Star |
+| 017 | Noscope | Solo Wolf Poster |
+| 018 | Dino | Lighting Director |
+| 019 | Ecce | Moonlight Creator |
+| 020 | Tay | Moonlight Fan |
+| 021 | Shoop | Glow-Up |
+| 022 | NPC | Multi-Accounter |
+| 023 | Forever | Looping Clip |
+| 024 | Cole | Shadow Admin |
+| 025 | Grey | Based Fiend |
+| 026 | Ghillie | Mods |
+| 027 | Gothgirl | Doomlooper |
 
 ## Aesthetic refs (moved from characters)
 
@@ -517,32 +517,32 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | --- | --- |
 | 001-neckbeard | https://knowyourmeme.com/memes/neckbeard |
 | 001-neckbeard | https://github.com/DietrichGebert/ponytail/raw/main/assets/logo.png |
-| 003-chad | https://knowyourmeme.com/memes/yes-chad |
-| 004-gigachad | https://knowyourmeme.com/memes/gigachad |
-| 005-wojak | https://knowyourmeme.com/memes/wojak |
-| 008-bloomer | https://knowyourmeme.com/memes/bloomer |
-| 009-tradwife | https://knowyourmeme.com/memes/trad-girl-tradwife |
-| 010-boomer | https://knowyourmeme.com/memes/30-year-old-boomer |
-| 011-coomer | https://knowyourmeme.com/memes/coomer |
-| 012-gondola | https://knowyourmeme.com/memes/gondola |
-| 013-spurdo | https://knowyourmeme.com/memes/spurdo-spanke |
-| 014-karen | https://knowyourmeme.com/memes/karen |
-| 016-harold | https://knowyourmeme.com/memes/hide-the-pain-harold |
-| 017-sanic | https://knowyourmeme.com/memes/sanic-hegehog |
-| 018-slender | https://en.wikipedia.org/wiki/Slender_Man |
-| 025-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
-| 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
-| 039-noscope | https://knowyourmeme.com/memes/360-noscope |
-| 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
-| 049-ecce | https://commons.wikimedia.org/wiki/File:Elias_Garcia_Martinez_-_Ecce_Homo.jpg |
-| 054-tay | https://knowyourmeme.com/memes/chocolate-rain |
-| 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
-| 066-npc | https://en.wikipedia.org/wiki/NPC_(meme) |
-| 068-forever | https://knowyourmeme.com/memes/forever-alone |
-| 076-cole | https://knowyourmeme.com/memes/glitch-art |
-| 077-grey | https://knowyourmeme.com/memes/greys |
-| 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
-| 106-gothgirl | https://knowyourmeme.com/memes/doomer-girl |
+| 002-chad | https://knowyourmeme.com/memes/yes-chad |
+| 003-gigachad | https://knowyourmeme.com/memes/gigachad |
+| 004-wojak | https://knowyourmeme.com/memes/wojak |
+| 005-bloomer | https://knowyourmeme.com/memes/bloomer |
+| 006-tradwife | https://knowyourmeme.com/memes/trad-girl-tradwife |
+| 007-boomer | https://knowyourmeme.com/memes/30-year-old-boomer |
+| 008-coomer | https://knowyourmeme.com/memes/coomer |
+| 009-gondola | https://knowyourmeme.com/memes/gondola |
+| 010-spurdo | https://knowyourmeme.com/memes/spurdo-spanke |
+| 011-karen | https://knowyourmeme.com/memes/karen |
+| 012-harold | https://knowyourmeme.com/memes/hide-the-pain-harold |
+| 013-sanic | https://knowyourmeme.com/memes/sanic-hegehog |
+| 014-slender | https://en.wikipedia.org/wiki/Slender_Man |
+| 015-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
+| 016-willie | https://knowyourmeme.com/memes/steamboat-willie |
+| 017-noscope | https://knowyourmeme.com/memes/360-noscope |
+| 018-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
+| 019-ecce | https://commons.wikimedia.org/wiki/File:Elias_Garcia_Martinez_-_Ecce_Homo.jpg |
+| 020-tay | https://knowyourmeme.com/memes/chocolate-rain |
+| 021-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
+| 022-npc | https://en.wikipedia.org/wiki/NPC_(meme) |
+| 023-forever | https://knowyourmeme.com/memes/forever-alone |
+| 024-cole | https://knowyourmeme.com/memes/glitch-art |
+| 025-grey | https://knowyourmeme.com/memes/greys |
+| 026-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
+| 027-gothgirl | https://knowyourmeme.com/memes/doomer-girl |
 
 ## Item classic jobs
 
@@ -595,8 +595,8 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 
 | Old label | New label | Slot |
 | --- | --- | --- |
-| Harold | Howard | 016 |
-| Sanic | Sanic | 017 |
-| Slender | Lankdad | 018 |
-| Dodson | Finger Dan | 025 |
-| Tay | Bot Bernard | 054 |
+| Harold | Howard | 012 |
+| Sanic | Sanic | 013 |
+| Slender | Lankdad | 014 |
+| Dodson | Finger Dan | 015 |
+| Tay | Bot Bernard | 020 |
