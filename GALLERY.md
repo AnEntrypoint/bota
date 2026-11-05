@@ -1,6 +1,6 @@
 # Gallery
 
-**52 of 52 characters generated.** Every image below opens full size.
+**51 of 51 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -55,7 +55,6 @@
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/082-paintballer.jpg"><img src="gallery/082-paintballer.jpg" alt="082 Paintballer" loading="lazy"></a><figcaption>082 Paintballer</figcaption></figure>
 <figure><a href="gallery/084-spudgunner.jpg"><img src="gallery/084-spudgunner.jpg" alt="084 Spudgunner" loading="lazy"></a><figcaption>084 Spudgunner</figcaption></figure>
-<figure><a href="gallery/087-candler.jpg"><img src="gallery/087-candler.jpg" alt="087 Candler" loading="lazy"></a><figcaption>087 Candler</figcaption></figure>
 <figure><a href="gallery/088-airhorn.jpg"><img src="gallery/088-airhorn.jpg" alt="088 Airhorn" loading="lazy"></a><figcaption>088 Airhorn</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
 <figure><a href="gallery/097-carpool.jpg"><img src="gallery/097-carpool.jpg" alt="097 Carpool" loading="lazy"></a><figcaption>097 Carpool</figcaption></figure>

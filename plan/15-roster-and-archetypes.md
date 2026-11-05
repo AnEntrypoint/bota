@@ -74,7 +74,6 @@ Rules for the roster columns:
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
 | 082 | Paintballer | Stalker | Int | Ranged | Stuns an area with a splattering jersey, and bonks targets through a chrome mask with a chance to stun. |
 | 084 | Spudgunner | Drifter | Agi | Ranged | Fires a pipe cannon that slows an area, then charges the pressure gauge to punish slowed targets. |
-| 087 | Candler | Firebrand | Int | Ranged | Fires firework tubes from both hands, pulling enemies into a spark vortex before dashing off through the smoke. |
 | 088 | Airhorn | Heckler | Int | Ranged | Blasts two air horns to stun, each stun making the next blare louder and every attack emptying a canister. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
 | 097 | Carpool | Engine | Str | Melee | Offers candies and chilled water, and every passenger ally attacks faster for the whole ride. |
