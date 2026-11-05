@@ -77,7 +77,6 @@ Rules for the roster columns:
 | 087 | Candler | Firebrand | Int | Ranged | Fires firework tubes from both hands, pulling enemies into a spark vortex before dashing off through the smoke. |
 | 088 | Airhorn | Heckler | Int | Ranged | Blasts two air horns to stun, each stun making the next blare louder and every attack emptying a canister. |
 | 089 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
-| 092 | Ribbit | Showboat | Int | Melee | Rides an imaginary hover motorcycle in mid-air, and the landing hits enemies with the full weight of a very real frog. |
 | 097 | Carpool | Engine | Str | Melee | Offers candies and chilled water, and every passenger ally attacks faster for the whole ride. |
 | 098 | Widemouth | Showboat | Str | Melee | Laughs so wide that the sprayed shards cut a straight line through the lane, with an ally tagging along. |
 | 102 | Disheartened | Recluse | Str | Melee | Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova. |

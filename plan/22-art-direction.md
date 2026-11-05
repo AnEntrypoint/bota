@@ -63,7 +63,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 087 | Candler (P3) | Firebrand | Multi-shot firework tubes held like pistols | Ember, neon sparks | M / L / D |
 | 088 | Airhorn (P3) | Heckler | Dual brass compressed-air horn canisters | Mustard, brass | M / L / D |
 | 089 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
-| 092 | Ribbit (P3) | Showboat | Imaginary motorcycle handlebars (no held prop) | Peach, mottled blue | M / L / D |
 | 097 | Carpool (P1) | Engine | Phone on a vent mount, wicker basket of candies | Cold teal, mint | M / L / D |
 | 098 | Widemouth (P4) | Showboat | Huge smile, a cardboard hand fan held at the chest | Peach, white | M / L / D |
 | 102 | Disheartened (P4) | Recluse | Crumpled receipt, half out of a pocket | Moss, charcoal | M / L / D |
