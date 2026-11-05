@@ -9,7 +9,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Area | In the slice |
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
-| Heroes | Six: Grey (Drifter, Ranged nuker), Tinfoil (Drifter, Ranged nuker), Chudjak (Bulwark, Reach tank, initiator), Calamity Kid (Firebrand, Hot-take initiator), Waffle (Bulwark, Reach tank, initiator), Ghillie (Stalker, Assassin, vision denial). |
+| Heroes | Six: Grey (Drifter, Ranged nuker), Salad (Drifter, damage and slow), Chudjak (Bulwark, Reach tank, initiator), Coomer (Firebrand, stun and damage), Chonky Hop (Bulwark, slow and damage), Ghillie (Stalker, Assassin, vision denial). |
 | Clout | Earn, decay, Reach, Hype Spike, Markdown on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
@@ -28,7 +28,7 @@ Row counts are what the slice needs.
 | File | Rows | Compiles to | Note |
 | --- | --- | --- | --- |
 | `manifest.json` | 1 | pack root | modules, image name, tables, rules file |
-| `heroes.tsv` | 6 | unit rows | Grey, Tinfoil, Chudjak, Calamity Kid, Waffle, Ghillie |
+| `heroes.tsv` | 6 | unit rows | Grey, Salad, Chudjak, Coomer, Chonky Hop, Ghillie |
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 7 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note (Sticky Note and Ring Light build Lurker Cam; Drafted Note and Sticky Note build Spoiler Tag). Rebrand is an action, not an item (section 5). |
 | `modifiers.tsv` | 2 | Lua rule | Cast Rush and Study Tax |
@@ -46,7 +46,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 | Item | v1 | Later | Why |
 | --- | --- | --- | --- |
-| Heroes | 6 | 24 launch, then 112 | Test the mechanics before the roster. |
+| Heroes | 6 | 14 launch, then 35 more (49 active) | Test the mechanics before the roster. |
 | Boosts | Demand Boost, Bounty, Dank Goods (Haste) | Dank Goods (Illusion, Invisibility, Regeneration), Sweat Mode | Fewer boosts make the Clout effects easier to read. |
 | Trend modifiers | 2 | 8 | Compare two before adding more. |
 | Talents | None | Full sets from section 21 | Power growth comes after the base kits are tested. |
@@ -63,7 +63,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 Run each scenario in the build. Record the result, the time taken and any sign that a rule was unreadable.
 
 1. **Clout comeback.** One team gets 300 Clout ahead for 30 s, then the gap drops below 150 for 30 s. Does the Front Runner mood show on the minimap? Pass: each mood holds for 30 s, C4 records zero flips in any 30 s window, and the Front Runner icon shows on the minimap for 20 s.
-2. **Lurk ambush.** Tinfoil waits unseen for 8 s, then uses Foil Mention. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
+2. **Lurk ambush.** Ghillie waits unseen for 8 s, then springs an area trap. Can a player see from the screen alone that it was unseen? Pass: no LIVE dot, and at least 4 of 5 testers answer yes when asked whether they could tell it was unseen from the screen alone (UNVERIFIED count).
 3. **Markdown cap.** A hero dies with 400 or more Clout. Pass: at most 200 Clout moves, so the 200 cap binds exactly at 400 Clout, and the split goes 50% to the killer and 50% equally among assists (UNVERIFIED; plan/06 Markdown row).
 4. **Trend modifier fight.** Cast Rush and Study Tax both on offer. Pass: both offers and the pick are logged in one fight; C1 and C2 are checked across matches (see Runnable checks).
 5. **Breaking News contest.** Both teams have heroes in the zone. Pass: C3 records zero capture progress.

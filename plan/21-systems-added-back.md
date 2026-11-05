@@ -12,28 +12,18 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | --- | --- | --- | --- | --- |
 | Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Hype Spike at 80 Clout / Abduction Count survives death |
 | Spudgunner | Pipe Spud slows +10% / Pressure Gauge Reply damage +50 | Ear Muff Span +150 range / Long Shot Spud cooldown −20 s | Pipe Spud slow lasts a second longer / Pressure Gauge Reply stacks on reapply | Long Shot Spud marks targets for allies / +1 Clout per second while seen |
-| Tinfoil | Foil Mention +25% damage / Foil Cloud radius +50 | Coat Hanger Open cooldown −3 s / Crumple Ghost +1 s invisible | Foil Mention refreshes on kill / Foil Cloud slows | Crumple Ghost earns no Clout / hidden on the minimap for 10 s after each kill (the Smoke signal, plan/13) |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
-| Calamity Kid | Smirk Read slows +15% / Fire Fade cooldown −4 s | Fire Wall of Text +1 s / Smolder Drop radius +100 | Smirk Read freezes for 0.5 s / Fire Fade heals 10% | Smolder Drop marks the target for 2 s / Enemies silenced for 1 s on cast |
 | Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no sigma |
 | Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Sigma regen doubles below 50% sigma |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
 | Viking | Mead Clink slows +10% / Hammer Hold +1 s | Hydrate or Diedrate +1 sigma regen / Ragnarok March cooldown −15 s | Mead Clink leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Clink hits heroes below 50% HP for +10% |
-| Hank | Machete Scroll adds a line / Lens Flash +0.3 s stun | Machete Meter cap +2 / Machete Clip cooldown −20 s | Machete Scroll burns / Lens Flash refreshes Machete Meter | Machete Clip bonus damage to targets above 50% HP / Machete Scroll ignores armor |
 | Smudge | Eyeliner Bleed +2 damage over time / Sweater Slip +1 s | Open Palm Bounce +1 bounce / Emo Vibes −2 armor | Eyeliner Bleed spreads on death / Sweater Slip heals 20% | Emo Vibes becomes Worse Vibes / Reveals enemies' last known location for 3 s |
-| Waffle | Pillbox Apology heals +20 / Tray Dismiss cooldown −5 s | Buckler Pin radius +100 / Diner Samples lasts +1 s | Pillbox Apology deals double damage to heroes below 50% HP / Tray Dismiss also removes Stan | Diner Samples shared to all allies in radius / Buckler Pin never expires while an ally stands in it |
-| Ribbit | Flying Cap Warning slows +1 s / Handlebar Appeal shield +50 | Frog Strike radius +50 / Helmet Lockdown +0.5 s | Handlebar Appeal reflects 10% / Flying Cap Warning marks the target for allies | Helmet Lockdown stuns on death / 1 Clout per 200 damage absorbed while an enemy hero sees it |
 | Airhorn | Airhorn Blast +1 stun / Canister Remove cleave +20% | Pinstripe Jacket Pitch armor +2 / Escalating Blare +5% damage | Canister Remove marks the target / Airhorn Blast resets on kill | Escalating Blare grows +2% per cast / Target earns no Clout for 10 s |
-| Helios | Marble Dagger slows +10% / Pedestal Rephrase cooldown −2 s | Mirror Shade Mode +1 s / Sun Lot crit +50% | Pedestal Rephrase leaves a decoy / Marble Dagger does not reveal you | Sun Lot kills give double Clout / Sun Lot kills give +50 Reach for 10 s (UNVERIFIED) |
-| Broomstick Kid | Golf Pole Root radius +50 / Mid-Spin Clone range +100 | Furrowed Puppet +20 damage / Alt Spin Squad adds a clone | Golf Pole Root roots +0.5 s / Clones gain 10% damage | Clones earn half Clout / Broomstick Kid respawns once as a clone |
 | Chudjak | Manifesto Slam +100 length / Olive Totem +10% attack speed | Buzzcut Follow stun +0.3 s / Surplus Echo adds a target | Manifesto Slam stuns 0.5 s / Olive Totem heals allies | Surplus Echo is global / Buzzcut Follow victims revealed for 2 s |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage, counted inside the decision 38 reflect cap |
 | Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13) |
 | Fuckyea | Noir Hook stun +1 s / Jacket Stale damage +10 | Smug Stacks cap +5 / Pocket Edit channel −0.5 s | Smug Stacks heal / Jacket Stale spreads to nearby enemies | Noir Hook pulls a second target / Pocket Edit steals 5% of target Clout |
 | Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius |
-| Scammer | Landline Teaser range +100 / Earpiece Bait heal +5% | Sales Pitch Bait chance +10% / Cord Coil Arc timer −2 s | Landline Teaser burn +5 / Earpiece Bait spreads | Cord Coil Arc keeps 50% of Clout / Respawn timer −2 s |
-| Prepper | Gas Mask Air radius +50 / Blast Door Leave cooldown −5 s | Storm Shelter adds a treant / Hazmat Breach range +200 | Gas Mask Air roots +0.5 s / Treants heal allies | Hazmat Breach pays Clout / +2% health regen while no enemy sees you |
-| Lifehack | Glue Gun Camouflage +1 s / Zip Tie Market drains +10% | Duct Tape Shield +50 / Zip Tie Network +0.5 s | Zip Tie Market spreads / Glue Gun Camouflage works while moving | Zip Tie Network reflects damage / Allies in trees gain 10% move speed |
 
 ### Talent sets for every hero
 
@@ -130,26 +120,18 @@ Each of these heroes has one rule that makes its kit read differently on the map
 
 | Hero | Signature mechanic | Clout tie | Job (plan/02 row) |
 | --- | --- | --- | --- |
-| Tinfoil | Lurk Meter: 8 s unseen charges one free Foil Mention. | Unseen play | Vision and wards |
 | Boomer | Tracked Lawn marks a target; its LIVE state shows to the whole team with the standard LIVE dot and ring. | Vision | Vision and wards |
-| Calamity Kid | Smirk Read freezes its target 1 s longer (UNVERIFIED). | None | Disable duration |
 | Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision | Support tether |
 | Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach | Vision and wards |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach | Vision and wards |
 | Viking | When a rooted target dies, the root jumps to the nearest enemy hero within 300. | None | Disable duration |
-| Hank | Each Machete Meter stack adds Reach +20. | Reach | Vision and wards |
 | Smudge | Eyeliner Bleed shows its team each enemy's last seen position for 10 s. | Vision | Vision and wards |
-| Waffle | Pillbox Apology gives a pinged ally Stan radius +100 for 5 s. | Stan | Creep wave pressure |
-| Ribbit | A Flying Cap Warning-marked target loses half its Reach. | Reach | Vision and wards |
 | Airhorn | Airhorn Blast reveals its target to the whole team for 2 s. | Reveal | Vision and wards |
-| Helios | Mirror Shade Mode hides the hero on the minimap for 10 s (the Smoke signal, plan/13); its Clout stays on the scoreboard. | Vision | Vision and wards |
-| Broomstick Kid | Clones inherit Reach but not Clout, unless the level-25 talent is taken. | Clout | Vision and wards |
 | Chudjak | Each hard disable it lands gives its team Reach +50 for 10 s. | Reach | Disable duration |
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach | Vision and wards |
 | Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal | Vision and wards |
 | Fuckyea | A hooked hero loses Reach while hooked. | Reach | Disable duration |
 | Forever | Its stun repeats until the clip ends, while the target stays in its vision. | Vision | Disable duration |
-| Scammer | On revive, Reach +200 for 10 s. | Reach | Respawn |
 
 ### Seasons
 

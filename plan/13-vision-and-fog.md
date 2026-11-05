@@ -36,7 +36,7 @@ The LIVE dot uses the colour and ring in decision 16. It is never red (red means
 
 - Job: vision (plan/02, Vision and wards row). The cost is the vision radius lost at night.
 - The day and night cycle runs 4 min day, 4 min night.
-- At night, vision radius drops for every hero: push while vision is short, or ward for cover (both cost tempo, UNVERIFIED). Some heroes have night abilities (Barista).
+- At night, vision radius drops for every hero: push while vision is short, or ward for cover (both cost tempo, UNVERIFIED). Some heroes have night abilities.
 - The clock is shown on the minimap as a sun or moon.
 
 ### Fog rules

@@ -7,11 +7,12 @@ const GEN = "/workspace/characters/memes/generated";
 const OUT = `${BOTA}/gallery`;
 const PY = "/data/cache/venvs/ml/bin/python3";
 
+const RESERVE = new Set(["113", "114", "115", "116", "117"]);
 const roster = readdirSync(`${BOTA}/characters`)
   .map((f) => f.match(/^(\d{3})-(.+)\.md$/))
   .filter(Boolean)
   .map((m) => ({ id: m[1], slug: m[2] }))
-  .filter((r) => r.id <= "112")
+  .filter((r) => !RESERVE.has(r.id))
   .sort((a, b) => a.id.localeCompare(b.id));
 const byId = new Map(roster.map((r) => [r.id, r]));
 

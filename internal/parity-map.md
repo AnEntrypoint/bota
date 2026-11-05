@@ -8,33 +8,24 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | --- | --- |
 | Grey | Shadow Fiend |
 | Spudgunner | Sniper |
-| Tinfoil | Riki |
 | Boomer | Bounty Hunter |
 | Disaster | Invoker |
 | Tricky | Lion |
 | Gigachad | Anti-Mage |
 | Noscope | Juggernaut |
 | Viking | Crystal Maiden |
-| Hank | Lina |
 | Boxxy | Dazzle |
-| Waffle | Omniknight |
 | Tank, initiator | Tidehunter |
 | Airhorn | Sven |
-| Helios | Phantom Assassin |
 | Starwarskid | Meepo |
 | Burst initiator | Earthshaker |
 | Wojak | Axe |
 | Ghillie | Techies |
 | Fuckyea | Pudge |
 | Forever | Puck |
-| Scammer | Wraith King |
-| Prepper | Nature's Prophet |
-| Lifehack | Treant Protector |
 | Neckbeard | Abaddon |
 | Chungus | Alchemist |
 | Chad | Ancient Apparition |
-| Soyjak | Bane |
-| Doomer | Batrider |
 | Bloomer | Beastmaster |
 | Tradwife | Bloodseeker |
 | Coomer | Brewmaster |
@@ -47,7 +38,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Slender | Clockwerk |
 | Leeroy | Dark Seer |
 | Rickroll | Death Prophet |
-| Saxguy | Disruptor |
 | Numa | Doom |
 | Dodson | Dragon Knight |
 | Sweetbrown | Drow Ranger |
@@ -56,10 +46,7 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Rageguy | Ember Spirit |
 | Cereal | Enchantress |
 | Yao | Enigma |
-| Steve | Faceless Void |
-| Greg | Gyrocopter |
 | Brian | Huskar |
-| Attached | Io |
 | Zyzz | Jakiro |
 | Dino | Keeper of the Light |
 | Fuuuu | Kunkka |
@@ -67,56 +54,23 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Jack | Leshrac |
 | Salad | Lich |
 | Weegee | Lifestealer |
-| Peanut | Lone Druid |
 | Ecce | Luna |
-| Gopnik | Lycan |
-| Mallcop | Magnus |
-| Vapebro | Medusa |
 | Tay | Mirana |
 | Shoop | Morphling |
-| Kazoo | Naga Siren |
 | Trollhunter | Necrophos |
-| Barista | Night Stalker |
 | Hypebeast | Nyx Assassin |
-| Florida | Ogre Magi |
-| Tpose | Oracle |
-| Zalgo | Outworld Destroyer |
 | Npc | Phantom Lancer |
 | Derp | Phoenix |
 | Challenge | Pugna |
-| Hipster | Queen of Pain |
 | Brony | Razor |
-| Flatearth | Rubick |
-| Deepfried | Sand King |
 | Glitch | Shadow Demon |
-| Critic | Shadow Shaman |
 | Crossfit | Silencer |
-| Acorn | Skeleton King |
-| Mallarcher | Skywrath Mage |
-| Paintballer | Slardar |
 | Nerfer | Slark |
-| Laserbro | Spectre |
-| Slingshot | Spirit Breaker |
-| Candler | Storm Spirit |
-| Droner | Templar Assassin |
-| Plinker | Terrorblade |
-| Oiler | Timbersaw |
-| Bathwater | Tinker |
-| Driver | Tiny |
 | Uber | Troll Warlord |
 | Widemouth | Tusk |
-| Keyboarder | Undying |
-| Edgelord | Ursa |
-| Gigaunit | Vengeful Spirit |
 | Disheartened | Venomancer |
 | Pointing | Viper |
-| Krazed | Visage |
-| Baconlover | Warlock |
 | Gothgirl | Weaver |
-| Smugcat | Windranger |
-| Snackvendor | Winter Wyvern |
-| Sealcommando | Witch Doctor |
-| Preacher | Zeus |
 
 ## Launch ability originals
 
@@ -130,10 +84,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Spudgunner | Pinned Reply | Headshot |
 | Spudgunner | Attention Span | Take Aim |
 | Spudgunner | Breaking News | Assassinate |
-| Tinfoil | Unseen Mention | Backstab |
-| Tinfoil | Dark Mode | Smoke Screen |
-| Tinfoil | Cold Open | Blink Strike |
-| Tinfoil | Ghost Post | Tricks of the Trade |
 | Boomer | Lead Magnet | Shuriken Toss |
 | Boomer | Cold Outreach | Jinada |
 | Boomer | Stealth Mode | Shadow Walk |
@@ -158,17 +108,10 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Viking | Hold Still | Frostbite |
 | Viking | Dark Mode Aura | Arcane Aura |
 | Viking | Load More | Freezing Field |
-| Hank | Hank | Dragon Slave |
-| Hank | Flash Feed | Light Strike Array |
-| Hank | Hype Meter | Fiery Soul |
-| Hank | Viral Clip | Laguna Blade |
 | Boxxy | Seen Receipt | Poison Touch |
 | Boxxy | Close Friends Only | Shallow Grave |
 | Boxxy | Push Healer, buffer | Shadow Wave |
 | Boxxy | Bad Vibes | Bad Juju |
-| Waffle | Dismiss | Repel |
-| Waffle | Pinned | Degen Aura |
-| Waffle | Likes | Guardian Angel |
 | Tank, initiator | Warning | Gush |
 | Tank, initiator | Appeal | Kraken Shell |
 | Tank, initiator | Strike | Anchor Smash |
@@ -177,10 +120,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Airhorn | Remove | Great Cleave |
 | Airhorn | Notice | Warcry |
 | Airhorn | Escalate | God's Strength |
-| Helios | Anonymous Dagger | Stifling Dagger |
-| Helios | Rephrase | Phantom Strike |
-| Helios | Anon Mode | Blur |
-| Helios | Final Post | Coup de Grace |
 | Starwarskid | Fresh Account | Earthbind |
 | Starwarskid | New Account | Poof |
 | Starwarskid | Sock Puppet | Geostrike |
@@ -205,18 +144,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Forever | Scheduled Post | Waning Rift |
 | Forever | Ghosting | Phase Shift |
 | Forever | Forever | Dream Coil |
-| Scammer | Teaser | Wraithfire Blast |
-| Scammer | Engagement Bait | Vampiric Spirit |
-| Scammer | Crit Bait | Mortal Strike |
-| Scammer | Comeback Arc | Reincarnation |
-| Prepper | Fresh Air | Sprout |
-| Prepper | Leave the House | Teleportation |
-| Prepper | Sunlight | Nature's Call |
-| Prepper | Go Outside | Wrath of Nature |
-| Lifehack | Ent Camouflage | Nature's Guise |
-| Lifehack | Leech Feed | Leech Seed |
-| Lifehack | Wood Shield | Living Armor |
-| Lifehack | Root Network | Overgrowth |
 
 ## Section 10 ability renames (original to Brainrot)
 
@@ -530,7 +457,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Arctic Burn | Frozen Burn |
 | Splinter Blast | Ice Splinters |
 | Cold Embrace | Warm Hug |
-| Winter's Curse | Snackvendor Curse |
 | Paralyzing Cask | Pep Cask |
 | Voodoo Restoration | Good Vibes Restore |
 | Maledict | Bad Vibes Curse |
@@ -579,18 +505,16 @@ Original names for parity work only. A key that a shipped file uses is its curre
 
 ## Other renames
 
-- Scalper = Underlord. Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
+Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Plan = Aghanim's Scepter. Lite Plan = Aghanim's Shard. Algorithm Rune = Arcane Rune.
 - Hype Spike = Bull Run (previous draft name). Hyped = Bullish (previous draft name).
 - Lane Stall = Side Shop.
 - Sources: https://liquipedia.net/dota2/Gold , https://liquipedia.net/dota2/Time_of_Day , https://liquipedia.net/dota2/Observer_and_Sentry_Wards
 - Exchange (base) = Ancient. Back Alley Shop = Secret Shop.
-- Paintballer (Slardar): Whale Splash = Slithereen Crush, Pity Bonk = Bash, Sunk Cost = Amplify Damage, Receipt Haze = Corrosive Haze. Final Warning = Land Mines.
 - Modes: Showrunner Draft = Captains Mode, Open Market = All Pick, Demand Draft = Random Draft, Shuffle Draft = Single Draft, Ranked Open Market = Ranked All Pick. Safe Spots = Shrines. Decoy Posts = Effigies. Stat Boost = Attribute Bonus. Go Private = Glyph of Fortification.
 
 ## Generic-term renames
 - Fountain = Spawn Lounge. Courier = Delivery Drone. Barracks = Content Mills. Rune(s) = Boost(s). Buyback = Rebrand.
-- Sigma Wanderer = Noscope. Free Range = Karen. Small Creator = Driver. Gadget Guy = Bathwater.
-- Ent Camouflage = Bark Camouflage (Lifehack A1). Renamed because the earlier name came from a franchise.
+- Sigma Wanderer = Noscope. Free Range = Karen.
 
 ## Former draft hero names
 
@@ -601,8 +525,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | 003 | Chad | Old Forum Poster |
 | 004 | Gigachad | Debate Bro |
 | 005 | Wojak | Yell at Clouds |
-| 006 | Soyjak | Bad Night |
-| 007 | Doomer | Rideshare Guy |
 | 008 | Bloomer | Community Manager |
 | 009 | Tradwife | Bleeding Heart |
 | 010 | Boomer | Retargeting |
@@ -615,108 +537,38 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | 017 | Sanic | Skeleton Account |
 | 018 | Slender | Deadline Bot |
 | 019 | Viking | Frost Feed |
-| 020 | Leeroy | Night Owl |
 | 021 | Boxxy | Read Receipt |
-| 022 | Rickroll | Doomer |
-| 023 | Saxguy | Parental Controls |
-| 024 | Numa | Doom Thread |
 | 025 | Dodson | Dragon Admin |
-| 026 | Sweetbrown | Golden Hour |
 | 027 | Willie | Rock Star |
 | 028 | Chudjak | Hot Take |
 | 029 | Smugjak | Lore Keeper |
 | 030 | Rageguy | Spicy Take |
 | 031 | Cereal | Sweet Talker |
-| 032 | Yao | Conspiracy Theorist |
-| 033 | Steve | Unskippable Ad |
-| 034 | Greg | Drone Footage |
-| 035 | Brian | Burnout |
-| 036 | Disaster | Who Asked |
-| 037 | Attached | Wisp Ghostwriter |
-| 038 | Zyzz | Dual Monitor |
 | 039 | Noscope | Solo Wolf Poster |
 | 040 | Dino | Lighting Director |
 | 041 | Fuuuu | Captain Obvious |
 | 042 | Jeff | Team Lead |
 | 043 | Jack | Lag Spike |
 | 044 | Salad | Tenured Lich |
-| 045 | Weegee | Comment Leech |
-| 046 | Hank | Dragon Scroll |
 | 047 | Tricky | Well Actually |
-| 048 | Peanut | Off-Grid Forester |
 | 049 | Ecce | Moonlight Creator |
-| 050 | Gopnik | Pack Account |
-| 051 | Mallcop | Strong Opinion |
-| 052 | Vapebro | Ghoster |
-| 053 | Starwarskid | Ban Evader |
 | 054 | Tay | Moonlight Fan |
 | 055 | Shoop | Glow-Up |
-| 056 | Kazoo | Sea Siren |
-| 057 | Prepper | Touch Grass |
-| 058 | Trollhunter | Old Thread Revival |
-| 059 | Barista | Night Shift |
-| 060 | Hypebeast | Stealth Spam |
-| 061 | Florida | Dual Management |
-| 062 | Waffle | Mentions |
-| 063 | Tpose | Forecaster |
-| 064 | Zalgo | Hype Engine |
-| 065 | Helios | Anonymous Poster |
 | 066 | NPC | Multi-Accounter |
 | 067 | Derp | Comeback Story |
 | 068 | Forever | Looping Clip |
 | 069 | Fuckyea | Hook Guy |
 | 070 | Challenge | Late Night Poster |
-| 071 | Hipster | Screamer |
-| 072 | Brony | Static Account |
-| 073 | Tinfoil | Lurk Mode |
-| 074 | Flatearth | Plagiarist |
-| 075 | Deepfried | Desert Mod |
 | 076 | Glitch | Shadow Admin |
 | 077 | Grey | Based Fiend |
-| 078 | Critic | Shadow Agent |
-| 079 | Crossfit | Shh |
-| 080 | Acorn | Undead Brand |
-| 081 | Mallarcher | Storm Ad |
-| 082 | Paintballer | Gacha Whale |
-| 083 | Nerfer | Dropped Connection |
 | 084 | Spudgunner | Long-Form Creator |
-| 085 | Laserbro | Haunted Profile |
-| 086 | Slingshot | Content Cop |
-| 087 | Candler | Storm Chaser |
 | 088 | Airhorn | Ban Hammer |
 | 089 | Ghillie | Mods |
-| 090 | Droner | Refined Reply |
-| 091 | Plinker | Hot Mess |
-| 092 | Frogger | Moderator |
-| 093 | Oiler | Lumberjack Take |
-| 094 | Bathwater | Beta Tester |
-| 095 | Driver | Nano Influencer |
-| 096 | Lifehack | Turf Warden |
 | 097 | Uber | Bait Lord |
 | 098 | Widemouth | Ice Cream Truck |
-| 099 | Keyboarder | Unkillable Thread |
-| 100 | Edgelord | Teddy Bear Mode |
-| 101 | Gigaunit | Grudge Holder |
 | 102 | Disheartened | Toxic Positivity |
 | 103 | Pointing | Reviewer Two |
-| 104 | Krazed | Mood Board |
-| 105 | Baconlover | Ritual Scheduler |
 | 106 | Gothgirl | Doomlooper |
-| 107 | Smugcat | Wind Vlog |
-| 108 | Snackvendor | Snow Day |
-| 109 | Sealcommando | Vibe Coach |
-| 110 | Scammer | Comeback Tour |
-| 111 | Preacher | Thunder Reply |
-| 112 | Scalper | Pit Boss |
-
-## Former Scalper kit
-
-| Original | Brainrot |
-| --- | --- |
-| Pit Post | Sold Out Snare |
-| Atrophy Feed | Markup Drain |
-| Gate Crash | Queue Bypass |
-| Hard Fork | Bulk Buy Drop |
 
 ## Aesthetic refs (moved from characters)
 
@@ -728,8 +580,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | 003-chad | https://knowyourmeme.com/memes/yes-chad |
 | 004-gigachad | https://knowyourmeme.com/memes/gigachad |
 | 005-wojak | https://knowyourmeme.com/memes/wojak |
-| 006-soyjak | https://knowyourmeme.com/memes/soy-boy-face-soyjak |
-| 007-doomer | https://knowyourmeme.com/memes/doomer |
 | 008-bloomer | https://knowyourmeme.com/memes/bloomer |
 | 009-tradwife | https://knowyourmeme.com/memes/trad-girl-tradwife |
 | 010-boomer | https://knowyourmeme.com/memes/30-year-old-boomer |
@@ -742,103 +592,37 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | 017-sanic | https://knowyourmeme.com/memes/sanic-hegehog |
 | 018-slender | https://en.wikipedia.org/wiki/Slender_Man |
 | 019-viking | https://en.wikipedia.org/wiki/Techno_Viking |
-| 020-leeroy | https://knowyourmeme.com/memes/leeroy-jenkins |
 | 021-boxxy | https://knowyourmeme.com/memes/boxxy |
-| 023-saxguy | https://knowyourmeme.com/memes/epic-sax-guy |
-| 024-numa | https://knowyourmeme.com/memes/numa-numa |
 | 025-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
-| 026-sweetbrown | https://knowyourmeme.com/memes/sweet-brown-aint-nobody-got-time-for-that |
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
 | 028-chudjak | https://knowyourmeme.com/memes/chudjak |
 | 029-smugjak | https://knowyourmeme.com/memes/smug-wojak |
 | 030-rageguy | https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu |
 | 031-cereal | https://knowyourmeme.com/memes/cereal-guy |
-| 032-yao | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |
-| 033-steve | https://knowyourmeme.com/memes/scumbag-steve |
-| 034-greg | https://knowyourmeme.com/memes/good-guy-greg |
-| 035-brian | https://knowyourmeme.com/memes/bad-luck-brian |
-| 036-disaster | https://knowyourmeme.com/memes/disaster-girl |
-| 037-attached | https://knowyourmeme.com/memes/overly-attached-girlfriend |
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
 | 041-fuuuu | https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu |
 | 042-jeff | https://knowyourmeme.com/memes/jeff-the-killer |
 | 043-jack | https://knowyourmeme.com/memes/eyeless-jack |
 | 044-salad | https://knowyourmeme.com/memes/subcultures/salad-fingers |
-| 045-weegee | https://knowyourmeme.com/memes/weegee |
-| 046-hank | https://knowyourmeme.com/memes/subcultures/madness-combat |
 | 047-tricky | https://knowyourmeme.com/memes/tricky-the-clown-tiky |
-| 048-peanut | https://knowyourmeme.com/memes/scp-173 |
 | 049-ecce | https://commons.wikimedia.org/wiki/File:Elias_Garcia_Martinez_-_Ecce_Homo.jpg |
-| 050-gopnik | https://knowyourmeme.com/memes/squatting-slavs-in-tracksuits-gopniks |
-| 051-mallcop | https://knowyourmeme.com/memes/paul-blart-mall-cop |
-| 052-vapebro | https://knowyourmeme.com/memes/vape-nation |
 | 054-tay | https://knowyourmeme.com/memes/chocolate-rain |
 | 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
-| 056-kazoo | https://knowyourmeme.com/memes/kazoo-kid |
-| 057-prepper | https://knowyourmeme.com/memes/doomsday-preppers |
-| 058-trollhunter | https://knowyourmeme.com/memes/the-rent-is-too-damn-high |
-| 059-barista | https://knowyourmeme.com/memes/hipster-barista |
-| 060-hypebeast | https://knowyourmeme.com/memes/hypebeast |
-| 061-florida | https://knowyourmeme.com/memes/florida-man |
-| 062-waffle | https://knowyourmeme.com/memes/waffle-house-wendy |
-| 063-tpose | https://knowyourmeme.com/memes/t-pose |
-| 064-zalgo | https://knowyourmeme.com/memes/zalgo |
-| 065-helios | https://knowyourmeme.com/memes/vaporwave |
 | 066-npc | https://en.wikipedia.org/wiki/NPC_(meme) |
 | 067-derp | https://knowyourmeme.com/memes/derp |
 | 068-forever | https://knowyourmeme.com/memes/forever-alone |
 | 069-fuckyea | https://knowyourmeme.com/memes/fuck-yea |
 | 070-challenge | https://knowyourmeme.com/memes/challenge-accepted |
-| 071-hipster | https://knowyourmeme.com/memes/hipster |
-| 072-brony | https://knowyourmeme.com/memes/subcultures/my-little-pony-friendship-is-magic |
-| 073-tinfoil | https://knowyourmeme.com/memes/tinfoil-hat |
-| 074-flatearth | https://knowyourmeme.com/memes/flat-earth |
-| 075-deepfried | https://knowyourmeme.com/memes/deep-fried-memes |
 | 076-glitch | https://knowyourmeme.com/memes/glitch-art |
 | 077-grey | https://knowyourmeme.com/memes/greys |
-| 078-critic | https://knowyourmeme.com/memes/the-nostalgia-critic |
-| 080-acorn | https://knowyourmeme.com/memes/events/florida-deputy-shoots-at-acorn |
-| 081-mallarcher | https://knowyourmeme.com/memes/mall-ninja |
-| 082-paintballer | https://knowyourmeme.com/memes/paintball |
-| 083-nerfer | https://knowyourmeme.com/memes/nerf |
 | 084-spudgunner | https://knowyourmeme.com/memes/spud-gun |
-| 085-laserbro | https://knowyourmeme.com/memes/laser-pointer |
-| 086-slingshot | https://knowyourmeme.com/memes/people/jorg-sprave |
-| 087-candler | https://knowyourmeme.com/memes/roman-candle-wars |
 | 088-airhorn | https://knowyourmeme.com/memes/air-horn |
 | 089-ghillie | https://knowyourmeme.com/memes/doomsday-preppers |
-| 090-droner | https://knowyourmeme.com/memes/drone |
-| 091-plinker | https://knowyourmeme.com/memes/red-ryder-bb-gun |
-| 093-oiler | https://knowyourmeme.com/memes/essential-oils |
-| 094-bathwater | https://knowyourmeme.com/memes/gamer-girl-bath-water |
-| 095-driver | https://knowyourmeme.com/memes/designated-driver |
-| 096-lifehack | https://knowyourmeme.com/memes/subcultures/5-minute-crafts |
 | 098-widemouth | https://knowyourmeme.com/memes/yao-ming-face-bitch-please |
-| 099-keyboarder | https://knowyourmeme.com/memes/keyboard-warrior |
-| 100-edgelord | https://knowyourmeme.com/memes/mall-goth |
-| 101-gigaunit | https://knowyourmeme.com/memes/absolute-unit |
 | 102-disheartened | https://knowyourmeme.com/memes/wojak |
 | 103-pointing | https://knowyourmeme.com/memes/two-soyjaks-pointing |
-| 104-krazed | https://knowyourmeme.com/memes/angry-german-kid-keyboard-crasher |
-| 105-baconlover | https://knowyourmeme.com/memes/bacon |
 | 106-gothgirl | https://knowyourmeme.com/memes/doomer-girl |
-| 107-smugcat | https://knowyourmeme.com/memes/smudge-the-cat |
-| 108-snackvendor | https://knowyourmeme.com/memes/doritos-and-mountain-dew |
-| 109-sealcommando | https://knowyourmeme.com/memes/navy-seal-copypasta |
-| 110-scammer | https://knowyourmeme.com/memes/tech-support-scam |
-| 111-preacher | https://knowyourmeme.com/memes/street-preacher |
-| 112-scalper | https://knowyourmeme.com/memes/scalpers |
-| 113-wanderer | https://knowyourmeme.com/memes/the-backrooms |
-| 114-raker | https://knowyourmeme.com/memes/the-rake |
-| 115-seeder | https://knowyourmeme.com/memes/sites/the-pirate-bay |
-| 116-wartrucker | https://knowyourmeme.com/memes/truck-driver-freakout |
-| 117-bouncer | https://knowyourmeme.com/memes/bouncer |
-| 038-zyzz | https://knowyourmeme.com/memes/zyzz |
-| 079-crossfit | https://knowyourmeme.com/memes/crossfit |
-| 053-starwarskid | https://knowyourmeme.com/memes/star-wars-kid |
-| 022-rickroll | https://knowyourmeme.com/memes/rickroll |
-| 092-frogger | https://knowyourmeme.com/memes/crazy-frog |
 | 097-uber | https://knowyourmeme.com/memes/uber |
 
 ## Item classic jobs
@@ -897,23 +681,7 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 | Harold | Howard | 016 |
 | Sanic | Sanic | 017 |
 | Slender | Lankdad | 018 |
-| Leeroy | Charging Carl | 020 |
 | Boxxy | Smudge | 021 |
-| Rickroll | Earworm | 022 |
-| Numa | Wobble Pal | 024 |
 | Dodson | Finger Dan | 025 |
-| Sweetbrown | Sugar Shack | 026 |
-| Yao | Yolkface | 032 |
-| Brian | Bryce | 035 |
-| Disaster | Calamity Kid | 036 |
-| Zyzz | Gymbro | 038 |
-| Weegee | Flash Pappy | 045 |
-| Starwarskid | Broomstick Kid | 053 |
 | Tay | Bot Bernard | 054 |
-| Trollhunter | Gnome Hunter | 058 |
-| Hypebeast | Drop Chaser | 060 |
-| Brony | Glitter Bro | 072 |
-| Crossfit | Chalk Dad | 079 |
-| Nerfer | Foamer | 083 |
-| Frogger | Ribbit | 092 |
 | Uber | Carpool | 097 |

@@ -1,5 +1,5 @@
 # 9. Launch hero kits
-Twenty-four launch characters across eleven of the twelve role families (Archivist has no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
+Fourteen launch characters across eight of the twelve role families (Archivist, Firebrand, Engine and Phantom have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
 
 Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
 
@@ -30,55 +30,30 @@ Notes:
 | --- | --- | --- | --- | --- | --- |
 | Grey [077] | Drifter | Beam Quote: three-hit tractor-beam burst; each hit spends an Abduction Count stack for +10% damage (GUESS) | Abduction Count: collects a specimen stack when a nearby enemy dies, cap 5 (GUESS); an allied kill adds one too (GUESS) | Orb Vibes Aura: the levitating orb hums, cutting nearby enemy armor (GUESS) | Probe Ticker: lines of damage that probe the target; each line that kills adds an Abduction Count stack (GUESS) |
 | Spudgunner [084] | Drifter | Pipe Spud: a spud fired from the pipe bursts into an area that damages and slows (GUESS); slowed enemies take +Pressure Gauge Reply damage (GUESS) | Pressure Gauge Reply: the gauge charges the next attack for bonus damage, doubled if the target stands in Pipe Spud (GUESS) | Ear Muff Span: extra attack range; the ear muffs block the noise, so nearby enemies do not wake from attacks (GUESS) | Long Shot Spud: long-range spud strike; a kill refunds half its cooldown to Pipe Spud (GUESS) |
-| Tinfoil [073] | Drifter | Foil Mention: strikes from behind while unseen; the hat has spotted a government agent, bonus damage vs heroes (GUESS) | Foil Cloud: a crinkling foil cloud blinds enemies by glare (GUESS) | Coat Hanger Open: blinks to a target with the copper wire coat hanger and attacks; blink stops at walls (GUESS) | Crumple Ghost: invisible strike sequence; each strike drops a crumpled foil ball that revives a nearby ally once (GUESS) |
 | Boomer [010] | Heckler | Pull Cord Hurl: yanks the weedwhacker cord and tosses it for a ranged slow (GUESS) | Ok Boomer Strike: next attack, with a dismissive wave, deals bonus damage (GUESS) | Cobalt Fade: a blue paint fade makes him invisible for 2 s while moving; attacking smears the fade and breaks the invisibility (GUESS) | Tracked Lawn: reveals an enemy; every hit leaves a grass stain that pays gold (GUESS) |
-| Calamity Kid [036] | Firebrand | Smirk Read: a devilish sideways smirk at the target freezes it in place (GUESS) | Fire Fade: fades into the fire glow, invulnerable for 1 s (GUESS) | Fire Wall of Text: burning letters rain on a zone and keep it burning (GUESS) | Smolder Drop: delayed area damage; the house burns while she smirks at the viewer (GUESS) |
 | Tricky [047] | Bulwark | Stop Sign Citation: hops and slams the octagon for slow and damage (GUESS) | Hockey Correction: a hockey-mask check turns the target into a sheep (GUESS) | Curl Drain: frizzy neon-red curls soak sigma while channeling (GUESS) | Octagon Source: must cite a dead enemy as the source to cast (GUESS); the citation damages everything in the octagon (GUESS) |
 | Gigachad [004] | Bulwark | Flex Rebuttal: flexing damages per attack and drains sigma (GUESS) | Chiseled Step: short teleport in one unbroken stride (GUESS) | Monolith Block: a carved monolith blocks spell damage (GUESS) | Carved Gap Lot: damage scales with missing sigma, the empty marble gap (GUESS) |
 | Noscope [039] | Stalker | Hitmarker Spin: spins and damages nearby enemies; each hit flashes the green crosshair hitmarker over the target (GUESS) | Sponsor Patch Heal: heals allies in radius; a healed ally also gets Noscope's Lucky Scope crit chance (GUESS) | Lucky Scope: the lens flare gives a chance to critically strike; a crit pays a sponsor bonus (GUESS) | Bolt Action Chain: rapid bolt-action strikes that jump between enemies (GUESS) |
 | Viking [019] | Herald | Mead Clink: area damage and slow; the slow lasts while enemies stand in Hydrate or Diedrate's aura (GUESS) | Hammer Hold: the silver hammer pendant roots and damages over time (GUESS) | Hydrate or Diedrate: sigma regen for allies, sipped from a half-full bottle (GUESS) | Ragnarok March: area nuke around the hero; each rhythmic march step stomps the ground (GUESS) |
-| Hank [046] | Leash | Machete Scroll: line of damage from a twin-machete swing (GUESS) | Lens Flash: crimson lenses flash for a delayed stun in an area (GUESS) | Machete Meter: attack speed and movement stacks; stacks are spent on Machete Clip (same hero, GUESS) | Machete Clip: single-target burst with the twin machetes; a kill resets Machete Meter (GUESS) |
 | Smudge [021] | Leash | Eyeliner Bleed: damage over time as the eyeliner runs; bleeding targets take the Emo Vibes armor cut (same hero, GUESS) | Sweater Slip: the oversized sweater slips off one shoulder to protect an ally from death for 2 s (GUESS) | Open Palm Bounce: animated open-palm gestures bounce to nearby units (GUESS) | Emo Vibes: reduces enemy armor; the cut doubles on targets already bleeding from Eyeliner Bleed (GUESS) |
-| Waffle [062] | Bulwark | Pillbox Apology: the pillbox cap heals allies and damages enemies in a sorry-not-sorry burst (GUESS) | Tray Dismiss: immunity to selected debuffs; the tray knocks them off (GUESS) | Buckler Pin: the food tray is held as a buckler, damaging enemies in an area (GUESS) | Diner Samples: allies invulnerable for 1 s, a regular's tip for the table (GUESS) |
-| Ribbit [092] | Showboat | Flying Cap Warning: ear flaps flap to slow and damage (GUESS) | Handlebar Appeal: damage reduction on cooldown; the imaginary handlebars block hits (GUESS) | Frog Strike: mid-air crouching leap lands for area damage (GUESS) | Helmet Lockdown: white goggles lock on for a delayed area stun (GUESS) |
 | Airhorn [088] | Heckler | Airhorn Blast: the brass canisters blast a stun and damage (GUESS) | Canister Remove: each attack empties a canister in a cleave (GUESS) | Pinstripe Jacket Pitch: sponsor-stripe armor and speed for allies (GUESS) | Escalating Blare: damage increase; each stun Airhorn Blast applies adds to the blare (GUESS) |
-| Helios [065] | Phantom | Marble Dagger: a marble dagger thrown from the floating bust slows and damages (GUESS) | Pedestal Rephrase: the bust floats to a target and drifts onto its pedestal (GUESS) | Mirror Shade Mode: mirrored sunglasses give evasion and stealth (GUESS) | Sun Lot: chance for critical damage in a neon-sun flash (GUESS) |
-| Broomstick Kid [053] | Leash | Golf Pole Root: the hollow golf-ball pole roots an area (GUESS) | Mid-Spin Clone: a furrowed-brow clone; he teleports to it (GUESS) | Furrowed Puppet: a furrowed-brow puppet damages and slows (GUESS) | Alt Spin Squad: clones fight on their own, spinning in with the same focus (GUESS) |
 | Chudjak [028] | Bulwark | Manifesto Slam: the rolled manifesto clubs a line of damage and stun (GUESS) | Olive Totem: the olive surplus jacket empowers attacks (GUESS) | Buzzcut Follow: a stun and damage around the hero with a severe scowl (GUESS) | Surplus Echo: surplus rage scales damage with nearby enemies (GUESS) |
 | Wojak [005] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
 | Ghillie [089] | Stalker | Burlap Warning: burlap strips scatter as area traps with damage (GUESS) | Twine Lock: camouflage twine holds and reveals enemies (GUESS) | Corn Stalk Jump: leaping strike with damage; a jump over a trap triggers it early (GUESS) | Scoped Temp Ban: remote detonation through the scope disables (GUESS) |
 | Fuckyea [069] | Showboat | Noir Hook: black sunglasses hook and pull a target (GUESS) | Jacket Stale: damage over time and slow in an area (GUESS) | Smug Stacks: gains strength with each kill, smugly (GUESS) | Pocket Edit: hands stay in pockets while a channel damages and pulls (GUESS) |
 | Forever [068] | Recluse | Tear Clip: a single tear projectile; a slowed target keeps the tear stuck (GUESS) | Lumpy Wail: a weeping wail damages around the hero (GUESS) | Crawl Ghost: brief evasion while crawling low (GUESS) | Eternal Loop: the weeping stun repeats until its clip of three stuns ends, then refills, forever (GUESS; the three-stun clip is UNVERIFIED) |
-| Scammer [110] | Leash | Landline Teaser: a tangled phone cord line deals damage and burn (GUESS) | Earpiece Bait: a blinking lifesteal aura for allies in range (GUESS) | Sales Pitch Bait: critical strikes from a rapid sales pitch (GUESS) | Cord Coil Arc: the tangled cord pulls him back on death (GUESS) |
-| Prepper [057] | Bulwark | Gas Mask Air: a gas mask roots an area (GUESS) | Blast Door Leave: the blast door slams into place and carries him to an ally (GUESS) | Storm Shelter: summons treants wrapped in duct tape (GUESS) | Hazmat Breach: a damage breach through the hazmat suit (GUESS) |
-| Lifehack [096] | Engine | Glue Gun Camouflage: invisibility in trees; the hot glue sticks him there (GUESS) | Zip Tie Market: drains enemy health with neon zip ties (GUESS) | Duct Tape Shield: shields an ally with rainbow duct tape (GUESS) | Zip Tie Network: roots and damages nearby enemies in a manic web of zip ties (GUESS) |
 
 Notes:
 
-- Mirror Shade Mode (Helios [065], Ability 3) is the invisibility effect. The item Anon Mask (section 11) is separate.
 - Talent trees are in section 21.
 
 ### Emergent hooks
 
-No hook is led by Forever [068] or Lifehack [096]; each may still be the partner named in another hero's hook.
+No hook is led by Forever [068]; it may still be the partner named in another hero's hook.
 
 - Grey [077] with Smugjak [029]: Orb Vibes and Smug Citation armor cuts do not stack; the larger applies (GUESS: decision 3 keeps orb effects from stacking, and this extends it to armor cuts).
-- Spudgunner [084] with Greg [034]: Polo Flak victims stay inside the Ear Muff Span attack range (GUESS).
-- Tinfoil [073] with Glitch [076]: Foil Mention exposes the target to Chromatic Hold (GUESS).
 - Boomer [010] with Wojak [005]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
-- Calamity Kid [036] with Attached [037]: Smile Shift relocates the Smolder Drop victim (GUESS).
-- Tricky [047] with Drop Chaser [060]: sheep targets stay open to Box Spike (GUESS).
-- Gigachad [004] with Yolkface [032]: Chiseled Step can land on Tracksuit Hole points (GUESS).
-- Noscope [039] with Scammer [110]: Hitmarker tags are the Sales Pitch Bait targets (GUESS).
-- Viking [019] with Prepper [057]: Blast Door Leave walls pin Hammer Hold targets (GUESS).
-- Hank [046] with Jack [043]: a Machete Clip kill resets Jack's Tar Pulse cooldown (GUESS).
-- Smudge [021] with Gopnik [050]: Sweater Slip protected allies draw Newsboy Chat boosts (GUESS).
-- Waffle [062] with Saxguy [023]: Tray Dismiss clears Sax Solo Lock silence (GUESS).
-- Ribbit [092] with Chudjak [028]: Frog Strike landings leave Manifesto Slam stun points (GUESS).
 - Airhorn [088] with Chudjak [028]: Airhorn Blast knocks Buzzcut Follow victims (GUESS).
-- Helios [065] with Oiler [093]: Marble Dagger pins the Lavender Boomerang return path (GUESS).
-- Broomstick Kid [053] with Gigaunit [101]: Mid-Spin Clone position is read by Layer Swap (GUESS).
-- Ghillie [089] with Droner [090]: Drone Pursuit reveals Burlap Warning traps (GUESS).
 - Fuckyea [069] with Challenge [070]: Folded Arms Cloak refuses Pocket Edit pulls (GUESS).
 
 ### Requests

@@ -2,13 +2,13 @@
 The register is maximalist, fad-forward and then some. Two images carry two readings.
 
 ### Rules
-1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Gnome Hunter bumps old tickers (GUESS), Pointing points at everything.
+1. Jokes target observed behavior, each anchored to a character: Boomer follows you since the lobby (GUESS), Pointing points at everything.
 2. Every joke has a setup and a punchline.
 3. Voice is expressive and reactive. Viking reacts by scrolling past. Only the Hot-take initiator screams.
-4. Gags have a lifespan. Forever replays the same loop, Acorn rebrands every week (GUESS), Krazed's monitor cracks once and is folded into the next patch.
-5. Fad vocabulary is the roster's own Trend and Clout terms: Smugcat's squint carries cope, Npc repeats one line (GUESS). Phrases rotate per patch. Two dated platform fads are kept on purpose: Nobody: / Me: (gag 18) and [deleted] (gag 11).
-6. The stock phrases (cope, skill issue, L + markdown, We're so back., F., Cooked.) are the only loaded phrases in announcer lines; the other lines in the table below are neutral. Smugcat and Rageguy voice the loaded ones and aim at the play, a kill, a death or a lane, never at a person.
-7. Every announcer line names the game state it reacts to. Tpose floats with arms locked out and lands; Npc's repeat is cut unless it lands once.
+4. Gags have a lifespan. Forever replays the same loop, a hero rebrands every week (GUESS), and a one-off gag cracks once and is folded into the next patch.
+5. Fad vocabulary is the roster's own Trend and Clout terms: Npc repeats one line (GUESS). Phrases rotate per patch. Two dated platform fads are kept on purpose: Nobody: / Me: (gag 18) and [deleted] (gag 11).
+6. The stock phrases (cope, skill issue, L + markdown, We're so back., F., Cooked.) are the only loaded phrases in announcer lines; the other lines in the table below are neutral. Rageguy voices the loaded ones and aim at the play, a kill, a death or a lane, never at a person.
+7. Every announcer line names the game state it reacts to. Npc's repeat is cut unless it lands once.
 
 ### Gags
 
@@ -18,11 +18,11 @@ The register is maximalist, fad-forward and then some. Two images carry two read
 | 02 | Hand-lettered Stan signs held by buffed creeps, with a different misspelling each match. [GUESS] | Stan and Reach | Zoom or spectator camera | Signs stay. Misspelling rotates. |
 | 03 | Each Resell adds a via tag to the chain. By the fifth link the original is too small to read, but its tag stays legible. [GUESS] | Resell | Chain of 3 or more | Spectator and hover only |
 | 04 | Header: Your stall was marked down, under Howard's WORLD'S BEST mug. Killers listed by name under Killed by. Line: Clout redistributed: 50%. | Markdown | Death | Standard damage table first. |
-| 05 | Hero name followed by a small grey formerly tag, like Helios's mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
+| 05 | Hero name followed by a small grey formerly tag, like a pair of mirror shades hiding the old name. [GUESS] | Rebrand | Rebrand | Death recap or victory screen, at most once per match |
 | 06 | Windows show the padlock and the blinds drop, one slat bent. | Go Private | Activation | Cosmetic. The padlock is the read. |
 | 07 | The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS: a visual gag with no value to source] | The Trend | Kill | Fades on respawn |
 | 08 | A creep sits on grass with eyes shut. A lone tree carries a no signal glyph. [GUESS] | Map edge | Camera at edge | Static and silent |
-| 09 | Item flavor lines in deadpan, voiced like Peanut's motionless concrete (plan/15, Peanut row). | Items | Tooltip hover | Hidden in compact tooltips |
+| 09 | Item flavor lines in deadpan. | Items | Tooltip hover | Hidden in compact tooltips |
 | 10 | A Ticker in your lane banner on the lane you pick, with Based on your activity in small print. [GUESS] | Lane notice | Lane selection | Small print |
 | 11 | Click and hold reveals the losing Stockpile as [deleted], like Disheartened pulling a hand out of a pocket. [GUESS] | Stockpile | End screen | Requires a click. Clean stats view is the default. |
 | 12 | The hero's own shadow stretches toward the Clout bar. [GUESS] | Hype Spike | Activation | Self and allies only. Reduced opacity. |
