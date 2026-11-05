@@ -41,7 +41,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Sweetbrown | Drow Ranger |
 | Willie | Earth Spirit |
 | Smugjak | Elder Titan |
-| Rageguy | Ember Spirit |
 | Cereal | Enchantress |
 | Yao | Enigma |
 | Brian | Huskar |
@@ -530,7 +529,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 027 | Willie | Rock Star |
 | 028 | Chudjak | Hot Take |
 | 029 | Smugjak | Lore Keeper |
-| 030 | Rageguy | Spicy Take |
 | 031 | Cereal | Sweet Talker |
 | 039 | Noscope | Solo Wolf Poster |
 | 040 | Dino | Lighting Director |
@@ -580,7 +578,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
 | 028-chudjak | https://knowyourmeme.com/memes/chudjak |
 | 029-smugjak | https://knowyourmeme.com/memes/smug-wojak |
-| 030-rageguy | https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu |
 | 031-cereal | https://knowyourmeme.com/memes/cereal-guy |
 | 039-noscope | https://knowyourmeme.com/memes/360-noscope |
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |

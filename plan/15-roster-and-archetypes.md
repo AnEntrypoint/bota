@@ -52,7 +52,6 @@ Rules for the roster columns:
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
 | 028 | Chudjak | Bulwark | Int | Melee | Clubs a line of enemies with a rolled manifesto and grows angrier the more of them surround him. |
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |
-| 030 | Rageguy | Firebrand | Agi | Melee | Roots enemies with pulsing temple veins, then dashes through them and leaves a howling wake behind. |
 | 031 | Cereal | Heckler | Agi | Melee | Argues mid-sentence with a tablespoon that hushes a creep while a soggy bowl lets hits slide off. |
 | 039 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
 | 040 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
