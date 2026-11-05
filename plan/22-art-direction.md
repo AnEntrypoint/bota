@@ -69,4 +69,3 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 102 | Disheartened (P4) | Recluse | Crumpled receipt, half out of a pocket | Moss, charcoal | M / L / D |
 | 103 | Pointing (P4) | Heckler | Yellow yardstick held across the chest | Mustard, blue | M / L / D |
 | 106 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |
-| 112 | Scalper (P6) | Archivist | Mountaineering backpack of sealed toy boxes | Sepia, dark | L / D / M |

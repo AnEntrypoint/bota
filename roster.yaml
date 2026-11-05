@@ -211,10 +211,6 @@ roster:
     prompt: "stylized 3d female character, messy black ponytail with loose strands, heavy smudged black eyeliner, tight black velvet choker, oversized black knit cardigan hanging off shoulder, dark denim, black lace fan held open, relaxed disaffected pose, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Scalper"
-    prompt: "stylized 3d character, dark hooded windbreaker with hood pulled tight, oversized mountaineering backpack bursting with sealed retail toy boxes, nervous evasive sideways stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Wanderer"
     reserve: true
     prompt: "stylized 3d character, bright yellow sealed hazmat jumpsuit with crinkled folds, dark reflective helmet visor, handheld boxy vintage VHS camcorder with red recording light, cautious exploratory walk cycle, soft studio key light, neutral background"

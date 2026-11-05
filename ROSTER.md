@@ -1,6 +1,6 @@
-# Roster: 54 heroes from the character set
+# Roster: 53 heroes from the character set
 
-Slot 001-112 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
+Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
 | Slot | Character | Prompt file |
 | --- | --- | --- |
@@ -57,7 +57,6 @@ Slot 001-112 = the character files in order, with gaps where a slot was retired.
 | 102 | Disheartened | characters/102-disheartened.md |
 | 103 | Pointing | characters/103-pointing.md |
 | 106 | Gothgirl | characters/106-gothgirl.md |
-| 112 | Scalper | characters/112-scalper.md |
 
 ## Reserve
 

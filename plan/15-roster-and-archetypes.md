@@ -83,6 +83,5 @@ Rules for the roster columns:
 | 102 | Disheartened | Recluse | Str | Melee | Drags grey gloom across the lane, slowing everything it touches, and finally detonates it in one defeated nova. |
 | 103 | Pointing | Heckler | Str | Ranged | Extends a yardstick long enough to review a target over time, leaving it taking amplified damage from everyone. |
 | 106 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
-| 112 | Scalper | Archivist | Int | Melee | Drops sealed boxes as a rooting snare, and enemies standing nearby are charged a little more every second. |
 
 Reserve (not in the 59): the five slots named at the top of this chapter. Their prompts are in characters.
