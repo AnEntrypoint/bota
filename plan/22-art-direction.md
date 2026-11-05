@@ -51,7 +51,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 049 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
 | 054 | Bot Bernard (P6) | Herald | Vintage chrome studio camera | Soft cyan, burgundy | L / D / M |
 | 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
-| 063 | Tpose (P3) | Phantom | Wireframe grid on the torso (no held prop) | Lavender, neon green | L / D / M |
 | 066 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
 | 067 | Derp (P6) | Recluse | Loosened crooked necktie (worn; no held prop) | Moss, white | L / D / M |
 | 068 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |

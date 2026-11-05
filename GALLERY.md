@@ -1,6 +1,6 @@
 # Gallery
 
-**58 of 58 characters generated.** Every image below opens full size.
+**57 of 57 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -46,7 +46,6 @@
 <figure><a href="gallery/049-ecce.jpg"><img src="gallery/049-ecce.jpg" alt="049 Ecce" loading="lazy"></a><figcaption>049 Ecce</figcaption></figure>
 <figure><a href="gallery/054-bot-bernard.jpg"><img src="gallery/054-bot-bernard.jpg" alt="054 Bot Bernard" loading="lazy"></a><figcaption>054 Bot Bernard</figcaption></figure>
 <figure><a href="gallery/055-shoop.jpg"><img src="gallery/055-shoop.jpg" alt="055 Shoop" loading="lazy"></a><figcaption>055 Shoop</figcaption></figure>
-<figure><a href="gallery/063-tpose.jpg"><img src="gallery/063-tpose.jpg" alt="063 Tpose" loading="lazy"></a><figcaption>063 Tpose</figcaption></figure>
 <figure><a href="gallery/066-npc.jpg"><img src="gallery/066-npc.jpg" alt="066 Npc" loading="lazy"></a><figcaption>066 Npc</figcaption></figure>
 <figure><a href="gallery/067-derp.jpg"><img src="gallery/067-derp.jpg" alt="067 Derp" loading="lazy"></a><figcaption>067 Derp</figcaption></figure>
 <figure><a href="gallery/068-forever.jpg"><img src="gallery/068-forever.jpg" alt="068 Forever" loading="lazy"></a><figcaption>068 Forever</figcaption></figure>

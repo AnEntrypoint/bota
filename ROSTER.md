@@ -1,4 +1,4 @@
-# Roster: 58 heroes from the character set
+# Roster: 57 heroes from the character set
 
 Slot 001-112 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -39,7 +39,6 @@ Slot 001-112 = the character files in order, with gaps where a slot was retired.
 | 049 | Ecce | characters/049-ecce.md |
 | 054 | Bot Bernard | characters/054-bot-bernard.md |
 | 055 | Shoop | characters/055-shoop.md |
-| 063 | Tpose | characters/063-tpose.md |
 | 066 | Npc | characters/066-npc.md |
 | 067 | Derp | characters/067-derp.md |
 | 068 | Forever | characters/068-forever.md |

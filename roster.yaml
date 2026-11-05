@@ -139,10 +139,6 @@ roster:
     prompt: "stylized 3d character, bright sky-blue spherical floating head, enormous thick red cartoon lips opened wide, bulging circular white eyes, spinning bright-cyan plasma sphere charging within oral cavity, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Tpose"
-    prompt: "stylized 3d character, smooth grey untextured low-poly mannequin mesh, arms locked in horizontal rigid cross, floating two inches off floor with no leg animation, glowing neon green wireframe grid lines mapped onto torso, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Npc"
     prompt: "stylized 3d character, flat slate-grey skin, sharp triangular nose, blank unblinking oval eyes with black dots, plain grey short-sleeve polo shirt, rigid upright idle posture with arms hanging straight down, soft studio key light, neutral background"
     aesthetic_refs: []
