@@ -26,7 +26,7 @@
 <figure><a href="gallery/014-karen.jpg"><img src="gallery/014-karen.jpg" alt="014 Karen" loading="lazy"></a><figcaption>014 Karen</figcaption></figure>
 <figure><a href="gallery/015-trevor.jpg"><img src="gallery/015-trevor.jpg" alt="015 Trevor" loading="lazy"></a><figcaption>015 Trevor</figcaption></figure>
 <figure><a href="gallery/016-howard.jpg"><img src="gallery/016-howard.jpg" alt="016 Howard" loading="lazy"></a><figcaption>016 Howard</figcaption></figure>
-<figure><a href="gallery/017-turtlic.jpg"><img src="gallery/017-turtlic.jpg" alt="017 Turtlic" loading="lazy"></a><figcaption>017 Turtlic</figcaption></figure>
+<figure><a href="gallery/017-sanic.jpg"><img src="gallery/017-sanic.jpg" alt="017 Sanic" loading="lazy"></a><figcaption>017 Sanic</figcaption></figure>
 <figure><a href="gallery/018-lankdad.jpg"><img src="gallery/018-lankdad.jpg" alt="018 Lankdad" loading="lazy"></a><figcaption>018 Lankdad</figcaption></figure>
 <figure><a href="gallery/019-viking.jpg"><img src="gallery/019-viking.jpg" alt="019 Viking" loading="lazy"></a><figcaption>019 Viking</figcaption></figure>
 <figure><a href="gallery/021-smudge.jpg"><img src="gallery/021-smudge.jpg" alt="021 Smudge" loading="lazy"></a><figcaption>021 Smudge</figcaption></figure>

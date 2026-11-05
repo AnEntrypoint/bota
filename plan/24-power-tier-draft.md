@@ -33,7 +33,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 014 | Karen | Heckler | - | Nearby stun; charge; reflect when hit; line charge ult. |
 | 015 | Trevor | Firebrand | - | Random-target damage, crit heals; ult summons attacking illusions. |
 | 016 | Howard | Archivist | - | Ult is a temporary sanctuary; creep conversion and healing. |
-| 017 | Turtlic | Stalker | - | Stealth while moving is its escape; fire arrows; skeleton ult. |
+| 017 | Sanic | Stalker | - | Stealth while moving is its escape; fire arrows; skeleton ult. |
 | 018 | Lankdad | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
 | 019 | Viking | Herald | - | Area damage and slow; root with damage over time; area nuke ult. |
 | 020 | Charging Carl | Firebrand | - | Dash, approach damage, point pull; ult copy wall blocks path. |

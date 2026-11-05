@@ -45,7 +45,7 @@ Rules for the roster columns:
 | 014 | Karen | Heckler | Int | Ranged | Demands the manager by charging every enemy in a line, and bounces hits back with an endless receipt. |
 | 015 | Trevor | Firebrand | Int | Melee | Smashes whoever is nearest with drywall knuckles and calls a skate crew that grinds the nearest wall. |
 | 016 | Howard | Archivist | Str | Melee | Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides. |
-| 017 | Turtlic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
+| 017 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
 | 018 | Lankdad | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
 | 019 | Viking | Herald | Str | Melee | Sips from a half-full water bottle to restore allies' sigma, and each march step stomps the ground around him. |
 | 021 | Smudge | Leash | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |

@@ -19,7 +19,7 @@ Slot 001-112 = the character files in order, with gaps where a slot was retired.
 | 014 | Karen | characters/014-karen.md |
 | 015 | Trevor | characters/015-trevor.md |
 | 016 | Howard | characters/016-howard.md |
-| 017 | Turtlic | characters/017-turtlic.md |
+| 017 | Sanic | characters/017-sanic.md |
 | 018 | Lankdad | characters/018-lankdad.md |
 | 019 | Viking | characters/019-viking.md |
 | 021 | Smudge | characters/021-smudge.md |

@@ -31,7 +31,7 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 014 | Karen (P3) | Heckler | Endless accordion-folded receipt | Mustard, pastel pink | L / D / M |
 | 015 | Trevor (P3) | Firebrand | Two shattered drywall slabs held as knuckles | Ember, white-hot | L / D / M |
 | 016 | Howard (P1) | Archivist | White ceramic mug, WORLD'S BEST | Sepia, pale | L / D / M |
-| 017 | Turtlic (P1) | Stalker | Running lean (no held prop) | Slate, electric blue | L / D / M |
+| 017 | Sanic (P1) | Stalker | Running lean (no held prop) | Slate, electric blue | L / D / M |
 | 018 | Lankdad (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
 | 019 | Viking (P4) | Herald | Half-full clear water bottle | Soft cyan, steel | L / D / M |
 | 021 | Smudge (P1) | Leash | Open-palm gestures (no held prop) | Rose, grey | L / D / M |

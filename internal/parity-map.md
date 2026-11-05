@@ -895,7 +895,7 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 | Chungus | Chonky Hop | 002 |
 | Kyle | Trevor | 015 |
 | Harold | Howard | 016 |
-| Sanic | Turtlic | 017 |
+| Sanic | Sanic | 017 |
 | Slender | Lankdad | 018 |
 | Leeroy | Charging Carl | 020 |
 | Boxxy | Smudge | 021 |
