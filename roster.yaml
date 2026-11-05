@@ -8,6 +8,7 @@ roster:
     aesthetic_refs: []
 
   - name: "Gigachad"
+    reserve: true
     prompt: "stylized 3d character, hyper-symmetrical chiseled facial features, dark designer stubble, monolithic anatomical musculature, wearing only dark minimalist swim briefs, greyscale monochrome shader palette, carved marble proportions, soft studio key light, neutral background"
     aesthetic_refs: []
 

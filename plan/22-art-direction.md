@@ -1,6 +1,6 @@
 # 22. Art direction
 
-Visual direction for the 59 heroes (kept characters from characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
+Visual direction for the 26 active heroes (kept characters from characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
 
 ## Rules used in every table
 

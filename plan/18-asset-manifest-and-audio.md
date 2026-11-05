@@ -1,7 +1,7 @@
 # 18. Asset manifest and audio
 
 Counts and sizes in this chapter are UNVERIFIED until the asset list is built.
-Launch counts assume 24 heroes and four abilities each. Full-roster counts (59 heroes) are in brackets.
+Launch counts assume 6 heroes and four abilities each. Full-roster counts (26 active heroes) are in brackets.
 
 ### Heroes
 
@@ -19,10 +19,10 @@ Launch counts assume 24 heroes and four abilities each. Full-roster counts (59 h
 
 | Asset | Launch \[Full\] | Format |
 | --- | --- | --- |
-| Ability icons | 96 \[448\] | 128 × 128 PNG |
-| Cast VFX | 96 \[448\] | Particle, 512² flipbook |
-| Impact VFX | 96 \[448\] | Particle, peak 0.4 s or less |
-| Ground telegraphs (about 40% of abilities) | About 38 \[about 180\] | Team-colored decal |
+| Ability icons | 24 \[104\] | 128 × 128 PNG |
+| Cast VFX | 24 \[104\] | Particle, 512² flipbook |
+| Impact VFX | 24 \[104\] | Particle, peak 0.4 s or less |
+| Ground telegraphs (about 40% of abilities) | About 10 \[about 42\] | Team-colored decal |
 | Mechanic status icons | 9 | 64 × 64 |
 | Kill streak readout | 1 | Number on the Clout bar, not an icon |
 | Generic status icons | 12 | 64 × 64 |
@@ -116,4 +116,4 @@ Item icon style: one object, ¾ top-down view, three value groups, warm key ligh
 
 ### Totals (launch)
 
-Heroes 528. Hero voice 1,440. Abilities 326. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 34 screen and element units, including 24 loading dioramas, and about 700 strings. Audio, non-voice 103. Total about 3,000 assets and about 700 strings. Counts are estimates until the asset list is locked.
+Heroes 132. Hero voice 360. Abilities 82. Status icons 29. Items about 100. Neutrals and objectives 35. Map about 160. Creeps 210. Interface 16 screen and element units, including 6 loading dioramas, and about 700 strings. Audio, non-voice 103. Total about 1,230 assets and about 700 strings. Counts are estimates until the asset list is locked.

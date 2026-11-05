@@ -1,6 +1,6 @@
 # Gallery
 
-**26 of 27 characters generated.** Every image below opens full size.
+**27 of 27 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -34,6 +34,7 @@
 <figure><a href="gallery/055-shoop.jpg"><img src="gallery/055-shoop.jpg" alt="055 Shoop" loading="lazy"></a><figcaption>055 Shoop</figcaption></figure>
 <figure><a href="gallery/066-npc.jpg"><img src="gallery/066-npc.jpg" alt="066 Npc" loading="lazy"></a><figcaption>066 Npc</figcaption></figure>
 <figure><a href="gallery/068-forever.jpg"><img src="gallery/068-forever.jpg" alt="068 Forever" loading="lazy"></a><figcaption>068 Forever</figcaption></figure>
+<figure><a href="gallery/076-cole.jpg"><img src="gallery/076-cole.jpg" alt="076 Cole" loading="lazy"></a><figcaption>076 Cole</figcaption></figure>
 <figure><a href="gallery/077-grey.jpg"><img src="gallery/077-grey.jpg" alt="077 Grey" loading="lazy"></a><figcaption>077 Grey</figcaption></figure>
 <figure><a href="gallery/089-ghillie.jpg"><img src="gallery/089-ghillie.jpg" alt="089 Ghillie" loading="lazy"></a><figcaption>089 Ghillie</figcaption></figure>
 <figure><a href="gallery/106-gothgirl.jpg"><img src="gallery/106-gothgirl.jpg" alt="106 Gothgirl" loading="lazy"></a><figcaption>106 Gothgirl</figcaption></figure>
@@ -41,4 +42,4 @@
 
 ## Pending
 
-Not generated yet: 076.
+Not generated yet: none.

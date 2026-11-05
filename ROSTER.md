@@ -1,4 +1,4 @@
-# Roster: 27 heroes from the character set
+# Roster: 26 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -6,7 +6,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | --- | --- | --- |
 | 001 | Neckbeard | characters/001-neckbeard.md |
 | 003 | Chad | characters/003-chad.md |
-| 004 | Gigachad | characters/004-gigachad.md |
 | 005 | Wojak | characters/005-wojak.md |
 | 008 | Bloomer | characters/008-bloomer.md |
 | 009 | Tradwife | characters/009-tradwife.md |
@@ -34,6 +33,7 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 
 ## Reserve
 
+- Gigachad (characters/004-gigachad.md)
 - Wanderer (characters/113-wanderer.md)
 - Raker (characters/114-raker.md)
 - Seeder (characters/115-seeder.md)

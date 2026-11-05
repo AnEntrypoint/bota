@@ -2,12 +2,7 @@
 
 ## Card
 
-- Role family: Bulwark
-- Role: Reach tank, initiator
-- Attribute: Agi
-- Range: Melee
-- Distinct prop: Swim briefs (worn; no held prop)
-- Value groups (body / head / prop): L / D / M
+- Status: reserve. No role family, attribute or prop until promoted (plan/15).
 
 ## Subject
 

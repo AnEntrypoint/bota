@@ -1,6 +1,6 @@
 # 15. Roster and role families
 
-59 heroes across twelve gameplay role families. Roster slots are the kept characters in INDEX.tsv order, with gaps where a slot was retired. Reserve 113 to 117 (Wanderer, Raker, Seeder, Wartrucker, Bouncer) has no role family or attribute until promoted. Each row gives the character, role family, attribute, range and a signature gag taken from the character prompt. The old archetype names are kept in the last column of the family table only.
+26 active heroes across twelve gameplay role families. Roster slots are the kept characters in INDEX.tsv order, with gaps where a slot was retired. Reserve 004 (Gigachad, Chad's ultimate) and 113 to 117 (Wanderer, Raker, Seeder, Wartrucker, Bouncer) have no role family or attribute until promoted; Gigachad's row is kept as the source for Chad's ultimate. Each row gives the character, role family, attribute, range and a signature gag taken from the character prompt. The old archetype names are kept in the last column of the family table only.
 
 ### Role families
 
