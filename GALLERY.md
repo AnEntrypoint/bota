@@ -1,6 +1,6 @@
 # Gallery
 
-**64 of 112 characters generated.** Every image below opens full size.
+**65 of 112 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -34,6 +34,7 @@
 <figure><a href="gallery/024-wobble-pal.jpg"><img src="gallery/024-wobble-pal.jpg" alt="024 Wobble Pal" loading="lazy"></a><figcaption>024 Wobble Pal</figcaption></figure>
 <figure><a href="gallery/027-willie.jpg"><img src="gallery/027-willie.jpg" alt="027 Willie" loading="lazy"></a><figcaption>027 Willie</figcaption></figure>
 <figure><a href="gallery/028-chudjak.jpg"><img src="gallery/028-chudjak.jpg" alt="028 Chudjak" loading="lazy"></a><figcaption>028 Chudjak</figcaption></figure>
+<figure><a href="gallery/029-smugjak.jpg"><img src="gallery/029-smugjak.jpg" alt="029 Smugjak" loading="lazy"></a><figcaption>029 Smugjak</figcaption></figure>
 <figure><a href="gallery/030-rageguy.jpg"><img src="gallery/030-rageguy.jpg" alt="030 Rageguy" loading="lazy"></a><figcaption>030 Rageguy</figcaption></figure>
 <figure><a href="gallery/031-cereal.jpg"><img src="gallery/031-cereal.jpg" alt="031 Cereal" loading="lazy"></a><figcaption>031 Cereal</figcaption></figure>
 <figure><a href="gallery/039-noscope.jpg"><img src="gallery/039-noscope.jpg" alt="039 Noscope" loading="lazy"></a><figcaption>039 Noscope</figcaption></figure>
@@ -79,4 +80,4 @@
 
 ## Pending
 
-Not generated yet: 007, 022, 023, 025, 026, 029, 032, 033, 034, 035, 036, 037, 038, 042, 043, 045, 046, 050, 051, 052, 053, 056, 057, 058, 059, 060, 062, 071, 072, 073, 078, 079, 083, 085, 086, 093, 094, 095, 096, 097, 099, 100, 101, 104, 107, 108, 110, 111.
+Not generated yet: 007, 022, 023, 025, 026, 032, 033, 034, 035, 036, 037, 038, 042, 043, 045, 046, 050, 051, 052, 053, 056, 057, 058, 059, 060, 062, 071, 072, 073, 078, 079, 083, 085, 086, 093, 094, 095, 096, 097, 099, 100, 101, 104, 107, 108, 110, 111.
