@@ -148,7 +148,8 @@ for (const e of errors) console.error(`error: ${e}`);
 for (const w of warnings) console.error(`warning: ${w}`);
 if (errors.length) process.exit(1);
 
-const rosterMd = ["# Roster: 112 heroes from the character set", "", "Slot 001-112 = character 001-112 (file order). 113-117 reserve.", "", "| Slot | Character | Prompt file |", "| --- | --- | --- |", ...heroes.filter(h => !h.reserve).map(h => `| ${h.slot} | ${h.name} | characters/${h.file} |`), "", "## Reserve", "", ...heroes.filter(h => h.reserve).map(h => `- ${h.name} (characters/${h.file})`)].join("\n") + "\n";
+const active = heroes.filter(h => !h.reserve);
+const rosterMd = [`# Roster: ${active.length} heroes from the character set`, "", `Slot ${active[0]?.slot}-${active.at(-1)?.slot} = the character files in order, with gaps where a slot was retired. Reserve slots follow.`, "", "| Slot | Character | Prompt file |", "| --- | --- | --- |", ...heroes.filter(h => !h.reserve).map(h => `| ${h.slot} | ${h.name} | characters/${h.file} |`), "", "## Reserve", "", ...heroes.filter(h => h.reserve).map(h => `- ${h.name} (characters/${h.file})`)].join("\n") + "\n";
 const outputs = [
   ["roster.yaml", rosterYaml],
   ["ROSTER.md", rosterMd],

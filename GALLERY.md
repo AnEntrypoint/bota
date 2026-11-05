@@ -1,6 +1,6 @@
 # Gallery
 
-**60 of 112 characters generated.** Every image below opens full size.
+**59 of 59 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -30,7 +30,6 @@
 <figure><a href="gallery/018-lankdad.jpg"><img src="gallery/018-lankdad.jpg" alt="018 Lankdad" loading="lazy"></a><figcaption>018 Lankdad</figcaption></figure>
 <figure><a href="gallery/019-viking.jpg"><img src="gallery/019-viking.jpg" alt="019 Viking" loading="lazy"></a><figcaption>019 Viking</figcaption></figure>
 <figure><a href="gallery/021-smudge.jpg"><img src="gallery/021-smudge.jpg" alt="021 Smudge" loading="lazy"></a><figcaption>021 Smudge</figcaption></figure>
-<figure><a href="gallery/022-earworm.jpg"><img src="gallery/022-earworm.jpg" alt="022 Earworm" loading="lazy"></a><figcaption>022 Earworm</figcaption></figure>
 <figure><a href="gallery/025-finger-dan.jpg"><img src="gallery/025-finger-dan.jpg" alt="025 Finger Dan" loading="lazy"></a><figcaption>025 Finger Dan</figcaption></figure>
 <figure><a href="gallery/027-willie.jpg"><img src="gallery/027-willie.jpg" alt="027 Willie" loading="lazy"></a><figcaption>027 Willie</figcaption></figure>
 <figure><a href="gallery/028-chudjak.jpg"><img src="gallery/028-chudjak.jpg" alt="028 Chudjak" loading="lazy"></a><figcaption>028 Chudjak</figcaption></figure>
@@ -75,4 +74,4 @@
 
 ## Pending
 
-Not generated yet: 007, 020, 023, 024, 026, 032, 033, 034, 035, 036, 037, 038, 045, 046, 048, 050, 051, 052, 053, 056, 057, 058, 059, 060, 062, 064, 065, 072, 073, 078, 079, 080, 081, 083, 085, 086, 090, 091, 093, 094, 095, 096, 099, 100, 101, 104, 105, 107, 108, 109, 110, 111.
+Not generated yet: none.

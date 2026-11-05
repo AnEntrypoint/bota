@@ -2,7 +2,7 @@
 
 [Open the character gallery](GALLERY.md) — every generated character in one grid.
 
-Design docs for the 112-hero roster: characters, kits, mechanics, art, tone and spec.
+Design docs for the 59-hero roster: characters, kits, mechanics, art, tone and spec.
 
 Use the navigation. Numbers and cross-hero hooks marked UNVERIFIED or GUESS are unverified.
 

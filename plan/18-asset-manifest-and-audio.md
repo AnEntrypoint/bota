@@ -1,7 +1,7 @@
 # 18. Asset manifest and audio
 
 Counts and sizes in this chapter are UNVERIFIED until the asset list is built.
-Launch counts assume 24 heroes and four abilities each. Full-roster counts (112 heroes) are in brackets.
+Launch counts assume 24 heroes and four abilities each. Full-roster counts (59 heroes) are in brackets.
 
 ### Heroes
 
