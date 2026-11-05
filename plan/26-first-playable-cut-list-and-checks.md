@@ -9,7 +9,7 @@ The first playable tests what is unique before it tests the classic MOBA basics.
 | Area | In the slice |
 | --- | --- |
 | Map | Short Form layout (section 14): two lanes per side, the river, both bases, one stage camp per side. |
-| Heroes | Six: Grey (Drifter, Ranged nuker), Salad (Drifter, damage and slow), Tricky (Bulwark, sheep control and slow), Coomer (Firebrand, stun and damage), Chonky Hop (Bulwark, slow and damage), Ghillie (Stalker, Assassin, vision denial). |
+| Heroes | Six: Grey (Drifter, Ranged nuker), Salad (Drifter, damage and slow), Viking (Herald, area slow and nuke), Coomer (Firebrand, stun and damage), Chonky Hop (Bulwark, slow and damage), Ghillie (Stalker, Assassin, vision denial). |
 | Clout | Earn, decay, Reach, Hype Spike, Markdown on death with the 200 cap. |
 | Mood | Front Runner, Underdog and Even (section 6). |
 | Events | Breaking News, two events per match (section 12); the slice runs the 18:00 one. |
@@ -28,7 +28,7 @@ Row counts are what the slice needs.
 | File | Rows | Compiles to | Note |
 | --- | --- | --- | --- |
 | `manifest.json` | 1 | pack root | modules, image name, tables, rules file |
-| `heroes.tsv` | 6 | unit rows | Grey, Salad, Tricky, Coomer, Chonky Hop, Ghillie |
+| `heroes.tsv` | 6 | unit rows | Grey, Salad, Viking, Coomer, Chonky Hop, Ghillie |
 | `abilities.tsv` | 24 | ability, SKIL and AXTN rows | four slots each |
 | `items.tsv` | 7 | item rows | Lurker Cam, Spoiler Tag, Anon Mask, Confident Answer, Sticky Note, Ring Light and Drafted Note (Sticky Note and Ring Light build Lurker Cam; Drafted Note and Sticky Note build Spoiler Tag). Rebrand is an action, not an item (section 5). |
 | `modifiers.tsv` | 2 | Lua rule | Cast Rush and Study Tax |
@@ -46,7 +46,7 @@ Code the slice also needs, which is not data: the Clout state machine, Reach, Ma
 
 | Item | v1 | Later | Why |
 | --- | --- | --- | --- |
-| Heroes | 6 | 10 launch, then 30 more (40 active) | Test the mechanics before the roster. |
+| Heroes | 6 | 9 launch, then 30 more (39 active) | Test the mechanics before the roster. |
 | Boosts | Demand Boost, Bounty, Dank Goods (Haste) | Dank Goods (Illusion, Invisibility, Regeneration), Sweat Mode | Fewer boosts make the Clout effects easier to read. |
 | Trend modifiers | 2 | 8 | Compare two before adding more. |
 | Talents | None | Full sets from section 21 | Power growth comes after the base kits are tested. |

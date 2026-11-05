@@ -13,7 +13,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (40 active heroes)
+## 1. Table (39 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
@@ -42,7 +42,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 040 | Dino | Bulwark | - | Beam, area blind, sigma restore; ult fast flight, heals on pass. |
 | 041 | Fuuuu | Recluse | - | Stun wave, strike and slow, marking; ult sails through enemies. |
 | 044 | Salad | Drifter | - | Damage and slow, armor-slow aura, chain bounce; ult takes a creep. |
-| 047 | Tricky | Bulwark | FLAG | Sheep transform has no stated timer; slow, drain, source ult. |
 | 049 | Ecce | Archivist | - | Stun, bounce blade, nearby aura; ult repeated light rays. |
 | 054 | Bot Bernard | Herald | - | Line stun, leap with attack speed, ally shadow; ult damages all nearby. |
 | 055 | Shoop | Drifter | - | Dash strike, stat-scaled damage, stat swap; ult copies enemy ability. |
@@ -60,8 +59,8 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 10 launch kits (section 9), 30 remaining kits (section 10). All 40 active heroes matched by slot.
-- Flags: 6. Global 1 (Smugjak 029). Permanent disable 2 (Tricky 047, Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
+- Coverage: 9 launch kits (section 9), 30 remaining kits (section 10). All 39 active heroes matched by slot.
+- Flags: 5. Global 1 (Smugjak 029). Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first
 
@@ -72,4 +71,3 @@ Timer passes stay at or below 3 s and stack passes at or below 10 (UNVERIFIED), 
 3. Npc (066): more illusions with no cap stated, plus a blink. Measure illusions alive over time and their total damage. Pass: illusions alive at once stay at or below 4 (UNVERIFIED).
 4. Forever (068): ult stun has no timer. Measure the longest stun and whether target death or clip end ends it. Pass: the longest stun stays at or below 3 s (GUESS: a stun past three seconds stops reading as a tempo break; the balance pass sets it).
 5. Gondola (012): Potato Spit stacks with no cap stated. Measure stacks at fight end and damage per hit taken under the ult. Pass: the stack bound above holds.
-6. Tricky (047): sheep transform has no stated timer. Measure the longest transform. Pass: the timer bound above holds.

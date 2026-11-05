@@ -88,7 +88,7 @@ Written before any match exists. Each row names who a modifier favors, where it 
 | Cooldown Sale | Heroes whose items have short cooldowns | Low: a flat cooldown cut is easy to plan around | Buy before the Trend; pick-rate check C2 in plan/26 |
 | Study Tax | Low-sigma heroes who cast rarely | Medium: the sigma cost is small for them | Sprint Bonus |
 | Sprint Bonus | Aggressive early teams | High: speed rewards an early rush, and the tower damage and cut tower gold are the rusher's cost | Slow the rush; the rusher pays the tower tax |
-| Channel Haste | Channel-heavy heroes (Tricky, Dino) | Medium | Channel-free kits |
+| Channel Haste | Channel-heavy heroes (Dino) | Medium | Channel-free kits |
 | Lounge Discount | Teams that base often | Medium: cheaper items at the Spawn Lounge reward base time | The respawn penalty |
 | Demand Tide | Clout-scaling heroes | Medium: rewards safe Clout farming | Force fights; decay eats the lead |
 | Solo Hustle | Assassins and solo laners | High: isolated picks get the damage bonus and a move speed penalty | Group up; the damage bonus turns off |

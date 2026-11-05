@@ -12,7 +12,6 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | --- | --- | --- | --- | --- |
 | Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Hype Spike at 80 Clout / Abduction Count survives death |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
-| Tricky | Stop Sign Citation hits one more target / Hockey Correction +1 s | Curl Drain amplifies damage / Corrected targets lose attack speed | Stop Sign Citation slows +20% / Octagon Source +200 damage | Attacks on casters deal bonus damage / One correction per fight costs no sigma |
 | Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Sigma regen doubles below 50% sigma |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
 | Viking | Mead Clink slows +10% / Hammer Hold +1 s | Hydrate or Diedrate +1 sigma regen / Ragnarok March cooldown −15 s | Mead Clink leaves a puddle / Hammer Hold deals +50% damage | Ragnarok March fires on every second cast / Mead Clink hits heroes below 50% HP for +10% |
@@ -118,7 +117,6 @@ Each of these heroes has one rule that makes its kit read differently on the map
 | Hero | Signature mechanic | Clout tie | Job (plan/02 row) |
 | --- | --- | --- | --- |
 | Boomer | Tracked Lawn marks a target; its LIVE state shows to the whole team with the standard LIVE dot and ring. | Vision | Vision and wards |
-| Tricky | Octagon Source casts only while one ally on its team is LIVE. | Vision | Support tether |
 | Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach | Vision and wards |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach | Vision and wards |
 | Viking | When a rooted target dies, the root jumps to the nearest enemy hero within 300. | None | Disable duration |

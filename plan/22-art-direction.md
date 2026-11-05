@@ -42,7 +42,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 040 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
 | 041 | Fuuuu (P4) | Recluse | Hands clutching temples (no held prop) | Moss, pale | L / D / M |
 | 044 | Salad (P4) | Drifter | Three silver spoons between knuckles | Night blue, olive | L / D / M |
-| 047 | Tricky (P5) | Bulwark | Octagonal stop sign on an iron pipe | Grey, decay green | L / D / M |
 | 049 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
 | 054 | Bot Bernard (P6) | Herald | Vintage chrome studio camera | Soft cyan, burgundy | L / D / M |
 | 055 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |

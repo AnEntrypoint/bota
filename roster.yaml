@@ -103,10 +103,6 @@ roster:
     prompt: "stylized 3d character, emaciated olive-green frame, bulbous bald cranium, elongated flexible rubbery fingers, threadbare moth-eaten green knit sweater, three tarnished vintage silver spoons held between knuckles, eerie gentle stance, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Tricky"
-    prompt: "stylized 3d character, mottled decay-green skin, wild frizzy neon-red hair curls, rusted iron hockey faceplate with vertical slits, ragged blue overalls, rusted metal octagonal stop-sign on iron pipe, frenzied hopping stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Ecce"
     prompt: "stylized 3d character, blurred primate-like fresco face with smudged eyes and mouth, thick crude painted halo, textured rough burlap tunic with frayed rope belt, wooden painter's palette with dried paint blobs, soft studio key light, neutral background"
     aesthetic_refs: []

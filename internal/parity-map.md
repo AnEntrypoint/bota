@@ -9,7 +9,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Grey | Shadow Fiend |
 | Boomer | Bounty Hunter |
 | Disaster | Invoker |
-| Tricky | Lion |
 | Gigachad | Anti-Mage |
 | Noscope | Juggernaut |
 | Viking | Crystal Maiden |
@@ -82,10 +81,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Disaster | Off the Record | Ghost Walk |
 | Disaster | Wall of Text | Ice Wall |
 | Disaster | Devilish Smirk | Sun Strike |
-| Tricky | Citation Needed | Earth Spike |
-| Tricky | Hard Correction | Hex |
-| Tricky | Drain Thread | Mana Drain |
-| Tricky | Source? | Finger of Death |
 | Gigachad | Rebuttal | Mana Break |
 | Gigachad | Quick Reply | Blink |
 | Gigachad | Block Button | Spell Shield |
@@ -532,7 +527,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 040 | Dino | Lighting Director |
 | 041 | Fuuuu | Captain Obvious |
 | 044 | Salad | Tenured Lich |
-| 047 | Tricky | Well Actually |
 | 049 | Ecce | Moonlight Creator |
 | 054 | Tay | Moonlight Fan |
 | 055 | Shoop | Glow-Up |
@@ -579,7 +573,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 040-dino | https://knowyourmeme.com/memes/the-chrome-dinosaur |
 | 041-fuuuu | https://knowyourmeme.com/memes/rage-guy-fffffuuuuuuuu |
 | 044-salad | https://knowyourmeme.com/memes/subcultures/salad-fingers |
-| 047-tricky | https://knowyourmeme.com/memes/tricky-the-clown-tiky |
 | 049-ecce | https://commons.wikimedia.org/wiki/File:Elias_Garcia_Martinez_-_Ecce_Homo.jpg |
 | 054-tay | https://knowyourmeme.com/memes/chocolate-rain |
 | 055-shoop | https://knowyourmeme.com/memes/shoop-da-whoop-imma-firin-mah-lazor |
