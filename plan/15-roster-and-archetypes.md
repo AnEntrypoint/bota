@@ -46,8 +46,6 @@ Rules for the roster columns:
 | 016 | Howard | Archivist | Str | Melee | Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides. |
 | 017 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
 | 018 | Lankdad | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
-| 019 | Viking | Herald | Str | Melee | Sips from a half-full water bottle to restore allies' sigma, and each march step stomps the ground around him. |
-| 021 | Smudge | Leash | Str | Melee | Bleeds enemies with running eyeliner, then lets an oversized sweater slip off a shoulder to save an ally from death. |
 | 025 | Finger Dan | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast. |
 | 027 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
 | 029 | Smugjak | Showboat | Str | Melee | Reads a citation aloud to cut nearby armour, then splits the ground with hands clasped behind his back. |

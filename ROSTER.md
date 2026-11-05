@@ -1,4 +1,4 @@
-# Roster: 37 heroes from the character set
+# Roster: 35 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -20,8 +20,6 @@ Slot 001-106 = the character files in order, with gaps where a slot was retired.
 | 016 | Howard | characters/016-howard.md |
 | 017 | Sanic | characters/017-sanic.md |
 | 018 | Lankdad | characters/018-lankdad.md |
-| 019 | Viking | characters/019-viking.md |
-| 021 | Smudge | characters/021-smudge.md |
 | 025 | Finger Dan | characters/025-finger-dan.md |
 | 027 | Willie | characters/027-willie.md |
 | 029 | Smugjak | characters/029-smugjak.md |

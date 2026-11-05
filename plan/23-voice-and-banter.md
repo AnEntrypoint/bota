@@ -36,8 +36,6 @@ Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the 
 | Boomer (Heckler) | Correction: across the lawn, then here, per the log. | Citation on file: the sun got me. | Weedwhacker idling. Logged, right behind you. |
 | Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
 | Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
-| Viking (Herald) | Palm raised. Scrolled past. Next. | Dehydrated, unlike my bank account. Lecture cut short. | Marching in place. Drink water, friend. |
-| Smudge (Leash) | Seen it. Seen you. Seen all of it. | Chain snapped. Read, never replied. | Hands mid-gesture, reply pending. |
 | Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
 | Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
 | Forever (Recluse) | Nice one. Sleep it off. | Crawling back to the start. | Loop again. Charming yet? |

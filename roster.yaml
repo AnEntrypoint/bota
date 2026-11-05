@@ -63,14 +63,6 @@ roster:
     prompt: "stylized 3d character, featureless blank white oval face with no eyes or mouth, ultra-tall elongated black two-piece funeral suit, narrow crimson necktie, glossy black dress shoes, writhing black tendrils emerging from upper spine, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Viking"
-    prompt: "stylized 3d character, lean defined muscular physique, tight pale skin, braided blonde beard, silver hammer pendant, bare chest, rugged dark utility pants tucked into black combat boots, raised authoritative open palm, half-full clear plastic water bottle, rhythmic march stance, soft studio key light, neutral background"
-    aesthetic_refs: []
-
-  - name: "Smudge"
-    prompt: "stylized 3d female character, massive side-swept feathered black emo hair, heavy thick black eyeliner wings, oversized grey thrift-store knit sweater falling off one shoulder, silver ball-chain necklace, animated open-palm hand gestures, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Finger Dan"
     prompt: "stylized 3d character, bright crimson silk bandana tied low across brow, ribbed black athletic tank top, gold chain necklace, accusatory outstretched arm with pointed index finger, expressive sideways leaning posture, soft studio key light, neutral background"
     aesthetic_refs: []

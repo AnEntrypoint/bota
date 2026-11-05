@@ -11,7 +11,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Disaster | Invoker |
 | Gigachad | Anti-Mage |
 | Noscope | Juggernaut |
-| Viking | Crystal Maiden |
 | Boxxy | Dazzle |
 | Tank, initiator | Tidehunter |
 | Starwarskid | Meepo |
@@ -86,10 +85,6 @@ Original names for parity work only. A key that a shipped file uses is its curre
 | Sigma Wanderer | Get Well Soon | Healing Ward |
 | Sigma Wanderer | Crit Happens | Blade Dance |
 | Sigma Wanderer | Doomscroll | Omnislash |
-| Viking | Viking | Crystal Nova |
-| Viking | Hold Still | Frostbite |
-| Viking | Dark Mode Aura | Arcane Aura |
-| Viking | Load More | Freezing Field |
 | Boxxy | Seen Receipt | Poison Touch |
 | Boxxy | Close Friends Only | Shallow Grave |
 | Boxxy | Push Healer, buffer | Shadow Wave |
@@ -510,8 +505,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 016 | Harold | Hall Monitor |
 | 017 | Sanic | Skeleton Account |
 | 018 | Slender | Deadline Bot |
-| 019 | Viking | Frost Feed |
-| 021 | Boxxy | Read Receipt |
 | 025 | Dodson | Dragon Admin |
 | 027 | Willie | Rock Star |
 | 029 | Smugjak | Lore Keeper |
@@ -553,8 +546,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | 016-harold | https://knowyourmeme.com/memes/hide-the-pain-harold |
 | 017-sanic | https://knowyourmeme.com/memes/sanic-hegehog |
 | 018-slender | https://en.wikipedia.org/wiki/Slender_Man |
-| 019-viking | https://en.wikipedia.org/wiki/Techno_Viking |
-| 021-boxxy | https://knowyourmeme.com/memes/boxxy |
 | 025-dodson | https://knowyourmeme.com/memes/antoine-dodson-bed-intruder |
 | 027-willie | https://knowyourmeme.com/memes/steamboat-willie |
 | 029-smugjak | https://knowyourmeme.com/memes/smug-wojak |
@@ -631,6 +622,5 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 | Harold | Howard | 016 |
 | Sanic | Sanic | 017 |
 | Slender | Lankdad | 018 |
-| Boxxy | Smudge | 021 |
 | Dodson | Finger Dan | 025 |
 | Tay | Bot Bernard | 054 |
