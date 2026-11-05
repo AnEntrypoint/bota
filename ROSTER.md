@@ -1,4 +1,4 @@
-# Roster: 55 heroes from the character set
+# Roster: 54 heroes from the character set
 
 Slot 001-112 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
@@ -9,7 +9,6 @@ Slot 001-112 = the character files in order, with gaps where a slot was retired.
 | 003 | Chad | characters/003-chad.md |
 | 004 | Gigachad | characters/004-gigachad.md |
 | 005 | Wojak | characters/005-wojak.md |
-| 006 | Soyjak | characters/006-soyjak.md |
 | 008 | Bloomer | characters/008-bloomer.md |
 | 009 | Tradwife | characters/009-tradwife.md |
 | 010 | Boomer | characters/010-boomer.md |

@@ -21,7 +21,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | 003 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Gold, emerald | L / D / M |
 | 004 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
 | 005 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |
-| 006 | Soyjak (P1) | Herald | Gaping mouth (no held prop) | Soft cyan, yellow | L / D / M |
 | 008 | Bloomer (P2) | Herald | Pastel windbreaker zip (worn; no held prop) | Soft cyan, pastel yellow | L / D / M |
 | 009 | Tradwife (P3) | Herald | Braided brioche loaf in oven mitts | Sky blue, cream | L / D / M |
 | 010 | Boomer (P2) | Heckler | Pull-cord gas weedwhacker at the hip | Mustard, khaki | L / D / M |

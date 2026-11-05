@@ -19,10 +19,6 @@ roster:
     prompt: "stylized 3d character, stark white bald cranium, simple expressive ink-etched facial contours, downcast sorrowful hollow eyes, slumped defeated posture, faded matte olive turtleneck pullover, wrinkled baggy trousers, hand-painted textures, soft studio key light, neutral background"
     aesthetic_refs: []
 
-  - name: "Soyjak"
-    prompt: "stylized 3d character, gaping unhinged oval mouth showing tongue and teeth, circular wire-rim glasses, patchy thin chin stubble, raised arched eyebrows, plain yellow crewneck shirt, enthusiastic forward lean, hand-painted stylized textures, soft studio key light, neutral background"
-    aesthetic_refs: []
-
   - name: "Bloomer"
     prompt: "stylized 3d character, wide earnest smile, bright clear eyes, healthy posture, pastel yellow windbreaker zipped to neck, pristine light-wash denim jeans, spotless white running shoes, hand-painted stylized textures, soft studio key light, neutral background"
     aesthetic_refs: []

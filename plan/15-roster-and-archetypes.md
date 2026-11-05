@@ -35,7 +35,6 @@ Rules for the roster columns:
 | 003 | Chad | Showboat | Str | Melee | Freezes enemies with one glance at the jaw, and for five seconds the pompadour disarms everyone in range. |
 | 004 | Gigachad | Bulwark | Agi | Melee | Silent marble statue that crosses the map in one unbroken stride and hits harder as his sigma empties. |
 | 005 | Wojak | Recluse | Str | Melee | Sighs at the clouds until every enemy in range turns on him, then finishes anyone already low on health. |
-| 006 | Soyjak | Herald | Str | Melee | Gapes until a target falls asleep, while the plain yellow shirt is so unremarkable that enemy damage sags. |
 | 008 | Bloomer | Herald | Agi | Melee | Blinds nearby enemies with a wholesome smile, then sends a boar in a pastel windbreaker to charge them. |
 | 009 | Tradwife | Herald | Int | Melee | Swats enemies with warm brioche that hurts more the farther they walk, while apron strings speed her attacks. |
 | 010 | Boomer | Heckler | Agi | Melee | Turns invisible behind blue-mirror sunglasses until he swings, then collects gold for every grass stain left on enemies. |

@@ -1,6 +1,6 @@
 # Gallery
 
-**55 of 55 characters generated.** Every image below opens full size.
+**54 of 54 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -16,7 +16,6 @@
 <figure><a href="gallery/003-chad.jpg"><img src="gallery/003-chad.jpg" alt="003 Chad" loading="lazy"></a><figcaption>003 Chad</figcaption></figure>
 <figure><a href="gallery/004-gigachad.jpg"><img src="gallery/004-gigachad.jpg" alt="004 Gigachad" loading="lazy"></a><figcaption>004 Gigachad</figcaption></figure>
 <figure><a href="gallery/005-wojak.jpg"><img src="gallery/005-wojak.jpg" alt="005 Wojak" loading="lazy"></a><figcaption>005 Wojak</figcaption></figure>
-<figure><a href="gallery/006-soyjak.jpg"><img src="gallery/006-soyjak.jpg" alt="006 Soyjak" loading="lazy"></a><figcaption>006 Soyjak</figcaption></figure>
 <figure><a href="gallery/008-bloomer.jpg"><img src="gallery/008-bloomer.jpg" alt="008 Bloomer" loading="lazy"></a><figcaption>008 Bloomer</figcaption></figure>
 <figure><a href="gallery/009-tradwife.jpg"><img src="gallery/009-tradwife.jpg" alt="009 Tradwife" loading="lazy"></a><figcaption>009 Tradwife</figcaption></figure>
 <figure><a href="gallery/010-boomer.jpg"><img src="gallery/010-boomer.jpg" alt="010 Boomer" loading="lazy"></a><figcaption>010 Boomer</figcaption></figure>
