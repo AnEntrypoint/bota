@@ -17,7 +17,6 @@ Visual direction for the 59 heroes (kept characters from characters). Each row t
 | # | Hero | Role | Distinct prop | Accent shift | Value groups (body / head / prop) |
 | --- | --- | --- | --- | --- | --- |
 | 001 | Neckbeard (P1) | Heckler | Round wire-rim glasses (worn; no held prop) | Mustard, dingy | L / D / M |
-| 002 | Chonky Hop (P1) | Bulwark | Suspenders (worn; no held prop) | Grey, soft | L / D / M |
 | 003 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Gold, emerald | L / D / M |
 | 004 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
 | 005 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |

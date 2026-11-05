@@ -13,12 +13,11 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (31 active heroes)
+## 1. Table (30 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
 | 001 | Neckbeard | Heckler | - | Ult makes an ally untargetable; otherwise shield, heal, slow. |
-| 002 | Chonky Hop | Bulwark | - | Slow and damage; team stat boost; ult gold per kill, timed. |
 | 003 | Chad | Showboat | - | Ult replays the next death after a delay; frost slow, stun mark. |
 | 005 | Wojak | Recluse | - | Taunt, slow, reflect, threshold kill; no global, stacking or escape. |
 | 008 | Bloomer | Herald | - | Stun and slow; hawk and boar summons; ult rallies allies. |
@@ -51,7 +50,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 25 remaining kits (section 10). All 31 active heroes matched by slot.
+- Coverage: 6 launch kits (section 9), 24 remaining kits (section 10). All 30 active heroes matched by slot.
 - Flags: 4. Permanent disable 1 (Forever 068). Uncapped stacking 3 (Gondola 012, Spurdo 013, Npc 066).
 
 ## 3. Test first

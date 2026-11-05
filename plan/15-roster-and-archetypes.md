@@ -31,7 +31,6 @@ Rules for the roster columns:
 | # | Character | Role family | Attr | Range | Signature gag |
 | --- | --- | --- | --- | --- | --- |
 | 001 | Neckbeard | Heckler | Str | Melee | Soaks the first hit for an ally in a greasy taco shirt, then banishes a friend to a basement that sandal socks make unbearable. |
-| 002 | Chonky Hop | Bulwark | Str | Melee | Lands belly-first on a target, then naps through one cooldown and swaps it into another. |
 | 003 | Chad | Showboat | Str | Melee | Freezes enemies with one glance at the jaw, and for five seconds the pompadour disarms everyone in range. |
 | 004 | Gigachad | Bulwark | Agi | Melee | Silent marble statue that crosses the map in one unbroken stride and hits harder as his sigma empties. |
 | 005 | Wojak | Recluse | Str | Melee | Sighs at the clouds until every enemy in range turns on him, then finishes anyone already low on health. |

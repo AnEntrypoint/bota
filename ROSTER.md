@@ -1,11 +1,10 @@
-# Roster: 32 heroes from the character set
+# Roster: 31 heroes from the character set
 
 Slot 001-106 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
 
 | Slot | Character | Prompt file |
 | --- | --- | --- |
 | 001 | Neckbeard | characters/001-neckbeard.md |
-| 002 | Chonky Hop | characters/002-chonky-hop.md |
 | 003 | Chad | characters/003-chad.md |
 | 004 | Gigachad | characters/004-gigachad.md |
 | 005 | Wojak | characters/005-wojak.md |

@@ -487,7 +487,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | Slot | Hero | Former name |
 | --- | --- | --- |
 | 001 | Neckbeard | Appeals Court |
-| 002 | Chungus | Growth Hacker |
 | 003 | Chad | Old Forum Poster |
 | 004 | Gigachad | Debate Bro |
 | 005 | Wojak | Yell at Clouds |
@@ -525,7 +524,6 @@ Coffee = Cheese. Chat Check = Scan. Snapshot = Aegis. The Trend = Roshan. Pro Pl
 | --- | --- |
 | 001-neckbeard | https://knowyourmeme.com/memes/neckbeard |
 | 001-neckbeard | https://github.com/DietrichGebert/ponytail/raw/main/assets/logo.png |
-| 002-chungus | https://knowyourmeme.com/memes/big-chungus |
 | 003-chad | https://knowyourmeme.com/memes/yes-chad |
 | 004-gigachad | https://knowyourmeme.com/memes/gigachad |
 | 005-wojak | https://knowyourmeme.com/memes/wojak |
@@ -608,7 +606,6 @@ Shipped text carries the new labels; the old ones stay here for the record (plan
 
 | Old label | New label | Slot |
 | --- | --- | --- |
-| Chungus | Chonky Hop | 002 |
 | Kyle | Trevor | 015 |
 | Harold | Howard | 016 |
 | Sanic | Sanic | 017 |

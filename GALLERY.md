@@ -1,6 +1,6 @@
 # Gallery
 
-**31 of 32 characters generated.** Every image below opens full size.
+**30 of 31 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -12,7 +12,6 @@
 
 <div class="gal">
 <figure><a href="gallery/001-neckbeard.jpg"><img src="gallery/001-neckbeard.jpg" alt="001 Neckbeard" loading="lazy"></a><figcaption>001 Neckbeard</figcaption></figure>
-<figure><a href="gallery/002-chonky-hop.jpg"><img src="gallery/002-chonky-hop.jpg" alt="002 Chonky Hop" loading="lazy"></a><figcaption>002 Chonky Hop</figcaption></figure>
 <figure><a href="gallery/003-chad.jpg"><img src="gallery/003-chad.jpg" alt="003 Chad" loading="lazy"></a><figcaption>003 Chad</figcaption></figure>
 <figure><a href="gallery/004-gigachad.jpg"><img src="gallery/004-gigachad.jpg" alt="004 Gigachad" loading="lazy"></a><figcaption>004 Gigachad</figcaption></figure>
 <figure><a href="gallery/005-wojak.jpg"><img src="gallery/005-wojak.jpg" alt="005 Wojak" loading="lazy"></a><figcaption>005 Wojak</figcaption></figure>
