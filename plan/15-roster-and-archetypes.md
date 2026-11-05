@@ -71,7 +71,6 @@ Rules for the roster columns:
 | 069 | Fuckyea | Showboat | Agi | Melee | Hooks and pulls targets from behind sunglasses while hands stay in pockets, growing smugger with every kill. |
 | 070 | Challenge | Leash | Agi | Melee | Folds arms to make an ally untargetable, then drains an enemy into them out of sheer resolve. |
 | 071 | Hipster | Herald | Agi | Melee | Teleports with a scarf flourish and scalds foes with a hot teapot pour that keeps burning after the first hit. |
-| 074 | Flatearth | Archivist | Str | Melee | Lifts and throws enemies with a spirit level, then copies their spells onto a flat map. |
 | 075 | Deepfried | Drifter | Int | Ranged | Burrows through the ground with red lens flares blasting from the eyes, leaving blinding waves of repeated damage. |
 | 076 | Glitch | Phantom | Str | Ranged | Holds an enemy in place and copies its image through red, green and blue offset layers. |
 | 077 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
