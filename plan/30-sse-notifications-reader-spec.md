@@ -1,6 +1,6 @@
 # 30. SSE notifications reader: read-only spec
 
-Status: spec only. No code is written and nothing is committed to gm. The gm change waits for the folio commit (plan/29, debt item 2). Sources: `/workspace/savi/.spawn/agent-interface.md` (the endpoint line and the chat section) and the spawn CLI `spawn events --kind chat_mention`, named in the same doc.
+Status: spec, with the stream type verified live (see Event framing). Reader code is not built. No code is written and nothing is committed to gm. The gm change waits for the folio commit (plan/29, debt item 2). Sources: `/workspace/savi/.spawn/agent-interface.md` (the endpoint line and the chat section) and the spawn CLI `spawn events --kind chat_mention`, named in the same doc.
 
 ## Endpoint
 
@@ -8,7 +8,9 @@ Status: spec only. No code is written and nothing is committed to gm. The gm cha
 - The `kind` query narrows the stream. `chat_mention` is the kind the savi doc names. Other kinds are not verified.
 - Non-stream list: `GET /api/notifications` (with `?unread=1` for unread only), already a spawn.mjs read verb (`notifications`).
 
-## Event framing (to verify, not yet verified)
+## Event framing (live check, 15 s read)
+
+Verified on one live GET (node, read only, 15 s timeout): HTTP 200, `Content-Type: text/event-stream; charset=utf-8`, 68 bytes read, one frame, and that frame held only a comment line (a keep-alive). No `data:` frame arrived in 15 s, so the `id`, `event` and `data` framing and the chat_mention JSON shape remain unverified until a live event arrives.
 
 The savi doc names the endpoint as SSE but does not give the frame format. The spec assumes the standard `text/event-stream` framing, and the witness below must confirm it before the reader is built:
 
