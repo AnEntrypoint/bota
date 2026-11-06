@@ -29,9 +29,15 @@ Status: spec, with the fetch verified live (see Live result). Nothing is pushed 
 - `git log --notes=spawn`: 20 commits in the last 20 read.
 - The first commit (b5be09a) has a non-empty spawn note, 16 bytes. Verified: notes are returned by the fetch. The note text was not read, and its format stays unverified.
 
+## Note format (read from one real note)
+
+- Read: the note on the first commit (b5be09a), `git notes --ref=spawn show`, 16 bytes, 2 lines.
+- Format: plain text, not JSON. The first token is a label, not structured data. Verified from that one note only.
+- A single note does not show the rule for every commit; the format is verified for this note.
+
 ## Unverified
 
-- The note format (plain text or structured) is not stated in the savi doc. The witness above records only sizes, so the format stays open until a note is read by the owner or by a later, separate witness.
+- The format is verified from one note only. Other notes may differ; a later witness over more notes would confirm it.
 - Whether `refs/notes/spawn` is the only notes namespace. The spec fetches all of `refs/notes/*`, which covers it.
 
 ## Blocked
