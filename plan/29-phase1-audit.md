@@ -115,16 +115,33 @@ Class: read (a GET or local read that spawn.mjs could wrap), gated write (needs 
 13. Gated write gap: spawn client join, leave, exec, say. Size L. Live writes stay blocked until the owner approves a first send.
 14. Out of scope: the five account doors (token, token revoke, signup, link-request, login-link) and spawn login. No size needed.
 
-## Phase 3 status
+## Phase 3 close-out
 
-- Step 1, skill mismatches: none found, so no gm skill changed.
-- Step 2, read verbs in gm `tools/spawn.mjs`, commit `88e50d3` on gm main:
-  - Added `comments [appId]`, `api`, `llms` and `job <id>`. Each returned HTTP 200 live (`job` tested with a bad id, HTTP 404, which shows the path). Bare `job` exits 2 with usage.
-  - Not added: `access` (live HTTP 400; the docs do not name its query, so it was not guessed). `pfp` (image bytes, low value, not wrapped). `db` (already removed: GET returns 405).
-  - Not added, needing their own change: SSE notifications stream (item 4), folio JSON and zip (item 5), `spawn events` and git notes fetch (item 7).
-  - Item 1 decision: bare `spawn.mjs` with no arguments exits 0 by design, printing usage as help. The expectation of exit 2 in this audit was the wrong one, so no code change was made.
-- Step 3, this file: records the outcome above.
-- No live writes, deletions or account doors were run.
+Accepted by the orchestrator: gm `88e50d3` (step 2) and bota `bd55bae` (step 3).
+
+**Added**
+
+- gm `tools/spawn.mjs`: read verbs `comments [appId]`, `api`, `llms` and `job <id>`. Each returned HTTP 200 live, except `job`, which was checked with a bad id (HTTP 404) to confirm its path. Bare `job` exits 2 with usage.
+- Usage text updated to list them.
+
+**Not added, and why**
+
+- `access`: live HTTP 400. The docs do not name its query, so it was not guessed.
+- `pfp`: returns image bytes, which the text output path would corrupt. Low value for an agent.
+- `db`: removed earlier, because GET returns 405.
+- SSE notifications stream (audit item 4): needs a streaming reader, not a one-shot GET. Held.
+- folio JSON and zip (item 5): zip is binary, and the JSON form is unverified. Held.
+- `spawn events` and git notes fetch (item 7): `events` is a CLI streaming command, and notes fetch is a git operation. Held.
+
+**Decisions**
+
+- Item 1 (no-argument exit code): bare `spawn.mjs` exits 0 on purpose and prints usage as help. The exit-2 expectation in the audit was wrong, so no code change was made.
+- Step 1 (skill mismatches): none found, so no gm skill changed.
+
+**Not run**
+
+- No live writes, deletions or account doors.
+- The four held items above were not started.
 
 ## Files in this change set
 
