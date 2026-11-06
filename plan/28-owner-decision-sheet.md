@@ -54,6 +54,12 @@ Four separate decisions.
 - **Options:** (a) the gm session commits or discards them; (b) bota stashes them; (c) leave them as they are.
 - **Recommended:** (a). These are gm's files and the gm session owns them. Bota does not touch them (plan/27).
 
+## 9. Talent choices for the slice heroes without named sets
+
+- **9a. Gothgirl:** no named talent choices yet (plan/21 uses the Recluse role-family set). Options: write named choices, or keep the role-family set. Recommended: write them, since the slice tests this kit.
+- **9b. Ecce:** no named talent choices yet (plan/21 uses the Archivist role-family set). Options: write named choices, or keep the role-family set. Recommended: write them, since the slice tests this kit.
+- **9c. Coomer:** no named talent choices yet (plan/21 uses the Firebrand role-family set). Options: write named choices, or keep the role-family set. Recommended: write them, since the slice tests this kit.
+
 ## Reply format
 
 For each item, the owner answers with the letter chosen (for example, "3a, 4a, 6b"). Any other answer is recorded as written.
