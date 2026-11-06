@@ -1,0 +1,223 @@
+{
+  "generatedOn": "2026-11-06",
+  "source": "/tmp/bota-needed-props.json",
+  "heldAmbiguous": 16,
+  "props": [
+    {
+      "slug": "base-morning-market",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_base-morning-market/bota_prop_base-morning-market.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_base-morning-market/bota_prop_base-morning-market.glb",
+      "bytes": 31047696,
+      "sha256": "8cd2567edc6525979f981d77cb0fcffd3cd493a237b7c264f23ac4e9448f3463",
+      "jobId": "1510377400163172352",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_base-morning-market/response.json"
+    },
+    {
+      "slug": "base-late-night-market",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_base-late-night-market/bota_prop_base-late-night-market.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_base-late-night-market/bota_prop_base-late-night-market.glb",
+      "bytes": 28805660,
+      "sha256": "6b4f0cc49f8d1cb9dc30bfde9b8398c64884ca8a0539a8cd91fc850ad7a446e9",
+      "jobId": "1510377400410636288",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_base-late-night-market/response.json"
+    },
+    {
+      "slug": "spawn-lounge",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_spawn-lounge/bota_prop_spawn-lounge.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_spawn-lounge/bota_prop_spawn-lounge.glb",
+      "bytes": 33914164,
+      "sha256": "2370b1b6159d69322e8cdd2a908cc61698401927d38a1a1b62596b53bc66c5f1",
+      "jobId": "1510377400528068608",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_spawn-lounge/response.json"
+    },
+    {
+      "slug": "spawn-lounge-main-shop",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_spawn-lounge-main-shop/bota_prop_spawn-lounge-main-shop.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_spawn-lounge-main-shop/bota_prop_spawn-lounge-main-shop.glb",
+      "bytes": 40773148,
+      "sha256": "91ed26e19f2a2b6a4573dc34ef8d9ad0a7756bdde91083df63f9c98a28c805d4",
+      "jobId": "1510379227822743552",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_spawn-lounge-main-shop/response.json"
+    },
+    {
+      "slug": "back-alley-shop",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_back-alley-shop/bota_prop_back-alley-shop.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_back-alley-shop/bota_prop_back-alley-shop.glb",
+      "bytes": 32231152,
+      "sha256": "18fadf74953e80f4229254546d89779ce594fd831aa96c50d256afec7379a737",
+      "jobId": "1510378174347796480",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_back-alley-shop/response.json"
+    },
+    {
+      "slug": "lane-stall-top",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_lane-stall-top/bota_prop_lane-stall-top.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_lane-stall-top/bota_prop_lane-stall-top.glb",
+      "bytes": 35571196,
+      "sha256": "2093632e5491e5168b3411b89f3a5ca8fa29607e5366e2505c092415bba70d5d",
+      "jobId": "1510383158992896000",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_lane-stall-top/response.json"
+    },
+    {
+      "slug": "lane-stall-bottom",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_lane-stall-bottom/bota_prop_lane-stall-bottom.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_lane-stall-bottom/bota_prop_lane-stall-bottom.glb",
+      "bytes": 33429092,
+      "sha256": "37f96a0dde96a81cecf2839196cf646d692da76093c23f531c91a2d8eee3a322",
+      "jobId": "1510379740484141056",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_lane-stall-bottom/response.json"
+    },
+    {
+      "slug": "trend-pit",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_trend-pit/bota_prop_trend-pit.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_trend-pit/bota_prop_trend-pit.glb",
+      "bytes": 23922036,
+      "sha256": "d23cd72c1ce7b75ca7313f0176ef2519b04c2e7c42bf807b20d74936c153560d",
+      "jobId": "1510378174171635712",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_trend-pit/response.json"
+    },
+    {
+      "slug": "trend-base-model",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_trend-base-model/bota_prop_trend-base-model.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_trend-base-model/bota_prop_trend-base-model.glb",
+      "bytes": 39973380,
+      "sha256": "02f0b904bc442fa35bd6b592f85cc47f01be07f584830974a4ebb553020d25b1",
+      "jobId": "1510386232755027968",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_trend-base-model/response.json"
+    },
+    {
+      "slug": "snapshot-pickup",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_snapshot-pickup/bota_prop_snapshot-pickup.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_snapshot-pickup/bota_prop_snapshot-pickup.glb",
+      "bytes": 29893564,
+      "sha256": "0efce7417a7d83d7f90b2b03d3491b63ea4ba872cf3b5ee62403bb0d7169b794",
+      "jobId": "1510379227805974528",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_snapshot-pickup/response.json"
+    },
+    {
+      "slug": "delivery-drone-envelope-on-legs",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_delivery-drone-envelope-on-legs/bota_prop_delivery-drone-envelope-on-legs.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_delivery-drone-envelope-on-legs/bota_prop_delivery-drone-envelope-on-legs.glb",
+      "bytes": 25416864,
+      "sha256": "4ea6e21a583d622a1c0f41d54da8297e0228a4a3edbf1a7cc2a11b11ff55c590",
+      "jobId": "1510379227889860608",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_delivery-drone-envelope-on-legs/response.json"
+    },
+    {
+      "slug": "delivery-drone-flying-upgrade",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_delivery-drone-flying-upgrade/bota_prop_delivery-drone-flying-upgrade.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_delivery-drone-flying-upgrade/bota_prop_delivery-drone-flying-upgrade.glb",
+      "bytes": 33310188,
+      "sha256": "2233e8135e5577b54547e9ea6790a48eb2fcb962135d4f1c91a0b10c489ad8ed",
+      "jobId": "1510378692025573376",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_delivery-drone-flying-upgrade/response.json"
+    },
+    {
+      "slug": "coffee-drop",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_coffee-drop/bota_prop_coffee-drop.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_coffee-drop/bota_prop_coffee-drop.glb",
+      "bytes": 26177056,
+      "sha256": "3369b3b367eaf33b1b7be40aa95559be7bb9ee8cd9c7ee864e40859724b20a98",
+      "jobId": "1510378729635905536",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_coffee-drop/response.json"
+    },
+    {
+      "slug": "breaking-news-zone",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_breaking-news-zone/bota_prop_breaking-news-zone.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_breaking-news-zone/bota_prop_breaking-news-zone.glb",
+      "bytes": 32496264,
+      "sha256": "6a56ba9ef377660b0a946ef159c6db81a6f569cb7ef6561310388ab34f23ed7e",
+      "jobId": "1510383158967721984",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_breaking-news-zone/response.json"
+    },
+    {
+      "slug": "marginalia-no-signal-tree",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_marginalia-no-signal-tree/bota_prop_marginalia-no-signal-tree.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_marginalia-no-signal-tree/bota_prop_marginalia-no-signal-tree.glb",
+      "bytes": 31680680,
+      "sha256": "902845507d76cc2bac3a0debdcce47fcd4e08654c961c4427fc608d6ca3355e0",
+      "jobId": "1510390056106385408",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_marginalia-no-signal-tree/response.json"
+    },
+    {
+      "slug": "boost-sweat-mode",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-sweat-mode/bota_prop_boost-sweat-mode.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-sweat-mode/bota_prop_boost-sweat-mode.glb",
+      "bytes": 32730536,
+      "sha256": "0a585544534ca4a1dc4e877a43c8feb305111a372943490ccccdd65fa397f7b0",
+      "jobId": "1510384477744979968",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-sweat-mode/response.json"
+    },
+    {
+      "slug": "boost-dank-goods-haste",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-haste/bota_prop_boost-dank-goods-haste.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-haste/bota_prop_boost-dank-goods-haste.glb",
+      "bytes": 33850364,
+      "sha256": "2da40afd5e6cf09fea11a9025cd619cf6d3989bf32ad349bb58f6c42f82446b7",
+      "jobId": "1510383158988693504",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-haste/response.json"
+    },
+    {
+      "slug": "boost-dank-goods-illusion",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-illusion/bota_prop_boost-dank-goods-illusion.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-illusion/bota_prop_boost-dank-goods-illusion.glb",
+      "bytes": 26520248,
+      "sha256": "38d42832ebba50e941a36a603b5422f6619fee35d7a84eaca4d4d9f1a686aa8c",
+      "jobId": "1510384753625333760",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-illusion/response.json"
+    },
+    {
+      "slug": "boost-dank-goods-invisibility",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-invisibility/bota_prop_boost-dank-goods-invisibility.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-invisibility/bota_prop_boost-dank-goods-invisibility.glb",
+      "bytes": 20600280,
+      "sha256": "018c984b88f5f8c13f2f557960134c73031c73e16e5920a33f125ff2e77078c5",
+      "jobId": "1510390056102191104",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-invisibility/response.json"
+    },
+    {
+      "slug": "boost-dank-goods-regeneration",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-regeneration/bota_prop_boost-dank-goods-regeneration.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-regeneration/bota_prop_boost-dank-goods-regeneration.glb",
+      "bytes": 27634080,
+      "sha256": "9e64a063a30c3821de0f6c823639820439baefafbbf802df89d8ab7f4666ff94",
+      "jobId": "1510381151724830720",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-dank-goods-regeneration/response.json"
+    },
+    {
+      "slug": "boost-bounty",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-bounty/bota_prop_boost-bounty.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-bounty/bota_prop_boost-bounty.glb",
+      "bytes": 35559664,
+      "sha256": "ea3eab89189fd71d256fe55597359f1c7220c4da68b736f1d9cd0d23b5d5f37f",
+      "jobId": "1510392675294044160",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-bounty/response.json"
+    },
+    {
+      "slug": "boost-demand",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_boost-demand/bota_prop_boost-demand.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_boost-demand/bota_prop_boost-demand.glb",
+      "bytes": 32291912,
+      "sha256": "3000719434f1da26f7b998e217106286fcd74d8c2ec18123685e411f44f58135",
+      "jobId": "1510380413204357120",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_boost-demand/response.json"
+    },
+    {
+      "slug": "ward-lurker-cam",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_ward-lurker-cam/bota_prop_ward-lurker-cam.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_ward-lurker-cam/bota_prop_ward-lurker-cam.glb",
+      "bytes": 28968916,
+      "sha256": "a119d50fc31e3417a4f8dfb236152d3c0821b2e11407ca202c70f519164ff0a0",
+      "jobId": "1510380847709085696",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_ward-lurker-cam/response.json"
+    },
+    {
+      "slug": "ward-spoiler-tag",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_ward-spoiler-tag/bota_prop_ward-spoiler-tag.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_ward-spoiler-tag/bota_prop_ward-spoiler-tag.glb",
+      "bytes": 27161696,
+      "sha256": "8998303b2d54b034d4123ecc92df82576e44504263508d0563b2f0f93628f0f7",
+      "jobId": "1510380866105303040",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_ward-spoiler-tag/response.json"
+    }
+  ]
+}
