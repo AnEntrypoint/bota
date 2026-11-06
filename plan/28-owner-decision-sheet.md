@@ -56,9 +56,11 @@ Four separate decisions.
 
 ## 9. Talent choices for the slice heroes without named sets
 
-- **9a. Gothgirl:** no named talent choices yet (plan/21 uses the Recluse role-family set). Options: write named choices, or keep the role-family set. Recommended: write them, since the slice tests this kit.
-- **9b. Ecce:** no named talent choices yet (plan/21 uses the Archivist role-family set). Options: write named choices, or keep the role-family set. Recommended: write them, since the slice tests this kit.
-- **9c. Coomer:** no named talent choices yet (plan/21 uses the Firebrand role-family set). Options: write named choices, or keep the role-family set. Recommended: write them, since the slice tests this kit.
+Decided by the orchestrator: write the smallest option that matches the hero pattern. Each hero's named row in plan/21 uses its role family's values with its own ability names.
+
+- **9a. Gothgirl: decided.** Named row added in plan/21 (role family Recluse values). Reversible.
+- **9b. Ecce: decided.** Named row added in plan/21 (role family Archivist values). Reversible.
+- **9c. Coomer: decided.** Named row added in plan/21 (role family Firebrand values, GUESS where marked). Reversible.
 
 ## Reply format
 

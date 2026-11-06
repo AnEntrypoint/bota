@@ -6,7 +6,7 @@ Numbers in these tables are UNVERIFIED.
 
 - Job: power growth (plan/02, Talents row). The cost is the tier not taken.
 
-Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The named choices below cover Grey, Boomer, Gigachad, Noscope, Wojak, Ghillie and Forever, with the ability names of sections 9 and 10. Gothgirl, Ecce and Coomer (the first-playable slice, plan/09) have no named choices yet, so they use their role family's set below until they are written. Every other hero uses the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
+Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The named choices below cover Grey, Boomer, Gigachad, Noscope, Wojak, Ghillie, Forever, Gothgirl, Ecce and Coomer, with the ability names of sections 9 and 10. The named choices below also cover Gothgirl, Ecce and Coomer (the first-playable slice, plan/09). Their values are the role family's set, with their own ability names (decision 9a to 9c, GUESS where marked). Every other hero uses the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
@@ -17,6 +17,9 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage, counted inside the decision 38 reflect cap |
 | Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13) |
 | Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius |
+| Gothgirl | Fan Swarm radius +50 / Cardigan Flicker cooldown −5 s | Fan Swarm +1 bug / Rewind Smoke range +200 | Cardigan Flicker root 0.5 s / Velvet Double heals 2% (GUESS) | Rewind Smoke gives Clout from the ultimate / Regen +2% while unseen (GUESS) |
+| Ecce | Halo Beam radius +30 / Halo Shutter duration +0.5 s | Burlap Reshare range +100 / Fresco Aura duration +1 s | Halo Beam holds two charges / Halo Shutter reveals a Clout pulse | Halo Beam detonates on death / Halo Shutter LIVE for 2 s |
+| Coomer | Lone Arm Clap length +100 / Tank Top Splash attack speed +10% (GUESS) | Lone Arm Clap stun +0.3 s / Right Arm Clones extra target (GUESS) | Lone Arm Clap stun 0.5 s / Bloodshot Brew heals allies (GUESS) | Lone Arm Clap global / Reveal 2 s (GUESS) |
 
 ### Talent sets for every hero
 
