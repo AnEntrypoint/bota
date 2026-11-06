@@ -32,12 +32,20 @@ Status: spec, with the fetch verified live (see Live result). Nothing is pushed 
 ## Note format (read from one real note)
 
 - Read: the note on the first commit (b5be09a), `git notes --ref=spawn show`, 16 bytes, 2 lines.
-- Format: plain text, not JSON. The first token is a label, not structured data. Verified from that one note only.
+- Format: plain text, not JSON (see the four-note check below).
 - A single note does not show the rule for every commit; the format is verified for this note.
+
+## Note format across four notes
+
+Read with `git notes --ref=spawn show` on four commits: the first (b5be09a) and three others picked from the last 20 (lines 2, 10 and 19 of the list). Recorded fields only, not note text.
+
+- Plain text in all four, not JSON.
+- Two lines in all four. Bytes: 16, 41, 21, 21.
+- The first token is not the same across notes (`notes` on b5be09a, `adjust` on the other three), so a label-first rule is not verified. The format holds as plain text, two lines, not JSON.
 
 ## Unverified
 
-- The format is verified from one note only. Other notes may differ; a later witness over more notes would confirm it.
+- The four-note check confirms plain text and two lines. It does not establish the first-token rule, and a larger sample would be needed to call it verified.
 - Whether `refs/notes/spawn` is the only notes namespace. The spec fetches all of `refs/notes/*`, which covers it.
 
 ## Blocked
