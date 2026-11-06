@@ -143,6 +143,17 @@ Accepted by the orchestrator: gm `88e50d3` (step 2) and bota `bd55bae` (step 3).
 - No live writes, deletions or account doors.
 - The four held items above were not started.
 
+## Phase 4 close-out
+
+All four read-only gates pass. The first live send is held for the owner's test room.
+
+1. Usage matches the verb table. Passes at gm `b4ef35a`, with the `access` line present.
+2. Every skill reference resolves to a gm verb. Passes (section 1 above).
+3. gm git status shows only intended files. Passes: the tree is clean, and local main matches origin `b4ef35a`.
+4. Live read verbs re-run. `comments`, `api`, `llms` and `access` exit 0. `job` exits 2 with no id and 1 for a bad id (HTTP 404), as designed.
+
+Not run: no live writes, deletions or account doors. The first live Spawn send (`chat-room`, `publish` or `exec`) is held until the owner names a test room.
+
 ## Files in this change set
 
 Committed as bota `07ea551` (owner-approved push), with the Phase 3 step 3 update in the next bota commit:
