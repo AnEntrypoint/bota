@@ -126,8 +126,8 @@ Accepted by the orchestrator: gm `88e50d3` (step 2) and bota `bd55bae` (step 3).
 
 **Not added, and why**
 
-- `access`: live HTTP 400. The docs do not name its query, so it was not guessed.
-- `pfp`: returns image bytes, which the text output path would corrupt. Low value for an agent.
+- `access`: plain GET returns HTTP 400 `world_required`. With `?world=<worldId>` it returns 200, so it was added in gm `b964424` (local; push pending, see below) as a read verb that passes the world id.
+- `pfp`: the live door returns SVG text, not binary. It stays excluded as low value for an agent, not because of its format.
 - `db`: removed earlier, because GET returns 405.
 - SSE notifications stream (audit item 4): needs a streaming reader, not a one-shot GET. Held.
 - folio JSON and zip (item 5): zip is binary, and the JSON form is unverified. Held.
