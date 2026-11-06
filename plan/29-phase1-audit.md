@@ -115,13 +115,24 @@ Class: read (a GET or local read that spawn.mjs could wrap), gated write (needs 
 13. Gated write gap: spawn client join, leave, exec, say. Size L. Live writes stay blocked until the owner approves a first send.
 14. Out of scope: the five account doors (token, token revoke, signup, link-request, login-link) and spawn login. No size needed.
 
-## Uncommitted in /workspace/bota (owner approval needed to push)
+## Phase 3 status
 
-The commit and push were refused by the permission classifier. The owner has to approve them. Nothing here is committed or pushed.
+- Step 1, skill mismatches: none found, so no gm skill changed.
+- Step 2, read verbs in gm `tools/spawn.mjs`, commit `88e50d3` on gm main:
+  - Added `comments [appId]`, `api`, `llms` and `job <id>`. Each returned HTTP 200 live (`job` tested with a bad id, HTTP 404, which shows the path). Bare `job` exits 2 with usage.
+  - Not added: `access` (live HTTP 400; the docs do not name its query, so it was not guessed). `pfp` (image bytes, low value, not wrapped). `db` (already removed: GET returns 405).
+  - Not added, needing their own change: SSE notifications stream (item 4), folio JSON and zip (item 5), `spawn events` and git notes fetch (item 7).
+  - Item 1 decision: bare `spawn.mjs` with no arguments exits 0 by design, printing usage as help. The expectation of exit 2 in this audit was the wrong one, so no code change was made.
+- Step 3, this file: records the outcome above.
+- No live writes, deletions or account doors were run.
 
-- `plan/09-launch-hero-kits.md` (modified): launch set is the plan/26 slice set (decision 48).
-- `plan/10-remaining-hero-kits.md` (modified): Noscope, Wojak and Forever added; Gothgirl, Ecce and Coomer removed.
-- `plan/20-open-questions-sources-and-decisions.md` (modified): decisions 48 to 54.
-- `plan/27-gm-skills-and-spawn-plan.md` (modified): Phase 2 approved; open questions answered.
-- `plan/28-owner-decision-sheet.md` (modified): status line for the approved items.
-- `plan/29-phase1-audit.md` (new): this file.
+## Files in this change set
+
+Committed as bota `07ea551` (owner-approved push), with the Phase 3 step 3 update in the next bota commit:
+
+- `plan/09-launch-hero-kits.md`: launch set is the plan/26 slice set (decision 48).
+- `plan/10-remaining-hero-kits.md`: Noscope, Wojak and Forever added; Gothgirl, Ecce and Coomer removed.
+- `plan/20-open-questions-sources-and-decisions.md`: decisions 48 to 54.
+- `plan/27-gm-skills-and-spawn-plan.md`: Phase 2 approved; open questions answered.
+- `plan/28-owner-decision-sheet.md`: status line for the approved items.
+- `plan/29-phase1-audit.md`: audit and Phase 3 status.
