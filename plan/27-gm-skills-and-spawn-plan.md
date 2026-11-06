@@ -17,7 +17,7 @@ The original goal asked for three things: confirm the gm skills are current, stu
 
 1. Read `skills/gm/SKILL.md`, `skills/dev/SKILL.md` and `skills/gm-continue/SKILL.md` in gm. For each verb or tool they name, confirm it exists in the current gm verb list (`gm.verbs()`). Record mismatches in a table: skill, line, named verb, status.
 2. Run `node tools/spawn.mjs` with no arguments and each read verb to confirm the usage text matches the code. Do not run writes.
-3. Read `../spawn` and `../savi` docs (the Tome reference via the `docs` read verb, and the local repos). List every endpoint or feature they expose that spawn.mjs does not cover. Mark each as read, gated write, or out of scope (account doors).
+3. Read the spawn Tome reference through the live `docs` read verb (`node tools/spawn.mjs docs`). `../spawn` holds no docs; it has only `.claude/`, `.playwriter/`, `runs/` and `sources/`. Read the savi endpoint doc at `../savi/.spawn/agent-interface.md`. List every endpoint or feature they expose that spawn.mjs does not cover. Mark each as read, gated write, or out of scope (account doors).
 
 Exit: one audit table and one feature list, each row with a size (S/M/L) and a reason.
 
