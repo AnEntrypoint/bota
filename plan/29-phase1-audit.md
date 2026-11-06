@@ -128,7 +128,7 @@ Accepted by the orchestrator: gm `88e50d3` (step 2) and bota `bd55bae` (step 3).
 
 - `access`: plain GET returns HTTP 400 `world_required`. With `?world=<worldId>` it returns 200, so it was added in gm `b964424` (local; push pending, see below) as a read verb that passes the world id.
 - `pfp`: returns SVG text. Excluded as low value for an agent.
-- `db`: removed earlier, because GET returns 405.
+- `db`: skipped. Not pursued (decision delegated to the orchestrator). The spawn docs name no db path, GET on the agent path returns 405, and the sibling path returns 404.
 - SSE notifications stream (audit item 4): needs a streaming reader, not a one-shot GET. Held.
 - folio JSON and zip (item 5): zip is binary, and the JSON form is unverified. Held.
 - `spawn events` and git notes fetch (item 7): `events` is a CLI streaming command, and notes fetch is a git operation. Held.
