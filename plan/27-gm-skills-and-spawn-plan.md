@@ -1,6 +1,6 @@
 # 27. Scoped plan: gm skills review and savi/spawn follow-up
 
-Status: plan only. No code, skill or config was edited to write this note. Items 1 to 4, 7 and 8 from the remaining-work list are out of scope here (owner decisions, or another session's work).
+Status: Phase 2 decision list approved as written (plan/20 decision 53). The Phase 1 audit is in plan/29. Phase 3 has not started, and no gm edits were made in this plan. Items 1, 2 and 7 from the remaining-work list are held for the owner. Item 8 is another session's work.
 
 ## Why
 
@@ -48,8 +48,8 @@ Exit: a short decision list for the owner, with the default choice marked.
 - Other session's uncommitted gm changes.
 - The three retired-character originals and the `../bota-notdone` archive (owner decision, item 1 and 2).
 
-## Open questions for the owner
+## Open questions, with answers
 
-1. Approve the Phase 2 decision list before any Phase 3 edits?
-2. Is a first live Spawn write (for example `chat-room` to a test room) approved, and if so, which room?
-3. Should the audit cover `../savi` as well as `../spawn`, or only spawn?
+1. Approve the Phase 2 decision list before any Phase 3 edits? Approved as written (plan/20 decision 53). Phase 3 still needs the audit in plan/29.
+2. Is a first live Spawn write approved, and if so, which room? Held. Not approved yet; the owner has to name a test room (plan/28 item 7, irreversible).
+3. Should the audit cover `../savi` as well as `../spawn`? Yes, read only (plan/20 decision 54).

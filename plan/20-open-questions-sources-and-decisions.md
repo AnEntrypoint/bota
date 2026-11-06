@@ -50,6 +50,13 @@
 | 45 | The chat wheel is cut. Its phrases stay as announcer lines only. | It has no classic job (plan/02 rule 3), as with spectator reactions in decision 28. |
 | 46 | Engine values that differ from a plan number stay in the plan as design values, and the difference is logged in plan/25 section 4 (passive gold, buyback cooldown, assist radius). | The plan is the design source (decision 14); the balance pass chooses between the values with both on record. |
 | 47 | plan/02 gains five classic-job rows: Reflect, Durability, Cooldown reset, Mode switch and Illusion. The five items the parity map had labelled GUESS now hold these rows. Their numbers are UNVERIFIED. | Rule 3 needs a real job for every system; the nearest-row stand-ins were not real jobs. Illusion is a real job, so Sponsored Style stays, unlike Decoy Lots (decision 26). |
+| 48 | The launch set is the six-hero first-playable slice set in plan/26: Grey, Gothgirl, Ecce, Coomer, Boomer and Ghillie. Noscope, Wojak and Forever move to the remaining kits in plan/10. | Owner-approved through the orchestrator (decision sheet 3a). The slice tests six role families where the old launch set tested four. Reversible. |
+| 49 | Gigachad stays reserve: the card carries `- Status: reserve.` and roster.yaml sets the reserve flag. The five other reserve heroes stay reserve too. | Owner-approved (3b). Gigachad stays in the gallery as Chad's ultimate. Reversible. |
+| 50 | Spawn scope is reads plus gated writes. Every write is a dry run unless `--yes`, and no live send runs until the owner names a test room. | Owner-approved (3c, 7). Matches DESIGN.md decided item 4 in gm. Reversible. |
+| 51 | Account doors (token revoke, signup, login link, link-request) stay unwired. | Owner-approved (3d). They change credentials. Wiring can be added later, so this is reversible. |
+| 52 | Cole's restored render and card stay as they are. | Owner-approved (4): the owner said the art was already right. Reversible. |
+| 53 | The Phase 2 decision list in plan/27 is approved as written. Phase 3 edits still wait on the Phase 1 audit in plan/29. | Owner-approved (6a). Reversible. |
+| 54 | The Phase 1 audit covers the gm skills, the spawn CLI, and both the spawn and savi endpoint docs, read only. | Owner-approved (6b). Reversible. |
 
 ### Open questions
 

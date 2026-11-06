@@ -1,5 +1,5 @@
 # 9. Launch hero kits
-Six launch characters across four of the twelve role families (Archivist, Bulwark, Engine, Firebrand, Herald, Leash, Phantom and Showboat have no launch hero). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
+Six launch characters across six of the twelve role families (Bulwark, Engine, Herald, Leash, Phantom and Showboat have no launch hero). The launch set is the first-playable slice set in plan/26 (decision 48). Each has four abilities: three basic and one ultimate. Ultimates unlock at 6, 11 and 16.
 
 Slot in brackets = character number. Slot mapping follows the section 24 number, so it is GUESS. Every renamed ability and hero name is GUESS (theme only). Archetypes kept from the former kit (GUESS: each former archetype maps to a role family in plan/15).
 
@@ -30,10 +30,10 @@ Notes:
 | --- | --- | --- | --- | --- | --- |
 | Grey [025] | Drifter | Beam Quote: three-hit tractor-beam burst; each hit spends an Abduction Count stack for +10% damage (GUESS) | Abduction Count: collects a specimen stack when a nearby enemy dies, cap 5 (GUESS); an allied kill adds one too (GUESS) | Orb Vibes Aura: the levitating orb hums, cutting nearby enemy armor (GUESS) | Probe Ticker: lines of damage that probe the target; each line that kills adds an Abduction Count stack (GUESS) |
 | Boomer [007] | Heckler | Pull Cord Hurl: yanks the weedwhacker cord and tosses it for a ranged slow (GUESS) | Ok Boomer Strike: next attack, with a dismissive wave, deals bonus damage (GUESS) | Cobalt Fade: a blue paint fade makes him invisible for 2 s while moving; attacking smears the fade and breaks the invisibility (GUESS) | Tracked Lawn: reveals an enemy; every hit leaves a grass stain that pays gold (GUESS) |
-| Noscope [017] | Stalker | Hitmarker Spin: spins and damages nearby enemies; each hit flashes the green crosshair hitmarker over the target (GUESS) | Sponsor Patch Heal: heals allies in radius; a healed ally also gets Noscope's Lucky Scope crit chance (GUESS) | Lucky Scope: the lens flare gives a chance to critically strike; a crit pays a sponsor bonus (GUESS) | Bolt Action Chain: rapid bolt-action strikes that jump between enemies (GUESS) |
-| Wojak [004] | Recluse | Sigh at Clouds: a wistful sigh taunts enemies in range (GUESS) | Hollow Stare: downcast hollow eyes slow and damage over time (GUESS) | Sad Clapback: a wounded sigh returns damage when attacked (GUESS) | Sorrowful Cancel: instant kill below 25% health (GUESS, threshold UNVERIFIED) |
 | Ghillie [026] | Stalker | Burlap Warning: burlap strips scatter as area traps with damage (GUESS) | Twine Lock: camouflage twine holds and reveals enemies (GUESS) | Corn Stalk Jump: leaping strike with damage; a jump over a trap triggers it early (GUESS) | Scoped Temp Ban: remote detonation through the scope disables (GUESS) |
-| Forever [023] | Recluse | Tear Clip: a single tear projectile; a slowed target keeps the tear stuck (GUESS) | Lumpy Wail: a weeping wail damages around the hero (GUESS) | Crawl Ghost: brief evasion while crawling low (GUESS) | Eternal Loop: the weeping stun repeats until its clip of three stuns ends, then refills, forever (GUESS; the three-stun clip is UNVERIFIED) |
+| Coomer [008] | Firebrand | Lone Arm Clap: stuns and damages; the massive right arm claps (GUESS) | Bloodshot Brew: fire area; the bloodshot eyes ignite the brew (GUESS) | Tank Top Splash: pushes enemies back; the sweat-ringed tank top flings a splash (GUESS) | Right Arm Clones: summons clones of self; each clone has the massive right arm and copies the Lone Arm Clap stun (GUESS) |
+| Ecce [019] | Archivist | Halo Beam: stuns and damages; the thick crude halo beams (GUESS) | Burlap Reshare: bounces between enemies; the frayed burlap tunic reshares the bounce (GUESS) | Fresco Aura: damages nearby enemies; the smudged fresco face smears damage across them (GUESS) | Halo Shutter: repeated light rays over a window; the halo eclipses in bursts (GUESS) |
+| Gothgirl [027] | Recluse | Fan Swarm: summons bugs; the lace fan's breeze summons bugs (GUESS) | Cardigan Flicker: blinks; the cardigan hanging off one shoulder blinks (GUESS) | Velvet Double: double attack; the velvet choker doubles the attack (GUESS) | Rewind Smoke: rewinds a target's position; the cigarette smoke rewinds it (GUESS) |
 
 Notes:
 
@@ -41,9 +41,10 @@ Notes:
 
 ### Emergent hooks
 
-No hook is led by Forever [023]; it may still be the partner named in another hero's hook.
+No hook is led by Gothgirl [027]; she may still be the partner named in another hero's hook. Heroes without an entry carry no hook.
 
 - Boomer [007] with Wojak [004]: Pull Cord Hurl slowed targets draw Hollow Stare (GUESS).
+- Coomer [008] with Bot Bernard [020]: Tank Top Splash pushes into Stage Rain zones (GUESS).
 
 ### Requests
 

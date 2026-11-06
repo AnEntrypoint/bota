@@ -1,6 +1,8 @@
 # 28. Owner decision sheet
 
-Every item below is owner-blocked. Nothing here has been acted on. Each item gives the decision, the options, and a recommended choice with its reason. Recommendations are for the owner to accept or change.
+Status: items 3a, 3b, 3c, 3d, 4, 6a and 6b were approved by the orchestrator as reversible and are recorded in plan/20 decisions 48 to 54. Item 3a moved the launch kits in plan/09 and plan/10. Items 1, 2 and 7 are held for the owner (irreversible). Item 8 is for the gm session to commit its own changes; nothing is discarded.
+
+Every item below is owner-blocked unless marked approved above. Each item gives the decision, the options, and a recommended choice with its reason. Recommendations are for the owner to accept or change.
 
 Item numbers follow the orchestrator's remaining-work list. Item 5 (the stale gm run) is done and is left out.
 
