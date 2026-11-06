@@ -1,6 +1,6 @@
 # 32. Git notes fetch: read-only spec
 
-Status: spec only. Nothing is fetched or committed here. The gm change waits for the folio commit (plan/29, debt item 2). Framing is unverified, as with SSE (plan/30) and spawn events (plan/31).
+Status: spec, with the fetch verified live (see Live result). Nothing is pushed or committed to gm. The gm change waits for the folio commit (plan/29, debt item 2). Framing is unverified, as with SSE (plan/30) and spawn events (plan/31).
 
 ## Source
 
@@ -22,6 +22,12 @@ Status: spec only. Nothing is fetched or committed here. The gm change waits for
 3. For the first commit, check that the notes output is non-empty. Print the byte count only, never the note text.
 4. Mark the notes framing verified only if step 3 finds a non-empty note. An empty note set is a valid result and leaves the framing open.
 5. Exit 0 on a clean fetch, whether or not notes are found. Exit 1 on a non-zero git exit or a timeout.
+
+## Live result (fetch only, into local refs/notes)
+
+- `git fetch origin refs/notes/*:refs/notes/*` in /workspace/game-6: exit 0. It wrote `refs/notes/spawn` locally. No push, no remote write.
+- `git log --notes=spawn`: 20 commits in the last 20 read.
+- The first commit (b5be09a) has a non-empty spawn note, 16 bytes. Verified: notes are returned by the fetch. The note text was not read, and its format stays unverified.
 
 ## Unverified
 
