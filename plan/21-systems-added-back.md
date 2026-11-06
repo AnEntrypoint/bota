@@ -6,7 +6,7 @@ Numbers in these tables are UNVERIFIED.
 
 - Job: power growth (plan/02, Talents row). The cost is the tier not taken.
 
-Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The launch heroes are listed below by hero name, with the ability names of sections 9 and 10. Heroes outside the launch set use the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
+Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The named choices below cover Grey, Boomer, Gigachad, Noscope, Wojak, Ghillie and Forever, with the ability names of sections 9 and 10. Gothgirl, Ecce and Coomer (the first-playable slice, plan/09) have no named choices yet, so they use their role family's set below until they are written. Every other hero uses the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offe
 
 Numbers in this section are UNVERIFIED.
 
-Every other hero gets the talent set of its role family below. Launch heroes use the named choices above. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
+Every other hero gets the talent set of its role family below. Heroes with named choices above use those. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |

@@ -1,5 +1,5 @@
 # 23. Voice and banter
-Voice for the twelve archetypes, a sample of the launch heroes, hero pairs, the formerly tag and item flavor. Expressive by default, loud only for Hot-take initiator.
+Voice for the twelve archetypes, a sample of heroes (not all are in the first-playable slice), hero pairs, the formerly tag and item flavor. Expressive by default, loud only for Hot-take initiator.
 
 ### Rules
 1. Voice follows the archetype in section 15.
