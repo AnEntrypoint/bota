@@ -188,3 +188,9 @@ One live GET each, read only. These are verified shapes from one response, not d
 - `comments` (`/api/games/<appId>/comments`): HTTP 200, `application/json`. Top-level keys: `ok` (boolean), `data` (object).
 - `api` (`/api/agent/v1/api`): HTTP 200, `application/json`. Top-level keys: `kind` (string), `text` (string), `engine` (string), `era` (string).
 - `llms` (`/llms.txt`): HTTP 200, `text/plain; charset=utf-8`, 24298 bytes of text, no JSON keys.
+
+## Folio closure (debt item 2, JSON read)
+
+- Closed against gm `31b8f43`: `tools/spawn.mjs` folio read calls only `GET /api/games/<appId>/folio`.
+- Live result: HTTP 200, `application/json`, top-level keys `ok` and `data`, about 62 KB. Verified shape from one response, not a documented schema.
+- Zip sub-path (`/folio/zip`): out of scope, binary.
