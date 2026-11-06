@@ -164,3 +164,12 @@ Committed as bota `07ea551` (owner-approved push), with the Phase 3 step 3 updat
 - `plan/27-gm-skills-and-spawn-plan.md`: Phase 2 approved; open questions answered.
 - `plan/28-owner-decision-sheet.md`: status line for the approved items.
 - `plan/29-phase1-audit.md`: audit and Phase 3 status.
+
+## Weak references in plan (left as they are)
+
+Counted from the plan files by gm.grep (gm run f0c9bf). Not sourced or edited: they are reversible design values, held by the orchestrator's decision.
+
+- GUESS: 73 tags.
+- UNVERIFIED: 110 tags.
+- Source URLs: 0.
+- Largest files: plan/10 (GUESS 26), plan/16 (GUESS 15, UNVERIFIED 8), plan/11 (UNVERIFIED 14), plan/14 and plan/17 (UNVERIFIED 12 each).
