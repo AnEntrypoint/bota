@@ -12,6 +12,8 @@ Status: spec, with the stream type verified live (see Event framing). Reader cod
 
 Verified on one live GET (node, read only, 15 s timeout): HTTP 200, `Content-Type: text/event-stream; charset=utf-8`, 68 bytes read, one frame, and that frame held only a comment line (a keep-alive). No `data:` frame arrived in 15 s, so the `id`, `event` and `data` framing and the chat_mention JSON shape remain unverified until a live event arrives.
 
+Second read, unfiltered (`/api/notifications/stream`, 15 s, read only): the same result, HTTP 200 `text/event-stream`, 68 bytes, one keep-alive comment, no data frame. A chat_mention frame needs a mention in chat, and sending one is a live write held until the owner names a test room, so data framing stays blocked on that room.
+
 The savi doc names the endpoint as SSE but does not give the frame format. The spec assumes the standard `text/event-stream` framing, and the witness below must confirm it before the reader is built:
 
 - Response `Content-Type` starts with `text/event-stream`.
