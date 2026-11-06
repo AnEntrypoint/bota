@@ -61,7 +61,7 @@ Decided by the orchestrator: write the smallest option that matches the hero pat
 - **9a. Gothgirl: decided.** Named row added in plan/21 (role family Recluse values). Reversible.
 - **9b. Ecce: decided.** Named row added in plan/21 (role family Archivist values). Reversible.
 - **9c. Coomer: decided.** Named row added in plan/21 (role family Firebrand values, GUESS where marked). Reversible.
-- **9d. Owner to confirm the GUESS entries:** Gothgirl's Cardigan Flicker root and Velvet Double heal, Gothgirl's Clout and regen rows, and Coomer's four GUESS cells (plan/21, named rows for Gothgirl and Coomer). Options: confirm as written, or change the value. Reversible.
+- **9d. GUESS entries: decided.** Keep as written: Gothgirl's Cardigan Flicker root and Velvet Double heal, Gothgirl's Clout and regen rows, and Coomer's four GUESS cells (plan/21, named rows for Gothgirl and Coomer). Reversible.
 
 ## Reply format
 
