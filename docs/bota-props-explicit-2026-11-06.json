@@ -1,0 +1,357 @@
+{
+  "generatedOn": "2026-11-06",
+  "source": "/tmp/bota-explicit-props.json",
+  "props": [
+    {
+      "slug": "terrain-kit-lanes",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-lanes/bota_prop_terrain-kit-lanes.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-lanes/bota_prop_terrain-kit-lanes.glb",
+      "bytes": 29703944,
+      "sha256": "b75e438b49dbc20066de7dd7049fb7df787c77a2a46586dfdbebfe49a03f6909",
+      "jobId": "1510388895940927488",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-lanes/response.json"
+    },
+    {
+      "slug": "terrain-kit-jungle",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-jungle/bota_prop_terrain-kit-jungle.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-jungle/bota_prop_terrain-kit-jungle.glb",
+      "bytes": 33032932,
+      "sha256": "e6b788009cb2484a44d94a0618b2c773e4d6de9bfe188eab2c9abca2599b7a7d",
+      "jobId": "1510388896310034432",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-jungle/response.json"
+    },
+    {
+      "slug": "terrain-kit-river",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-river/bota_prop_terrain-kit-river.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-river/bota_prop_terrain-kit-river.glb",
+      "bytes": 30253632,
+      "sha256": "59e28294d3ce907a083b3380ce50699f37e5c65df254a3fea9dbef8168df0778",
+      "jobId": "1510399618117074944",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_terrain-kit-river/response.json"
+    },
+    {
+      "slug": "hot-take-unironic",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_hot-take-unironic/bota_prop_hot-take-unironic.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_hot-take-unironic/bota_prop_hot-take-unironic.glb",
+      "bytes": 28160128,
+      "sha256": "971bfb1d17e39cf8e003c960f0092d57de3108a28612d824a0f3e628471269fa",
+      "jobId": "1510388896301645824",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_hot-take-unironic/response.json"
+    },
+    {
+      "slug": "gem-of-subtext",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_gem-of-subtext/bota_prop_gem-of-subtext.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_gem-of-subtext/bota_prop_gem-of-subtext.glb",
+      "bytes": 32025556,
+      "sha256": "fb0e23a2cfe40634002dfad337183353473dbd57f8c2094ce0c282470595a33e",
+      "jobId": "1510389460662018048",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_gem-of-subtext/response.json"
+    },
+    {
+      "slug": "ticker-pin",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_ticker-pin/bota_prop_ticker-pin.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_ticker-pin/bota_prop_ticker-pin.glb",
+      "bytes": 32504308,
+      "sha256": "0e1f9538f8fa5cbcbb49fc48174028a973dba074f48f0951c71c69729c56a557",
+      "jobId": "1510399618171592704",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_ticker-pin/response.json"
+    },
+    {
+      "slug": "crumb-pouch",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_crumb-pouch/bota_prop_crumb-pouch.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_crumb-pouch/bota_prop_crumb-pouch.glb",
+      "bytes": 30012532,
+      "sha256": "3e42f80b8122e3d75884bc59ad4ab6c784428b199673ee5341276b053e11a10c",
+      "jobId": "1510400137715843072",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_crumb-pouch/response.json"
+    },
+    {
+      "slug": "npc-badge",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_npc-badge/bota_prop_npc-badge.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_npc-badge/bota_prop_npc-badge.glb",
+      "bytes": 33446760,
+      "sha256": "f814d63a89c39a22e17a4914f42adaf7215b851953fa87459033909d9fa95a67",
+      "jobId": "1510400910965145600",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_npc-badge/response.json"
+    },
+    {
+      "slug": "echo-ring",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_echo-ring/bota_prop_echo-ring.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_echo-ring/bota_prop_echo-ring.glb",
+      "bytes": 38631244,
+      "sha256": "1bf608ee364a0ba521311d48f3a205db6ec3533e64eb6ea70d74abe71517ce40",
+      "jobId": "1510401706138075136",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_echo-ring/response.json"
+    },
+    {
+      "slug": "stan-sign",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_stan-sign/bota_prop_stan-sign.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_stan-sign/bota_prop_stan-sign.glb",
+      "bytes": 30912424,
+      "sha256": "cb8ac71b82783bebd46cea490742dac5d8e3cf7dafee24eae0f31424ffe575cf",
+      "jobId": "1510392298389700608",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_stan-sign/response.json"
+    },
+    {
+      "slug": "hot-mic",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_hot-mic/bota_prop_hot-mic.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_hot-mic/bota_prop_hot-mic.glb",
+      "bytes": 27211916,
+      "sha256": "00a09b91a9ff254b3a27af910901488e957f5b2fe357e7b787c91916a907d7b9",
+      "jobId": "1510399618754600960",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_hot-mic/response.json"
+    },
+    {
+      "slug": "ding-bell",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_ding-bell/bota_prop_ding-bell.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_ding-bell/bota_prop_ding-bell.glb",
+      "bytes": 21600336,
+      "sha256": "a1f8d38474a451cbde818323eddcd9ae3618e199db90f7565b5f9f69920d8cff",
+      "jobId": "1510402025647562752",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_ding-bell/response.json"
+    },
+    {
+      "slug": "thick-cloak",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_thick-cloak/bota_prop_thick-cloak.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_thick-cloak/bota_prop_thick-cloak.glb",
+      "bytes": 25465520,
+      "sha256": "3ebf924c51efa3fb45b100d6215dbc88be435866524786460104a802abf4a01f",
+      "jobId": "1510390056097996800",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_thick-cloak/response.json"
+    },
+    {
+      "slug": "cancel-mask",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_cancel-mask/bota_prop_cancel-mask.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_cancel-mask/bota_prop_cancel-mask.glb",
+      "bytes": 26392360,
+      "sha256": "e757c62297aa4b223654a93e14407b9cb61fb293ea7573f8bd4d8a1bd721260e",
+      "jobId": "1510390580612489216",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_cancel-mask/response.json"
+    },
+    {
+      "slug": "eternal-ticker",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_eternal-ticker/bota_prop_eternal-ticker.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_eternal-ticker/bota_prop_eternal-ticker.glb",
+      "bytes": 39536252,
+      "sha256": "667b4354cf94716c11d430ed2d18b1a291ca53ecc3377f8a3aae28c973c22740",
+      "jobId": "1510400910860279808",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_eternal-ticker/response.json"
+    },
+    {
+      "slug": "vintage-lot",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_vintage-lot/bota_prop_vintage-lot.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_vintage-lot/bota_prop_vintage-lot.glb",
+      "bytes": 31056940,
+      "sha256": "83df5c450ddde26987e23564b3e5bfad44e5fd8cd9071998c1972accfb66180e",
+      "jobId": "1510393116144754688",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_vintage-lot/response.json"
+    },
+    {
+      "slug": "long-tail",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_long-tail/bota_prop_long-tail.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_long-tail/bota_prop_long-tail.glb",
+      "bytes": 37606808,
+      "sha256": "77604d668859f4d038f2361a5c4214bf51c76e47d57693538befc662a4b03fe7",
+      "jobId": "1510400910847696896",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_long-tail/response.json"
+    },
+    {
+      "slug": "tower-tier1",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_tower-tier1/bota_prop_tower-tier1.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_tower-tier1/bota_prop_tower-tier1.glb",
+      "bytes": 37618616,
+      "sha256": "c35feaa27a773208b87b9154e6e27b1622c04dc573bbd61225d91829e722d9c0",
+      "jobId": "1510401447848632320",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_tower-tier1/response.json"
+    },
+    {
+      "slug": "tower-tier2",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_tower-tier2/bota_prop_tower-tier2.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_tower-tier2/bota_prop_tower-tier2.glb",
+      "bytes": 32030044,
+      "sha256": "8566c5be0af89697c2c260c5964075f29d2f2eca8fe6d788697599686b0dae7b",
+      "jobId": "1510401466093862912",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_tower-tier2/response.json"
+    },
+    {
+      "slug": "tower-tier3",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_tower-tier3/bota_prop_tower-tier3.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_tower-tier3/bota_prop_tower-tier3.glb",
+      "bytes": 31601336,
+      "sha256": "d4cb72eff30585be1560a05b8aaa0c58d5ba3dd3a8e5a1fd07edae9ff4a851fe",
+      "jobId": "1510402286969479168",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_tower-tier3/response.json"
+    },
+    {
+      "slug": "tower-tier4",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_tower-tier4/bota_prop_tower-tier4.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_tower-tier4/bota_prop_tower-tier4.glb",
+      "bytes": 30803200,
+      "sha256": "5ef530e8ee54949b7265aec82940a0b8833c72c53716e7595d3230ad327035c1",
+      "jobId": "1510391582581383168",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_tower-tier4/response.json"
+    },
+    {
+      "slug": "content-mill-melee",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_content-mill-melee/bota_prop_content-mill-melee.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_content-mill-melee/bota_prop_content-mill-melee.glb",
+      "bytes": 32430612,
+      "sha256": "9f9d6d1980f2b1f1db00f368851490e84140155e28bb55c6d4d3d188dac71003",
+      "jobId": "1510402404422582272",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_content-mill-melee/response.json"
+    },
+    {
+      "slug": "content-mill-ranged",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_content-mill-ranged/bota_prop_content-mill-ranged.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_content-mill-ranged/bota_prop_content-mill-ranged.glb",
+      "bytes": 32452984,
+      "sha256": "1fdd2b7313d510cb00989e44c4e6b1bb168ef2e9022f338324e22c776d1087b9",
+      "jobId": "1510403126711083008",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_content-mill-ranged/response.json"
+    },
+    {
+      "slug": "creep-melee",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_creep-melee/bota_prop_creep-melee.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_creep-melee/bota_prop_creep-melee.glb",
+      "bytes": 30746068,
+      "sha256": "277b7d9031b454b89244e0931b383de429661f381847d4422a174ad37ba794bf",
+      "jobId": "1510392675285663744",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_creep-melee/response.json"
+    },
+    {
+      "slug": "creep-ranged",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_creep-ranged/bota_prop_creep-ranged.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_creep-ranged/bota_prop_creep-ranged.glb",
+      "bytes": 31178164,
+      "sha256": "74bba052cd2b7b32d1ce98a8bd3ed7d9c4802bb4e943e05dac4f5655e2b86a69",
+      "jobId": "1510402635897823232",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_creep-ranged/response.json"
+    },
+    {
+      "slug": "creep-siege",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_creep-siege/bota_prop_creep-siege.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_creep-siege/bota_prop_creep-siege.glb",
+      "bytes": 28322420,
+      "sha256": "13e7366b7a8de0bd6080b02bc15769307837badd222a477f4a6480ea8246161e",
+      "jobId": "1510403722860101632",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_creep-siege/response.json"
+    },
+    {
+      "slug": "neutral-creature-background-npcs",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-background-npcs/bota_prop_neutral-creature-background-npcs.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-background-npcs/bota_prop_neutral-creature-background-npcs.glb",
+      "bytes": 40282704,
+      "sha256": "e9e4095433ae472542ad44738e4d156a900d0eda1c0a0f96883bd1a317c7280a",
+      "jobId": "1510394520376770560",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-background-npcs/response.json"
+    },
+    {
+      "slug": "neutral-creature-spam",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-spam/bota_prop_neutral-creature-spam.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-spam/bota_prop_neutral-creature-spam.glb",
+      "bytes": 35052148,
+      "sha256": "d6ae8775d6dcca00fd5f25b1086edea1a46769b7db19dd0b80c8c30f8134bab3",
+      "jobId": "1510393195115110400",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-spam/response.json"
+    },
+    {
+      "slug": "neutral-creature-scoffer",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-scoffer/bota_prop_neutral-creature-scoffer.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-scoffer/bota_prop_neutral-creature-scoffer.glb",
+      "bytes": 38578900,
+      "sha256": "209d5d83d9c820854bbaac965f4cc710563ea73a99d6f9653523b97085a89e23",
+      "jobId": "1510395088474267648",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-scoffer/response.json"
+    },
+    {
+      "slug": "neutral-creature-troll-bridge",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-troll-bridge/bota_prop_neutral-creature-troll-bridge.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-troll-bridge/bota_prop_neutral-creature-troll-bridge.glb",
+      "bytes": 31069968,
+      "sha256": "51374ad0d20724da1fb9ddb0fa548c93fc9a8d523f82ac14639b462ac0c1a4dd",
+      "jobId": "1510394520980750336",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-troll-bridge/response.json"
+    },
+    {
+      "slug": "neutral-creature-old-forum-ticker",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-old-forum-ticker/bota_prop_neutral-creature-old-forum-ticker.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-old-forum-ticker/bota_prop_neutral-creature-old-forum-ticker.glb",
+      "bytes": 34178320,
+      "sha256": "72ecfe95f9a74d8528de10b5420efaf5a868b7defe1033194d2c08b858730b2b",
+      "jobId": "1510403737699549184",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-old-forum-ticker/response.json"
+    },
+    {
+      "slug": "neutral-creature-static-imp",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-static-imp/bota_prop_neutral-creature-static-imp.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-static-imp/bota_prop_neutral-creature-static-imp.glb",
+      "bytes": 32811184,
+      "sha256": "1079ecd3b7341b1d8d301a0c3a69d535531f25c054d87488b09d99c04c292683",
+      "jobId": "1510393907102408704",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-static-imp/response.json"
+    },
+    {
+      "slug": "neutral-creature-ticker-sprite",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-ticker-sprite/bota_prop_neutral-creature-ticker-sprite.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-ticker-sprite/bota_prop_neutral-creature-ticker-sprite.glb",
+      "bytes": 32364356,
+      "sha256": "7b65932ddc7dc3e9e46bf4caa24fd7a9df181b9234f129dc31eb26c6ce9235f6",
+      "jobId": "1510403869685899264",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-ticker-sprite/response.json"
+    },
+    {
+      "slug": "neutral-creature-bio-bot",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-bio-bot/bota_prop_neutral-creature-bio-bot.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-bio-bot/bota_prop_neutral-creature-bio-bot.glb",
+      "bytes": 32501168,
+      "sha256": "92a534a7be1ddf7536c64bd97044ca320d6cad8ef24c11ee43d020182c879d76",
+      "jobId": "1510395250936446976",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-bio-bot/response.json"
+    },
+    {
+      "slug": "neutral-creature-reverb-wraith",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-reverb-wraith/bota_prop_neutral-creature-reverb-wraith.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-reverb-wraith/bota_prop_neutral-creature-reverb-wraith.glb",
+      "bytes": 30600716,
+      "sha256": "8037ce1224672b01af470465495e35a5d0ad5e9cec95bd44d7d8edbf2609e02b",
+      "jobId": "1510404437628215296",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-reverb-wraith/response.json"
+    },
+    {
+      "slug": "neutral-creature-cancel-mob",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-cancel-mob/bota_prop_neutral-creature-cancel-mob.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-cancel-mob/bota_prop_neutral-creature-cancel-mob.glb",
+      "bytes": 29471316,
+      "sha256": "6aa488539ab516731d860cbccf9d2615c0d9a1a34b5e981356a7e4ffa5aad240",
+      "jobId": "1510395339583062016",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-cancel-mob/response.json"
+    },
+    {
+      "slug": "neutral-creature-clang-golem",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-clang-golem/bota_prop_neutral-creature-clang-golem.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-clang-golem/bota_prop_neutral-creature-clang-golem.glb",
+      "bytes": 32589368,
+      "sha256": "88f68413753cdbfd0ac82bcc38b8f8497af0c834f89c37605c9337e855656006",
+      "jobId": "1510404435891773440",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-clang-golem/response.json"
+    },
+    {
+      "slug": "neutral-creature-markdown-hound",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-markdown-hound/bota_prop_neutral-creature-markdown-hound.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-markdown-hound/bota_prop_neutral-creature-markdown-hound.glb",
+      "bytes": 38317560,
+      "sha256": "db1e5cc5fa989857804838a55839fb16467bcbe7cff89eb6b33dcae3caf61467",
+      "jobId": "1510404363569397760",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_neutral-creature-markdown-hound/response.json"
+    },
+    {
+      "slug": "shop-npc-the-plug",
+      "outputGlb": "/workspace/hy3d/output/relay/bota_prop_shop-npc-the-plug/bota_prop_shop-npc-the-plug.glb",
+      "glb": "/workspace/hy3d/output/relay/bota_prop_shop-npc-the-plug/bota_prop_shop-npc-the-plug.glb",
+      "bytes": 34434416,
+      "sha256": "372ccc75ee7a26332af66a404756526329f4e3f552dc8396875fd1e6bcad1fa5",
+      "jobId": "1510405214266515456",
+      "responseJson": "/workspace/hy3d/output/relay/bota_prop_shop-npc-the-plug/response.json"
+    }
+  ]
+}
