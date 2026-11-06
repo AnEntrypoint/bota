@@ -180,3 +180,11 @@ Counted from the plan files by gm.grep (gm run f0c9bf). Not sourced or edited: t
 - Item 2, folio: one live GET of `/api/games/<appId>/folio` returned HTTP 200 with JSON (keys `ok`, `data`). The read verb is not added yet, because it needs a gm commit and the gm tree is held. Zip is not probed.
 - Items 7 and 8: held for the owner.
 - Item 10 (gm tree): left to gm.
+
+## Verified response shapes (item 6)
+
+One live GET each, read only. These are verified shapes from one response, not documented schemas.
+
+- `comments` (`/api/games/<appId>/comments`): HTTP 200, `application/json`. Top-level keys: `ok` (boolean), `data` (object).
+- `api` (`/api/agent/v1/api`): HTTP 200, `application/json`. Top-level keys: `kind` (string), `text` (string), `engine` (string), `era` (string).
+- `llms` (`/llms.txt`): HTTP 200, `text/plain; charset=utf-8`, 24298 bytes of text, no JSON keys.
