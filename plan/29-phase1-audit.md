@@ -47,7 +47,7 @@ Skill files: gm/skills/gm/SKILL.md, gm/skills/dev/SKILL.md and gm/skills/gm-cont
 | social sub-verbs | me, relation, who, met, personas, places, hidden | SOCIAL_READS identical | match |
 | argument shapes | e.g. chat-room, exec, asset-put, docs, rooms, skill | arguments and defaults agree | match |
 | token path | /config/.spawn/token, never printed | TOKEN_FILE default is the same path | match |
-| no argument | usage printed, exit code not stated | prints usage to stderr, exit 0 (`process.exit(verb ? 2 : 0)`) | MISMATCH with the expected exit 2; usage text itself is right |
+| no argument | usage printed, exit code not stated | prints usage to stderr, exit 0 (`process.exit(verb ? 2 : 0)`) | match by design: exit 0 prints usage as help (decision, section 4 close-out) |
 | unknown verb (`nosuchverb`) | usage | usage, exit 2 | match |
 | bad args (`social bogus`, `skill`, `resolve`) | usage with a message | message, usage, exit 2 | match |
 
@@ -71,7 +71,7 @@ Class: read (a GET or local read that spawn.mjs could wrap), gated write (needs 
 | GET /api/games/{appId}/comments | savi | read (method unverified) | S | list comments for review |
 | GET /api/games/{appId}/folio, /folio/zip | savi | read | M | launch kit, zip download |
 | GET /api/agent/v1/access | savi | read (method unverified) | S | access check |
-| GET /api/agent/v1/pfp/{seed} | savi | read | S | image bytes, low value |
+| GET /api/agent/v1/pfp/{seed} | savi | read | S | SVG text, low value |
 | GET /api/agent/v1/api | savi | read | S | API door index |
 | GET /api/sdk/v1/{w}/db | savi | read (method unverified) | S | world database read, useful for debugging |
 | POST /api/sdk/v1/{w}/report | savi | gated write (method unverified) | M | sends a report |
@@ -100,7 +100,7 @@ Class: read (a GET or local read that spawn.mjs could wrap), gated write (needs 
 
 ## Decision inputs for plan/27 Phase 2
 
-1. spawn.mjs with no arguments exits 0, not 2; the usage text is correct. Size S. Fix the exit code, or change the plan's expectation.
+1. spawn.mjs with no arguments exits 0 by design (help); the audit's exit-2 expectation was wrong. Resolved, no code change. Size S (none left).
 2. No usage-text mismatch besides item 1. The 13 read and 8 write verbs match the code. Size S (none to fix).
 3. gm skills reference no missing or renamed verb. gm.try and gm.verbs() are helpers outside the verb list; document them in the skill if the audit check reads that list. Size S.
 4. Read gap: GET /api/notifications/stream (SSE). Size M.
@@ -127,7 +127,7 @@ Accepted by the orchestrator: gm `88e50d3` (step 2) and bota `bd55bae` (step 3).
 **Not added, and why**
 
 - `access`: plain GET returns HTTP 400 `world_required`. With `?world=<worldId>` it returns 200, so it was added in gm `b964424` (local; push pending, see below) as a read verb that passes the world id.
-- `pfp`: the live door returns SVG text, not binary. It stays excluded as low value for an agent, not because of its format.
+- `pfp`: returns SVG text. Excluded as low value for an agent.
 - `db`: removed earlier, because GET returns 405.
 - SSE notifications stream (audit item 4): needs a streaming reader, not a one-shot GET. Held.
 - folio JSON and zip (item 5): zip is binary, and the JSON form is unverified. Held.
@@ -173,3 +173,10 @@ Counted from the plan files by gm.grep (gm run f0c9bf). Not sourced or edited: t
 - UNVERIFIED: 110 tags.
 - Source URLs: 0.
 - Largest files: plan/10 (GUESS 26), plan/16 (GUESS 15, UNVERIFIED 8), plan/11 (UNVERIFIED 14), plan/14 and plan/17 (UNVERIFIED 12 each).
+
+## Debt follow-ups (this cycle)
+
+- Item 4, `db` path: the spawn Tome docs (/tmp/spawn-docs.json) name no db path. Held for the owner.
+- Item 2, folio: one live GET of `/api/games/<appId>/folio` returned HTTP 200 with JSON (keys `ok`, `data`). The read verb is not added yet, because it needs a gm commit and the gm tree is held. Zip is not probed.
+- Items 7 and 8: held for the owner.
+- Item 10 (gm tree): left to gm.

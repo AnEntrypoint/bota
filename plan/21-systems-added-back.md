@@ -112,7 +112,7 @@ Numbers in this section are UNVERIFIED.
 
 ### Signature mechanics
 
-Each of these heroes has one rule that makes its kit read differently on the map. Each rule follows decision 9; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
+Gigachad, Noscope, Wojak and Forever are outside the first-playable slice (plan/26); their rules are kept for the later roster. Each of these heroes has one rule that makes its kit read differently on the map. Each rule follows decision 9; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
 
 | Hero | Signature mechanic | Clout tie | Job (plan/02 row) |
 | --- | --- | --- | --- |
