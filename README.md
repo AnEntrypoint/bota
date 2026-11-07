@@ -7,3 +7,5 @@ Design docs for the 59-hero roster: characters, kits, mechanics, art, tone and s
 Use the navigation. Numbers and cross-hero hooks marked UNVERIFIED or GUESS are unverified.
 
 Character prompts: characters/STYLE.md holds the shared lead and tail. Each characters/NNN-*.md holds its subject and hook. Run `node tools/sync-roster.mjs` after editing them; it regenerates roster.yaml, characters/INDEX.tsv, each file's Card section, and the signature gags in plan/15. Run `node tools/sync-roster.mjs --check` before committing.
+
+Prop manifests: `node tools/verify-props.mjs` checks both `docs/bota-props-*.json` offline against the GLBs (magic, version, declared length, bytes, sha256, jobId, responseJson); `node tools/verify-props.mjs --self-test` witnesses forced failures using file:// fixtures. No network, no `.env`, no regeneration.
