@@ -1,8 +1,8 @@
-# Bota ambiguous row resolution (read-only, 2026-11-06)
+# Bota ambiguous row resolution (survey 2026-11-06, owner decisions 2026-11-07)
 
-Input: /tmp/bota-needed-props.json, 40 rows, 16 with unambiguous:false. This document does not resolve anything by itself. It records the local evidence an owner decision would use, and proposes slugs only where a local source names the thing verbatim.
+Input: /tmp/bota-needed-props.json, 40 rows, 16 with unambiguous:false. The survey records the local evidence an owner decision would use and proposes slugs only where a local source names the thing verbatim. Two rows are owner-decided (2026-11-07); the other 14 remain open evidence. No generation is performed.
 
-Scope and constraints: all evidence comes from /workspace/bota files read with gm.grep and gm.read_file. No network, no .env read, no repo edits, commits or pushes. /tmp/bota-needed-props.json is not rewritten. No numeric count is expanded into slugs. Every proposed slug is transcribed from a name that appears in the cited line. Where a category has only a count, the row says no slugs and states the decision that is needed.
+Scope and constraints: all evidence comes from /workspace/bota files read with gm.grep and gm.read_file. The 2026-11-06 survey was read-only: no network, no .env read, no repo edits, commits or pushes. /tmp/bota-needed-props.json is not rewritten. No numeric count is expanded into slugs. Every proposed slug is transcribed from a name that appears in the cited line. Where a category has only a count, the row says no slugs and states the decision that is needed.
 
 ## Global blockers (apply to all 16 rows)
 
@@ -13,7 +13,16 @@ Scope and constraints: all evidence comes from /workspace/bota files read with g
 - plan/25-engine-data-plan.md:16 and :17 name engine-repo tables (doodads-688g.tsv, doodad-types-688g.tsv, slot-models.tsv). They are outside /workspace/bota and hold original-game doodad types, not Brainrot prop names. Using them needs an owner decision and a read of another repo, out of scope here.
 - plan/29-phase1-audit.md:172-173 — GUESS: 73 tags. UNVERIFIED: 110 tags. Source URLs: 0. These are plan status tags, not prop counts, but they show the plan's unknowns are held by the orchestrator.
 
-Resolution order, cheapest first: (1) build the asset list named in plan/18:3, the single source that resolves the count-only rows; (2) decide model-vs-instance accounting for towers, Content Mills, Stockpile and Safe Spots; (3) decide scope, since rigged unit/NPC models, interface dioramas, cosmetic plinths and overlays are not static props; (4) decide state or material variant versus distinct mesh for costumes, husks, mega creeps and team variants; (5) classic-number checks stay blocked on the 6.88g archive (plan/20:26).
+Resolution order, cheapest first: (1) build the asset list named in plan/18:3, the single source that resolves the count-only rows; (2) decide model-vs-instance accounting for towers, Content Mills, Stockpile and Safe Spots; (3) decide scope, since rigged unit/NPC models, interface dioramas, cosmetic plinths and overlays are not static props; (4) the costume and husk mesh decisions are recorded above, and the same state-or-material question stays open for mega creeps and team variants; (5) classic-number checks stay blocked on the 6.88g archive (plan/20:26).
+
+## Owner decisions (2026-11-07)
+
+| row | decision | new GLBs |
+| --- | --- | --- |
+| trend-costumes | one base mesh with eight material swaps | 0 |
+| trend-death-husks | one desaturated mesh with modifier materials | 0 |
+
+The two decisions replace the guessed visual forms and their tags under plan/20 decision 11 and decision 42. No GLB, model, material or prop file is generated. The neededCount 8 rows stay as survey input; each decision yields one mesh with eight material variants. The remaining 14 rows keep the evidence below.
 
 ## Per-row evidence (16)
 
@@ -63,7 +72,7 @@ Status: open — owner must map candidates to the 15.
 
 ### 3. trend-costumes — neededCount 8
 
-Unresolved: 8 costumes with no costume names. Primary citation plan/18-asset-manifest-and-audio.md:49; secondary plan/12-neutrals-boosts-the-trend-and-snapshot.md:66.
+Decided (owner, 2026-11-07): one base mesh with eight material swaps, 0 new GLBs. The 8 costumes still have no costume names. Primary citation plan/18-asset-manifest-and-audio.md:49; secondary plan/12-neutrals-boosts-the-trend-and-snapshot.md:66.
 
 Local evidence:
 - plan/18:49 — The Trend costumes | 8 | Swappable modifier meshes. Silhouette stays constant. |
@@ -76,28 +85,28 @@ Local evidence:
 - plan/26:51 — Trend modifiers | 2 | 8 | Compare two before adding more.
 - plan/18:51 explicitly says only the husks, not the costumes, are one per modifier.
 
-What would resolve it: an owner decision that costumes are one per modifier, or that Silhouette stays constant means one base mesh with eight material swaps. The [GUESS] and UNVERIFIED tags must be closed under plan/20 decision 11 and decision 42.
+Decision (owner, 2026-11-07): one base mesh with eight material swaps; silhouette stays constant, 0 new GLBs. The guess and UNVERIFIED tags on the costume form are closed under plan/20 decision 11 and decision 42.
 
 Proposed slugs: none. No local source names a costume. The eight names above are gameplay modifiers; using them as costume slugs would be an invented mapping. No slugs are invented from the count 8.
 
-Status: open — owner / asset list.
+Status: decided — owner, 2026-11-07; one base mesh with eight material swaps, 0 new GLBs.
 
 ### 4. trend-death-husks — neededCount 8
 
-Unresolved: 8 husks, one per modifier, with no husk names and a GUESS-tagged visual form. Primary citation plan/18-asset-manifest-and-audio.md:51; secondary plan/16-humor-and-tone.md:23.
+Decided (owner, 2026-11-07): one desaturated mesh with modifier materials, 0 new GLBs. The 8 husks, one per modifier, still have no husk names. Primary citation plan/18-asset-manifest-and-audio.md:51; secondary plan/16-humor-and-tone.md:23.
 
 Local evidence:
 - plan/18:51 — Trend death husks | 8 | One per modifier. Desaturated, no health bar. |
-- plan/16:23 — The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. [GUESS: a visual gag with no value to source].
+- plan/16:23 — The expired modifier's costume lies in the pit as a glyph-splintered husk until the Trend respawns. The husk is one desaturated mesh with modifier materials.
 - plan/18:49 — costumes are swappable modifier meshes whose silhouette stays constant.
 - plan/12:66 — eight modifiers rotate each patch.
 - plan/18:3 — counts are UNVERIFIED until the asset list is built.
 
-What would resolve it: an owner decision whether the 8 are distinct meshes or one desaturated husk mesh with modifier materials, plus removal of the [GUESS] tag under plan/20 decision 42.
+Decision (owner, 2026-11-07): one desaturated mesh with modifier materials, 0 new GLBs. The guess tag under plan/20 decision 42 is removed.
 
 Proposed slugs: none. No source names a husk; modifier names are not husk names. No slugs are invented from the count 8.
 
-Status: open — owner / asset list.
+Status: decided — owner, 2026-11-07; one desaturated mesh with modifier materials, 0 new GLBs.
 
 ### 5. out-of-bounds-marginalia — neededCount 10
 
@@ -322,8 +331,8 @@ Status: open — likely drop.
 | --- | --- | --- | --- | --- |
 | 1 | terrain-kits-and-props | 3 kits / 120 props | 120 props unnamed, UNVERIFIED | 3 |
 | 2 | world-models-shop-and-drop | 15 | no item-to-15 mapping | 14 named candidates |
-| 3 | trend-costumes | 8 | costumes unnamed | 0 |
-| 4 | trend-death-husks | 8 | husks unnamed, GUESS form | 0 |
+| 3 | trend-costumes | 8 | decided: one base mesh, eight material swaps | 0 |
+| 4 | trend-death-husks | 8 | decided: one desaturated mesh, modifier materials | 0 |
 | 5 | out-of-bounds-marginalia | 10 | 9 vignettes unnamed | 0 |
 | 6 | towers | 8 vs 22 | model vs instance | 4 |
 | 7 | content-mills | 4 vs 12 | model vs instance | 2 |
@@ -337,8 +346,8 @@ Status: open — likely drop.
 | 15 | safe-spot | 4 | no shape or asset row | 0 |
 | 16 | cosmetic-plinth | none | no count, shape or asset row | 0 |
 
-Totals: 16 rows reviewed. 7 rows propose explicit-name slugs (39 slugs, all transcribed from names in the cited lines). 9 rows propose none. No slug is derived from a numeric count. Instantiated counts that are not model counts (22 tower placements, 12 Content Mill placements, 4 Safe Spot placements, 24 or 6 loading dioramas) stay as neededCount values only.
+Totals: 16 rows reviewed, 2 decided by the owner and 14 open. 7 rows propose explicit-name slugs (39 slugs, all transcribed from names in the cited lines). 9 rows propose none. No slug is derived from a numeric count. Instantiated counts that are not model counts (22 tower placements, 12 Content Mill placements, 4 Safe Spot placements, 24 or 6 loading dioramas) stay as neededCount values only.
 
 Explicitly unnamed categories: individual terrain props, Trend costumes, Trend death husks, loading dioramas, marginalia vignettes, mega creep variants, Stan overlays, Stockpile variants, Safe Spot variants and cosmetic plinths. No source names them, so no slugs are invented for them.
 
-This document changes no product file. /tmp/bota-needed-props.json remains final at 44,007 bytes with sha256 ef431bb9a5a587c6a507a105325beb03fd59f2bec88dbafce2be455cd8449175; the 24 unambiguous:true rows are hy3d's generation set.
+The 2026-11-06 survey changed no product file; the 2026-11-07 decisions change docs only. /tmp/bota-needed-props.json remains final at 44,007 bytes with sha256 ef431bb9a5a587c6a507a105325beb03fd59f2bec88dbafce2be455cd8449175; the 24 unambiguous:true rows are hy3d's generation set.
