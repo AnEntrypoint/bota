@@ -1,14 +1,16 @@
 import { execFileSync } from "child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "fs";
+import { dirname, join, resolve } from "path";
+import { fileURLToPath } from "url";
 
-const BOTA = "/workspace/bota";
-const CHARS = "/workspace/chars";
-const GEN = "/workspace/characters/memes/generated";
-const OUT = `${BOTA}/gallery`;
-const PY = "/data/cache/venvs/ml/bin/python3";
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const charsDir = resolve(process.env.BOTA_CHARS_DIR ?? join(ROOT, "..", "chars"));
+const generatedDir = resolve(process.env.BOTA_GENERATED_DIR ?? join(ROOT, "..", "characters", "memes", "generated"));
+const python = process.env.BOTA_PYTHON ?? "python3";
+const OUT = join(ROOT, "gallery");
 
 const RESERVE = new Set(["028", "029", "030", "031", "032"]);
-const roster = readdirSync(`${BOTA}/characters`)
+const roster = readdirSync(join(ROOT, "characters"))
   .map((f) => f.match(/^(\d{3})-(.+)\.md$/))
   .filter(Boolean)
   .map((m) => ({ id: m[1], slug: m[2] }))
@@ -17,13 +19,21 @@ const roster = readdirSync(`${BOTA}/characters`)
 const byId = new Map(roster.map((r) => [r.id, r]));
 
 const sources = new Map();
-for (const f of readdirSync(CHARS)) {
-  const m = f.match(/^(.+?) \[(\d{3})\]\.(jpe?g|png|webp)$/i);
-  if (m && byId.has(m[2])) sources.set(m[2], `${CHARS}/${f}`);
+if (existsSync(charsDir)) {
+  for (const f of readdirSync(charsDir)) {
+    const m = f.match(/^(.+?) \[(\d{3})\]\.(jpe?g|png|webp)$/i);
+    if (m && byId.has(m[2])) sources.set(m[2], join(charsDir, f));
+  }
 }
-for (const f of readdirSync(GEN)) {
-  const m = f.match(/^(\d{3})-.+-gemini\.(png|jpe?g)$/i);
-  if (m && byId.has(m[1])) sources.set(m[1], `${GEN}/${f}`);
+if (existsSync(generatedDir)) {
+  for (const f of readdirSync(generatedDir)) {
+    const m = f.match(/^(\d{3})-.+-gemini\.(png|jpe?g)$/i);
+    if (m && byId.has(m[1])) sources.set(m[1], join(generatedDir, f));
+  }
+}
+if (!sources.size) {
+  console.error(`gallery: no sources in ${charsDir} or ${generatedDir}`);
+  process.exit(2);
 }
 
 mkdirSync(OUT, { recursive: true });
@@ -31,9 +41,9 @@ const entries = [];
 for (const { id, slug } of roster) {
   const src = sources.get(id);
   if (!src) continue;
-  const dst = `${OUT}/${id}-${slug}.jpg`;
-  execFileSync(PY, ["-I", `${BOTA}/tools/resize.py`, src, dst, "1200"]);
-  const md = readFileSync(`${BOTA}/characters/${id}-${slug}.md`, "utf8");
+  const dst = join(OUT, `${id}-${slug}.jpg`);
+  execFileSync(python, ["-I", join(ROOT, "tools", "resize.py"), src, dst, "1200"]);
+  const md = readFileSync(join(ROOT, "characters", `${id}-${slug}.md`), "utf8");
   const title = (md.match(/^#\s+(.+)$/m) || [, `${id} ${slug}`])[1].trim();
   entries.push({ id, slug, title, file: `gallery/${id}-${slug}.jpg` });
 }
@@ -69,9 +79,9 @@ ${cards}
 Not generated yet: ${pending.length ? pending.map((p) => p.id).join(", ") : "none"}.
 `;
 
-writeFileSync(`${BOTA}/GALLERY.md`, md);
+writeFileSync(join(ROOT, "GALLERY.md"), md);
 
-const manifestPath = `${BOTA}/manifest.json`;
+const manifestPath = join(ROOT, "manifest.json");
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 if (!manifest.some((s) => s.files && s.files.includes("GALLERY.md"))) {
   const at = manifest.findIndex((s) => s.title === "Start");
@@ -79,7 +89,7 @@ if (!manifest.some((s) => s.files && s.files.includes("GALLERY.md"))) {
   writeFileSync(manifestPath, JSON.stringify(manifest, null, 1) + "\n");
 }
 
-const readmePath = `${BOTA}/README.md`;
+const readmePath = join(ROOT, "README.md");
 const readme = readFileSync(readmePath, "utf8");
 if (!readme.includes("GALLERY.md")) {
   writeFileSync(
