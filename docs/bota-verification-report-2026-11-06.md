@@ -288,3 +288,9 @@ No failures; all 35 checks passed. No blocking findings.
 | 63 | shop-npc-the-plug | explicit |
 
 Filling record: this file was the blank template at sha256 034271eedcbded3a69bee4fdfc69268b8daeac9c9349e0bbffbb812c1b00ba9a and is now the filled report. All placeholders were replaced from one h.verify output; no placeholder tokens remain. The harness, both source /tmp JSONs, the contingency draft and the two manifests were not modified.
+
+## 10. Owner decisions on the 16 held rows (2026-11-07)
+
+The 16 rows with unambiguous:false are owner-decided in docs/bota-ambiguous-resolution.md: trend-costumes and trend-death-husks by the one-mesh decisions (commit 5a9b7ff), the other 14 by the fast-path decisions A3, B2, C3, C2 and D1. Every decision yields 0 new GLBs, 0 relay jobs and 0 bytes. Source: [fast-path dry run](/tmp/hy3d-bota-held-fast-path-dry-run.md) (6438 bytes, sha256 9723ef7bb047587a6d16502a87ae208a83145c725ac9d81d5d2262cf0a399bec).
+
+Neither manifest changed: original sha256 e3e0e9e9c6a19c2f123aeccf1c86f46b04f964237d4c29512aa6284cab4b3555, explicit sha256 f98f1e3182f9d62188b5c462b8a5831eff816d682ffe4ad60f8cbb96e8281933. All 63 generated GLBs (2,000,948,996 bytes) are unchanged. No GLB, response.json, roster or script was created, deleted or changed. The verification result in sections 1-9 is unaffected.

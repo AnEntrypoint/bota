@@ -1,6 +1,6 @@
 # Bota ambiguous row resolution (survey 2026-11-06, owner decisions 2026-11-07)
 
-Input: /tmp/bota-needed-props.json, 40 rows, 16 with unambiguous:false. The survey records the local evidence an owner decision would use and proposes slugs only where a local source names the thing verbatim. Two rows are owner-decided (2026-11-07); the other 14 remain open evidence. No generation is performed.
+Input: /tmp/bota-needed-props.json, 40 rows, 16 with unambiguous:false. The survey records the local evidence an owner decision would use and proposes slugs only where a local source names the thing verbatim. All 16 rows are owner-decided (2026-11-07): trend-costumes and trend-death-husks by the one-mesh decisions in the Owner decisions section, the other 14 by the fast-path decisions A3, B2, C3, C2 and D1 recorded there. Every decision yields 0 new GLBs. No generation is performed.
 
 Scope and constraints: all evidence comes from /workspace/bota files read with gm.grep and gm.read_file. The 2026-11-06 survey was read-only: no network, no .env read, no repo edits, commits or pushes. /tmp/bota-needed-props.json is not rewritten. No numeric count is expanded into slugs. Every proposed slug is transcribed from a name that appears in the cited line. Where a category has only a count, the row says no slugs and states the decision that is needed.
 
@@ -13,7 +13,7 @@ Scope and constraints: all evidence comes from /workspace/bota files read with g
 - plan/25-engine-data-plan.md:16 and :17 name engine-repo tables (doodads-688g.tsv, doodad-types-688g.tsv, slot-models.tsv). They are outside /workspace/bota and hold original-game doodad types, not Brainrot prop names. Using them needs an owner decision and a read of another repo, out of scope here.
 - plan/29-phase1-audit.md:172-173 — GUESS: 73 tags. UNVERIFIED: 110 tags. Source URLs: 0. These are plan status tags, not prop counts, but they show the plan's unknowns are held by the orchestrator.
 
-Resolution order, cheapest first: (1) build the asset list named in plan/18:3, the single source that resolves the count-only rows; (2) decide model-vs-instance accounting for towers, Content Mills, Stockpile and Safe Spots; (3) decide scope, since rigged unit/NPC models, interface dioramas, cosmetic plinths and overlays are not static props; (4) the costume and husk mesh decisions are recorded above, and the same state-or-material question stays open for mega creeps and team variants; (5) classic-number checks stay blocked on the 6.88g archive (plan/20:26).
+Resolution order, cheapest first: (1) build the asset list named in plan/18:3, the single source that resolves the count-only rows; (2) decide model-vs-instance accounting for towers, Content Mills, Stockpile and Safe Spots; (3) decide scope, since rigged unit/NPC models, interface dioramas, cosmetic plinths and overlays are not static props; (4) the costume and husk mesh decisions are recorded above, and mega creeps are decided as runtime scale variants below; (5) classic-number checks stay blocked on the 6.88g archive (plan/20:26).
 
 ## Owner decisions (2026-11-07)
 
@@ -22,7 +22,30 @@ Resolution order, cheapest first: (1) build the asset list named in plan/18:3, t
 | trend-costumes | one base mesh with eight material swaps | 0 |
 | trend-death-husks | one desaturated mesh with modifier materials | 0 |
 
-The two decisions replace the guessed visual forms and their tags under plan/20 decision 11 and decision 42. No GLB, model, material or prop file is generated. The neededCount 8 rows stay as survey input; each decision yields one mesh with eight material variants. The remaining 14 rows keep the evidence below.
+The two decisions replace the guessed visual forms and their tags under plan/20 decision 11 and decision 42. No GLB, model, material or prop file is generated. The neededCount 8 rows stay as survey input; each decision yields one mesh with eight material variants. The remaining 14 rows are decided below; the per-row evidence sections keep their survey text.
+
+### Fast-path decisions for the other 14 rows (owner, 2026-11-07)
+
+Source: [fast-path dry run](/tmp/hy3d-bota-held-fast-path-dry-run.md) (6438 bytes, sha256 9723ef7bb047587a6d16502a87ae208a83145c725ac9d81d5d2262cf0a399bec) and /tmp/hy3d-bota-held-decision-memo.md (sha256 39a8acd72be260c4bf583181f9095c2d3d4784b1180bb27bfa41051317a029e9). All 14 rows are decided with 0 new GLBs, 0 relay jobs and 0 bytes. No GLB, response.json, manifest, roster or script is created, deleted or changed; the two prop manifests and the 63 generated GLBs (2,000,948,996 bytes) are unchanged.
+
+| row | decision | meaning | new GLBs |
+| --- | --- | --- | --- |
+| terrain-kits-and-props | A3 | defer the 120 unnamed props until plan/18's asset list exists; 3 kits already generated | 0 |
+| world-models-shop-and-drop | A3 | defer the 15 unnamed world models until plan/18's asset list exists; 14 named candidates already generated | 0 |
+| out-of-bounds-marginalia | A3 | defer the 9 unnamed vignettes until plan/18's asset list exists; marginalia-no-signal-tree already generated | 0 |
+| towers | B2 | reuse tower-tier1..4 (4 GLBs) for all 22 placements; 8 vs 22 is model vs instance | 0 |
+| content-mills | B2 | reuse content-mill-melee/ranged (2 GLBs) for all 12 placements | 0 |
+| loading-dioramas | C3 | 2D/interface scope, not a prop mesh; conflicting 24 vs 6 counts stay UNVERIFIED | 0 |
+| stockpile | B2 | per-team vs intact/destroyed is placement/state, not a generation | 0 |
+| lane-creeps | C2 | rigged unit scope; creep-melee/ranged/siege already generated | 0 |
+| mega-creeps | C2 | runtime scale variants; 0 new GLBs | 0 |
+| stan-buffed-overlays | C3 | decal/VFX scope; stan-sign is a world model, not an overlay | 0 |
+| jungle-camp-creatures | C2 | NPC unit scope; all 12 named models already generated | 0 |
+| shop-npc-the-plug | D1 | duplicate held row, generated exactly once as an explicit prop; no second generation | 0 |
+| safe-spot | D1 | plan/26 cut list defers Safe Spots; 4 is 2 per team, no shape | 0 |
+| cosmetic-plinth | D1 | no count, shape or asset row; 2D icon style rule only | 0 |
+
+Rows 3 and 4 (trend-costumes, trend-death-husks) carry A3 in the dry run. The owner's earlier one-mesh decisions in commit 5a9b7ff resolve more, so by the rule of deciding by most progress they stand in the two-row table above; both also yield 0 new GLBs. All 16 held rows are therefore decided.
 
 ## Per-row evidence (16)
 
@@ -46,7 +69,7 @@ What would resolve it: the plan/18 asset list, or an owner decision to treat the
 
 Proposed slugs (explicit names only): terrain-kit-lanes, terrain-kit-jungle, terrain-kit-river, from Lanes, jungle, river in plan/18:58. No slugs for the 120 props: no source names any of them, so none are invented.
 
-Status: open — owner / asset list.
+Status: decided — owner, 2026-11-07; A3, 0 new GLBs.
 
 ### 2. world-models-shop-and-drop — neededCount 15
 
@@ -68,7 +91,7 @@ What would resolve it: an owner decision mapping the 15 to named items. The name
 
 Proposed slugs (explicit names only; kebab-cased plan names): hot-take-unironic, gem-of-subtext (plan/11:9); ticker-pin, crumb-pouch, npc-badge, echo-ring, stan-sign, hot-mic, ding-bell, thick-cloak, cancel-mask, eternal-ticker, vintage-lot, long-tail (plan/21:62-65). Coffee is named in plan/12:57 and plan/21:111 but already has the coffee-drop row in the JSON; do not duplicate it. stan-sign is a neutral item name (plan/21:63, plan/23:97), not the Stan overlay in row 12.
 
-Status: open — owner must map candidates to the 15.
+Status: decided — owner, 2026-11-07; A3, 0 new GLBs.
 
 ### 3. trend-costumes — neededCount 8
 
@@ -123,7 +146,7 @@ What would resolve it: owner-supplied names or descriptions for the other nine, 
 
 Proposed slugs: none. No source names any vignette, so no slugs are invented from the count 10.
 
-Status: open — owner / asset list.
+Status: decided — owner, 2026-11-07; A3, 0 new GLBs.
 
 ### 6. towers — conflicting neededCount 8 vs 22
 
@@ -144,7 +167,7 @@ What would resolve it: an owner decision on model-vs-instance accounting. plan/1
 
 Proposed slugs (explicit tier names only): tower-tier1, tower-tier2, tower-tier3, tower-tier4, from Tier 1 tower through Tier 4 towers in plan/03:10-13. No per-instance or per-team slugs.
 
-Status: open — owner / asset list.
+Status: decided — owner, 2026-11-07; B2, 0 new GLBs.
 
 ### 7. content-mills — conflicting neededCount 4 vs 12
 
@@ -162,7 +185,7 @@ What would resolve it: an owner decision on model-vs-instance accounting, and wh
 
 Proposed slugs (explicit kinds only): content-mill-melee, content-mill-ranged, from melee and ranged in plan/18:60 and plan/03:14. No per-lane slugs: top, mid and bottom name lanes, not mills.
 
-Status: open — owner / asset list.
+Status: decided — owner, 2026-11-07; B2, 0 new GLBs.
 
 ### 8. loading-dioramas — conflicting neededCount 24 vs 6
 
@@ -179,7 +202,7 @@ What would resolve it: an owner decision to pick one count or drop the row from 
 
 Proposed slugs: none. No local source names a diorama, so no slugs are invented from either count.
 
-Status: open — likely drop.
+Status: decided — owner, 2026-11-07; C3, 0 new GLBs.
 
 ### 9. stockpile — neededCount 2, two readings
 
@@ -198,7 +221,7 @@ What would resolve it: an owner decision on what the 2 counts. Pinned shop-card 
 
 Proposed slugs: none. Morning Market and Late Night Market are explicit base names but no source names a Stockpile variant, so no team-qualified or state-qualified slugs are invented.
 
-Status: open — owner.
+Status: decided — owner, 2026-11-07; B2, 0 new GLBs.
 
 ### 10. lane-creeps — neededCount 6
 
@@ -217,7 +240,7 @@ What would resolve it: an owner decision on scope and hood handling. The hood is
 
 Proposed slugs (explicit creep types only): creep-melee, creep-ranged, creep-siege, from melee, ranged, siege in plan/18:72 and plan/03:29-30. No ally or enemy slugs: those words are not names.
 
-Status: open — owner scope decision.
+Status: decided — owner, 2026-11-07; C2, 0 new GLBs.
 
 ### 11. mega-creeps — neededCount 6
 
@@ -234,7 +257,7 @@ What would resolve it: an owner decision whether mega creeps are six meshes or s
 
 Proposed slugs: none. +25% scale, gold trim and original seal emblem describe variants, not names. No slugs are invented from the count 6.
 
-Status: open — owner.
+Status: decided — owner, 2026-11-07; C2, 0 new GLBs.
 
 ### 12. stan-buffed-overlays — neededCount 6
 
@@ -252,7 +275,7 @@ What would resolve it: an owner decision on mesh versus decal or VFX, and whethe
 
 Proposed slugs: none for the overlay. Raised sign and orange trim are descriptions, not names.
 
-Status: open — owner.
+Status: decided — owner, 2026-11-07; C3, 0 new GLBs.
 
 ### 13. jungle-camp-creatures — neededCount 12
 
@@ -270,7 +293,7 @@ What would resolve it: an owner decision on whether rigged NPC unit models are i
 
 Proposed slugs (12, names verbatim from plan/12:10-17): neutral-creature-background-npcs, neutral-creature-spam, neutral-creature-scoffer, neutral-creature-troll-bridge, neutral-creature-old-forum-ticker, neutral-creature-static-imp, neutral-creature-ticker-sprite, neutral-creature-bio-bot, neutral-creature-reverb-wraith, neutral-creature-cancel-mob, neutral-creature-clang-golem, neutral-creature-markdown-hound. These come from names, not from the number 12.
 
-Status: open — owner scope decision.
+Status: decided — owner, 2026-11-07; C2, 0 new GLBs.
 
 ### 14. shop-npc-the-plug — neededCount 1
 
@@ -287,7 +310,7 @@ What would resolve it: an owner decision to include a rigged NPC in the static-p
 
 Proposed slugs: shop-npc-the-plug. The Plug is an explicit name and this is already the row slug. No additional slugs.
 
-Status: open — owner scope decision.
+Status: decided — owner, 2026-11-07; D1, 0 new GLBs.
 
 ### 15. safe-spot — neededCount 4
 
@@ -306,7 +329,7 @@ What would resolve it: an owner decision to add a Safe Spot mesh with a shape an
 
 Proposed slugs: none beyond the row's own safe-spot name. No per-crossing slugs are invented from the count 4.
 
-Status: open — likely drop or defer.
+Status: decided — owner, 2026-11-07; D1, 0 new GLBs.
 
 ### 16. cosmetic-plinth — neededCount null
 
@@ -323,7 +346,7 @@ What would resolve it: an owner decision to drop the row, or add a plinth mesh w
 
 Proposed slugs: none. cosmetic-plinth is a descriptive label coined for the row, not a source name. No slug is invented.
 
-Status: open — likely drop.
+Status: decided — owner, 2026-11-07; D1, 0 new GLBs.
 
 ## Summary
 
@@ -346,8 +369,8 @@ Status: open — likely drop.
 | 15 | safe-spot | 4 | no shape or asset row | 0 |
 | 16 | cosmetic-plinth | none | no count, shape or asset row | 0 |
 
-Totals: 16 rows reviewed, 2 decided by the owner and 14 open. 7 rows propose explicit-name slugs (39 slugs, all transcribed from names in the cited lines). 9 rows propose none. No slug is derived from a numeric count. Instantiated counts that are not model counts (22 tower placements, 12 Content Mill placements, 4 Safe Spot placements, 24 or 6 loading dioramas) stay as neededCount values only.
+Totals: 16 rows reviewed, 16 decided by the owner and 0 open. 7 rows propose explicit-name slugs (39 slugs, all transcribed from names in the cited lines). 9 rows propose none. No slug is derived from a numeric count. Instantiated counts that are not model counts (22 tower placements, 12 Content Mill placements, 4 Safe Spot placements, 24 or 6 loading dioramas) stay as neededCount values only.
 
 Explicitly unnamed categories: individual terrain props, Trend costumes, Trend death husks, loading dioramas, marginalia vignettes, mega creep variants, Stan overlays, Stockpile variants, Safe Spot variants and cosmetic plinths. No source names them, so no slugs are invented for them.
 
-The 2026-11-06 survey changed no product file; the 2026-11-07 decisions change docs only. /tmp/bota-needed-props.json remains final at 44,007 bytes with sha256 ef431bb9a5a587c6a507a105325beb03fd59f2bec88dbafce2be455cd8449175; the 24 unambiguous:true rows are hy3d's generation set.
+The 2026-11-06 survey changed no product file; the 2026-11-07 decisions change docs only, from the [fast-path dry run](/tmp/hy3d-bota-held-fast-path-dry-run.md). /tmp/bota-needed-props.json remains final at 44,007 bytes with sha256 ef431bb9a5a587c6a507a105325beb03fd59f2bec88dbafce2be455cd8449175; the 24 unambiguous:true rows are hy3d's generation set.
