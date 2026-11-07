@@ -101,25 +101,35 @@ function selfTest() {
 }
 
 const args = process.argv.slice(2);
-if (args[0] === "--self-test") {
+const manifestFlag = args.indexOf("--manifests");
+const usage = "usage: verify-props.mjs [--self-test | --manifests <path>...]";
+if (args[0] === "--self-test" && args.length === 1) {
   selfTest();
-} else {
-  const docs = args.length ? args : [
-    pathToFileURL(path.join(ROOT, "docs", "bota-props-2026-11-06.json")).href,
-    pathToFileURL(path.join(ROOT, "docs", "bota-props-explicit-2026-11-06.json")).href,
-  ];
-  let failed = 0;
-  for (const value of docs) {
-    try {
-      const result = verifyDoc(readDoc(value));
-      console.log(value + " rows=" + result.checked + " bytes=" + result.totalBytes + " failures=" + result.failures.length);
-      for (const failure of result.failures) console.error("  " + failure);
-      if (result.failures.length) failed++;
-    } catch (err) {
-      failed++;
-      console.error(value + ": " + String(err.message).slice(0, 160));
+} else if (manifestFlag >= 0) {
+  const docs = args.slice(manifestFlag + 1);
+  if (!docs.length) {
+    console.error(usage);
+    process.exitCode = 2;
+  } else {
+    let failed = 0;
+    for (const value of docs) {
+      try {
+        const result = verifyDoc(readDoc(value));
+        console.log(value + " rows=" + result.checked + " bytes=" + result.totalBytes + " failures=" + result.failures.length);
+        for (const failure of result.failures) console.error("  " + failure);
+        if (result.failures.length) failed++;
+      } catch (err) {
+        failed++;
+        console.error(value + ": " + String(err.message).slice(0, 160));
+      }
     }
+    if (failed) process.exitCode = 1;
+    else console.log("RESULT: PASS " + docs.length + " manifest(s) verified offline");
   }
-  if (failed) process.exitCode = 1;
-  else console.log("RESULT: PASS " + docs.length + " manifest(s) verified offline");
+} else if (args.length) {
+  console.error(usage);
+  process.exitCode = 2;
+} else {
+  selfTest();
+  console.log("SKIPPED real-manifest verification: pass --manifests <path>... to check docs/bota-props-*.json against host GLBs");
 }
