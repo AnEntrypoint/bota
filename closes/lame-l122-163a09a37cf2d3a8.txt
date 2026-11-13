@@ -1,0 +1,1 @@
+lame-l122-163a09a37cf2d3a8 resolved ledger L122 status=fixed; ledger witness: Re-read plan/17: Clout row 35 now 'Reserved for Clout only. Never red.'; 'LIVE and Clout are never red.' count 0. 2026-11-13T12:22:42.816Z
