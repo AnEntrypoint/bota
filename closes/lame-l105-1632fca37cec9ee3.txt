@@ -1,0 +1,1 @@
+lame-l105-1632fca37cec9ee3 resolved ledger L105 status=fixed; ledger witness: Re-read plan/19:73: 'The Sweat Mode check is tracked by hand until a build exists; C8 is runnable.' present; old text count 0. 2026-11-13T12:22:42.488Z
