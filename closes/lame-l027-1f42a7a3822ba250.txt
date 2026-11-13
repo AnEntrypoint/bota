@@ -1,0 +1,1 @@
+lame-l027-1f42a7a3822ba250 resolved ledger L027 status=fixed; ledger witness: Re-read plan/06-clout.md:49: 'It is not a stat and never adds damage or armor.' count 0; mood sentence and UNVERIFIED label intact. 2026-11-13T12:22:40.396Z
