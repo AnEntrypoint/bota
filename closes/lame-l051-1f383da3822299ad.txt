@@ -1,0 +1,1 @@
+lame-l051-1f383da3822299ad resolved ledger L051 status=fixed; ledger witness: plan/25 line 169 reads open and cites decision 14 (UNVERIFIED) (re-read). 2026-11-13T12:22:40.999Z
