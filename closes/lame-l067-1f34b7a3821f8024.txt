@@ -1,0 +1,1 @@
+lame-l067-1f34b7a3821f8024 resolved ledger L067 status=fixed; ledger witness: Moved 112 aesthetic-reference URLs from characters/*.md to internal/parity-map.md; 111 character files now have an empty Aesthetic refs section; sync-roster wrote roster.yaml and --check reports up to date (exit 0). Commit 5d8d4cc, CI success. 2026-11-13T12:22:41.434Z
