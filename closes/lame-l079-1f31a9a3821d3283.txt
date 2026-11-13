@@ -1,0 +1,1 @@
+lame-l079-1f31a9a3821d3283 resolved ledger L079 status=fixed; ledger witness: Re-read plan/04:38: 'Count in section 18.' present; 'Full list in section 18.' count 0. 2026-11-13T12:22:41.761Z
