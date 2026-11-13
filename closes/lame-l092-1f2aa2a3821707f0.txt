@@ -1,0 +1,1 @@
+lame-l092-1f2aa2a3821707f0 resolved ledger L092 status=fixed; ledger witness: plan/16 gag 20 reads "grey Bullish-ended marker"; CANCELLED absent 2026-11-13T12:22:42.105Z
