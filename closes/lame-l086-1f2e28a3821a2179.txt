@@ -1,0 +1,1 @@
+lame-l086-1f2e28a3821a2179 resolved ledger L086 status=fixed; ledger witness: Re-read plan/06 Underdog row: double-speed capture removed; plan/12:88 Underdog bullet removed. Residual: plan/26:44 scenario 1 still asks about double-speed capture, a removed rule; that row is L103 (open). 2026-11-13T12:22:41.946Z
