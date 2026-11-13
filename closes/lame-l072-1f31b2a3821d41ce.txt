@@ -1,0 +1,1 @@
+lame-l072-1f31b2a3821d41ce resolved ledger L072 status=fixed; ledger witness: Re-read plan/10 hook paragraph: 'Each hook is one row led by' count 0; 'Heroes without an entry carry no hook' remains. 2026-11-13T12:22:41.569Z
