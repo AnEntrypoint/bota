@@ -1,0 +1,1 @@
+lame-l024-1f42aaa3822ba769 resolved ledger L024 status=fixed; ledger witness: Re-read plan/26: trend modifier pass now uses C1 45-55% win rate and C2 at-most-65% pick rate. 2026-11-13T12:22:40.316Z
