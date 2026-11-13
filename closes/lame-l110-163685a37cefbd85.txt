@@ -1,0 +1,1 @@
+lame-l110-163685a37cefbd85 resolved ledger L110 status=fixed; ledger witness: Re-read plan/26: note now reads 'C11 checks the Clout-only rule ... it is a reading check'; table row C11 present (Zero); old sentence count 0. 2026-11-13T12:22:42.632Z
