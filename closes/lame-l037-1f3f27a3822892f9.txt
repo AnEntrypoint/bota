@@ -1,0 +1,1 @@
+lame-l037-1f3f27a3822892f9 resolved ledger L037 status=fixed; ledger witness: Re-read plan/19 archetype table: Role column removed, header now '| Archetype | Early power |'; Role header count 0. 2026-11-13T12:22:40.667Z
