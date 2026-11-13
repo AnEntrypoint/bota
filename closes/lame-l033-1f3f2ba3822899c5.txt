@@ -1,0 +1,1 @@
+lame-l033-1f3f2ba3822899c5 resolved ledger L033 status=fixed; ledger witness: Re-read plan/10 and plan/11: former-name Bad Night bullet and Marble Dagger former-name note count 0. 2026-11-13T12:22:40.558Z
