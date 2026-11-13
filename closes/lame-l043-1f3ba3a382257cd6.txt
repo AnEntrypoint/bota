@@ -1,0 +1,1 @@
+lame-l043-1f3ba3a382257cd6 resolved ledger L043 status=fixed; ledger witness: git_rm spec.prd (dispatch 1793524008960-1980-12a7962ad6850d38, removed[1]: spec.prd). Codesearch for spec.prd: 3 matches, all in .claude/skills/lame-*/SKILL.md; none in shipped files. 2026-11-13T12:22:40.832Z
