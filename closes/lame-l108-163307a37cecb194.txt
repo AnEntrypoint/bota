@@ -1,0 +1,1 @@
+lame-l108-163307a37cecb194 resolved ledger L108 status=fixed; ledger witness: Re-read plan/26 scenario 3: 'Pass: at most 200 Clout moves, which the 400 start makes bind at exactly 200'; 'exactly 200' count 0. 2026-11-13T12:22:42.574Z
