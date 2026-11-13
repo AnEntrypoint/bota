@@ -1,0 +1,1 @@
+lame-l075-1f31b5a3821d46e7 resolved ledger L075 status=fixed; ledger witness: Re-read plan/20 Sources: 'Classic-rule reference pages' count 0; 'The original-name parity map is decision 22.' present. 2026-11-13T12:22:41.651Z
