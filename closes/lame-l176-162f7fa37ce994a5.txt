@@ -1,0 +1,1 @@
+lame-l176-162f7fa37ce994a5 resolved ledger L176 status=fixed; ledger witness: re-check: anchor re-read after edit; replacement present, old text gone 2026-11-13T12:22:43.541Z
