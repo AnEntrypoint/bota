@@ -1,0 +1,1 @@
+lame-l073-1f31b3a3821d4381 resolved ledger L073 status=fixed; ledger witness: Re-read plan/16 kill-streak row: 'Cooked.' only; parenthetical count 0. 2026-11-13T12:22:41.595Z
