@@ -1,0 +1,1 @@
+lame-l104-1632fba37cec9d30 resolved ledger L104 status=fixed; ledger witness: Re-read plan/06 Ratio row and plan/26 scenario 3: killer 50% and assists split the rest equally, numbers present; old 'the split goes to the killer and assists' count 0. 2026-11-13T12:22:42.457Z
