@@ -1,0 +1,1 @@
+lame-l082-1f2e2ca3821a2845 resolved ledger L082 status=fixed; ledger witness: Re-read plan/25:122: 'lives in internal/parity-map.md.'; 247420/ path absent. 2026-11-13T12:22:41.842Z
