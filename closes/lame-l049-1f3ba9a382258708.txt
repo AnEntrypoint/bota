@@ -1,0 +1,1 @@
+lame-l049-1f3ba9a382258708 resolved ledger L049 status=fixed; ledger witness: Re-read plan/25 R4: 'Resolved by plan/20 decision 15'; 'This needs a format decision' count 0. 2026-11-13T12:22:40.943Z
