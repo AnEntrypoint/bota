@@ -1,0 +1,1 @@
+lame-l099-1f2aada382171aa1 resolved ledger L099 status=fixed; ledger witness: Re-read plan/23 rule 2: 'never at a person, group, creator or real event' count 0; 'a lane (plan/16 rule 6).' present. 2026-11-13T12:22:42.308Z
