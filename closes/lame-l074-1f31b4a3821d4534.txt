@@ -1,0 +1,1 @@
+lame-l074-1f31b4a3821d4534 resolved ledger L074 status=fixed; ledger witness: Re-read plan/22 Props bullet: 'Section 2 to 4 of the earlier doc' count 0. 2026-11-13T12:22:41.623Z
