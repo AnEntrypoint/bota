@@ -1,0 +1,1 @@
+lame-l174-162f7da37ce9913f resolved ledger L174 status=fixed; ledger witness: re-check: plan/21 cost now points to plan/11; no 1,400 copy in plan/21 2026-11-13T12:22:43.485Z
