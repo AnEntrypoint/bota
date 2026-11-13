@@ -1,0 +1,1 @@
+lame-l057-1f3837a382228f7b resolved ledger L057 status=fixed; ledger witness: Stat Boost cut: plan/21 section removed; plan/07:36 reads 'Points left after the three basic skills and the ultimate are maxed stay unspent.'; plan/26 references removed; decision 26 in plan/20. Stat Boost in shipped text: none outside the internal parity map and decision 26. 2026-11-13T12:22:41.161Z
