@@ -1,0 +1,1 @@
+lame-l096-1f2aa6a382170ebc resolved ledger L096 status=fixed; ledger witness: Re-read plan/23 rule 5: now a pointer to decision 7 in plan/20; 'No line names a real person' count 0. 2026-11-13T12:22:42.222Z
