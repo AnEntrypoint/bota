@@ -1,0 +1,1 @@
+lame-l089-1f2e31a3821a30c4 resolved ledger L089 status=fixed; ledger witness: Re-read plan/21:108: 'a grey pip on the minimap'; 'violet pip' absent. 2026-11-13T12:22:42.027Z
