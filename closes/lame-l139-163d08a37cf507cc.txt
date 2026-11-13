@@ -1,0 +1,1 @@
+lame-l139-163d08a37cf507cc resolved ledger L139 status=fixed; ledger witness: Re-read plan/09:30 and :65: 'Pull Cord Hurl' present; 'Pull Cord Toss' count 0 in plan/09. 2026-11-13T12:22:42.875Z
