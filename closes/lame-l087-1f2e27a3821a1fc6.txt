@@ -1,0 +1,1 @@
+lame-l087-1f2e27a3821a1fc6 resolved ledger L087 status=fixed; ledger witness: Re-read plan/21 Signature mechanics: 'Stan is a Reach effect, not a Clout stat' present; old 'Reach, reveal, Stan, Repost' sentence count 0. 2026-11-13T12:22:41.972Z
