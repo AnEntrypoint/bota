@@ -1,0 +1,1 @@
+lame-l070-1f31b0a3821d3e68 resolved ledger L070 status=fixed; ledger witness: Re-read plan/19 Hard disable cap row: 'Rule in plan/08.' present; '0.5 s' count 0 in plan/19. 2026-11-13T12:22:41.516Z
