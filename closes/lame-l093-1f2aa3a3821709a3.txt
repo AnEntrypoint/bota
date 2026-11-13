@@ -1,0 +1,1 @@
+lame-l093-1f2aa3a3821709a3 resolved ledger L093 status=fixed; ledger witness: Re-read plan/16 row 15: 'captioned Reality' count 0; row ends 'grey flash.' 2026-11-13T12:22:42.133Z
