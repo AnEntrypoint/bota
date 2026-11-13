@@ -1,0 +1,1 @@
+lame-l028-1f42b6a3822bbbcd resolved ledger L028 status=fixed; ledger witness: Re-read plan/09-launch-hero-kits.md: 'Ultimates have three levels' count 0; Notes list intact. 2026-11-13T12:22:40.421Z
