@@ -1,0 +1,1 @@
+lame-l147-16258ea37ce1599d resolved ledger L147 status=fixed; ledger witness: Re-read plan/08 row: '| Stack decay | 4 s |'; '| Decay | 4 s |' count 0. 2026-11-13T12:22:43.027Z
