@@ -1,0 +1,1 @@
+lame-l170-162f79a37ce98a73 resolved ledger L170 status=fixed; ledger witness: re-check: anchor re-read after edit; plan/21 Job scan and spectator search 2026-11-13T12:22:43.403Z
