@@ -1,0 +1,1 @@
+lame-l252-30f7f4a38c4efdd6 resolved ledger L252 status=fixed; ledger witness: plan/18 total reads "Heroes 528", matching the launch table sum 2026-11-13T12:22:43.944Z
