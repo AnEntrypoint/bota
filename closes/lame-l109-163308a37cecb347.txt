@@ -1,0 +1,1 @@
+lame-l109-163308a37cecb347 resolved ledger L109 status=fixed; ledger witness: Re-read plan/25 line 160: '**Starting gold: resolved.** 600, per section 20, decision 14 (UNVERIFIED)'; the open count is zero. 2026-11-13T12:22:42.602Z
