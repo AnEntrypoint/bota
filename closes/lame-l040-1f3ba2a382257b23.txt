@@ -1,0 +1,1 @@
+lame-l040-1f3ba2a382257b23 resolved ledger L040 status=fixed; ledger witness: Re-read plan/22-art-direction.md:134: thin-prop bullet cites plan/20 decision 25; 'the owner should confirm them' count 0; plan/20 row 25 present. 2026-11-13T12:22:40.749Z
