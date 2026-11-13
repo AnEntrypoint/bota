@@ -1,0 +1,1 @@
+lame-l076-1f31b6a3821d489a resolved ledger L076 status=fixed; ledger witness: Re-read plan/24 coverage bullet: 'its former kit is Pit Boss' count 0. 2026-11-13T12:22:41.679Z
