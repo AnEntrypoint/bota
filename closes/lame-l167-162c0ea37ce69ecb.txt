@@ -1,0 +1,1 @@
+lame-l167-162c0ea37ce69ecb resolved ledger L167 status=fixed; ledger witness: re-check: anchor re-read after edit 2026-11-13T12:22:43.350Z
