@@ -1,0 +1,1 @@
+lame-l098-1f2aaca3821718ee resolved ledger L098 status=fixed; ledger witness: Re-read plan/26 scenario 4: 'Pass: C1 and C2 hold (see Runnable checks).' present; old thresholds sentence count 0. 2026-11-13T12:22:42.279Z
