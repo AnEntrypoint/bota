@@ -1,0 +1,1 @@
+lame-l140-162587a37ce14db8 resolved ledger L140 status=fixed; ledger witness: Re-read plan/21:15: 'Pull Cord Hurl bounces once' present; 'Pull Cord Toss' count 0 in plan/21. 2026-11-13T12:22:42.908Z
