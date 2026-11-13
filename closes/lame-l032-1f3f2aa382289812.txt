@@ -1,0 +1,1 @@
+lame-l032-1f3f2aa382289812 resolved ledger L032 status=fixed; ledger witness: Re-read plan/12 Unboxing row: 'C2 flags it if its pick rate passes 65%'; old answer count 0. 2026-11-13T12:22:40.529Z
