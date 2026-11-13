@@ -1,0 +1,1 @@
+lame-l017-1f45b7a3822df357 resolved ledger L017 status=fixed; ledger witness: Re-read plan/19: line 2 and line 27 both say at least one hard and one soft counter; Clout carry hard counter is Reach tank, initiator; reciprocal strong-against pairs 0. 2026-11-13T12:22:40.139Z
