@@ -1,0 +1,1 @@
+lame-l118-16368da37cefcb1d resolved ledger L118 status=fixed; ledger witness: Re-read plan/09:60: 'At most one cross-hero hook per row' count 0; 'Heroes with no hook' remains. 2026-11-13T12:22:42.724Z
