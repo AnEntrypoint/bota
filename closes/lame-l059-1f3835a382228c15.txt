@@ -1,0 +1,1 @@
+lame-l059-1f3835a382228c15 resolved ledger L059 status=fixed; ledger witness: Re-read plan/12:40: 'Every number in this block is UNVERIFIED.' count 1. 2026-11-13T12:22:41.218Z
