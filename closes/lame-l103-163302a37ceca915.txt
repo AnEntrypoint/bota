@@ -1,0 +1,1 @@
+lame-l103-163302a37ceca915 resolved ledger L103 status=fixed; ledger witness: Re-read plan/26 scenario 1: question removed; pass clause includes 'an Underdog capture ... takes half the time of a normal capture (UNVERIFIED)'. 2026-11-13T12:22:42.425Z
