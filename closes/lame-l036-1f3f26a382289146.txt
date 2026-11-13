@@ -1,0 +1,1 @@
+lame-l036-1f3f26a382289146 resolved ledger L036 status=fixed; ledger witness: Re-read plan/26-first-playable-cut-list-and-checks.md:36: 'It is a core system, so it is included at full cap.'; 'It is a pillar' count 0. 2026-11-13T12:22:40.641Z
