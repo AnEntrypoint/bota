@@ -1,0 +1,1 @@
+lame-l181-161810a37cd5f927 resolved ledger L181 status=fixed; ledger witness: re-check: anchor re-read after edit; replacement present, old text gone 2026-11-13T12:22:43.621Z
