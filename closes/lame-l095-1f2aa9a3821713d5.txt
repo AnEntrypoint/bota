@@ -1,0 +1,1 @@
+lame-l095-1f2aa9a3821713d5 resolved ledger L095 status=fixed; ledger witness: Re-read plan/20 decision 7: 'The six roster labels ... are listed for the record. Hero and ability labels are outside this scope.' present; old 'fixed roster labels' count 0. 2026-11-13T12:22:42.194Z
