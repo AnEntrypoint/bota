@@ -1,0 +1,1 @@
+lame-l014-1f45b8a3822df50a resolved ledger L014 status=fixed; ledger witness: Re-read plan/07: old three-silhouette claim absent; now points to plan/15 role-family shape and plan/17 read categories. 2026-11-13T12:22:40.064Z
