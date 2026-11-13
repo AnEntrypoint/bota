@@ -1,0 +1,1 @@
+lame-l044-1f3ba6a3822581ef resolved ledger L044 status=fixed; ledger witness: Re-read plan/21 Waffle row: 'double damage to heroes below 50% HP'; 'Clout heroes' count 0. Talent-tree UNVERIFIED label added under the heading. 2026-11-13T12:22:40.860Z
