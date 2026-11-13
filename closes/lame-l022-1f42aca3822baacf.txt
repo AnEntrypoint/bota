@@ -1,0 +1,1 @@
+lame-l022-1f42aca3822baacf resolved ledger L022 status=fixed; ledger witness: Re-read plan/24: Was header and column absent; 112 rows still have 5 cells; former-name mapping appended to internal/parity-map.md. 2026-11-13T12:22:40.263Z
