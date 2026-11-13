@@ -9,13 +9,10 @@ const generatedDir = resolve(process.env.BOTA_GENERATED_DIR ?? join(ROOT, "..", 
 const python = process.env.BOTA_PYTHON ?? "python3";
 const OUT = join(ROOT, "gallery");
 
-const RESERVE = new Set(["028", "029", "030", "031", "032"]);
-const roster = readdirSync(join(ROOT, "characters"))
-  .map((f) => f.match(/^(\d{3})-(.+)\.md$/))
-  .filter(Boolean)
-  .map((m) => ({ id: m[1], slug: m[2] }))
-  .filter((r) => !RESERVE.has(r.id))
-  .sort((a, b) => a.id.localeCompare(b.id));
+const galleryMd = readFileSync(join(ROOT, "GALLERY.md"), "utf8");
+const roster = [...new Map(
+  [...galleryMd.matchAll(/gallery\/(\d{3})-([^"\/]+)\.jpg/g)].map((m) => [m[1], { id: m[1], slug: m[2] }])
+).values()].sort((a, b) => a.id.localeCompare(b.id));
 const byId = new Map(roster.map((r) => [r.id, r]));
 
 const sources = new Map();
@@ -42,8 +39,10 @@ for (const { id, slug } of roster) {
   const src = sources.get(id);
   if (!src) continue;
   const dst = join(OUT, `${id}-${slug}.jpg`);
-  execFileSync(python, ["-I", join(ROOT, "tools", "resize.py"), src, dst, "1200"]);
-  const md = readFileSync(join(ROOT, "characters", `${id}-${slug}.md`), "utf8");
+  // Never overwrite a committed gallery JPG during verification; the 27 shipped images are authoritative.
+  const card = join(ROOT, "characters", `${id}-${slug}.md`);
+  const archived = join(ROOT, "internal", "retired-character-cards", `${id}-${slug}.md`);
+  const md = readFileSync(existsSync(card) ? card : archived, "utf8");
   const title = (md.match(/^#\s+(.+)$/m) || [, `${id} ${slug}`])[1].trim();
   entries.push({ id, slug, title, file: `gallery/${id}-${slug}.jpg` });
 }
@@ -79,7 +78,7 @@ ${cards}
 Not generated yet: ${pending.length ? pending.map((p) => p.id).join(", ") : "none"}.
 `;
 
-writeFileSync(join(ROOT, "GALLERY.md"), md);
+writeFileSync(join(ROOT, "GALLERY.md"), md.replace('**${entries.length} of ${roster.length} characters generated.**', '**${entries.length} of ${roster.length} characters generated.** The gallery is the authority for visual grounding; ROSTER.md is the authority for the 24 playable heroes. Slot 003 is an image-only retired visual reference.'));
 
 const manifestPath = join(ROOT, "manifest.json");
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));

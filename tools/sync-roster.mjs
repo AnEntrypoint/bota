@@ -50,7 +50,7 @@ const heroes = readdirSync(dir).filter(n => /^\d{3}-.+\.md$/.test(n)).sort().map
   const text = readFileSync(join(dir, file), "utf8");
   const slot = file.slice(0, 3);
   const title = text.split("\n")[0].match(/^# (\d{3}) (.+)$/);
-  const reserve = /^- Status: reserve\./m.test(text);
+  const reserve = false;
   const s = sections(text);
   const hero = {
     file,
@@ -93,7 +93,7 @@ for (const [key, names] of openings) {
 }
 
 const card = h => {
-  if (h.reserve) return ["- Status: reserve. No role family, attribute or prop until promoted (plan/15)."];
+  // Only active character cards remain in characters/.
   return [
     `- Role family: ${h.row?.family}`,
     `- Role: ${roleOf[h.row?.family]}`,
@@ -127,15 +127,15 @@ const q = JSON.stringify;
 const rosterYaml = ["roster:", ...heroes.flatMap((h, i) => [
   ...(i ? [""] : []),
   `  - name: ${q(h.name)}`,
-  ...(h.reserve ? ["    reserve: true"] : []),
+  
   `    prompt: ${q(`${h.lead}, ${h.subject}, ${TAIL}`)}`,
   ...(h.refs.length ? ["    aesthetic_refs:", ...h.refs.map(r => `      - ${q(r)}`)] : ["    aesthetic_refs: []"]),
 ])].join("\n") + "\n";
 
 const index = ["index\tname\thero_slot\tfile", ...heroes.map(h =>
-  [h.slot, h.name, h.reserve ? "reserve" : h.slot, `characters/${h.file}`].join("\t"))].join("\n") + "\n";
+  [h.slot, h.name, h.slot, `characters/${h.file}`].join("\t"))].join("\n") + "\n";
 
-const hookBySlot = Object.fromEntries(heroes.filter(h => !h.reserve).map(h => [h.slot, h.hook]));
+const hookBySlot = Object.fromEntries(heroes.map(h => [h.slot, h.hook]));
 const p15Next = read("plan/15-roster-and-archetypes.md").split("\n").map(line => {
   const m = line.match(/^\| (\d{3}) \|/);
   if (!m || !(m[1] in hookBySlot)) return line;
@@ -148,8 +148,8 @@ for (const e of errors) console.error(`error: ${e}`);
 for (const w of warnings) console.error(`warning: ${w}`);
 if (errors.length) process.exit(1);
 
-const active = heroes.filter(h => !h.reserve);
-const rosterMd = [`# Roster: ${active.length} heroes from the character set`, "", `Slot ${active[0]?.slot}-${active.at(-1)?.slot} = the character files in order, with gaps where a slot was retired. Reserve slots follow.`, "", "| Slot | Character | Prompt file |", "| --- | --- | --- |", ...heroes.filter(h => !h.reserve).map(h => `| ${h.slot} | ${h.name} | characters/${h.file} |`), "", "## Reserve", "", ...heroes.filter(h => h.reserve).map(h => `- ${h.name} (characters/${h.file})`)].join("\n") + "\n";
+const active = heroes;
+const rosterMd = [`# Roster: ${active.length} heroes from the character set`, "", `Slot ${active[0]?.slot}-${active.at(-1)?.slot} = the active character files in order; slots 002, 003 and 011 are retired. The 003 gallery image is an image-only visual reference.`, "", "| Slot | Character | Prompt file |", "| --- | --- | --- |", ...heroes.map(h => `| ${h.slot} | ${h.name} | characters/${h.file} |`)].join("\n") + "\n";
 const outputs = [
   ["roster.yaml", rosterYaml],
   ["ROSTER.md", rosterMd],

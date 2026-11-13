@@ -1,4 +1,7 @@
 .agentplug-kv/
 .gm/
+.playwright/
 .playwriter/
 runs/
+__pycache__/
+*.pyc
