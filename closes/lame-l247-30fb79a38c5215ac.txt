@@ -1,0 +1,1 @@
+lame-l247-30fb79a38c5215ac resolved ledger L247 status=fixed; ledger witness: plan/19 shift is sum-preserving; old "stays within the tier total" absent 2026-11-13T12:22:43.829Z
