@@ -1,0 +1,1 @@
+lame-l100-1632ffa37ceca3fc resolved ledger L100 status=fixed; ledger witness: Re-read plan/17:2 pointer to plan/19 gates 1 and 4 present; plan/19 gate 4 adds minimap size. 2026-11-13T12:22:42.337Z
