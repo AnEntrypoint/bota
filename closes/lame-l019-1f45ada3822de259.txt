@@ -1,0 +1,1 @@
+lame-l019-1f45ada3822de259 resolved ledger L019 status=fixed; ledger witness: Re-read plan/26: C10 now has a numeric pass; plan/19 new-system row added. 2026-11-13T12:22:40.190Z
