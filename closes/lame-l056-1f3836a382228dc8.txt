@@ -1,0 +1,1 @@
+lame-l056-1f3836a382228dc8 resolved ledger L056 status=fixed; ledger witness: Re-read plan/10-remaining-hero-kits.md:89: finger wording count 0 (index finger, One Finger Strike, Finger Review); Pointing kit uses the yardstick (plan/22:121). Long Arm Toxin renamed Long Shaft Toxin at lines 89 and 112; old name count 0. 2026-11-13T12:22:41.133Z
