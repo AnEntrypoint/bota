@@ -1,0 +1,1 @@
+lame-l116-16367fa37cefb353 resolved ledger L116 status=fixed; ledger witness: Re-read plan/16: 'Comeback from 10,000 gold behind' row count 0. 2026-11-13T12:22:42.694Z
