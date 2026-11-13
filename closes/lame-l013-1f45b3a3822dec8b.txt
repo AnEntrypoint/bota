@@ -1,0 +1,1 @@
+lame-l013-1f45b3a3822dec8b resolved ledger L013 status=fixed; ledger witness: Re-read plan/22: old #A35CFF trim sentence absent; new guard keeps #A35CFF and #6A1FD1 off hero trim. 2026-11-13T12:20:59.260Z
