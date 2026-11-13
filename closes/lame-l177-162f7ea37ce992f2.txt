@@ -1,0 +1,1 @@
+lame-l177-162f7ea37ce992f2 resolved ledger L177 status=fixed; ledger witness: re-check: anchor re-read after edit; replacement present, old text gone 2026-11-13T12:22:43.567Z
