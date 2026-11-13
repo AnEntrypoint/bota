@@ -1,0 +1,1 @@
+lame-l106-1632fda37ceca096 resolved ledger L106 status=fixed; ledger witness: Re-read plan/26 table note: 'Thresholds come from section 19, plan/12 (C3, Breaking News) and plan/06 (C4, 30 s window).' 2026-11-13T12:22:42.516Z
