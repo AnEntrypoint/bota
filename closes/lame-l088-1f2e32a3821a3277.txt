@@ -1,0 +1,1 @@
+lame-l088-1f2e32a3821a3277 resolved ledger L088 status=fixed; ledger witness: Re-read plan/21 Viking row: 'nearest enemy hero within 300'; 'nearest Clout hero within 300' absent. 2026-11-13T12:22:41.998Z
