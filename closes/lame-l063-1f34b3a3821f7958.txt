@@ -1,0 +1,1 @@
+lame-l063-1f34b3a3821f7958 resolved ledger L063 status=fixed; ledger witness: plan/19 'are set to the archetype tier' count 0; per-tier HP, damage, armor and mana now UNVERIFIED: 700/630/560 HP, 55/50/45 damage, 4/3/2 armor, 300/270/240 mana. 2026-11-13T12:22:41.325Z
