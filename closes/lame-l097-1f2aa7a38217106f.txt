@@ -1,0 +1,1 @@
+lame-l097-1f2aa7a38217106f resolved ledger L097 status=fixed; ledger witness: Re-read plan/23:81: 'No name pool and no stored state' count 0. 2026-11-13T12:22:42.251Z
