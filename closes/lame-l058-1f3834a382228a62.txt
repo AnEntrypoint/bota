@@ -1,0 +1,1 @@
+lame-l058-1f3834a382228a62 resolved ledger L058 status=fixed; ledger witness: Decoy Posts cut: plan/21 section removed; plan/26 references removed; decision 26 in plan/20. Decoy Post in shipped text: none outside the internal parity map and decision 26. 2026-11-13T12:22:41.188Z
