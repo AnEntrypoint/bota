@@ -1,0 +1,1 @@
+lame-l146-16258da37ce157ea resolved ledger L146 status=fixed; ledger witness: Re-read plan/06 row: '| Clout decay | Above 50 Clout'; '| Decay | Above 50 Clout' count 0. 2026-11-13T12:22:42.999Z
