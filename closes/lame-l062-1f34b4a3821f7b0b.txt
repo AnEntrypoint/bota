@@ -1,0 +1,1 @@
+lame-l062-1f34b4a3821f7b0b resolved ledger L062 status=fixed; ledger witness: plan/19 'soft counter' count 0; line 2 and Counter coverage row are hard-counter only; decision 27 records the choice. Four archetype rows had no soft counter. 2026-11-13T12:22:41.299Z
