@@ -1,0 +1,1 @@
+lame-l038-1f3f30a38228a244 resolved ledger L038 status=fixed; ledger witness: Re-read plan/13:34: 'Some heroes have night abilities (Barista).'; Tinfoil count 0. 2026-11-13T12:22:40.694Z
