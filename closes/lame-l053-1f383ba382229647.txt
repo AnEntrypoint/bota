@@ -1,0 +1,1 @@
+lame-l053-1f383ba382229647 resolved ledger L053 status=fixed; ledger witness: Re-read plan/10:102: 're-themed onto roster entry 112'; 'former Pit Boss kit' count 0. Pit Post, Atrophy Feed, Gate Crash, Hard Fork appended to internal/parity-map.md under 'Former Scalper kit'; none remains in plan/, characters/, README.md or ROSTER.md. 2026-11-13T12:22:41.051Z
