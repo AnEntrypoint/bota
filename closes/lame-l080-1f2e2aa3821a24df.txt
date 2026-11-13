@@ -1,0 +1,1 @@
+lame-l080-1f2e2aa3821a24df resolved ledger L080 status=fixed; ledger witness: Re-read README.md:5: 'Numbers and cross-hero hooks marked UNVERIFIED or GUESS are unverified.' present. 2026-11-13T12:22:41.788Z
