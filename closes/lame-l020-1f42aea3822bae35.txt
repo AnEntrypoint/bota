@@ -1,0 +1,1 @@
+lame-l020-1f42aea3822bae35 resolved ledger L020 status=fixed; ledger witness: Re-read plan/26: ratio test starts at 400 Clout and asserts exactly 200 moves. 2026-11-13T12:22:40.215Z
