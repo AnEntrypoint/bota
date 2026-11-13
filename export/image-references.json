@@ -1,0 +1,400 @@
+{
+  "authority": "27 gallery JPGs inspected visually",
+  "heroes": {
+    "blo": {
+      "gallery_path": "gallery/005-bloomer.jpg",
+      "sources": {
+        "GALLERY.md": 18,
+        "characters/005-bloomer.md": 12
+      },
+      "visually_grounded_details": [
+        "orange hair",
+        "huge black grin",
+        "teal hoodie",
+        "dark green trousers",
+        "pale hands",
+        "open-armed pose",
+        "Wojak-like face"
+      ]
+    },
+    "boo": {
+      "gallery_path": "gallery/007-boomer.jpg",
+      "sources": {
+        "GALLERY.md": 20,
+        "characters/007-boomer.md": 12
+      },
+      "visually_grounded_details": [
+        "balding white man",
+        "black wraparound sunglasses",
+        "stained white T-shirt",
+        "khaki cargo shorts",
+        "white socks and chunky white sneakers",
+        "silver energy drink can in right hand"
+      ]
+    },
+    "bot": {
+      "gallery_path": "gallery/020-bot-bernard.jpg",
+      "sources": {
+        "GALLERY.md": 33,
+        "characters/020-bot-bernard.md": 12
+      },
+      "visually_grounded_details": [
+        "red-furred puppet monkey",
+        "large side-set eyes",
+        "flat mouth",
+        "patterned turquoise/orange shirt",
+        "green neck scarf",
+        "suspenders"
+      ]
+    },
+    "cha": {
+      "gallery_path": "internal/retired-gallery/002-chad.jpg",
+      "sources": {
+        "internal/retired-character-cards/002-chad.md": 1
+      },
+      "visually_grounded_details": [
+        "enormous pear-shaped grey-and-white rabbit",
+        "tall ears",
+        "buck teeth and wide smile",
+        "white gloves",
+        "open-armed pose"
+      ]
+    },
+    "col": {
+      "gallery_path": "gallery/024-cole.jpg",
+      "sources": {
+        "GALLERY.md": 37,
+        "characters/024-cole.md": 12
+      },
+      "visually_grounded_details": [
+        "bug-eyed freckled trainer kid",
+        "red-and-white cap",
+        "blue vest over black shirt",
+        "large backpack",
+        "blue jeans",
+        "oversized red-and-white sneakers"
+      ]
+    },
+    "coo": {
+      "gallery_path": "gallery/008-coomer.jpg",
+      "sources": {
+        "GALLERY.md": 21,
+        "characters/008-coomer.md": 12
+      },
+      "visually_grounded_details": [
+        "slim grey hoodie",
+        "brown comb-over",
+        "huge black-ringed eyes",
+        "wide beard-framed grin",
+        "olive cargo trousers",
+        "hands spread"
+      ]
+    },
+    "din": {
+      "gallery_path": "gallery/018-dino.jpg",
+      "sources": {
+        "GALLERY.md": 31,
+        "characters/018-dino.md": 12
+      },
+      "visually_grounded_details": [
+        "grey grinning T-rex",
+        "cyan party hat with pink ribbon",
+        "striped suspender trousers",
+        "shirt collar",
+        "stubby arms",
+        "clawed feet"
+      ]
+    },
+    "ecc": {
+      "gallery_path": "gallery/019-ecce.jpg",
+      "sources": {
+        "GALLERY.md": 32,
+        "characters/019-ecce.md": 12
+      },
+      "visually_grounded_details": [
+        "solemn bearded figure",
+        "crown of thorns",
+        "wide watery eyes",
+        "layered burgundy robe",
+        "sandals",
+        "open hands"
+      ]
+    },
+    "fin": {
+      "gallery_path": "gallery/015-finger-dan.jpg",
+      "sources": {
+        "GALLERY.md": 28,
+        "characters/015-finger-dan.md": 12
+      },
+      "visually_grounded_details": [
+        "sandy-haired football-manager figurine",
+        "navy zip tracksuit",
+        "white jacket swoosh and shield crest",
+        "stone plinth",
+        "both hands down; no pointing finger"
+      ]
+    },
+    "for": {
+      "gallery_path": "gallery/023-forever.jpg",
+      "sources": {
+        "GALLERY.md": 36,
+        "characters/023-forever.md": 12
+      },
+      "visually_grounded_details": [
+        "oversized lumpy white trollface head",
+        "blue tear streams",
+        "forced toothy grin",
+        "rolled shirt sleeves",
+        "suspenders",
+        "dark trousers and boots"
+      ]
+    },
+    "ghi": {
+      "gallery_path": "gallery/026-ghillie.jpg",
+      "sources": {
+        "GALLERY.md": 39,
+        "characters/026-ghillie.md": 12
+      },
+      "visually_grounded_details": [
+        "full straw-coloured ghillie suit",
+        "round black goggles",
+        "red nose",
+        "huge grass beard",
+        "wrapped scoped rifle",
+        "combat boots"
+      ]
+    },
+    "gon": {
+      "gallery_path": "gallery/009-gondola.jpg",
+      "sources": {
+        "GALLERY.md": 22,
+        "characters/009-gondola.md": 16
+      },
+      "visually_grounded_details": [
+        "tiny brown otter-like head",
+        "small dot eyes",
+        "yellow moustache and protruding tongue",
+        "extremely long blue jeans",
+        "red sneakers",
+        "no visible torso or arms"
+      ]
+    },
+    "got": {
+      "gallery_path": "gallery/027-gothgirl.jpg",
+      "sources": {
+        "GALLERY.md": 40,
+        "characters/027-gothgirl.md": 16
+      },
+      "visually_grounded_details": [
+        "bored pale goth",
+        "messy black bob",
+        "heavy-lidded eyes and rosy cheeks",
+        "black choker and black dress",
+        "striped leggings",
+        "large platform boots"
+      ]
+    },
+    "gre": {
+      "gallery_path": "gallery/025-grey.jpg",
+      "sources": {
+        "GALLERY.md": 38,
+        "characters/025-grey.md": 16
+      },
+      "visually_grounded_details": [
+        "scowling large-headed grey alien",
+        "black almond eyes",
+        "patched orange-and-teal space jumpsuit",
+        "metal wrist cuffs",
+        "utility belt",
+        "heavy boots"
+      ]
+    },
+    "how": {
+      "gallery_path": "gallery/012-howard.jpg",
+      "sources": {
+        "GALLERY.md": 25,
+        "characters/012-howard.md": 12
+      },
+      "visually_grounded_details": [
+        "white hair and beard",
+        "pained smile with blue eyes",
+        "orange plaid short-sleeve shirt",
+        "khaki trousers",
+        "brown shoes",
+        "hands out"
+      ]
+    },
+    "kar": {
+      "gallery_path": "internal/retired-gallery/011-karen.jpg",
+      "sources": {
+        "internal/retired-character-cards/011-karen.md": 1
+      },
+      "visually_grounded_details": [
+        "tall blonde beehive",
+        "open shouting mouth and angry eyes",
+        "fuchsia ruffled blouse",
+        "multicolour patterned cardigan",
+        "khaki capris",
+        "platform sandals",
+        "shoulder bag"
+      ]
+    },
+    "lan": {
+      "gallery_path": "gallery/014-lankdad.jpg",
+      "sources": {
+        "GALLERY.md": 27,
+        "characters/014-lankdad.md": 12
+      },
+      "visually_grounded_details": [
+        "extremely tall angular black suit",
+        "blank white oval face",
+        "black tie",
+        "eight curling tendrils behind shoulders",
+        "long pale hands"
+      ]
+    },
+    "nec": {
+      "gallery_path": "gallery/001-neckbeard.jpg",
+      "sources": {
+        "GALLERY.md": 14,
+        "characters/001-neckbeard.md": 12
+      },
+      "visually_grounded_details": [
+        "heavyset T-pose",
+        "stained charcoal TACOS T-shirt with visible TACOS text",
+        "round wire glasses",
+        "tiny receding ponytail",
+        "olive cargo shorts",
+        "scuffed sneakers",
+        "grease stains"
+      ]
+    },
+    "nos": {
+      "gallery_path": "gallery/017-noscope.jpg",
+      "sources": {
+        "GALLERY.md": 30,
+        "characters/017-noscope.md": 12
+      },
+      "visually_grounded_details": [
+        "heavily equipped tactical sniper",
+        "monocular goggle and headset",
+        "scoped rifle over shoulder",
+        "camouflage uniform and many pouches",
+        "radio antennas",
+        "stern expression"
+      ]
+    },
+    "npc": {
+      "gallery_path": "gallery/022-npc.jpg",
+      "sources": {
+        "GALLERY.md": 35,
+        "characters/022-npc.md": 12
+      },
+      "visually_grounded_details": [
+        "flat grey featureless human",
+        "two dot eyes and L-shaped nose",
+        "straight mouth",
+        "pale-yellow short-sleeve shirt",
+        "rolled brown trousers",
+        "brown shoes"
+      ]
+    },
+    "san": {
+      "gallery_path": "gallery/013-sanic.jpg",
+      "sources": {
+        "GALLERY.md": 26,
+        "characters/013-sanic.md": 12
+      },
+      "visually_grounded_details": [
+        "warped electric-blue hedgehog",
+        "mismatched googly eyes",
+        "blue crop top and yellow belly",
+        "white gloves",
+        "giant red shoes",
+        "forward-leaning spines"
+      ]
+    },
+    "sho": {
+      "gallery_path": "gallery/021-shoop.jpg",
+      "sources": {
+        "GALLERY.md": 34,
+        "characters/021-shoop.md": 12
+      },
+      "visually_grounded_details": [
+        "giant rectangular red mouth",
+        "two eye stalks",
+        "small bowtie",
+        "white shirt and suspenders",
+        "brown work trousers and heavy shoes"
+      ]
+    },
+    "spu": {
+      "gallery_path": "gallery/010-spurdo.jpg",
+      "sources": {
+        "GALLERY.md": 23,
+        "characters/010-spurdo.md": 12
+      },
+      "visually_grounded_details": [
+        "round brown frog-derived head",
+        "black dot eyes",
+        "giant pale moustache",
+        "open grin",
+        "green hoodie",
+        "brown sweatpants"
+      ]
+    },
+    "tra": {
+      "gallery_path": "gallery/006-tradwife.jpg",
+      "sources": {
+        "GALLERY.md": 19,
+        "characters/006-tradwife.md": 16
+      },
+      "visually_grounded_details": [
+        "long blonde hair",
+        "worried raised eyebrows",
+        "blue daisy-print dress",
+        "dark leggings",
+        "black Mary Jane shoes",
+        "arms slightly out"
+      ]
+    },
+    "wil": {
+      "gallery_path": "gallery/016-willie.jpg",
+      "sources": {
+        "GALLERY.md": 29,
+        "characters/016-willie.md": 16
+      },
+      "visually_grounded_details": [
+        "vintage black-and-white round-eared mouse",
+        "side-on whistling smile",
+        "button shorts",
+        "long thin tail",
+        "oversized shoes",
+        "grainy monochrome background"
+      ]
+    },
+    "woj": {
+      "gallery_path": "gallery/004-wojak.jpg",
+      "sources": {
+        "GALLERY.md": 17,
+        "characters/004-wojak.md": 12
+      },
+      "visually_grounded_details": [
+        "black-and-white ink drawing",
+        "bald elongated Wojak head",
+        "hollow downcast eyes",
+        "flat resigned mouth",
+        "loose sweatshirt and baggy trousers",
+        "open-armed stance"
+      ]
+    }
+  },
+  "retired_image": {
+    "display_name": "Gigachad",
+    "not_a_hero_key": true,
+    "path": "gallery/003-gigachad.jpg",
+    "slot": "003",
+    "status": "image-only retired/reserve"
+  },
+  "schema": "bota.image-references/v1"
+}

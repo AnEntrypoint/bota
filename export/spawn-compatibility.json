@@ -1,0 +1,296 @@
+{
+  "activeRosterCount": 24,
+  "asset_differences": {
+    "bota": "local gallery JPGs and oscraft <acro>-skinned.glb paths",
+    "rule": "Do not copy BOTA GLB/JPG paths into Spawn scene rows; CDN upload and naming are Spawn-specific.",
+    "wscheppity": "CDN names /cdn/value.<sha256>.<ext>; world.assets metadata rows"
+  },
+  "autoRefresh": {
+    "extra": "first-class extraction peer",
+    "readOnly": true,
+    "runner": "python3 tools/auto-refresh-coordination.py --once",
+    "validator": "python3 tools/validate-auto-refresh.py"
+  },
+  "bota_counts": {
+    "abilities": 104,
+    "active_heroes": 26,
+    "covered_markers": 169,
+    "decisions": 12,
+    "engine_files": 5,
+    "gallery": 25,
+    "gated_fields": 425,
+    "hashes": 50,
+    "voice": 50
+  },
+  "content_coordination": {
+    "contentOwner": "hy3d",
+    "contract": "/workspace/hy3d/output/content-for-bota.json",
+    "demand": "/workspace/bota/export/rule-demand.json",
+    "demandValidator": "python3 tools/validate-rule-demand.py",
+    "rulesOwner": "bota",
+    "sequence": "hy3d makes all content first with pooled emails, then with the relay",
+    "writePolicy": "read-only toward /workspace/hy3d"
+  },
+  "content_models": {
+    "bota": {
+      "assets": "local gallery/*.jpg; oscraft acronym GLBs tracked by live validator",
+      "identifiers": "^[a-z]{3}$ acronym keys",
+      "primary": "26 active hero acronyms",
+      "secondary": [
+        "104 ability rows",
+        "50 voice rows",
+        "27 local gallery JPGs",
+        "12 decisions",
+        "425 null-gated engine fields"
+      ]
+    },
+    "wscheppity": {
+      "assets": "CDN names like /cdn/value.<sha256>.<ext>, not local bytes",
+      "identifiers": "scene/object ids such as frog-him, frog-her, frog-cleetus and rr-* variants",
+      "primary": "three.js object rows in places/*/cells/*.scene",
+      "secondary": [
+        "behavior modules with update(ctx, dt)",
+        "scripts/ui.js HUD",
+        "/cdn/ asset names",
+        "world.assets CDN metadata"
+      ]
+    }
+  },
+  "coordinationStatus": {
+    "extra": "UNAVAILABLE until /workspace/extra/.local manifests exist",
+    "readOnly": true,
+    "status": "export/coordination-status.json",
+    "watcher": "tools/watch-coordinated-queues.py",
+    "wscheppityRequirement": "100% complete upstream extraction"
+  },
+  "could_reuse": [
+    {
+      "condition": "an owner-approved adapter labels it as BOTA provenance, never as Spawn cast IDs",
+      "item": "acronym registry as non-runtime metadata"
+    },
+    {
+      "condition": "used as reference only; no live dialog integration is claimed",
+      "item": "humor/voice flavor"
+    },
+    {
+      "condition": "read-only validators and status conventions may inspire a separate Spawn checker",
+      "item": "verification discipline"
+    }
+  ],
+  "decision_gates": {
+    "canonical_engine_resolved_exists": false,
+    "do_not_promote": true,
+    "gated_fields": 425
+  },
+  "downstreamDrift": [
+    {
+      "guarantee": 26,
+      "policy": "unchanged historical guarantee",
+      "surface": "BOTA legacy export/fixture"
+    },
+    {
+      "guarantee": 127,
+      "policy": "unchanged upstream guarantee",
+      "surface": "oscraft default-Dota acronyms"
+    },
+    {
+      "guarantee": 26,
+      "policy": "unchanged upstream guarantee",
+      "surface": "oscraft BOTA fullname/model artifacts"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "AGENTS.md:6",
+      "quote": "an object is a row with three.js's geometry and material fields",
+      "side": "wscheppity",
+      "supports": "scene-row object model, not hero roster"
+    },
+    {
+      "file": "world.config.yaml:2",
+      "quote": "name: \"WONSCHWEPPIDYTIME\"",
+      "side": "wscheppity",
+      "supports": "different world identity"
+    },
+    {
+      "file": "design.md:2",
+      "quote": "A 3D multi-camera frog sitcom",
+      "side": "wscheppity",
+      "supports": "different premise: frog sitcom"
+    },
+    {
+      "file": "places/main/sim.js:18",
+      "quote": "const PEP = \"frog-him\", ROZ = \"frog-her\";",
+      "side": "wscheppity",
+      "supports": "cast object IDs, not 26 acronym heroes"
+    },
+    {
+      "file": "scripts/architecture.json:40",
+      "quote": "\"ownership\"",
+      "side": "wscheppity",
+      "supports": "behavior-module architecture"
+    },
+    {
+      "file": "AGENTS.md:22",
+      "quote": "Art is a CDN NAME, never bytes in this tree",
+      "side": "wscheppity",
+      "supports": "CDN-name asset model"
+    },
+    {
+      "file": "ROSTER.md:7",
+      "quote": "| 001 | Neckbeard | characters/001-neckbeard.md |",
+      "side": "bota",
+      "supports": "active hero slots"
+    },
+    {
+      "file": "export/hero-registry.json",
+      "quote": "\"hero_id\": \"3-letter lowercase acronym\"",
+      "side": "bota",
+      "supports": "acronym-only registry"
+    },
+    {
+      "file": "export/field-index.json",
+      "quote": "\"count\": 425",
+      "side": "bota",
+      "supports": "decision-gated fields remain null"
+    }
+  ],
+  "generatedAt": "2026-11-13T12:18:53.000Z",
+  "generated_from": "read-only inspection of /workspace/wscheppity and /workspace/bota/export",
+  "hash_references": {
+    "decisions.json": "b32e5f6c132153aa41f209e740bf990667b8ceb167be00e9166ac33a4d4986d9",
+    "field-index.json": "d7b26f6616ad046035d47d071143fd880ec5851b7f4596f736cb3b0b48c3fbda",
+    "hero-kits.json": "69a266b14639391d805ebcb0aebb6856cab6eae8cf2f158b47eb208f36f98a7f",
+    "hero-registry.json": "9bdfce367281485a93c80212f49bcac872954894648c5de0e3f557a7b40785cc",
+    "hero-voice.json": "e195fbe222634c59cd10cfdaf5eb227e7074df8eeebd024eee34ca64ac60acb4",
+    "image-references.json": "1a94b0feead2d935f8712c19bb5efcc06c0f98b988a136d8631f372629eddf68",
+    "integration-contract.json": "455aea494984aeefd5d85f4ac73016d118112221acaf7e22661fbd601e98f4e2"
+  },
+  "identifier_inversion": {
+    "botaCanonicalExport": "26 three-letter acronym keys remain canonical in /workspace/bota/export",
+    "defaultDotaHeroes": "default-Dota legacy hero IDs are expected as three-letter acronyms via character-mapping.tsv legacy_acronym",
+    "effectOnVerdict": "no change: reusable-data remains the compatibility verdict",
+    "oscraftBotaArtifacts": "expected full BOTA character names/slugs such as neckbeard, bot_bernard and finger_dan",
+    "policy": "UNAVAILABLE and DRIFT are reported with exact downstream paths; migration is never claimed as success in the wrong identifier mode",
+    "status": "downstream oscraft migration in progress",
+    "validator": "tools/validate-integration-live.py --identifier-mode acronym|bota-fullname [--default-dota-acronyms]"
+  },
+  "identifier_namespace_differences": {
+    "bota_active_keys": [
+      "nec",
+      "cha",
+      "woj",
+      "blo",
+      "tra",
+      "boo",
+      "coo",
+      "gon",
+      "spu",
+      "kar",
+      "how",
+      "san",
+      "lan",
+      "fin",
+      "wil",
+      "nos",
+      "din",
+      "ecc",
+      "bot",
+      "sho",
+      "npc",
+      "for",
+      "col",
+      "gre",
+      "ghi",
+      "got"
+    ],
+    "collision_policy": "Never map a BOTA acronym to a Spawn object id without a new owner-approved adapter.",
+    "wscheppity_cast_ids": [
+      "frog-him",
+      "frog-her",
+      "frog-cleetus",
+      "rr-frog-him",
+      "rr-frog-her",
+      "rr-frog-cleetus"
+    ]
+  },
+  "must_not_copy_blindly": [
+    "engine ability values",
+    "decision-gated null values",
+    "three.js scene rows",
+    "Spawn behavior modules into BOTA",
+    "BOTA ability rows into Spawn sim.js",
+    "BOTA local GLB/JPG assets as /cdn/ names",
+    "retired/reserve character names or old slugs as active keys"
+  ],
+  "not_claimed": [
+    "same-game",
+    "live Spawn integration",
+    "hero roster in wscheppity",
+    "engine-value compatibility",
+    "asset compatibility",
+    "promotion of any decision-gated field"
+  ],
+  "pass": "pass-24-active-heroes-final-evidence",
+  "progressDashboard": {
+    "actorBacklog": "export/actor-backlog.json",
+    "json": "export/progress-dashboard.json",
+    "readOnly": true
+  },
+  "required_paths": {
+    "bota": [
+      "export/hero-registry.json",
+      "export/hero-kits.json",
+      "export/hero-voice.json",
+      "export/image-references.json",
+      "export/decisions.json",
+      "export/field-index.json",
+      "export/engine/manifest.json",
+      "export/SHA256SUMS.json"
+    ],
+    "wscheppity": [
+      "AGENTS.md",
+      "world.config.yaml",
+      "design.md",
+      "world.facts.yaml",
+      "scripts/architecture.json",
+      "scripts/ui.js",
+      "sim.js",
+      "templates/player.js",
+      "places/main/cells/x0z0.scene",
+      "places/main/sim.js"
+    ]
+  },
+  "schema": "bota.spawn-compatibility/v1",
+  "verdict": "reusable-data",
+  "verdict_reason": "Different games and incompatible primary content models. BOTA is a 26-hero acronym-keyed MOBA export whose downstream oscraft artifacts are migrating to full BOTA slugs while default-Dota legacy IDs become acronyms; WONSCHWEPPIDYTIME is a live three.js frog sitcom with scene rows, behavior modules and CDN asset names. Only descriptive/creative metadata could be reused, and only by an explicit new adapter.",
+  "wscheppity_counts": {
+    "places": 14,
+    "refs": [
+      "refs/heads/main",
+      "refs/notes/spawn",
+      "refs/remotes/origin/heads/main",
+      "refs/remotes/origin/main",
+      "refs/remotes/origin/notes/spawn",
+      "refs/remotes/origin/spawn-live",
+      "refs/remotes/origin/spawn/live"
+    ],
+    "scene_cells": 6,
+    "scripts": 79,
+    "templates": 2,
+    "top_level_dirs": [
+      ".spawn",
+      "art",
+      "clips",
+      "places",
+      "scripts",
+      "spawn6",
+      "templates",
+      "ui",
+      "world.assets"
+    ],
+    "tracked_files": 189,
+    "ui_files": 1,
+    "world_assets": 67
+  }
+}

@@ -1,0 +1,105 @@
+hero_id	ability_id	slot	name	type	mechanic	flavor_text	cooldown_seconds	sigma_cost	numeric_values_json	status	source
+nec	nec_1	1	Taco Shield	ability_1	absorbs damage for an ally	the greasy TACOS shirt soaks the first hit and prints a crumb-by-crumb invoice	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:8
+nec	nec_2	2	Second Helping	ability_2	heals the shielded ally and offers a stained leftover taco from the cargo pockets		[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:8
+nec	nec_3	3	Crumb Trail	ability_3	slows nearby enemies	cargo-pocket crumbs drop under them and slow each step; the shirt calls this a floor plan	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:8
+nec	nec_4	4	Basement Exile	ultimate	ally untargetable for 3 s	banished to the basement, where the Wi-Fi and the sandal-sock smell drive foes off	[100,85,70]	[150,200,250]	"[{""value"":3,""unit"":""s"",""text"":""3 s""}]"	GUESS	plan/10-remaining-hero-kits.md:8
+cha	cha_1	1	Jawline Freeze	ability_1	frost damage and slow	one glance at the impossible rabbit jaw freezes the target; he asks if the camera caught it	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:9
+cha	cha_2	2	Cold Shoulder	ability_2	delayed ping that damages on return	he turns a shoulder and the delayed ping returns with a caption reading no notes	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:9
+cha	cha_3	3	Hands on Hips	ability_3	marks a spot to stun	the white-glove pose marks a spot to stun; the spot is asked to validate the jawline	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:9
+cha	cha_4	4	Carved Gap Lot	ultimate	damage scales with missing sigma	the retired greyscale image strides in, says nothing and leaves	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:9
+woj	woj_1	1	Sigh at Clouds	ability_1	a hollow-eyed sigh taunts enemies in range		[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:26
+woj	woj_2	2	Hollow Stare	ability_2	ink-etched hollow eyes slow and damage over time		[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:26
+woj	woj_3	3	Sad Clapback	ability_3	a flat resigned mouth returns damage when attacked		[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:26
+woj	woj_4	4	Sorrowful Cancel	ultimate	instant kill below 25% health	the shoes stay exactly where they were	[100,85,70]	[150,200,250]	"[{""value"":25,""unit"":""%"",""text"":""25 %""}]"	GUESS	plan/10-remaining-hero-kits.md:26
+blo	blo_1	1	Smile Ping	ability_1	stuns and slows nearby enemies	the huge black grin blinds them with optimism so aggressive it needs a content warning	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:10
+blo	blo_2	2	Morning Hawk	ability_2	summons a scouting hawk	the teal hoodie pockets produce a hawk that glides a cheerful golden-hour sweep	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:10
+blo	blo_3	3	Boar Account	ability_3	summons a charging boar that wears a tiny teal hoodie and asks if everyone is okay		[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:10
+blo	blo_4	4	Positive Rally	ultimate	rallies allies with speed	pale hands and an open-armed stance make every ally a sprinter, reluctantly	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:10
+tra	tra_1	1	Daisy Dress Swat	ability_1	damage over time that grows with movement	each worried step across the daisy print adds a passive-aggressive swat; the group chat read the recipe wrong	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:11
+tra	tra_2	2	Anxious Eyebrows	ability_2	attack speed bonus	the raised eyebrows tighten with every swing	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:11
+tra	tra_3	3	Mary Jane Stir	ability_3	area damage on an enemy	one black Mary Jane stirs the area with terrifying politeness	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:11
+tra	tra_4	4	Worried Supper Drain	ultimate	reveals and drains a target	the concerned smile announces dinner is served and apologises in advance	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:11
+boo	boo_1	1	Pull Cord Hurl	ability_1	yanks an imaginary mower cord and tosses a ranged slow	the silver energy drink stays raised like a receipt for damages	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/09-launch-hero-kits.md:32
+boo	boo_2	2	Ok Boomer Strike	ability_2	next attack, with a dismissive wave over black shades, deals bonus damage and blames the youth		[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/09-launch-hero-kits.md:32
+boo	boo_3	3	Cobalt Fade	ability_3	black shades and stained white tee make him invisible for 2 s while moving	attacking smears the fade	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	"[{""value"":2,""unit"":""s"",""text"":""2 s""}]"	GUESS	plan/09-launch-hero-kits.md:32
+boo	boo_4	4	Tracked Lawn	ultimate	reveals an enemy	every hit leaves a grass stain billed to the nearest minor	[100,85,70]	[150,200,250]	[]	GUESS	plan/09-launch-hero-kits.md:32
+coo	coo_1	1	Lone Arm Clap	ability_1	stuns and damages	both perfectly ordinary sleeves clap around the hoodie pocket	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/09-launch-hero-kits.md:34
+coo	coo_2	2	Bloodshot Brew	ability_2	fire area	the huge black-ringed eyes ignite a brew he calls herbal	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/09-launch-hero-kits.md:34
+coo	coo_3	3	Tank Top Splash	ability_3	pushes enemies back	the grey hoodie pocket flings the splash and the grin denies everything	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/09-launch-hero-kits.md:34
+coo	coo_4	4	Right Arm Clones	ultimate	summons clones of self	every clone claims to be a different browser tab	[100,85,70]	[150,200,250]	[]	GUESS	plan/09-launch-hero-kits.md:34
+gon	gon_1	1	Potato Spit	ability_1	slows and stacks	the moustache leaves a slow on the nearest mile of denim	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:12
+gon	gon_2	2	Boot Stomp Spam	ability_2	damages on attack	each stomp lands a red sneaker	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:12
+gon	gon_3	3	Rolling Back	ability_3	reflects damage	the endless jeans roll the reflected hit back	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:12
+gon	gon_4	4	Potato Grudge	ultimate	bonus damage per hit taken	the tongue-out otter stare keeps score	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:12
+spu	spu_1	1	Spider Spawn	ability_1	summons spiderlings	they crawl out of the green hoodie pocket	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:13
+spu	spu_2	2	Parka Web	ability_2	builds a slowing web	the green hoodie drawstrings wrap it	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:13
+spu	spu_3	3	Baseball Bat Poison	ability_3	poisons a target	the pale moustache's poison stings	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:13
+spu	spu_4	4	Parka Hunger	ultimate	heals from spider kills	the moustache swallows every kill	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:13
+kar	kar_1	1	Accordion Stomp	ability_1	stuns nearby enemies	the shoulder bag unfolds a complaint and stomps them down	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:14
+kar	kar_2	2	Complaint Charge	ability_2	charges and damages	beehive, fuchsia blouse and platform sandals lead the charge	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:14
+kar	kar_3	3	Receipt Reflect	ability_3	reflects damage when hit	the patterned cardigan bounces the hit back	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:14
+kar	kar_4	4	Speak to the Manager	ultimate	charges every enemy in a line	she demands the supervisor in a patterned-cardigan wail	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:14
+how	how_1	1	Plaid Shirt Detention	ability_1	slows and damages	the orange plaid shirt and pained blue-eyed smile hold targets in an incident report	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:15
+how	how_2	2	Forced Smile Pressure	ability_2	converts a creep to an ally	the pained smile pressures a creep into signing the incident report	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:15
+how	how_3	3	Plaid Pass	ability_3	heals an ally	the orange plaid stays buttoned while it heals	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:15
+how	how_4	4	Break Room	ultimate	temporary sanctuary	the break room is the only place the pained smile is allowed to rest	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:15
+san	san_1	1	Sanic Rush	ability_1	rapid attacks while moving	the crop-top belly, mismatched eyes and giant red shoes rush forward	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:16
+san	san_2	2	Smear Burn	ability_2	fire damage on attacks	the blue crop top blurs into flame	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:16
+san	san_3	3	Scribble Sneak	ability_3	stealth while moving	the hitbox arrives three frames late and smears out of sight	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:16
+san	san_4	4	Scribble Swarm	ultimate	summons attacking skeletons	each skeleton has mismatched pupils and a tiny patch note	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:16
+lan	lan_1	1	Tendril Flare	ability_1	reveals and damages nearby	eight back tendrils flare behind the shoulders	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:17
+lan	lan_2	2	Tendril Pull	ability_2	pulls a target in	one tendril yanks it toward the blank face; seven cite it	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:17
+lan	lan_3	3	Funeral Gear Check	ability_3	pushes enemies away	the angular black suit checks them out of the room	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:17
+lan	lan_4	4	Blank Stare	ultimate	stuns everything in radius	the blank white oval freezes the room	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:17
+fin	fin_1	1	Crimson Bandana Cone	ability_1	cone of fire	the navy tracksuit crest blazes across the cone	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:18
+fin	fin_2	2	Accusing Finger	ability_2	stuns and knocks back	the accusation shoves them; the sculpt has no pointing finger	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:18
+fin	fin_3	3	Gold Chain Privileges	ability_3	armor and regen	the white jacket swoosh flashes with each regen tick	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:18
+fin	fin_4	4	Broadcast Super	ultimate	bigger, stronger attacks	the plinth rotates for a hyped VAR review	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:18
+wil	wil_1	1	Whistle Ding	ability_1	rolls a rock	the vintage mouse whistle dings a rock into motion; copyright-safe silence does the rest	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:19
+wil	wil_2	2	Tail Line	ability_2	rolls along a line	the long black tail draws the line and the oversized shoes keep time	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:19
+wil	wil_3	3	Button Shorts Magnet	ability_3	pulls rocks at enemies	two white shorts buttons inhale the rocks with bureaucratic dignity	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:19
+wil	wil_4	4	Monochrome Mosh	ultimate	damages and stuns a zone	the black-and-white side-on stance mosh-pits the zone in one whistle loop	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:19
+nos	nos_1	1	Hitmarker Spin	ability_1	spins and damages nearby enemies	each hit flashes the monocular goggle marks the target despite every denial	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:25
+nos	nos_2	2	Sponsor Patch Heal	ability_2	heals allies in radius	a healed ally also gets a radio confirmation they did not request	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:25
+nos	nos_3	3	Lucky Scope	ability_3	the monocular gives a chance to critically strike	a crit is filed as blind luck	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:25
+nos	nos_4	4	Bolt Action Chain	ultimate	rapid scoped strikes jump between enemies and three spare radios		[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:25
+din	din_1	1	Pixel Beam	ability_1	beam of light	the cyan party hat fires it in blocky steps	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:20
+din	din_2	2	1-Bit Blind	ability_2	blinds in an area	the toothy T-rex grin blinds everything in it	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:20
+din	din_3	3	Silhouette Breath	ability_3	restores sigma	the suspenders breathe sigma back	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:20
+din	din_4	4	Chomp Flight	ultimate	fast flight, heals on pass	the party T-rex jaw chomps mid-flight	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:20
+ecc	ecc_1	1	Halo Beam	ability_1	stuns and damages	the crown of thorns catches a light nobody can find in the level	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/09-launch-hero-kits.md:35
+ecc	ecc_2	2	Burlap Reshare	ability_2	bounces between enemies	the burgundy robe reshares the bounce without attribution	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/09-launch-hero-kits.md:35
+ecc	ecc_3	3	Fresco Aura	ability_3	damages nearby enemies	watery eyes smudge the damage across them	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/09-launch-hero-kits.md:35
+ecc	ecc_4	4	Halo Shutter	ultimate	repeated light rays over a window	every frame is captioned Behold, then Behold again	[100,85,70]	[150,200,250]	[]	GUESS	plan/09-launch-hero-kits.md:35
+bot	bot_1	1	Suspender Arrow	ability_1	stuns in a line	the puppet-monkey suspenders snap an arrow along a line	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:21
+bot	bot_2	2	Lens Hop	ability_2	leaps and grants attack speed	the flat puppet mouth refuses to leap; the scarf does	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:21
+bot	bot_3	3	Spotlight Fan	ability_3	grants a shadow to an ally	the side-set puppet eyes lean the shadow away from the portrait	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:21
+bot	bot_4	4	Stage Rain	ultimate	damages all nearby enemies	the patterned shirt pours down	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:21
+sho	sho_1	1	Plasma Wipe	ability_1	dashes and damages	two eye stalks dash and wipe	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:22
+sho	sho_2	2	Lips Strike	ability_2	damage scales with stats	the rectangular red mouth strikes with stats	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:22
+sho	sho_3	3	Red Lips Swap	ability_3	swaps strength and agility	the bowtie swaps strength and agility	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:22
+sho	sho_4	4	Eye Copycat	ultimate	copies an enemy's ability	the eye stalks copy the ability	[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:22
+npc	npc_1	1	Idle Lance	ability_1	slows and damages	the L-shaped nose lances with a flat stare	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:23
+npc	npc_2	2	Patrol Twin	ability_2	creates illusions	identical yellow shirts and rolled trousers patrol	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:23
+npc	npc_3	3	Idle Flicker	ability_3	blinks to a target	two dot eyes blink to it	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:23
+npc	npc_4	4	Idle Crowd	ultimate	a decoy copy draws enemy attacks for 3 s	the straight-mouthed idle is the decoy	[100,85,70]	[150,200,250]	"[{""value"":3,""unit"":""s"",""text"":""3 s""}]"	GUESS	plan/10-remaining-hero-kits.md:23
+for	for_1	1	Tear Clip	ability_1	a blue tear projectile	a slowed target keeps the clip stuck	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:27
+for	for_2	2	Lumpy Wail	ability_2	a tear-streaked trollface grin damages around the hero		[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:27
+for	for_3	3	Crawl Ghost	ability_3	brief evasion while the lumpy head nods to the loop		[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:27
+for	for_4	4	Eternal Loop	ultimate	the tear-streaked grin repeats until its clip of three stuns ends, then refills, charming yet		[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:27
+col	col_1	1	Thunderbolt	ability_1	holds an enemy in place and copies its image in a cap-shaped flash		[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/10-remaining-hero-kits.md:24
+col	col_2	2	Quick Attack	ability_2	rapid strikes	each oversized sneaker repeat adds bonus damage	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/10-remaining-hero-kits.md:24
+col	col_3	3	Poison Sting	ability_3	damage over time	the freckled grin poisons	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/10-remaining-hero-kits.md:24
+col	col_4	4	Hyper Beam	ultimate	a huge backpack beam that stuns and slows		[100,85,70]	[150,200,250]	[]	GUESS	plan/10-remaining-hero-kits.md:24
+gre	gre_1	1	Beam Quote	ability_1	three-hit tractor-beam burst from a patched orange-and-teal jumpsuit	each line is another follow-up nobody remembers opening	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/09-launch-hero-kits.md:31
+gre	gre_2	2	Abduction Count	ability_2	collects a specimen stack when a nearby enemy dies, cap 5	the alien frowns as if the department lost the first four forms	[12,11,10,9]	[70,80,90,100]	"[{""value"":5,""unit"":null,""text"":""5""}]"	GUESS	plan/09-launch-hero-kits.md:31
+gre	gre_3	3	Orb Vibes Aura	ability_3	the patched orange-and-teal jumpsuit hums through metal wrist cuffs, cutting nearby enemy armor	the utility belt calls it a compliance check	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/09-launch-hero-kits.md:31
+gre	gre_4	4	Probe Ticker	ultimate	lines of damage that probe the target	each kill adds a specimen and a memo marked final final v3	[100,85,70]	[150,200,250]	[]	GUESS	plan/09-launch-hero-kits.md:31
+ghi	ghi_1	1	Burlap Warning	ability_1	straw ghillie strips scatter as area traps with damage	the haystack posts a warning and then denies being the haystack	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/09-launch-hero-kits.md:33
+ghi	ghi_2	2	Twine Lock	ability_2	camouflage twine holds and reveals enemies	the grass beard cites the exact shrub	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/09-launch-hero-kits.md:33
+ghi	ghi_3	3	Corn Stalk Jump	ability_3	leaping strike with damage	goggles pop open at the worst possible moment	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/09-launch-hero-kits.md:33
+ghi	ghi_4	4	Scoped Temp Ban	ultimate	remote detonation through the wrapped scope disables	the round goggles file an appeal from inside the bush	[100,85,70]	[150,200,250]	[]	GUESS	plan/09-launch-hero-kits.md:33
+got	got_1	1	Fan Swarm	ability_1	summons bugs	the black dress produces them from a sigh so quiet it has subtitles	[10,9,8,7]	[60,70,80,90]	[]	GUESS	plan/09-launch-hero-kits.md:36
+got	got_2	2	Cardigan Flicker	ability_2	blinks	one sleeve goes, then the other, because leaving is a process	[12,11,10,9]	[70,80,90,100]	[]	GUESS	plan/09-launch-hero-kits.md:36
+got	got_3	3	Velvet Double	ability_3	double attack	the choker doubles it and refuses to be impressed	[14,12,10,8]	"""0 when passive, 50 when aura; each kit names which"""	[]	GUESS	plan/09-launch-hero-kits.md:36
+got	got_4	4	Rewind Smoke	ultimate	rewinds a target's position to before anyone said vibe	platform boots land on the word and erase it	[100,85,70]	[150,200,250]	[]	GUESS	plan/09-launch-hero-kits.md:36

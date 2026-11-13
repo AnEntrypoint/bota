@@ -1,0 +1,601 @@
+{
+  "schema": "bota.decision-packet/v1",
+  "generated_from": [
+    "export/decisions.json",
+    "export/engine/*.json"
+  ],
+  "policy": "Compact owner-facing packet. Recommendations in decisions.json are NOT applied by default. Canonical export/engine/ remains null-gated. Applying requires tools/apply-decision.py with explicit id, explicit option, and confirmation flags.",
+  "totals": {
+    "decisions": 12,
+    "engine_gated_fields": 425,
+    "owner_decisions": 5,
+    "intentionally_open": 2,
+    "resolved_from_plan": 5,
+    "leaks": 0
+  },
+  "field_index": "export/field-index.json",
+  "field_index_tsv": "export/field-index.tsv",
+  "apply_tool": "tools/apply-decision.py",
+  "resolves_to": "export/engine-resolved/",
+  "decisions": [
+    {
+      "id": "ability_3_passive_vs_aura_cost",
+      "category": "balance value",
+      "confidence": "intentionally-open",
+      "engine_gated_fields": 1,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/manifest.json#decision_gated_fields.ability_3_passive_vs_aura_cost"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Emit both branches: 0 Sigma when passive, 50 Sigma when aura",
+        "Classify every Ability 3 as passive",
+        "Classify every Ability 3 as aura"
+      ],
+      "recommendation": "Emit both branches and require per-ability classification before runtime generation.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/09-launch-hero-kits.md:18",
+        "plan/26-first-playable-cut-list-and-checks.md:32"
+      ]
+    },
+    {
+      "id": "ability_slot_mapping",
+      "category": "slot mapping",
+      "confidence": "resolved-from-plan",
+      "engine_gated_fields": 0,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Keep the four-slot map and Brainrot names as theme-only GUESS values",
+        "Re-map slots using section 24 numbering",
+        "Re-map slots after a playable build and C8 rename regression"
+      ],
+      "recommendation": "Keep the four-slot map and Brainrot names as theme-only GUESS values for the export; do not change numbers or effects.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/09-launch-hero-kits.md:4",
+        "plan/19-balance-and-qa.md:87",
+        "plan/26-first-playable-cut-list-and-checks.md:32"
+      ]
+    },
+    {
+      "id": "ambiguity_record_status_markers",
+      "category": "other",
+      "confidence": "resolved-from-plan",
+      "engine_gated_fields": 0,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Keep ambiguity records as provenance and cover them with this decision layer",
+        "Delete ambiguity records",
+        "Promote all ambiguity records to final values"
+      ],
+      "recommendation": "Keep ambiguity records as provenance and cover them with this decision layer.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/20-open-questions-sources-and-decisions.md:16",
+        "plan/20-open-questions-sources-and-decisions.md:63"
+      ]
+    },
+    {
+      "id": "cross_hero_hook_guesses",
+      "category": "other",
+      "confidence": "intentionally-open",
+      "engine_gated_fields": 1,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/manifest.json#decision_gated_fields.hooks"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Keep hooks as GUESS flavor/spec notes outside first-playable mechanics",
+        "Implement every hook now with shared counters",
+        "Cut all hooks"
+      ],
+      "recommendation": "Keep hooks as GUESS flavor/spec notes outside first-playable mechanics until shared-counter support is chosen.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/09-launch-hero-kits.md:6",
+        "plan/09-launch-hero-kits.md:27",
+        "plan/09-launch-hero-kits.md:46",
+        "plan/10-remaining-hero-kits.md:37"
+      ]
+    },
+    {
+      "id": "default_damage_types",
+      "category": "damage type",
+      "confidence": "owner-decision",
+      "engine_gated_fields": 104,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/abilities.json#heroes.blo.0.damage_type",
+        "export/engine/abilities.json#heroes.blo.1.damage_type",
+        "export/engine/abilities.json#heroes.blo.2.damage_type",
+        "export/engine/abilities.json#heroes.blo.3.damage_type",
+        "export/engine/abilities.json#heroes.boo.0.damage_type",
+        "export/engine/abilities.json#heroes.boo.1.damage_type"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Use defaults: Ability 1 physical, Ability 2 magical, Ability 3 pure, while allowing row overrides",
+        "Leave damage type unset",
+        "Set every ability to one type"
+      ],
+      "recommendation": "Use the plan defaults and allow row overrides; keep UNVERIFIED status.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/09-launch-hero-kits.md:26",
+        "plan/20-open-questions-sources-and-decisions.md:16"
+      ]
+    },
+    {
+      "id": "engine_hero_id_language",
+      "category": "engine id",
+      "confidence": "resolved-from-plan",
+      "engine_gated_fields": 0,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Use lowercase three-letter acronyms as engine IDs, with slot as separate data",
+        "Use contiguous 001..032 IDs",
+        "Use slots with gaps as IDs"
+      ],
+      "recommendation": "Use lowercase three-letter acronyms as engine IDs, with slot as separate data.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/00-index.md:42",
+        "plan/25-engine-data-plan.md:54",
+        "plan/20-open-questions-sources-and-decisions.md:40"
+      ]
+    },
+    {
+      "id": "forever_eternal_loop_clip",
+      "category": "threshold",
+      "confidence": "owner-decision",
+      "engine_gated_fields": 2,
+      "affected_hero_acronyms": [
+        "for"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/abilities.json#heroes.for.3.mechanic",
+        "export/engine/abilities.json#heroes.for.3.numeric_values"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Keep three-stun clip as provisional, capped by plan/24 test at <=3 s",
+        "Leave clip unbounded until owner decision",
+        "Owner picks a different clip length"
+      ],
+      "recommendation": "Keep the three-stun clip as a provisional bound and enforce plan/24\u2019s longest-stun <=3 s test.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/10-remaining-hero-kits.md:27",
+        "plan/24-power-tier-draft.md:36",
+        "plan/26-first-playable-cut-list-and-checks.md:86"
+      ]
+    },
+    {
+      "id": "sigma_value_tiers",
+      "category": "balance value",
+      "confidence": "owner-decision",
+      "engine_gated_fields": 312,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/abilities.json#heroes.blo.0.cooldown",
+        "export/engine/abilities.json#heroes.blo.0.cost",
+        "export/engine/abilities.json#heroes.blo.0.tier_values",
+        "export/engine/abilities.json#heroes.blo.1.cooldown",
+        "export/engine/abilities.json#heroes.blo.1.cost",
+        "export/engine/abilities.json#heroes.blo.1.tier_values"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Use the plan tier table as implementation defaults, still labelled UNVERIFIED pending playable build",
+        "Wait for balance pass before emitting numeric defaults",
+        "Use engine values from another repo"
+      ],
+      "recommendation": "Use the plan tier table as implementation defaults, still labelled UNVERIFIED pending playable build.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/09-launch-hero-kits.md:12",
+        "plan/09-launch-hero-kits.md:16",
+        "plan/09-launch-hero-kits.md:17",
+        "plan/09-launch-hero-kits.md:18",
+        "plan/09-launch-hero-kits.md:19",
+        "plan/20-open-questions-sources-and-decisions.md:16",
+        "plan/19-balance-and-qa.md:79"
+      ]
+    },
+    {
+      "id": "talent_values",
+      "category": "talent",
+      "confidence": "resolved-from-plan",
+      "engine_gated_fields": 1,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/manifest.json#decision_gated_fields.talent_values"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Keep named talent choices but cut talent values from first-playable data",
+        "Owner approves full talent numbers now",
+        "Generate family-template talent numbers"
+      ],
+      "recommendation": "Keep named talent choices, cut talent values from first-playable data, and add full sets only after base kits are tested.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/21-systems-added-back.md:5",
+        "plan/21-systems-added-back.md:9",
+        "plan/26-first-playable-cut-list-and-checks.md:52",
+        "plan/20-open-questions-sources-and-decisions.md:16"
+      ]
+    },
+    {
+      "id": "voice_cooldown_8s",
+      "category": "voice cap",
+      "confidence": "owner-decision",
+      "engine_gated_fields": 1,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/voice.json#rules.cooldown_seconds"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Use 8 s as provisional cooldown",
+        "Owner chooses another cooldown",
+        "Disable per-line cooldown"
+      ],
+      "recommendation": "Use 8 s as a provisional runtime cooldown and keep the balance-pass note.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/23-voice-and-banter.md:10",
+        "plan/20-open-questions-sources-and-decisions.md:16"
+      ]
+    },
+    {
+      "id": "voice_line_cap",
+      "category": "voice cap",
+      "confidence": "resolved-from-plan",
+      "engine_gated_fields": 1,
+      "affected_hero_acronyms": [
+        "blo",
+        "boo",
+        "bot",
+        "cha",
+        "col",
+        "coo",
+        "din",
+        "ecc",
+        "fin",
+        "for",
+        "ghi",
+        "gon",
+        "got",
+        "gre",
+        "how",
+        "kar",
+        "lan",
+        "nec",
+        "nos",
+        "npc",
+        "san",
+        "sho",
+        "spu",
+        "tra",
+        "wil",
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/voice.json#rules.line_cap_words"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Enforce under twelve words",
+        "Owner chooses a different cap",
+        "Leave uncapped"
+      ],
+      "recommendation": "Enforce under twelve words as a validation rule.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/23-voice-and-banter.md:8"
+      ]
+    },
+    {
+      "id": "wojak_sorrowful_cancel_threshold",
+      "category": "threshold",
+      "confidence": "owner-decision",
+      "engine_gated_fields": 2,
+      "affected_hero_acronyms": [
+        "woj"
+      ],
+      "engine_field_paths_sample": [
+        "export/engine/abilities.json#heroes.woj.3.mechanic",
+        "export/engine/abilities.json#heroes.woj.3.numeric_values"
+      ],
+      "engine_field_paths_index": "export/field-index.json",
+      "current_state": "null",
+      "do_not_promote": true,
+      "options": [
+        "Keep below 25% health as provisional threshold",
+        "Set threshold after playtest",
+        "Use a different threshold chosen by owner"
+      ],
+      "recommendation": "Keep below 25% health as a provisional implementation threshold, labelled UNVERIFIED.",
+      "recommendation_applied_by_default": false,
+      "sources": [
+        "plan/10-remaining-hero-kits.md:26",
+        "plan/24-power-tier-draft.md:35"
+      ]
+    }
+  ]
+}

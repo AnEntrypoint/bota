@@ -1,0 +1,5129 @@
+{
+  "ambiguities": [
+    {
+      "id": "ability_slot_mapping",
+      "source": {
+        "plan/09-launch-hero-kits.md": 4
+      },
+      "statement": "Slot mapping follows section 24 number; every renamed ability and hero name is GUESS (theme only).",
+      "status": "GUESS"
+    },
+    {
+      "id": "ability_numbers",
+      "source": {
+        "plan/09-launch-hero-kits.md": 12
+      },
+      "statement": "Sigma costs and value tiers are UNVERIFIED; export preserves them verbatim as tier_values.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "ability_3_sigma_cost",
+      "source": {
+        "plan/09-launch-hero-kits.md": 18
+      },
+      "statement": "Ability 3 costs 0 when passive and 50 when aura, but individual rows do not label passive versus aura. Export records both branches and does not choose one.",
+      "status": "AMBIGUOUS"
+    },
+    {
+      "id": "damage_types",
+      "source": {
+        "plan/09-launch-hero-kits.md": 26
+      },
+      "statement": "Default damage types are UNVERIFIED; a kit row can name another type. Export records defaults, not per-row overrides.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sorrowful_cancel_threshold",
+      "source": {
+        "plan/10-remaining-hero-kits.md": 26
+      },
+      "statement": "Wojak ultimate instant-kill threshold is below 25% health and is explicitly UNVERIFIED.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "eternal_loop_clip",
+      "source": {
+        "plan/10-remaining-hero-kits.md": 27
+      },
+      "statement": "Forever three-stun clip is explicitly UNVERIFIED.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "voice_line_cap",
+      "source": {
+        "plan/23-voice-and-banter.md": 8
+      },
+      "statement": "Hero and pair lines stay under twelve words; cap UNVERIFIED.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "voice_cooldown",
+      "source": {
+        "plan/23-voice-and-banter.md": 10
+      },
+      "statement": "Per-line voice cooldown is 8 s and marked GUESS; balance pass sets it.",
+      "status": "GUESS"
+    },
+    {
+      "id": "engine_hero_id",
+      "source": {
+        "plan/00-index.md": 42,
+        "plan/25-engine-data-plan.md": 54
+      },
+      "statement": "Plan/25 historically discusses hero_id 001 to 032 with no gaps, while ROSTER.md and plan/00 authority use slots 001,002,004-027. Export uses oscraft acronyms as engine hero IDs and keeps slot separately.",
+      "status": "AMBIGUOUS"
+    },
+    {
+      "id": "talent_values",
+      "source": {
+        "plan/26-first-playable-cut-list-and-checks.md": 52
+      },
+      "statement": "First-playable slice cuts talents; later full sets are in section 21. Export includes named talent rows where present but does not infer launch talent values.",
+      "status": "AMBIGUOUS"
+    }
+  ],
+  "chains": {
+    "camera": {
+      "description": "Bot Bernard dodges the frame, Noscope over-equips it, and Shoop wipes it; Ecce captions the whole reel Behold, again.",
+      "members": [
+        "bot",
+        "nos",
+        "sho",
+        "ecc"
+      ],
+      "source": {
+        "plan/15-roster-and-archetypes.md": 26,
+        "plan/16-humor-and-tone.md": 2,
+        "plan/10-remaining-hero-kits.md": 47
+      }
+    },
+    "receipt": {
+      "description": "Neckbeard's crumb invoice and Boomer's grass-stain bill both become Howard's incident report.",
+      "members": [
+        "nec",
+        "boo",
+        "how"
+      ],
+      "source": {
+        "plan/15-roster-and-archetypes.md": 26,
+        "plan/16-humor-and-tone.md": 2,
+        "plan/10-remaining-hero-kits.md": 45
+      }
+    },
+    "repost": {
+      "description": "Grey's final final v3 memo is reposted by Npc as a weather patch note, looped by Forever, and rewound by Gothgirl before the word vibe appears.",
+      "members": [
+        "gre",
+        "npc",
+        "for",
+        "got"
+      ],
+      "source": {
+        "plan/15-roster-and-archetypes.md": 26,
+        "plan/16-humor-and-tone.md": 2,
+        "plan/10-remaining-hero-kits.md": 46
+      }
+    }
+  },
+  "emergent_hooks": [
+    {
+      "a": "boo",
+      "b": "woj",
+      "description": "Pull Cord Hurl slowed targets draw Hollow Stare",
+      "source": {
+        "file": "plan/09-launch-hero-kits.md",
+        "line": 46
+      },
+      "status": "GUESS"
+    },
+    {
+      "a": "coo",
+      "b": "bot",
+      "description": "Tank Top Splash pushes into Stage Rain zones",
+      "source": {
+        "file": "plan/09-launch-hero-kits.md",
+        "line": 47
+      },
+      "status": "GUESS"
+    },
+    {
+      "a": "cha",
+      "b": "ecc",
+      "description": "Hands on Hips marks are Halo Beam landings",
+      "source": {
+        "file": "plan/10-remaining-hero-kits.md",
+        "line": 37
+      },
+      "status": "GUESS"
+    },
+    {
+      "a": "blo",
+      "b": "kar",
+      "description": "Morning Hawk marks Complaint Charge targets",
+      "source": {
+        "file": "plan/10-remaining-hero-kits.md",
+        "line": 38
+      },
+      "status": "GUESS"
+    },
+    {
+      "a": "tra",
+      "b": "san",
+      "description": "Daisy Dress Swat DOT grows with Sanic Rush movement",
+      "source": {
+        "file": "plan/10-remaining-hero-kits.md",
+        "line": 39
+      },
+      "status": "GUESS"
+    },
+    {
+      "a": "gon",
+      "b": "spu",
+      "description": "Parka Hunger kills market Potato Grudge",
+      "source": {
+        "file": "plan/10-remaining-hero-kits.md",
+        "line": 40
+      },
+      "status": "GUESS"
+    },
+    {
+      "a": "fin",
+      "b": "gre",
+      "description": "Accusing Finger knockback victim is Orb Vibes cut target",
+      "source": {
+        "file": "plan/10-remaining-hero-kits.md",
+        "line": 41
+      },
+      "status": "GUESS"
+    }
+  ],
+  "heroes": {
+    "blo": {
+      "abilities": [
+        {
+          "ability_id": "blo_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the huge black grin blinds them with optimism so aggressive it needs a content warning",
+          "is_ultimate": false,
+          "mechanic": "stuns and slows nearby enemies",
+          "name": "Smile Ping",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 10
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "blo_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the teal hoodie pockets produce a hawk that glides a cheerful golden-hour sweep",
+          "is_ultimate": false,
+          "mechanic": "summons a scouting hawk",
+          "name": "Morning Hawk",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 10
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "blo_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "summons a charging boar that wears a tiny teal hoodie and asks if everyone is okay",
+          "name": "Boar Account",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 10
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "blo_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "pale hands and an open-armed stance make every ally a sprinter, reluctantly",
+          "is_ultimate": true,
+          "mechanic": "rallies allies with speed",
+          "name": "Positive Rally",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 10
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "blo",
+          "b": "kar",
+          "description": "Morning Hawk marks Complaint Charge targets",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 38
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "boo": {
+      "abilities": [
+        {
+          "ability_id": "boo_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the silver energy drink stays raised like a receipt for damages",
+          "is_ultimate": false,
+          "mechanic": "yanks an imaginary mower cord and tosses a ranged slow",
+          "name": "Pull Cord Hurl",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 32
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "boo_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "next attack, with a dismissive wave over black shades, deals bonus damage and blames the youth",
+          "name": "Ok Boomer Strike",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 32
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "boo_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "attacking smears the fade",
+          "is_ultimate": false,
+          "mechanic": "black shades and stained white tee make him invisible for 2 s while moving",
+          "name": "Cobalt Fade",
+          "numeric_values": [
+            {
+              "text": "2 s",
+              "unit": "s",
+              "value": 2
+            }
+          ],
+          "slot": 3,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 32
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "boo_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "every hit leaves a grass stain billed to the nearest minor",
+          "is_ultimate": true,
+          "mechanic": "reveals an enemy",
+          "name": "Tracked Lawn",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 32
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Neckbeard's crumb invoice, Boomer's grass-stain bill and Karen's shoulder-bag complaint all become Howard's incident report.",
+          "id": "receipt",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [
+        {
+          "a": "boo",
+          "b": "woj",
+          "description": "Pull Cord Hurl slowed targets draw Hollow Stare",
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 46
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": [
+        {
+          "choice": "Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage",
+          "source": {
+            "plan/21-systems-added-back.md": 14
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Cobalt Fade +1 s / Tracked Lawn pays +10 gold",
+          "source": {
+            "plan/21-systems-added-back.md": 14
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns",
+          "source": {
+            "plan/21-systems-added-back.md": 14
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade",
+          "source": {
+            "plan/21-systems-added-back.md": 14
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "bot": {
+      "abilities": [
+        {
+          "ability_id": "bot_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the puppet-monkey suspenders snap an arrow along a line",
+          "is_ultimate": false,
+          "mechanic": "stuns in a line",
+          "name": "Suspender Arrow",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 21
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "bot_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the flat puppet mouth refuses to leap; the scarf does",
+          "is_ultimate": false,
+          "mechanic": "leaps and grants attack speed",
+          "name": "Lens Hop",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 21
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "bot_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the side-set puppet eyes lean the shadow away from the portrait",
+          "is_ultimate": false,
+          "mechanic": "grants a shadow to an ally",
+          "name": "Spotlight Fan",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 21
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "bot_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the patterned shirt pours down",
+          "is_ultimate": true,
+          "mechanic": "damages all nearby enemies",
+          "name": "Stage Rain",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 21
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Chad checks the frame, Bot Bernard dodges it, Noscope over-equips it, Shoop wipes it, and Ecce captions the whole reel Behold, again.",
+          "id": "camera",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [
+        {
+          "a": "coo",
+          "b": "bot",
+          "description": "Tank Top Splash pushes into Stage Rain zones",
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 47
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "cha": {
+      "abilities": [
+        {
+          "ability_id": "cha_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "one glance at the impossible rabbit jaw freezes the target; he asks if the camera caught it",
+          "is_ultimate": false,
+          "mechanic": "frost damage and slow",
+          "name": "Jawline Freeze",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 9
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "cha_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "he turns a shoulder and the delayed ping returns with a caption reading no notes",
+          "is_ultimate": false,
+          "mechanic": "delayed ping that damages on return",
+          "name": "Cold Shoulder",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 9
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "cha_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the white-glove pose marks a spot to stun; the spot is asked to validate the jawline",
+          "is_ultimate": false,
+          "mechanic": "marks a spot to stun",
+          "name": "Hands on Hips",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 9
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "cha_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the retired greyscale image strides in, says nothing and leaves",
+          "is_ultimate": true,
+          "mechanic": "damage scales with missing sigma",
+          "name": "Carved Gap Lot",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 9
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Chad checks the frame, Bot Bernard dodges it, Noscope over-equips it, Shoop wipes it, and Ecce captions the whole reel Behold, again.",
+          "id": "camera",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [
+        {
+          "a": "cha",
+          "b": "ecc",
+          "description": "Hands on Hips marks are Halo Beam landings",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 37
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "col": {
+      "abilities": [
+        {
+          "ability_id": "col_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "holds an enemy in place and copies its image in a cap-shaped flash",
+          "name": "Thunderbolt",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 24
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "col_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each oversized sneaker repeat adds bonus damage",
+          "is_ultimate": false,
+          "mechanic": "rapid strikes",
+          "name": "Quick Attack",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 24
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "col_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the freckled grin poisons",
+          "is_ultimate": false,
+          "mechanic": "damage over time",
+          "name": "Poison Sting",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 24
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "col_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": true,
+          "mechanic": "a huge backpack beam that stuns and slows",
+          "name": "Hyper Beam",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 24
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "coo": {
+      "abilities": [
+        {
+          "ability_id": "coo_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "both perfectly ordinary sleeves clap around the hoodie pocket",
+          "is_ultimate": false,
+          "mechanic": "stuns and damages",
+          "name": "Lone Arm Clap",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 34
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "coo_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the huge black-ringed eyes ignite a brew he calls herbal",
+          "is_ultimate": false,
+          "mechanic": "fire area",
+          "name": "Bloodshot Brew",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 34
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "coo_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the grey hoodie pocket flings the splash and the grin denies everything",
+          "is_ultimate": false,
+          "mechanic": "pushes enemies back",
+          "name": "Tank Top Splash",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 34
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "coo_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "every clone claims to be a different browser tab",
+          "is_ultimate": true,
+          "mechanic": "summons clones of self",
+          "name": "Right Arm Clones",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 34
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "coo",
+          "b": "bot",
+          "description": "Tank Top Splash pushes into Stage Rain zones",
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 47
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": [
+        {
+          "choice": "Hoodie Pocket Clap length +100 / Hoodie Pocket Splash attack speed +10% (GUESS)",
+          "source": {
+            "plan/21-systems-added-back.md": 21
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Hoodie Pocket Clap stun +0.3 s / Browser Tab Clones extra target (GUESS)",
+          "source": {
+            "plan/21-systems-added-back.md": 21
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Hoodie Pocket Clap stun 0.5 s / Bloodshot Brew heals allies (GUESS)",
+          "source": {
+            "plan/21-systems-added-back.md": 21
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Hoodie Pocket Clap global / Reveal 2 s (GUESS)",
+          "source": {
+            "plan/21-systems-added-back.md": 21
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "din": {
+      "abilities": [
+        {
+          "ability_id": "din_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the cyan party hat fires it in blocky steps",
+          "is_ultimate": false,
+          "mechanic": "beam of light",
+          "name": "Pixel Beam",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 20
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "din_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the toothy T-rex grin blinds everything in it",
+          "is_ultimate": false,
+          "mechanic": "blinds in an area",
+          "name": "1-Bit Blind",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 20
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "din_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the suspenders breathe sigma back",
+          "is_ultimate": false,
+          "mechanic": "restores sigma",
+          "name": "Silhouette Breath",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 20
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "din_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the party T-rex jaw chomps mid-flight",
+          "is_ultimate": true,
+          "mechanic": "fast flight, heals on pass",
+          "name": "Chomp Flight",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 20
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "ecc": {
+      "abilities": [
+        {
+          "ability_id": "ecc_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the crown of thorns catches a light nobody can find in the level",
+          "is_ultimate": false,
+          "mechanic": "stuns and damages",
+          "name": "Halo Beam",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 35
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "ecc_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the burgundy robe reshares the bounce without attribution",
+          "is_ultimate": false,
+          "mechanic": "bounces between enemies",
+          "name": "Burlap Reshare",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 35
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "ecc_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "watery eyes smudge the damage across them",
+          "is_ultimate": false,
+          "mechanic": "damages nearby enemies",
+          "name": "Fresco Aura",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 35
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "ecc_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "every frame is captioned Behold, then Behold again",
+          "is_ultimate": true,
+          "mechanic": "repeated light rays over a window",
+          "name": "Halo Shutter",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 35
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Chad checks the frame, Bot Bernard dodges it, Noscope over-equips it, Shoop wipes it, and Ecce captions the whole reel Behold, again.",
+          "id": "camera",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [
+        {
+          "a": "cha",
+          "b": "ecc",
+          "description": "Hands on Hips marks are Halo Beam landings",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 37
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": [
+        {
+          "choice": "Halo Beam radius +30 / Halo Shutter duration +0.5 s",
+          "source": {
+            "plan/21-systems-added-back.md": 20
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Burlap Reshare range +100 / Fresco Aura duration +1 s",
+          "source": {
+            "plan/21-systems-added-back.md": 20
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Halo Beam holds two charges / Halo Shutter reveals a Clout pulse",
+          "source": {
+            "plan/21-systems-added-back.md": 20
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Halo Beam detonates on death / Halo Shutter LIVE for 2 s",
+          "source": {
+            "plan/21-systems-added-back.md": 20
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "fin": {
+      "abilities": [
+        {
+          "ability_id": "fin_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the navy tracksuit crest blazes across the cone",
+          "is_ultimate": false,
+          "mechanic": "cone of fire",
+          "name": "Crimson Bandana Cone",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 18
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "fin_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the accusation shoves them; the sculpt has no pointing finger",
+          "is_ultimate": false,
+          "mechanic": "stuns and knocks back",
+          "name": "Accusing Finger",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 18
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "fin_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the white jacket swoosh flashes with each regen tick",
+          "is_ultimate": false,
+          "mechanic": "armor and regen",
+          "name": "Gold Chain Privileges",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 18
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "fin_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the plinth rotates for a hyped VAR review",
+          "is_ultimate": true,
+          "mechanic": "bigger, stronger attacks",
+          "name": "Broadcast Super",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 18
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "fin",
+          "b": "gre",
+          "description": "Accusing Finger knockback victim is Orb Vibes cut target",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 41
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "for": {
+      "abilities": [
+        {
+          "ability_id": "for_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "a slowed target keeps the clip stuck",
+          "is_ultimate": false,
+          "mechanic": "a blue tear projectile",
+          "name": "Tear Clip",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 27
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "for_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "a tear-streaked trollface grin damages around the hero",
+          "name": "Lumpy Wail",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 27
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "for_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "brief evasion while the lumpy head nods to the loop",
+          "name": "Crawl Ghost",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 27
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "for_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": true,
+          "mechanic": "the tear-streaked grin repeats until its clip of three stuns ends, then refills, charming yet",
+          "name": "Eternal Loop",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 27
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Grey's final final v3 memo is reposted by Npc as a weather patch note, looped by Forever, and rewound by Gothgirl before the word vibe appears.",
+          "id": "repost",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": [
+        {
+          "choice": "Tear Clip +10% speed / Crawl Ghost +1 s",
+          "source": {
+            "plan/21-systems-added-back.md": 18
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Lumpy Wail +50 damage / Eternal Loop stun +0.5 s",
+          "source": {
+            "plan/21-systems-added-back.md": 18
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Tear Clip returns / Crawl Ghost leaves a copy",
+          "source": {
+            "plan/21-systems-added-back.md": 18
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius",
+          "source": {
+            "plan/21-systems-added-back.md": 18
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "ghi": {
+      "abilities": [
+        {
+          "ability_id": "ghi_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the haystack posts a warning and then denies being the haystack",
+          "is_ultimate": false,
+          "mechanic": "straw ghillie strips scatter as area traps with damage",
+          "name": "Burlap Warning",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 33
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "ghi_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the grass beard cites the exact shrub",
+          "is_ultimate": false,
+          "mechanic": "camouflage twine holds and reveals enemies",
+          "name": "Twine Lock",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 33
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "ghi_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "goggles pop open at the worst possible moment",
+          "is_ultimate": false,
+          "mechanic": "leaping strike with damage",
+          "name": "Corn Stalk Jump",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 33
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "ghi_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the round goggles file an appeal from inside the bush",
+          "is_ultimate": true,
+          "mechanic": "remote detonation through the wrapped scope disables",
+          "name": "Scoped Temp Ban",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 33
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [],
+      "talents": [
+        {
+          "choice": "Burlap Warning radius +30 / Twine Lock +0.5 s",
+          "source": {
+            "plan/21-systems-added-back.md": 17
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Corn Stalk Jump range +100 / Scoped Temp Ban +1 s",
+          "source": {
+            "plan/21-systems-added-back.md": 17
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse",
+          "source": {
+            "plan/21-systems-added-back.md": 17
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13)",
+          "source": {
+            "plan/21-systems-added-back.md": 17
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "gon": {
+      "abilities": [
+        {
+          "ability_id": "gon_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the moustache leaves a slow on the nearest mile of denim",
+          "is_ultimate": false,
+          "mechanic": "slows and stacks",
+          "name": "Potato Spit",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 12
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "gon_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each stomp lands a red sneaker",
+          "is_ultimate": false,
+          "mechanic": "damages on attack",
+          "name": "Boot Stomp Spam",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 12
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "gon_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the endless jeans roll the reflected hit back",
+          "is_ultimate": false,
+          "mechanic": "reflects damage",
+          "name": "Rolling Back",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 12
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "gon_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the tongue-out otter stare keeps score",
+          "is_ultimate": true,
+          "mechanic": "bonus damage per hit taken",
+          "name": "Potato Grudge",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 12
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "gon",
+          "b": "spu",
+          "description": "Parka Hunger kills market Potato Grudge",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 40
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "got": {
+      "abilities": [
+        {
+          "ability_id": "got_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the black dress produces them from a sigh so quiet it has subtitles",
+          "is_ultimate": false,
+          "mechanic": "summons bugs",
+          "name": "Fan Swarm",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 36
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "got_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "one sleeve goes, then the other, because leaving is a process",
+          "is_ultimate": false,
+          "mechanic": "blinks",
+          "name": "Cardigan Flicker",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 36
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "got_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the choker doubles it and refuses to be impressed",
+          "is_ultimate": false,
+          "mechanic": "double attack",
+          "name": "Velvet Double",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 36
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "got_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "platform boots land on the word and erase it",
+          "is_ultimate": true,
+          "mechanic": "rewinds a target's position to before anyone said vibe",
+          "name": "Rewind Smoke",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 36
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Grey's final final v3 memo is reposted by Npc as a weather patch note, looped by Forever, and rewound by Gothgirl before the word vibe appears.",
+          "id": "repost",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": [
+        {
+          "choice": "Fan Swarm radius +50 / Cardigan Flicker cooldown \u22125 s",
+          "source": {
+            "plan/21-systems-added-back.md": 19
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Fan Swarm +1 bug / Rewind Smoke range +200",
+          "source": {
+            "plan/21-systems-added-back.md": 19
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Cardigan Flicker root 0.5 s / Velvet Double heals 2% (GUESS)",
+          "source": {
+            "plan/21-systems-added-back.md": 19
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Rewind Smoke gives Clout from the ultimate / Regen +2% while unseen (GUESS)",
+          "source": {
+            "plan/21-systems-added-back.md": 19
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "gre": {
+      "abilities": [
+        {
+          "ability_id": "gre_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each line is another follow-up nobody remembers opening",
+          "is_ultimate": false,
+          "mechanic": "three-hit tractor-beam burst from a patched orange-and-teal jumpsuit",
+          "name": "Beam Quote",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 31
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "gre_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the alien frowns as if the department lost the first four forms",
+          "is_ultimate": false,
+          "mechanic": "collects a specimen stack when a nearby enemy dies, cap 5",
+          "name": "Abduction Count",
+          "numeric_values": [
+            {
+              "text": "5",
+              "unit": null,
+              "value": 5
+            }
+          ],
+          "slot": 2,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 31
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "gre_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the utility belt calls it a compliance check",
+          "is_ultimate": false,
+          "mechanic": "the patched orange-and-teal jumpsuit hums through metal wrist cuffs, cutting nearby enemy armor",
+          "name": "Orb Vibes Aura",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 31
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "gre_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each kill adds a specimen and a memo marked final final v3",
+          "is_ultimate": true,
+          "mechanic": "lines of damage that probe the target",
+          "name": "Probe Ticker",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 31
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Grey's final final v3 memo is reposted by Npc as a weather patch note, looped by Forever, and rewound by Gothgirl before the word vibe appears.",
+          "id": "repost",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [
+        {
+          "a": "fin",
+          "b": "gre",
+          "description": "Accusing Finger knockback victim is Orb Vibes cut target",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 41
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": [
+        {
+          "choice": "+2 Clout per kill / Beam Quote radius +100",
+          "source": {
+            "plan/21-systems-added-back.md": 13
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Abduction Count cap +5 / Orb Vibes Aura \u22122 armor",
+          "source": {
+            "plan/21-systems-added-back.md": 13
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Probe Ticker +2 s / Beam Quote hits a third time",
+          "source": {
+            "plan/21-systems-added-back.md": 13
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Hype Spike at 80 Clout / Abduction Count survives death",
+          "source": {
+            "plan/21-systems-added-back.md": 13
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "how": {
+      "abilities": [
+        {
+          "ability_id": "how_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the orange plaid shirt and pained blue-eyed smile hold targets in an incident report",
+          "is_ultimate": false,
+          "mechanic": "slows and damages",
+          "name": "Plaid Shirt Detention",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 15
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "how_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the pained smile pressures a creep into signing the incident report",
+          "is_ultimate": false,
+          "mechanic": "converts a creep to an ally",
+          "name": "Forced Smile Pressure",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 15
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "how_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the orange plaid stays buttoned while it heals",
+          "is_ultimate": false,
+          "mechanic": "heals an ally",
+          "name": "Plaid Pass",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 15
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "how_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the break room is the only place the pained smile is allowed to rest",
+          "is_ultimate": true,
+          "mechanic": "temporary sanctuary",
+          "name": "Break Room",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 15
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Neckbeard's crumb invoice, Boomer's grass-stain bill and Karen's shoulder-bag complaint all become Howard's incident report.",
+          "id": "receipt",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "kar": {
+      "abilities": [
+        {
+          "ability_id": "kar_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the shoulder bag unfolds a complaint and stomps them down",
+          "is_ultimate": false,
+          "mechanic": "stuns nearby enemies",
+          "name": "Accordion Stomp",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 14
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "kar_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "beehive, fuchsia blouse and platform sandals lead the charge",
+          "is_ultimate": false,
+          "mechanic": "charges and damages",
+          "name": "Complaint Charge",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 14
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "kar_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the patterned cardigan bounces the hit back",
+          "is_ultimate": false,
+          "mechanic": "reflects damage when hit",
+          "name": "Receipt Reflect",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 14
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "kar_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "she demands the supervisor in a patterned-cardigan wail",
+          "is_ultimate": true,
+          "mechanic": "charges every enemy in a line",
+          "name": "Speak to the Manager",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 14
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Neckbeard's crumb invoice, Boomer's grass-stain bill and Karen's shoulder-bag complaint all become Howard's incident report.",
+          "id": "receipt",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [
+        {
+          "a": "blo",
+          "b": "kar",
+          "description": "Morning Hawk marks Complaint Charge targets",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 38
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "lan": {
+      "abilities": [
+        {
+          "ability_id": "lan_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "eight back tendrils flare behind the shoulders",
+          "is_ultimate": false,
+          "mechanic": "reveals and damages nearby",
+          "name": "Tendril Flare",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 17
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "lan_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "one tendril yanks it toward the blank face; seven cite it",
+          "is_ultimate": false,
+          "mechanic": "pulls a target in",
+          "name": "Tendril Pull",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 17
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "lan_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the angular black suit checks them out of the room",
+          "is_ultimate": false,
+          "mechanic": "pushes enemies away",
+          "name": "Funeral Gear Check",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 17
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "lan_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the blank white oval freezes the room",
+          "is_ultimate": true,
+          "mechanic": "stuns everything in radius",
+          "name": "Blank Stare",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 17
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "nec": {
+      "abilities": [
+        {
+          "ability_id": "nec_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the greasy TACOS shirt soaks the first hit and prints a crumb-by-crumb invoice",
+          "is_ultimate": false,
+          "mechanic": "absorbs damage for an ally",
+          "name": "Taco Shield",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 8
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "nec_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "heals the shielded ally and offers a stained leftover taco from the cargo pockets",
+          "name": "Second Helping",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 8
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "nec_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "cargo-pocket crumbs drop under them and slow each step; the shirt calls this a floor plan",
+          "is_ultimate": false,
+          "mechanic": "slows nearby enemies",
+          "name": "Crumb Trail",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 8
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "nec_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "banished to the basement, where the Wi-Fi and the sandal-sock smell drive foes off",
+          "is_ultimate": true,
+          "mechanic": "ally untargetable for 3 s",
+          "name": "Basement Exile",
+          "numeric_values": [
+            {
+              "text": "3 s",
+              "unit": "s",
+              "value": 3
+            }
+          ],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 8
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Neckbeard's crumb invoice, Boomer's grass-stain bill and Karen's shoulder-bag complaint all become Howard's incident report.",
+          "id": "receipt",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "nos": {
+      "abilities": [
+        {
+          "ability_id": "nos_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each hit flashes the monocular goggle marks the target despite every denial",
+          "is_ultimate": false,
+          "mechanic": "spins and damages nearby enemies",
+          "name": "Hitmarker Spin",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 25
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "nos_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "a healed ally also gets a radio confirmation they did not request",
+          "is_ultimate": false,
+          "mechanic": "heals allies in radius",
+          "name": "Sponsor Patch Heal",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 25
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "nos_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "a crit is filed as blind luck",
+          "is_ultimate": false,
+          "mechanic": "the monocular gives a chance to critically strike",
+          "name": "Lucky Scope",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 25
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "nos_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": true,
+          "mechanic": "rapid scoped strikes jump between enemies and three spare radios",
+          "name": "Bolt Action Chain",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 25
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Chad checks the frame, Bot Bernard dodges it, Noscope over-equips it, Shoop wipes it, and Ecce captions the whole reel Behold, again.",
+          "id": "camera",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": [
+        {
+          "choice": "Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal",
+          "source": {
+            "plan/21-systems-added-back.md": 15
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Lucky Scope crit chance +5% / Bolt Action Chain adds one hit",
+          "source": {
+            "plan/21-systems-added-back.md": 15
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Hitmarker Spin lifesteal 10% / +1 Clout per ally healed",
+          "source": {
+            "plan/21-systems-added-back.md": 15
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Bolt Action Chain resets on kill / Allies gain +10% move speed near you",
+          "source": {
+            "plan/21-systems-added-back.md": 15
+          },
+          "tier": 13
+        }
+      ]
+    },
+    "npc": {
+      "abilities": [
+        {
+          "ability_id": "npc_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the L-shaped nose lances with a flat stare",
+          "is_ultimate": false,
+          "mechanic": "slows and damages",
+          "name": "Idle Lance",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 23
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "npc_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "identical yellow shirts and rolled trousers patrol",
+          "is_ultimate": false,
+          "mechanic": "creates illusions",
+          "name": "Patrol Twin",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 23
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "npc_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "two dot eyes blink to it",
+          "is_ultimate": false,
+          "mechanic": "blinks to a target",
+          "name": "Idle Flicker",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 23
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "npc_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the straight-mouthed idle is the decoy",
+          "is_ultimate": true,
+          "mechanic": "a decoy copy draws enemy attacks for 3 s",
+          "name": "Idle Crowd",
+          "numeric_values": [
+            {
+              "text": "3 s",
+              "unit": "s",
+              "value": 3
+            }
+          ],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 23
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Grey's final final v3 memo is reposted by Npc as a weather patch note, looped by Forever, and rewound by Gothgirl before the word vibe appears.",
+          "id": "repost",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "san": {
+      "abilities": [
+        {
+          "ability_id": "san_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the crop-top belly, mismatched eyes and giant red shoes rush forward",
+          "is_ultimate": false,
+          "mechanic": "rapid attacks while moving",
+          "name": "Sanic Rush",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 16
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "san_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the blue crop top blurs into flame",
+          "is_ultimate": false,
+          "mechanic": "fire damage on attacks",
+          "name": "Smear Burn",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 16
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "san_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the hitbox arrives three frames late and smears out of sight",
+          "is_ultimate": false,
+          "mechanic": "stealth while moving",
+          "name": "Scribble Sneak",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 16
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "san_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each skeleton has mismatched pupils and a tiny patch note",
+          "is_ultimate": true,
+          "mechanic": "summons attacking skeletons",
+          "name": "Scribble Swarm",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 16
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "tra",
+          "b": "san",
+          "description": "Daisy Dress Swat DOT grows with Sanic Rush movement",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 39
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "sho": {
+      "abilities": [
+        {
+          "ability_id": "sho_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "two eye stalks dash and wipe",
+          "is_ultimate": false,
+          "mechanic": "dashes and damages",
+          "name": "Plasma Wipe",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 22
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "sho_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the rectangular red mouth strikes with stats",
+          "is_ultimate": false,
+          "mechanic": "damage scales with stats",
+          "name": "Lips Strike",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 22
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "sho_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the bowtie swaps strength and agility",
+          "is_ultimate": false,
+          "mechanic": "swaps strength and agility",
+          "name": "Red Lips Swap",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 22
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "sho_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the eye stalks copy the ability",
+          "is_ultimate": true,
+          "mechanic": "copies an enemy's ability",
+          "name": "Eye Copycat",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 22
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [
+        {
+          "description": "Chad checks the frame, Bot Bernard dodges it, Noscope over-equips it, Shoop wipes it, and Ecce captions the whole reel Behold, again.",
+          "id": "camera",
+          "role": "flavor_only"
+        }
+      ],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "spu": {
+      "abilities": [
+        {
+          "ability_id": "spu_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "they crawl out of the green hoodie pocket",
+          "is_ultimate": false,
+          "mechanic": "summons spiderlings",
+          "name": "Spider Spawn",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 13
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "spu_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the green hoodie drawstrings wrap it",
+          "is_ultimate": false,
+          "mechanic": "builds a slowing web",
+          "name": "Parka Web",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 13
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "spu_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the pale moustache's poison stings",
+          "is_ultimate": false,
+          "mechanic": "poisons a target",
+          "name": "Baseball Bat Poison",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 13
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "spu_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the moustache swallows every kill",
+          "is_ultimate": true,
+          "mechanic": "heals from spider kills",
+          "name": "Parka Hunger",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 13
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "gon",
+          "b": "spu",
+          "description": "Parka Hunger kills market Potato Grudge",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 40
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "tra": {
+      "abilities": [
+        {
+          "ability_id": "tra_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "each worried step across the daisy print adds a passive-aggressive swat; the group chat read the recipe wrong",
+          "is_ultimate": false,
+          "mechanic": "damage over time that grows with movement",
+          "name": "Daisy Dress Swat",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 11
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "tra_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the raised eyebrows tighten with every swing",
+          "is_ultimate": false,
+          "mechanic": "attack speed bonus",
+          "name": "Anxious Eyebrows",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 11
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "tra_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "one black Mary Jane stirs the area with terrifying politeness",
+          "is_ultimate": false,
+          "mechanic": "area damage on an enemy",
+          "name": "Mary Jane Stir",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 11
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "tra_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the concerned smile announces dinner is served and apologises in advance",
+          "is_ultimate": true,
+          "mechanic": "reveals and drains a target",
+          "name": "Worried Supper Drain",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 11
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "tra",
+          "b": "san",
+          "description": "Daisy Dress Swat DOT grows with Sanic Rush movement",
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 39
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": []
+    },
+    "wil": {
+      "abilities": [
+        {
+          "ability_id": "wil_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the vintage mouse whistle dings a rock into motion; copyright-safe silence does the rest",
+          "is_ultimate": false,
+          "mechanic": "rolls a rock",
+          "name": "Whistle Ding",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 19
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "wil_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the long black tail draws the line and the oversized shoes keep time",
+          "is_ultimate": false,
+          "mechanic": "rolls along a line",
+          "name": "Tail Line",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 19
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "wil_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "two white shorts buttons inhale the rocks with bureaucratic dignity",
+          "is_ultimate": false,
+          "mechanic": "pulls rocks at enemies",
+          "name": "Button Shorts Magnet",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 19
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "wil_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the black-and-white side-on stance mosh-pits the zone in one whistle loop",
+          "is_ultimate": true,
+          "mechanic": "damages and stuns a zone",
+          "name": "Monochrome Mosh",
+          "numeric_values": [],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 19
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [],
+      "talents": []
+    },
+    "woj": {
+      "abilities": [
+        {
+          "ability_id": "woj_1",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "a hollow-eyed sigh taunts enemies in range",
+          "name": "Sigh at Clouds",
+          "numeric_values": [],
+          "slot": 1,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 26
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              10,
+              9,
+              8,
+              7
+            ],
+            "levels": [
+              80,
+              160,
+              240,
+              320
+            ],
+            "sigma_cost": [
+              60,
+              70,
+              80,
+              90
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 16
+            }
+          },
+          "type": "ability_1"
+        },
+        {
+          "ability_id": "woj_2",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "ink-etched hollow eyes slow and damage over time",
+          "name": "Hollow Stare",
+          "numeric_values": [],
+          "slot": 2,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 26
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              12,
+              11,
+              10,
+              9
+            ],
+            "levels_seconds": [
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "sigma_cost": [
+              70,
+              80,
+              90,
+              100
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 17
+            }
+          },
+          "type": "ability_2"
+        },
+        {
+          "ability_id": "woj_3",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "",
+          "is_ultimate": false,
+          "mechanic": "a flat resigned mouth returns damage when attacked",
+          "name": "Sad Clapback",
+          "numeric_values": [],
+          "slot": 3,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 26
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              14,
+              12,
+              10,
+              8
+            ],
+            "radius": [
+              300,
+              350,
+              400,
+              450
+            ],
+            "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+            "source": {
+              "plan/09-launch-hero-kits.md": 18
+            }
+          },
+          "type": "ability_3"
+        },
+        {
+          "ability_id": "woj_4",
+          "cooldown": "see tier_values",
+          "cost": "sigma (see tier_values)",
+          "flavor_text": "the shoes stay exactly where they were",
+          "is_ultimate": true,
+          "mechanic": "instant kill below 25% health",
+          "name": "Sorrowful Cancel",
+          "numeric_values": [
+            {
+              "text": "25 %",
+              "unit": "%",
+              "value": 25
+            }
+          ],
+          "slot": 4,
+          "source": {
+            "file": "plan/10-remaining-hero-kits.md",
+            "line": 26
+          },
+          "status": "GUESS",
+          "tier_values": {
+            "cooldown_seconds": [
+              100,
+              85,
+              70
+            ],
+            "damage": [
+              250,
+              400,
+              550
+            ],
+            "max_level": 3,
+            "sigma_cost": [
+              150,
+              200,
+              250
+            ],
+            "source": {
+              "plan/09-launch-hero-kits.md": 19
+            },
+            "unlock_levels": [
+              6,
+              11,
+              16
+            ]
+          },
+          "type": "ultimate"
+        }
+      ],
+      "chains": [],
+      "emergent_hooks": [
+        {
+          "a": "boo",
+          "b": "woj",
+          "description": "Pull Cord Hurl slowed targets draw Hollow Stare",
+          "source": {
+            "file": "plan/09-launch-hero-kits.md",
+            "line": 46
+          },
+          "status": "GUESS"
+        }
+      ],
+      "talents": [
+        {
+          "choice": "Sigh at Clouds lasts +1 s / Hollow Stare slows +5%",
+          "source": {
+            "plan/21-systems-added-back.md": 16
+          },
+          "tier": 10
+        },
+        {
+          "choice": "Sad Clapback reflects 10% / Sorrowful Cancel threshold +5%",
+          "source": {
+            "plan/21-systems-added-back.md": 16
+          },
+          "tier": 11
+        },
+        {
+          "choice": "Hollow Stare spreads / Sigh at Clouds cooldown \u221210 s",
+          "source": {
+            "plan/21-systems-added-back.md": 16
+          },
+          "tier": 12
+        },
+        {
+          "choice": "Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage, counted inside the decision 38 reflect cap",
+          "source": {
+            "plan/21-systems-added-back.md": 16
+          },
+          "tier": 13
+        }
+      ]
+    }
+  },
+  "schema": "bota.hero-kits/v1",
+  "value_tiers": {
+    "ability_1_damage": {
+      "cooldown_seconds": [
+        10,
+        9,
+        8,
+        7
+      ],
+      "levels": [
+        80,
+        160,
+        240,
+        320
+      ],
+      "sigma_cost": [
+        60,
+        70,
+        80,
+        90
+      ],
+      "source": {
+        "plan/09-launch-hero-kits.md": 16
+      }
+    },
+    "ability_2_control_or_utility": {
+      "cooldown_seconds": [
+        12,
+        11,
+        10,
+        9
+      ],
+      "levels_seconds": [
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "sigma_cost": [
+        70,
+        80,
+        90,
+        100
+      ],
+      "source": {
+        "plan/09-launch-hero-kits.md": 17
+      }
+    },
+    "ability_3_aura_or_passive": {
+      "cooldown_seconds": [
+        14,
+        12,
+        10,
+        8
+      ],
+      "radius": [
+        300,
+        350,
+        400,
+        450
+      ],
+      "sigma_cost": "0 when passive, 50 when aura; each kit names which",
+      "source": {
+        "plan/09-launch-hero-kits.md": 18
+      }
+    },
+    "defaults": {
+      "damage_types": {
+        "ability_1": "physical",
+        "ability_2": "magical",
+        "ability_3": "pure"
+      },
+      "nearby_radius": 300,
+      "source": {
+        "plan/09-launch-hero-kits.md": [
+          25,
+          26
+        ]
+      },
+      "status": "UNVERIFIED"
+    },
+    "sigma": {
+      "base_pool": 50,
+      "max_per_int": 12,
+      "regen_per_sec_per_int": 0.05,
+      "status": "UNVERIFIED"
+    },
+    "ultimate": {
+      "cooldown_seconds": [
+        100,
+        85,
+        70
+      ],
+      "damage": [
+        250,
+        400,
+        550
+      ],
+      "max_level": 3,
+      "sigma_cost": [
+        150,
+        200,
+        250
+      ],
+      "source": {
+        "plan/09-launch-hero-kits.md": 19
+      },
+      "unlock_levels": [
+        6,
+        11,
+        16
+      ]
+    }
+  }
+}

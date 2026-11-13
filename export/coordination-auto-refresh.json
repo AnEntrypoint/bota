@@ -1,0 +1,407 @@
+{
+  "activeHeroes": 24,
+  "activeRosterCount": 24,
+  "after": {
+    "contentQueueRows": 56,
+    "coordination": {
+      "UNAVAILABLE": 0,
+      "available": 439,
+      "hy3dQueue": 56,
+      "intentionally-open": 1,
+      "owner-decision": 1,
+      "requested-pooled-email": 54,
+      "requested-relay": 0,
+      "resolved": 439,
+      "rows": 536,
+      "spawn-generated": 41,
+      "spawnGaps": 480,
+      "unexplainedUnavailable": 0,
+      "unresolved": 97
+    },
+    "extraGapRows": 78,
+    "ruleDemand": {
+      "activeHeroKeys": 26,
+      "available": 326,
+      "hy3dReadyRows": 159,
+      "intentionally-open": 1,
+      "owner-decision": 1,
+      "requested-pooled-email": 50,
+      "requested-relay": 4,
+      "rows": 382,
+      "spawn-generated": 0,
+      "spawnAllNames": 402,
+      "spawnVerifiedBytes": 369
+    },
+    "spawnGapRows": 480
+  },
+  "before": {
+    "contentQueueRows": 56,
+    "coordination": {
+      "UNAVAILABLE": 0,
+      "available": 439,
+      "hy3dQueue": 56,
+      "intentionally-open": 1,
+      "owner-decision": 1,
+      "requested-pooled-email": 50,
+      "requested-relay": 4,
+      "resolved": 439,
+      "rows": 536,
+      "spawn-generated": 41,
+      "spawnGaps": 480,
+      "unexplainedUnavailable": 0,
+      "unresolved": 97
+    },
+    "extraGapRows": 78,
+    "ruleDemand": {
+      "activeHeroKeys": 26,
+      "available": 326,
+      "hy3dReadyRows": 159,
+      "intentionally-open": 1,
+      "owner-decision": 1,
+      "requested-pooled-email": 50,
+      "requested-relay": 4,
+      "rows": 382,
+      "spawn-generated": 0,
+      "spawnAllNames": 402,
+      "spawnVerifiedBytes": 369
+    },
+    "spawnGapRows": 480
+  },
+  "bounded": {
+    "defaultMinutes": 10,
+    "once": true,
+    "pollSeconds": 10
+  },
+  "doNotPromote": true,
+  "engineResolvedExists": false,
+  "errors": [],
+  "finalEvidence": {
+    "activeBotaHeroCount": 24,
+    "counts": {
+      "blocked": 30,
+      "intentionally-open": 1,
+      "owner-decision": 1,
+      "ready": 24
+    },
+    "defaultDotaAcronyms": true,
+    "downstreamDrift": [
+      {
+        "guarantee": 26,
+        "policy": "unchanged historical guarantee",
+        "surface": "BOTA legacy export/fixture"
+      },
+      {
+        "guarantee": 127,
+        "policy": "unchanged upstream guarantee",
+        "surface": "oscraft default-Dota acronyms"
+      },
+      {
+        "guarantee": 26,
+        "policy": "unchanged upstream guarantee",
+        "surface": "oscraft BOTA fullname/model artifacts"
+      }
+    ],
+    "externalBlocker": "studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved",
+    "finalEvidencePaths": [
+      "/workspace/hy3d/output/bota-final-asset-status.json",
+      "/workspace/hy3d/output/bota-final-asset-status.tsv",
+      "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+      "/workspace/hy3d/output/bota-final-asset-evidence.json",
+      "/workspace/hy3d/output/bota-remaining-reconciliation.txt",
+      "/workspace/hy3d/output/bota-remaining-slugs.txt"
+    ],
+    "generatedAt": "2026-11-11T21:20:00.000Z",
+    "identifierMode": "bota-fullname",
+    "pass": "pass-24-active-heroes-final-evidence",
+    "readOnlyPeers": [
+      "/workspace/hy3d",
+      "/workspace/wscheppity",
+      "/workspace/oscraft"
+    ],
+    "schema": "bota.integration-evidence/v1"
+  },
+  "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+  "gatedRows": 2,
+  "generatedAt": "2026-11-11T21:30:00.000Z",
+  "ok": true,
+  "peerChanged": false,
+  "peerManifestHashes": {
+    "/workspace/extra/.local/cdn/http/*": {
+      "count": 126,
+      "sha256": "812a5c0a06d29ce6004f893811f37efb6a5082fb2dbbfe9bf8e163d53f830032",
+      "status": "ready"
+    },
+    "/workspace/extra/.local/cdn/manifest-all.json": {
+      "sha256": "0377896151d3a22638f1e4285d51aced8d044a27206d9a5039e0411a45400486",
+      "status": "ready"
+    },
+    "/workspace/extra/.local/cdn/manifest.json": {
+      "sha256": "aca8a83263f77033d04110a1b4be7a75b0bf1dbdb6c5c030855ecd8d9ddf22b4",
+      "status": "ready"
+    },
+    "/workspace/extra/.local/extraction-contract.json": {
+      "sha256": null,
+      "status": "UNAVAILABLE"
+    },
+    "/workspace/extra/.local/extraction-manifest.json": {
+      "sha256": "279dfcf88a6111af0f0874d749b9154481a2ca503423ac0d8879ac38e216198f",
+      "status": "ready"
+    },
+    "/workspace/hy3d/output/content-demand-v2.json": {
+      "sha256": "5965fcf1c1e5be834b6635d9e78d933878fd908f9b8eec9ba8875b19e0ae505e",
+      "status": "ready"
+    },
+    "/workspace/hy3d/output/content-for-bota.json": {
+      "sha256": "ebbff59684d6fa4062c3cffd5e0b394e2560855b7364aba839f5a5a0727fd001",
+      "status": "ready"
+    },
+    "/workspace/hy3d/output/generation-status.json": {
+      "bytes": 25294,
+      "sha256": "263cacce75b288225c3174019d312f332db12864907e2da557c72860ca95d60a"
+    },
+    "/workspace/hy3d/output/spawn-cdn-probes.json": {
+      "sha256": "e360710c0e3015e480a9623aa307685daeb486ee78d1325f5197ca32dbbccf64",
+      "status": "ready"
+    },
+    "/workspace/hy3d/output/studio-recovery-watch.json": {
+      "sha256": "d8271f45b86d544f71ee84e8a44a6b188fbd85b8a0896de43fd35066c6e27d4e",
+      "status": "ready"
+    },
+    "/workspace/oscraft/scenarios/bota/IDENTIFIERS.md": {
+      "sha256": "dc02d31ba4abdf34dc36b69e23809b53a0019d2d61d25e882ac6a9313b18c7bb",
+      "status": "ready"
+    },
+    "/workspace/oscraft/scenarios/bota/bota_ui.json": {
+      "sha256": "9e4fe807918abcdeb3a4edceebce1e80a93c95d9ce2bd88625b35d4eb5bf3c91",
+      "status": "ready"
+    },
+    "/workspace/oscraft/scenarios/bota/cross-contract-snapshot.json": {
+      "bytes": 15588,
+      "sha256": "652f8bbf5c616e8b3e67d2e43280269366714ae1777f3c05684eacad1283f728"
+    },
+    "/workspace/wscheppity/.local/cdn/http/*": {
+      "count": 578,
+      "sha256": "e3706e1762352744bfe60028389cdfce5547d5cedf72eb1fbbc6ea9264e47232",
+      "status": "ready"
+    },
+    "/workspace/wscheppity/.local/cdn/manifest-all.json": {
+      "sha256": "f0b03fc299bf2d454ee13cf31caf31ca90acdccc614038dc0058e7a0ba221527",
+      "status": "ready"
+    },
+    "/workspace/wscheppity/.local/cdn/manifest.json": {
+      "sha256": "c660acf20561a848a4bfdc52cdbfb5fb0d69c13b90c3345d37cedbc470d06c27",
+      "status": "ready"
+    },
+    "/workspace/wscheppity/.local/extraction-manifest.json": {
+      "sha256": "aac38900903c95343a729ee81679c199348490cfc7d22ce11753b0ccb82ef91d",
+      "status": "ready"
+    }
+  },
+  "readOnlyPeers": [
+    "/workspace/hy3d",
+    "/workspace/wscheppity",
+    "/workspace/extra",
+    "/workspace/oscraft",
+    "/workspace/gmweb",
+    "/workspace/bitvoice"
+  ],
+  "rebuilt": true,
+  "recordSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "schema": "bota.coordination-auto-refresh/v1",
+  "validatorsRun": [
+    {
+      "command": "python3 tools/watch-coordinated-queues.py --once",
+      "exit": 0,
+      "label": "watch",
+      "stdoutTail": [
+        "STATUS_COUNTS UNAVAILABLE=0 available=439 intentionally-open=1 spawn-generated=41 requested-relay=4 owner-decision=1 requested-pooled-email=50",
+        "NEXT_ACTORS hy3d=54 wscheppity=33 extra=8 owner=1 bota=0",
+        "COORDINATION_STATUS PASS"
+      ]
+    },
+    {
+      "command": "python3 tools/build-rule-demand-v2.py",
+      "exit": 0,
+      "label": "build-rule-demand-v2",
+      "stdoutTail": [
+        "RULE_DEMAND_V2 rows=382 available=326 requested-pooled-email=50 requested-relay=4 spawn-generated=0 owner-decision=1 intentionally-open=1",
+        "QUEUES hy3d=56 wscheppity=480 cdn_verified=369 all_cdn_names=402",
+        "UNAVAILABLE: contract /workspace/extra/.local/extraction-contract.json: missing exact path"
+      ]
+    },
+    {
+      "command": "python3 tools/watch-coordinated-queues.py --once",
+      "exit": 0,
+      "label": "watch-after-build",
+      "stdoutTail": [
+        "STATUS_COUNTS intentionally-open=1 UNAVAILABLE=0 owner-decision=1 requested-relay=4 spawn-generated=41 requested-pooled-email=50 available=439",
+        "NEXT_ACTORS hy3d=54 wscheppity=33 extra=8 owner=1 bota=0",
+        "COORDINATION_STATUS PASS"
+      ]
+    },
+    {
+      "command": "python3 tools/refresh-export-hashes.py",
+      "exit": 0,
+      "label": "refresh-export-hashes",
+      "stdoutTail": [
+        "HASH_REFRESH files=38 conformance=5954b962f8570bec360dc79fd5a9aabe83b2e3c8100d0cb69c3fbd88e50175e4"
+      ]
+    },
+    {
+      "command": "python3 tools/build-engine-data.py",
+      "exit": 0,
+      "label": "build-engine-data",
+      "stdoutTail": [
+        "ENGINE_BUILD: heroes=26 abilities=104 voice_heroes=26 portraits=26 decision_gated_fields=425"
+      ]
+    },
+    {
+      "command": "python3 tools/refresh-export-hashes.py",
+      "exit": 0,
+      "label": "refresh-export-hashes-final",
+      "stdoutTail": [
+        "HASH_REFRESH files=38 conformance=5954b962f8570bec360dc79fd5a9aabe83b2e3c8100d0cb69c3fbd88e50175e4"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-coordination-status.py",
+      "exit": 0,
+      "label": "validate-coordination-status.py",
+      "stdoutTail": [
+        "COORDINATION_STATUS_COUNTS available=439 requested-pooled-email=50 requested-relay=4 spawn-generated=41 owner-decision=1 intentionally-open=1 UNAVAILABLE=0",
+        "COORDINATION_ROWS rows=536 resolved=439 unresolved=97 unexplained=0",
+        "COORDINATION STATUS: PASS (1627 checks, 0 errors)"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-rule-demand.py",
+      "exit": 0,
+      "label": "validate-rule-demand.py",
+      "stdoutTail": [
+        "RULE_DEMAND contract=ready hy3d_hashes=287 rows=382 available=326 available_verified=326",
+        "RULE DEMAND: PASS (2350 checks, 0 unavailable)"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-request-queues.py",
+      "exit": 0,
+      "label": "validate-request-queues.py",
+      "stdoutTail": [
+        "REQUEST_QUEUE_COUNTS available=326 intentionally-open=1 owner-decision=1 requested-pooled-email=50 requested-relay=4 spawn-generated=0",
+        "PRIOR_RECONCILIATION rows=144 hy3d_queue=56 spawn_gaps=480 demand_rows=382",
+        "REQUEST QUEUES: PASS (4144 checks, 0 errors)"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-decision-packet.py",
+      "exit": 0,
+      "label": "validate-decision-packet.py",
+      "stdoutTail": [
+        "FIELD=export/engine/abilities.json#heroes.blo.0.cost: null -> \"Use the plan tier table as implementation defaults, still labelled UNVERIFIED pending playable build\"",
+        "coverage=425/425 leaks=0",
+        "DECISION PACKET: PASS (453 checks, 0 errors)"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-engine-data.py",
+      "exit": 0,
+      "label": "validate-engine-data.py",
+      "stdoutTail": [
+        "ENGINE_COUNTS: heroes=26 abilities=104 voice=50 gallery=27 decisions=12 markers=169/169 hashes=38",
+        "ENGINE_GATED_FIELDS=425",
+        "ENGINE VALIDATION: PASS (576 checks, 0 errors)"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-apply-mechanism.py",
+      "exit": 0,
+      "label": "validate-apply-mechanism.py",
+      "stdoutTail": [
+        "CANONICAL_ENGINE_UNCHANGED=true",
+        "APPLY MECHANISM: PASS",
+        "TEMP_CLEANED=True"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-integration-live.py --identifier-mode bota-fullname --default-dota-acronyms",
+      "exit": 0,
+      "label": "validate-integration-live.py",
+      "stdoutTail": [
+        "CROSS_PROJECT_KEY_DIFF=[]",
+        "MODEL_PARSE_COUNT=26",
+        "LIVE INTEGRATION: PASS (211 checks, 0 unavailable, 0 drift)"
+      ]
+    },
+    {
+      "command": "bash tools/check-bota-export.sh",
+      "exit": 0,
+      "label": "check-bota-export.sh",
+      "stdoutTail": [
+        "CANONICAL_ENGINE_UNCHANGED=true",
+        "ENGINE_RESOLVED_EXISTS=false",
+        "PIPELINE: PASS"
+      ]
+    },
+    {
+      "command": "python3 tools/bota-export-watch.py",
+      "exit": 0,
+      "label": "bota-export-watch",
+      "stdoutTail": [
+        "CANONICAL_ENGINE_UNCHANGED=true ENGINE_RESOLVED_EXISTS=false",
+        "LIVE=PASS drift=0 key_diff=[]",
+        "STATUS_FILE=export/export-status.json"
+      ]
+    },
+    {
+      "command": "python3 tools/validate-export-status.py",
+      "exit": 0,
+      "label": "validate-export-status",
+      "stdoutTail": [
+        "STATUS_COUNTS heroes=26 abilities=104 voice=50 gallery=27 decisions=12 markers=169 gatedFields=425 hashes=38",
+        "STALE=false DRIFT=0",
+        "EXPORT STATUS: PASS (40 checks, 0 errors)"
+      ]
+    }
+  ],
+  "verifiedPass": {
+    "allExitCodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "commands": [
+      "python3 tools/validate-active-roster.py",
+      "python3 tools/validate-request-queues.py",
+      "python3 tools/validate-rule-demand.py",
+      "python3 tools/validate-export-status.py",
+      "python3 tools/validate-auto-refresh.py",
+      "python3 tools/validate-integration-live.py --identifier-mode bota-fullname --default-dota-acronyms",
+      "python3 tools/validate-spawn-compatibility.py",
+      "python3 tools/check-bota-export-clean.py",
+      "python3 tools/validate-export.py",
+      "python3 tools/validate-engine-data.py",
+      "python3 tools/validate-decision-packet.py",
+      "python3 tools/validate-apply-mechanism.py",
+      "python3 tools/validate-coordination-status.py",
+      "python3 tools/validate-progress-dashboard.py",
+      "python3 -c import json,pathlib,hashlib,brotli,soundfile as sf,struct; P=pathlib.Path(\"/workspace/sa/.gm/chatnano-audio/packaged12-manifest.json\"); d=json.loads(P.read_text()); e=json.loads(pathlib.Path(\"export/chatnano-packaged12-evidence.json\").read_text()); assert d[\"count\"]==30 and e[\"counts\"][\"validatedRows\"]==30 and e[\"counts\"][\"promotedRows\"]==0 and e[\"counts\"][\"blockedRows\"]==30 and e[\"counts\"][\"oggCrcFailures\"]==0; assert e[\"compressionContract\"][\"interpretation\"]==\"measured delivered total stream/container bitrate\"; assert e[\"counts\"][\"opusBytes\"]==399648 and e[\"counts\"][\"brotliBytes\"]==272962; assert all(x[\"status\"]==\"blocked-measured-total-bitrate\" for x in e[\"rows\"]); print(\"PACKAGED12_DECISION PASS rows=30 promoted=0 status=blocked-measured-total-bitrate\")",
+      "python3 -c import json,pathlib; e=json.loads(pathlib.Path(\"export/chatnano-packaged12-evidence.json\").read_text()); c=json.loads(pathlib.Path(\"export/chatnano-audio-coordination.json\").read_text()); f=json.loads(pathlib.Path(\"export/final-reconciliation.json\").read_text()); assert e[\"verdict\"]==c[\"verdict\"]==\"NOT PERFECTED\"; assert e[\"counts\"][\"promotedRows\"]==0 and e[\"counts\"][\"blockedRows\"]==30; assert all(r[\"finalEvidenceClassification\"]==\"blocked\" for r in f[\"rows\"] if r.get(\"packaged12Evidence\")); print(\"NO_PROMOTION_PASS rows=30 blocked=30\")"
+    ],
+    "id": "pass-chatnano-packaged12-contract-decision-2026-11-12",
+    "status": "PASS",
+    "validatorCount": 16
+  }
+}

@@ -1,0 +1,2623 @@
+{
+  "authority": "/workspace/hy3d/output/bota-final-asset-status.json",
+  "counts": {
+    "blocked": 30,
+    "intentionally-open": 1,
+    "owner-decision": 1,
+    "ready": 24
+  },
+  "evidencePaths": [
+    "/workspace/hy3d/output/bota-final-asset-status.json",
+    "/workspace/hy3d/output/bota-final-asset-status.tsv",
+    "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+    "/workspace/hy3d/output/bota-final-asset-evidence.json",
+    "/workspace/hy3d/output/bota-remaining-reconciliation.txt",
+    "/workspace/hy3d/output/bota-remaining-slugs.txt"
+  ],
+  "externalBlocker": "studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved",
+  "generatedAt": "2026-11-11T21:20:00.000Z",
+  "pass": "pass-24-active-heroes-final-evidence",
+  "rows": [
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/nec",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 280364,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__nec.wav",
+        "sha256": "b08fd171d715a209aa10cc33babd609326d8fb07266595cc43c3283b9839b21e",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__nec.opus.ogg.br",
+        "brotliSha256": "d426d261dbc0b309548016ad9b8369ba88810f3c55779ff2e8906c4dd398f191",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__nec.opus.ogg",
+        "opusSha256": "043c1acae0feb720eccf406b8e4f8acc976737c836fa27d1a363795d8cbc673f",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero nec slot 001",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/nec",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:50a46cae6208cdc2",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "activeRoster": false,
+      "destination": "output/content-for-bota.json#voice/cha",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 113324,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__cha.wav",
+        "sha256": "7267e12310b44670958df085123ae8d393cdbcb4341a43ee3d094021b92dc7a6",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__cha.opus.ogg.br",
+        "brotliSha256": "a12de742f21e0c1e963f756a586c4641eb1763ae07a05d77098aa101263adb08",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__cha.opus.ogg",
+        "opusSha256": "185b4010789dcdfd7fa65e7f58afdc5063a0861b852da8cee5fff14583371d8f",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "provenance": "retired/excluded: Chad+Karen owner update",
+      "requiredBy": "active hero cha slot 002",
+      "retiredRosterExclusion": true,
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/cha",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:372e21894a8139a4",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/woj",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 96044,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__woj.wav",
+        "sha256": "008acc9b4be549adcbc47fdb7f526816a8249005e0f91112401fdca9081a8cbe",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__woj.opus.ogg.br",
+        "brotliSha256": "59ef3fcc284b378351651d029fcfb3fab247b99c7adce25f827afb99c9111157",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__woj.opus.ogg",
+        "opusSha256": "d7eed70b22bc35a334cc8fdc04f30445fbdabd6772bd327af7e920719c93a23c",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero woj slot 004",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/woj",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:67e6087efc3dcf39",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/blo",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 370604,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__blo.wav",
+        "sha256": "3f178ac0978ce2363e84fd9fa14516322a2b1926339f9ac6e86d8b8cf0260fa1",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__blo.opus.ogg.br",
+        "brotliSha256": "ebbf3f2d749a0c2375f505e7d2b63f226338eb0e6dd7cbacce39ddb8be7a1eaa",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__blo.opus.ogg",
+        "opusSha256": "7666052b89d83581322f862464231e04147b0f204008de3e79159595fde2b1ac",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero blo slot 005",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/blo",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:b11d2ebb2fd8969d",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/tra",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 288044,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__tra.wav",
+        "sha256": "0c1ee8c2d4d09b87aadb5b2e030fc2d23f99406ee18707736c82eb82d4aac797",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__tra.opus.ogg.br",
+        "brotliSha256": "6f3ccb847ba61830d1fc50ac8f255c44c8849d36b07267828cf1b669977359f8",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__tra.opus.ogg",
+        "opusSha256": "f4255d176a637725bdb4739fd28648b780e1781c723cd0b473b6ae834d027576",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero tra slot 006",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/tra",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:099242ae6dae7a94",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/boo",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 113324,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__boo.wav",
+        "sha256": "ba0bd157f753c67b3de1512da160e98296dfc4decc8aa7939d7afa586db9e443",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__boo.opus.ogg.br",
+        "brotliSha256": "a3b29c0a1c85723576d2ed5eef87c9c2ead65dc49dcecd9a02482f4121fe13fc",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__boo.opus.ogg",
+        "opusSha256": "99cf1c6e5f986ccbdc63b95369b92066b8f98380bc0e9a8aa66d156ca353f472",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero boo slot 007",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/boo",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:29f2cd70ba246753",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/coo",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 280364,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__coo.wav",
+        "sha256": "6a7527d837dce2a325c4589a083e0b18cf605e7ed5e670a3b06bcefd4c6c8142",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__coo.opus.ogg.br",
+        "brotliSha256": "915e0fea5f30d3285f9aa5cd8cfb0993d036e4552b9583f9c43a5854604520a2",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__coo.opus.ogg",
+        "opusSha256": "a6348f803343b7ef5e10e8b900ca828d0960e9166f540b95cbcd97f600367aaa",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero coo slot 008",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/coo",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:0ad9d7ecb2911be3",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/gon",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 245804,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__gon.wav",
+        "sha256": "4262719228dc0e159aa6e01a8d3c6ede5cf0c72f35a833a5fa75ee70718f03e4",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__gon.opus.ogg.br",
+        "brotliSha256": "53e73bc4fdef15af548b00de9cf8e287dc3f83dccc32816044ba8007de9deb00",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__gon.opus.ogg",
+        "opusSha256": "6cfe931a8fa76eeaca50645192169a9d2d63d03a0c7ba9b6457fb5a37f4769dd",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero gon slot 009",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/gon",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:a07f0262f3bbc101",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/spu",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 245804,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__spu.wav",
+        "sha256": "31f67f2ffc188f0714accd81eb8a132ba19c870f36cbc34657861a98fa03bfac",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__spu.opus.ogg.br",
+        "brotliSha256": "c999117e02d005b5338964befe509ae47737a5e12e45d21f37242d11cf442fa2",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__spu.opus.ogg",
+        "opusSha256": "ea756b358d90d42ffd034fd9dd3b686c09bcc187ce6a3c1454094a075631544d",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero spu slot 010",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/spu",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:151a76bfa3b4278b",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "activeRoster": false,
+      "destination": "output/content-for-bota.json#voice/kar",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 99884,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__kar.wav",
+        "sha256": "3155d40f30f4650eef0c50e3e097c2ab7b1d131a23f14368fb986cda64db8b87",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__kar.opus.ogg.br",
+        "brotliSha256": "9804edefaf4ff3af048c8fe17b5dd92eb48c8dc8ed45a775051064f3ce03b738",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__kar.opus.ogg",
+        "opusSha256": "7978b26848771faef0efaee44e97ff15b6acc133bb5f38601432c885f258355b",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "provenance": "retired/excluded: Chad+Karen owner update",
+      "requiredBy": "active hero kar slot 011",
+      "retiredRosterExclusion": true,
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/kar",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:c1dac0b3cc6561b0",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/how",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 122924,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__how.wav",
+        "sha256": "d28a1ab104a51e4259eb43430086729e74592fb4ff1acac200f3da6ca5e72406",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__how.opus.ogg.br",
+        "brotliSha256": "262d61c8dd8dcc3e6ab6dee56ae4eadfea01d1831cc4a74cd543772a8e2dd967",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__how.opus.ogg",
+        "opusSha256": "f4535b83932e4fea841612ff69dec627722a248a04664b894b36a17736d9bc45",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero how slot 012",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/how",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:ef42754028d772b0",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/san",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 293804,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__san.wav",
+        "sha256": "c7e4f7fbcc0c96859f33db0f956f103d5890e255ae5e742d10146a387a05aabc",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__san.opus.ogg.br",
+        "brotliSha256": "503b5daea61d053a5740d3fb5047efc3abc76ad0067602794aab07249ad5339f",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__san.opus.ogg",
+        "opusSha256": "ba4aed75dd2f4acdc4476b4d4107ef7bf9fe28cf059922cdf06a771aab126d32",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero san slot 013",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/san",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:e175a0ee535f2f8a",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/lan",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 263084,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__lan.wav",
+        "sha256": "b713d96a9e9e9865a10eb1cfa77e8f4d9490a77cb0e5c5a24f8a44be13254210",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__lan.opus.ogg.br",
+        "brotliSha256": "0260685b1aabf4ac87ea8322d6505c26dcf0c842846fd258cda1952b3913f52f",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__lan.opus.ogg",
+        "opusSha256": "576cadce5e08b10bec6d6d3ca1b440498879c1dc7482fe5e56d557745d264361",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero lan slot 014",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/lan",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:0e4f92e5de068a3a",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/fin",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 313004,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__fin.wav",
+        "sha256": "ecb511fbd3466e011813520316c24bd9ead54a0182dcfd3423adbe40be1dc6f6",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__fin.opus.ogg.br",
+        "brotliSha256": "0a89c6aa87f5a14d92a9cf7ee98474e226db0fff1940947333ac72ced1fc3785",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__fin.opus.ogg",
+        "opusSha256": "80eca4950f2513f58048205d3afafbd74276cbd9d40cff22132e3c5e74a65bed",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero fin slot 015",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/fin",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:c595a0f5c78a6926",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/wil",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 351404,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__wil.wav",
+        "sha256": "8b6c45a604932b7d41eb60a61481b164eb5f179f0e7bfda7fcd050f619e2acdb",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__wil.opus.ogg.br",
+        "brotliSha256": "2255bb8102f79c0b63a5581fe2c7410fe88b697e3b6c81f5352fb29212ed1511",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__wil.opus.ogg",
+        "opusSha256": "5404a50e77a365bcbe1e4f2996c1dffa6367e2e0f3e806044661a613e83284ac",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero wil slot 016",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/wil",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:783cea56377668f7",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/nos",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 103724,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__nos.wav",
+        "sha256": "6d2985417aa0cd03e678bb09fae00f6c7a3b99be5cb3cb3d107083ed891a9554",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__nos.opus.ogg.br",
+        "brotliSha256": "7d2dc761327581113cc8c4ba9facee28cc5c50bc0ac8025ffe9105461006d014",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__nos.opus.ogg",
+        "opusSha256": "991f5f5cfd018c495d9e87880a732f4e90d8976e46b76c2b0eba2a3a40f8a571",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero nos slot 017",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/nos",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:fc183393d1963780",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/din",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 240044,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__din.wav",
+        "sha256": "851beca71db199b8cb5c9dc39ea9f5b879833e172be1b14a5cb1c53ec4c69894",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__din.opus.ogg.br",
+        "brotliSha256": "167beabfbf87f6aea65b2cc8991bd79d91991f798a6da5a299f41d0132ac0a10",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__din.opus.ogg",
+        "opusSha256": "dcf8ad189fa2b2cb7e4fbe6ba82e818c60486909c579ad2756718dcc46db3108",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero din slot 018",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/din",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:7446ac860a370451",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/ecc",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 355244,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__ecc.wav",
+        "sha256": "7c9bfdfcd7bce630c37b09f6bb8c383f36093ff049ae26ff48de6fd43276aff8",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__ecc.opus.ogg.br",
+        "brotliSha256": "b358cd0e84fd1b3d7164a364011c0da2f26a90bfce5e845d4992aa3ff776ad80",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__ecc.opus.ogg",
+        "opusSha256": "9b72d4b6eb6c54bc3635b46b0d0c6366a4414ae025a46bbecb5c11def5f46b83",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero ecc slot 019",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/ecc",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:40e4fd7257883af7",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/bot",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 278444,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__bot.wav",
+        "sha256": "497fe8657996d3bef551d920740b07dc75d7c17a53c355313b9c3b6b170ad46f",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__bot.opus.ogg.br",
+        "brotliSha256": "822e4386b2bcb21c521e0849a72b676b5802eab375de1350377beeb2270343a2",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__bot.opus.ogg",
+        "opusSha256": "5e419a2e298ee46f010d11354e3c00bcc24de7b8cf4223d7f6e5784646cc2038",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero bot slot 020",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/bot",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:5c678ea1760471d4",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/sho",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 117164,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__sho.wav",
+        "sha256": "23e95b45a5876344806f11a9d3f2f447693ef6669aed4cf8144b6e0758e19a45",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__sho.opus.ogg.br",
+        "brotliSha256": "89b6cba60dd9a52dcffffbda31d70e812bbf18d667b0978752c17418159299a8",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__sho.opus.ogg",
+        "opusSha256": "5ab53216745b16f6274ff9b43f4a9f4def8615dfc19ab73fc98ac46e40c89f43",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero sho slot 021",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/sho",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:081811e207a504ca",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/npc",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 107564,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__npc.wav",
+        "sha256": "76ff2f166172ce650b1be78ab9ea87399711ba28e0ac5a84a4aedcfee450d236",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__npc.opus.ogg.br",
+        "brotliSha256": "8eaad934d671ef39a35e7bfd577eca330867d12ba87e54f3a3e9c7ccd7526cf9",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__npc.opus.ogg",
+        "opusSha256": "b845723ffd6f9beef8ad038b05fd3746937388477484cbdc1b6c8dda0aa263cf",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero npc slot 022",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/npc",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:b6f2ba0cbb233ee7",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/for",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 92204,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__for.wav",
+        "sha256": "cc3ee2fa092b23a0a3fe15abfe3b5a85c03bbced201afa44006a69787da390e5",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__for.opus.ogg.br",
+        "brotliSha256": "6b17d0d90d64a54b25135987677baba5219b5e04af6eb65f3d0d47466d156247",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__for.opus.ogg",
+        "opusSha256": "f8600b0190b7b4b362160b90b60164924495e4c8da24ca62e6788809134f4de3",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero for slot 023",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/for",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:d5900efd048042ce",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/col",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 249644,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__col.wav",
+        "sha256": "43ef6489c2fb52177b1021998c33f30129847de85a68c613711af444db21f433",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__col.opus.ogg.br",
+        "brotliSha256": "dc19f7eab48b96b8ceece855cae9ff079c67dcf73c68d1c347116edae27fd897",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__col.opus.ogg",
+        "opusSha256": "53f531a526f9ae01dfc91b93b6651b2815b40cc26f8e075853d090f2ef7886bb",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero col slot 024",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/col",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:6d740481aded2d4e",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/gre",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 140204,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__gre.wav",
+        "sha256": "e478da0b89c7d293975bb6cb5548685b0fe11cc23f2548e3e75ec02e37e49ebb",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__gre.opus.ogg.br",
+        "brotliSha256": "11bcc4e5bba0fdcc7ebeaa07e81f90ecc545dbab641da283e9d49bdc96d4990f",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__gre.opus.ogg",
+        "opusSha256": "a61fe23a0578ade562655c8716ddd3c0974535e829a608b1a58362d9b1cf34f1",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero gre slot 025",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/gre",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:7c6cdadcb5cb0f58",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/ghi",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 107564,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__ghi.wav",
+        "sha256": "b66a4b549aa8dcd1379d3d707cbfb5a73dea119afcd7812d34b0e928cce319eb",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__ghi.opus.ogg.br",
+        "brotliSha256": "0ffa5c1c9aa29fb9595af477ce533ee3c1e676b19ef4c6ddd1467600b49d83df",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__ghi.opus.ogg",
+        "opusSha256": "a3190e206b3c87539bfea528e937e2aaddd207a2b368a01e7d5c8187ca0475f6",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero ghi slot 026",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/ghi",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:de24ab3528120bf8",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#voice/got",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 92204,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/hero_voice__got.wav",
+        "sha256": "e742ead49369a1e36a1ccf90ece73b6c84b05ddc365d18e890f0b679eeb976b5",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "hero-voice",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__got.opus.ogg.br",
+        "brotliSha256": "f26a08d8622e460e15e5881fb50b5df0d1c2ed2863f4e0eda28600b672a9faca",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/hero_voice__got.opus.ogg",
+        "opusSha256": "da3fe27daaedbe4e97ef1795c71c0cdbbcdd125bd260ba55cf50fc26b2d7f343",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "active hero got slot 027",
+      "ruleCitation": "plan/23-voice-and-banter.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/23-voice-and-banter.md; plan/16-humor-and-tone.md",
+      "slug": "hero-voice/got",
+      "sourceHash": "92683730de6d9bf3384c9385d7e75d0170b5610ba37cfba966d4c702309e471a",
+      "sourcePath": "export/hero-voice.json",
+      "stableId": "resolve:9665d364fad67487",
+      "status": "requested",
+      "validation": {
+        "httpStatus": null,
+        "poolQuota": 30
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/tier-1-tower",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/tier-1-tower",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:293c90457bc0c9c1",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/tier-2-tower",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/tier-2-tower",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:2b57548e5cbe0d6d",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/tier-3-tower",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/tier-3-tower",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:5a152297ab2909fb",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/tier-4-tower",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/tier-4-tower",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:576656751d2ce0c7",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/content-mill-melee",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/content-mill-melee",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:13ef26af12921775",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/content-mill-ranged",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/content-mill-ranged",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:f1d750d772a486de",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/stockpile",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/stockpile",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:2feec0ca8bc77451",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/spawn-lounge",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/04-map.md:1",
+      "ruleQuote": "# 4. Map",
+      "ruleSection": "plan/04-map.md; plan/07-heroes-and-attributes.md#respawn",
+      "slug": "rule-demand/spawn-lounge",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:9afcc469748f5875",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/safe-spot",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/21-systems-added-back.md:66",
+      "ruleQuote": "### Safe Spots",
+      "ruleSection": "plan/21-systems-added-back.md#safe-spots",
+      "slug": "rule-demand/safe-spot",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:cc99b1147b75acf9",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/trend-pit",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/12-neutrals-boosts-the-trend-and-snapshot.md:1",
+      "ruleQuote": "# 12. Neutrals, boosts, The Trend and Snapshot",
+      "ruleSection": "plan/12-neutrals-boosts-the-trend-and-snapshot.md",
+      "slug": "rule-demand/trend-pit",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:cc2a4e6eb5f9cb74",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/river-boost-spot",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/12-neutrals-boosts-the-trend-and-snapshot.md:1",
+      "ruleQuote": "# 12. Neutrals, boosts, The Trend and Snapshot",
+      "ruleSection": "plan/12-neutrals-boosts-the-trend-and-snapshot.md",
+      "slug": "rule-demand/river-boost-spot",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:fef75e9176bdd4ac",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/jungle-camp",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "structure",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/12-neutrals-boosts-the-trend-and-snapshot.md:1",
+      "ruleQuote": "# 12. Neutrals, boosts, The Trend and Snapshot",
+      "ruleSection": "plan/12-neutrals-boosts-the-trend-and-snapshot.md",
+      "slug": "rule-demand/jungle-camp",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:cb8ecd3a7534cc05",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/lurker-cam",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/lurker-cam",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:33b026fbbebfba57",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/ring-light",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/ring-light",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:9a8f88490f2efc4b",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/sticky-note",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/sticky-note",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:d712860a3359ecc6",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/drafted-note",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/drafted-note",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:8b5df4cdf967de55",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/hot-sauce-bottle",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/hot-sauce-bottle",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:e9304b26a8666a8f",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/envelope",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/envelope",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:5681dae01c1d6bca",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/old-hoodie",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/11-items.md:1",
+      "ruleQuote": "# 11. Items",
+      "ruleSection": "plan/11-items.md",
+      "slug": "rule-demand/old-hoodie",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:81f03c9f872e53d0",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/coffee-can",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/21-systems-added-back.md:66",
+      "ruleQuote": "### Safe Spots",
+      "ruleSection": "plan/21-systems-added-back.md#coffee",
+      "slug": "rule-demand/coffee-can",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:628475a66b3b90df",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/delivery-drone",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:1",
+      "ruleQuote": "# 16. Humor and tone",
+      "ruleSection": "plan/16-humor-and-tone.md#announcer-lines",
+      "slug": "rule-demand/delivery-drone",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:5b4c12b4b4db4910",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/padlock",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/03-core-loop-and-win-condition.md:6",
+      "ruleQuote": "### Lanes and structures",
+      "ruleSection": "plan/03-core-loop-and-win-condition.md#lanes-and-structures",
+      "slug": "rule-demand/padlock",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:24a607bf283ae736",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/stan-sign",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:17",
+      "ruleQuote": "### Gags",
+      "ruleSection": "plan/16-humor-and-tone.md#gags",
+      "slug": "rule-demand/stan-sign",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:31d55fd1597660f5",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "GLB magic is glTF",
+        "GLB version is 2",
+        "declared length equals file bytes",
+        "Pooled-email attempt is recorded before relay fallback"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/ticker-banner",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "ready",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "/workspace/hy3d/output/content-for-bota.json; /workspace/hy3d/output/final-asset-inventory.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "prop",
+      "method": "pooled-emails-then-relay",
+      "nextActor": "hy3d",
+      "note": "hash-verified generated GLB; no fabricated bytes; exact hy3d evidence recorded",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:17",
+      "ruleQuote": "### Gags",
+      "ruleSection": "plan/16-humor-and-tone.md#gags",
+      "slug": "rule-demand/ticker-banner",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:354fb44e6dcca56c",
+      "status": "requested",
+      "validation": {
+        "poolQuota": 30,
+        "readyStructureRows": 14
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Relay fallback evidence is recorded"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/receipt-chain",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 378284,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/rule_demand__receipt_chain.wav",
+        "sha256": "c6a05fb1874002bb4fae9e0fe2fa3a594090ad09334140bfdaeafad1832d008f",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/studio-blocked-diagnosis.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "clip",
+      "method": "pooled-email-attempt-then-relay-fallback",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__receipt_chain.opus.ogg.br",
+        "brotliSha256": "1ff1616bd9489d67bee227ae8ac1fde1fb0b939d23b31ebc5df488dd21d8c6dd",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__receipt_chain.opus.ogg",
+        "opusSha256": "5f91b489f1e16b3b783813e80c7c242b80588367325bff011757cddc712a1247",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/16-humor-and-tone.md#rules",
+      "slug": "rule-demand/receipt-chain",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:a269d184e082e00c",
+      "status": "requested",
+      "validation": {
+        "quotaPreserved": 30,
+        "serviceSideBlocker": 500
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Relay fallback evidence is recorded"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/repost-chain",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 476204,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/rule_demand__repost_chain.wav",
+        "sha256": "8ef7ed4b2d7c581a596c4998819120c4fa6e3c21db44ecf528329cc8d94460b3",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/studio-blocked-diagnosis.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "clip",
+      "method": "pooled-email-attempt-then-relay-fallback",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__repost_chain.opus.ogg.br",
+        "brotliSha256": "cee9cc1aa36fd779365c554877f1bdf51781a9ead9d7139d0210107f46f05a2d",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__repost_chain.opus.ogg",
+        "opusSha256": "46a7237226a32d4f3c57d1848205e1b8f7e14106db0c23163d146c5ad7016b3a",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/16-humor-and-tone.md#rules",
+      "slug": "rule-demand/repost-chain",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:5c02d8e822e9d2b9",
+      "status": "requested",
+      "validation": {
+        "quotaPreserved": 30,
+        "serviceSideBlocker": 500
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Relay fallback evidence is recorded"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/camera-chain",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 437804,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/rule_demand__camera_chain.wav",
+        "sha256": "fceb9b89b3e29fcabd2528e985ac8f11de859f2062879465fd48f58bb69df267",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/studio-blocked-diagnosis.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "clip",
+      "method": "pooled-email-attempt-then-relay-fallback",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__camera_chain.opus.ogg.br",
+        "brotliSha256": "8560532ecf2f2e2965cedabfefe7dc9c6fe0be61017808b0f87c63ea37db8b5b",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__camera_chain.opus.ogg",
+        "opusSha256": "885c79a32de0e503b3def4513867f15549f90c463fa60bcdd6ded57d6230d154",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/16-humor-and-tone.md#rules",
+      "slug": "rule-demand/camera-chain",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:b040856ca9bcfb0a",
+      "status": "requested",
+      "validation": {
+        "quotaPreserved": 30,
+        "serviceSideBlocker": 500
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Owner records an explicit choice",
+        "No canonical engine value is written",
+        "do_not_promote remains true"
+      ],
+      "destination": "export/decision-packet.json#forever_eternal_loop_clip",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "owner-decision",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "export/decision-packet.json; export/DECISION-PACKET.md",
+      "kind": "clip",
+      "method": "do-not-promote",
+      "nextActor": "owner",
+      "note": "final evidence non-asset owner-decision",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/18-asset-manifest-and-audio.md:1",
+      "ruleQuote": "# 18. Asset manifest and audio",
+      "ruleSection": "plan/18-asset-manifest-and-audio.md; plan/21-systems-added-back.md",
+      "slug": "rule-demand/eternal-loop",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:78018b1b730b1b83",
+      "status": "requested",
+      "validation": {
+        "do_not_promote": true
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Design remains intentionally open",
+        "No canonical engine value is written",
+        "do_not_promote remains true"
+      ],
+      "destination": "plan/16-humor-and-tone.md:8",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "intentionally-open",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "hy3dEvidence": "plan/16-humor-and-tone.md; plan/34-content-status-adjudication.md",
+      "kind": "clip",
+      "method": "text-only-rule",
+      "nextActor": "bota",
+      "note": "final evidence non-asset intentionally-open",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/16-humor-and-tone.md:4",
+      "ruleQuote": "### Rules",
+      "ruleSection": "plan/16-humor-and-tone.md#rules",
+      "slug": "rule-demand/transition-wipe",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:42b153c501fe22c4",
+      "status": "requested",
+      "validation": {
+        "do_not_promote": true
+      }
+    },
+    {
+      "acceptanceCriteria": [
+        "Publish a row in /workspace/hy3d/output/content-for-bota.json",
+        "Include category, slug, source path, optimized path, destination, generationMethod and status",
+        "Include a real SHA-256 and bytes",
+        "Asset extension/type is explicit",
+        "Decoded duration or media validation is recorded",
+        "Relay fallback evidence is recorded"
+      ],
+      "destination": "output/content-for-bota.json#rule-demand/stan-cheer",
+      "exactEvidencePaths": [
+        "/workspace/hy3d/output/bota-final-asset-status.json",
+        "/workspace/hy3d/output/bota-final-asset-status.tsv",
+        "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+        "/workspace/hy3d/output/bota-final-asset-evidence.json"
+      ],
+      "finalEvidenceClassification": "blocked",
+      "finalEvidencePass": "pass-24-active-heroes-final-evidence",
+      "generatedWavEvidence": {
+        "bytes": 51884,
+        "path": "/workspace/sa/.gm/chatnano-audio/wav/rule_demand__stan_cheer.wav",
+        "sha256": "0194ec9c22f2e729b3d330e43ea8ae12ca3c25488af75e71917ec4b90af8772d",
+        "status": "source-wav-validated"
+      },
+      "hy3dEvidence": "/workspace/hy3d/output/studio-blocked-diagnosis.json; /workspace/hy3d/output/generation-status.json",
+      "kind": "clip",
+      "method": "pooled-email-attempt-then-relay-fallback",
+      "nextActor": "hy3d",
+      "note": "final evidence blocked: studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved; no bytes fabricated",
+      "packaged12Evidence": {
+        "brotliPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__stan_cheer.opus.ogg.br",
+        "brotliSha256": "bc8536fa576f8ad367239902b2a986af02369ef5fb881c4492373ad67abab888",
+        "opusPath": "/workspace/sa/.gm/chatnano-audio/packaged12/rule_demand__stan_cheer.opus.ogg",
+        "opusSha256": "60fddb33be30172103e30a8b7f0401c27297f2f65238f1036a20c934f8c8b02b",
+        "status": "validated-blocked-measured-total-bitrate"
+      },
+      "packagingBlocker": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+      "packagingStatus": "blocked-measured-total-bitrate",
+      "priorStatus": "requested",
+      "requiredBy": "current rules; content owner hy3d publishes hash/path/destination/method",
+      "ruleCitation": "plan/18-asset-manifest-and-audio.md:1",
+      "ruleQuote": "# 18. Asset manifest and audio",
+      "ruleSection": "plan/18-asset-manifest-and-audio.md",
+      "slug": "rule-demand/stan-cheer",
+      "sourceHash": null,
+      "sourcePath": null,
+      "stableId": "resolve:97a474816e53208e",
+      "status": "requested",
+      "validation": {
+        "quotaPreserved": 30,
+        "serviceSideBlocker": 500
+      }
+    }
+  ],
+  "schema": "bota.final-reconciliation/v1"
+}

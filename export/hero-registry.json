@@ -1,0 +1,1073 @@
+{
+  "ambiguities": [
+    {
+      "id": "ability_slot_mapping",
+      "source": {
+        "plan/09-launch-hero-kits.md": 4
+      },
+      "statement": "Slot mapping follows section 24 number; every renamed ability and hero name is GUESS (theme only).",
+      "status": "GUESS"
+    },
+    {
+      "id": "ability_numbers",
+      "source": {
+        "plan/09-launch-hero-kits.md": 12
+      },
+      "statement": "Sigma costs and value tiers are UNVERIFIED; export preserves them verbatim as tier_values.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "ability_3_sigma_cost",
+      "source": {
+        "plan/09-launch-hero-kits.md": 18
+      },
+      "statement": "Ability 3 costs 0 when passive and 50 when aura, but individual rows do not label passive versus aura. Export records both branches and does not choose one.",
+      "status": "AMBIGUOUS"
+    },
+    {
+      "id": "damage_types",
+      "source": {
+        "plan/09-launch-hero-kits.md": 26
+      },
+      "statement": "Default damage types are UNVERIFIED; a kit row can name another type. Export records defaults, not per-row overrides.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sorrowful_cancel_threshold",
+      "source": {
+        "plan/10-remaining-hero-kits.md": 26
+      },
+      "statement": "Wojak ultimate instant-kill threshold is below 25% health and is explicitly UNVERIFIED.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "eternal_loop_clip",
+      "source": {
+        "plan/10-remaining-hero-kits.md": 27
+      },
+      "statement": "Forever three-stun clip is explicitly UNVERIFIED.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "voice_line_cap",
+      "source": {
+        "plan/23-voice-and-banter.md": 8
+      },
+      "statement": "Hero and pair lines stay under twelve words; cap UNVERIFIED.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "voice_cooldown",
+      "source": {
+        "plan/23-voice-and-banter.md": 10
+      },
+      "statement": "Per-line voice cooldown is 8 s and marked GUESS; balance pass sets it.",
+      "status": "GUESS"
+    },
+    {
+      "id": "engine_hero_id",
+      "source": {
+        "plan/00-index.md": 42,
+        "plan/25-engine-data-plan.md": 54
+      },
+      "statement": "Plan/25 historically discusses hero_id 001 to 032 with no gaps, while ROSTER.md and plan/00 authority use slots 001,002,004-027. Export uses oscraft acronyms as engine hero IDs and keeps slot separately.",
+      "status": "AMBIGUOUS"
+    },
+    {
+      "id": "talent_values",
+      "source": {
+        "plan/26-first-playable-cut-list-and-checks.md": 52
+      },
+      "statement": "First-playable slice cuts talents; later full sets are in section 21. Export includes named talent rows where present but does not infer launch talent values.",
+      "status": "AMBIGUOUS"
+    }
+  ],
+  "authority": {
+    "active_count": 26,
+    "active_roster": "ROSTER.md",
+    "active_slots": [
+      "001",
+      "002",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019",
+      "020",
+      "021",
+      "022",
+      "023",
+      "024",
+      "025",
+      "026",
+      "027"
+    ],
+    "discrepancy": {
+      "acronym": null,
+      "allowed_use": "visual reference only; no playable use",
+      "display_name": "Gigachad",
+      "not_allowed": [
+        "registry key",
+        "kit",
+        "voice",
+        "spawn",
+        "draft",
+        "talent"
+      ],
+      "reason": "public gallery has 25 images; ROSTER.md has 24 active heroes; this export keeps 26 historical keys with 002/011 retired",
+      "slot": "003",
+      "status": "image-only retired/reserve"
+    },
+    "gallery": "GALLERY.md",
+    "gallery_image_count": 25,
+    "retired_slots": [
+      "028",
+      "029",
+      "030",
+      "031",
+      "032"
+    ],
+    "retired_hero_slots": [
+      "002",
+      "011"
+    ]
+  },
+  "engine_convention": {
+    "acronyms": [
+      "nec",
+      "cha",
+      "woj",
+      "blo",
+      "tra",
+      "boo",
+      "coo",
+      "gon",
+      "spu",
+      "kar",
+      "how",
+      "san",
+      "lan",
+      "fin",
+      "wil",
+      "nos",
+      "din",
+      "ecc",
+      "bot",
+      "sho",
+      "npc",
+      "for",
+      "col",
+      "gre",
+      "ghi",
+      "got"
+    ],
+    "hero_id": "3-letter lowercase acronym",
+    "pattern": "^[a-z]{3}$"
+  },
+  "generated_from": "finished BOTA plan",
+  "heroes": {
+    "nec": {
+      "acronym": "nec",
+      "archetype": "Heckler",
+      "attribute": "Str",
+      "display_name": "Neckbeard",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/001-neckbeard.jpg",
+      "range": "Melee",
+      "role": "Harasser, zoner",
+      "signature_gag": "Soaks the first hit in the TACOS shirt, then files a crumb-by-crumb appeal from every cargo pocket.",
+      "slot": "001",
+      "sources": {
+        "character": {
+          "characters/001-neckbeard.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 14
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 8
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 20
+        },
+        "roster": {
+          "ROSTER.md": 7
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 37
+        }
+      }
+    },
+    "cha": {
+      "acronym": "cha",
+      "archetype": "Showboat",
+      "attribute": "Str",
+      "display_name": "Chad",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "internal/retired-gallery/002-chad.jpg",
+      "range": "Melee",
+      "retired_visual_reference": {
+        "note": "003 gallery image is a visual reference for cha ultimate; not a playable hero.",
+        "slot": "003",
+        "status": "image-only reserve"
+      },
+      "role": "Clout carry",
+      "signature_gag": "Freezes a lane by striking the rabbit pose, then asks the scoreboard whether the jawline is in frame.",
+      "slot": "002",
+      "sources": {
+        "character": {
+          "internal/retired-character-cards/002-chad.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 15
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 9
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 21
+        },
+        "roster": {
+          "ROSTER.md": 8
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 38
+        }
+      }
+    },
+    "woj": {
+      "acronym": "woj",
+      "archetype": "Recluse",
+      "attribute": "Str",
+      "display_name": "Wojak",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/004-wojak.jpg",
+      "range": "Melee",
+      "role": "Offline sustain",
+      "signature_gag": "Sighs until five enemies queue up to agree with him, then finishes the one who says it gets better.",
+      "slot": "004",
+      "sources": {
+        "character": {
+          "characters/004-wojak.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 16
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 24
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 21
+        },
+        "roster": {
+          "ROSTER.md": 8
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 38
+        }
+      }
+    },
+    "blo": {
+      "acronym": "blo",
+      "archetype": "Herald",
+      "attribute": "Agi",
+      "display_name": "Bloomer",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/005-bloomer.jpg",
+      "range": "Melee",
+      "role": "Resell healer, buffer",
+      "signature_gag": "Blinds enemies with optimism so aggressive it needs its own content warning, then sends a hoodie-wearing boar to check on them.",
+      "slot": "005",
+      "sources": {
+        "character": {
+          "characters/005-bloomer.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 17
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 9
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 22
+        },
+        "roster": {
+          "ROSTER.md": 9
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 39
+        }
+      }
+    },
+    "tra": {
+      "acronym": "tra",
+      "archetype": "Herald",
+      "attribute": "Int",
+      "display_name": "Tradwife",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/006-tradwife.jpg",
+      "range": "Melee",
+      "role": "Resell healer, buffer",
+      "signature_gag": "The daisy-dress stride apologises in advance; the group chat already read the daisy-print instructions wrong.",
+      "slot": "006",
+      "sources": {
+        "character": {
+          "characters/006-tradwife.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 18
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 10
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 23
+        },
+        "roster": {
+          "ROSTER.md": 10
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 40
+        }
+      }
+    },
+    "boo": {
+      "acronym": "boo",
+      "archetype": "Heckler",
+      "attribute": "Agi",
+      "display_name": "Boomer",
+      "first_playable": true,
+      "launch": true,
+      "portrait_path": "gallery/007-boomer.jpg",
+      "range": "Melee",
+      "role": "Harasser, zoner",
+      "signature_gag": "Pull-starts the lawn, checks the energy drink for a receipt, and bills every grass stain to the youth.",
+      "slot": "007",
+      "sources": {
+        "character": {
+          "characters/007-boomer.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 19
+        },
+        "kit": {
+          "plan/09-launch-hero-kits.md": 32
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 24
+        },
+        "roster": {
+          "ROSTER.md": 11
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 41
+        }
+      }
+    },
+    "coo": {
+      "acronym": "coo",
+      "archetype": "Firebrand",
+      "attribute": "Str",
+      "display_name": "Coomer",
+      "first_playable": true,
+      "launch": true,
+      "portrait_path": "gallery/008-coomer.jpg",
+      "range": "Melee",
+      "role": "Hot-take initiator",
+      "signature_gag": "Claps the hoodie pocket into a stun and insists every clone is merely a different browser tab.",
+      "slot": "008",
+      "sources": {
+        "character": {
+          "characters/008-coomer.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 20
+        },
+        "kit": {
+          "plan/09-launch-hero-kits.md": 34
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 25
+        },
+        "roster": {
+          "ROSTER.md": 12
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 42
+        }
+      }
+    },
+    "gon": {
+      "acronym": "gon",
+      "archetype": "Recluse",
+      "attribute": "Agi",
+      "display_name": "Gondola",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/009-gondola.jpg",
+      "range": "Melee",
+      "role": "Offline sustain",
+      "signature_gag": "Spits a slow from the moustache, then lets two kilometres of denim absorb the consequences.",
+      "slot": "009",
+      "sources": {
+        "character": {
+          "characters/009-gondola.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 21
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 11
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 26
+        },
+        "roster": {
+          "ROSTER.md": 13
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 43
+        }
+      }
+    },
+    "spu": {
+      "acronym": "spu",
+      "archetype": "Firebrand",
+      "attribute": "Agi",
+      "display_name": "Spurdo",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/010-spurdo.jpg",
+      "range": "Melee",
+      "role": "Hot-take initiator",
+      "signature_gag": "Hatches fan accounts from the hood and gives every bad take a moustache large enough to hide behind.",
+      "slot": "010",
+      "sources": {
+        "character": {
+          "characters/010-spurdo.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 22
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 12
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 27
+        },
+        "roster": {
+          "ROSTER.md": 14
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 44
+        }
+      }
+    },
+    "kar": {
+      "acronym": "kar",
+      "archetype": "Heckler",
+      "attribute": "Int",
+      "display_name": "Karen",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "internal/retired-gallery/011-karen.jpg",
+      "range": "Ranged",
+      "role": "Harasser, zoner",
+      "signature_gag": "Unfolds a complaint from the handbag until it becomes a line charge and asks the entire lane for its supervisor.",
+      "slot": "011",
+      "sources": {
+        "character": {
+          "internal/retired-character-cards/011-karen.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 24
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 14
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 29
+        },
+        "roster": {
+          "ROSTER.md": 16
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 46
+        }
+      }
+    },
+    "how": {
+      "acronym": "how",
+      "archetype": "Archivist",
+      "attribute": "Str",
+      "display_name": "Howard",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/012-howard.jpg",
+      "range": "Melee",
+      "role": "Utility, zone control",
+      "signature_gag": "Detains enemies with an apology so practiced it has a filing date, then smiles through the incident report.",
+      "slot": "012",
+      "sources": {
+        "character": {
+          "characters/012-howard.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 23
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 13
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 28
+        },
+        "roster": {
+          "ROSTER.md": 15
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 45
+        }
+      }
+    },
+    "san": {
+      "acronym": "san",
+      "archetype": "Stalker",
+      "attribute": "Str",
+      "display_name": "Sanic",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/013-sanic.jpg",
+      "range": "Melee",
+      "role": "Assassin, vision denial",
+      "signature_gag": "Runs at thirty degrees from reality, leaves the hitbox three frames behind, and calls that a patch note.",
+      "slot": "013",
+      "sources": {
+        "character": {
+          "characters/013-sanic.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 24
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 14
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 29
+        },
+        "roster": {
+          "ROSTER.md": 16
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 46
+        }
+      }
+    },
+    "lan": {
+      "acronym": "lan",
+      "archetype": "Phantom",
+      "attribute": "Str",
+      "display_name": "Lankdad",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/014-lankdad.jpg",
+      "range": "Ranged",
+      "role": "Middleman summoner",
+      "signature_gag": "Pulls a target toward the blank face with one tendril, then cites the other seven as witnesses.",
+      "slot": "014",
+      "sources": {
+        "character": {
+          "characters/014-lankdad.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 25
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 15
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 30
+        },
+        "roster": {
+          "ROSTER.md": 17
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 47
+        }
+      }
+    },
+    "fin": {
+      "acronym": "fin",
+      "archetype": "Heckler",
+      "attribute": "Str",
+      "display_name": "Finger Dan",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/015-finger-dan.jpg",
+      "range": "Ranged",
+      "role": "Harasser, zoner",
+      "signature_gag": "Accuses the lane with one finger that is visibly not in the sculpt, then asks VAR to review the accusation.",
+      "slot": "015",
+      "sources": {
+        "character": {
+          "characters/015-finger-dan.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 26
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 16
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 31
+        },
+        "roster": {
+          "ROSTER.md": 18
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 48
+        }
+      }
+    },
+    "wil": {
+      "acronym": "wil",
+      "archetype": "Engine",
+      "attribute": "Str",
+      "display_name": "Willie",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/016-willie.jpg",
+      "range": "Melee",
+      "role": "Late-game Clout carry",
+      "signature_gag": "Whistles a rock into existence, rolls it through copyright-safe black-and-white silence, and lets the oversized shoes land the punchline.",
+      "slot": "016",
+      "sources": {
+        "character": {
+          "characters/016-willie.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 27
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 17
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 32
+        },
+        "roster": {
+          "ROSTER.md": 19
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 49
+        }
+      }
+    },
+    "nos": {
+      "acronym": "nos",
+      "archetype": "Stalker",
+      "attribute": "Agi",
+      "display_name": "Noscope",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/017-noscope.jpg",
+      "range": "Ranged",
+      "role": "Assassin, vision denial",
+      "signature_gag": "Claims he did it without looking while wearing enough optics to photograph a rumour from orbit.",
+      "slot": "017",
+      "sources": {
+        "character": {
+          "characters/017-noscope.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 28
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 23
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 33
+        },
+        "roster": {
+          "ROSTER.md": 20
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 50
+        }
+      }
+    },
+    "din": {
+      "acronym": "din",
+      "archetype": "Bulwark",
+      "attribute": "Str",
+      "display_name": "Dino",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/018-dino.jpg",
+      "range": "Melee",
+      "role": "Reach tank, initiator",
+      "signature_gag": "Chomps through the air in 1-bit steps while insisting this is a birthday and everyone was invited.",
+      "slot": "018",
+      "sources": {
+        "character": {
+          "characters/018-dino.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 29
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 18
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 34
+        },
+        "roster": {
+          "ROSTER.md": 21
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 51
+        }
+      }
+    },
+    "ecc": {
+      "acronym": "ecc",
+      "archetype": "Archivist",
+      "attribute": "Int",
+      "display_name": "Ecce",
+      "first_playable": true,
+      "launch": true,
+      "portrait_path": "gallery/019-ecce.jpg",
+      "range": "Melee",
+      "role": "Utility, zone control",
+      "signature_gag": "Beholds the lane, beams the halo into a stun, and reshares the damage with a caption nobody can prove he wrote.",
+      "slot": "019",
+      "sources": {
+        "character": {
+          "characters/019-ecce.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 30
+        },
+        "kit": {
+          "plan/09-launch-hero-kits.md": 35
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 35
+        },
+        "roster": {
+          "ROSTER.md": 22
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 52
+        }
+      }
+    },
+    "bot": {
+      "acronym": "bot",
+      "archetype": "Herald",
+      "attribute": "Int",
+      "display_name": "Bot Bernard",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/020-bot-bernard.jpg",
+      "range": "Ranged",
+      "role": "Resell healer, buffer",
+      "signature_gag": "Leans away from the camera so the chrome lens has to stage a whole intervention, then files it as a portrait.",
+      "slot": "020",
+      "sources": {
+        "character": {
+          "characters/020-bot-bernard.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 31
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 19
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 36
+        },
+        "roster": {
+          "ROSTER.md": 23
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 53
+        }
+      }
+    },
+    "sho": {
+      "acronym": "sho",
+      "archetype": "Drifter",
+      "attribute": "Int",
+      "display_name": "Shoop",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/021-shoop.jpg",
+      "range": "Ranged",
+      "role": "Ranged nuker",
+      "signature_gag": "Charges plasma in the enormous mouth and calls the resulting WHOOSH a transition wipe, with a bowtie for professionalism.",
+      "slot": "021",
+      "sources": {
+        "character": {
+          "characters/021-shoop.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 32
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 20
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 37
+        },
+        "roster": {
+          "ROSTER.md": 24
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 54
+        }
+      }
+    },
+    "npc": {
+      "acronym": "npc",
+      "archetype": "Phantom",
+      "attribute": "Agi",
+      "display_name": "Npc",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/022-npc.jpg",
+      "range": "Melee",
+      "role": "Middleman summoner",
+      "signature_gag": "Patrols as identical grey copies and says Nice weather today as if the weather were a patch note.",
+      "slot": "022",
+      "sources": {
+        "character": {
+          "characters/022-npc.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 33
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 21
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 38
+        },
+        "roster": {
+          "ROSTER.md": 25
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 55
+        }
+      }
+    },
+    "for": {
+      "acronym": "for",
+      "archetype": "Recluse",
+      "attribute": "Str",
+      "display_name": "Forever",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/023-forever.jpg",
+      "range": "Melee",
+      "role": "Offline sustain",
+      "signature_gag": "Loops the same tear-soaked grin until the clip ends, refills, and asks whether this is charming yet.",
+      "slot": "023",
+      "sources": {
+        "character": {
+          "characters/023-forever.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 34
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 25
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 39
+        },
+        "roster": {
+          "ROSTER.md": 26
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 56
+        }
+      }
+    },
+    "col": {
+      "acronym": "col",
+      "archetype": "Phantom",
+      "attribute": "Str",
+      "display_name": "Cole",
+      "first_playable": false,
+      "launch": false,
+      "portrait_path": "gallery/024-cole.jpg",
+      "range": "Ranged",
+      "role": "Middleman summoner",
+      "signature_gag": "Copies an enemy into the backpack and shouts the equivalent of choose me before checking what got caught.",
+      "slot": "024",
+      "sources": {
+        "character": {
+          "characters/024-cole.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 35
+        },
+        "kit": {
+          "plan/10-remaining-hero-kits.md": 22
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 40
+        },
+        "roster": {
+          "ROSTER.md": 27
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 57
+        }
+      }
+    },
+    "gre": {
+      "acronym": "gre",
+      "archetype": "Drifter",
+      "attribute": "Str",
+      "display_name": "Grey",
+      "first_playable": true,
+      "launch": true,
+      "portrait_path": "gallery/025-grey.jpg",
+      "range": "Ranged",
+      "role": "Ranged nuker",
+      "signature_gag": "Abducts specimens from dead enemies and files the incident as a follow-up to a follow-up nobody remembers posting.",
+      "slot": "025",
+      "sources": {
+        "character": {
+          "characters/025-grey.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 36
+        },
+        "kit": {
+          "plan/09-launch-hero-kits.md": 31
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 41
+        },
+        "roster": {
+          "ROSTER.md": 28
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 58
+        }
+      }
+    },
+    "ghi": {
+      "acronym": "ghi",
+      "archetype": "Stalker",
+      "attribute": "Str",
+      "display_name": "Ghillie",
+      "first_playable": true,
+      "launch": true,
+      "portrait_path": "gallery/026-ghillie.jpg",
+      "range": "Ranged",
+      "role": "Assassin, vision denial",
+      "signature_gag": "Leaves a warning sign in a haystack, then acts shocked when the haystack files it back.",
+      "slot": "026",
+      "sources": {
+        "character": {
+          "characters/026-ghillie.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 37
+        },
+        "kit": {
+          "plan/09-launch-hero-kits.md": 33
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 42
+        },
+        "roster": {
+          "ROSTER.md": 29
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 59
+        }
+      }
+    },
+    "got": {
+      "acronym": "got",
+      "archetype": "Recluse",
+      "attribute": "Agi",
+      "display_name": "Gothgirl",
+      "first_playable": true,
+      "launch": true,
+      "portrait_path": "gallery/027-gothgirl.jpg",
+      "range": "Melee",
+      "role": "Offline sustain",
+      "signature_gag": "Blinks away in a cloud of studied indifference and rewinds the argument to before anyone said the word vibe.",
+      "slot": "027",
+      "sources": {
+        "character": {
+          "characters/027-gothgirl.md": 1
+        },
+        "gallery": {
+          "GALLERY.md": 38
+        },
+        "kit": {
+          "plan/09-launch-hero-kits.md": 36
+        },
+        "power_tier": {
+          "plan/24-power-tier-draft.md": 43
+        },
+        "roster": {
+          "ROSTER.md": 30
+        },
+        "roster_plan": {
+          "plan/15-roster-and-archetypes.md": 60
+        }
+      }
+    }
+  },
+  "schema": "bota.hero-registry/v1",
+  "acronym_order": [
+    "nec",
+    "cha",
+    "woj",
+    "blo",
+    "tra",
+    "boo",
+    "coo",
+    "gon",
+    "spu",
+    "kar",
+    "how",
+    "san",
+    "lan",
+    "fin",
+    "wil",
+    "nos",
+    "din",
+    "ecc",
+    "bot",
+    "sho",
+    "npc",
+    "for",
+    "col",
+    "gre",
+    "ghi",
+    "got"
+  ]
+}

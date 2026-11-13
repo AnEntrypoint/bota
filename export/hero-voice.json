@@ -1,0 +1,894 @@
+{
+  "announcer_lines": [
+    {
+      "event": "First blood",
+      "line": "First reply. Receipt pending.",
+      "source": {
+        "plan/16-humor-and-tone.md": 49
+      }
+    },
+    {
+      "event": "Kill streak, three",
+      "line": "This is going around.",
+      "source": {
+        "plan/16-humor-and-tone.md": 50
+      }
+    },
+    {
+      "event": "Kill streak, five",
+      "line": "Top seller.",
+      "source": {
+        "plan/16-humor-and-tone.md": 51
+      }
+    },
+    {
+      "event": "Clout reaches 100",
+      "line": "The demand noticed. Act natural. Jaw in frame.",
+      "source": {
+        "plan/16-humor-and-tone.md": 52
+      }
+    },
+    {
+      "event": "Markdown on death",
+      "line": "Marked down.",
+      "source": {
+        "plan/16-humor-and-tone.md": 53
+      }
+    },
+    {
+      "event": "Tower destroyed",
+      "line": "Trend timer locked.",
+      "source": {
+        "plan/16-humor-and-tone.md": 54
+      }
+    },
+    {
+      "event": "Snapshot revive",
+      "line": "We're so back.",
+      "source": {
+        "plan/16-humor-and-tone.md": 55
+      }
+    },
+    {
+      "event": "Rebrand",
+      "line": "Under new management.",
+      "source": {
+        "plan/16-humor-and-tone.md": 56
+      }
+    },
+    {
+      "event": "The Trend killed",
+      "line": "Top seller number one.",
+      "source": {
+        "plan/16-humor-and-tone.md": 57
+      }
+    },
+    {
+      "event": "Stockpile destroyed",
+      "line": "Stall shut.",
+      "source": {
+        "plan/16-humor-and-tone.md": 58
+      }
+    },
+    {
+      "event": "Victory screen",
+      "line": "Victory. Stall sold. Behold, again.",
+      "source": {
+        "plan/16-humor-and-tone.md": 59
+      }
+    },
+    {
+      "event": "Defeat screen",
+      "line": "Defeat. Stall closed.",
+      "source": {
+        "plan/16-humor-and-tone.md": 60
+      }
+    },
+    {
+      "event": "Delivery Drone dies",
+      "line": "F.",
+      "source": {
+        "plan/16-humor-and-tone.md": 61
+      }
+    },
+    {
+      "event": "Kill streak, seven",
+      "line": "Seven deep. Pinned.",
+      "source": {
+        "plan/16-humor-and-tone.md": 62
+      }
+    },
+    {
+      "event": "Kill streak, ten",
+      "line": "Cooked.",
+      "source": {
+        "plan/16-humor-and-tone.md": 63
+      }
+    },
+    {
+      "event": "Level 25",
+      "line": "Max level. Verified.",
+      "source": {
+        "plan/16-humor-and-tone.md": 64
+      }
+    },
+    {
+      "event": "Enemy delivery drone killed",
+      "line": "Cope.",
+      "source": {
+        "plan/16-humor-and-tone.md": 65
+      }
+    },
+    {
+      "event": "Death to a lane creep",
+      "line": "Skill issue.",
+      "source": {
+        "plan/16-humor-and-tone.md": 66
+      }
+    },
+    {
+      "event": "Kill on a Hyped hero",
+      "line": "Hyped hero down.",
+      "source": {
+        "plan/16-humor-and-tone.md": 67
+      }
+    },
+    {
+      "event": "Team wipe",
+      "line": "L + markdown.",
+      "source": {
+        "plan/16-humor-and-tone.md": 68
+      }
+    },
+    {
+      "event": "Comeback from a 10,000 gold deficit",
+      "line": "The markdown flipped.",
+      "source": {
+        "plan/16-humor-and-tone.md": 69
+      }
+    },
+    {
+      "event": "Surrender vote passes",
+      "line": "Ticker abandoned.",
+      "source": {
+        "plan/16-humor-and-tone.md": 70
+      }
+    },
+    {
+      "event": "Rebrand while Marked down",
+      "line": "Not cancelled. Rebranded.",
+      "source": {
+        "plan/16-humor-and-tone.md": 71
+      }
+    },
+    {
+      "event": "Game state",
+      "line": "Line",
+      "source": {
+        "plan/16-humor-and-tone.md": 77
+      }
+    },
+    {
+      "event": "First kill after a 5-minute drought",
+      "line": "Finally open for business.",
+      "source": {
+        "plan/16-humor-and-tone.md": 79
+      }
+    },
+    {
+      "event": "Third kill in a row inside one lane",
+      "line": "Bumped it again.",
+      "source": {
+        "plan/16-humor-and-tone.md": 80
+      }
+    },
+    {
+      "event": "Lane creep wave dies untouched",
+      "line": "Nobody replied.",
+      "source": {
+        "plan/16-humor-and-tone.md": 81
+      }
+    },
+    {
+      "event": "Team wipe while you are Hyped",
+      "line": "Repeated by all five.",
+      "source": {
+        "plan/16-humor-and-tone.md": 82
+      }
+    },
+    {
+      "event": "Surrender vote fails",
+      "line": "Ticker stays open.",
+      "source": {
+        "plan/16-humor-and-tone.md": 83
+      }
+    },
+    {
+      "event": "Neutral camp taken before the first minute",
+      "line": "Pulled early. Nice weather.",
+      "source": {
+        "plan/16-humor-and-tone.md": 84
+      }
+    },
+    {
+      "event": "Tower destroyed by a lone hero",
+      "line": "Mod action. Haystack appeal denied.",
+      "source": {
+        "plan/16-humor-and-tone.md": 85
+      }
+    },
+    {
+      "event": "Setting",
+      "line": "Effect",
+      "source": {
+        "plan/16-humor-and-tone.md": 89
+      }
+    },
+    {
+      "event": "Reduced motion",
+      "line": "Removes the loading fold-in animation and screen shake",
+      "source": {
+        "plan/16-humor-and-tone.md": 91
+      }
+    }
+  ],
+  "cross_hero_exchanges": [
+    {
+      "a": {
+        "acronym": "cha",
+        "line": "Behold the jawline. Behold it again."
+      },
+      "b": {
+        "acronym": "woj",
+        "line": "I saw. It saw me back."
+      },
+      "id": "cha-woj",
+      "source": {
+        "plan/23-voice-and-banter.md": 54
+      },
+      "trigger": "first mutual enemy sighting"
+    },
+    {
+      "a": {
+        "acronym": "gre",
+        "line": "Memo: final final v3."
+      },
+      "b": {
+        "acronym": "npc",
+        "line": "Nice weather today. Same memo."
+      },
+      "id": "gre-npc",
+      "source": {
+        "plan/23-voice-and-banter.md": 55
+      },
+      "trigger": "first mutual enemy sighting"
+    },
+    {
+      "a": {
+        "acronym": "kar",
+        "line": "Your supervisor. Fetch."
+      },
+      "b": {
+        "acronym": "how",
+        "line": "Incident dated. Smile attached."
+      },
+      "id": "kar-how",
+      "source": {
+        "plan/23-voice-and-banter.md": 56
+      },
+      "trigger": "first mutual enemy sighting"
+    },
+    {
+      "a": {
+        "acronym": "bot",
+        "line": "Portrait needs you to move."
+      },
+      "b": {
+        "acronym": "nos",
+        "line": "Didn't look. Brought orbit."
+      },
+      "id": "bot-nos",
+      "source": {
+        "plan/23-voice-and-banter.md": 57
+      },
+      "trigger": "first mutual enemy sighting"
+    },
+    {
+      "a": {
+        "acronym": "for",
+        "line": "Charming yet? Loop it."
+      },
+      "b": {
+        "acronym": "got",
+        "line": "Rewound before charming."
+      },
+      "id": "for-got",
+      "source": {
+        "plan/23-voice-and-banter.md": 58
+      },
+      "trigger": "first mutual enemy sighting"
+    },
+    {
+      "a": {
+        "acronym": "nec",
+        "line": "Crumb invoice. Cargo pocket."
+      },
+      "b": {
+        "acronym": "boo",
+        "line": "Grass-stain bill. See can."
+      },
+      "id": "nec-boo",
+      "source": {
+        "plan/23-voice-and-banter.md": 59
+      },
+      "trigger": "first mutual enemy sighting"
+    },
+    {
+      "a": {
+        "acronym": "spu",
+        "line": "Moustache says repost."
+      },
+      "b": {
+        "acronym": "ecc",
+        "line": "Behold, again. No source."
+      },
+      "id": "spu-ecc",
+      "source": {
+        "plan/23-voice-and-banter.md": 60
+      },
+      "trigger": "first mutual enemy sighting"
+    }
+  ],
+  "heroes": {
+    "blo": {
+      "chains": [],
+      "death": null,
+      "idle": "Blinds enemies with optimism so aggressive it needs its own content warning, then sends a hoodie-wearing boar to check on them.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "boo": {
+      "chains": [
+        "receipt"
+      ],
+      "death": "Citation filed: youth got me.",
+      "idle": "Shades on. Lawn still idling.",
+      "kill": "Grass stain billed. Check the can.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "nec",
+            "line": "Crumb invoice. Cargo pocket."
+          },
+          "b": {
+            "acronym": "boo",
+            "line": "Grass-stain bill. See can."
+          },
+          "id": "nec-boo",
+          "source": {
+            "plan/23-voice-and-banter.md": 59
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 36
+      }
+    },
+    "bot": {
+      "chains": [
+        "camera"
+      ],
+      "death": null,
+      "idle": "Leans away from the camera so the chrome lens has to stage a whole intervention, then files it as a portrait.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "bot",
+            "line": "Portrait needs you to move."
+          },
+          "b": {
+            "acronym": "nos",
+            "line": "Didn't look. Brought orbit."
+          },
+          "id": "bot-nos",
+          "source": {
+            "plan/23-voice-and-banter.md": 57
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "cha": {
+      "chains": [
+        "camera"
+      ],
+      "death": "The rabbit pose lost aura.",
+      "idle": "White gloves ask for a retake.",
+      "kill": "Behold the jaw. Is it framed?",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "cha",
+            "line": "Behold the jawline. Behold it again."
+          },
+          "b": {
+            "acronym": "woj",
+            "line": "I saw. It saw me back."
+          },
+          "id": "cha-woj",
+          "source": {
+            "plan/23-voice-and-banter.md": 54
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 37
+      }
+    },
+    "col": {
+      "chains": [],
+      "death": null,
+      "idle": "Copies an enemy into the backpack and shouts the equivalent of choose me before checking what got caught.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "coo": {
+      "chains": [],
+      "death": null,
+      "idle": "Claps the hoodie pocket into a stun and insists every clone is merely a different browser tab.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "din": {
+      "chains": [],
+      "death": null,
+      "idle": "Chomps through the air in 1-bit steps while insisting this is a birthday and everyone was invited.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "ecc": {
+      "chains": [
+        "camera"
+      ],
+      "death": null,
+      "idle": "Beholds the lane, beams the halo into a stun, and reshares the damage with a caption nobody can prove he wrote.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "spu",
+            "line": "Moustache says repost."
+          },
+          "b": {
+            "acronym": "ecc",
+            "line": "Behold, again. No source."
+          },
+          "id": "spu-ecc",
+          "source": {
+            "plan/23-voice-and-banter.md": 60
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "fin": {
+      "chains": [],
+      "death": null,
+      "idle": "Accuses the lane with one finger that is visibly not in the sculpt, then asks VAR to review the accusation.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "for": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Crawling back to frame one.",
+      "idle": "Charming yet? Clip says yes.",
+      "kill": "Nice one. Loop it again.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "for",
+            "line": "Charming yet? Loop it."
+          },
+          "b": {
+            "acronym": "got",
+            "line": "Rewound before charming."
+          },
+          "id": "for-got",
+          "source": {
+            "plan/23-voice-and-banter.md": 58
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 41
+      }
+    },
+    "ghi": {
+      "chains": [],
+      "death": "Grass beard shed. See log one.",
+      "idle": "Reading the shrub. All of it.",
+      "kill": "Haystack warned you. On file.",
+      "pair_lines": [],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 40
+      }
+    },
+    "gon": {
+      "chains": [],
+      "death": null,
+      "idle": "Spits a slow from the moustache, then lets two kilometres of denim absorb the consequences.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "got": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Platform boots landed. Whatever.",
+      "idle": "Studied indifference. Subtitled sigh.",
+      "kill": "Rewound before the word vibe.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "for",
+            "line": "Charming yet? Loop it."
+          },
+          "b": {
+            "acronym": "got",
+            "line": "Rewound before charming."
+          },
+          "id": "for-got",
+          "source": {
+            "plan/23-voice-and-banter.md": 58
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 46
+      }
+    },
+    "gre": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Beamed out mid-memo. Rude.",
+      "idle": "Jumpsuit patched. Incident still open.",
+      "kill": "Specimen logged. Final final v3.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "gre",
+            "line": "Memo: final final v3."
+          },
+          "b": {
+            "acronym": "npc",
+            "line": "Nice weather today. Same memo."
+          },
+          "id": "gre-npc",
+          "source": {
+            "plan/23-voice-and-banter.md": 55
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 35
+      }
+    },
+    "how": {
+      "chains": [
+        "receipt"
+      ],
+      "death": "Plaid smile held. Report filed.",
+      "idle": "Per the log: still smiling.",
+      "kill": "Incident dated. Smile attached.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "kar",
+            "line": "Your supervisor. Fetch."
+          },
+          "b": {
+            "acronym": "how",
+            "line": "Incident dated. Smile attached."
+          },
+          "id": "kar-how",
+          "source": {
+            "plan/23-voice-and-banter.md": 56
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 43
+      }
+    },
+    "kar": {
+      "chains": [
+        "receipt"
+      ],
+      "death": "Cardigan survived. I did not.",
+      "idle": "Bag open. Complaint unfolding.",
+      "kill": "Supervisor requested. Loudly.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "kar",
+            "line": "Your supervisor. Fetch."
+          },
+          "b": {
+            "acronym": "how",
+            "line": "Incident dated. Smile attached."
+          },
+          "id": "kar-how",
+          "source": {
+            "plan/23-voice-and-banter.md": 56
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 42
+      }
+    },
+    "lan": {
+      "chains": [],
+      "death": null,
+      "idle": "Pulls a target toward the blank face with one tendril, then cites the other seven as witnesses.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "nec": {
+      "chains": [
+        "receipt"
+      ],
+      "death": null,
+      "idle": "Soaks the first hit in the TACOS shirt, then files a crumb-by-crumb appeal from every cargo pocket.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "nec",
+            "line": "Crumb invoice. Cargo pocket."
+          },
+          "b": {
+            "acronym": "boo",
+            "line": "Grass-stain bill. See can."
+          },
+          "id": "nec-boo",
+          "source": {
+            "plan/23-voice-and-banter.md": 59
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "nos": {
+      "chains": [
+        "camera"
+      ],
+      "death": "Monocular buffered. Vibe intact.",
+      "idle": "Radios confirm nobody asked.",
+      "kill": "Didn't look. Brought orbit.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "bot",
+            "line": "Portrait needs you to move."
+          },
+          "b": {
+            "acronym": "nos",
+            "line": "Didn't look. Brought orbit."
+          },
+          "id": "bot-nos",
+          "source": {
+            "plan/23-voice-and-banter.md": 57
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 38
+      }
+    },
+    "npc": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Copy deleted. Weather unchanged.",
+      "idle": "Nice weather today. Nice weather.",
+      "kill": "Nice weather today. Same patch.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "gre",
+            "line": "Memo: final final v3."
+          },
+          "b": {
+            "acronym": "npc",
+            "line": "Nice weather today. Same memo."
+          },
+          "id": "gre-npc",
+          "source": {
+            "plan/23-voice-and-banter.md": 55
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 45
+      }
+    },
+    "san": {
+      "chains": [],
+      "death": null,
+      "idle": "Runs at thirty degrees from reality, leaves the hitbox three frames behind, and calls that a patch note.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "sho": {
+      "chains": [
+        "camera"
+      ],
+      "death": "Bowtie survived the wipe.",
+      "idle": "Eyes on stalks. Mouth loading.",
+      "kill": "WHOOSH. Transition accepted.",
+      "pair_lines": [],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 44
+      }
+    },
+    "spu": {
+      "chains": [],
+      "death": null,
+      "idle": "Hatches fan accounts from the hood and gives every bad take a moustache large enough to hide behind.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "spu",
+            "line": "Moustache says repost."
+          },
+          "b": {
+            "acronym": "ecc",
+            "line": "Behold, again. No source."
+          },
+          "id": "spu-ecc",
+          "source": {
+            "plan/23-voice-and-banter.md": 60
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "tra": {
+      "chains": [],
+      "death": null,
+      "idle": "The daisy-dress stride apologises in advance; the group chat already read the daisy-print instructions wrong.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "wil": {
+      "chains": [],
+      "death": null,
+      "idle": "Whistles a rock into existence, rolls it through copyright-safe black-and-white silence, and lets the oversized shoes land the punchline.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "derived from plan/15 signature gag; not a quoted voice line"
+    },
+    "woj": {
+      "chains": [],
+      "death": "Still not looking up. Expected.",
+      "idle": "Floor again. Weather unchanged.",
+      "kill": "Head down. Kill landed anyway.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "cha",
+            "line": "Behold the jawline. Behold it again."
+          },
+          "b": {
+            "acronym": "woj",
+            "line": "I saw. It saw me back."
+          },
+          "id": "cha-woj",
+          "source": {
+            "plan/23-voice-and-banter.md": 54
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": {
+        "file": "plan/23-voice-and-banter.md",
+        "line": 39
+      }
+    }
+  },
+  "humor_chains": {
+    "camera": {
+      "description": "Bot Bernard dodges the frame, Noscope over-equips it, and Shoop wipes it; Ecce captions the whole reel Behold, again.",
+      "members": [
+        "bot",
+        "nos",
+        "sho",
+        "ecc"
+      ],
+      "source": {
+        "plan/15-roster-and-archetypes.md": 26,
+        "plan/16-humor-and-tone.md": 2,
+        "plan/10-remaining-hero-kits.md": 47
+      }
+    },
+    "receipt": {
+      "description": "Neckbeard's crumb invoice and Boomer's grass-stain bill both become Howard's incident report.",
+      "members": [
+        "nec",
+        "boo",
+        "how"
+      ],
+      "source": {
+        "plan/15-roster-and-archetypes.md": 26,
+        "plan/16-humor-and-tone.md": 2,
+        "plan/10-remaining-hero-kits.md": 45
+      }
+    },
+    "repost": {
+      "description": "Grey's final final v3 memo is reposted by Npc as a weather patch note, looped by Forever, and rewound by Gothgirl before the word vibe appears.",
+      "members": [
+        "gre",
+        "npc",
+        "for",
+        "got"
+      ],
+      "source": {
+        "plan/15-roster-and-archetypes.md": 26,
+        "plan/16-humor-and-tone.md": 2,
+        "plan/10-remaining-hero-kits.md": 46
+      }
+    }
+  },
+  "rules": {
+    "cooldown_seconds": 8,
+    "cooldown_status": "GUESS",
+    "line_cap_status": "UNVERIFIED",
+    "line_cap_words": 12,
+    "source": {
+      "plan/23-voice-and-banter.md": [
+        8,
+        10
+      ]
+    }
+  },
+  "schema": "bota.hero-voice/v1"
+}

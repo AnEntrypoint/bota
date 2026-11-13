@@ -1,0 +1,59 @@
+{
+  "activeBotaHeroCount": 24,
+  "chatnanoAudioCoordination": {
+    "blocked": 30,
+    "compressedPackagedArtifacts": 30,
+    "contractDecision": "BOTA interprets 12 kbps Opus/Brotli as the measured delivered total stream/container bitrate, not merely an encoder target; no source rule defines it as OPUS_SET_BITRATE only",
+    "gap": "encoder target is 12000 bps, but measured total Ogg/Opus container bitrates are 22.2-23.1 kbps including short-page Ogg overhead; precise remaining gap is 10230.7-11096.6 bps above the 12 kbps measured-stream ceiling",
+    "hy3dRecovery": {
+      "quota": 30,
+      "recovery": true,
+      "rigWorksId": null
+    },
+    "pass": "pass-chatnano-packaged12-contract-decision-2026-11-12",
+    "promotedRows": 0,
+    "status": "BLOCKED-MEASURED-TOTAL-BITRATE"
+  },
+  "counts": {
+    "blocked": 30,
+    "intentionally-open": 1,
+    "owner-decision": 1,
+    "ready": 24
+  },
+  "defaultDotaAcronyms": true,
+  "downstreamDrift": [
+    {
+      "guarantee": 26,
+      "policy": "unchanged historical guarantee",
+      "surface": "BOTA legacy export/fixture"
+    },
+    {
+      "guarantee": 127,
+      "policy": "unchanged upstream guarantee",
+      "surface": "oscraft default-Dota acronyms"
+    },
+    {
+      "guarantee": 26,
+      "policy": "unchanged upstream guarantee",
+      "surface": "oscraft BOTA fullname/model artifacts"
+    }
+  ],
+  "externalBlocker": "studio witch_doctor/rig service-side HTTP 500 no worksId; recovery watcher gated probe; quota preserved",
+  "finalEvidencePaths": [
+    "/workspace/hy3d/output/bota-final-asset-status.json",
+    "/workspace/hy3d/output/bota-final-asset-status.tsv",
+    "/workspace/hy3d/output/BOTA-FINAL-ASSET-STATUS.md",
+    "/workspace/hy3d/output/bota-final-asset-evidence.json",
+    "/workspace/hy3d/output/bota-remaining-reconciliation.txt",
+    "/workspace/hy3d/output/bota-remaining-slugs.txt"
+  ],
+  "generatedAt": "2026-11-11T21:20:00.000Z",
+  "identifierMode": "bota-fullname",
+  "pass": "pass-24-active-heroes-final-evidence",
+  "readOnlyPeers": [
+    "/workspace/hy3d",
+    "/workspace/wscheppity",
+    "/workspace/oscraft"
+  ],
+  "schema": "bota.integration-evidence/v1"
+}

@@ -1,0 +1,495 @@
+{
+  "decision_gated_fields": [
+    "rules.line_cap_words",
+    "rules.cooldown_seconds"
+  ],
+  "heroes": {
+    "blo": {
+      "chains": [],
+      "death": null,
+      "idle": "Blinds enemies with optimism so aggressive it needs its own content warning, then sends a hoodie-wearing boar to check on them.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.blo"
+    },
+    "boo": {
+      "chains": [
+        "receipt"
+      ],
+      "death": "Citation filed: youth got me.",
+      "idle": "Shades on. Lawn still idling.",
+      "kill": "Grass stain billed. Check the can.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "nec",
+            "line": "Crumb invoice. Cargo pocket."
+          },
+          "b": {
+            "acronym": "boo",
+            "line": "Grass-stain bill. See can."
+          },
+          "id": "nec-boo",
+          "source": {
+            "plan/23-voice-and-banter.md": 59
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.boo"
+    },
+    "bot": {
+      "chains": [
+        "camera"
+      ],
+      "death": null,
+      "idle": "Leans away from the camera so the chrome lens has to stage a whole intervention, then files it as a portrait.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "bot",
+            "line": "Portrait needs you to move."
+          },
+          "b": {
+            "acronym": "nos",
+            "line": "Didn't look. Brought orbit."
+          },
+          "id": "bot-nos",
+          "source": {
+            "plan/23-voice-and-banter.md": 57
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.bot"
+    },
+    "cha": {
+      "chains": [
+        "camera"
+      ],
+      "death": "The rabbit pose lost aura.",
+      "idle": "White gloves ask for a retake.",
+      "kill": "Behold the jaw. Is it framed?",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "cha",
+            "line": "Behold the jawline. Behold it again."
+          },
+          "b": {
+            "acronym": "woj",
+            "line": "I saw. It saw me back."
+          },
+          "id": "cha-woj",
+          "source": {
+            "plan/23-voice-and-banter.md": 54
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.cha"
+    },
+    "col": {
+      "chains": [],
+      "death": null,
+      "idle": "Copies an enemy into the backpack and shouts the equivalent of choose me before checking what got caught.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.col"
+    },
+    "coo": {
+      "chains": [],
+      "death": null,
+      "idle": "Claps the hoodie pocket into a stun and insists every clone is merely a different browser tab.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.coo"
+    },
+    "din": {
+      "chains": [],
+      "death": null,
+      "idle": "Chomps through the air in 1-bit steps while insisting this is a birthday and everyone was invited.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.din"
+    },
+    "ecc": {
+      "chains": [
+        "camera"
+      ],
+      "death": null,
+      "idle": "Beholds the lane, beams the halo into a stun, and reshares the damage with a caption nobody can prove he wrote.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "spu",
+            "line": "Moustache says repost."
+          },
+          "b": {
+            "acronym": "ecc",
+            "line": "Behold, again. No source."
+          },
+          "id": "spu-ecc",
+          "source": {
+            "plan/23-voice-and-banter.md": 60
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.ecc"
+    },
+    "fin": {
+      "chains": [],
+      "death": null,
+      "idle": "Accuses the lane with one finger that is visibly not in the sculpt, then asks VAR to review the accusation.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.fin"
+    },
+    "for": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Crawling back to frame one.",
+      "idle": "Charming yet? Clip says yes.",
+      "kill": "Nice one. Loop it again.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "for",
+            "line": "Charming yet? Loop it."
+          },
+          "b": {
+            "acronym": "got",
+            "line": "Rewound before charming."
+          },
+          "id": "for-got",
+          "source": {
+            "plan/23-voice-and-banter.md": 58
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.for"
+    },
+    "ghi": {
+      "chains": [],
+      "death": "Grass beard shed. See log one.",
+      "idle": "Reading the shrub. All of it.",
+      "kill": "Haystack warned you. On file.",
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.ghi"
+    },
+    "gon": {
+      "chains": [],
+      "death": null,
+      "idle": "Spits a slow from the moustache, then lets two kilometres of denim absorb the consequences.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.gon"
+    },
+    "got": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Platform boots landed. Whatever.",
+      "idle": "Studied indifference. Subtitled sigh.",
+      "kill": "Rewound before the word vibe.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "for",
+            "line": "Charming yet? Loop it."
+          },
+          "b": {
+            "acronym": "got",
+            "line": "Rewound before charming."
+          },
+          "id": "for-got",
+          "source": {
+            "plan/23-voice-and-banter.md": 58
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.got"
+    },
+    "gre": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Beamed out mid-memo. Rude.",
+      "idle": "Jumpsuit patched. Incident still open.",
+      "kill": "Specimen logged. Final final v3.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "gre",
+            "line": "Memo: final final v3."
+          },
+          "b": {
+            "acronym": "npc",
+            "line": "Nice weather today. Same memo."
+          },
+          "id": "gre-npc",
+          "source": {
+            "plan/23-voice-and-banter.md": 55
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.gre"
+    },
+    "how": {
+      "chains": [
+        "receipt"
+      ],
+      "death": "Plaid smile held. Report filed.",
+      "idle": "Per the log: still smiling.",
+      "kill": "Incident dated. Smile attached.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "kar",
+            "line": "Your supervisor. Fetch."
+          },
+          "b": {
+            "acronym": "how",
+            "line": "Incident dated. Smile attached."
+          },
+          "id": "kar-how",
+          "source": {
+            "plan/23-voice-and-banter.md": 56
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.how"
+    },
+    "kar": {
+      "chains": [
+        "receipt"
+      ],
+      "death": "Cardigan survived. I did not.",
+      "idle": "Bag open. Complaint unfolding.",
+      "kill": "Supervisor requested. Loudly.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "kar",
+            "line": "Your supervisor. Fetch."
+          },
+          "b": {
+            "acronym": "how",
+            "line": "Incident dated. Smile attached."
+          },
+          "id": "kar-how",
+          "source": {
+            "plan/23-voice-and-banter.md": 56
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.kar"
+    },
+    "lan": {
+      "chains": [],
+      "death": null,
+      "idle": "Pulls a target toward the blank face with one tendril, then cites the other seven as witnesses.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.lan"
+    },
+    "nec": {
+      "chains": [
+        "receipt"
+      ],
+      "death": null,
+      "idle": "Soaks the first hit in the TACOS shirt, then files a crumb-by-crumb appeal from every cargo pocket.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "nec",
+            "line": "Crumb invoice. Cargo pocket."
+          },
+          "b": {
+            "acronym": "boo",
+            "line": "Grass-stain bill. See can."
+          },
+          "id": "nec-boo",
+          "source": {
+            "plan/23-voice-and-banter.md": 59
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.nec"
+    },
+    "nos": {
+      "chains": [
+        "camera"
+      ],
+      "death": "Monocular buffered. Vibe intact.",
+      "idle": "Radios confirm nobody asked.",
+      "kill": "Didn't look. Brought orbit.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "bot",
+            "line": "Portrait needs you to move."
+          },
+          "b": {
+            "acronym": "nos",
+            "line": "Didn't look. Brought orbit."
+          },
+          "id": "bot-nos",
+          "source": {
+            "plan/23-voice-and-banter.md": 57
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.nos"
+    },
+    "npc": {
+      "chains": [
+        "repost"
+      ],
+      "death": "Copy deleted. Weather unchanged.",
+      "idle": "Nice weather today. Nice weather.",
+      "kill": "Nice weather today. Same patch.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "gre",
+            "line": "Memo: final final v3."
+          },
+          "b": {
+            "acronym": "npc",
+            "line": "Nice weather today. Same memo."
+          },
+          "id": "gre-npc",
+          "source": {
+            "plan/23-voice-and-banter.md": 55
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.npc"
+    },
+    "san": {
+      "chains": [],
+      "death": null,
+      "idle": "Runs at thirty degrees from reality, leaves the hitbox three frames behind, and calls that a patch note.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.san"
+    },
+    "sho": {
+      "chains": [
+        "camera"
+      ],
+      "death": "Bowtie survived the wipe.",
+      "idle": "Eyes on stalks. Mouth loading.",
+      "kill": "WHOOSH. Transition accepted.",
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.sho"
+    },
+    "spu": {
+      "chains": [],
+      "death": null,
+      "idle": "Hatches fan accounts from the hood and gives every bad take a moustache large enough to hide behind.",
+      "kill": null,
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "spu",
+            "line": "Moustache says repost."
+          },
+          "b": {
+            "acronym": "ecc",
+            "line": "Behold, again. No source."
+          },
+          "id": "spu-ecc",
+          "source": {
+            "plan/23-voice-and-banter.md": 60
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.spu"
+    },
+    "tra": {
+      "chains": [],
+      "death": null,
+      "idle": "The daisy-dress stride apologises in advance; the group chat already read the daisy-print instructions wrong.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.tra"
+    },
+    "wil": {
+      "chains": [],
+      "death": null,
+      "idle": "Whistles a rock into existence, rolls it through copyright-safe black-and-white silence, and lets the oversized shoes land the punchline.",
+      "kill": null,
+      "pair_lines": [],
+      "source": "hero-voice.json#heroes.wil"
+    },
+    "woj": {
+      "chains": [],
+      "death": "Still not looking up. Expected.",
+      "idle": "Floor again. Weather unchanged.",
+      "kill": "Head down. Kill landed anyway.",
+      "pair_lines": [
+        {
+          "a": {
+            "acronym": "cha",
+            "line": "Behold the jawline. Behold it again."
+          },
+          "b": {
+            "acronym": "woj",
+            "line": "I saw. It saw me back."
+          },
+          "id": "cha-woj",
+          "source": {
+            "plan/23-voice-and-banter.md": 54
+          },
+          "trigger": "first mutual enemy sighting"
+        }
+      ],
+      "source": "hero-voice.json#heroes.woj"
+    }
+  },
+  "rules": {
+    "cooldown_seconds": {
+      "decisionId": "voice_cooldown_8s",
+      "do_not_promote": true,
+      "options": [
+        "Use 8 s as provisional cooldown",
+        "Owner chooses another cooldown",
+        "Disable per-line cooldown"
+      ],
+      "options_ref": "decisions.json#decisions[voice_cooldown_8s].options",
+      "source": "export/hero-voice.json#rules.cooldown_status",
+      "status": "owner-decision",
+      "value": null
+    },
+    "line_cap_words": {
+      "decisionId": "voice_line_cap",
+      "do_not_promote": true,
+      "options": [
+        "Enforce under twelve words",
+        "Owner chooses a different cap",
+        "Leave uncapped"
+      ],
+      "options_ref": "decisions.json#decisions[voice_line_cap].options",
+      "source": "export/hero-voice.json#rules.line_cap_status",
+      "status": "resolved-from-plan",
+      "value": null
+    }
+  },
+  "schema": "bota.engine.voice/v1"
+}

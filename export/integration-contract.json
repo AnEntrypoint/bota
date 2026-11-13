@@ -1,0 +1,366 @@
+{
+  "authority": {
+    "decision_file": "export/decisions.json",
+    "required_files": [
+      "export/hero-registry.json",
+      "export/hero-kits.json",
+      "export/hero-voice.json",
+      "export/image-references.json",
+      "export/decisions.json"
+    ],
+    "source": "finished BOTA export and decision layer",
+    "validation_commands": [
+      "python3 tools/validate-export.py",
+      "python3 tools/validate-export.py --decisions",
+      "python3 tools/validate-export.py --integration",
+      "python3 tools/validate-integration-live.py",
+      "python3 tools/build-engine-data.py",
+      "python3 tools/validate-engine-data.py",
+      "python3 tools/validate-decision-packet.py",
+      "python3 tools/validate-apply-mechanism.py",
+      "bash tools/check-bota-export.sh",
+      "python3 tools/check-bota-export-clean.py",
+      "python3 tools/bota-export-watch.py",
+      "python3 tools/validate-export-status.py",
+      "tools/validate-spawn-compatibility.py"
+    ]
+  },
+  "authority_discrepancy": {
+    "allowed_use": "visual reference for cha ultimate",
+    "display_name": "Gigachad",
+    "gallery_path": "gallery/003-gigachad.jpg",
+    "not_allowed": [
+      "registry key",
+      "kit",
+      "voice",
+      "spawn",
+      "draft",
+      "talent"
+    ],
+    "playable": false,
+    "slot": "003",
+    "status": "image-only retired/reserve"
+  },
+  "autoRefresh": {
+    "extraFirstClassPeer": true,
+    "guide": "export/AUTO-REFRESH.md",
+    "record": "export/coordination-auto-refresh.json",
+    "runner": "tools/auto-refresh-coordination.py",
+    "validator": "tools/validate-auto-refresh.py"
+  },
+  "confidence_policy": {
+    "AMBIGUOUS": "not canon; require an owner decision or explicit intentionally-open handling",
+    "GUESS": "not canon; use only the recommended_default and confidence label from decisions.json",
+    "UNVERIFIED": "not canon; keep status and test through balance/first-playable gates",
+    "intentionally-open": "do_not_promote: true",
+    "owner-decision": "do_not_promote: true",
+    "resolved-from-plan": "implementation default may be used only as specified by the decision record"
+  },
+  "conformance_fixture": "export/conformance.json",
+  "coordinationStatus": {
+    "boundedDefaultMinutes": 10,
+    "ownerBrief": "export/owner-decision-brief.md",
+    "pollSeconds": 10,
+    "validator": "tools/validate-coordination-status.py",
+    "watcher": "tools/watch-coordinated-queues.py"
+  },
+  "counts": {
+    "ability_rows": 104,
+    "active_gallery_images": 26,
+    "active_heroes": 26,
+    "covered_markers": 169,
+    "decision_packet_decisions": 12,
+    "decision_packet_fields": 425,
+    "decisions": 12,
+    "engine_files": 5,
+    "export_hash_files": 50,
+    "gallery_images": 25,
+    "raw_markers": 169,
+    "voice_rows": 50
+  },
+  "decisionAudit": {
+    "audit_fields": [
+      "decision_id",
+      "option",
+      "timestamp",
+      "decision_packet_sha256",
+      "decisions_json_sha256",
+      "engine_manifest_sha256",
+      "affected_field_paths",
+      "canonical_engine_overwritten",
+      "do_not_promote_canonical"
+    ],
+    "audit_record_suffix": ".audit.json",
+    "audit_schema": "bota.decision-apply-audit/v1",
+    "bulk_apply_allowed": false,
+    "canonical_immutability": {
+      "canonical_gate_value": null,
+      "do_not_promote": true,
+      "rule": "export/engine/ is never overwritten by any apply"
+    },
+    "dry_run_default": true,
+    "guide": "export/APPLY-GUIDE.md",
+    "overlay_path": "export/engine-resolved/",
+    "overlay_schema": "bota.engine-resolved-overlay/v1",
+    "required_confirmations": {
+      "intentionally-open": [
+        "--apply",
+        "--confirm-owner-decision",
+        "--confirm-intentionally-open"
+      ],
+      "owner-decision": [
+        "--apply",
+        "--confirm-owner-decision"
+      ]
+    },
+    "revert": "Delete export/engine-resolved/; canonical engine remains untouched",
+    "validator": "python3 tools/validate-apply-mechanism.py"
+  },
+  "decision_packet": {
+    "apply_tool": "tools/apply-decision.py",
+    "canonical_engine_overwritten": false,
+    "confirmations": [
+      "--confirm-owner-decision",
+      "--confirm-intentionally-open for intentionally-open decisions"
+    ],
+    "dry_run_default": true,
+    "field_index": "export/field-index.json",
+    "overlay_output": "export/engine-resolved/",
+    "packet": "export/decision-packet.json",
+    "recommendations_applied_by_default": false,
+    "validator": "python3 tools/validate-decision-packet.py"
+  },
+  "engine_data": {
+    "builder": "python3 tools/build-engine-data.py",
+    "deterministic": true,
+    "outputs": [
+      "export/engine/heroes.json",
+      "export/engine/abilities.json",
+      "export/engine/voice.json",
+      "export/engine/portraits.json",
+      "export/engine/manifest.json"
+    ],
+    "rules": "resolved-from-plan values emitted; owner-decision/intentionally-open/marker fields emitted null with decisionId/status/options/source/do_not_promote=true",
+    "validator": "python3 tools/validate-engine-data.py"
+  },
+  "field_semantics": {
+    "canonical": {
+      "decisions.json#marker_scan": "marker coverage summary",
+      "hero-kits.json#heroes.{hero}.abilities": "four ability rows per active hero, one ultimate",
+      "hero-registry.json#acronym_order": "canonical active hero order",
+      "hero-registry.json#authority.active_count": "canonical active count",
+      "hero-registry.json#heroes.{hero}.portrait_path": "canonical active portrait path",
+      "hero-registry.json#heroes.{hero}.slot": "canonical gallery/roster slot",
+      "hero-voice.json#heroes.{hero}": "voice entry per active hero",
+      "image-references.json#heroes.{hero}.gallery_path": "image reference per active hero"
+    },
+    "decision_gated": {
+      "intentionally-open": [
+        "ability_3_passive_vs_aura_cost",
+        "cross_hero_hook_guesses"
+      ],
+      "owner-decision": [
+        "default_damage_types",
+        "forever_eternal_loop_clip",
+        "sigma_value_tiers",
+        "voice_cooldown_8s",
+        "wojak_sorrowful_cancel_threshold"
+      ],
+      "resolved-from-plan": [
+        "ability_slot_mapping",
+        "ambiguity_record_status_markers",
+        "engine_hero_id_language",
+        "talent_values",
+        "voice_line_cap"
+      ],
+      "rule": "Do not silently promote GUESS, UNVERIFIED or AMBIGUOUS values to canon. Read decisions.json confidence labels before implementation."
+    }
+  },
+  "human_spec": "export/INTEGRATION.md",
+  "identifier_rules": {
+    "active_hero_key_pattern": "^[a-z]{3}$",
+    "active_hero_keys": [
+      "nec",
+      "cha",
+      "woj",
+      "blo",
+      "tra",
+      "boo",
+      "coo",
+      "gon",
+      "spu",
+      "kar",
+      "how",
+      "san",
+      "lan",
+      "fin",
+      "wil",
+      "nos",
+      "din",
+      "ecc",
+      "bot",
+      "sho",
+      "npc",
+      "for",
+      "col",
+      "gre",
+      "ghi",
+      "got"
+    ],
+    "display_name_semantics": "Non-key provenance only; never use display_name as hero_id.",
+    "downstream_inversion": {
+      "canonicalExport": "26 acronym keys remain canonical in /workspace/bota/export",
+      "defaultDotaHeroes": "three-letter acronym legacy IDs",
+      "honestDegradation": "UNAVAILABLE and DRIFT include exact downstream paths",
+      "oscraftBotaArtifacts": "full BOTA character names/slugs",
+      "validatorModes": [
+        "acronym",
+        "bota-fullname"
+      ]
+    },
+    "forbidden_active_keys": [
+      "Gigachad",
+      "Wanderer",
+      "Raker",
+      "Seeder",
+      "Wartrucker",
+      "Bouncer",
+      "full names",
+      "filename slugs",
+      "001..032 numeric IDs"
+    ],
+    "hero_id_semantics": "Use the three-letter acronym as the engine hero_id. Slot is metadata, not an identifier.",
+    "old_slug_rule": "A NNN-slug path is a portrait/source path only, never an active hero key."
+  },
+  "integration_rules": [
+    {
+      "do_not_promote": false,
+      "id": "use_acronym_hero_ids",
+      "rule": "Engine hero_id MUST be one of active_hero_keys."
+    },
+    {
+      "do_not_promote": false,
+      "id": "preserve_003_discrepancy",
+      "rule": "003 may be referenced only as an image-only retired/reserve visual; never as an active hero."
+    },
+    {
+      "do_not_promote": false,
+      "id": "require_all_five_inputs",
+      "rule": "Downstream MUST read all five required export JSON files."
+    },
+    {
+      "do_not_promote": true,
+      "id": "read_decision_confidence",
+      "rule": "Downstream MUST read decisions.json confidence labels for any marked value."
+    },
+    {
+      "do_not_promote": true,
+      "id": "owner_decision_default_damage_types",
+      "rule": "default_damage_types remains an owner decision; do not promote to canon."
+    },
+    {
+      "do_not_promote": true,
+      "id": "owner_decision_forever_eternal_loop_clip",
+      "rule": "forever_eternal_loop_clip remains an owner decision; do not promote to canon."
+    },
+    {
+      "do_not_promote": true,
+      "id": "owner_decision_sigma_value_tiers",
+      "rule": "sigma_value_tiers remains an owner decision; do not promote to canon."
+    },
+    {
+      "do_not_promote": true,
+      "id": "owner_decision_voice_cooldown_8s",
+      "rule": "voice_cooldown_8s remains an owner decision; do not promote to canon."
+    },
+    {
+      "do_not_promote": true,
+      "id": "owner_decision_wojak_sorrowful_cancel_threshold",
+      "rule": "wojak_sorrowful_cancel_threshold remains an owner decision; do not promote to canon."
+    },
+    {
+      "do_not_promote": true,
+      "id": "intentionally_open_ability_3_passive_vs_aura_cost",
+      "rule": "ability_3_passive_vs_aura_cost remains intentionally open; do not promote to canon."
+    },
+    {
+      "do_not_promote": true,
+      "id": "intentionally_open_cross_hero_hook_guesses",
+      "rule": "cross_hero_hook_guesses remains intentionally open; do not promote to canon."
+    }
+  ],
+  "live_conformance": {
+    "downstream_root": "/workspace/oscraft/scenarios/bota/",
+    "drift_policy": "report exact mismatch as DRIFT",
+    "expected_key_diff": [],
+    "expected_model_parse_count": 26,
+    "max_joint_count": 64,
+    "mode": "read-only",
+    "required_paths": [
+      "bota_ui.json",
+      "bota_roster.lua",
+      "CHARACTERS.md",
+      "character-mapping.tsv",
+      "bota-skinned.json",
+      "assets/models/<acro>-skinned.glb"
+    ],
+    "unavailable_policy": "report exact path as UNAVAILABLE",
+    "validator": "python3 tools/validate-integration-live.py"
+  },
+  "progressDashboard": {
+    "actorBacklog": "export/actor-backlog.json",
+    "json": "export/progress-dashboard.json",
+    "readOnlyPeers": [
+      "hy3d",
+      "wscheppity",
+      "extra",
+      "oscraft",
+      "gmweb",
+      "bitvoice"
+    ],
+    "validator": "python3 tools/validate-progress-dashboard.py"
+  },
+  "requestQueues": {
+    "content": "export/content-request-queue.json",
+    "extractionGoal": "100% upstream extraction",
+    "ownerSequence": "pooled emails then relay",
+    "spawnGaps": "export/spawn-extraction-gaps.json",
+    "validator": "python3 tools/validate-request-queues.py"
+  },
+  "ruleDemand": {
+    "contentContract": "/workspace/hy3d/output/content-for-bota.json",
+    "contentOwner": "hy3d",
+    "generator": "python3 tools/build-rule-demand.py",
+    "json": "export/rule-demand.json",
+    "sequence": "pooled emails then relay",
+    "tsv": "export/rule-demand.tsv",
+    "validator": "python3 tools/validate-rule-demand.py",
+    "writePolicy": "read-only toward /workspace/hy3d"
+  },
+  "schema": "bota.engine-integration-contract/v1",
+  "spawnCompatibility": {
+    "human": "export/SPAWN-COMPATIBILITY.md",
+    "promotes_decision_gates": false,
+    "read_only": true,
+    "report": "export/spawn-compatibility.json",
+    "validator": "tools/validate-spawn-compatibility.py",
+    "verdict": "reusable-data"
+  },
+  "status": "decision-ready export handoff",
+  "statusEntrypoint": {
+    "human_snapshot": "export/STATUS.md",
+    "mode": "read-only except status report",
+    "report": "export/export-status.json",
+    "stale_policy": "validator fails if any export file is newer than status",
+    "validator": "python3 tools/validate-export-status.py",
+    "watch": "python3 tools/bota-export-watch.py"
+  },
+  "verificationEntrypoint": {
+    "clean_state_proof": "python3 tools/check-bota-export-clean.py",
+    "command": "bash tools/check-bota-export.sh",
+    "git_status": "report-only, never fails on dirty worktree",
+    "stop_on_first_failure": true,
+    "temp_mode": "full pipeline with --oscraft-root override",
+    "total_checks": 15
+  }
+}

@@ -1,0 +1,3831 @@
+{
+  "count": 425,
+  "fields": [
+    {
+      "current_value": null,
+      "decision_id": "ability_3_passive_vs_aura_cost",
+      "do_not_promote": true,
+      "engine_file": "export/engine/manifest.json",
+      "field_path": "decision_gated_fields.ability_3_passive_vs_aura_cost",
+      "source": "export/hero-kits.json#value_tiers.ability_3_aura_or_passive.sigma_cost",
+      "status": "intentionally-open"
+    },
+    {
+      "current_value": null,
+      "decision_id": "cross_hero_hook_guesses",
+      "do_not_promote": true,
+      "engine_file": "export/engine/manifest.json",
+      "field_path": "decision_gated_fields.hooks",
+      "source": "export/hero-kits.json#emergent_hooks",
+      "status": "intentionally-open"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.0.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.1.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.2.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "default_damage_types",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.3.damage_type",
+      "source": "export/hero-kits.json#value_tiers.defaults.damage_types",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "forever_eternal_loop_clip",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.3.mechanic",
+      "source": "export/hero-kits.json#heroes.for.abilities.3.mechanic",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "forever_eternal_loop_clip",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.3.numeric_values",
+      "source": "export/hero-kits.json#heroes.for.abilities.3.numeric_values",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.blo.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.boo.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.bot.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.cha.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.col.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.coo.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.din.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ecc.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.fin.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.for.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.ghi.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gon.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.got.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.gre.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.how.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.kar.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.lan.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nec.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.nos.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.npc.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.san.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.sho.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.spu.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.tra.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.wil.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.0.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.0.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.0.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.1.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.1.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.1.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.2.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.2.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.2.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.3.cooldown",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.3.cost",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "sigma_value_tiers",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.3.tier_values",
+      "source": "export/hero-kits.json#value_tiers",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "talent_values",
+      "do_not_promote": true,
+      "engine_file": "export/engine/manifest.json",
+      "field_path": "decision_gated_fields.talent_values",
+      "source": "export/hero-kits.json#heroes.*.talents",
+      "status": "resolved-from-plan"
+    },
+    {
+      "current_value": null,
+      "decision_id": "voice_cooldown_8s",
+      "do_not_promote": true,
+      "engine_file": "export/engine/voice.json",
+      "field_path": "rules.cooldown_seconds",
+      "source": "export/hero-voice.json#rules.cooldown_status",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "voice_line_cap",
+      "do_not_promote": true,
+      "engine_file": "export/engine/voice.json",
+      "field_path": "rules.line_cap_words",
+      "source": "export/hero-voice.json#rules.line_cap_status",
+      "status": "resolved-from-plan"
+    },
+    {
+      "current_value": null,
+      "decision_id": "wojak_sorrowful_cancel_threshold",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.3.mechanic",
+      "source": "export/hero-kits.json#heroes.woj.abilities.3.mechanic",
+      "status": "owner-decision"
+    },
+    {
+      "current_value": null,
+      "decision_id": "wojak_sorrowful_cancel_threshold",
+      "do_not_promote": true,
+      "engine_file": "export/engine/abilities.json",
+      "field_path": "heroes.woj.3.numeric_values",
+      "source": "export/hero-kits.json#heroes.woj.abilities.3.numeric_values",
+      "status": "owner-decision"
+    }
+  ],
+  "schema": "bota.decision-field-index/v1"
+}

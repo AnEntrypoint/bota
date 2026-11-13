@@ -1,0 +1,104 @@
+{
+  "counts": {
+    "ability_rows": 104,
+    "active_gallery_images": 26,
+    "active_heroes": 26,
+    "covered_markers": 169,
+    "decision_packet_decisions": 12,
+    "decision_packet_fields": 425,
+    "decisions": 12,
+    "engine_files": 5,
+    "export_hash_files": 50,
+    "gallery_images": 25,
+    "raw_markers": 169,
+    "voice_rows": 50
+  },
+  "decision_gated_fields": {
+    "ability_3_passive_vs_aura_cost": {
+      "decisionId": "ability_3_passive_vs_aura_cost",
+      "do_not_promote": true,
+      "options": [
+        "Emit both branches: 0 Sigma when passive, 50 Sigma when aura",
+        "Classify every Ability 3 as passive",
+        "Classify every Ability 3 as aura"
+      ],
+      "options_ref": "decisions.json#decisions[ability_3_passive_vs_aura_cost].options",
+      "source": "export/hero-kits.json#value_tiers.ability_3_aura_or_passive.sigma_cost",
+      "status": "intentionally-open",
+      "value": null
+    },
+    "hooks": {
+      "decisionId": "cross_hero_hook_guesses",
+      "do_not_promote": true,
+      "options": [
+        "Keep hooks as GUESS flavor/spec notes outside first-playable mechanics",
+        "Implement every hook now with shared counters",
+        "Cut all hooks"
+      ],
+      "options_ref": "decisions.json#decisions[cross_hero_hook_guesses].options",
+      "source": "export/hero-kits.json#emergent_hooks",
+      "status": "intentionally-open",
+      "value": null
+    },
+    "intentionally-open": [
+      "ability_3_passive_vs_aura_cost",
+      "cross_hero_hook_guesses"
+    ],
+    "owner-decision": [
+      "default_damage_types",
+      "forever_eternal_loop_clip",
+      "sigma_value_tiers",
+      "voice_cooldown_8s",
+      "wojak_sorrowful_cancel_threshold"
+    ],
+    "talent_values": {
+      "decisionId": "talent_values",
+      "do_not_promote": true,
+      "options": [
+        "Keep named talent choices but cut talent values from first-playable data",
+        "Owner approves full talent numbers now",
+        "Generate family-template talent numbers"
+      ],
+      "options_ref": "decisions.json#decisions[talent_values].options",
+      "source": "export/hero-kits.json#heroes.*.talents",
+      "status": "resolved-from-plan",
+      "value": null
+    }
+  },
+  "generated_from": [
+    "export/hero-registry.json",
+    "export/hero-kits.json",
+    "export/hero-voice.json",
+    "export/image-references.json",
+    "export/decisions.json",
+    "export/integration-contract.json",
+    "export/conformance.json"
+  ],
+  "generation_rules": {
+    "003": "image-only retired/reserve note; never an active hero key",
+    "GUESS/UNVERIFIED/AMBIGUOUS": "omit from canonical values or emit null with status + decisionId + source",
+    "active_keys": "three-letter lowercase acronyms from conformance.json",
+    "intentionally-open": "emit null with decisionId, status, options, source, do_not_promote=true",
+    "never_promote_recommendation": true,
+    "only_reads_export_files": true,
+    "owner-decision": "emit null with decisionId, status, options, source, do_not_promote=true",
+    "resolved-from-plan": "emit value"
+  },
+  "hash_source": "export/SHA256SUMS.json",
+  "outputs": [
+    "heroes.json",
+    "abilities.json",
+    "voice.json",
+    "portraits.json"
+  ],
+  "schema": "bota.engine.manifest/v1",
+  "source_hashes": {
+    "conformance.json": "15d2c9c069a378ae8de75c64fc1eccd27b846b2c1ccdb8b161ac232fbb53e716",
+    "decisions.json": "b32e5f6c132153aa41f209e740bf990667b8ceb167be00e9166ac33a4d4986d9",
+    "hero-kits.json": "69a266b14639391d805ebcb0aebb6856cab6eae8cf2f158b47eb208f36f98a7f",
+    "hero-registry.json": "9bdfce367281485a93c80212f49bcac872954894648c5de0e3f557a7b40785cc",
+    "hero-voice.json": "e195fbe222634c59cd10cfdaf5eb227e7074df8eeebd024eee34ca64ac60acb4",
+    "image-references.json": "1a94b0feead2d935f8712c19bb5efcc06c0f98b988a136d8631f372629eddf68",
+    "integration-contract.json": "455aea494984aeefd5d85f4ac73016d118112221acaf7e22661fbd601e98f4e2"
+  }
+}

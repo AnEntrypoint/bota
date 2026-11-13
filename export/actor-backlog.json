@@ -1,0 +1,222 @@
+{
+  "bounded": true,
+  "counts": {
+    "blocked": 5,
+    "byActor": {
+      "bitvoice": 1,
+      "bota": 3,
+      "extra": 2,
+      "gmweb": 1,
+      "hy3d": 2,
+      "oscraft": 1,
+      "owner": 1,
+      "wscheppity": 1
+    },
+    "rows": 12
+  },
+  "do_not_promote": true,
+  "generatedAt": "2026-11-13T12:19:35.499791+00:00",
+  "readOnly": true,
+  "rows": [
+    {
+      "acceptanceCriteria": [
+        "Owner records an explicit choice",
+        "No canonical engine value is written without opt-in apply",
+        "do_not_promote remains true"
+      ],
+      "actor": "owner",
+      "blockedBy": [
+        "owner decision required"
+      ],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/bota/export/owner-decision-brief.md",
+      "id": "actor:4d8cf0def2c5e8b0",
+      "note": "Neutral options: keep gated; supply an exact choice; defer to a playable build. No option is recommended.",
+      "priority": 5,
+      "title": "Choose whether to keep, specify, or defer `forever_eternal_loop_clip`"
+    },
+    {
+      "acceptanceCriteria": [
+        "service-contract.json schemaVersion 1.0.0",
+        "interfaceStability stable",
+        "benchmark evidence records clean shutdown/errors without overclaiming"
+      ],
+      "actor": "bitvoice",
+      "blockedBy": [
+        "persistent service not running"
+      ],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/bitvoice/service-contract.json",
+      "id": "actor:94c9394a5d057634",
+      "note": "",
+      "priority": 10,
+      "title": "Keep service contract 1.0.0 stable; continue full-duplex benchmark"
+    },
+    {
+      "acceptanceCriteria": [
+        "--once PASS",
+        "validate-auto-refresh PASS",
+        "SHA256SUMS covers new files",
+        "export-status STALE=false"
+      ],
+      "actor": "bota",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/bota/export/coordination-auto-refresh.json",
+      "id": "actor:19b6d891bd3beae6",
+      "note": "",
+      "priority": 10,
+      "title": "Keep live coordination watcher and auto-refresh bounded/read-only"
+    },
+    {
+      "acceptanceCriteria": [
+        "On-disk extraction manifest reports 44 tracked files, 102 commits, 51 notes",
+        "extraction-contract.json exists if used by the ledger",
+        "red gate resolved"
+      ],
+      "actor": "extra",
+      "blockedBy": [
+        "temporary red gate",
+        "extraction-contract.json UNAVAILABLE"
+      ],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/extra/.local/extraction-manifest.json",
+      "id": "actor:cbaa4203c966523a",
+      "note": "44/102/51 is owner context; on-disk count is reported separately and not invented.",
+      "priority": 10,
+      "title": "Finish upstream ledger rebuild after temporary red gate"
+    },
+    {
+      "acceptanceCriteria": [
+        "ROLLOUT_REPORT ok=true",
+        "11 gates exit 0",
+        "failures=[]",
+        "post-restart live UNAVAILABLE remains allowed"
+      ],
+      "actor": "gmweb",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/gmweb/docs/ROLLOUT_REPORT.json",
+      "id": "actor:e66d633379e3ef2e",
+      "note": "",
+      "priority": 10,
+      "title": "Preserve auto-GM/GitHub AgentGUI rollout gates"
+    },
+    {
+      "acceptanceCriteria": [
+        "Pinned service contract remains 1.0.0",
+        "Health returns required ok/service/schemaVersion/interfaceStability",
+        "Probe audio validates",
+        "Only then publish ready hash-verified rows"
+      ],
+      "actor": "hy3d",
+      "blockedBy": [
+        "no persistent service",
+        "recovery=false"
+      ],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/hy3d/output/content-for-bota.json",
+      "id": "actor:73affc38e6ffeb33",
+      "note": "Contract is stable; service is not running. No quota burned.",
+      "priority": 10,
+      "title": "Keep 50 audio/voice rows endpoint-blocked until a stable persistent BitTTS service exists"
+    },
+    {
+      "acceptanceCriteria": [
+        "26 BOTA fullname IDs",
+        "127 default acronym IDs",
+        "cross-contract optionalMissing=0",
+        "npm run check:cross-contracts stays green"
+      ],
+      "actor": "oscraft",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/oscraft/scenarios/bota/cross-contract-snapshot.json",
+      "id": "actor:99413e02a0c62955",
+      "note": "",
+      "priority": 10,
+      "title": "Maintain fullname BOTA IDs and default Dota acronym inversion"
+    },
+    {
+      "acceptanceCriteria": [
+        "classes equals complete",
+        "partial=0",
+        "blocked=0",
+        "cdnBad=0",
+        "local runner verification recorded"
+      ],
+      "actor": "wscheppity",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/wscheppity/.local/extraction-manifest.json",
+      "id": "actor:7d5528947f2bc8ac",
+      "note": "",
+      "priority": 10,
+      "title": "Keep 23/23 extraction classes complete and local runner verified"
+    },
+    {
+      "acceptanceCriteria": [
+        "425 gated fields",
+        "engine-resolved absent",
+        "26 active acronyms in BOTA export",
+        "do_not_promote true"
+      ],
+      "actor": "bota",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/bota/export/export-status.json",
+      "id": "actor:7c5f5b2e42910e1f",
+      "note": "",
+      "priority": 20,
+      "title": "Preserve canonical null gates and identifier contract"
+    },
+    {
+      "acceptanceCriteria": [
+        "Exact HTTP status/content-type/body-size",
+        "SHA-256 and local extraction path",
+        "manifest row ok=true"
+      ],
+      "actor": "extra",
+      "blockedBy": [
+        "generated-on-demand names"
+      ],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/extra/.local/cdn/manifest-all.json",
+      "id": "actor:463679334c35b811",
+      "note": "",
+      "priority": 20,
+      "title": "Capture exact bytes for extra generated-on-demand CDN names"
+    },
+    {
+      "acceptanceCriteria": [
+        "asset-delivery-report ok=true",
+        "hash sweep remains green",
+        "no false ready rows"
+      ],
+      "actor": "hy3d",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/hy3d/output/asset-delivery-report.json",
+      "id": "actor:420268710fefa092",
+      "note": "Owner reports asset gates green.",
+      "priority": 20,
+      "title": "Maintain asset gates and prepared-only inventory without claiming delivery"
+    },
+    {
+      "acceptanceCriteria": [
+        "Presentation cue remains text-only",
+        "No asset hash invented",
+        "Three-beat Camera Chain preserved"
+      ],
+      "actor": "bota",
+      "blockedBy": [],
+      "do_not_promote": true,
+      "evidencePath": "/workspace/bota/export/owner-decision-brief.md",
+      "id": "actor:4dd721b2c01ce2f9",
+      "note": "It stays open because the exact visual asset is a presentation choice, not a rule value.",
+      "priority": 30,
+      "title": "Keep transition-wipe presentation intentionally open"
+    }
+  ],
+  "schema": "bota.actor-backlog/v1"
+}

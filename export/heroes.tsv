@@ -1,0 +1,27 @@
+hero_id	slot	display_name	archetype	role	attribute	range	launch	first_playable	portrait_path	roster_source	plan15_source	kit_source
+nec	001	Neckbeard	Heckler	Harasser, zoner	Str	Melee	false	false	gallery/001-neckbeard.jpg	ROSTER.md:7	plan/15-roster-and-archetypes.md:37	plan/10-remaining-hero-kits.md:8
+cha	002	Chad	Showboat	Clout carry	Str	Melee	false	false	gallery/002-chad.jpg	ROSTER.md:8	plan/15-roster-and-archetypes.md:38	plan/10-remaining-hero-kits.md:9
+woj	004	Wojak	Recluse	Offline sustain	Str	Melee	false	false	gallery/004-wojak.jpg	ROSTER.md:9	plan/15-roster-and-archetypes.md:39	plan/10-remaining-hero-kits.md:26
+blo	005	Bloomer	Herald	Resell healer, buffer	Agi	Melee	false	false	gallery/005-bloomer.jpg	ROSTER.md:10	plan/15-roster-and-archetypes.md:40	plan/10-remaining-hero-kits.md:10
+tra	006	Tradwife	Herald	Resell healer, buffer	Int	Melee	false	false	gallery/006-tradwife.jpg	ROSTER.md:11	plan/15-roster-and-archetypes.md:41	plan/10-remaining-hero-kits.md:11
+boo	007	Boomer	Heckler	Harasser, zoner	Agi	Melee	true	true	gallery/007-boomer.jpg	ROSTER.md:12	plan/15-roster-and-archetypes.md:42	plan/09-launch-hero-kits.md:32
+coo	008	Coomer	Firebrand	Hot-take initiator	Str	Melee	true	true	gallery/008-coomer.jpg	ROSTER.md:13	plan/15-roster-and-archetypes.md:43	plan/09-launch-hero-kits.md:34
+gon	009	Gondola	Recluse	Offline sustain	Agi	Melee	false	false	gallery/009-gondola.jpg	ROSTER.md:14	plan/15-roster-and-archetypes.md:44	plan/10-remaining-hero-kits.md:12
+spu	010	Spurdo	Firebrand	Hot-take initiator	Agi	Melee	false	false	gallery/010-spurdo.jpg	ROSTER.md:15	plan/15-roster-and-archetypes.md:45	plan/10-remaining-hero-kits.md:13
+kar	011	Karen	Heckler	Harasser, zoner	Int	Ranged	false	false	gallery/011-karen.jpg	ROSTER.md:16	plan/15-roster-and-archetypes.md:46	plan/10-remaining-hero-kits.md:14
+how	012	Howard	Archivist	Utility, zone control	Str	Melee	false	false	gallery/012-howard.jpg	ROSTER.md:17	plan/15-roster-and-archetypes.md:47	plan/10-remaining-hero-kits.md:15
+san	013	Sanic	Stalker	Assassin, vision denial	Str	Melee	false	false	gallery/013-sanic.jpg	ROSTER.md:18	plan/15-roster-and-archetypes.md:48	plan/10-remaining-hero-kits.md:16
+lan	014	Lankdad	Phantom	Middleman summoner	Str	Ranged	false	false	gallery/014-lankdad.jpg	ROSTER.md:19	plan/15-roster-and-archetypes.md:49	plan/10-remaining-hero-kits.md:17
+fin	015	Finger Dan	Heckler	Harasser, zoner	Str	Ranged	false	false	gallery/015-finger-dan.jpg	ROSTER.md:20	plan/15-roster-and-archetypes.md:50	plan/10-remaining-hero-kits.md:18
+wil	016	Willie	Engine	Late-game Clout carry	Str	Melee	false	false	gallery/016-willie.jpg	ROSTER.md:21	plan/15-roster-and-archetypes.md:51	plan/10-remaining-hero-kits.md:19
+nos	017	Noscope	Stalker	Assassin, vision denial	Agi	Ranged	false	false	gallery/017-noscope.jpg	ROSTER.md:22	plan/15-roster-and-archetypes.md:52	plan/10-remaining-hero-kits.md:25
+din	018	Dino	Bulwark	Reach tank, initiator	Str	Melee	false	false	gallery/018-dino.jpg	ROSTER.md:23	plan/15-roster-and-archetypes.md:53	plan/10-remaining-hero-kits.md:20
+ecc	019	Ecce	Archivist	Utility, zone control	Int	Melee	true	true	gallery/019-ecce.jpg	ROSTER.md:24	plan/15-roster-and-archetypes.md:54	plan/09-launch-hero-kits.md:35
+bot	020	Bot Bernard	Herald	Resell healer, buffer	Int	Ranged	false	false	gallery/020-bot-bernard.jpg	ROSTER.md:25	plan/15-roster-and-archetypes.md:55	plan/10-remaining-hero-kits.md:21
+sho	021	Shoop	Drifter	Ranged nuker	Int	Ranged	false	false	gallery/021-shoop.jpg	ROSTER.md:26	plan/15-roster-and-archetypes.md:56	plan/10-remaining-hero-kits.md:22
+npc	022	Npc	Phantom	Middleman summoner	Agi	Melee	false	false	gallery/022-npc.jpg	ROSTER.md:27	plan/15-roster-and-archetypes.md:57	plan/10-remaining-hero-kits.md:23
+for	023	Forever	Recluse	Offline sustain	Str	Melee	false	false	gallery/023-forever.jpg	ROSTER.md:28	plan/15-roster-and-archetypes.md:58	plan/10-remaining-hero-kits.md:27
+col	024	Cole	Phantom	Middleman summoner	Str	Ranged	false	false	gallery/024-cole.jpg	ROSTER.md:29	plan/15-roster-and-archetypes.md:59	plan/10-remaining-hero-kits.md:24
+gre	025	Grey	Drifter	Ranged nuker	Str	Ranged	true	true	gallery/025-grey.jpg	ROSTER.md:30	plan/15-roster-and-archetypes.md:60	plan/09-launch-hero-kits.md:31
+ghi	026	Ghillie	Stalker	Assassin, vision denial	Str	Ranged	true	true	gallery/026-ghillie.jpg	ROSTER.md:31	plan/15-roster-and-archetypes.md:61	plan/09-launch-hero-kits.md:33
+got	027	Gothgirl	Recluse	Offline sustain	Agi	Melee	true	true	gallery/027-gothgirl.jpg	ROSTER.md:32	plan/15-roster-and-archetypes.md:62	plan/09-launch-hero-kits.md:36

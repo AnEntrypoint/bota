@@ -1,0 +1,35 @@
+{
+  "activeHeroCount": 24,
+  "canonicalFilesUnchanged": [
+    "export/engine/heroes.json",
+    "export/engine/abilities.json",
+    "export/engine/manifest.json",
+    "export/engine/portraits.json"
+  ],
+  "checks": {
+    "activeRosterRows": 24,
+    "coordinationRetiredRowsMarked": 2,
+    "queueRetiredRowsMarked": 2,
+    "retiredRowsMarked": 11
+  },
+  "generatedAt": "2026-11-11T21:10:00.000Z",
+  "generatedFrom": [
+    "export/active-roster.json",
+    "export/rule-demand.json",
+    "export/content-request-queue.json",
+    "export/coordination-status.json"
+  ],
+  "hiddenTokenPolicy": {
+    "allowedProvenance": "retired/excluded only",
+    "forbiddenActiveTokens": [
+      "chad",
+      "karen",
+      "cha",
+      "kar",
+      "002-chad",
+      "011-karen"
+    ]
+  },
+  "pass": "pass-24-active-heroes-final-evidence",
+  "schema": "bota.hidden-token-canonical/v1"
+}

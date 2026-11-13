@@ -1,0 +1,485 @@
+{
+  "acronym_to_slot": {
+    "blo": "005",
+    "boo": "007",
+    "bot": "020",
+    "cha": "002",
+    "col": "024",
+    "coo": "008",
+    "din": "018",
+    "ecc": "019",
+    "fin": "015",
+    "for": "023",
+    "ghi": "026",
+    "gon": "009",
+    "got": "027",
+    "gre": "025",
+    "how": "012",
+    "kar": "011",
+    "lan": "014",
+    "nec": "001",
+    "nos": "017",
+    "npc": "022",
+    "san": "013",
+    "sho": "021",
+    "spu": "010",
+    "tra": "006",
+    "wil": "016",
+    "woj": "004"
+  },
+  "active_acronyms": [
+    "nec",
+    "cha",
+    "woj",
+    "blo",
+    "tra",
+    "boo",
+    "coo",
+    "gon",
+    "spu",
+    "kar",
+    "how",
+    "san",
+    "lan",
+    "fin",
+    "wil",
+    "nos",
+    "din",
+    "ecc",
+    "bot",
+    "sho",
+    "npc",
+    "for",
+    "col",
+    "gre",
+    "ghi",
+    "got"
+  ],
+  "allowed_optional_or_ignored_paths": [
+    "export/DECISIONS.md",
+    "export/decisions.tsv",
+    "export/export.yaml",
+    "export/INTEGRATION.md",
+    "export/integration-contract.json",
+    "export/conformance.json",
+    "export/heroes.tsv",
+    "export/abilities.tsv",
+    "export/voice.tsv",
+    "export/images.tsv",
+    "export/SHA256SUMS.json",
+    "internal/retired-character-cards.md",
+    "internal/retired-character-cards/",
+    "gallery/003-gigachad.jpg",
+    "export/engine/heroes.json",
+    "export/engine/abilities.json",
+    "export/engine/voice.json",
+    "export/engine/portraits.json",
+    "export/engine/manifest.json",
+    "export/DECISION-PACKET.md",
+    "export/decision-packet.json",
+    "export/field-index.json",
+    "export/field-index.tsv",
+    "export/engine-resolved/",
+    "export/APPLY-GUIDE.md",
+    "tools/check-bota-export.sh",
+    "tools/check-bota-export-clean.py",
+    "export/STATUS.md",
+    "export/export-status.json",
+    "export/SPAWN-COMPATIBILITY.md",
+    "export/spawn-compatibility.json"
+  ],
+  "autoRefresh": {
+    "defaultMinutes": 10,
+    "guide": "export/AUTO-REFRESH.md",
+    "peers": [
+      "hy3d",
+      "wscheppity",
+      "extra",
+      "oscraft"
+    ],
+    "pollSeconds": 10,
+    "record": "export/coordination-auto-refresh.json",
+    "runner": "python3 tools/auto-refresh-coordination.py --once",
+    "strictNoPromotion": true,
+    "validator": "python3 tools/validate-auto-refresh.py"
+  },
+  "coordinationStatus": {
+    "defaultWatch": "python3 tools/watch-coordinated-queues.py --minutes 10 --poll-seconds 10",
+    "json": "export/coordination-status.json",
+    "markdown": "export/coordination-status.md",
+    "ownerBrief": "export/owner-decision-brief.md",
+    "ownerBriefGenerator": "python3 tools/build-owner-decision-brief.py",
+    "readOnlyPeers": [
+      "hy3d",
+      "wscheppity",
+      "extra",
+      "oscraft"
+    ],
+    "validator": "python3 tools/validate-coordination-status.py",
+    "watcher": "python3 tools/watch-coordinated-queues.py --once"
+  },
+  "decisionAudit": {
+    "audit_fields": [
+      "decision_id",
+      "option",
+      "timestamp",
+      "decision_packet_sha256",
+      "decisions_json_sha256",
+      "engine_manifest_sha256",
+      "affected_field_paths",
+      "canonical_engine_overwritten",
+      "do_not_promote_canonical"
+    ],
+    "audit_record_suffix": ".audit.json",
+    "audit_schema": "bota.decision-apply-audit/v1",
+    "bulk_apply_allowed": false,
+    "canonical_immutability": {
+      "canonical_gate_value": null,
+      "do_not_promote": true,
+      "rule": "export/engine/ is never overwritten by any apply"
+    },
+    "dry_run_default": true,
+    "guide": "export/APPLY-GUIDE.md",
+    "overlay_path": "export/engine-resolved/",
+    "overlay_schema": "bota.engine-resolved-overlay/v1",
+    "required_confirmations": {
+      "intentionally-open": [
+        "--apply",
+        "--confirm-owner-decision",
+        "--confirm-intentionally-open"
+      ],
+      "owner-decision": [
+        "--apply",
+        "--confirm-owner-decision"
+      ]
+    },
+    "revert": "Delete export/engine-resolved/; canonical engine remains untouched",
+    "validator": "python3 tools/validate-apply-mechanism.py"
+  },
+  "decision_packet_files": [
+    "export/DECISION-PACKET.md",
+    "export/decision-packet.json",
+    "export/field-index.json",
+    "export/field-index.tsv"
+  ],
+  "do_not_promote_ids": [
+    "default_damage_types",
+    "forever_eternal_loop_clip",
+    "sigma_value_tiers",
+    "voice_cooldown_8s",
+    "wojak_sorrowful_cancel_threshold",
+    "ability_3_passive_vs_aura_cost",
+    "cross_hero_hook_guesses"
+  ],
+  "engine_outputs": [
+    "export/engine/heroes.json",
+    "export/engine/abilities.json",
+    "export/engine/voice.json",
+    "export/engine/portraits.json",
+    "export/engine/manifest.json"
+  ],
+  "expected_counts": {
+    "ability_rows": 104,
+    "active_gallery_images": 26,
+    "active_heroes": 26,
+    "covered_markers": 169,
+    "decision_packet_decisions": 12,
+    "decision_packet_fields": 425,
+    "decisions": 12,
+    "engine_files": 5,
+    "export_hash_files": 50,
+    "gallery_images": 25,
+    "raw_markers": 169,
+    "voice_rows": 50
+  },
+  "expected_hashes": {
+    "APPLY-GUIDE.md": "91b161f2c142f4615d0b7bdc13437359bd67a5515ae0863aacdb5691a5d151c0",
+    "AUTO-REFRESH.md": "bc72168a48cb5bb4b2794f18e72d7fcc4afde532a609eb1f7e4d93548d413d26",
+    "DECISION-PACKET.md": "1ce41c436d3379bc165ef63bf4d09c927f4b05887b741bc66f8b0462b5716406",
+    "DECISIONS.md": "e094a29144fc3cb84e63940307edf6c644da4d32e9b2d2374aea2921bd98906a",
+    "INTEGRATION.md": "345708cbed3da09e8121fe8c41c86871cefafe9364712191d7f1c7b568ef26ad",
+    "PROGRESS-DASHBOARD.md": "8b45cd9fd67da4acccfd74e2990f412c96759d272e5ba6250c756adde3dd5e95",
+    "SPAWN-COMPATIBILITY.md": "47dc875e406d600a23632d394264f7ed2f7d2feda2e2159e70150618cfe05c98",
+    "STATUS.md": "9d3507f62aadd5457c90395eedbdca41cd13056eb2f4d82e51a90e819d999756",
+    "abilities.tsv": "5d5fd18aa9f1e04f62340dcb074624fd6173b84e91d112e4a89308b75c120933",
+    "active-roster.json": "ba1b1504ecdf6152ab816ef0c9081c61786c464e62a739d93b97ecb563b76e86",
+    "active-roster.tsv": "ae037db18ce81e63d6c3ac0e294f0e4975e819c7446c43ee3f21d8d8a0f560f7",
+    "actor-backlog.json": "f01140d9bbe5db5fe671f68cf041dd782eba3ef5d529b471b7d65b81a7e87e3c",
+    "actor-backlog.md": "6acd1a998c6ea69bc47fdb6c26a887247eba61f1fc4a12c003f4f83a17aefde0",
+    "chatnano-audio-coordination.json": "eab4b9a5142fb9d2522b8495f39f4a3740f576b0db37c755007d8156cc53cb7a",
+    "chatnano-audio-coordination.tsv": "a46b041a0f4c9a45c7e036f060170059a41a1eb852da90f96f8965eabeb6ac5e",
+    "chatnano-packaged12-evidence.json": "692a6e137badd845606172eedf4703d9c88b14138966bf14eadec6e9061eb8c9",
+    "chatnano-packaged12-evidence.tsv": "0388751005e05872107b0016996e8f6a2cc9605860445fb908ab855f584a3f33",
+    "chatnano-wav-evidence.json": "e00fc3d490f9e1e2086e5528f878c3d286c2f95c120cf2dba8aa014315268e78",
+    "chatnano-wav-evidence.tsv": "cb5c1a7c966a931454d0c971d98d020e1b347bc142737c435f6406b89644c265",
+    "content-request-queue.json": "cd81c2df68179f055640d30fa05bfca515cb020d74f1214e60c9f8d4871dad6d",
+    "content-request-queue.tsv": "2c69a4b3656487029d237fccf5f38f330e98650e1471588b4344e614a29a05b3",
+    "coordination-auto-refresh.json": "03eb8c7ee7afc972b89dd3830fe17aa270fa967485d753c6915a93e9e91d9acf",
+    "coordination-status.json": "d0df3011415ca36e40a5c7e8a57ba6913680910555d94bbd745d19cf4139d6d4",
+    "coordination-status.md": "19fd725b8100df7d406ce270c9cda6a0e2764df303b1c2b6143467bd6f58fc74",
+    "decision-packet.json": "9eba8eb0cff26806b29deaef71be526784e7b50b07a8d5375ac42846502411f0",
+    "decisions.json": "b32e5f6c132153aa41f209e740bf990667b8ceb167be00e9166ac33a4d4986d9",
+    "decisions.tsv": "59667c13dd5a4f7d7e6f927061db1689165c08ec6be73932408fe6d35c378ba1",
+    "export.yaml": "f79edbc780c7047ade3fbe7dcac59f33b4572e7c5d911b537bb15fe87d2eaaad",
+    "field-index.json": "d7b26f6616ad046035d47d071143fd880ec5851b7f4596f736cb3b0b48c3fbda",
+    "field-index.tsv": "20bcd990a79309e93706af999d18aace293d58fa124a839f542ef945353551ea",
+    "final-reconciliation.json": "d5c96b7d80f2ff336d51f385e3b678d6979cb288242b658a68eb47baf2577d09",
+    "final-reconciliation.tsv": "4b84df489d7d4fbb8e507737e214fea039488269453f4f15528b1a5d3a51316a",
+    "hero-kits.json": "69a266b14639391d805ebcb0aebb6856cab6eae8cf2f158b47eb208f36f98a7f",
+    "hero-registry.json": "9bdfce367281485a93c80212f49bcac872954894648c5de0e3f557a7b40785cc",
+    "hero-voice.json": "e195fbe222634c59cd10cfdaf5eb227e7074df8eeebd024eee34ca64ac60acb4",
+    "heroes.tsv": "f4e309f0ff68666e3397284906147c40b9a0bf468a58b07edacac4390ac5cfc6",
+    "hidden-token-canonical.json": "831856dab92b27bc6ec4500aa4d3f29db39329799d171551e1c3ab15210d1213",
+    "image-references.json": "1a94b0feead2d935f8712c19bb5efcc06c0f98b988a136d8631f372629eddf68",
+    "images.tsv": "fe4c57bc5855c16c660a9758d139b57eb2fc8e13c2a23c3a07521e5a43b062c8",
+    "integration-contract.json": "455aea494984aeefd5d85f4ac73016d118112221acaf7e22661fbd601e98f4e2",
+    "integration-evidence.json": "a82adef9de5dffe18eb75cdf5615411c20fb47109866cb794f60fac5067025d4",
+    "owner-decision-brief.md": "dac23a1a9f922774030f126c5e151ebf52e81549a4d7de211db12b5d4b75b810",
+    "progress-dashboard.json": "7b6901055304cdbefafef5f0f4ea2d6f25376693140ff4714b2d5a8f6fcf98b3",
+    "rule-demand-prior.json": "75de315c62743059834dd8498f0823d5e68358fcd4fc9a250ca723080fadcf3e",
+    "rule-demand.json": "cc17f471c4c4846335ac8f769ec38c9df525ea59366e25a0438d5f13a41d58ad",
+    "rule-demand.tsv": "bd42ad2b92356d74dc625bbb142777b11213f0b38d53f2e390baca00f507b103",
+    "spawn-compatibility.json": "43c1e8295b2f338438a70eb7f4ea8de816c47cf60586237d1341432516d5ac08",
+    "spawn-extraction-gaps.json": "305b070269782b6b8874e6b2291b4fa027c9fc843134e202ecd5d8fe50046484",
+    "voice.tsv": "3ddf08771c7fc12ac21389ec8f91dedf6061d509f2ce7df81297e9a6981938d4"
+  },
+  "expected_hashes_note": "conformance.json and export-status.json are excluded from expected_hashes; SHA256SUMS.json hashes all other top-level export files.",
+  "field_paths": [
+    "hero-registry.json#acronym_order",
+    "hero-registry.json#heroes.{hero}.slot",
+    "hero-registry.json#heroes.{hero}.portrait_path",
+    "hero-registry.json#authority.active_count",
+    "hero-kits.json#heroes.{hero}.abilities",
+    "hero-voice.json#heroes.{hero}",
+    "image-references.json#heroes.{hero}.gallery_path",
+    "decisions.json#marker_scan"
+  ],
+  "hash_source": "export/SHA256SUMS.json",
+  "identifierModes": {
+    "acronym": "python3 tools/validate-integration-live.py --identifier-mode acronym",
+    "bota-fullname": "python3 tools/validate-integration-live.py --identifier-mode bota-fullname --default-dota-acronyms",
+    "canonicalExport": "acronym",
+    "oscraftTarget": "bota-fullname"
+  },
+  "progressDashboard": {
+    "actorBacklogJson": "export/actor-backlog.json",
+    "actorBacklogMd": "export/actor-backlog.md",
+    "generator": "python3 tools/build-progress-dashboard.py",
+    "json": "export/progress-dashboard.json",
+    "markdown": "export/PROGRESS-DASHBOARD.md",
+    "strictNoPromotion": true,
+    "validator": "python3 tools/validate-progress-dashboard.py"
+  },
+  "requestQueues": {
+    "contentRequestQueue": "export/content-request-queue.json",
+    "contentRequestTsv": "export/content-request-queue.tsv",
+    "generator": "python3 tools/build-rule-demand-v2.py",
+    "priorDemand": "export/rule-demand-prior.json",
+    "spawnExtractionGaps": "export/spawn-extraction-gaps.json",
+    "statuses": [
+      "available",
+      "requested-pooled-email",
+      "requested-relay",
+      "spawn-generated",
+      "owner-decision",
+      "intentionally-open"
+    ],
+    "validator": "python3 tools/validate-request-queues.py"
+  },
+  "required_files": [
+    "export/hero-registry.json",
+    "export/hero-kits.json",
+    "export/hero-voice.json",
+    "export/image-references.json",
+    "export/decisions.json"
+  ],
+  "required_presence": {
+    "blo": {
+      "image": "image-references.json#heroes.blo",
+      "kit": "hero-kits.json#heroes.blo",
+      "registry": "hero-registry.json#heroes.blo",
+      "voice": "hero-voice.json#heroes.blo"
+    },
+    "boo": {
+      "image": "image-references.json#heroes.boo",
+      "kit": "hero-kits.json#heroes.boo",
+      "registry": "hero-registry.json#heroes.boo",
+      "voice": "hero-voice.json#heroes.boo"
+    },
+    "bot": {
+      "image": "image-references.json#heroes.bot",
+      "kit": "hero-kits.json#heroes.bot",
+      "registry": "hero-registry.json#heroes.bot",
+      "voice": "hero-voice.json#heroes.bot"
+    },
+    "cha": {
+      "image": "image-references.json#heroes.cha",
+      "kit": "hero-kits.json#heroes.cha",
+      "registry": "hero-registry.json#heroes.cha",
+      "voice": "hero-voice.json#heroes.cha"
+    },
+    "col": {
+      "image": "image-references.json#heroes.col",
+      "kit": "hero-kits.json#heroes.col",
+      "registry": "hero-registry.json#heroes.col",
+      "voice": "hero-voice.json#heroes.col"
+    },
+    "coo": {
+      "image": "image-references.json#heroes.coo",
+      "kit": "hero-kits.json#heroes.coo",
+      "registry": "hero-registry.json#heroes.coo",
+      "voice": "hero-voice.json#heroes.coo"
+    },
+    "din": {
+      "image": "image-references.json#heroes.din",
+      "kit": "hero-kits.json#heroes.din",
+      "registry": "hero-registry.json#heroes.din",
+      "voice": "hero-voice.json#heroes.din"
+    },
+    "ecc": {
+      "image": "image-references.json#heroes.ecc",
+      "kit": "hero-kits.json#heroes.ecc",
+      "registry": "hero-registry.json#heroes.ecc",
+      "voice": "hero-voice.json#heroes.ecc"
+    },
+    "fin": {
+      "image": "image-references.json#heroes.fin",
+      "kit": "hero-kits.json#heroes.fin",
+      "registry": "hero-registry.json#heroes.fin",
+      "voice": "hero-voice.json#heroes.fin"
+    },
+    "for": {
+      "image": "image-references.json#heroes.for",
+      "kit": "hero-kits.json#heroes.for",
+      "registry": "hero-registry.json#heroes.for",
+      "voice": "hero-voice.json#heroes.for"
+    },
+    "ghi": {
+      "image": "image-references.json#heroes.ghi",
+      "kit": "hero-kits.json#heroes.ghi",
+      "registry": "hero-registry.json#heroes.ghi",
+      "voice": "hero-voice.json#heroes.ghi"
+    },
+    "gon": {
+      "image": "image-references.json#heroes.gon",
+      "kit": "hero-kits.json#heroes.gon",
+      "registry": "hero-registry.json#heroes.gon",
+      "voice": "hero-voice.json#heroes.gon"
+    },
+    "got": {
+      "image": "image-references.json#heroes.got",
+      "kit": "hero-kits.json#heroes.got",
+      "registry": "hero-registry.json#heroes.got",
+      "voice": "hero-voice.json#heroes.got"
+    },
+    "gre": {
+      "image": "image-references.json#heroes.gre",
+      "kit": "hero-kits.json#heroes.gre",
+      "registry": "hero-registry.json#heroes.gre",
+      "voice": "hero-voice.json#heroes.gre"
+    },
+    "how": {
+      "image": "image-references.json#heroes.how",
+      "kit": "hero-kits.json#heroes.how",
+      "registry": "hero-registry.json#heroes.how",
+      "voice": "hero-voice.json#heroes.how"
+    },
+    "kar": {
+      "image": "image-references.json#heroes.kar",
+      "kit": "hero-kits.json#heroes.kar",
+      "registry": "hero-registry.json#heroes.kar",
+      "voice": "hero-voice.json#heroes.kar"
+    },
+    "lan": {
+      "image": "image-references.json#heroes.lan",
+      "kit": "hero-kits.json#heroes.lan",
+      "registry": "hero-registry.json#heroes.lan",
+      "voice": "hero-voice.json#heroes.lan"
+    },
+    "nec": {
+      "image": "image-references.json#heroes.nec",
+      "kit": "hero-kits.json#heroes.nec",
+      "registry": "hero-registry.json#heroes.nec",
+      "voice": "hero-voice.json#heroes.nec"
+    },
+    "nos": {
+      "image": "image-references.json#heroes.nos",
+      "kit": "hero-kits.json#heroes.nos",
+      "registry": "hero-registry.json#heroes.nos",
+      "voice": "hero-voice.json#heroes.nos"
+    },
+    "npc": {
+      "image": "image-references.json#heroes.npc",
+      "kit": "hero-kits.json#heroes.npc",
+      "registry": "hero-registry.json#heroes.npc",
+      "voice": "hero-voice.json#heroes.npc"
+    },
+    "san": {
+      "image": "image-references.json#heroes.san",
+      "kit": "hero-kits.json#heroes.san",
+      "registry": "hero-registry.json#heroes.san",
+      "voice": "hero-voice.json#heroes.san"
+    },
+    "sho": {
+      "image": "image-references.json#heroes.sho",
+      "kit": "hero-kits.json#heroes.sho",
+      "registry": "hero-registry.json#heroes.sho",
+      "voice": "hero-voice.json#heroes.sho"
+    },
+    "spu": {
+      "image": "image-references.json#heroes.spu",
+      "kit": "hero-kits.json#heroes.spu",
+      "registry": "hero-registry.json#heroes.spu",
+      "voice": "hero-voice.json#heroes.spu"
+    },
+    "tra": {
+      "image": "image-references.json#heroes.tra",
+      "kit": "hero-kits.json#heroes.tra",
+      "registry": "hero-registry.json#heroes.tra",
+      "voice": "hero-voice.json#heroes.tra"
+    },
+    "wil": {
+      "image": "image-references.json#heroes.wil",
+      "kit": "hero-kits.json#heroes.wil",
+      "registry": "hero-registry.json#heroes.wil",
+      "voice": "hero-voice.json#heroes.wil"
+    },
+    "woj": {
+      "image": "image-references.json#heroes.woj",
+      "kit": "hero-kits.json#heroes.woj",
+      "registry": "hero-registry.json#heroes.woj",
+      "voice": "hero-voice.json#heroes.woj"
+    }
+  },
+  "ruleDemand": {
+    "contentContract": "/workspace/hy3d/output/content-for-bota.json",
+    "contentOwner": "hy3d",
+    "generator": "python3 tools/build-rule-demand.py",
+    "json": "export/rule-demand.json",
+    "rulesOwner": "bota",
+    "tsv": "export/rule-demand.tsv",
+    "validator": "python3 tools/validate-rule-demand.py"
+  },
+  "schema": "bota.conformance-fixture/v1",
+  "spawnCompatibility": {
+    "human": "export/SPAWN-COMPATIBILITY.md",
+    "read_only": true,
+    "report": "export/spawn-compatibility.json",
+    "validator": "tools/validate-spawn-compatibility.py",
+    "verdict": "reusable-data"
+  },
+  "statusEntrypoint": {
+    "expected_checks": 15,
+    "human_snapshot": "export/STATUS.md",
+    "report": "export/export-status.json",
+    "stale_policy": "fail with exact newer path",
+    "validator": "python3 tools/validate-export-status.py",
+    "watch": "python3 tools/bota-export-watch.py"
+  },
+  "verificationEntrypoint": {
+    "clean_state_proof": "python3 tools/check-bota-export-clean.py",
+    "command": "bash tools/check-bota-export.sh",
+    "temp_engine_files_byte_identical": true,
+    "total_checks": 15
+  }
+}

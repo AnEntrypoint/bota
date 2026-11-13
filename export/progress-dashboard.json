@@ -1,0 +1,618 @@
+{
+  "agents": {
+    "bitvoice": {
+      "counts": {
+        "cleanShutdown": false,
+        "contractName": "bitvoice-full-duplex",
+        "errors": 0,
+        "fullDuplexConcurrentSessions": 2,
+        "interfaceStability": "stable",
+        "schemaVersion": "1.0.0"
+      },
+      "evidence": [
+        "/workspace/bitvoice/service-contract.json",
+        "/workspace/bitvoice/docs/full-duplex-metrics.json",
+        "/workspace/bitvoice/docs/VERIFICATION.md"
+      ],
+      "status": "contract-stable / benchmark-in-progress",
+      "verifiedCommands": [
+        {
+          "command": "python3 scripts/validate-service-contract.py",
+          "exit": 0
+        },
+        {
+          "command": "python3 scripts/service-contract-smoke.py",
+          "exit": 0
+        }
+      ]
+    },
+    "bota": {
+      "counts": {
+        "coordinationRows": 536,
+        "gatedFields": 425,
+        "hashes": 50,
+        "ruleDemandRows": 382
+      },
+      "evidence": [
+        "/workspace/bota/export/coordination-status.json",
+        "/workspace/bota/export/coordination-auto-refresh.json",
+        "/workspace/bota/export/export-status.json",
+        "/workspace/bota/export/SHA256SUMS.json"
+      ],
+      "status": "DRIFT",
+      "verifiedCommands": [
+        {
+          "command": "python3 tools/validate-request-queues.py",
+          "exit": 0,
+          "label": "validate-request-queues.py",
+          "stdoutTail": [
+            "REQUEST_QUEUE_COUNTS available=326 intentionally-open=1 owner-decision=1 requested-pooled-email=50 requested-relay=4 spawn-generated=0",
+            "PRIOR_RECONCILIATION rows=144 hy3d_queue=56 spawn_gaps=480 demand_rows=382",
+            "REQUEST QUEUES: PASS (4144 checks, 0 errors)"
+          ]
+        },
+        {
+          "command": "python3 tools/validate-decision-packet.py",
+          "exit": 0,
+          "label": "validate-decision-packet.py",
+          "stdoutTail": [
+            "FIELD=export/engine/abilities.json#heroes.blo.0.cost: null -> \"Use the plan tier table as implementation defaults, still labelled UNVERIFIED pending playable build\"",
+            "coverage=425/425 leaks=0",
+            "DECISION PACKET: PASS (453 checks, 0 errors)"
+          ]
+        },
+        {
+          "command": "python3 tools/validate-engine-data.py",
+          "exit": 0,
+          "label": "validate-engine-data.py",
+          "stdoutTail": [
+            "ENGINE_COUNTS: heroes=26 abilities=104 voice=50 gallery=27 decisions=12 markers=169/169 hashes=38",
+            "ENGINE_GATED_FIELDS=425",
+            "ENGINE VALIDATION: PASS (576 checks, 0 errors)"
+          ]
+        },
+        {
+          "command": "python3 tools/validate-apply-mechanism.py",
+          "exit": 0,
+          "label": "validate-apply-mechanism.py",
+          "stdoutTail": [
+            "CANONICAL_ENGINE_UNCHANGED=true",
+            "APPLY MECHANISM: PASS",
+            "TEMP_CLEANED=True"
+          ]
+        },
+        {
+          "command": "python3 tools/validate-integration-live.py --identifier-mode bota-fullname --default-dota-acronyms",
+          "exit": 0,
+          "label": "validate-integration-live.py",
+          "stdoutTail": [
+            "CROSS_PROJECT_KEY_DIFF=[]",
+            "MODEL_PARSE_COUNT=26",
+            "LIVE INTEGRATION: PASS (211 checks, 0 unavailable, 0 drift)"
+          ]
+        },
+        {
+          "command": "bash tools/check-bota-export.sh",
+          "exit": 0,
+          "label": "check-bota-export.sh",
+          "stdoutTail": [
+            "CANONICAL_ENGINE_UNCHANGED=true",
+            "ENGINE_RESOLVED_EXISTS=false",
+            "PIPELINE: PASS"
+          ]
+        },
+        {
+          "command": "python3 tools/bota-export-watch.py",
+          "exit": 0,
+          "label": "bota-export-watch",
+          "stdoutTail": [
+            "CANONICAL_ENGINE_UNCHANGED=true ENGINE_RESOLVED_EXISTS=false",
+            "LIVE=PASS drift=0 key_diff=[]",
+            "STATUS_FILE=export/export-status.json"
+          ]
+        },
+        {
+          "command": "python3 tools/validate-export-status.py",
+          "exit": 0,
+          "label": "validate-export-status",
+          "stdoutTail": [
+            "STATUS_COUNTS heroes=26 abilities=104 voice=50 gallery=27 decisions=12 markers=169 gatedFields=425 hashes=38",
+            "STALE=false DRIFT=0",
+            "EXPORT STATUS: PASS (40 checks, 0 errors)"
+          ]
+        }
+      ]
+    },
+    "extra": {
+      "counts": {
+        "cdnBad": 0,
+        "cdnNames": 78,
+        "cdnOk": 70,
+        "onDisk": {
+          "activeAssets": 35,
+          "activeAssetsValid": 35,
+          "apiCaptures": 37,
+          "apiDoorGroups": 42,
+          "blocked": 0,
+          "cdnBad": 0,
+          "cdnNames": 78,
+          "classes": 22,
+          "complete": 22,
+          "docsSections": 68,
+          "engineFiles": 27,
+          "gitCommits": 84,
+          "gitNotes": 42,
+          "gitRefs": 3,
+          "partial": 0,
+          "trackedFiles": 42
+        },
+        "ownerExpectedAfterRebuild": {
+          "gitCommits": 102,
+          "gitNotes": 51,
+          "trackedFiles": 44
+        }
+      },
+      "evidence": [
+        "/workspace/extra/.local/extraction-manifest.json",
+        "/workspace/extra/.local/extraction-contract.json",
+        "/workspace/extra/.local/cdn/manifest.json",
+        "/workspace/extra/.local/cdn/manifest-all.json"
+      ],
+      "status": "REBUILDING",
+      "unavailable": [
+        "extra.contract"
+      ],
+      "verifiedCommands": [
+        {
+          "command": "extra upstream pull / ledger rebuild in progress (owner context)",
+          "exit": null,
+          "status": "UNAVAILABLE"
+        }
+      ]
+    },
+    "gmweb": {
+      "counts": {
+        "failures": 0,
+        "gatePasses": 317,
+        "gateTotals": 317,
+        "gates": 11,
+        "rolloutOk": true
+      },
+      "evidence": [
+        "/workspace/gmweb/docs/ROLLOUT_REPORT.json",
+        "/workspace/gmweb/docs/POST-RESTART.md"
+      ],
+      "status": "gates-green",
+      "verifiedCommands": [
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-startup-sources.mjs",
+          "count": "82/82",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-runtime-install.mjs",
+          "count": "38/38",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-container-startup-path.mjs",
+          "count": "65/65",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node scripts/check-rollout-docs.mjs",
+          "count": "27/27",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-post-restart.mjs --offline",
+          "count": "22/22",
+          "exit": 0,
+          "status": "OFFLINE_PLAN_VALID"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-post-restart.mjs --live",
+          "count": "22/22",
+          "exit": 0,
+          "status": "UNAVAILABLE"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node scripts/check-gm-upstream-drift.mjs",
+          "count": "9/9",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/live-post-restart-probe.mjs",
+          "count": "4/4",
+          "exit": 0,
+          "status": "SELFTEST"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-live-probe-fixtures.mjs",
+          "count": "16/16",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/simulate-container-startup.mjs",
+          "count": "19/19",
+          "exit": 0,
+          "status": "PASS"
+        },
+        {
+          "command": "/data/cache/node/node-v24.22.0-linux-x64/bin/node startup/check-simulated-startup.mjs",
+          "count": "13/13",
+          "exit": 0,
+          "status": "PASS"
+        }
+      ]
+    },
+    "hy3d": {
+      "counts": {
+        "assetGatesOk": true,
+        "contractRows": 159,
+        "endpointBlocked": 50,
+        "preparedOnly": 52,
+        "quota": 30,
+        "ready": 107,
+        "recovery": true,
+        "requested": 54
+      },
+      "evidence": [
+        "/workspace/hy3d/output/content-for-bota.json",
+        "/workspace/hy3d/output/content-demand-v2.json",
+        "/workspace/hy3d/output/generation-status.json",
+        "/workspace/hy3d/output/studio-recovery-watch.json",
+        "/workspace/hy3d/output/asset-delivery-report.json"
+      ],
+      "status": "asset-gates-green / persistent-service-UNAVAILABLE",
+      "verifiedCommands": [
+        {
+          "command": "npm run check:assets",
+          "exit": 0
+        },
+        {
+          "command": "npm run watch:bittts -- --once",
+          "exit": 0
+        }
+      ]
+    },
+    "oscraft": {
+      "counts": {
+        "botaFullnameIds": 24,
+        "defaultAcronymIds": 127,
+        "extraMissing": 0,
+        "extraPresent": 2,
+        "optionalMissing": 0,
+        "optionalPresent": 10,
+        "required": 8,
+        "skinnedModels": 24
+      },
+      "evidence": [
+        "/workspace/oscraft/scenarios/bota/IDENTIFIERS.md",
+        "/workspace/oscraft/scenarios/bota/cross-contract-snapshot.json",
+        "/workspace/oscraft/scenarios/bota/bota_ui.json"
+      ],
+      "status": "fullname-ready",
+      "verifiedCommands": [
+        {
+          "command": "npm run check:cross-contracts (owner context)",
+          "exit": 0
+        }
+      ]
+    },
+    "wscheppity": {
+      "counts": {
+        "blocked": 0,
+        "cdnBad": 0,
+        "cdnNames": 402,
+        "classes": 23,
+        "complete": 23,
+        "manifestAllBad": 0,
+        "manifestAllOk": 369,
+        "partial": 0
+      },
+      "evidence": [
+        "/workspace/wscheppity/.local/extraction-manifest.json",
+        "/workspace/wscheppity/.local/cdn/manifest.json",
+        "/workspace/wscheppity/.local/cdn/manifest-all.json"
+      ],
+      "status": "complete",
+      "verifiedCommands": [
+        {
+          "command": "local runner restarted and verified (owner turn context)",
+          "exit": 0
+        }
+      ]
+    }
+  },
+  "coordination": {
+    "counts": {
+      "UNAVAILABLE": 0,
+      "available": 439,
+      "hy3dQueue": 56,
+      "intentionally-open": 1,
+      "owner-decision": 1,
+      "requested-pooled-email": 54,
+      "requested-relay": 0,
+      "resolved": 439,
+      "rows": 536,
+      "spawn-generated": 41,
+      "spawnGaps": 480,
+      "unexplainedUnavailable": 0,
+      "unresolved": 97
+    },
+    "nextActorQueueCounts": {
+      "bota": 0,
+      "extra": 8,
+      "hy3d": 54,
+      "owner": 1,
+      "wscheppity": 33
+    },
+    "topBlockedReasons": [
+      {
+        "reason": "requested-pooled-email",
+        "rows": 54
+      },
+      {
+        "reason": "spawn-generated",
+        "rows": 41
+      },
+      {
+        "reason": "intentionally-open",
+        "rows": 1
+      },
+      {
+        "reason": "owner-decision",
+        "rows": 1
+      }
+    ],
+    "unresolvedByNextActor": {
+      "bitvoice": 0,
+      "bota": 1,
+      "extra": 8,
+      "gmweb": 0,
+      "hy3d": 54,
+      "owner": 1,
+      "wscheppity": 33
+    },
+    "unresolvedRows": 97
+  },
+  "gated": {
+    "do_not_promote": true,
+    "intentionallyOpen": [
+      {
+        "decisionId": "presentation_cue_intentionally_open",
+        "do_not_promote": true,
+        "ruleCitation": "plan/16-humor-and-tone.md:4",
+        "slug": "rule-demand/transition-wipe"
+      }
+    ],
+    "ownerDecision": [
+      {
+        "decisionId": "forever_eternal_loop_clip",
+        "do_not_promote": true,
+        "ruleCitation": "plan/18-asset-manifest-and-audio.md:1",
+        "slug": "rule-demand/eternal-loop"
+      }
+    ]
+  },
+  "generatedAt": "2026-11-13T12:19:35.499791+00:00",
+  "preserved": {
+    "activeHeroes": 26,
+    "defaultDotaAcronyms": true,
+    "engineResolvedExists": false,
+    "galleryImages": 27,
+    "gatedFields": 425,
+    "identifierMode": "bota-fullname",
+    "reserve003": "image-only retired/reserve"
+  },
+  "readOnly": true,
+  "schema": "bota.progress-dashboard/v1",
+  "sourcePaths": {
+    "bitvoice.metrics": {
+      "bytes": 2595,
+      "path": "/workspace/bitvoice/docs/full-duplex-metrics.json",
+      "sha256": "0a64a78a1a8783a02dbe3921469af2e8d3b31a2c3fed4c91571bf12540b1d0bb",
+      "status": "ready"
+    },
+    "bitvoice.serviceContract": {
+      "bytes": 9843,
+      "path": "/workspace/bitvoice/service-contract.json",
+      "sha256": "f26ca47439d610e244dff4166b5061e94f39039e29be16d83967309ceefdd567",
+      "status": "ready"
+    },
+    "bitvoice.verification": {
+      "bytes": 4386,
+      "path": "/workspace/bitvoice/docs/VERIFICATION.md",
+      "sha256": "de5057585958f4c628bb0f39d637f8e9dc143f1832a163a2eda3dbce17a43161",
+      "status": "ready"
+    },
+    "bota.actorBacklogJson": {
+      "bytes": null,
+      "path": "/workspace/bota/export/actor-backlog.json",
+      "sha256": null,
+      "status": "generated"
+    },
+    "bota.actorBacklogMd": {
+      "bytes": null,
+      "path": "/workspace/bota/export/actor-backlog.md",
+      "sha256": null,
+      "status": "generated"
+    },
+    "bota.autoRefresh": {
+      "bytes": 15017,
+      "path": "/workspace/bota/export/coordination-auto-refresh.json",
+      "sha256": "03eb8c7ee7afc972b89dd3830fe17aa270fa967485d753c6915a93e9e91d9acf",
+      "status": "ready"
+    },
+    "bota.contentQueue": {
+      "bytes": 63311,
+      "path": "/workspace/bota/export/content-request-queue.json",
+      "sha256": "867ece799695e264348a605877c74c6fda2dbcdc7a8c1681875ac6850c2891d5",
+      "status": "ready"
+    },
+    "bota.coordinationStatus": {
+      "bytes": 454534,
+      "path": "/workspace/bota/export/coordination-status.json",
+      "sha256": "225dd5e2928c75cfe635c9f648b06748c8b87429ed2b16712eb88da51beb03a8",
+      "status": "ready"
+    },
+    "bota.exportStatus": {
+      "bytes": 4356,
+      "path": "/workspace/bota/export/export-status.json",
+      "sha256": "cbea13a1054bce9bd9d13647c9b16181fbed314123e54b02fb0f6b2ea90cbd51",
+      "status": "ready"
+    },
+    "bota.ownerBrief": {
+      "bytes": 3233,
+      "path": "/workspace/bota/export/owner-decision-brief.md",
+      "sha256": "dac23a1a9f922774030f126c5e151ebf52e81549a4d7de211db12b5d4b75b810",
+      "status": "ready"
+    },
+    "bota.progressDashboardJson": {
+      "bytes": null,
+      "path": "/workspace/bota/export/progress-dashboard.json",
+      "sha256": null,
+      "status": "generated"
+    },
+    "bota.progressDashboardMd": {
+      "bytes": null,
+      "path": "/workspace/bota/export/PROGRESS-DASHBOARD.md",
+      "sha256": null,
+      "status": "generated"
+    },
+    "bota.ruleDemand": {
+      "bytes": 2041507,
+      "path": "/workspace/bota/export/rule-demand.json",
+      "sha256": "20bd62c54ba6c0af400179fbe57e3434ec1f489e10fb003d89114f3b94fb2322",
+      "status": "ready"
+    },
+    "bota.sha256Sums": {
+      "bytes": 4693,
+      "path": "/workspace/bota/export/SHA256SUMS.json",
+      "sha256": "cd1f316052926338dc151a1c0451810bd19722a5b50b55af5f9b2cdb007d2c4f",
+      "status": "ready"
+    },
+    "bota.spawnGaps": {
+      "bytes": 568382,
+      "path": "/workspace/bota/export/spawn-extraction-gaps.json",
+      "sha256": "a8bc707b13ce5fce6fcb11809cf69cfb62097ca5c81c033ccf584d3847c178f8",
+      "status": "ready"
+    },
+    "extra.cdn": {
+      "bytes": 116399,
+      "path": "/workspace/extra/.local/cdn/manifest.json",
+      "sha256": "d4e79c4a64caed2b719f598d0a8c6fad084171954ea74ddd4ab1e57016df9e0b",
+      "status": "ready"
+    },
+    "extra.cdnAll": {
+      "bytes": 243424,
+      "path": "/workspace/extra/.local/cdn/manifest-all.json",
+      "sha256": "2a71dd8ca81fc6f8ed4e25078acf66a4251a1b12b8391a8d29fda476f1b164a0",
+      "status": "ready"
+    },
+    "extra.contract": {
+      "bytes": null,
+      "path": "/workspace/extra/.local/extraction-contract.json",
+      "sha256": null,
+      "status": "UNAVAILABLE"
+    },
+    "extra.extraction": {
+      "bytes": 33026,
+      "path": "/workspace/extra/.local/extraction-manifest.json",
+      "sha256": "280b0b67cb52f11bf651cca653e5051b5ab8bd1de35c36a96489e6f137bd56e1",
+      "status": "ready"
+    },
+    "gmweb.postRestart": {
+      "bytes": 9004,
+      "path": "/workspace/gmweb/docs/POST-RESTART.md",
+      "sha256": "83ac4b0cdf3f90768a04b262c11b7b7c993f686b1d9632ac3385d1a72d4c75f7",
+      "status": "ready"
+    },
+    "gmweb.rolloutReport": {
+      "bytes": 7099,
+      "path": "/workspace/gmweb/docs/ROLLOUT_REPORT.json",
+      "sha256": "bef52bed66afc3c3aca0985db5a4ba0a4fb0598887ce481ab0ad11ebfed0f8f1",
+      "status": "ready"
+    },
+    "hy3d.content": {
+      "bytes": 364398,
+      "path": "/workspace/hy3d/output/content-for-bota.json",
+      "sha256": "ebbff59684d6fa4062c3cffd5e0b394e2560855b7364aba839f5a5a0727fd001",
+      "status": "ready"
+    },
+    "hy3d.delivery": {
+      "bytes": 13741,
+      "path": "/workspace/hy3d/output/asset-delivery-report.json",
+      "sha256": "d3e41343ad78be7ae9ff325745ee75504f305b47e541a3e55bba405794ab5d6e",
+      "status": "ready"
+    },
+    "hy3d.demandV2": {
+      "bytes": 1554746,
+      "path": "/workspace/hy3d/output/content-demand-v2.json",
+      "sha256": "5965fcf1c1e5be834b6635d9e78d933878fd908f9b8eec9ba8875b19e0ae505e",
+      "status": "ready"
+    },
+    "hy3d.generation": {
+      "bytes": 25294,
+      "path": "/workspace/hy3d/output/generation-status.json",
+      "sha256": "263cacce75b288225c3174019d312f332db12864907e2da557c72860ca95d60a",
+      "status": "ready"
+    },
+    "hy3d.recovery": {
+      "bytes": 3057,
+      "path": "/workspace/hy3d/output/studio-recovery-watch.json",
+      "sha256": "9e612672b2ff47f08845c451c4906ffcc919d4e1e64993ecaefb03ed1e6405c8",
+      "status": "ready"
+    },
+    "oscraft.identifiers": {
+      "bytes": 4260,
+      "path": "/workspace/oscraft/scenarios/bota/IDENTIFIERS.md",
+      "sha256": "d2ae451cacbd6fa010baf100a43f50d85c9c0fd78531b72ac34ab456cadb1d45",
+      "status": "ready"
+    },
+    "oscraft.snapshot": {
+      "bytes": 15628,
+      "path": "/workspace/oscraft/scenarios/bota/cross-contract-snapshot.json",
+      "sha256": "7392f0d14572b026daf525f69d15fc42ebf91e568506f493d708cffaedaeea23",
+      "status": "ready"
+    },
+    "oscraft.ui": {
+      "bytes": 57009,
+      "path": "/workspace/oscraft/scenarios/bota/bota_ui.json",
+      "sha256": "82f55943ac024b286785a5b8a971f73da12782dafe1fdca4c8660e440a2d37fe",
+      "status": "ready"
+    },
+    "wscheppity.cdn": {
+      "bytes": 299467,
+      "path": "/workspace/wscheppity/.local/cdn/manifest.json",
+      "sha256": "c660acf20561a848a4bfdc52cdbfb5fb0d69c13b90c3345d37cedbc470d06c27",
+      "status": "ready"
+    },
+    "wscheppity.cdnAll": {
+      "bytes": 1334365,
+      "path": "/workspace/wscheppity/.local/cdn/manifest-all.json",
+      "sha256": "f0b03fc299bf2d454ee13cf31caf31ca90acdccc614038dc0058e7a0ba221527",
+      "status": "ready"
+    },
+    "wscheppity.extraction": {
+      "bytes": 36078,
+      "path": "/workspace/wscheppity/.local/extraction-manifest.json",
+      "sha256": "aac38900903c95343a729ee81679c199348490cfc7d22ce11753b0ccb82ef91d",
+      "status": "ready"
+    }
+  },
+  "status": "PASS",
+  "unavailable": [
+    {
+      "key": "extra.contract",
+      "path": "/workspace/extra/.local/extraction-contract.json"
+    }
+  ]
+}

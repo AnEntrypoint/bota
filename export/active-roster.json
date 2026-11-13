@@ -1,0 +1,93 @@
+{
+  "acronymToFullname": {
+    "blo": "blo",
+    "boo": "boo",
+    "bot": "bot",
+    "col": "col",
+    "coo": "coo",
+    "din": "din",
+    "ecc": "ecc",
+    "fin": "fin",
+    "for": "for",
+    "ghi": "ghi",
+    "gon": "gon",
+    "got": "got",
+    "gre": "gre",
+    "how": "how",
+    "lan": "lan",
+    "nec": "nec",
+    "nos": "nos",
+    "npc": "npc",
+    "san": "san",
+    "sho": "sho",
+    "spu": "spu",
+    "tra": "tra",
+    "wil": "wil",
+    "woj": "woj"
+  },
+  "activeHeroCount": 24,
+  "activeHeroKeys": [
+    "nec",
+    "woj",
+    "blo",
+    "tra",
+    "boo",
+    "coo",
+    "gon",
+    "spu",
+    "how",
+    "san",
+    "lan",
+    "fin",
+    "wil",
+    "nos",
+    "din",
+    "ecc",
+    "bot",
+    "sho",
+    "npc",
+    "for",
+    "col",
+    "gre",
+    "ghi",
+    "got"
+  ],
+  "downstreamDrift": {
+    "legacyBotaModelGuarantee": 26,
+    "oscraftDefaultDotaAcronyms": 127,
+    "policy": "unchanged upstream; active BOTA rules use 24"
+  },
+  "excludedSlots": [
+    "028",
+    "029",
+    "030",
+    "031",
+    "032"
+  ],
+  "generatedAt": "2026-11-11T21:10:00.000Z",
+  "ownerDecision": "pass-24-active-heroes-final-evidence",
+  "reserve": [
+    {
+      "kind": "image-only Reserve",
+      "path": "gallery/003-gigachad.jpg",
+      "slot": "003"
+    }
+  ],
+  "retired": [
+    {
+      "acronym": "cha",
+      "fullname": "chad",
+      "provenancePath": "characters/002-chad.md",
+      "reason": "owner update p6",
+      "slot": "002"
+    },
+    {
+      "acronym": "kar",
+      "fullname": "karen",
+      "provenancePath": "characters/011-karen.md",
+      "reason": "owner update p6",
+      "slot": "011"
+    }
+  ],
+  "schema": "bota.active-roster/v1"
+}
