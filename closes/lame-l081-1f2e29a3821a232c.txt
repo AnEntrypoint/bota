@@ -1,0 +1,1 @@
+lame-l081-1f2e29a3821a232c resolved ledger L081 status=fixed; ledger witness: Re-read plan/25:68: 'which exist in the engine repo.'; bare 'which exist.' absent. 2026-11-13T12:22:41.816Z
