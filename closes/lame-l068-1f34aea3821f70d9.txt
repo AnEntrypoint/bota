@@ -1,0 +1,1 @@
+lame-l068-1f34aea3821f70d9 resolved ledger L068 status=fixed; ledger witness: Re-read plan/19 gate 1: 'in plan/17 (90% or better)' present; plan/17 blind-test threshold cited. 2026-11-13T12:22:41.461Z
