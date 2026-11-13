@@ -1,0 +1,1 @@
+lame-l048-1f3baaa3822588bb resolved ledger L048 status=fixed; ledger witness: Re-read plan/06-clout.md:24: 'Reach +200; caster revealed on the global minimap'; 'lane spawns +1 melee creep' count 0. 2026-11-13T12:22:40.918Z
