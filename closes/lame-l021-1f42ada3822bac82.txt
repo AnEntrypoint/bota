@@ -1,0 +1,1 @@
+lame-l021-1f42ada3822bac82 resolved ledger L021 status=fixed; ledger witness: Re-read plan/08: Eternal Thread added to CDR sources; ability-specific cuts excluded from global CDR. 2026-11-13T12:22:40.238Z
