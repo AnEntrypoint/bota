@@ -1,0 +1,1 @@
+lame-l084-1f2e26a3821a1e13 resolved ledger L084 status=fixed; ledger witness: Re-read plan/25:43: 'engine-repo files docs/MODDING.md, docs/WIRE.md'. 2026-11-13T12:22:41.894Z
