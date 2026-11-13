@@ -1,0 +1,1 @@
+lame-l256-30f7f8a38c4f04a2 resolved ledger L256 status=fixed; ledger witness: plan/21 signature table has a Job (plan/02 row) column on all 20 rows; no rule cut 2026-11-13T12:22:44.057Z
