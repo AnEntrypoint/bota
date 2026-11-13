@@ -1,0 +1,1 @@
+lame-l094-1f2aa8a382171222 resolved ledger L094 status=fixed; ledger witness: Willie prop replaced with a brass ship bell in characters/016-willie.md (both lines), plan/22 row 027, plan/10 (Bell Roll), plan/16 gag 01; sync-roster --check up to date (exit 0). Commit 5d8d4cc, CI success. 2026-11-13T12:22:42.164Z
