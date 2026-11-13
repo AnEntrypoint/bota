@@ -39,7 +39,7 @@
         "/workspace/bota/export/export-status.json",
         "/workspace/bota/export/SHA256SUMS.json"
       ],
-      "status": "DRIFT",
+      "status": "PASS",
       "verifiedCommands": [
         {
           "command": "python3 tools/validate-request-queues.py",
@@ -402,7 +402,7 @@
       }
     ]
   },
-  "generatedAt": "2026-11-13T12:19:35.499791+00:00",
+  "generatedAt": "2026-11-13T12:29:41.595220+00:00",
   "preserved": {
     "activeHeroes": 26,
     "defaultDotaAcronyms": true,
@@ -454,19 +454,19 @@
     "bota.contentQueue": {
       "bytes": 63311,
       "path": "/workspace/bota/export/content-request-queue.json",
-      "sha256": "867ece799695e264348a605877c74c6fda2dbcdc7a8c1681875ac6850c2891d5",
+      "sha256": "0b271386bd8ec187e7f3c53dce85f28e1855e56ffb5d0c64f1774ee916531f74",
       "status": "ready"
     },
     "bota.coordinationStatus": {
       "bytes": 454534,
       "path": "/workspace/bota/export/coordination-status.json",
-      "sha256": "225dd5e2928c75cfe635c9f648b06748c8b87429ed2b16712eb88da51beb03a8",
+      "sha256": "a96a8cd269e63d4de9af338ecb5f62e795000f34fe156ca4d49ba843b709d8a7",
       "status": "ready"
     },
     "bota.exportStatus": {
-      "bytes": 4356,
+      "bytes": 2852,
       "path": "/workspace/bota/export/export-status.json",
-      "sha256": "cbea13a1054bce9bd9d13647c9b16181fbed314123e54b02fb0f6b2ea90cbd51",
+      "sha256": "99db018caf57931045bd729aa17a67bcbcc04bb58986a59edfe975736f47cb56",
       "status": "ready"
     },
     "bota.ownerBrief": {
@@ -490,19 +490,19 @@
     "bota.ruleDemand": {
       "bytes": 2041507,
       "path": "/workspace/bota/export/rule-demand.json",
-      "sha256": "20bd62c54ba6c0af400179fbe57e3434ec1f489e10fb003d89114f3b94fb2322",
+      "sha256": "95c6d4678cc0124dd9485b38e1caed4bf0cfb23d59328b4b733bc5e45018c195",
       "status": "ready"
     },
     "bota.sha256Sums": {
       "bytes": 4693,
       "path": "/workspace/bota/export/SHA256SUMS.json",
-      "sha256": "cd1f316052926338dc151a1c0451810bd19722a5b50b55af5f9b2cdb007d2c4f",
+      "sha256": "ded1e1443bf21a5363966542922bd58d7503a2bb1ada5153b590f021e4eec6e4",
       "status": "ready"
     },
     "bota.spawnGaps": {
       "bytes": 568382,
       "path": "/workspace/bota/export/spawn-extraction-gaps.json",
-      "sha256": "a8bc707b13ce5fce6fcb11809cf69cfb62097ca5c81c033ccf584d3847c178f8",
+      "sha256": "96bb98a0fe9ca57e320e509efe9eee2af741187ae21c18e6b1771492f19e5aea",
       "status": "ready"
     },
     "extra.cdn": {
@@ -580,7 +580,7 @@
     "oscraft.snapshot": {
       "bytes": 15628,
       "path": "/workspace/oscraft/scenarios/bota/cross-contract-snapshot.json",
-      "sha256": "7392f0d14572b026daf525f69d15fc42ebf91e568506f493d708cffaedaeea23",
+      "sha256": "3d9098878b1abf9effccb2f941e431a4adafd8ebcfe6cd199580bb3978da029f",
       "status": "ready"
     },
     "oscraft.ui": {

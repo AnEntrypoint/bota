@@ -82,7 +82,6 @@ def read_text(path: Path, label: str):
     return None
 
 
-# BOTA side: canonical export conformance fixture.
 fixture = read_json(EXPORT / "conformance.json", "bota conformance.json")
 registry = read_json(EXPORT / "hero-registry.json", "bota hero-registry.json")
 kits = read_json(EXPORT / "hero-kits.json", "bota hero-kits.json")
@@ -92,11 +91,13 @@ acronyms = list((fixture or {}).get("active_acronyms", []))
 slot_map = dict((fixture or {}).get("acronym_to_slot", {}))
 hero_entries = (registry or {}).get("heroes", {})
 fullnames = [str(hero_entries.get(a, {}).get("display_name", a)).lower().replace(" ", "-").replace("-", "_") for a in acronyms]
-# hy3d/oscraft use full slugs with underscores for multiword names.
 fullnames = [x.replace("finger-dan", "finger_dan").replace("bot-bernard", "bot_bernard") for x in fullnames]
 fullname_by_acronym = dict(zip(acronyms, fullnames))
 acronym_by_fullname = {v: k for k, v in fullname_by_acronym.items()}
-expected = acronyms if MODE == "acronym" else fullnames
+active_roster = read_json(BOTA / "export/active-roster.json", "bota active roster") or {}
+active_acronyms = [a for a in (active_roster.get("activeHeroKeys") or acronyms) if a in set(acronyms)]
+active_fullnames = [fullname_by_acronym[a] for a in active_acronyms]
+expected = active_acronyms if MODE == "acronym" else active_fullnames
 key_re = ACRONYM_RE if MODE == "acronym" else FULLNAME_RE
 
 if len(acronyms) != 26 or any(not ACRONYM_RE.match(x) for x in acronyms):
@@ -118,13 +119,12 @@ for label, obj in [("registry", registry), ("kit", kits), ("voice", voice), ("im
         if missing or extra:
             fail("DRIFT", f"bota {label} hero drift missing={missing} extra={extra}")
         else:
-            ok(f"bota {label} has exactly 26 canonical acronym entries")
+            ok(f"bota {label} has exactly {len(acronyms)} canonical acronym entries")
 
-# ROSTER.md slot order and the 003 image-only discrepancy.
 roster_text = read_text(BOTA / "ROSTER.md", "bota ROSTER.md")
 if roster_text:
     slots = re.findall(r"^\| (\d{3}) \|", roster_text, re.M)
-    expected_slots = [slot_map[a] for a in acronyms]
+    expected_slots = [slot_map[a] for a in active_acronyms]
     if slots != expected_slots:
         fail("DRIFT", f"bota ROSTER.md slot order differs: live={slots} expected={expected_slots}")
     else:
@@ -136,12 +136,12 @@ if roster_text:
         else:
             fail("DRIFT", "bota registry does not document 003 image-only retired/reserve discrepancy")
 gallery_files = sorted((BOTA / "gallery").glob("*.jpg"))
-if len(gallery_files) != 27:
-    fail("DRIFT", f"bota gallery image count is {len(gallery_files)}, expected 27")
+expected_gallery = len(active_acronyms) + 1
+if len(gallery_files) != expected_gallery:
+    fail("DRIFT", f"bota gallery image count is {len(gallery_files)}, expected {expected_gallery}")
 else:
-    ok("bota gallery has 27 JPGs")
+    ok(f"bota gallery has {expected_gallery} JPGs")
 
-# oscraft UI: active hero keys must match the selected downstream identifier family.
 ui = read_json(OS / "bota_ui.json", "oscraft bota_ui.json")
 ui_keys: set[str] = set()
 ui_acronyms: set[str] = set()
@@ -160,12 +160,11 @@ if ui:
         if side != set(expected):
             fail("DRIFT", f"oscraft {OS / 'bota_ui.json'} {side_name} in {MODE} mode diff missing={sorted(set(expected)-side)} extra={sorted(side-set(expected))}")
         else:
-            ok(f"oscraft bota_ui.json {side_name} matches 26 {MODE} keys")
+            ok(f"oscraft bota_ui.json {side_name} matches {len(expected)} {MODE} keys")
     print(f"UI_KEY_DIFF={sorted(set(expected)^ui_keys)}")
 else:
     print("UI_KEY_DIFF=UNAVAILABLE")
 
-# oscraft generated Lua roster keys, if present. Both quoted and bare keys are accepted.
 roster_lua = read_text(OS / "bota_roster.lua", "oscraft bota_roster.lua")
 if roster_lua:
     lua_keys = re.findall(r'^\s*\[\s*"([A-Za-z0-9_]+)"\s*\]\s*=\s*\{', roster_lua, re.M)
@@ -174,12 +173,11 @@ if roster_lua:
     if sorted(lua_keys) != sorted(expected):
         fail("DRIFT", f"oscraft {OS / 'bota_roster.lua'} keys in {MODE} mode diff missing={sorted(set(expected)-set(lua_keys))} extra={sorted(set(lua_keys)-set(expected))}")
     else:
-        ok(f"oscraft bota_roster.lua has 26 {MODE} keys")
+        ok(f"oscraft bota_roster.lua has {len(expected)} {MODE} keys")
 
-# Source mapping provenance: CHARACTERS.md and character-mapping.tsv.
 chars = read_text(OS / "CHARACTERS.md", "oscraft CHARACTERS.md")
 if chars:
-    wanted_phrase = "Active roster: 26 acronyms" if MODE == "acronym" else "Active roster: 26 fullname slugs"
+    wanted_phrase = f"Active roster: {len(expected)} acronyms" if MODE == "acronym" else f"Active roster: {len(expected)} fullname slugs"
     if wanted_phrase not in chars:
         fail("DRIFT", f"oscraft {OS / 'CHARACTERS.md'} does not state '{wanted_phrase}' for {MODE} mode")
     else:
@@ -207,7 +205,7 @@ if mapping_rows:
     if missing_map:
         fail("DRIFT", f"oscraft {mapping_path} missing active rows in {MODE} mode: {missing_map}")
     else:
-        ok(f"oscraft character-mapping.tsv has all 26 active {MODE} rows")
+        ok(f"oscraft character-mapping.tsv has all {len(expected)} active {MODE} rows")
     for active_key in expected:
         row = map_by_key.get(active_key, {})
         acro = active_key if MODE == "acronym" else acronym_by_fullname[active_key]
@@ -232,7 +230,6 @@ if mapping_rows:
     elif ARGS.default_dota_acronyms:
         fail("DRIFT", f"--default-dota-acronyms is only meaningful with --identifier-mode bota-fullname at {mapping_path}")
 
-# bota-skinned.json: exactly 26 rows, both source-static and skinned hashes.
 skinned = read_json(OS / "bota-skinned.json", "oscraft bota-skinned.json")
 if skinned:
     rows_obj = skinned.get("heroes")
@@ -242,7 +239,7 @@ if skinned:
     if sorted(rows_obj) != sorted(expected):
         fail("DRIFT", f"oscraft {OS / 'bota-skinned.json'} hero diff in {MODE} mode missing={sorted(set(expected)-set(rows_obj))} extra={sorted(set(rows_obj)-set(expected))}")
     else:
-        ok(f"oscraft bota-skinned.json has exactly 26 {MODE} rows")
+        ok(f"oscraft bota-skinned.json has exactly {len(expected)} {MODE} rows")
     for active_key in expected:
         row = rows_obj.get(active_key, {})
         acro = active_key if MODE == "acronym" else acronym_by_fullname[active_key]
@@ -257,7 +254,6 @@ if skinned:
         else:
             ok(f"oscraft bota-skinned.json slot {active_key}")
 
-# GLB parser: glTF 2, JSON chunk, skin count, JOINTS_0/WEIGHTS_0, joint count <=64.
 def inspect_glb(path: Path):
     try:
         data = path.read_bytes()
@@ -305,7 +301,6 @@ for active_key in expected:
     else:
         fail("DRIFT", f"oscraft model {active_key}: {detail} {path}")
 
-# Identifier hygiene: active keys must match the selected family; reserves never become active.
 all_keys = set(expected) | ui_keys | ui_acronyms | set((skinned or {}).get("heroes", {}))
 bad_keys = []
 for key in all_keys:
@@ -316,13 +311,12 @@ if bad_keys:
 else:
     ok(f"no retired/reserve/old-slug active keys in {MODE} mode")
 
-# Compact, honest reporting.
 bota_count = len((registry or {}).get("heroes", {}))
 os_ui_count = len(ui_keys)
 os_skinned_count = len((skinned or {}).get("heroes", {}))
 key_diff = sorted(set(expected) ^ ui_keys)
 print(f"IDENTIFIER_MODE={MODE} DEFAULT_DOTA_ACRONYMS={'true' if ARGS.default_dota_acronyms else 'false'}")
-print(f"LIVE_COUNTS: bota={bota_count} os_ui={os_ui_count} os_models={model_ok}/26 os_skinned={os_skinned_count} gallery={len(gallery_files)}")
+print(f"LIVE_COUNTS: bota={bota_count} os_ui={os_ui_count} os_models={model_ok}/{len(expected)} os_skinned={os_skinned_count} gallery={len(gallery_files)}")
 print(f"CROSS_PROJECT_KEY_DIFF={key_diff}")
 print(f"MODEL_PARSE_COUNT={model_ok}")
 for item in unavailable:

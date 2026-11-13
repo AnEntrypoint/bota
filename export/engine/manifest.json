@@ -93,7 +93,7 @@
   ],
   "schema": "bota.engine.manifest/v1",
   "source_hashes": {
-    "conformance.json": "15d2c9c069a378ae8de75c64fc1eccd27b846b2c1ccdb8b161ac232fbb53e716",
+    "conformance.json": "7a1361cc8b462448ab64d49c63037d2f7f65e6551f25823c9ab84cb57bd09106",
     "decisions.json": "b32e5f6c132153aa41f209e740bf990667b8ceb167be00e9166ac33a4d4986d9",
     "hero-kits.json": "69a266b14639391d805ebcb0aebb6856cab6eae8cf2f158b47eb208f36f98a7f",
     "hero-registry.json": "9bdfce367281485a93c80212f49bcac872954894648c5de0e3f557a7b40785cc",

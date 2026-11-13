@@ -21,7 +21,7 @@
   },
   "defaultDotaAcronyms": true,
   "engineResolvedExists": false,
-  "generatedAt": "2026-11-13T12:23:24.807964+00:00",
+  "generatedAt": "2026-11-13T12:29:47.404719+00:00",
   "identifierMode": "bota-fullname",
   "nextActorQueueCounts": {
     "bota": 0,
@@ -180,7 +180,7 @@
     "oscraft.crossContract": {
       "bytes": 15628,
       "path": "/workspace/oscraft/scenarios/bota/cross-contract-snapshot.json",
-      "sha256": "f97c746a0d169377f05d5454cef7047fc1764209e4f8c903984c9fd017ec07ca",
+      "sha256": "3d9098878b1abf9effccb2f941e431a4adafd8ebcfe6cd199580bb3978da029f",
       "status": "ready"
     },
     "oscraft.identifiers": {

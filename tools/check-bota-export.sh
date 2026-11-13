@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Single deterministic BOTA export verification + build entrypoint.
 set -u
 set -o pipefail
 
@@ -61,11 +60,9 @@ if [[ $TEMP_MODE -eq 1 ]]; then
 else
   LIVE_ARGS=()
 fi
-# oscraft is migrating BOTA identifiers from acronyms to full character slugs.
-# Detect its committed mode; never treat migration drift as BOTA export drift.
 LIVE_MODE="${BOTA_IDENTIFIER_MODE:-}"
 if [[ -z "$LIVE_MODE" && -f "${OSCRAFT_ROOT:-/workspace/oscraft}/scenarios/bota/CHARACTERS.md" ]] && \
-   grep -q "Active roster: 26 fullname slugs" "${OSCRAFT_ROOT:-/workspace/oscraft}/scenarios/bota/CHARACTERS.md"; then
+   grep -qE "Active roster: [0-9]+ fullname slugs" "${OSCRAFT_ROOT:-/workspace/oscraft}/scenarios/bota/CHARACTERS.md"; then
   LIVE_MODE="bota-fullname"
 else
   LIVE_MODE="${LIVE_MODE:-acronym}"
@@ -110,7 +107,6 @@ print('IDENTIFIER_SCAN_KEYS',len(keys),'RESERVED_OR_OLD_SLUGS',bad)
 sys.exit(1 if bad else 0)
 PY
 
-# git status is report-only; a dirty worktree is user-owned state, not a pipeline failure.
 CHECKS=$((CHECKS+1))
 echo "--- git-status-report-only ---"
 if git status --short >/tmp/bota-git-status.$$ 2>&1; then

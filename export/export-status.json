@@ -1,6 +1,6 @@
 {
   "canonicalImmutability": {
-    "canonicalEngineUnchanged": false,
+    "canonicalEngineUnchanged": true,
     "doNotPromote": true,
     "engineResolvedExists": false
   },
@@ -22,36 +22,36 @@
       "status": "PASS"
     },
     "git-status-report-only": {
-      "exit": null,
-      "status": "MISSING"
+      "exit": 0,
+      "status": "PASS"
     },
     "identifier-scan": {
-      "exit": null,
-      "status": "MISSING"
+      "exit": 0,
+      "status": "PASS"
     },
     "sha256-integrity": {
-      "exit": null,
-      "status": "MISSING"
+      "exit": 0,
+      "status": "PASS"
     },
     "sync-roster": {
       "exit": 0,
       "status": "PASS"
     },
     "validate-apply-mechanism": {
-      "exit": null,
-      "status": "MISSING"
+      "exit": 0,
+      "status": "PASS"
     },
     "validate-decision-packet": {
-      "exit": null,
-      "status": "MISSING"
+      "exit": 0,
+      "status": "PASS"
     },
     "validate-decisions": {
       "exit": 0,
       "status": "PASS"
     },
     "validate-engine-data": {
-      "exit": null,
-      "status": "MISSING"
+      "exit": 0,
+      "status": "PASS"
     },
     "validate-export": {
       "exit": 0,
@@ -62,8 +62,8 @@
       "status": "PASS"
     },
     "validate-integration-live": {
-      "exit": 1,
-      "status": "FAIL"
+      "exit": 0,
+      "status": "PASS"
     }
   },
   "counts": {
@@ -76,27 +76,16 @@
     "markers": 169,
     "voice": 50
   },
-  "drift": [
-    "pipeline exit 1",
-    "validate-integration-live: {'exit': 1, 'status': 'FAIL'}",
-    "validate-engine-data: {'exit': None, 'status': 'MISSING'}",
-    "validate-decision-packet: {'exit': None, 'status': 'MISSING'}",
-    "validate-apply-mechanism: {'exit': None, 'status': 'MISSING'}",
-    "sha256-integrity: {'exit': None, 'status': 'MISSING'}",
-    "identifier-scan: {'exit': None, 'status': 'MISSING'}",
-    "git-status-report-only: {'exit': None, 'status': 'MISSING'}",
-    "canonical engine changed",
-    "live integration {'status': 'FAIL', 'checks': 24, 'unavailable': 25, 'drift': 161, 'cross_project_key_diff': \"['blo', 'bloomer', 'boo', 'boomer', 'bot', 'bot_bernard', 'cha', 'col', 'cole', 'coo', 'coomer', 'din', 'dino', 'ecc', 'ecce', 'fin', 'finger_dan', 'for', 'forever', 'ghi', 'ghillie', 'gon', 'gondola', 'got', 'gothgirl', 'gre', 'grey', 'how', 'howard', 'kar', 'lan', 'lankdad', 'nec', 'neckbeard', 'nos', 'noscope', 'san', 'sanic', 'sho', 'shoop', 'spu', 'spurdo', 'tra', 'tradwife', 'wil', 'willie', 'woj', 'wojak']\"}"
-  ],
-  "generatedAt": "2026-11-13T12:23:28.222232+00:00",
+  "drift": [],
+  "generatedAt": "2026-11-13T12:29:52.788444+00:00",
   "keyManifests": {
     "SHA256SUMS.json": {
       "bytes": 4693,
-      "sha256": "725be4c0d2a1df79bd30d36fb5d22bd6f3a4656fa5b1d68750e683aa9c2f8c83"
+      "sha256": "f85654376dede6d17800cab265b895c524fbb85f422e7a1d8ac6a738356abc99"
     },
     "conformance.json": {
       "bytes": 18312,
-      "sha256": "15d2c9c069a378ae8de75c64fc1eccd27b846b2c1ccdb8b161ac232fbb53e716"
+      "sha256": "7a1361cc8b462448ab64d49c63037d2f7f65e6551f25823c9ab84cb57bd09106"
     },
     "decision-packet.json": {
       "bytes": 16737,
@@ -108,7 +97,7 @@
     },
     "engine/manifest.json": {
       "bytes": 3941,
-      "sha256": "b94d25e1f7a4687e29583abee02da13ed9c34c7010186878358a2cd04df5566b"
+      "sha256": "e6100ee796bec3d55aeae3d0b2f79c02f7af1a9eb72db11fdbfa3ec74bfb8e20"
     },
     "field-index.json": {
       "bytes": 129824,
@@ -120,17 +109,17 @@
     }
   },
   "liveOscraftConformance": {
-    "checks": 24,
-    "cross_project_key_diff": "['blo', 'bloomer', 'boo', 'boomer', 'bot', 'bot_bernard', 'cha', 'col', 'cole', 'coo', 'coomer', 'din', 'dino', 'ecc', 'ecce', 'fin', 'finger_dan', 'for', 'forever', 'ghi', 'ghillie', 'gon', 'gondola', 'got', 'gothgirl', 'gre', 'grey', 'how', 'howard', 'kar', 'lan', 'lankdad', 'nec', 'neckbeard', 'nos', 'noscope', 'san', 'sanic', 'sho', 'shoop', 'spu', 'spurdo', 'tra', 'tradwife', 'wil', 'willie', 'woj', 'wojak']",
-    "drift": 161,
-    "status": "FAIL",
-    "unavailable": 25
+    "checks": 198,
+    "cross_project_key_diff": "[]",
+    "drift": 0,
+    "status": "PASS",
+    "unavailable": 0
   },
   "pipeline": {
     "command": "bash tools/check-bota-export.sh",
-    "exit": 1,
+    "exit": 0,
     "totalChecks": 15
   },
   "schema": "bota.export-status/v1",
-  "status": "DRIFT"
+  "status": "PASS"
 }

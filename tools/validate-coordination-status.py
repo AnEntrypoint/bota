@@ -53,6 +53,7 @@ ws_all = load(WS / ".local/cdn/manifest-all.json", "ws cdn-all") or {}
 ws_extract = load(WS / ".local/extraction-manifest.json", "ws extraction") or {}
 os_ui = load(OS / "bota_ui.json", "oscraft ui") or {}
 os_snapshot = load(OS / "cross-contract-snapshot.json", "oscraft snapshot") or {}
+active_roster = load(E / "active-roster.json", "bota active roster") or {}
 extra_all = load(EXTRA / ".local/cdn/manifest-all.json", "extra cdn-all") or {}
 extra_active = load(EXTRA / ".local/cdn/manifest.json", "extra cdn-active") or {}
 identifiers = (OS / "IDENTIFIERS.md").read_text() if (OS / "IDENTIFIERS.md").is_file() else ""
@@ -60,7 +61,6 @@ identifiers = (OS / "IDENTIFIERS.md").read_text() if (OS / "IDENTIFIERS.md").is_
 rows = (status or {}).get("rows", [])
 counts = (status or {}).get("counts", {})
 
-# Count and live manifest reconciliation.
 if len(rows) == len(queue.get("rows", [])) + len(gaps.get("rows", [])) and counts.get("rows") == len(rows):
     ok()
 else:
@@ -79,7 +79,6 @@ if (status or {}).get("peerCounts", {}).get("wscheppity", {}).get("allNames") in
 else:
     err("wscheppity CDN name count mismatch")
 
-# No orphan queue row; every queue/gap stableId is represented exactly once.
 expected_ids = [r.get("stableId") for r in queue.get("rows", [])] + [r.get("stableId") for r in gaps.get("rows", [])]
 actual_ids = [r.get("stableId") for r in rows]
 if sorted(expected_ids) == sorted(actual_ids) and len(actual_ids) == len(set(actual_ids)):
@@ -87,7 +86,6 @@ if sorted(expected_ids) == sorted(actual_ids) and len(actual_ids) == len(set(act
 else:
     err("orphan or duplicate queue rows in coordination status")
 
-# Per-row proof.
 published_hashes = set()
 for doc in [hy_contract, hy_demand, ws_all, extra_all, extra_active]:
     def walk(node):
@@ -139,12 +137,11 @@ for r in rows:
     else:
         err(f"unknown status {st}: {slug}")
 
-# Identifier inversion and gates.
 if (status or {}).get("identifierMode") == "bota-fullname" and os_ui.get("identifierMode") == "bota-fullname" and "bota-fullname" in identifiers:
     ok()
 else:
     err("oscraft BOTA identifier mode mismatch")
-if (status or {}).get("defaultDotaAcronyms") is True and os_snapshot.get("identifierMode", {}).get("defaultDota") == "default-dota-acronyms" and os_snapshot.get("counts", {}).get("botaFullnameIds") == 26:
+if (status or {}).get("defaultDotaAcronyms") is True and os_snapshot.get("identifierMode", {}).get("defaultDota") == "default-dota-acronyms" and os_snapshot.get("counts", {}).get("botaFullnameIds") == active_roster.get("activeHeroCount"):
     ok()
 else:
     err("oscraft default Dota acronym expectation mismatch")

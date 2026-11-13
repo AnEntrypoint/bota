@@ -1,6 +1,6 @@
 # BOTA owner progress dashboard
 
-Generated: `2026-11-13T12:19:35.499791+00:00`
+Generated: `2026-11-13T12:29:41.595220+00:00`
 
 Dashboard status: `PASS`. Read-only peer evidence only; no peer writes.
 
@@ -12,7 +12,7 @@ Dashboard status: `PASS`. Read-only peer evidence only; no peer writes.
 
 ## Agents
 
-### `bota` — `DRIFT`
+### `bota` — `PASS`
 
 - Counts: `{"coordinationRows": 536, "gatedFields": 425, "hashes": 50, "ruleDemandRows": 382}`
 - Evidence: `/workspace/bota/export/coordination-status.json`, `/workspace/bota/export/coordination-auto-refresh.json`, `/workspace/bota/export/export-status.json`, `/workspace/bota/export/SHA256SUMS.json`
