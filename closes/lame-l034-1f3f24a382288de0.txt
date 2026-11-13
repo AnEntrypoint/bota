@@ -1,0 +1,1 @@
+lame-l034-1f3f24a382288de0 resolved ledger L034 status=fixed; ledger witness: Re-read plan/24: 'Tier letters withdrawn' bullet count 0. 2026-11-13T12:22:40.585Z
