@@ -1,0 +1,1 @@
+lame-l064-1f34baa3821f853d resolved ledger L064 status=fixed; ledger witness: Re-read plan/19: 'Movement speed is capped at 522 (UNVERIFIED; not checked against 6.88g).' count 1. 2026-11-13T12:22:41.352Z
