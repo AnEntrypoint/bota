@@ -1,0 +1,1 @@
+lame-l050-1f383ca3822297fa resolved ledger L050 status=fixed; ledger witness: Re-read plan/25 R5: 'Resolved in section 2 ... so 3.8 s is 61 ticks.'; 'needs a written rounding rule' count 0. 2026-11-13T12:22:40.971Z
