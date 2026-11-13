@@ -1,6 +1,6 @@
 # Gallery
 
-**27 of 27 characters generated.** Every image below opens full size.
+**25 of 25 characters generated.** Every image below opens full size.
 
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
@@ -12,7 +12,6 @@
 
 <div class="gal">
 <figure><a href="gallery/001-neckbeard.jpg"><img src="gallery/001-neckbeard.jpg" alt="001 Neckbeard" loading="lazy"></a><figcaption>001 Neckbeard</figcaption></figure>
-<figure><a href="gallery/002-chad.jpg"><img src="gallery/002-chad.jpg" alt="002 Chad" loading="lazy"></a><figcaption>002 Chad</figcaption></figure>
 <figure><a href="gallery/003-gigachad.jpg"><img src="gallery/003-gigachad.jpg" alt="003 Gigachad" loading="lazy"></a><figcaption>003 Gigachad</figcaption></figure>
 <figure><a href="gallery/004-wojak.jpg"><img src="gallery/004-wojak.jpg" alt="004 Wojak" loading="lazy"></a><figcaption>004 Wojak</figcaption></figure>
 <figure><a href="gallery/005-bloomer.jpg"><img src="gallery/005-bloomer.jpg" alt="005 Bloomer" loading="lazy"></a><figcaption>005 Bloomer</figcaption></figure>
@@ -21,7 +20,6 @@
 <figure><a href="gallery/008-coomer.jpg"><img src="gallery/008-coomer.jpg" alt="008 Coomer" loading="lazy"></a><figcaption>008 Coomer</figcaption></figure>
 <figure><a href="gallery/009-gondola.jpg"><img src="gallery/009-gondola.jpg" alt="009 Gondola" loading="lazy"></a><figcaption>009 Gondola</figcaption></figure>
 <figure><a href="gallery/010-spurdo.jpg"><img src="gallery/010-spurdo.jpg" alt="010 Spurdo" loading="lazy"></a><figcaption>010 Spurdo</figcaption></figure>
-<figure><a href="gallery/011-karen.jpg"><img src="gallery/011-karen.jpg" alt="011 Karen" loading="lazy"></a><figcaption>011 Karen</figcaption></figure>
 <figure><a href="gallery/012-howard.jpg"><img src="gallery/012-howard.jpg" alt="012 Howard" loading="lazy"></a><figcaption>012 Howard</figcaption></figure>
 <figure><a href="gallery/013-sanic.jpg"><img src="gallery/013-sanic.jpg" alt="013 Sanic" loading="lazy"></a><figcaption>013 Sanic</figcaption></figure>
 <figure><a href="gallery/014-lankdad.jpg"><img src="gallery/014-lankdad.jpg" alt="014 Lankdad" loading="lazy"></a><figcaption>014 Lankdad</figcaption></figure>

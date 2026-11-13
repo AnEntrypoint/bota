@@ -1,92 +1,154 @@
 [
- {
-  "title": "Start",
-  "files": [
-   "README.md"
-  ]
- },
- {
-  "title": "Gallery",
-  "files": [
-   "GALLERY.md"
-  ]
- },
- {
-  "title": "Design",
-  "files": [
-   "plan/00-index.md",
-   "plan/01-scope.md",
-   "plan/02-vision-and-pillars.md",
-   "plan/03-core-loop-and-win-condition.md",
-   "plan/04-map.md",
-   "plan/05-economy.md",
-   "plan/06-clout.md",
-   "plan/07-heroes-and-attributes.md",
-   "plan/08-combat-rules.md",
-   "plan/09-launch-hero-kits.md",
-   "plan/10-remaining-hero-kits.md",
-   "plan/11-items.md",
-   "plan/12-neutrals-boosts-the-trend-and-snapshot.md",
-   "plan/13-vision-and-fog.md",
-   "plan/14-draft-and-modes.md",
-   "plan/15-roster-and-archetypes.md",
-   "plan/16-humor-and-tone.md",
-   "plan/17-presentation-and-readability.md",
-   "plan/18-asset-manifest-and-audio.md",
-   "plan/19-balance-and-qa.md",
-   "plan/20-open-questions-sources-and-decisions.md",
-   "plan/21-systems-added-back.md",
-   "plan/22-art-direction.md",
-   "plan/23-voice-and-banter.md",
-   "plan/24-power-tier-draft.md",
-   "plan/25-engine-data-plan.md",
-   "plan/26-first-playable-cut-list-and-checks.md"
-  ]
- },
- {
-  "title": "Characters",
-  "files": [
-   "characters/001-neckbeard.md",
-   "characters/002-chad.md",
-   "characters/003-gigachad.md",
-   "characters/004-wojak.md",
-   "characters/005-bloomer.md",
-   "characters/006-tradwife.md",
-   "characters/007-boomer.md",
-   "characters/008-coomer.md",
-   "characters/009-gondola.md",
-   "characters/010-spurdo.md",
-   "characters/011-karen.md",
-   "characters/012-howard.md",
-   "characters/013-sanic.md",
-   "characters/014-lankdad.md",
-   "characters/015-finger-dan.md",
-   "characters/016-willie.md",
-   "characters/017-noscope.md",
-   "characters/018-dino.md",
-   "characters/019-ecce.md",
-   "characters/020-bot-bernard.md",
-   "characters/021-shoop.md",
-   "characters/022-npc.md",
-   "characters/023-forever.md",
-   "characters/024-cole.md",
-   "characters/025-grey.md",
-   "characters/026-ghillie.md",
-   "characters/027-gothgirl.md",
-   "characters/028-wanderer.md",
-   "characters/029-raker.md",
-   "characters/030-seeder.md",
-   "characters/031-wartrucker.md",
-   "characters/032-bouncer.md",
-   "characters/INDEX.tsv",
-   "characters/STYLE.md"
-  ]
- },
- {
-  "title": "Roster",
-  "files": [
-   "ROSTER.md",
-   "roster.yaml"
-  ]
- }
+  {
+    "title": "Start",
+    "files": [
+      "README.md"
+    ]
+  },
+  {
+    "title": "Gallery",
+    "files": [
+      "GALLERY.md"
+    ]
+  },
+  {
+    "title": "Design",
+    "files": [
+      "plan/00-index.md",
+      "plan/01-scope.md",
+      "plan/02-vision-and-pillars.md",
+      "plan/03-core-loop-and-win-condition.md",
+      "plan/04-map.md",
+      "plan/05-economy.md",
+      "plan/06-clout.md",
+      "plan/07-heroes-and-attributes.md",
+      "plan/08-combat-rules.md",
+      "plan/09-launch-hero-kits.md",
+      "plan/10-remaining-hero-kits.md",
+      "plan/11-items.md",
+      "plan/12-neutrals-boosts-the-trend-and-snapshot.md",
+      "plan/13-vision-and-fog.md",
+      "plan/14-draft-and-modes.md",
+      "plan/15-roster-and-archetypes.md",
+      "plan/16-humor-and-tone.md",
+      "plan/17-presentation-and-readability.md",
+      "plan/18-asset-manifest-and-audio.md",
+      "plan/19-balance-and-qa.md",
+      "plan/20-open-questions-sources-and-decisions.md",
+      "plan/21-systems-added-back.md",
+      "plan/22-art-direction.md",
+      "plan/23-voice-and-banter.md",
+      "plan/24-power-tier-draft.md",
+      "plan/25-engine-data-plan.md",
+      "plan/26-first-playable-cut-list-and-checks.md",
+      "plan/27-gm-skills-and-spawn-plan.md",
+      "plan/28-owner-decision-sheet.md",
+      "plan/29-phase1-audit.md",
+      "plan/30-sse-notifications-reader-spec.md",
+      "plan/31-spawn-events-reader-spec.md",
+      "plan/32-git-notes-fetch-spec.md",
+      "plan/33-coordinated-content-rule-iteration.md",
+      "plan/34-content-status-adjudication.md",
+      "plan/35-continuous-iteration-ledger.md"
+    ]
+  },
+  {
+    "title": "Characters",
+    "files": [
+      "characters/001-neckbeard.md",
+      "characters/004-wojak.md",
+      "characters/005-bloomer.md",
+      "characters/006-tradwife.md",
+      "characters/007-boomer.md",
+      "characters/008-coomer.md",
+      "characters/009-gondola.md",
+      "characters/010-spurdo.md",
+      "characters/012-howard.md",
+      "characters/013-sanic.md",
+      "characters/014-lankdad.md",
+      "characters/015-finger-dan.md",
+      "characters/016-willie.md",
+      "characters/017-noscope.md",
+      "characters/018-dino.md",
+      "characters/019-ecce.md",
+      "characters/020-bot-bernard.md",
+      "characters/021-shoop.md",
+      "characters/022-npc.md",
+      "characters/023-forever.md",
+      "characters/024-cole.md",
+      "characters/025-grey.md",
+      "characters/026-ghillie.md",
+      "characters/027-gothgirl.md",
+      "characters/INDEX.tsv",
+      "characters/STYLE.md"
+    ]
+  },
+  {
+    "title": "Roster",
+    "files": [
+      "ROSTER.md",
+      "roster.yaml"
+    ]
+  },
+  {
+    "title": "Export",
+    "files": [
+      "export/hero-registry.json",
+      "export/hero-kits.json",
+      "export/hero-voice.json",
+      "export/image-references.json",
+      "export/heroes.tsv",
+      "export/abilities.tsv",
+      "export/voice.tsv",
+      "export/images.tsv",
+      "export/export.yaml",
+      "export/SHA256SUMS.json",
+      "export/decisions.json",
+      "export/DECISIONS.md",
+      "export/decisions.tsv",
+      "export/INTEGRATION.md",
+      "export/integration-contract.json",
+      "export/conformance.json",
+      "tools/validate-integration-live.py",
+      "export/engine/heroes.json",
+      "export/engine/abilities.json",
+      "export/engine/voice.json",
+      "export/engine/portraits.json",
+      "export/engine/manifest.json",
+      "tools/build-engine-data.py",
+      "tools/validate-engine-data.py",
+      "export/DECISION-PACKET.md",
+      "export/decision-packet.json",
+      "export/field-index.json",
+      "export/field-index.tsv",
+      "tools/apply-decision.py",
+      "tools/validate-decision-packet.py",
+      "export/APPLY-GUIDE.md",
+      "tools/validate-apply-mechanism.py",
+      "tools/check-bota-export.sh",
+      "tools/check-bota-export-clean.py",
+      "tools/bota-export-watch.py",
+      "tools/validate-export-status.py",
+      "export/STATUS.md",
+      "export/export-status.json",
+      "export/SPAWN-COMPATIBILITY.md",
+      "export/spawn-compatibility.json",
+      "tools/validate-spawn-compatibility.py",
+      "export/rule-demand.json",
+      "export/rule-demand.tsv",
+      "export/content-request-queue.json",
+      "export/content-request-queue.tsv",
+      "export/spawn-extraction-gaps.json",
+      "export/rule-demand-prior.json",
+      "export/coordination-status.json",
+      "export/coordination-status.md",
+      "export/owner-decision-brief.md",
+      "export/coordination-auto-refresh.json",
+      "export/AUTO-REFRESH.md",
+      "export/progress-dashboard.json",
+      "export/PROGRESS-DASHBOARD.md",
+      "export/actor-backlog.json",
+      "export/actor-backlog.md"
+    ]
+  }
 ]

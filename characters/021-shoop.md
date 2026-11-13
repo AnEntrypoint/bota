@@ -6,13 +6,13 @@
 - Role: Ranged nuker
 - Attribute: Int
 - Range: Ranged
-- Distinct prop: Plasma sphere charging in the mouth
+- Distinct prop: Giant rectangular red mouth, eye stalks and tiny bowtie
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-bright sky-blue spherical floating head, enormous thick red cartoon lips opened wide, bulging circular white eyes, spinning bright-cyan plasma sphere charging within oral cavity
+floating rectangular red mouth with two eye stalks, a tiny bowtie, white shirt, suspenders and heavy work boots
 
 ## Hook
 
-Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit.
+Charges plasma in the enormous mouth and calls the resulting WHOOSH a transition wipe, with a bowtie for professionalism.

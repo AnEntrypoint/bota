@@ -13,12 +13,11 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 - FLAG: global effect, permanent disable (no timer or until-condition), or stacking with no stated cap. Flagged heroes are tested first.
 - The role family average is the mean of the same measure over every other hero in the same role family (section 15), taken from the same test (UNVERIFIED until the first playtest).
 
-## 1. Table (26 active heroes)
+## 1. Table (24 active heroes)
 
 | # | Hero | Role family | Flag | Reason |
 | --- | --- | --- | --- | --- |
 | 001 | Neckbeard | Heckler | - | Ult makes an ally untargetable; otherwise shield, heal, slow. |
-| 002 | Chad | Showboat | - | Ult replays the next death after a delay; frost slow, stun mark. |
 | 004 | Wojak | Recluse | - | Taunt, slow, reflect, threshold kill; no global, stacking or escape. |
 | 005 | Bloomer | Herald | - | Stun and slow; hawk and boar summons; ult rallies allies. |
 | 006 | Tradwife | Herald | - | Movement-scaled bleed, attack speed, area damage; reveal and drain. |
@@ -26,7 +25,6 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 | 008 | Coomer | Firebrand | - | Stun and damage, fire area, knockback; ult summons self-clones. |
 | 009 | Gondola | Recluse | FLAG | Potato Spit stacks, no cap stated; ult adds damage per hit taken. |
 | 010 | Spurdo | Firebrand | FLAG | Summons spiderlings, no cap stated; web slow, poison, heal on kills. |
-| 011 | Karen | Heckler | - | Nearby stun; charge; reflect when hit; line charge ult. |
 | 012 | Howard | Archivist | - | Ult is a temporary sanctuary; creep conversion and healing. |
 | 013 | Sanic | Stalker | - | Stealth while moving is its escape; fire arrows; skeleton ult. |
 | 014 | Lankdad | Phantom | - | Reveal and damage nearby; pull; push; ult stuns all in radius. |
@@ -46,7 +44,7 @@ Names: the characters are the ROSTER.md set, slot = number. Renamed kits are GUE
 
 ## 2. Summary
 
-- Coverage: 6 launch kits (section 9), 20 remaining kits (section 10). All 26 active heroes matched by slot.
+- Coverage: 6 launch kits (section 9), 18 remaining kits (section 10). All 24 active heroes matched by slot.
 - Flags: 4. Permanent disable 1 (Forever 023). Uncapped stacking 3 (Gondola 009, Spurdo 010, Npc 022).
 
 ## 3. Test first

@@ -1,6 +1,6 @@
 # 15. Roster and role families
 
-26 active heroes across twelve gameplay role families. Roster slots are the kept characters in INDEX.tsv order, with gaps where a slot was retired. Reserve 003 (Gigachad, Chad's ultimate) and 028 to 032 (Wanderer, Raker, Seeder, Wartrucker, Bouncer) have no role family or attribute until promoted; Gigachad's row is kept as the source for Chad's ultimate. Each row gives the character, role family, attribute, range and a signature gag taken from the character prompt. The old archetype names are kept in the last column of the family table only.
+24 active heroes across twelve gameplay role-family shapes. Roster slots are the kept characters in INDEX.tsv order; slots 002 (Chad), 003 (Gigachad) and 011 (Karen) are retired and carry no role family or attribute. The gallery has 25 images: the 24 active heroes plus the image-only 003 visual reference. No reserve or retired character is playable. Showboat and Leash keep their family shapes but have no active hero after the retirement. The old archetype names are kept in the last column of the family table only.
 
 ### Role families
 
@@ -21,41 +21,42 @@
 
 Each variant differs from the others in at least two of: body proportion, prop silhouette, primary value group. A Stalker in a hood and a Stalker in a hazmat suit share a role family and read as two heroes.
 
+### Image-grounded running gags
+
+Three running arguments cross the 24-hero roster without flattening every hero into the same joke. The **Receipt Chain** starts with Neckbeard's crumbs and TACOS stain, returns as Boomer billing a grass stain to the youth, and Howard files both. The **Repost Chain** starts with Grey's follow-up nobody remembers, passes through Forever's looping clip and Npc's Nice weather patch note, and ends with Gothgirl rewinding the whole argument before the word vibe was said. The **Camera Chain** makes Bot Bernard lean out of the portrait, Noscope claim a no-scope through enough optics to see orbit, and Shoop wipe between the takes. A gag must name one visible detail, one game state, and one earlier link in its chain.
+
 Rules for the roster columns:
 
-- **Attr.** Within each role family, in roster order, attribute cycles Str, Agi, Int. Every family therefore holds all three, and the overall split is Str 42, Agi 38, Int 32.
+- **Attr.** Within each role family, in roster order, attributes are spread across Str, Agi and Int. The overall split across the 24 active heroes is Str 13, Agi 7, Int 4.
 - **Range.** Melee is unarmed or a hand-held close weapon or prop. Ranged is a projectile, beam, sound, throw or thrown-out prop. Where the prompt gives no weapon, range defaults to Melee.
 
 ### Roster
 
 | # | Character | Role family | Attr | Range | Signature gag |
 | --- | --- | --- | --- | --- | --- |
-| 001 | Neckbeard | Heckler | Str | Melee | Soaks the first hit for an ally in a greasy taco shirt, then banishes a friend to a basement that sandal socks make unbearable. |
-| 002 | Chad | Showboat | Str | Melee | Freezes enemies with one glance at the jaw, and for five seconds the pompadour disarms everyone in range. |
-| 003 | Gigachad | Bulwark | Agi | Melee | Silent marble statue that crosses the map in one unbroken stride and hits harder as his sigma empties. |
-| 004 | Wojak | Recluse | Str | Melee | Sighs at the clouds until every enemy in range turns on him, then finishes anyone already low on health. |
-| 005 | Bloomer | Herald | Agi | Melee | Blinds nearby enemies with a wholesome smile, then sends a boar in a pastel windbreaker to charge them. |
-| 006 | Tradwife | Herald | Int | Melee | Swats enemies with warm brioche that hurts more the farther they walk, while apron strings speed her attacks. |
-| 007 | Boomer | Heckler | Agi | Melee | Turns invisible behind blue-mirror sunglasses until he swings, then collects gold for every grass stain left on enemies. |
-| 008 | Coomer | Firebrand | Str | Melee | Claps one oversized arm to stun, then summons clones that all carry the same arm. |
-| 009 | Gondola | Recluse | Agi | Melee | Spits stacking slows from a potato trunk, then hits back harder for every blow it has taken. |
-| 010 | Spurdo | Firebrand | Agi | Melee | Hatches spiderlings from a parka hood and heals every time one of them kills something. |
-| 011 | Karen | Heckler | Int | Ranged | Demands the manager by charging every enemy in a line, and bounces hits back with an endless receipt. |
-| 012 | Howard | Archivist | Str | Melee | Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides. |
-| 013 | Sanic | Stalker | Str | Melee | Smears out of sight while running, then attacks in a blur with a swarm of scribbled skeletons. |
-| 014 | Lankdad | Phantom | Str | Ranged | Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare. |
-| 015 | Finger Dan | Heckler | Str | Ranged | Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast. |
-| 016 | Willie | Engine | Str | Melee | Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies. |
-| 017 | Noscope | Stalker | Agi | Ranged | Keeps a green crosshair stuck on every target, crits in lucky bursts, and chains bolt-action shots between enemies. |
-| 018 | Dino | Bulwark | Str | Melee | Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels. |
-| 019 | Ecce | Archivist | Int | Melee | Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces. |
-| 020 | Bot Bernard | Herald | Int | Ranged | Leans away from the camera, snapping an arrow along a line and leaping to gain attack speed. |
-| 021 | Shoop | Drifter | Int | Ranged | Charges plasma in an open mouth, dashes through enemies, and spits a second dash at anyone the first one hit. |
-| 022 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies, so enemies cannot tell which idle stance is the real one. |
-| 023 | Forever | Recluse | Str | Melee | Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends. |
-| 024 | Cole | Phantom | Str | Ranged | Thunderbolt holds an enemy in place and copies its image in a Poke Ball flash. |
-| 025 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies, stacking up to five, and spends each stack on harder tractor-beam hits. |
-| 026 | Ghillie | Stalker | Str | Ranged | Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope. |
-| 027 | Gothgirl | Recluse | Agi | Melee | Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze. |
+| 001 | Neckbeard | Heckler | Str | Melee | Soaks the first hit in the TACOS shirt, then files a crumb-by-crumb appeal from every cargo pocket. |
+| 004 | Wojak | Recluse | Str | Melee | Sighs until five enemies queue up to agree with him, then finishes the one who says it gets better. |
+| 005 | Bloomer | Herald | Agi | Melee | Blinds enemies with optimism so aggressive it needs its own content warning, then sends a hoodie-wearing boar to check on them. |
+| 006 | Tradwife | Herald | Int | Melee | The daisy-dress stride apologises in advance; the group chat already read the daisy-print instructions wrong. |
+| 007 | Boomer | Heckler | Agi | Melee | Pull-starts the lawn, checks the energy drink for a receipt, and bills every grass stain to the youth. |
+| 008 | Coomer | Firebrand | Str | Melee | Claps the hoodie pocket into a stun and insists every clone is merely a different browser tab. |
+| 009 | Gondola | Recluse | Agi | Melee | Spits a slow from the moustache, then lets two kilometres of denim absorb the consequences. |
+| 010 | Spurdo | Firebrand | Agi | Melee | Hatches fan accounts from the hood and gives every bad take a moustache large enough to hide behind. |
+| 012 | Howard | Archivist | Str | Melee | Detains enemies with an apology so practiced it has a filing date, then smiles through the incident report. |
+| 013 | Sanic | Stalker | Str | Melee | Runs at thirty degrees from reality, leaves the hitbox three frames behind, and calls that a patch note. |
+| 014 | Lankdad | Phantom | Str | Ranged | Pulls a target toward the blank face with one tendril, then cites the other seven as witnesses. |
+| 015 | Finger Dan | Heckler | Str | Ranged | Accuses the lane with one finger that is visibly not in the sculpt, then asks VAR to review the accusation. |
+| 016 | Willie | Engine | Str | Melee | Whistles a rock into existence, rolls it through copyright-safe black-and-white silence, and lets the oversized shoes land the punchline. |
+| 017 | Noscope | Stalker | Agi | Ranged | Claims he did it without looking while wearing enough optics to photograph a rumour from orbit. |
+| 018 | Dino | Bulwark | Str | Melee | Chomps through the air in 1-bit steps while insisting this is a birthday and everyone was invited. |
+| 019 | Ecce | Archivist | Int | Melee | Beholds the lane, beams the halo into a stun, and reshares the damage with a caption nobody can prove he wrote. |
+| 020 | Bot Bernard | Herald | Int | Ranged | Leans away from the camera so the chrome lens has to stage a whole intervention, then files it as a portrait. |
+| 021 | Shoop | Drifter | Int | Ranged | Charges plasma in the enormous mouth and calls the resulting WHOOSH a transition wipe, with a bowtie for professionalism. |
+| 022 | Npc | Phantom | Agi | Melee | Patrols as identical grey copies and says Nice weather today as if the weather were a patch note. |
+| 023 | Forever | Recluse | Str | Melee | Loops the same tear-soaked grin until the clip ends, refills, and asks whether this is charming yet. |
+| 024 | Cole | Phantom | Str | Ranged | Copies an enemy into the backpack and shouts the equivalent of choose me before checking what got caught. |
+| 025 | Grey | Drifter | Str | Ranged | Abducts specimens from dead enemies and files the incident as a follow-up to a follow-up nobody remembers posting. |
+| 026 | Ghillie | Stalker | Str | Ranged | Leaves a warning sign in a haystack, then acts shocked when the haystack files it back. |
+| 027 | Gothgirl | Recluse | Agi | Melee | Blinks away in a cloud of studied indifference and rewinds the argument to before anyone said the word vibe. |
 
-Reserve (not in the 59): the five slots named at the top of this chapter. Their prompts are in characters.
+Coverage: 24 active heroes, one row per ROSTER.md slot. Slots 002, 003 and 011 are retired and are not hero rows.

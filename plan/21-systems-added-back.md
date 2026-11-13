@@ -6,26 +6,25 @@ Numbers in these tables are UNVERIFIED.
 
 - Job: power growth (plan/02, Talents row). The cost is the tier not taken.
 
-Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The named choices below cover Grey, Boomer, Gigachad, Noscope, Wojak, Ghillie, Forever, Gothgirl, Ecce and Coomer, with the ability names of sections 9 and 10. The named choices below also cover Gothgirl, Ecce and Coomer (the first-playable slice, plan/09). Their values are the role family's set, with their own ability names (decision 9a to 9c, GUESS where marked). Every other hero uses the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
+Four talent tiers per hero, unlocked at levels 10, 15, 20 and 25. Each tier offers two choices, written as left / right. The named choices below cover Grey, Boomer, Noscope, Wojak, Ghillie, Forever, Gothgirl, Ecce and Coomer, with the ability names of sections 9 and 10. The named choices below also cover Gothgirl, Ecce and Coomer (the first-playable slice, plan/09). Their values are the role family's set, with their own ability names (decision 9a to 9c, GUESS where marked). Every other hero uses the same pattern: one tier choice improves a basic ability, and one improves the ultimate or the hero's core stat, sized to the tiers in section 9.
 
 | Hero | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
 | Grey | +2 Clout per kill / Beam Quote radius +100 | Abduction Count cap +5 / Orb Vibes Aura −2 armor | Probe Ticker +2 s / Beam Quote hits a third time | Hype Spike at 80 Clout / Abduction Count survives death |
 | Boomer | Pull Cord Hurl bounces once / Ok Boomer Strike +30 damage | Cobalt Fade +1 s / Tracked Lawn pays +10 gold | Tracked Lawn reveals for 4 s / Pull Cord Hurl briefly stuns | Each tracked enemy gets a Spoiler Tag / Ok Boomer Strike resets Cobalt Fade |
-| Gigachad | Flex Rebuttal +10 damage / Chiseled Step cooldown −2 s | Monolith Block +1 s / Carved Gap Lot radius +50 | Flex Rebuttal heals 5% / Chiseled Step leaves an afterimage for 40 damage | Carved Gap Lot hits twice / Sigma regen doubles below 50% sigma |
 | Noscope | Hitmarker Spin +40 damage / Sponsor Patch Heal +50 heal | Lucky Scope crit chance +5% / Bolt Action Chain adds one hit | Hitmarker Spin lifesteal 10% / +1 Clout per ally healed | Bolt Action Chain resets on kill / Allies gain +10% move speed near you |
 | Wojak | Sigh at Clouds lasts +1 s / Hollow Stare slows +5% | Sad Clapback reflects 10% / Sorrowful Cancel threshold +5% | Hollow Stare spreads / Sigh at Clouds cooldown −10 s | Sorrowful Cancel grants Clout / Sad Clapback deals +40 damage, counted inside the decision 38 reflect cap |
 | Ghillie | Burlap Warning radius +30 / Twine Lock +0.5 s | Corn Stalk Jump range +100 / Scoped Temp Ban +1 s | Burlap Warning holds 2 charges / Twine Lock reveals a Clout pulse | Scoped Temp Ban detonates on death / Burlap Warnings reveal a trapped enemy to its team for 2 s (the Reveal signal, plan/13) |
 | Forever | Tear Clip +10% speed / Crawl Ghost +1 s | Lumpy Wail +50 damage / Eternal Loop stun +0.5 s | Tear Clip returns / Crawl Ghost leaves a copy | Eternal Loop repeats once if the target dies / Eternal Loop extends for each ally in radius |
 | Gothgirl | Fan Swarm radius +50 / Cardigan Flicker cooldown −5 s | Fan Swarm +1 bug / Rewind Smoke range +200 | Cardigan Flicker root 0.5 s / Velvet Double heals 2% (GUESS) | Rewind Smoke gives Clout from the ultimate / Regen +2% while unseen (GUESS) |
 | Ecce | Halo Beam radius +30 / Halo Shutter duration +0.5 s | Burlap Reshare range +100 / Fresco Aura duration +1 s | Halo Beam holds two charges / Halo Shutter reveals a Clout pulse | Halo Beam detonates on death / Halo Shutter LIVE for 2 s |
-| Coomer | Lone Arm Clap length +100 / Tank Top Splash attack speed +10% (GUESS) | Lone Arm Clap stun +0.3 s / Right Arm Clones extra target (GUESS) | Lone Arm Clap stun 0.5 s / Bloodshot Brew heals allies (GUESS) | Lone Arm Clap global / Reveal 2 s (GUESS) |
+| Coomer | Hoodie Pocket Clap length +100 / Hoodie Pocket Splash attack speed +10% (GUESS) | Hoodie Pocket Clap stun +0.3 s / Browser Tab Clones extra target (GUESS) | Hoodie Pocket Clap stun 0.5 s / Bloodshot Brew heals allies (GUESS) | Hoodie Pocket Clap global / Reveal 2 s (GUESS) |
 
 ### Talent sets for every hero
 
 Numbers in this section are UNVERIFIED.
 
-Every other hero gets the talent set of its role family below. Heroes with named choices above use those. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role.
+Every other hero gets the talent set of its role family below. Heroes with named choices above use those. Other heroes use these, with their own ability names. The first column gives the role family of section 15 and its role. Showboat and Leash have no active hero in the 24-hero roster; their rows stay as shape-level sets for future heroes.
 
 | Role family (role) | Level 10 | Level 15 | Level 20 | Level 25 |
 | --- | --- | --- | --- | --- |
@@ -112,12 +111,11 @@ Numbers in this section are UNVERIFIED.
 
 ### Signature mechanics
 
-Gigachad, Noscope, Wojak and Forever are outside the first-playable slice (plan/26); their rules are kept for the later roster. Each of these heroes has one rule that makes its kit read differently on the map. Each rule follows decision 9; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
+Noscope, Wojak and Forever are outside the first-playable slice (plan/26); their rules are kept for the later roster. Each of these heroes has one rule that makes its kit read differently on the map. Each rule follows decision 9; Stan is a Reach effect, not a Clout stat. Numbers are UNVERIFIED.
 
 | Hero | Signature mechanic | Clout tie | Job (plan/02 row) |
 | --- | --- | --- | --- |
 | Boomer | Tracked Lawn marks a target; its LIVE state shows to the whole team with the standard LIVE dot and ring. | Vision | Vision and wards |
-| Gigachad | Flex Rebuttal cuts the target's Reach by 100 for 6 s. | Reach | Vision and wards |
 | Noscope | Reach +50 every 10 s with no ally within 600, up to +150. | Reach | Vision and wards |
 | Wojak | Sigh at Clouds sets the taunted enemy's Reach to 0 while taunted. | Reach | Vision and wards |
 | Ghillie | A hero standing in a Burlap Warning trap is revealed to its team. | Reveal | Vision and wards |

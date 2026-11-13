@@ -6,13 +6,13 @@
 - Role: Harasser, zoner
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Round wire-rim glasses (worn; no held prop)
+- Distinct prop: Stained TACOS shirt and round wire glasses (worn; no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-heavyset biped, patchy unwashed neck curtain beard, greying threadbare t-shirt with faded cracked taco illustration and greasy food stains, sagging grey cargo shorts with bulging pockets, white crew socks pulled halfway up calves into dark hook-and-loop sandals, heavy round wire glasses, unkempt ponytail with receding hairline, slouched posture, hand-painted digital textures, clean volumetric cloth folds
+heavyset man in a stained charcoal TACOS T-shirt, cargo shorts, round wire glasses, tiny receding ponytail and scuffed sneakers, arms held out in a why-not T-pose
 
 ## Hook
 
-Soaks the first hit for an ally in a greasy taco shirt, then banishes a friend to a basement that sandal socks make unbearable.
+Soaks the first hit in the TACOS shirt, then files a crumb-by-crumb appeal from every cargo pocket.

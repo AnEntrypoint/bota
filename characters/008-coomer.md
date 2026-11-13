@@ -6,13 +6,13 @@
 - Role: Hot-take initiator
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Massive right arm (no held prop)
+- Distinct prop: Grey hoodie pocket and too-wide grin (no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-hollow sunken cheeks, wide bloodshot unblinking eyes, disheveled greasy hair, stretched-out grey ribbed tank top with sweat rings, faded plaid pajama pants, massive hyper-developed right arm and shoulder contrasting with thin withered left arm
+slim hoodie figure with a comb-over, huge black-ringed eyes and a too-wide beard-framed grin, hands spread in innocent denial
 
 ## Hook
 
-Claps one oversized arm to stun, then summons clones that all carry the same arm.
+Claps the hoodie pocket into a stun and insists every clone is merely a different browser tab.

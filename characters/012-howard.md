@@ -6,13 +6,13 @@
 - Role: Utility, zone control
 - Attribute: Str
 - Range: Melee
-- Distinct prop: White ceramic mug, WORLD'S BEST
+- Distinct prop: Orange plaid shirt and pained blue-eyed smile (no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-wispy white hair, heavy crinkled eye bags, pained forced toothy grimace, sensible beige short-sleeve office polo shirt tucked into brown trousers, white ceramic mug with bold 'WORLD'S BEST' text, hand-painted stylized textures
+elder with white hair, blue eyes and a white beard, orange plaid shirt, khaki trousers and brown shoes, smiling with visibly pained eyes
 
 ## Hook
 
-Holds enemies in detention with a mug, and grimaces at a creep until it agrees to switch sides.
+Detains enemies with an apology so practiced it has a filing date, then smiles through the incident report.

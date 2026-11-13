@@ -6,13 +6,13 @@
 - Role: Reach tank, initiator
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Tyrannosaur body (no held prop)
+- Distinct prop: Cyan party hat, suspenders and toothy T-rex grin
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-stark monochromatic grey 1-bit pixel aesthetic, running bipedal tyrannosaur silhouette, stubby forearms, snapping rectangular jaw, angular pixel-stepped running posture, crisp shadow
+grinning grey T-rex in striped suspender trousers, a shirt collar and a cyan party hat with pink ribbon, stubby arms open for a hug
 
 ## Hook
 
-Sprints in blocky 1-bit steps, chomping through the air to heal and blinding everything near the pixels.
+Chomps through the air in 1-bit steps while insisting this is a birthday and everyone was invited.

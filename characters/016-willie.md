@@ -6,7 +6,7 @@
 - Role: Late-game Clout carry
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Free-floating brass ship bell
+- Distinct prop: Round black ears, long tail and oversized shoes; whistle, not a bell
 - Value groups (body / head / prop): L / D / M
 
 ## Lead
@@ -15,8 +15,8 @@ stylized 3d anthropomorphic character
 
 ## Subject
 
-strict black-and-white monochromatic palette, round black ears, button-front white shorts, puffed whistling cheeks, hands gripping a free-floating brass ship bell, bouncing rhythmic stance
+vintage black-and-white round-eared mouse in button shorts and oversized shoes, side-on with a smug whistle and a long thin tail
 
 ## Hook
 
-Rolls a rock along a line, whistles it forward, and inhales to pull more rocks at enemies.
+Whistles a rock into existence, rolls it through copyright-safe black-and-white silence, and lets the oversized shoes land the punchline.

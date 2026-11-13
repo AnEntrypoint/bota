@@ -6,7 +6,7 @@
 - Role: Resell healer, buffer
 - Attribute: Int
 - Range: Melee
-- Distinct prop: Braided brioche loaf in oven mitts
+- Distinct prop: Blue daisy dress and anxious eyebrows (no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Lead
@@ -15,8 +15,8 @@ stylized 3d female character
 
 ## Subject
 
-neat retro golden bob haircut, serene smile, bright sky-blue sundress with tiny daisy print, white ruffled apron tied neatly at waist, oven mitts holding steaming braided brioche loaf
+anxious blonde woman in a blue daisy dress, dark leggings and black Mary Janes, eyebrows raised in permanent concern
 
 ## Hook
 
-Swats enemies with warm brioche that hurts more the farther they walk, while apron strings speed her attacks.
+The daisy-dress stride apologises in advance; the group chat already read the daisy-print instructions wrong.

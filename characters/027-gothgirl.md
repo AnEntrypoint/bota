@@ -6,7 +6,7 @@
 - Role: Offline sustain
 - Attribute: Agi
 - Range: Melee
-- Distinct prop: Black lace fan
+- Distinct prop: Black choker, striped leggings and platform boots; no fan
 - Value groups (body / head / prop): M / L / D
 
 ## Lead
@@ -15,8 +15,8 @@ stylized 3d female character
 
 ## Subject
 
-messy black ponytail with loose strands, heavy smudged black eyeliner, tight black velvet choker, oversized black knit cardigan hanging off shoulder, dark denim, black lace fan held open, relaxed disaffected pose
+bored pale goth with heavy-lidded eyes, messy black bob, black choker, black dress, striped leggings and enormous platform boots
 
 ## Hook
 
-Blinks away with a cardigan sliding off one shoulder, leaving a swarm of bugs in the lace fan's breeze.
+Blinks away in a cloud of studied indifference and rewinds the argument to before anyone said the word vibe.

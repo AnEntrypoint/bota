@@ -6,13 +6,13 @@
 - Role: Assassin, vision denial
 - Attribute: Str
 - Range: Ranged
-- Distinct prop: Scoped hunting rifle wrapped in twine
+- Distinct prop: Full straw ghillie, round goggles, red nose and grass beard
 - Value groups (body / head / prop): M / L / D
 
 ## Subject
 
-heavy suit made from thousands of shredded burlap strips and dried corn stalks, scoped hunting rifle wrapped in camouflage twine, low stalking crouch
+burly sniper completely buried in straw-coloured ghillie strips, round black goggles, red nose and a huge grass beard, rifle wrapped in the same camouflage
 
 ## Hook
 
-Scatters burlap strips as area traps, holds enemies with twine, and detonates them remotely through the scope.
+Leaves a warning sign in a haystack, then acts shocked when the haystack files it back.

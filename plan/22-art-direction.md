@@ -1,6 +1,6 @@
 # 22. Art direction
 
-Visual direction for the 26 active heroes (kept characters from characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
+Visual direction for the 24 active heroes (plus the retired 003 image as a visual-reference appendix) (kept characters from characters). Each row takes its distinct prop from the character prompt. Role families come from section 15. Shape, value and colour rules come from plan/17.
 
 ## Rules used in every table
 
@@ -12,34 +12,35 @@ Visual direction for the 26 active heroes (kept characters from characters). Eac
 - **Accent shifts** are named steps from the role family accent (section 15). No hex is set here.
 - **Color guards.** Hero trim stays off the plan/17 colour table; use a desaturated violet outside the Clout and LIVE violets. Firebrand ember and Leash rose shift off red. Herald cyan shifts off heal green. Phantom lavender stays low in saturation so it does not read as Showboat violet.
 
-## 1. Hero table (59)
+## 1. Hero table (24 active heroes)
 
 | # | Hero | Role | Distinct prop | Accent shift | Value groups (body / head / prop) |
 | --- | --- | --- | --- | --- | --- |
-| 001 | Neckbeard (P1) | Heckler | Round wire-rim glasses (worn; no held prop) | Mustard, dingy | L / D / M |
-| 002 | Chad (P1) | Showboat | Hands-on-hips pose (no held prop) | Gold, emerald | L / D / M |
-| 003 | Gigachad (P2) | Bulwark | Swim briefs (worn; no held prop) | Grey, monochrome | L / D / M |
-| 004 | Wojak (P1) | Recluse | Slumped posture (no held prop) | Moss, faded | L / D / M |
-| 005 | Bloomer (P2) | Herald | Pastel windbreaker zip (worn; no held prop) | Soft cyan, pastel yellow | L / D / M |
-| 006 | Tradwife (P3) | Herald | Braided brioche loaf in oven mitts | Sky blue, cream | L / D / M |
-| 007 | Boomer (P2) | Heckler | Pull-cord gas weedwhacker at the hip | Mustard, khaki | L / D / M |
-| 008 | Coomer (P1) | Firebrand | Massive right arm (no held prop) | Ember, bloodshot | L / D / M |
-| 009 | Gondola (P2) | Recluse | Two boots as the base (no held prop) | Moss, clay brown | L / D / M |
-| 010 | Spurdo (P2) | Firebrand | Dented aluminum baseball bat | Ember, olive | L / D / M |
-| 011 | Karen (P3) | Heckler | Endless accordion-folded receipt | Mustard, pastel pink | L / D / M |
-| 012 | Howard (P1) | Archivist | White ceramic mug, WORLD'S BEST | Sepia, pale | L / D / M |
-| 013 | Sanic (P1) | Stalker | Running lean (no held prop) | Slate, electric blue | L / D / M |
-| 014 | Lankdad (P1) | Phantom | Black tendrils from the upper spine | Lavender, black | L / D / M |
-| 015 | Finger Dan (P4) | Heckler | Pointing arm (no held prop) | Mustard, bronze | L / D / M |
-| 016 | Willie (P1) | Engine | Free-floating brass ship bell | Cold teal, black and white | L / D / M |
-| 017 | Noscope (P2) | Stalker | Bolt-action precision rifle | Slate, sponsor green | L / D / M |
-| 018 | Dino (P4) | Bulwark | Tyrannosaur body (no held prop) | Grey, stark | L / D / M |
-| 019 | Ecce (P3) | Archivist | Wooden painter's palette with paint blobs | Sepia, burlap | L / D / M |
-| 020 | Bot Bernard (P6) | Herald | Vintage chrome studio camera | Soft cyan, burgundy | L / D / M |
-| 021 | Shoop (P6) | Drifter | Plasma sphere charging in the mouth | Night blue, bright cyan | L / D / M |
-| 022 | Npc (P5) | Phantom | Arms hanging straight down (no held prop) | Lavender, slate | L / D / M |
-| 023 | Forever (P1) | Recluse | Hunched crawl, tear-stained tissue in hand | Moss, grey | M / L / D |
-| 024 | Cole (P1) | Phantom | Red-and-white cap and backpack | Red, white, blue | M / L / D |
-| 025 | Grey (P4) | Drifter | Levitating metallic silver orb | Night blue, grey | M / L / D |
-| 026 | Ghillie (P1) | Stalker | Scoped hunting rifle wrapped in twine | Slate, burlap | M / L / D |
-| 027 | Gothgirl (P5) | Recluse | Black lace fan | Moss, black | M / L / D |
+| 001 | Neckbeard (P1) | Heckler | Stained TACOS shirt and round wire glasses (worn; no held prop) | Mustard, grease-grey | L / D / M |
+| 004 | Wojak (P1) | Recluse | Ink-etched hollow eyes and loose sweatshirt (no held prop) | Moss, ink black | L / D / M |
+| 005 | Bloomer (P2) | Herald | Teal hoodie and huge black grin (worn; no held prop) | Soft cyan, orange hair | L / D / M |
+| 006 | Tradwife (P3) | Herald | Blue daisy dress and anxious eyebrows (no held prop) | Sky blue, cream | L / D / M |
+| 007 | Boomer (P2) | Heckler | Silver energy drink can and black wraparound shades | Mustard, khaki | L / D / M |
+| 008 | Coomer (P1) | Firebrand | Grey hoodie pocket and too-wide grin (no held prop) | Ember, bloodshot | L / D / M |
+| 009 | Gondola (P2) | Recluse | Mouse-coloured moustache head above endless blue jeans and red sneakers | Moss, denim blue | L / D / M |
+| 010 | Spurdo (P2) | Firebrand | Pale moustache and green hoodie (no held prop) | Ember, olive | L / D / M |
+| 012 | Howard (P1) | Archivist | Orange plaid shirt and pained blue-eyed smile (no held prop) | Sepia, orange plaid | L / D / M |
+| 013 | Sanic (P1) | Stalker | Blue crop top, mismatched eyes and giant red shoes | Slate, electric blue | L / D / M |
+| 014 | Lankdad (P1) | Phantom | Blank white oval face and eight curling back tendrils | Lavender, black | L / D / M |
+| 015 | Finger Dan (P4) | Heckler | Navy tracksuit crest and plinth; the pointing finger is absent | Mustard, navy | L / D / M |
+| 016 | Willie (P1) | Engine | Round black ears, long tail and oversized shoes; whistle, not a bell | Cold teal, black and white | L / D / M |
+| 017 | Noscope (P2) | Stalker | Monocular goggle, headset radios and scoped tactical rifle | Slate, camouflage | L / D / M |
+| 018 | Dino (P4) | Bulwark | Cyan party hat, suspenders and toothy T-rex grin | Grey, party cyan | L / D / M |
+| 019 | Ecce (P3) | Archivist | Crown of thorns and layered burgundy robe | Sepia, burgundy | L / D / M |
+| 020 | Bot Bernard (P6) | Herald | Flat puppet-monkey mouth, patterned shirt and green neck scarf | Soft cyan, rust | L / D / M |
+| 021 | Shoop (P6) | Drifter | Giant rectangular red mouth, eye stalks and tiny bowtie | Night blue, red | L / D / M |
+| 022 | Npc (P5) | Phantom | Dot eyes, L-shaped nose, yellow shirt and rolled brown trousers | Lavender, pale yellow | L / D / M |
+| 023 | Forever (P1) | Recluse | Tear-streaked trollface head and suspenders | Moss, tear blue | M / L / D |
+| 024 | Cole (P1) | Phantom | Red-and-white cap, backpack and enormous red-and-white sneakers | Red, white, blue | M / L / D |
+| 025 | Grey (P4) | Drifter | Patched orange-and-teal jumpsuit with metal wrist cuffs | Night blue, orange | M / L / D |
+| 026 | Ghillie (P1) | Stalker | Full straw ghillie, round goggles, red nose and grass beard | Slate, burlap | M / L / D |
+| 027 | Gothgirl (P5) | Recluse | Black choker, striped leggings and platform boots; no fan | Moss, black | M / L / D |
+
+## 2. Retired image reference (003)
+
+The greyscale, barefoot, hypermuscular man in jeans appears in the gallery but not in the playable roster. He is a retired visual reference: monochrome stillness, impossible jaw gravity and one unbroken stride. He has no art table row, distinct prop, hero ID, kit, talent, spawn entry, voice line or banter pair. The image is not a hero.

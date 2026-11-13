@@ -6,13 +6,13 @@
 - Role: Offline sustain
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Slumped posture (no held prop)
+- Distinct prop: Ink-etched hollow eyes and loose sweatshirt (no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-stark white bald cranium, simple expressive ink-etched facial contours, downcast sorrowful hollow eyes, slumped defeated posture, faded matte olive turtleneck pullover, wrinkled baggy trousers, hand-painted textures
+black-and-white ink-drawn bald Wojak in a loose sweatshirt and baggy trousers, hollow downcast eyes and a flat resigned mouth
 
 ## Hook
 
-Sighs at the clouds until every enemy in range turns on him, then finishes anyone already low on health.
+Sighs until five enemies queue up to agree with him, then finishes the one who says it gets better.

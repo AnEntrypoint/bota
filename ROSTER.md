@@ -1,11 +1,10 @@
-# Roster: 26 heroes from the character set
+# Roster: 24 heroes from the character set
 
-Slot 001-027 = the character files in order, with gaps where a slot was retired. Reserve slots follow.
+Slot 001-027 = the active character files in order; slots 002, 003 and 011 are retired. The 003 gallery image is an image-only visual reference.
 
 | Slot | Character | Prompt file |
 | --- | --- | --- |
 | 001 | Neckbeard | characters/001-neckbeard.md |
-| 002 | Chad | characters/002-chad.md |
 | 004 | Wojak | characters/004-wojak.md |
 | 005 | Bloomer | characters/005-bloomer.md |
 | 006 | Tradwife | characters/006-tradwife.md |
@@ -13,7 +12,6 @@ Slot 001-027 = the character files in order, with gaps where a slot was retired.
 | 008 | Coomer | characters/008-coomer.md |
 | 009 | Gondola | characters/009-gondola.md |
 | 010 | Spurdo | characters/010-spurdo.md |
-| 011 | Karen | characters/011-karen.md |
 | 012 | Howard | characters/012-howard.md |
 | 013 | Sanic | characters/013-sanic.md |
 | 014 | Lankdad | characters/014-lankdad.md |
@@ -30,12 +28,3 @@ Slot 001-027 = the character files in order, with gaps where a slot was retired.
 | 025 | Grey | characters/025-grey.md |
 | 026 | Ghillie | characters/026-ghillie.md |
 | 027 | Gothgirl | characters/027-gothgirl.md |
-
-## Reserve
-
-- Gigachad (characters/003-gigachad.md)
-- Wanderer (characters/028-wanderer.md)
-- Raker (characters/029-raker.md)
-- Seeder (characters/030-seeder.md)
-- Wartrucker (characters/031-wartrucker.md)
-- Bouncer (characters/032-bouncer.md)

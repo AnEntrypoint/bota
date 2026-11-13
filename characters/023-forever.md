@@ -6,13 +6,13 @@
 - Role: Offline sustain
 - Attribute: Str
 - Range: Melee
-- Distinct prop: Hunched crawl, tear-stained tissue in hand
+- Distinct prop: Tear-streaked trollface head and suspenders
 - Value groups (body / head / prop): M / L / D
 
 ## Subject
 
-misshapen lumpy cranium with deep tear crevices carved down cheeks, mouth turned down in weeping grimace, hunched crawling bipedal posture, baggy muted-grey sweat suit
+oversized lumpy trollface head with tears streaming from both eyes and a forced grin, shirt sleeves, suspenders and work boots
 
 ## Hook
 
-Wails in a lumpy crawl, pinning a tear on slowed targets and repeating the weeping stun until the clip ends.
+Loops the same tear-soaked grin until the clip ends, refills, and asks whether this is charming yet.

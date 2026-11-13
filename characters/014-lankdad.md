@@ -6,13 +6,13 @@
 - Role: Middleman summoner
 - Attribute: Str
 - Range: Ranged
-- Distinct prop: Black tendrils from the upper spine
+- Distinct prop: Blank white oval face and eight curling back tendrils
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-featureless blank white oval face with no eyes or mouth, ultra-tall elongated black two-piece funeral suit, narrow crimson necktie, glossy black dress shoes, writhing black tendrils emerging from upper spine
+faceless white oval head on an extremely tall angular black suit, black tie and eight curling tendrils behind the shoulders
 
 ## Hook
 
-Pulls targets toward a blank face with tendrils, then stuns everything in the room with a stare.
+Pulls a target toward the blank face with one tendril, then cites the other seven as witnesses.

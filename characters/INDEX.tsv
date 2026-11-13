@@ -1,7 +1,5 @@
 index	name	hero_slot	file
 001	Neckbeard	001	characters/001-neckbeard.md
-002	Chad	002	characters/002-chad.md
-003	Gigachad	reserve	characters/003-gigachad.md
 004	Wojak	004	characters/004-wojak.md
 005	Bloomer	005	characters/005-bloomer.md
 006	Tradwife	006	characters/006-tradwife.md
@@ -9,7 +7,6 @@ index	name	hero_slot	file
 008	Coomer	008	characters/008-coomer.md
 009	Gondola	009	characters/009-gondola.md
 010	Spurdo	010	characters/010-spurdo.md
-011	Karen	011	characters/011-karen.md
 012	Howard	012	characters/012-howard.md
 013	Sanic	013	characters/013-sanic.md
 014	Lankdad	014	characters/014-lankdad.md
@@ -26,8 +23,3 @@ index	name	hero_slot	file
 025	Grey	025	characters/025-grey.md
 026	Ghillie	026	characters/026-ghillie.md
 027	Gothgirl	027	characters/027-gothgirl.md
-028	Wanderer	reserve	characters/028-wanderer.md
-029	Raker	reserve	characters/029-raker.md
-030	Seeder	reserve	characters/030-seeder.md
-031	Wartrucker	reserve	characters/031-wartrucker.md
-032	Bouncer	reserve	characters/032-bouncer.md

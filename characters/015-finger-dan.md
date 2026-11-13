@@ -6,13 +6,13 @@
 - Role: Harasser, zoner
 - Attribute: Str
 - Range: Ranged
-- Distinct prop: Pointing arm (no held prop)
+- Distinct prop: Navy tracksuit crest and plinth; the pointing finger is absent
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-bright crimson silk bandana tied low across brow, ribbed black athletic tank top, gold chain necklace, accusatory outstretched arm with pointed index finger, expressive sideways leaning posture
+sandy-haired football-manager figurine in a navy tracksuit with a white swoosh and three-lions badge, standing on a plinth with both hands conspicuously unpointing
 
 ## Hook
 
-Knocks enemies back with an accusing finger, then hits bigger after a sideways-leaning hyped broadcast.
+Accuses the lane with one finger that is visibly not in the sculpt, then asks VAR to review the accusation.

@@ -6,13 +6,13 @@
 - Role: Utility, zone control
 - Attribute: Int
 - Range: Melee
-- Distinct prop: Wooden painter's palette with paint blobs
+- Distinct prop: Crown of thorns and layered burgundy robe
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-blurred primate-like fresco face with smudged eyes and mouth, thick crude painted halo, textured rough burlap tunic with frayed rope belt, wooden painter's palette with dried paint blobs
+solemn bearded figure in layered burgundy robes and sandals wearing a crown of thorns, wide watery eyes lifted toward a light source
 
 ## Hook
 
-Beams a smudged halo for a stun, then reshares the damage between enemies as it bounces.
+Beholds the lane, beams the halo into a stun, and reshares the damage with a caption nobody can prove he wrote.

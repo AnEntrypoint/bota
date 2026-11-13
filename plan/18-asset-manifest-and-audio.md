@@ -1,28 +1,28 @@
 # 18. Asset manifest and audio
 
 Counts and sizes in this chapter are UNVERIFIED until the asset list is built.
-Launch counts assume 6 heroes and four abilities each. Full-roster counts (26 active heroes) are in brackets.
+Launch counts assume 6 heroes and four abilities each. Full-roster counts (24 active heroes) are in brackets.
 
 ### Heroes
 
 | Asset | Per hero | Launch \[Full\] | Format |
 | --- | --- | --- | --- |
-| Model with LOD1 and LOD2 | 3 | 18 \[78\] | FBX or glTF. LOD0 12 to 18k tris, LOD1 50%, LOD2 25%. 2048² diffuse and mask. |
-| Animations | About 15: idle ×2, idle gag, run, haste run, attack ×2, cast ×4, channel, death, spawn, victory | 90 \[390\] | FBX, 30 fps |
-| HUD portrait | 1 | 6 \[26\] | 256 × 256 PNG |
-| Loading and promo art | 1 | 6 \[26\] | 1920 × 1080 and 1080 × 1920 |
-| Minimap icon | 1 | 6 \[26\] | 32 × 32 PNG |
-| Pick-screen pose | 1 | 6 \[26\] | Engine scene |
-| Voice lines | About 60 | 360 \[1,560\] | 48 kHz WAV, −16 LUFS, subtitled |
+| Model with LOD1 and LOD2 | 3 | 18 \[72\] | FBX or glTF. LOD0 12 to 18k tris, LOD1 50%, LOD2 25%. 2048² diffuse and mask. |
+| Animations | About 15: idle ×2, idle gag, run, haste run, attack ×2, cast ×4, channel, death, spawn, victory | 90 \[360\] | FBX, 30 fps |
+| HUD portrait | 1 | 6 \[24\] | 256 × 256 PNG |
+| Loading and promo art | 1 | 6 \[24\] | 1920 × 1080 and 1080 × 1920 |
+| Minimap icon | 1 | 6 \[24\] | 32 × 32 PNG |
+| Pick-screen pose | 1 | 6 \[24\] | Engine scene |
+| Voice lines | About 60 | 360 \[1,440\] | 48 kHz WAV, −16 LUFS, subtitled |
 
 ### Abilities and status
 
 | Asset | Launch \[Full\] | Format |
 | --- | --- | --- |
-| Ability icons | 24 \[104\] | 128 × 128 PNG |
-| Cast VFX | 24 \[104\] | Particle, 512² flipbook |
-| Impact VFX | 24 \[104\] | Particle, peak 0.4 s or less |
-| Ground telegraphs (about 40% of abilities) | About 10 \[about 42\] | Team-colored decal |
+| Ability icons | 24 \[96\] | 128 × 128 PNG |
+| Cast VFX | 24 \[96\] | Particle, 512² flipbook |
+| Impact VFX | 24 \[96\] | Particle, peak 0.4 s or less |
+| Ground telegraphs (about 40% of abilities) | About 10 \[about 38\] | Team-colored decal |
 | Mechanic status icons | 9 | 64 × 64 |
 | Kill streak readout | 1 | Number on the Clout bar, not an icon |
 | Generic status icons | 12 | 64 × 64 |

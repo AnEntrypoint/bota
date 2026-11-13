@@ -6,13 +6,13 @@
 - Role: Hot-take initiator
 - Attribute: Agi
 - Range: Melee
-- Distinct prop: Dented aluminum baseball bat
+- Distinct prop: Pale moustache and green hoodie (no held prop)
 - Value groups (body / head / prop): L / D / M
 
 ## Subject
 
-low-slung rounded slouch, oversized sagging olive-drab winter parka with faux-fur hood trim, droopy wide oval snout, asymmetric hand-drawn eyes, dented aluminum baseball bat held loosely, hand-painted textures
+round brown frog-derived head with a giant pale moustache, dot eyes and open grin, green hoodie and brown sweatpants
 
 ## Hook
 
-Hatches spiderlings from a parka hood and heals every time one of them kills something.
+Hatches fan accounts from the hood and gives every bad take a moustache large enough to hide behind.

@@ -32,13 +32,16 @@ Voice for the twelve archetypes, a sample of heroes (not all are in the first-pl
 
 | Hero (role family) | Kill | Death | Idle |
 |---|---|---|---|
-| Grey (Drifter) | Orb caught it. Clip's already up. | Beamed out mid-match. Rude. | Orb hums. Nobody asks about the glow. |
-| Boomer (Heckler) | Correction: across the lawn, then here, per the log. | Citation on file: the sun got me. | Weedwhacker idling. Logged, right behind you. |
-| Gigachad (Bulwark) | Please step aside. Thank you. | I held the line. Please remain calm. | Carved and still. Standing by. |
-| Noscope (Stalker) | Zero warning, zero scope, zero apology. | Shades cracked. Vibe intact, somehow. | Rifle pose held. Vibe check: pass. |
-| Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Not surprised. | Floor again. Weather unchanged. |
-| Ghillie (Stalker) | Burlap held. Warning's on file, dated. | Twine snapped. See log, entry one. | Reading the logs. All of them. |
-| Forever (Recluse) | Nice one. Sleep it off. | Crawling back to the start. | Loop again. Charming yet? |
+| Grey (Drifter) | Specimen logged. Final final v3. | Beamed out mid-memo. Rude. | Jumpsuit patched. Incident still open. |
+| Boomer (Heckler) | Grass stain billed. Check the can. | Citation filed: youth got me. | Shades on. Lawn still idling. |
+| Noscope (Stalker) | Didn't look. Brought orbit. | Monocular buffered. Vibe intact. | Radios confirm nobody asked. |
+| Wojak (Recluse) | Head down. Kill landed anyway. | Still not looking up. Expected. | Floor again. Weather unchanged. |
+| Ghillie (Stalker) | Haystack warned you. On file. | Grass beard shed. See log one. | Reading the shrub. All of it. |
+| Forever (Recluse) | Nice one. Loop it again. | Crawling back to frame one. | Charming yet? Clip says yes. |
+| Howard (Archivist) | Incident dated. Smile attached. | Plaid smile held. Report filed. | Per the log: still smiling. |
+| Shoop (Drifter) | WHOOSH. Transition accepted. | Bowtie survived the wipe. | Eyes on stalks. Mouth loading. |
+| Npc (Phantom) | Nice weather today. Same patch. | Copy deleted. Weather unchanged. | Nice weather today. Nice weather. |
+| Gothgirl (Recluse) | Rewound before the word vibe. | Platform boots landed. Whatever. | Studied indifference. Subtitled sigh. |
 
 ### Hero pair lines
 
@@ -46,7 +49,11 @@ Each pair plays once per match, on the first moment an enemy hero sees the other
 
 | Pair | Hero | Line | Hero | Line |
 |---|---|---|---|---|
-| 1 | Gigachad (Bulwark) | Your take has no source. Marble doesn't bend. | Wojak (Recluse) | Source? Floor. Look down. |
+| 1 | Grey (Drifter) | Memo: final final v3. | Npc (Phantom) | Nice weather today. Same memo. |
+| 2 | Bot Bernard (Herald) | Portrait needs you to move. | Noscope (Stalker) | Didn't look. Brought orbit. |
+| 3 | Forever (Recluse) | Charming yet? Loop it. | Gothgirl (Recluse) | Rewound before charming. |
+| 4 | Neckbeard (Heckler) | Crumb invoice. Cargo pocket. | Boomer (Heckler) | Grass-stain bill. See can. |
+| 5 | Spurdo (Firebrand) | Moustache says repost. | Ecce (Archivist) | Behold, again. No source. |
 
 ### Formerly tag
 
@@ -62,8 +69,8 @@ The tag is gag 05 in file 16: a small grey word after a hero name, reading "form
 
 Two example lines:
 
-- Death recap: "Gigachad, formerly Guest." Header: "Your stall was marked down."
-- Victory screen: "Grey, formerly Guest." Header: "Victory. Stall sold."
+- Death recap: "Grey, formerly Guest." Header: "Your stall was marked down."
+- Victory screen: "Cole, formerly Guest." Header: "Victory. Stall sold. Behold, again."
 
 ### Item flavor
 

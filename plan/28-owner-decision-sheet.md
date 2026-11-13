@@ -27,7 +27,7 @@ Four separate decisions.
   - Plan/26 slice set: Grey, Gothgirl, Ecce, Coomer, Boomer, Ghillie. Covers six role families.
   - Options: (a) use the plan/26 slice set for both; (b) use the plan/09 set for both; (c) keep them separate on purpose.
   - **Recommended:** (a). The slice exists to test the mechanics across role families, and plan/26 covers six where plan/09 covers four. Plan/09's Noscope, Wojak and Forever rows would then move to the second wave.
-- **3b. Gigachad as reserve.** Options: (a) reserve, as now; (b) promote to active (26 active becomes 27); (c) remove. **Recommended:** (a). The card already says `- Status: reserve.`, and the owner asked to keep Gigachad in the gallery as Chad's ultimate. Promoting it would change the 26 active count the plans use.
+- **3b. Slot 003 as retired visual reference.** Options: (a) keep the image as a reference, as now; (b) promote it to active (24 active becomes 25); (c) remove the image. **Recommended:** (a). The owner kept the 24-hero roster and the 003 image; promoting 003 would change the active count the plans use.
 - **3c. Spawn scope.** Options: (a) reads plus gated writes, dry run unless `--yes` (the current DESIGN.md decision); (b) reads only. **Recommended:** (a). Writes stay dry until a first send is approved (see item 7).
 - **3d. Account doors** (token revoke, signup, login link). Options: (a) leave unwired; (b) wire them. **Recommended:** (a). They change credentials, which a peer or a script should not do.
 
@@ -66,3 +66,15 @@ Decided by the orchestrator: write the smallest option that matches the hero pat
 ## Reply format
 
 For each item, the owner answers with the letter chosen (for example, "3a, 4a, 6b"). Any other answer is recorded as written.
+
+## 10. Coordination boundary (recorded, not owner-blocking)
+
+The owner's coordination update assigns RULES to BOTA and CONTENT to hy3d. `plan/33` records the boundary, `export/rule-demand.json` / `.tsv` is the machine-readable demand, and `tools/validate-rule-demand.py` checks coverage and hashes. This boundary changes no numeric value, no active hero, no launch slice, no Spawn write and no credential. Owner-decision and intentionally-open fields keep `do_not_promote: true`; the owner decision sheet still holds items 1, 2 and 7 above.
+
+## 11. Six-state work queues (recorded, not owner-blocking)
+
+`export/content-request-queue.json` and `export/spawn-extraction-gaps.json` record work for hy3d and wscheppity. They do not ask the owner to choose a numeric value. `owner-decision` rows keep `do_not_promote: true`; `intentionally-open` rows stay open by design. `requested-pooled-email` must precede `requested-relay`; `spawn-generated` requires wscheppity to capture exact generated-on-demand bytes before claiming 100% extraction. None of these states writes to a peer project or promotes a guess.
+
+## 12. Live watcher and owner brief (recorded, not owner-blocking)
+
+`export/coordination-status.json` is the live watcher snapshot; `export/owner-decision-brief.md` is generated from the two gated rows only. The brief offers neutral options and does not recommend or apply a value. `owner-decision` and `intentionally-open` rows keep `do_not_promote: true`; canonical engine data, the 425 null gates and the absent `export/engine-resolved/` are unchanged.
