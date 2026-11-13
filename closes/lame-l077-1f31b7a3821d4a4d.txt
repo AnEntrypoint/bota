@@ -1,0 +1,1 @@
+lame-l077-1f31b7a3821d4a4d resolved ledger L077 status=fixed; ledger witness: Re-read plan/25: '5, 20 (decision 14)' present; '(Q2)' and '(Q3)' count 0. 2026-11-13T12:22:41.705Z
