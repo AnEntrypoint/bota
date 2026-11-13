@@ -1,0 +1,1 @@
+lame-l071-1f31b1a3821d401b resolved ledger L071 status=fixed; ledger witness: Re-read plan/11: 'Orbs do not stack' count 0. 2026-11-13T12:22:41.541Z
