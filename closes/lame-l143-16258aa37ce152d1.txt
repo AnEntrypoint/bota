@@ -1,0 +1,1 @@
+lame-l143-16258aa37ce152d1 resolved ledger L143 status=fixed; ledger witness: Re-read plan/11:61: 'Short disengage' present; 'Blink, short disengage' count 0. 2026-11-13T12:22:42.942Z
