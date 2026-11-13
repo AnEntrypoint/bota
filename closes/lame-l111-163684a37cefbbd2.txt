@@ -1,0 +1,1 @@
+lame-l111-163684a37cefbbd2 resolved ledger L111 status=fixed; ledger witness: Re-read plan/19 gate 4: 'is named by at least 4 of 5 observers (UNVERIFIED)'. 2026-11-13T12:22:42.662Z
