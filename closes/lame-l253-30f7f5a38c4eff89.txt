@@ -1,0 +1,1 @@
+lame-l253-30f7f5a38c4eff89 resolved ledger L253 status=fixed; ledger witness: plan/11 line 8 and plan/12 line 106 carry the same Snapshot and Trophy sell rule 2026-11-13T12:22:43.970Z
