@@ -1,0 +1,1 @@
+lame-l102-163301a37ceca762 resolved ledger L102 status=fixed; ledger witness: Re-read plan/16 row 06: description cell now ends 'one slat bent. |'; repeat count 0. 2026-11-13T12:22:42.396Z
