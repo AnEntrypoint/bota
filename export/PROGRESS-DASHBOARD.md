@@ -1,6 +1,6 @@
 # BOTA owner progress dashboard
 
-Generated: `2026-11-13T12:29:41.595220+00:00`
+Generated: `2026-11-13T12:32:11.338195+00:00`
 
 Dashboard status: `PASS`. Read-only peer evidence only; no peer writes.
 

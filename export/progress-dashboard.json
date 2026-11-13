@@ -402,7 +402,7 @@
       }
     ]
   },
-  "generatedAt": "2026-11-13T12:29:41.595220+00:00",
+  "generatedAt": "2026-11-13T12:32:11.338195+00:00",
   "preserved": {
     "activeHeroes": 26,
     "defaultDotaAcronyms": true,
@@ -454,19 +454,19 @@
     "bota.contentQueue": {
       "bytes": 63311,
       "path": "/workspace/bota/export/content-request-queue.json",
-      "sha256": "0b271386bd8ec187e7f3c53dce85f28e1855e56ffb5d0c64f1774ee916531f74",
+      "sha256": "9b3e613624e69c9c0fc2299145b2871505a28870063c6bb9e5fa657fe8fa7582",
       "status": "ready"
     },
     "bota.coordinationStatus": {
       "bytes": 454534,
       "path": "/workspace/bota/export/coordination-status.json",
-      "sha256": "a96a8cd269e63d4de9af338ecb5f62e795000f34fe156ca4d49ba843b709d8a7",
+      "sha256": "62011e1b69df864d9534301fc63b6f851e76b638cee144abba2fb7752bbbd978",
       "status": "ready"
     },
     "bota.exportStatus": {
       "bytes": 2852,
       "path": "/workspace/bota/export/export-status.json",
-      "sha256": "99db018caf57931045bd729aa17a67bcbcc04bb58986a59edfe975736f47cb56",
+      "sha256": "96d40a4a54eafea87c43a45491685e9c4c83194fd77ca87f5488167ade22fcc1",
       "status": "ready"
     },
     "bota.ownerBrief": {
@@ -490,19 +490,19 @@
     "bota.ruleDemand": {
       "bytes": 2041507,
       "path": "/workspace/bota/export/rule-demand.json",
-      "sha256": "95c6d4678cc0124dd9485b38e1caed4bf0cfb23d59328b4b733bc5e45018c195",
+      "sha256": "accdf0cbf95c0d84364a9f5a533dc888592e92cb695d2e0465f451ccc739b54f",
       "status": "ready"
     },
     "bota.sha256Sums": {
       "bytes": 4693,
       "path": "/workspace/bota/export/SHA256SUMS.json",
-      "sha256": "ded1e1443bf21a5363966542922bd58d7503a2bb1ada5153b590f021e4eec6e4",
+      "sha256": "f85654376dede6d17800cab265b895c524fbb85f422e7a1d8ac6a738356abc99",
       "status": "ready"
     },
     "bota.spawnGaps": {
       "bytes": 568382,
       "path": "/workspace/bota/export/spawn-extraction-gaps.json",
-      "sha256": "96bb98a0fe9ca57e320e509efe9eee2af741187ae21c18e6b1771492f19e5aea",
+      "sha256": "cbd8bcd72e20ac8262e92f5df2ea54f6e13d5871241aa81aaefc4ac801869513",
       "status": "ready"
     },
     "extra.cdn": {

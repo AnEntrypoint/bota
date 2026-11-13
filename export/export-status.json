@@ -77,15 +77,15 @@
     "voice": 50
   },
   "drift": [],
-  "generatedAt": "2026-11-13T12:29:52.788444+00:00",
+  "generatedAt": "2026-11-13T12:32:19.992218+00:00",
   "keyManifests": {
     "SHA256SUMS.json": {
       "bytes": 4693,
-      "sha256": "f85654376dede6d17800cab265b895c524fbb85f422e7a1d8ac6a738356abc99"
+      "sha256": "5edf8c83ed34245cbbb68d8d64d7bdc45bda0f3ab9cf13b2ca3ce83e421c0fad"
     },
     "conformance.json": {
       "bytes": 18312,
-      "sha256": "7a1361cc8b462448ab64d49c63037d2f7f65e6551f25823c9ab84cb57bd09106"
+      "sha256": "62076263883ff57481ffe48d6c22056fb494740018a15ab185856b5ac53f9a3b"
     },
     "decision-packet.json": {
       "bytes": 16737,
@@ -97,7 +97,7 @@
     },
     "engine/manifest.json": {
       "bytes": 3941,
-      "sha256": "e6100ee796bec3d55aeae3d0b2f79c02f7af1a9eb72db11fdbfa3ec74bfb8e20"
+      "sha256": "7b445e8b50a3fc4847bd9808a4fe12342895ae0509cb40d95ecaccea8b4133b5"
     },
     "field-index.json": {
       "bytes": 129824,

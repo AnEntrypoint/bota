@@ -1,6 +1,6 @@
 # BOTA bounded actor backlog
 
-Generated: `2026-11-13T12:29:41.595220+00:00`. Read-only toward peers. All rows keep `do_not_promote: true`.
+Generated: `2026-11-13T12:32:11.338195+00:00`. Read-only toward peers. All rows keep `do_not_promote: true`.
 
 Rows: `12`; blocked rows: `5`.
 

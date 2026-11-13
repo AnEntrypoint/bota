@@ -1,12 +1,12 @@
 # BOTA live coordination status
 
-Generated: `2026-11-13T12:29:47.404719+00:00`
+Generated: `2026-11-13T12:32:15.466272+00:00`
 Mode: `bota-fullname`; default Dota acronyms: `true`; engine-resolved absent: `true`.
 
 ## Counts
 
 - Rows: `536`; resolved/available: `439`; unresolved evidence-backed: `97`; unexplained UNAVAILABLE: `0`.
-- Statuses: `UNAVAILABLE=0`, `intentionally-open=1`, `spawn-generated=41`, `available=439`, `requested-relay=0`, `requested-pooled-email=54`, `owner-decision=1`.
+- Statuses: `spawn-generated=41`, `requested-pooled-email=54`, `UNAVAILABLE=0`, `intentionally-open=1`, `requested-relay=0`, `owner-decision=1`, `available=439`.
 - Next actors: `hy3d=54`, `wscheppity=33`, `extra=8`, `owner=1`, `bota=0`.
 
 ## Peer evidence
