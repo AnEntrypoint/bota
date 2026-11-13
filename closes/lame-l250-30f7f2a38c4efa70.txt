@@ -1,0 +1,1 @@
+lame-l250-30f7f2a38c4efa70 resolved ledger L250 status=fixed; ledger witness: plan/25 row reads "Clout state (4 states, 13 vision)", matching plan/06 2026-11-13T12:22:43.886Z
