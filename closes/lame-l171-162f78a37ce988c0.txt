@@ -1,0 +1,1 @@
+lame-l171-162f78a37ce988c0 resolved ledger L171 status=fixed; ledger witness: re-check: anchor re-read after edit; pass or label present 2026-11-13T12:22:43.430Z
