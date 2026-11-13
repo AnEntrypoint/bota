@@ -1,0 +1,1 @@
+lame-l047-1f3ba7a3822583a2 resolved ledger L047 status=fixed; ledger witness: Re-read plan/21:147: "Smirk Read freezes every target; a target below 50% HP stays frozen 1 s longer (UNVERIFIED)." plan/09 and plan/24 freeze unconditionally; the conflict is gone. 2026-11-13T12:22:40.888Z
