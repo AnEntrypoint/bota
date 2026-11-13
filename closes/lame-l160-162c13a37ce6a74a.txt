@@ -1,0 +1,1 @@
+lame-l160-162c13a37ce6a74a resolved ledger L160 status=fixed; ledger witness: re-check: anchor re-read after edit 2026-11-13T12:22:43.189Z
