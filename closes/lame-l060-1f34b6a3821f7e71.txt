@@ -1,0 +1,1 @@
+lame-l060-1f34b6a3821f7e71 resolved ledger L060 status=fixed; ledger witness: Re-read plan/16 row 04: 'Killers listed by name under Killed by.'; 'Killers listed as Top replies' count 0. 2026-11-13T12:22:41.245Z
