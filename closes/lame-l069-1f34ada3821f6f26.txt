@@ -1,0 +1,1 @@
+lame-l069-1f34ada3821f6f26 resolved ledger L069 status=fixed; ledger witness: Re-read plan/12 Screenshot paragraph: 'expires 5 min after pickup' sentence count 0; table row carries the 5 min. 2026-11-13T12:22:41.488Z
