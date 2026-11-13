@@ -1,0 +1,1 @@
+lame-l029-1f42b5a3822bba1a resolved ledger L029 status=fixed; ledger witness: Re-read plan/16-humor-and-tone.md rule 2: worked Harold example removed. Gag 04 keeps its own Harold header; that is a separate gag. 2026-11-13T12:22:40.449Z
