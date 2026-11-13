@@ -1,0 +1,1 @@
+lame-l107-1632fea37ceca249 resolved ledger L107 status=fixed; ledger witness: Re-read plan/26 scenario 2: 'at least 4 of 5 testers' present; 'reads without text' count 0. 2026-11-13T12:22:42.545Z
