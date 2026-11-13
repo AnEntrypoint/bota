@@ -1,0 +1,1 @@
+lame-l035-1f3f25a382288f93 resolved ledger L035 status=fixed; ledger witness: Re-read plan/25-engine-data-plan.md:106: heroes.tsv lists Grey, Tinfoil, Mallcop, Rageguy, Waffle, Ghillie (matches plan/26:12); 'Reach tank, initiator, Hot-take' count 0. 2026-11-13T12:22:40.614Z
