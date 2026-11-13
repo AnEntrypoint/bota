@@ -1,0 +1,1 @@
+lame-l065-1f34b9a3821f838a resolved ledger L065 status=fixed; ledger witness: Re-read plan/26 C9: 'At most 25% of players mute; above 25%, rotate the phrase pool'; old action-only text count 0. 2026-11-13T12:22:41.381Z
