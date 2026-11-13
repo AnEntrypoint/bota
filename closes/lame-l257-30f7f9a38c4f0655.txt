@@ -1,0 +1,1 @@
+lame-l257-30f7f9a38c4f0655 resolved ledger L257 status=fixed; ledger witness: plan/20 decision 10 reads "Creep, lane, jungle and tower stay generic usage." 2026-11-13T12:22:44.086Z
