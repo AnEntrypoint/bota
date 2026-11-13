@@ -1,0 +1,1 @@
+lame-l085-1f2e25a3821a1c60 resolved ledger L085 status=fixed; ledger witness: Re-read plan/06-clout.md:45: 'Its only effects are Reach (which carries the Stan buff), Go Viral and the Late-game Clout carry mood.' Old sentence count 0; decision 9 unchanged. 2026-11-13T12:22:41.920Z
