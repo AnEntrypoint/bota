@@ -1,0 +1,1 @@
+lame-l031-1f3f29a38228965f resolved ledger L031 status=fixed; ledger witness: Re-read plan/20 decision 17: 'Item costs in section 11 ... only the balance pass changes them'; 'Costs are unchanged' count 0. 2026-11-13T12:22:40.501Z
