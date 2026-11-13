@@ -1,0 +1,1 @@
+lame-l124-163a0fa37cf2ddda resolved ledger L124 status=fixed; ledger witness: Re-read plan/10:25: 'Backward Tabard Shell' count 1; 'Lion Crest Shell' count 0; original-name check clear. 2026-11-13T12:22:42.846Z
