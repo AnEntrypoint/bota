@@ -1,0 +1,1 @@
+lame-l120-163a0ba37cf2d70e resolved ledger L120 status=fixed; ledger witness: Re-read plan/15:146: 'the five slots named at the top of this chapter'; the 113-117 name list count 0. 2026-11-13T12:22:42.755Z
