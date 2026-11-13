@@ -1,0 +1,1 @@
+lame-l023-1f42aba3822ba91c resolved ledger L023 status=fixed; ledger witness: Re-read plan/26: mood test holds each state 30 s and asserts zero flips in any 30 s window; Underdog double-capture replaces feel fair. 2026-11-13T12:22:40.290Z
