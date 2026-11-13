@@ -1,0 +1,1 @@
+lame-l042-1f3ba4a382257e89 resolved ledger L042 status=fixed; ledger witness: Re-read plan/09:55-56 and plan/11:102-103: Anonymous Blade, Anonymous Poster, formerly Anonymous Dagger and formerly Anon Mode each count 0. 2026-11-13T12:22:40.803Z
