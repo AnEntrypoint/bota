@@ -1,0 +1,1 @@
+lame-l066-1f34b8a3821f81d7 resolved ledger L066 status=fixed; ledger witness: Re-read plan/26 check 8: pass names at least 4 of 5 observers (UNVERIFIED) and the deuteranopia, protanopia and tritanopia presets from plan/17:44. 2026-11-13T12:22:41.407Z
