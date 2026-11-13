@@ -1,0 +1,1 @@
+lame-l249-30fb7fa38c521fde resolved ledger L249 status=fixed; ledger witness: plan/25 R10 owner note present; leftover instruction absent; FORMAT.md lines 8, 14, 17, 28 match the claim 2026-11-13T12:22:43.858Z
