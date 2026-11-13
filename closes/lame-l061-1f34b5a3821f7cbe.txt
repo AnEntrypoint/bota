@@ -1,0 +1,1 @@
+lame-l061-1f34b5a3821f7cbe resolved ledger L061 status=fixed; ledger witness: Re-read plan/16 row 22: floating brain icon count 0; row now 'At 100 Clout the Clout bar shows the Go Viral threshold.' 2026-11-13T12:22:41.272Z
