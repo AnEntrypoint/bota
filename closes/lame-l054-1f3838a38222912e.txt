@@ -1,0 +1,1 @@
+lame-l054-1f3838a38222912e resolved ledger L054 status=fixed; ledger witness: Re-read plan/11:162: 'Costs are UNVERIFIED until a playable build exists'; 'Costs are final for v1' count 0. 2026-11-13T12:22:41.080Z
