@@ -1,0 +1,1 @@
+lame-l018-1f45aca3822de0a6 resolved ledger L018 status=fixed; ledger witness: Re-read plan/19: archetype tier table gives 100/24, 90/20, 80/16 (UNVERIFIED) and the ±10% allocation rule. 2026-11-13T12:22:40.164Z
