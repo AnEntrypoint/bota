@@ -1,0 +1,1 @@
+lame-l015-1f45b9a3822df6bd resolved ledger L015 status=fixed; ledger witness: Re-read plan/22:121: "Yellow yardstick held across the chest" has no pointing gesture; Dodson (plan/22:43) keeps the pointing arm. 2026-11-13T12:22:40.090Z
