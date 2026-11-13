@@ -1,0 +1,1 @@
+lame-l245-30fb7ba38c521912 resolved ledger L245 status=fixed; ledger witness: plan/24 test-first list: 18 of 18 flagged heroes, 0 missing 2026-11-13T12:22:43.769Z
